@@ -35,7 +35,7 @@ spriteTypes = {
 		texturefile = "gfx/gui/gui_button_1.png"
 	}
 	progressbartype = {
-		name = "GFX_REP_mz_progressbar"
+		name = "GFX_progressbar_red"
 		texturefile1 = "gfx/gui/progressbartexture.png"
 		texturefile2 = "gfx/gui/cooldown_bar_empty.png"
 		size = { x = 198 y = 24 }
@@ -43,7 +43,7 @@ spriteTypes = {
 		steps = 100
 	}
 	progressbartype = {
-		name = "GFX_REP_mz_progressbar2"
+		name = "GFX_progressbar_green"
 		texturefile1 = "gfx/gui/progressbartexture2.png"
 		texturefile2 = "gfx/gui/cooldown_bar_empty.png"
 		size = { x = 198 y = 24 }
@@ -51,9 +51,27 @@ spriteTypes = {
 		steps = 100
 	}
 	spriteType = {
-		name = "GFX_REP_barframe"
+		name = "GFX_barframe"
 		size = { x = 206 y = 32 }
 		texturefile = "gfx/gui/progressbarbackground.png"
+	}
+	spriteType = {
+		name = "GFX_ZET_temp_button_114"
+		texturefile = "gfx/gui/temp_button.png"
+		noofframes = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ZET_temp_button_214"
+		texturefile = "gfx/gui/temp_button.png"
+		noofframes = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ZET_temp_button_314"
+		texturefile = "gfx/gui/temp_button.png"
+		noofframes = 2
+		transparencecheck = yes
 	}
 }
 	

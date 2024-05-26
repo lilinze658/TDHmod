@@ -1,0 +1,47 @@
+scripted_gui = {
+	
+	ZET_gui ={
+		window_name = "ZET_gui"
+		context_type = player_context
+		
+		visible = {
+			original_tag = ZET
+		}
+		dynamic_lists = {
+			map_gridbox = {
+				array = ZET_gui_map_array
+				entry_container = "ZET_map_container"
+				index = j
+				value = k
+			}
+		}
+		triggers = {
+			map_button_visible = {
+				if = {
+					limit = {
+						check_variable = { ZET_selected_region = k }
+					}
+					set_temp_variable = { map_frame = 2 }
+				}
+				else = {
+					set_temp_variable = { map_frame = 1 }
+				}
+			}
+		}
+		properties = {
+			map_button = {
+				image = "GFX_ZET_temp_button_[?k]"
+				frame = map_frame
+				x = ZET_gui_map_x^j
+				y = ZET_gui_map_y^j
+			}
+		}
+		effects = {
+			map_button_click = {
+				set_variable = { ZET_selected_region = k }
+			}
+		}
+		
+	}
+
+}

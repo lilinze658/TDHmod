@@ -1,0 +1,9 @@
+music_station = "tdh"
+
+music = {
+	song = "TDH_SE_LOVINIA_CIVIL_WAR"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+

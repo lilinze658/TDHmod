@@ -1,0 +1,8 @@
+ZET_decision_category = {
+	allowed = {
+		original_tag = ZET
+	}
+	visible = { always = yes }
+	priority = 5
+	scripted_gui = ZET_gui
+}

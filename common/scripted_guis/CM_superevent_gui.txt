@@ -6,14 +6,12 @@ scripted_gui = {
         context_type = player_context
 		
 		visible = {
-			has_global_flag = CM_SE_opened
-			#triggered by any effect entries u prefer
+			is_ai = no
+			has_variable = TDH_super_event
 		}
 		effects = {
 			CM_SE_exit_btn_click = { 
-				clr_global_flag = CM_SE_opened  
-				clear_array = CM_SE_event_id_array
-				#clean up everything
+				clear_variable = TDH_super_event
 			}
 		}
 		properties = {

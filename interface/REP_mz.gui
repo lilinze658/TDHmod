@@ -85,22 +85,22 @@ guiTypes = {
 			position = { x = 140 y = 390 }
 			iconType = {
 				name = "REP_resistance_bar"
-				spriteType = "GFX_REP_mz_progressbar"
+				spriteType = "GFX_progressbar_red"
 				position = { x = 0 y = 0 }
 			}
 			iconType = {
 				name = "REP_mz_resistance_barframe"
-				spriteType = "GFX_REP_barframe"
+				spriteType = "GFX_barframe"
 				position = { x = -3 y = -3 } 
 			}
 			iconType = {
 				name = "REP_support_bar"
-				spriteType = "GFX_REP_mz_progressbar2"
+				spriteType = "GFX_progressbar_green"
 				position = { x = 0 y = 32 }
 			} 
 			iconType = {
 				name = "REP_mz_support_barframe"
-				spriteType = "GFX_REP_barframe"
+				spriteType = "GFX_barframe"
 				position = { x = -3 y = 29 } 
 			}
 		}

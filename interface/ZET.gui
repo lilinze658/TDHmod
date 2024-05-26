@@ -1,0 +1,68 @@
+guiTypes = {
+	containerWindowType = {
+		name = "ZET_gui"
+		position = { x = -500 y = 0 }
+		Orientation = center
+		size = { width = 1000 height = 600} 
+		background = {
+			name = "ZET_gui_Background" 
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		} 
+		instantTextboxType = {
+			name = "ZET_resistance"
+			position = { x = 10 y = 385 }#你的文本位置（相对于窗口）
+			font = "hoi_36header"
+			text = "rep.gui.mz.resistance"
+			maxWidth = 200
+			maxHeight =80
+			format = left
+		}
+		instantTextboxType = {
+			name = "ZET_support"
+			position = { x = 10 y = 417 }#你的文本位置（相对于窗口）
+			font = "hoi_36header"
+			text = "rep.gui.mz.support"
+			maxWidth = 200
+			maxHeight =80
+			format = left
+		}
+		containerWindowType = {
+			name = "REP_mz_state_bars"
+			position = { x = 140 y = 190 }
+			iconType = {
+				name = "REP_resistance_bar"
+				spriteType = "GFX_progressbar_red"
+				position = { x = 0 y = 0 }
+			}
+			iconType = {
+				name = "REP_mz_resistance_barframe"
+				spriteType = "GFX_barframe"
+				position = { x = -3 y = -3 } 
+			}
+			iconType = {
+				name = "REP_support_bar"
+				spriteType = "GFX_progressbar_green"
+				position = { x = 0 y = 32 }
+			} 
+			iconType = {
+				name = "REP_mz_support_barframe"
+				spriteType = "GFX_barframe"
+				position = { x = -3 y = 29 } 
+			}
+			gridboxtype = {
+				name = "map_gridbox"
+				slotsize = { width = 0 height = 0 }
+			}
+		}    
+		
+		
+	}
+	containerWindowType = {
+		name = "ZET_map_container"
+		buttonType = {
+			name = "map_button"
+			spriteType = "GFX_ZET_temp_button_114"
+			pdx_tooltip = ZET_map_tooltip
+		}
+	}
+}

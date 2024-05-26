@@ -17,9 +17,8 @@ news_event = {		#亚人暴动
 		limit = {
 			is_ai = no
 		}
-		set_global_flag = CM_SE_opened
-		clear_array = CM_SE_event_id_array
-		add_to_array = { CM_SE_event_id_array = 3 }
+		set_temp_variable = { TDH_temp_super_event = token:SE_LOVINIA_CIVIL_WAR }
+		TDH_fire_super_event = yes
 	}
 	
 	}
@@ -32,9 +31,8 @@ news_event = {		#亚人暴动
 		limit = {
 			is_ai = no
 		}
-		set_global_flag = CM_SE_opened
-		clear_array = CM_SE_event_id_array
-		add_to_array = { CM_SE_event_id_array = 3 }
+		set_temp_variable = { TDH_temp_super_event = token:SE_LOVINIA_CIVIL_WAR }
+		TDH_fire_super_event = yes
 	}
 	
 	}

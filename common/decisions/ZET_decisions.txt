@@ -1,0 +1,24 @@
+ZET_decision_category = {
+	ZET_decision_2 = {
+		complete_effect = {
+			log = "yuanshenqidong"
+			clear_array = ZET_gui_map_array 
+			clear_array = ZET_gui_map_x 
+			clear_array = ZET_gui_map_y 
+			add_to_array = { ZET_gui_map_array = 114 }
+			add_to_array = { ZET_gui_map_array = 214 }
+			add_to_array = { ZET_gui_map_array = 314 }
+			
+
+			add_to_array = { ZET_gui_map_x = -150 } # 114
+			add_to_array = { ZET_gui_map_y = -150 }
+
+			add_to_array = { ZET_gui_map_x = 0 } # 214
+			add_to_array = { ZET_gui_map_y = -150}
+
+			add_to_array = { ZET_gui_map_x = 150 } # 314
+			add_to_array = { ZET_gui_map_y = -150 }
+
+		}
+	}
+}

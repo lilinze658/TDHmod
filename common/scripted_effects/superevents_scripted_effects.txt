@@ -1,0 +1,8 @@
+TDH_fire_super_event = {
+		set_variable = { TDH_super_event = TDH_temp_super_event }
+				meta_effect = {
+					text = { scoped_play_song = "TDH_[SUPER]" }
+					SUPER = "[?TDH_super_event.GetTokenKey]"
+				}
+		set_country_flag = CM_SE_opened
+}

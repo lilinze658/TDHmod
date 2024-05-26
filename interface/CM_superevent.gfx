@@ -37,7 +37,7 @@ spriteTypes = {
 	}
 	
 		spriteType = {
-		name = "GFX_CM_SE_0003"
+		name = "GFX_SE_LOVINIA_CIVIL_WAR"
 		texturefile = "gfx//superevent//tag2//CM_SE_0002.dds"
 		legacy_lazy_load = no
 	}
