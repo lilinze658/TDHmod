@@ -1,0 +1,134 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_unit_demi_selfguard_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/demi_selfguard_icon.dds"
+		noOfFrames = 2 
+	}
+	spriteType = {
+		name = "GFX_unit_elite_samurai_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/elite_samurai_icon.dds"
+		noOfFrames = 2 
+	}
+	spriteType = {
+		name = "GFX_unit_fast_hunter_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/fast_hunter_icon.dds"
+		noOfFrames = 2 
+	}
+	spriteType = {
+		name = "GFX_unit_magic_girl_guards_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/magic_girl_guards_icon.dds"
+		noOfFrames = 2 
+	}
+	spriteType = {
+		name = "GFX_unit_ranger_royal_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/ranger_royal_icon.dds"
+		noOfFrames = 2 
+	}
+	spriteType = {
+		name = "GFX_unit_yurikoomega_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/yurikoomega_icon.dds"
+		noOfFrames = 2 
+	}
+
+
+	spriteType = {
+		name = "GFX_unit_demi_selfguard_icon_medium_white" 
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_demi_selfguard_icon.dds" 
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_elite_samurai_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_elite_samurai_icon.dds"
+		noOfFrames = 2 
+	}
+	spriteType = {
+		name = "GFX_unit_fast_hunter_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_fast_hunter_icon.dds"
+		noOfFrames = 2 
+	}
+	spriteType = {
+		name = "GFX_unit_magic_girl_guards_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_magic_girl_guards_icon.dds"
+		noOfFrames = 2 
+	}
+	spriteType = {
+		name = "GFX_unit_ranger_royal_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_ranger_royal_icon.dds"
+		noOfFrames = 2 
+	}
+	spriteType = {
+		name = "GFX_unit_yurikoomega_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_yurikoomega_icon.dds"
+		noOfFrames = 2 
+	}
+	
+
+	spriteType = {
+		name = "GFX_unit_elite_samurai_icon_small"
+		textureFile = "gfx/interface/counters/divisions_small/unit_elite_samurai_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_demi_selfguard_icon_small"
+		textureFile = "gfx/interface/counters/divisions_small/unit_demi_selfguard_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_fast_hunter_icon_small"
+		textureFile = "gfx/interface/counters/divisions_small/unit_fast_hunter_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_magic_girl_guards_icon_small"
+		textureFile = "gfx/interface/counters/divisions_small/unit_magic_girl_guards_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_ranger_royal_icon_small"
+		textureFile = "gfx/interface/counters/divisions_small/unit_ranger_royal_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_yurikoomega_icon_small"
+		textureFile = "gfx/interface/counters/divisions_small/unit_yurikoomega_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_demi_selfguard_texticon"
+		texturefile = "gfx/texticons/unit_demi_selfguard_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_elite_samurai_texticon"
+		texturefile = "gfx/texticons/unit_elite_samurai_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_fast_hunter_texticon"
+		texturefile = "gfx/texticons/unit_fast_hunter_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_magic_girl_guards_texticon"
+		texturefile = "gfx/texticons/unit_magic_girl_guards_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ranger_royal_texticon"
+		texturefile = "gfx/texticons/unit_ranger_royal_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_yurikoomega_texticon"
+		texturefile = "gfx/texticons/unit_yurikoomega_icon_small.dds"
+		legacy_lazy_load = no
+	}
+}

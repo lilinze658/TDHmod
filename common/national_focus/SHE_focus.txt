@@ -1,0 +1,78 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_HISTORICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_PROPAGANDA}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+### search_filters = {FOCUS_FILTER_BALANCE_OF_POWER}
+### search_filters = {FOCUS_FILTER_INTERNAL_AFFAIRS}
+
+### #!gfx:interface\DTH_goals.gfx ###
+
+focus_tree = {
+	id = DTH_SHE_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 100
+			tag = SHE
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 100 y = 3250 }
+
+	initial_show_position = {
+		x = 10
+		y = 0
+	}
+
+	focus = {
+		id = SHE_1
+		icon = GFX_focus_DEN_limited_regulations
+		x = 8
+		y = 0
+		cost = 20
+		available = {
+			is_subject = no
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		completion_reward = {
+			effect_tooltip = { add_stability = 0.20 }
+		}
+	}
+
+	focus = {
+		id = SHE_2
+		icon = GFX_focus_DEN_limited_regulations
+		prerequisite = { focus = SHE_1 }
+		relative_position_id = SHE_1
+		x = -1
+		y = 1
+		cost = 2
+		available = {
+			is_subject = no
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			
+		}
+	}
+}

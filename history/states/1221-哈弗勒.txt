@@ -19,7 +19,7 @@ state={
 			}              
 		}
 		add_core_of = HAS
-
+		set_state_flag = SHE_northern_gbpaint_target_flag
 	}
 	
 	provinces={

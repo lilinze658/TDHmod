@@ -1,0 +1,69 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+BER_advance_focus = {
+	allowed = {
+		original_tag = BER
+	}
+	enable = {
+		has_idea = SHE_advance_war
+	}
+	
+	abort_when_not_enabled = yes
+	
+	abort = {
+		NOT = { has_idea = SHE_advance_war }
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = DUC
+		value = 100
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = DUC
+		value = -100
+		target = call_allies
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = DUC
+		value = -100
+		target = join_allies
+	}
+	ai_strategy = {
+		type = garrison
+		value = -100
+	}
+	ai_strategy = {
+		type = front_unit_request
+		country_trigger = {
+			original_tag = DUC
+			has_war_with = BER
+		}
+		value = 100
+	}
+	ai_strategy = {
+		type = front_control
+		state_trigger = {
+			has_state_flag = SHE_southern_gbpaint_target_flag
+		}
+		ratio = 0.20
+		ordertype = front
+		execution_type = rush_weak
+		manual_attack = no
+	}
+}

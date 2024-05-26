@@ -1,0 +1,162 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_portrait_SHE_MaKena"
+		texturefile = "gfx/leaders/SHE/MaKena.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_MiHuiling"
+		texturefile = "gfx/leaders/SHE/MiHuiling.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_YangJieyu"
+		texturefile = "gfx/leaders/SHE/YangJieyu.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_SHE_JiXue"
+		texturefile = "gfx/leaders/POS/JiXue.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_LiMisha"
+		texturefile = "gfx/leaders/POS/LiMisha.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_Nagare"
+		texturefile = "gfx/leaders/POS/Nagare.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_Saionji_Sanae"
+		texturefile = "gfx/leaders/POS/Saionji_Sanae.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_LinGui"
+		texturefile = "gfx/leaders/BER/LinGui.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_Izanami"
+		texturefile = "gfx/leaders/BER/Izanami.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_BanQihexi"
+		texturefile = "gfx/leaders/SHE/BanQihexi.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_SHE_FuNingfei"
+		texturefile = "gfx/leaders/SHE/FuNingfei.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_Kitaka_Dai"
+		texturefile = "gfx/leaders/SHE/Kitaka_Dai.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_Nero_Kana"
+		texturefile = "gfx/leaders/SHE/Nero_Kana.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_Nou_Naga"
+		texturefile = "gfx/leaders/SHE/Nou_Naga.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_Oukokorozasi_Nagame"
+		texturefile = "gfx/leaders/SHE/Oukokorozasi_Nagame.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_portrait_SHE_XiaoAn"
+		texturefile = "gfx/leaders/SHE/XiaoAn.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_MaKena"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_MaKena.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_MiHuiling"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_MiHuiling.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_YangJieyu"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_YangJieyu.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_JiXue"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_JiXue.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_LiMisha"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_LiMisha.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_Nagare"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_Nagare.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_Saionji_Sanae"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_Saionji_Sanae.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_LinGui"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_LinGui.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_Izanami"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_Izanami.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_BanQihexi"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_BanQihexi.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_FuNingfei"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_FuNingfei.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_Kitaka_Dai"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_Kitaka_Dai.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_Nero_Kana"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_Nero_Kana.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_Nou_Naga"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_Nou_Naga.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_Oukokorozasi_Nagame"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_Oukokorozasi_Nagame.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_advisor_SHE_XiaoAn"
+		texturefile = "gfx/interface/ideas/idea_advisor_SHE_XiaoAn.dds"
+	}
+}

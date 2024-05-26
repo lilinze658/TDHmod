@@ -1,0 +1,24 @@
+#	Example:
+#
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+#
+
+is_ROOT_or_subject = {
+	custom_trigger_tooltip = {
+		tooltip = is_ROOT_or_subject
+		OR = {
+			tag = ROOT
+			is_subject_of = ROOT
+		}
+	}
+}

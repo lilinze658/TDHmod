@@ -1,0 +1,207 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SHE = {
+				remove_ideas = {
+					SHE_imperial_army_fake
+					SHE_imperial_navy_fake
+					SHE_imperial_airforce_fake
+				}
+				add_dynamic_modifier = { modifier = SHE_imperial_army_dynamic_modifier }
+				add_dynamic_modifier = { modifier = SHE_imperial_navy_dynamic_modifier }
+				add_dynamic_modifier = { modifier = SHE_imperial_airforce_dynamic_modifier }
+				every_state = {
+					limit = { has_state_flag = SHE_northern_gbpaint_target_flag }
+					PREV = {
+						add_to_array = {
+							array = SHE.SHE_northern_gbpaint_target_array
+							value = PREV.id
+						}
+					}
+				}
+				every_state = {
+					limit = { has_state_flag = SHE_southern_gbpaint_target_flag }
+					PREV = {
+						add_to_array = {
+							array = SHE.SHE_southern_gbpaint_target_array
+							value = PREV.id
+						}
+					}
+				}
+				HAS = { set_country_flag = AREA_gbpaint_country_flag }
+				DUC = { set_country_flag = AREA_gbpaint_country_flag }
+				RUT = { set_country_flag = AREA_gbpaint_country_flag }
+				NED = { set_country_flag = AREA_gbpaint_country_flag }
+				WIN = { set_country_flag = AREA_gbpaint_country_flag }
+				ZET = { set_country_flag = AREA_gbpaint_country_flag }
+				NGD = { set_country_flag = AREA_gbpaint_country_flag }
+				TZY = { set_country_flag = AREA_gbpaint_country_flag }
+				GUS = { set_country_flag = AREA_gbpaint_country_flag }
+				MAG = { set_country_flag = AREA_gbpaint_country_flag }
+				AIS = { set_country_flag = AREA_gbpaint_country_flag }
+				REP = { set_country_flag = AREA_gbpaint_country_flag }
+				every_country = {
+					limit = { has_country_flag = AREA_gbpaint_country_flag }
+					every_owned_state = {
+						limit = { is_in_home_area = yes }
+						set_state_flag = gbpaint_state_flag
+						PREV.PREV = {
+							add_to_array = {
+								array = SHE.gbpaint_state_array
+								value = PREV.id
+							}
+						}
+					}
+					PREV = {
+						add_to_array = {
+							array = SHE.gbpaint_country_array
+							value = PREV.id
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	on_join_faction = {
+		effect = {
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						NOT = {
+							has_relation_modifier = {
+								target = THIS
+								modifier = SHE_dim_star_static
+							}
+						}
+					}
+					FROM = {
+						original_tag = DIV
+						SHE = {
+							has_relation_modifier = {
+								target = PREV
+								modifier = SHE_dim_star_static
+							}
+						}
+					}
+				}
+				SHE = {
+					add_relation_modifier = {
+						target = THIS
+						modifier = SHE_dim_star_static
+					}
+				}
+				THIS = {
+					add_opinion_modifier = {
+						target = SHE
+						modifier = traitor_of_Shenzhou
+					}
+				}
+			}
+		}
+	}
+	
+	on_offer_join_faction = {
+		effect = {
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						NOT = {
+							has_relation_modifier = {
+								target = FROM
+								modifier = SHE_dim_star_static
+							}
+						}
+					}
+					THIS = {
+						original_tag = DIV
+						SHE = {
+							has_relation_modifier = {
+								target = PREV
+								modifier = SHE_dim_star_static
+							}
+						}
+					}
+				}
+				SHE = {
+					add_relation_modifier = {
+						target = FROM
+						modifier = SHE_dim_star_static
+					}
+				}
+				FROM = {
+					add_opinion_modifier = {
+						target = SHE
+						modifier = traitor_of_Shenzhou
+					}
+				}
+			}
+		}
+	}
+	
+	on_leave_faction = {
+		effect = {
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						has_relation_modifier = {
+							target = ROOT
+							modifier = SHE_dim_star_static
+						}
+					}
+				}
+				SHE = {
+					remove_relation_modifier = {
+						target = ROOT
+						modifier = SHE_dim_star_static
+					}
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_opinion_modifier = traitor_of_Shenzhou
+						}
+					}
+					ROOT = {
+						remove_opinion_modifier = {
+							target = SHE
+							modifier = traitor_of_Shenzhou
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	on_war = {
+		effect = {
+			if = {
+				limit = {
+					THIS = {
+						NOT = { has_country_flag = AREA_gbpaint_country_flag }
+						any_controlled_state = {
+							has_state_flag = gbpaint_state_flag
+						}
+					}
+				}
+				THIS = { set_country_flag = AREA_gbpaint_country_flag }
+			}
+		}
+	}
+}
+

@@ -1,0 +1,14 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = { is_debug = yes }
+				every_country = {
+					limit = { is_ai = no }
+					set_technology = {
+					}
+				}
+			}
+		}
+	}
+}
