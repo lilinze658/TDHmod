@@ -1,6 +1,6 @@
 characters={ 
 	NGD_xiruiwei={
-		name=希瑞薇
+		name= xiruiwei
 		portraits={
 			civilian={
 				large="gfx/leaders/NGD/希瑞薇.dds"
@@ -12,25 +12,26 @@ characters={
 		
 		}
 		country_leader={
-		desc = ""
+		desc = "NGD_xiruiwei_APDF_DES"
 		     traits = {  }
 			ideology= Centrism
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
+		desc = "NGD_xiruiwei_APDF_DES"
+			legacy_id = 124
 			traits = {  }
-			skill = 5
-			attack_skill = 4
+			skill = 2
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 
 	NGD_maliya={
-		name=玛丽亚
+		name= maliya
 		portraits={
 			civilian={
 				large="gfx/leaders/NGD/玛丽亚.dds"
@@ -43,18 +44,19 @@ characters={
 		}
 
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "NGD_maliya_APDF_DES"
+			legacy_id = 125
+			traits = { cavalry_officer brilliant_strategist cavalry_leader }
+			skill = 4
 			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 
 	NGD_aijiluna={
-		name=艾吉露娜
+		name= aijiluna
 		portraits={
 			civilian={
 				large="gfx/leaders/NGD/艾吉露娜.dds"
@@ -66,14 +68,15 @@ characters={
 		
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		navy_leader = {
+		desc = "NGD_aijiluna_APDF_DES"
+			legacy_id = 126
+			traits = { battleship_adherent cruiser_captain }
+			skill = 3
 			attack_skill = 4
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			maneuvering_skill = 3
+			coordination_skill = 4
 		}
 	}
 }	
