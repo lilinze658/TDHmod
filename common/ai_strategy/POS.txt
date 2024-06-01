@@ -1,0 +1,70 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+
+POS_advance_focus = {
+	allowed = {
+		original_tag = POS
+	}
+	enable = {
+		has_idea = SHE_advance_war
+	}
+	
+	abort_when_not_enabled = yes
+	
+	abort = {
+		NOT = { has_idea = SHE_advance_war }
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = HAS
+		value = 100
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = HAS
+		value = -100
+		target = call_allies
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = HAS
+		value = -100
+		target = join_allies
+	}
+	ai_strategy = {
+		type = garrison
+		value = -100
+	}
+	ai_strategy = {
+		type = front_unit_request
+		country_trigger = {
+			original_tag = HAS
+			has_war_with = POS
+		}
+		value = 100
+	}
+	ai_strategy = {
+		type = front_control
+		state_trigger = {
+			has_state_flag = SHE_northern_gbpaint_target_flag
+		}
+		ratio = 0.20
+		ordertype = front
+		execution_type = rush_weak
+		manual_attack = no
+	}
+}

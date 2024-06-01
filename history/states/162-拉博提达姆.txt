@@ -19,6 +19,7 @@ state={
 			} 
 		}
 		add_core_of = DUC
+		set_state_flag = SHE_southern_gbpaint_target_flag
 		4635.10.25 = {
 			owner = BER
 			add_core_of = BER

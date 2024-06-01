@@ -1,86 +1,99 @@
-characters={ 
-	POS_xiyuansizaomiao={
-		name=西园寺早苗
-		portraits={
-			civilian={
-				large="gfx/leaders/POS/西园寺早苗.dds"
+characters = { 
+	SHE_Saionji_Sanae = {
+		name = Saionji_Sanae
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_Saionji_Sanae
+				small = GFX_idea_advisor_SHE_Saionji_Sanae
 			}
 			army = {   
-				large="gfx/leaders/POS/西园寺早苗.dds" 
-				small="gfx/interface/ideas/XXX.png"
+				large = GFX_portrait_SHE_Saionji_Sanae
+				small = GFX_idea_advisor_SHE_Saionji_Sanae
 			}
 		}
-		country_leader={
-		     traits = {  }
-			ideology= Fascism_ideology
-			expire="4999.1.1.1"
-			id=-1
+		country_leader = {
+		    traits = {  }
+			ideology = Fascism_ideology
+			expire = "4999.1.1.1"
+			id = -1
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+			legacy_id = 138
+			traits = { media_personality bearer_of_artillery  }
+			skill = 3
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 3
 		}
 	}
 
-	POS_yinjiuliuzi={
-		name=阴酒流子
-		portraits={
-			civilian={
-				large="gfx/leaders/POS/阴酒流子.dds"
+	SHE_Nagare = {
+		name = Nagare
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_Nagare
+				small = GFX_idea_advisor_SHE_Nagare
+			}
+			army = {   
+				large = GFX_portrait_SHE_Nagare
+				small = GFX_idea_advisor_SHE_Nagare
 			}
 		}
-		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		navy_leader = {
+			legacy_id = 139
+			traits = { aviation_enthusiast air_controller }
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			maneuvering_skill = 3
+			coordination_skill = 4
 		}
 	}
 
-	POS_limisha={
-		name=利米莎
-		portraits={
-			civilian={
-				large="gfx/leaders/POS/利米莎.dds"
+	SHE_LiMisha = {
+		name = LiMisha
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_LiMisha
+				small = GFX_idea_advisor_SHE_LiMisha
+			}
+			army = {   
+				large = GFX_portrait_SHE_LiMisha
+				small = GFX_idea_advisor_SHE_LiMisha
 			}
 		}
-		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+			legacy_id = 140
+			traits = { trait_reckless infantry_officer naval_invader }
+			skill = 3
 			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 
-	POS_jixue={
-		name=姬雪
-		portraits={
-			civilian={
-				large="gfx/leaders/POS/姬雪.dds"
+	SHE_JiXue = {
+		name = JiXue
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_JiXue
+				small = GFX_idea_advisor_SHE_JiXue
+			}
+			army = {   
+				large = GFX_portrait_SHE_JiXue
+				small = GFX_idea_advisor_SHE_JiXue
 			}
 		}
-		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+			legacy_id = 141
+			traits = { trait_cautious }
+			skill = 2
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 }		

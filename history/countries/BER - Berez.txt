@@ -59,7 +59,7 @@ set_technology = {
 	sonar = 1
 	basic_cruiser_armor_scheme = 1
 }
-set_research_slots = 5
+set_research_slots = 2
 set_convoys = 20
 oob = "BER-4633"
 add_ideas = { 
@@ -79,8 +79,10 @@ set_popularities = {
 	neutrality = 0
 }
 
-recruit_character = BER_lingui
-recruit_character = BER_yixiemei
+recruit_character = SHE_LinGui
+recruit_character = SHE_Izanami
+SHE_LinGui = { set_character_flag = SHE_nationality_flag }
+SHE_Izanami = { set_character_flag = SHE_nationality_flag }
 4636.1.1 = {
 	oob = "BER-4636"
 	declare_war_on = {

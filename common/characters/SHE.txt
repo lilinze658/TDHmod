@@ -1,220 +1,283 @@
-characters={ 
-	SHE_yangjieyu={
-		name=阳洁羽
-		portraits={
-			civilian={
-				large="gfx/leaders/SHE/阳洁羽.dds"
+characters = { 
+	SHE_YangJieyu = {
+		name = YangJieyu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_YangJieyu
+				small = GFX_idea_advisor_SHE_YangJieyu
 			}
 			army = {   
-				large="gfx/leaders/SHE/阳洁羽.dds" 
-				small="gfx/interface/ideas/XXX.png"
+				large = GFX_portrait_SHE_YangJieyu
+				small = GFX_idea_advisor_SHE_YangJieyu
 			}
-		
 		}
-		country_leader={
-		    traits = {  }
-			ideology= Fascism_ideology
-			expire="4999.1.1.1"
-			id=-1
+		country_leader = {
+			ideology = Fascism_ideology
+		    traits = { dim_star }
+			expire = "4999.1.1.1"
+			id = -1
 		}
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+		field_marshal = {
+			legacy_id = 180
+			traits = { panzer_leader fortress_buster naval_invader offensive_doctrine harsh_leader }
 			skill = 5
-			attack_skill = 4
-			defense_skill = 3
+			attack_skill = 5
+			defense_skill = 5
 			planning_skill = 4
 			logistics_skill = 5
 		}
 	}
 
-	SHE_mihuiling={
-		name=弥灰绫
-		portraits={
-			civilian={
-				large="gfx/leaders/SHE/弥灰绫.dds"
+	SHE_MiHuiling = {
+		name = MiHuiling
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_MiHuiling
+				small = GFX_idea_advisor_SHE_MiHuiling
+			}
+			army = {   
+				large = GFX_portrait_SHE_MiHuiling
+				small = GFX_idea_advisor_SHE_MiHuiling
 			}
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		navy_leader = {
+			legacy_id = 181
+			traits = { navy_career_officer ground_pounder cruiser_captain crisis_magician }
+			skill = 4
 			attack_skill = 4
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			maneuvering_skill = 4
+			coordination_skill = 5
 		}
 	}
 
-	SHE_ozhiqilin={
-		name=欧志七霖
-		portraits={
-			civilian={
-				large="gfx/leaders/SHE/欧志七霖.dds"
+	SHE_Oukokorozasi_Nagame = {
+		name = Oukokorozasi_Nagame
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_Oukokorozasi_Nagame
+				small = GFX_idea_advisor_SHE_Oukokorozasi_Nagame
+			}
+			army = {
+				large = GFX_portrait_SHE_Oukokorozasi_Nagame
+				small = GFX_idea_advisor_SHE_Oukokorozasi_Nagame
 			}
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+		navy_leader = {
+			legacy_id = 182
+			traits = { aviation_enthusiast bold fleet_protector dive_bomber torpedo_bomber }
 			skill = 5
-			attack_skill = 4
+			attack_skill = 5
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			maneuvering_skill = 4
+			coordination_skill = 5
 		}
 	}
 
-	SHE_beihuanai={
-		name=北化奈
-		portraits={
-			civilian={
-				large="gfx/leaders/SHE/北化奈.dds"
+	SHE_Kitaka_Dai = {
+		name = Kitaka_Dai
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_Kitaka_Dai
+				small = GFX_idea_advisor_SHE_Kitaka_Dai
+			}
+			army = {
+				large = GFX_portrait_SHE_Kitaka_Dai
+				small = GFX_idea_advisor_SHE_Kitaka_Dai
 			}
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		navy_leader = {
+			legacy_id = 183
+			traits = { destroyer_leader torpedo_expert gunnery_expert }
+			skill = 3
 			attack_skill = 4
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			maneuvering_skill = 3
+			coordination_skill = 3
 		}
 	}
 
-	SHE_banqihexi={
-		name=般齐赫希
-		portraits={
-			civilian={
-				large="gfx/leaders/SHE/般齐赫希.dds"
+	SHE_BanQihexi = {
+		name = BanQihexi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_BanQihexi
+				small = GFX_idea_advisor_SHE_BanQihexi
+			}
+			army = {
+				large = GFX_portrait_SHE_BanQihexi
+				small = GFX_idea_advisor_SHE_BanQihexi
 			}
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			legacy_id = 184
+			traits = { old_guard infantry_leader }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 
-	SHE_nilexiangnai={
-		name=尼乐香奈
-		portraits={
-			civilian={
-				large="gfx/leaders/SHE/尼乐香奈.dds"
+	SHE_Nero_Kana = {
+		name = Nero_Kana
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_Nero_Kana
+				small = GFX_idea_advisor_SHE_Nero_Kana
+			}
+			army = {
+				large = GFX_portrait_SHE_Nero_Kana
+				small = GFX_idea_advisor_SHE_Nero_Kana
 			}
 		}
-		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		navy_leader = {
+			legacy_id = 185
+			traits = { craven }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
 		}
 	}
 
-	SHE_funingfei={
-		name=抚宁菲
-		portraits={
-			civilian={
-				large="gfx/leaders/SHE/抚宁菲.dds"
+	SHE_FuNingfei = {
+		name = FuNingfei
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_FuNingfei
+				small = GFX_idea_advisor_SHE_FuNingfei
+			}
+			army = {
+				large = GFX_portrait_SHE_FuNingfei
+				small = GFX_idea_advisor_SHE_FuNingfei
 			}
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			legacy_id = 186
+			traits = { trait_cautious infantry_officer guerilla_fighter infantry_leader }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 4
 		}
 	}
 
-	SHE_yenaiya={
-		name=野奈雅
-		portraits={
-			civilian={
-				large="gfx/leaders/SHE/野奈雅.dds"
+	SHE_Nou_Naga = {
+		name = Nou_Naga
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_Nou_Naga
+				small = GFX_idea_advisor_SHE_Nou_Naga
+			}
+			army = {
+				large = GFX_portrait_SHE_Nou_Naga
+				small = GFX_idea_advisor_SHE_Nou_Naga
 			}
 		}
-		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			legacy_id = 187
+			traits = { infantry_officer }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 
-	SHE_aigenisi={
-		name=爱葛妮丝
-		portraits={
-			civilian={
-				large="gfx/leaders/SHE/爱葛妮丝.dds"
+	SHE_aigenisi = {
+		name = 爱葛妮丝
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SHE/爱葛妮丝.dds"
 			}
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			legacy_id = 188
+			traits = { infantry_officer trait_reckless }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 
-	SHE_makena={
-		name=玛可娜
-		portraits={
-			civilian={
-				large="gfx/leaders/SHE/玛可娜.dds"
+	SHE_MaKena = {
+		name = MaKena
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_MaKena
+				small = GFX_idea_advisor_SHE_MaKena
+			}
+			army = {   
+				large = GFX_portrait_SHE_MaKena
+				small = GFX_idea_advisor_SHE_MaKena
 			}
 		}
-		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		navy_leader = {
+			legacy_id = 189
+			traits = { navy_career_officer blue_water_expert }
+			skill = 3
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			maneuvering_skill = 4
+			coordination_skill = 3
 		}
 	}
 
-	SHE_xiaoan={
-		name=小安
-		portraits={
-			civilian={
-				large="gfx/leaders/SHE/小安.dds"
+	SHE_XiaoAn = {
+		name = XiaoAn
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHE_XiaoAn
+				small = GFX_idea_advisor_SHE_XiaoAn
+			}
+			army = {
+				large = GFX_portrait_SHE_XiaoAn
+				small = GFX_idea_advisor_SHE_XiaoAn
 			}
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+			legacy_id = 190
+			traits = { infantry_officer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	SHE_zuolehailun = {
+		name = 佐乐海伦
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SHE/佐乐海伦.dds"
+			}
+		}
+
+		corps_commander = {
+			legacy_id = 191
+			traits = {
+				infantry_officer trait_reckless trickster
+			}
+			skill = 3
 			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 	

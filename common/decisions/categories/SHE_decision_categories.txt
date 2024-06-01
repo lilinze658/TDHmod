@@ -1,0 +1,66 @@
+SHE_ai_decision_category = {
+	icon = generic_prospect_for_resources
+	visible = {
+		is_ai = yes
+	}
+	allowed = {
+	    original_tag = SHE
+	}
+	priority = 1
+}
+
+SHE_gbpaint_decision_category = {
+	icon = ger_military_buildup
+	picture = GFX_decision_cat_picture_NOR_ship_building
+	visible = {
+		NOT = { has_country_flag = SHE_gbpaint_canceled_flag }
+	}
+	allowed = {
+	    original_tag = SHE
+	}
+	priority = 5
+}
+
+SHE_northern_gbpaint_decision_category = {
+	icon = hol_war_on_pacifism
+	allowed = {
+	    original_tag = SHE
+	}
+	visible = {
+		NOT = { check_variable = { ROOT.gbpaint_step_var > 2 } }
+		NOT = { has_country_flag = SHE_gbpaint_canceled_flag }
+	}
+	on_map_area = {
+		target_array = SHE.SHE_northern_gbpaint_target_array
+		name = SHE_northern_gbpaint_decision_category_map_area
+		zoom = 350
+		target_trigger = {
+			FROM = {
+				NOT = { is_owned_by = ROOT }
+			}
+		}
+    }
+	priority = 4
+}
+
+SHE_southern_gbpaint_decision_category = {
+	icon = hol_war_on_pacifism
+	allowed = {
+	    original_tag = SHE
+	}
+	visible = {
+		NOT = { check_variable = { ROOT.gbpaint_step_var > 2 } }
+		NOT = { has_country_flag = SHE_gbpaint_canceled_flag }
+	}
+	on_map_area = {
+		target_array = SHE.SHE_southern_gbpaint_target_array
+		name = SHE_southern_gbpaint_decision_category_map_area
+		zoom = 350
+		target_trigger = {
+			FROM = {
+				NOT = { is_owned_by = ROOT }
+			}
+		}
+    }
+	priority = 3
+}

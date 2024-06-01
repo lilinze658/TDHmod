@@ -59,7 +59,7 @@ set_technology = {
 	sonar = 1
 	basic_cruiser_armor_scheme = 1
 }
-set_research_slots = 5
+set_research_slots = 2
 set_convoys = 20
 oob = "POS-4633" 
 add_ideas = { 
@@ -103,10 +103,16 @@ set_popularities = {
 	neutrality = 0
 }
 
-recruit_character = POS_xiyuansizaomiao
-recruit_character = POS_yinjiuliuzi
-recruit_character = POS_limisha
-recruit_character = POS_jixue
+recruit_character = SHE_JiXue
+recruit_character = SHE_LiMisha
+recruit_character = SHE_Nagare
+recruit_character = SHE_Saionji_Sanae
+SHE_JiXue = { set_character_flag = SHE_nationality_flag }
+SHE_LiMisha = { set_character_flag = SHE_nationality_flag }
+SHE_Nagare = { set_character_flag = SHE_nationality_flag }
+SHE_Saionji_Sanae = { set_character_flag = SHE_nationality_flag }
+
+
 add_equipment_to_stockpile = {
 	type = light_tank_destroyer_chassis_1
 	amount = 500
