@@ -35,16 +35,16 @@ spriteTypes = {
 		texturefile = "gfx/gui/gui_button_1.png"
 	}
 	progressbartype = {
-		name = "GFX_progressbar_red"
-		texturefile1 = "gfx/gui/progressbartexture.png"
+		name = "GFX_progressbar_purple"
+		texturefile1 = "gfx/gui/progressbartexture3.png"
 		texturefile2 = "gfx/gui/cooldown_bar_empty.png"
 		size = { x = 198 y = 24 }
 		effectfile = "gfx/FX/progress.lua"
 		steps = 100
 	}
 	progressbartype = {
-		name = "GFX_progressbar_green"
-		texturefile1 = "gfx/gui/progressbartexture2.png"
+		name = "GFX_progressbar_red"
+		texturefile1 = "gfx/gui/progressbartexture.png"
 		texturefile2 = "gfx/gui/cooldown_bar_empty.png"
 		size = { x = 198 y = 24 }
 		effectfile = "gfx/FX/progress.lua"
@@ -56,20 +56,38 @@ spriteTypes = {
 		texturefile = "gfx/gui/progressbarbackground.png"
 	}
 	spriteType = {
-		name = "GFX_ZET_temp_button_114"
-		texturefile = "gfx/gui/temp_button.png"
+		name = "GFX_ZET_map_button_410"
+		texturefile = "gfx/gui/ZET_gui_map_button_1.png"
 		noofframes = 2
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_ZET_temp_button_214"
-		texturefile = "gfx/gui/temp_button.png"
+		name = "GFX_ZET_map_button_417"
+		texturefile = "gfx/gui/ZET_gui_map_button_2.png"
 		noofframes = 2
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_ZET_temp_button_314"
-		texturefile = "gfx/gui/temp_button.png"
+		name = "GFX_ZET_map_button_1227"
+		texturefile = "gfx/gui/ZET_gui_map_button_3.png"
+		noofframes = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ZET_map_button_411"
+		texturefile = "gfx/gui/ZET_gui_map_button_4.png"
+		noofframes = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ZET_map_button_73"
+		texturefile = "gfx/gui/ZET_gui_map_button_5.png"
+		noofframes = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ZET_map_button_1231"
+		texturefile = "gfx/gui/ZET_gui_map_button_6.png"
 		noofframes = 2
 		transparencecheck = yes
 	}

@@ -2,7 +2,7 @@ scripted_gui = {
 	
 	ZET_gui ={
 		window_name = "ZET_gui"
-		context_type = player_context
+		context_type = decision_category
 		
 		visible = {
 			original_tag = ZET
@@ -21,24 +21,32 @@ scripted_gui = {
 					limit = {
 						check_variable = { ZET_selected_region = k }
 					}
-					set_temp_variable = { map_frame = 2 }
+					set_temp_variable = { map_frame = 1 }
 				}
 				else = {
-					set_temp_variable = { map_frame = 1 }
+					set_temp_variable = { map_frame = 2 }
 				}
 			}
 		}
 		properties = {
 			map_button = {
-				image = "GFX_ZET_temp_button_[?k]"
+				image = "GFX_ZET_map_button_[?k]"
 				frame = map_frame
 				x = ZET_gui_map_x^j
 				y = ZET_gui_map_y^j
+				
+			}
+			ZET_resistance_bar = {
+				frame = ZET_selected_region:ZET_gui_resistance_var
+			}
+			ZET_production_bar = {
+				frame = ZET_selected_region:ZET_gui_production_var
 			}
 		}
 		effects = {
 			map_button_click = {
 				set_variable = { ZET_selected_region = k }
+				set_variable = { ZET_selected_region_name = j }
 			}
 		}
 		
