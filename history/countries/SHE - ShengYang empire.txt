@@ -66,6 +66,10 @@ set_technology = {
 add_ideas = {
 	SHE_state_shintoism
 	SHE_national_consensus
+	SHE_resistance_of_aborigine_4
+	SHE_not_acclimatized_5
+	SHE_incomplete_industrial_foundation_fake
+	SHE_administrative_efficiency_fake
 	SHE_imperial_army_fake
 	SHE_imperial_navy_fake
 	SHE_imperial_airforce_fake
@@ -76,9 +80,37 @@ add_ideas = {
 }
 add_timed_idea = { idea = SHE_navy_expand days = 365 }
 
-#set_variable = { SHE_CS_consumer_goods_factor_var = -0.33 }
-#set_variable = { SHE_CS_infantry_equipment_idea_cost_var = -0.05 }
-#add_dynamic_modifier = { modifier = SHE_cost_saving_dynamic_modifier }
+set_variable = { SHE_IIF_production_factory_start_efficiency_factor_var = -0.10 }
+set_variable = { SHE_IIF_production_factory_max_efficiency_factor_var = -0.20 }
+set_variable = { SHE_IIF_production_factory_efficiency_gain_factor_var = -0.10 }
+set_variable = { SHE_IIF_production_speed_industrial_complex_factor_var = -0.20 }
+set_variable = { SHE_IIF_production_speed_arms_factory_factor_var = -0.10 }
+set_variable = { SHE_IIF_cost_infantry_equipment_var = 0.05 }
+set_variable = { SHE_IIF_cost_motorized_equipment_var = 0.10 }
+set_variable = { SHE_IIF_cost_artillery_var = 0.10 }
+set_variable = { SHE_IIF_cost_armor_var = 0.20 }
+set_variable = { SHE_IIF_research_industry_var = -0.10 }
+set_variable = { SHE_IIF_research_electronics_var = -0.20 }
+set_variable = { SHE_IIF_research_support_tech_var = 0.05 }
+#add_dynamic_modifier = { modifier = SHE_incomplete_industrial_foundation_dynamic_modifier }
+
+set_variable = { SHE_AE_political_power_factor_var = -0.40 }
+set_variable = { SHE_AE_surrender_limit_var = -0.40 }
+set_variable = { SHE_AE_fascism_drift_var = -0.50 }
+set_variable = { SHE_AE_command_power_gain_mult_var = 0.10 }
+set_variable = { SHE_AE_economy_cost_factor_var = 0.33 }
+set_variable = { SHE_AE_trade_laws_cost_factor_var = 0.33 }
+set_variable = { SHE_AE_mobilization_laws_cost_factor_var = 0.33 }
+set_variable = { SHE_AE_agency_upgrade_time_var = 1.00 }
+set_variable = { SHE_AE_civilian_intel_to_others_var = 50 }
+set_variable = { SHE_AE_army_intel_to_others_var = 50 }
+set_variable = { SHE_AE_navy_intel_to_others_var = 50 }
+set_variable = { SHE_AE_airforce_intel_to_others_var = 50 }
+set_variable = { SHE_AE_enemy_operative_capture_chance_factor_var = -0.25 }
+set_variable = { SHE_AE_enemy_operative_detection_chance_factor_var = -0.25 }
+set_variable = { SHE_AE_intelligence_agency_defense_var = -0.50 }
+set_variable = { SHE_AE_crypto_strength_var = -1 }
+#add_dynamic_modifier = { modifier = SHE_administrative_efficiency_dynamic_modifier }
 
 set_variable = { SHE_IA_army_infantry_attack_factor_var = 0.05 }
 set_variable = { SHE_IA_army_infantry_defence_factor_var = 0.05 }
@@ -105,19 +137,21 @@ set_variable = { SHE_IA_army_bonus_air_superiority_factor_var = -0.25 }
 set_autonomy = {
 	target = BER
 	autonomous_state = autonomy_puppet
+	freedom_level = 0.1
 }
 set_autonomy = {
 	target = POS
 	autonomous_state = autonomy_puppet
+	freedom_level = 0.1
 }
 BER = { set_country_flag = SHE_start_subject_flag }
 POS = { set_country_flag = SHE_start_subject_flag }
-set_country_flag = { flag = SHE_gbpaint_canceled_count_flag value = 1 days = 30 }
-set_variable = { gbpaint_step_var = 1 }
+#set_country_flag = { flag = SHE_gbpaint_canceled_count_flag value = 1 days = 30 }
+#set_variable = { gbpaint_step_var = 1 }
 set_variable = { SHE_ng_declare_war_mission_count = 540 }
 set_variable = { SHE_sg_declare_war_mission_count = 540 }
-activate_mission = SHE_ng_declare_war_mission
-activate_mission = SHE_sg_declare_war_mission
+#activate_mission = SHE_ng_declare_war_mission
+#activate_mission = SHE_sg_declare_war_mission
 
 every_country = {
 	limit = {

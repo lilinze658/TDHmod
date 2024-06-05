@@ -37,7 +37,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SHE_1
+		id = SHE_rebuild_high_command
 		icon = GFX_focus_DEN_limited_regulations
 		x = 8
 		y = 0
@@ -49,30 +49,41 @@ focus_tree = {
 			base = 1
 		}
 		bypass = {}
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_ARMY_XP FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		select_effect = {
+			set_country_flag = SHE_rebuild_high_command_flag
+		}
 		completion_reward = {
-			effect_tooltip = { add_stability = 0.20 }
+			add_war_support = 0.10
+			custom_effect_tooltip = SHE_rebuild_high_command_tt
+			clr_country_flag = SHE_rebuild_high_command_flag
+			if = {
+				limit = { has_stability < 0.80 }
+				add_political_power = -100
+				add_stability = 0.20
+			}
 		}
 	}
 
 	focus = {
-		id = SHE_2
+		id = SHE_marshal_YangJieyu
 		icon = GFX_focus_DEN_limited_regulations
-		prerequisite = { focus = SHE_1 }
-		relative_position_id = SHE_1
-		x = -1
+		prerequisite = { focus = SHE_rebuild_high_command }
+		relative_position_id = SHE_rebuild_high_command
+		x = 0
 		y = 1
-		cost = 2
+		cost = 0
 		available = {
-			is_subject = no
+			always = no
 		}
 		ai_will_do = {
 			base = 1
 		}
 		bypass = {}
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
 		completion_reward = {
-			
+			add_stability = 0.10
 		}
 	}
 }
+

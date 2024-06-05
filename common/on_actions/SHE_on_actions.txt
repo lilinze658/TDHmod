@@ -3,10 +3,14 @@ on_actions = {
 		effect = {
 			SHE = {
 				remove_ideas = {
+					SHE_incomplete_industrial_foundation_fake
+					SHE_administrative_efficiency_fake
 					SHE_imperial_army_fake
 					SHE_imperial_navy_fake
 					SHE_imperial_airforce_fake
 				}
+				add_dynamic_modifier = { modifier = SHE_incomplete_industrial_foundation_dynamic_modifier }
+				add_dynamic_modifier = { modifier = SHE_administrative_efficiency_dynamic_modifier }
 				add_dynamic_modifier = { modifier = SHE_imperial_army_dynamic_modifier }
 				add_dynamic_modifier = { modifier = SHE_imperial_navy_dynamic_modifier }
 				add_dynamic_modifier = { modifier = SHE_imperial_airforce_dynamic_modifier }
