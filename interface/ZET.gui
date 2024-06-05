@@ -23,29 +23,37 @@ guiTypes = {
 			font = "hoi_36header"
 			text = "rep.gui.mz.support"
 			maxWidth = 200
-			maxHeight =80
+			maxHeight = 80
 			format = left
 		}
 		containerWindowType = {
-			name = "REP_mz_state_bars"
-			position = { x = 140 y = 190 }
+			name = "ZET_bars"
+			position = { x = 140 y = 380 } 
+			instantTextboxType = {
+				name = "ZET_state_chosen_text"
+				position = { x = 0 y = -45 }
+				maxheight = 26
+				maxwidth = 187
+				text = [?ZET_gui_map_array^ZET_selected_region_name.GetName]
+				font = "hoi_36header"
+			}
 			iconType = {
-				name = "REP_resistance_bar"
+				name = "ZET_resistance_bar"
 				spriteType = "GFX_progressbar_red"
 				position = { x = 0 y = 0 }
 			}
 			iconType = {
-				name = "REP_mz_resistance_barframe"
+				name = "ZET_resistance_barframe"
 				spriteType = "GFX_barframe"
-				position = { x = -3 y = -3 } 
+				position = { x = -3 y = -3 }   
 			}
 			iconType = {
-				name = "REP_support_bar"
-				spriteType = "GFX_progressbar_green"
+				name = "ZET_production_bar"
+				spriteType = "GFX_progressbar_purple"
 				position = { x = 0 y = 32 }
 			} 
 			iconType = {
-				name = "REP_mz_support_barframe"
+				name = "ZET_production_barframe"
 				spriteType = "GFX_barframe"
 				position = { x = -3 y = 29 } 
 			}
@@ -59,9 +67,10 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "ZET_map_container"
+		position = { x = 0 y = -180 } 
 		buttonType = {
 			name = "map_button"
-			spriteType = "GFX_ZET_temp_button_114"
+			spriteType = "GFX_ZET_map_button_1"
 			pdx_tooltip = ZET_map_tooltip
 		}
 	}

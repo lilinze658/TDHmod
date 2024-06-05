@@ -27,6 +27,43 @@
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
 ###### COUNTRY MODIFIERS ######
+
+SHE_incomplete_industrial_foundation_dynamic_modifier = {
+	enable = { always = yes }
+	icon = GFX_idea_SOV_third_five_year_plan_civilian
+	
+	production_factory_start_efficiency_factor = SHE_IIF_production_factory_start_efficiency_factor_var
+	production_factory_max_efficiency_factor = SHE_IIF_production_factory_max_efficiency_factor_var
+	production_factory_efficiency_gain_factor = SHE_IIF_production_factory_efficiency_gain_factor_var
+	production_speed_industrial_complex_factor = SHE_IIF_production_speed_industrial_complex_factor_var
+	production_speed_arms_factory_factor = SHE_IIF_production_speed_arms_factory_factor_var
+	custom_modifier_tooltip = SHE_IIF_cost_mtt
+	custom_modifier_tooltip = SHE_IIF_research_mtt
+}
+
+SHE_administrative_efficiency_dynamic_modifier = {
+	enable = { always = yes }
+	icon = GFX_idea_generic_disjointed_gov
+	
+	political_power_factor = SHE_AE_political_power_factor_var
+	surrender_limit = SHE_AE_surrender_limit_var
+	fascism_drift = SHE_AE_fascism_drift_var
+	command_power_gain_mult = SHE_AE_command_power_gain_mult_var
+	economy_cost_factor = SHE_AE_economy_cost_factor_var
+	trade_laws_cost_factor = SHE_AE_trade_laws_cost_factor_var
+	mobilization_laws_cost_factor = SHE_AE_mobilization_laws_cost_factor_var
+	
+	agency_upgrade_time = SHE_AE_agency_upgrade_time_var
+	civilian_intel_to_others = SHE_AE_civilian_intel_to_others_var
+	army_intel_to_others = SHE_AE_army_intel_to_others_var
+	navy_intel_to_others = SHE_AE_navy_intel_to_others_var
+	airforce_intel_to_others = SHE_AE_airforce_intel_to_others_var
+	enemy_operative_capture_chance_factor = SHE_AE_enemy_operative_capture_chance_factor_var
+	enemy_operative_detection_chance_factor = SHE_AE_enemy_operative_detection_chance_factor_var
+	intelligence_agency_defense = SHE_AE_intelligence_agency_defense_var
+	crypto_strength = SHE_AE_crypto_strength_var
+}
+
 SHE_imperial_army_dynamic_modifier = {
 	enable = { always = yes }
 	icon = GFX_idea_generic_manpower_bonus

@@ -4,5 +4,5 @@ ZET_decision_category = {
 	}
 	visible = { always = yes }
 	priority = 5
-	scripted_gui = ZET_gui
+	scripted_gui = ZET_gui 
 }

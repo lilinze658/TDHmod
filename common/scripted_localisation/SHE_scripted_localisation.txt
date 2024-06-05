@@ -18,3 +18,14 @@ defined_text = { # Country
 	}
 	text = { localization_key = SHE_DIV_alone_name }
 }
+
+defined_text = {
+	name = GETDIVAimTime
+	text = {
+		trigger = {
+			has_completed_focus = SHE_aim_to_shenzhou
+		}
+		localization_key = SHE_aim_to_shenzhou_completed
+	}
+	text = { localization_key = SHE_aim_to_shenzhou_uncomplete }
+}

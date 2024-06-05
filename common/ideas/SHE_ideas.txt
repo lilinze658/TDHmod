@@ -34,6 +34,248 @@ ideas = {
 			}
 		}
 		
+		SHE_resistance_of_aborigine_4 = {
+			name = SHE_resistance_of_aborigine
+			picture = chi_war_of_resistance3
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.20
+				political_power_gain = -0.4
+				conscription_factor = -0.40
+				resistance_activity = 0.10
+				custom_modifier_tooltip = SHE_resistance_of_aborigine_mtt
+			}
+		}
+		
+		SHE_resistance_of_aborigine_3 = {
+			name = SHE_resistance_of_aborigine
+			picture = chi_war_of_resistance2
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.3
+				conscription_factor = -0.30
+				resistance_activity = 0.075
+				custom_modifier_tooltip = SHE_resistance_of_aborigine_mtt
+			}
+		}
+		
+		SHE_resistance_of_aborigine_2 = {
+			name = SHE_resistance_of_aborigine
+			picture = chi_war_of_resistance2
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = -0.2
+				conscription_factor = -0.20
+				resistance_activity = 0.05
+				custom_modifier_tooltip = SHE_resistance_of_aborigine_mtt
+			}
+		}
+		
+		SHE_resistance_of_aborigine_1 = {
+			name = SHE_resistance_of_aborigine
+			picture = chi_war_of_resistance
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.1
+				conscription_factor = -0.10
+				resistance_activity = 0.025
+				custom_modifier_tooltip = SHE_resistance_of_aborigine_mtt
+			}
+		}
+		
+		SHE_not_acclimatized_5 = {
+			name = SHE_not_acclimatized
+			picture = chi_army_corruption
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = -0.30
+				industrial_capacity_dockyard = -0.30
+				global_building_slots_factor = -0.20
+				production_speed_buildings_factor = -0.10
+			}
+		}
+		
+		SHE_not_acclimatized_4 = {
+			name = SHE_not_acclimatized
+			picture = chi_army_corruption
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = -0.24
+				industrial_capacity_dockyard = -0.24
+				global_building_slots_factor = -0.16
+				production_speed_buildings_factor = -0.08
+			}
+		}
+		
+		SHE_not_acclimatized_3 = {
+			name = SHE_not_acclimatized
+			picture = chi_army_corruption2
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = -0.16
+				industrial_capacity_dockyard = -0.16
+				global_building_slots_factor = -0.12
+				production_speed_buildings_factor = -0.06
+			}
+		}
+		
+		SHE_not_acclimatized_2 = {
+			name = SHE_not_acclimatized
+			picture = chi_army_corruption2
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = -0.16
+				industrial_capacity_dockyard = -0.16
+				global_building_slots_factor = -0.08
+				production_speed_buildings_factor = -0.04
+			}
+		}
+		
+		SHE_not_acclimatized_1 = {
+			name = SHE_not_acclimatized
+			picture = chi_army_corruption3
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = -0.08
+				industrial_capacity_dockyard = -0.08
+				global_building_slots_factor = -0.04
+				production_speed_buildings_factor = -0.02
+			}
+		}
+		
+		SHE_incomplete_industrial_foundation_fake = {
+			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_start_efficiency_factor = -0.10
+				production_factory_max_efficiency_factor = -0.20
+				production_factory_efficiency_gain_factor = -0.10
+				production_speed_industrial_complex_factor = -0.20
+				production_speed_arms_factory_factor = -0.10
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = 0.05
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = 0.10
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = 0.10
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = 0.20
+					instant = yes
+				}
+			}
+			research_bonus = {
+				industry = -0.10
+				electronics = -0.20
+				support_tech = 0.05
+			}
+		}
+		
+		SHE_administrative_efficiency_fake = {
+			name = SHE_administrative_efficiency
+			picture = generic_disjointed_gov
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.40
+				surrender_limit = -0.40
+				fascism_drift = -0.50
+				command_power_gain_mult = 0.10
+				economy_cost_factor = 0.33
+				trade_laws_cost_factor = 0.33
+				mobilization_laws_cost_factor = 0.33
+				
+				agency_upgrade_time = 1.00
+				civilian_intel_to_others = 50
+				army_intel_to_others = 50
+				navy_intel_to_others = 50
+				airforce_intel_to_others = 50
+				enemy_operative_capture_chance_factor = -0.25
+				enemy_operative_detection_chance_factor = -0.25
+				intelligence_agency_defense = -0.50
+				crypto_strength = -1
+			}
+		}
+		
 		SHE_navy_expand = {
 			picture = jap_interservice_rivalry_navy_dominant
 			allowed = {
