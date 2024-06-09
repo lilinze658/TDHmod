@@ -1,6 +1,6 @@
 characters={ 
 	ENU_miuyun={
-		name=缪云
+		name= miuyun
 		portraits={
 			civilian={
 				large="gfx/leaders/ENU/缪云.dds"
@@ -12,20 +12,21 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
-				 traits = {  }
+		desc = "ENU_miuyun_APDF_DES"
+				 traits = { guanchazhe chaogudaiyijiyanjiuzhe }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
-			}
+		}
 		corps_commander = {
-			legacy_id = 1
+		desc = "ENU_miuyun_APDF_DES"
+			legacy_id = 31
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 
@@ -43,18 +44,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "ENU_R_APDF_DES"
+			legacy_id = 32
+			traits = { career_officer organizer infantry_expert improvisation_expert commando }
+			skill = 4
 			attack_skill = 4
-			defense_skill = 3
+			defense_skill = 4
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 4
 		}
 	}
 
 	ENU_pohuaizhe={
-		name=破坏者
+		name= pohuaizhe
 		portraits={
 			civilian={
 				large="gfx/leaders/ENU/破坏者.dds"
@@ -67,18 +69,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "ENU_pohuaizhe_APDF_DES"
+			legacy_id = 33
+			traits = { trait_engineer fortress_buster bearer_of_artillery trait_cautious }
+			skill = 3
 			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
 	ENU_xundaozhe={
-		name=殉道者
+		name= xundaozhe
 		portraits={
 			civilian={
 				large="gfx/leaders/ENU/殉道者.dds"
@@ -91,18 +94,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
+		desc = "ENU_xundaozhe_APDF_DES"
+			legacy_id = 34
+			traits = { harsh_leader adaptable commando urban_assault_specialist }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 3
 		}
 	}
 
 	ENU_caixia={
-		name=彩夏
+		name= caixia
 		portraits={
 			civilian={
 				large="gfx/leaders/ENU/彩夏.dds"
@@ -114,19 +118,20 @@ characters={
 		
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		navy_leader = {
+		desc = "ENU_caixia_APDF_DES"
+			legacy_id = 35
+			traits = { gunnery_expert battleship_adherent spotter cruiser_captain }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 5
 		}
 	}
 
 	ENU_yilian={
-		name=伊莲
+		name= yilian
 		portraits={
 			civilian={
 				large="gfx/leaders/RED/伊莲.dds"
@@ -139,18 +144,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "ENU_yilian_APDF_DES"
+			legacy_id = 36
+			traits = { trait_reckless scavenger }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 
 	ENU_linai={
-		name=莉乃
+		name= linai
 		portraits={
 			civilian={
 				large="gfx/leaders/STA/莉乃.dds"
@@ -163,18 +169,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+		desc = "ENU_linai_APDF_DES"
+			legacy_id = 37
+			traits = { trickster ranger organizer adaptable skilled_staffer ambusher brilliant_strategist infantry_officer }
 			skill = 5
-			attack_skill = 4
-			defense_skill = 3
+			attack_skill = 5
+			defense_skill = 4
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 4
 		}
 	}
 
 	ENU_miluoxita={
-		name=米洛茜塔
+		name= miluoxita
 		portraits={
 			civilian={
 				large="gfx/leaders/STA/米洛茜塔.dds"
@@ -187,18 +194,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "ENU_miluoxita_APDF_DES"
+			legacy_id = 38
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 4
 		}
 	}
 
 	ENU_hedifuni={
-		name=赫蒂芙尼
+		name= hedifuni
 		portraits={
 			civilian={
 				large="gfx/leaders/STA/赫蒂芙尼.dds"
@@ -207,19 +215,18 @@ characters={
 				large="gfx/leaders/STA/赫蒂芙尼.dds" 
 				small="gfx/interface/ideas/XXX.png"
 			}
-		
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		 desc = "ENU_hedifuni_APDF_DES"
+			legacy_id = 39
+			traits = { fleet_protector search_pattern_expert navy_career_officer }
+			skill = 3
 			attack_skill = 4
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 1
+			logistics_skill = 2
 		}
 	}
-
 }
 	

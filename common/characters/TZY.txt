@@ -1,6 +1,6 @@
 characters={ 
 	TZY_lilimaliansanshi={
-		name=莉莉玛莲三世
+		name= lilimaliansanshi
 		portraits={
 			civilian={
 				large="gfx/leaders/TZY/莉莉玛莲三世.dds"
@@ -12,62 +12,66 @@ characters={
 		
 		}
 		country_leader={
+        desc = "TZY_lilimaliansanshi_APDF_DES"
 		    traits = {  }
 			ideology= socialism
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
+		desc = "TZY_lilimaliansanshi_APDF_DES"
+			legacy_id = 209
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 
 	TZY_nimideka={
-		name=尼米德卡
+		name= nimideka
 		portraits={
 			civilian={
 				large="gfx/leaders/TZY/尼米德卡.dds"
 			}
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		navy_leader = {
+		desc = "TZY_xinaiya_APDF_DES"
+			legacy_id = 210
+			traits = { aviation_enthusiast air_controller search_pattern_expert torpedo_bomber }
+			skill = 4
 			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 5
 		}
 	}
 
 	TZY_fukelina={
-		name=芙可丽娜
+		name= fukelina
 		portraits={
 			civilian={
 				large="gfx/leaders/TZY/芙可丽娜.dds"
 			}
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		navy_leader = {
+		desc = "TZY_fukelina_APDF_DES"
+			legacy_id = 211
+			traits = { blockade_runner fleet_protector battleship_adherent }
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			maneuvering_skill = 2
+			coordination_skill = 3
 		}
 	}
 
 	TZY_feinila={
-		name=菲妮拉
+		name= feinila
 		portraits={
 			civilian={
 				large="gfx/leaders/TZY/菲妮拉.dds"
@@ -75,18 +79,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "TZY_feinila_APDF_DES"
+			legacy_id = 212
+			traits = { armor_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 
 	TZY_kelisiduo={
-		name=克莉丝多
+		name= kelisiduo
 		portraits={
 			civilian={
 				large="gfx/leaders/TZY/克莉丝多.dds"
@@ -94,18 +99,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "TZY_kelisiduo_APDF_DES"
+			legacy_id = 213
+			traits = { trait_cautious guerilla_fighter skilled_staffer infantry_leader }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
 		}
 	}
 
 	TZY_katelan={
-		name=卡特兰
+		name= katelan
 		portraits={
 			civilian={
 				large="gfx/leaders/TZY/卡特兰.dds"
@@ -113,37 +119,38 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "TZY_katelan_APDF_DES"
+			legacy_id = 214
+			traits = { jungle_rat ranger ambusher }
+			skill = 3
 			attack_skill = 4
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 
 	TZY_biyoulai={
-		name=比优莱
+		name= biyoulai
 		portraits={
 			civilian={
 				large="gfx/leaders/TZY/比优莱.dds"
 			}
 		}
-		
 		corps_commander = {
-			legacy_id = 1
+		desc = "TZY_biyoulai_APDF_DES"
+			legacy_id = 216
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 
 	TZY_feidinisiya={
-		name=菲蒂尼丝娅
+		name= feidinisiya
 		portraits={
 			civilian={
 				large="gfx/leaders/TZY/菲蒂尼丝娅.dds"
@@ -151,18 +158,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+		desc = "TZY_feidinisiya_APDF_DES"
+			legacy_id = 217
+			traits = { combined_arms_expert panzer_expert improvisation_expert trait_cautious armor_officer }
 			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 
 	TZY_youliya={
-		name=尤利娅
+		name= youliya
 		portraits={
 			civilian={
 				large="gfx/leaders/TZY/尤利娅.dds"
@@ -170,18 +178,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "TZY_youliya_APDF_DES"
+			legacy_id = 218
+			traits = { skilled_staffer bearer_of_artillery fortress_buster politically_connected }
+			skill = 4
 			attack_skill = 4
-			defense_skill = 3
+			defense_skill = 2
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 4
 		}
 	}
 
 	TZY_katewen={
-		name=卡特文
+		name= katewen
 		portraits={
 			civilian={
 				large="gfx/leaders/TZY/卡特文.dds"
@@ -189,29 +198,31 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "TZY_katewen_APDF_DES"
+			legacy_id = 219
+			traits = { infantry_officer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	TZY_aisilan={
-		name=艾丝兰
+		name= aisilan
 		portraits={
 			civilian={
 				large="gfx/leaders/TZY/艾丝兰.dds"
 			}
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+		field_marshal = {
+		desc = "TZY_aisilan_APDF_DES"
+			legacy_id = 220
+			traits = { fortress_buster organizer skilled_staffer improvisation_expert fast_planner war_hero }
 			skill = 5
-			attack_skill = 4
-			defense_skill = 3
+			attack_skill = 5
+			defense_skill = 5
 			planning_skill = 4
 			logistics_skill = 5
 		}

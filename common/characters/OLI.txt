@@ -1,6 +1,6 @@
 characters={ 
 	OLI_kela={
-		name=科拉
+		name= kela
 		portraits={
 			civilian={
 				large="gfx/leaders/OLI/科拉.dds"
@@ -12,16 +12,17 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
+			desc = "OLI_kela_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "OLI_kela_APDF_DES"
+			legacy_id = 127
+			traits = { cavalry_officer harsh_leader cavalry_leader }
+			skill = 4
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 4

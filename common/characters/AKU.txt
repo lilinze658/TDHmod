@@ -9,7 +9,7 @@ characters={
 				large="gfx/leaders/AKU/卡玛.dds" 
 				small="gfx/interface/ideas/XXX.png"
 			}
-		
+		 
 		}
 		country_leader={
 		desc = "AKU_1_APDF_DES"
@@ -21,12 +21,12 @@ characters={
 		corps_commander = {
 			desc = "AKU_1_APDF_DES"
 			legacy_id = 4
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+			traits = { infantry_leader camouflage_expert }
+			skill = 3
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 

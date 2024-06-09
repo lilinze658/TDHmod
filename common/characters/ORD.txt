@@ -19,8 +19,8 @@ characters={
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = { th_trait_Ranger }
+			legacy_id = 132
+			traits = { th_trait_Ranger cavalry_leader cavalry_expert cavalry_officer old_guard inflexible_strategist }
 			skill = 7
 			attack_skill = 6
 			defense_skill = 5
@@ -42,20 +42,21 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
+			desc = "ORD_aluoya_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "ORD_aluoya_APDF_DES"
+			legacy_id = 133
+			traits = { cavalry_officer }
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
@@ -72,14 +73,15 @@ characters={
 		
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		field_marshal = {
+		desc = "ORD_afulan_APDF_DES"
+			legacy_id = 134
+			traits = { cavalry_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 

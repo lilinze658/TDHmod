@@ -32,7 +32,7 @@ characters={
         }
 		corps_commander = {
 			desc = "RED_1_APDF_DES"
-			legacy_id = 1
+			legacy_id = 144
 			traits = { guerilla_fighter infantry_officer camouflage_expert infantry_leader expert_delegator organisational_leader }
 			skill = 5
 			attack_skill = 6
@@ -52,7 +52,7 @@ characters={
 		
 		corps_commander = {
 			desc = "RED_6_APDF_DES"
-			legacy_id = 1
+			legacy_id = 145
 			traits = { ambusher infantry_officer fortress_buster }
 			skill = 1
 			attack_skill = 3
@@ -71,13 +71,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "RED_kelana_APDF_DES"
+			legacy_id = 146
+			traits = { guerilla_fighter }
+			skill = 3
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
@@ -90,10 +91,11 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "RED_gewenlite_APDF_DES"
+			legacy_id = 147
+			traits = { trait_cautious guerilla_fighter camouflage_expert }
+			skill = 4
+			attack_skill = 3
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 5
@@ -109,13 +111,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "RED_anjieruila_APDF_DES"
+			legacy_id = 148
+			traits = { urban_assault_specialist }
+			skill = 2
+			attack_skill = 1
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 
@@ -129,7 +132,7 @@ characters={
 		
 		corps_commander = {
 			desc = "RED_7_APDF_DES"
-			legacy_id = 1
+			legacy_id = 149
 			traits = { expert_improviser guerilla_fighter }
 			skill = 3
 			attack_skill = 2
@@ -148,13 +151,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "RED_lisa_APDF_DES"
+			legacy_id = 150
+			traits = { bearer_of_artillery }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 
@@ -167,13 +171,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "RED_qietela_APDF_DES"
+			legacy_id = 151
+			traits = { armor_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 
@@ -186,13 +191,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "RED_lingxue_APDF_DES"
+			legacy_id = 152
+			traits = { armor_officer panzer_expert }
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
@@ -205,7 +211,8 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
+		desc = "RED_jilan_APDF_DES"
+			legacy_id = 153
 			traits = { unyielding_defender  }
 			skill = 1
 			attack_skill = 1
@@ -224,13 +231,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
+		desc = "ENU_yilian_APDF_DES"
+			legacy_id = 154
+			traits = { armor_officer panzer_expert  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 4
 		}
 	}
 
@@ -243,13 +251,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "RED_kadi_APDF_DES"
+			legacy_id = 155
+			traits = { armor_officer }
+			skill = 2
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 1
+			logistics_skill = 2
 		}
 	}
 
@@ -263,7 +272,7 @@ characters={
 		
 		corps_commander = {
 			desc = "RED_5_APDF_DES"
-			legacy_id = 1
+			legacy_id = 156
 			traits = { logistics_wizard }
 			skill = 2
 			attack_skill = 2
@@ -283,7 +292,7 @@ characters={
 		
 		corps_commander = {
 			desc = "RED_3_APDF_DES"
-			legacy_id = 1
+			legacy_id = 157
 			traits = { infantry_leader jungle_rat }
 			skill = 1
 			attack_skill = 3
@@ -302,8 +311,8 @@ characters={
 		}
 		
 		navy_leader = {
-			desc = "RED_2_APDF_DES"
-			legacy_id = 1
+			desc = "RED_zhaoyazou_APDF_DES"
+			legacy_id = 158
 			traits = { fleet_protector concealment_expert cruiser_captain ironside }
 			skill=5
 			attack_skill=5
@@ -338,7 +347,7 @@ characters={
         }
 		field_marshal = {
 			desc = "RED_8_APDF_DES"
-			legacy_id = 1
+			legacy_id = 159
 			traits = { guerilla_fighter infantry_officer camouflage_expert infantry_leader expert_delegator organisational_leader inspirational_leader }
 			skill = 7
 			attack_skill = 7

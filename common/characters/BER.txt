@@ -13,12 +13,14 @@ characters = {
 		
 		}
 		country_leader = {
+		desc = "SHE_LinGui_APDF_DES"
 			traits = {  }
 			ideology = Fascism_ideology 
 			expire = "4999.1.1.1"
 			id = -1
 		}
 		corps_commander = {
+		desc = "SHE_LinGui_APDF_DES"
 			legacy_id = 9
 			traits = { infantry_leader infantry_expert trait_reckless infantry_officer fortress_buster }
 			skill = 4
@@ -43,6 +45,7 @@ characters = {
 		
 		}
 		corps_commander = {
+		desc = "SHE_LinGui_APDF_DES"
 			legacy_id = 10
 			traits = { organizer skilled_staffer trait_cautious }
 			skill = 3

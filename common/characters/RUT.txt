@@ -1,6 +1,6 @@
 characters={ 
 	RUT_kousini={
-		name=蔻丝妮
+		name= kousini
 		portraits={
 			civilian={
 				large="gfx/leaders/RUT/蔻丝妮.dds"
@@ -12,20 +12,20 @@ characters={
 		
 		}
 		country_leader={
-		desc = ""
+		desc = "RUT_kousini_APDF_DES"
 		     traits = {  }
 			ideology= socialism 
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			legacy_id = 175
+			traits = { media_personality }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 }	

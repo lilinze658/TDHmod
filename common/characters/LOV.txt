@@ -20,13 +20,13 @@ characters={
 			}
 		corps_commander = {
 			desc = "LOV_APDF_DES"
-			legacy_id = 22
+			legacy_id = 73
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 
@@ -43,20 +43,21 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
+		desc = "COU_walundina_APDF_DES"
 				 traits = { unpopular_monarch inexperienced_monarch }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "COU_walundina_APDF_DES"
+			legacy_id = 74
+			traits = { harsh_leader  }
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 3
+			logistics_skill = 4
 		}
 	}
 
@@ -74,10 +75,11 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "LOV_saiweinajia_APDF_DES"
+			legacy_id = 75
+			traits = { cavalry_leader skilled_staffer cavalry_expert improvisation_expert inflexible_strategist cavalry_officer }
+			skill = 4
+			attack_skill = 5
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 5
@@ -97,20 +99,20 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
+		desc = "LOV_silandi_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+			legacy_id = 76
+			traits = { politically_connected trait_cautious }
+			skill = 3
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 4
 		}
 	}
 
@@ -128,11 +130,12 @@ characters={
 			}
 			
 			corps_commander = {
-				legacy_id = 1
-				traits = {  }
-				skill = 5
-				attack_skill = 4
-				defense_skill = 3
+			desc = "LOV_yilinsina_APDF_DES"
+				legacy_id = 77
+				traits = { trait_cautious brilliant_strategist skilled_staffer bearer_of_artillery naval_liason urban_assault_specialist }
+				skill = 4
+				attack_skill = 2
+				defense_skill = 5
 				planning_skill = 4
 				logistics_skill = 5
 			}
@@ -148,17 +151,17 @@ characters={
 				large="gfx/leaders/LOV/埃琳娜.dds" 
 				small="gfx/interface/ideas/XXX.png"
 			}
-		
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "LOV_ailinna_APDF_DES"
+			legacy_id = 78
+			traits = { armor_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}  
 
@@ -176,13 +179,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "LOV_feiwali_APDF_DES"
+			legacy_id = 79
+			traits = { armor_officer }
+			skill = 2
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}  
 
@@ -199,14 +203,15 @@ characters={
 		
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		navy_leader = {
+		desc = "LOV_ailixiya_APDF_DES"
+			legacy_id = 80
+			traits = { battleship_adherent gunnery_expert politically_connected  smoke_screen_expert big_guns_expert marksman }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
 		}
 	} 
 
@@ -223,14 +228,15 @@ characters={
 		
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		navy_leader = {
+		desc = "LOV_gelintela_APDF_DES"
+			legacy_id = 81
+			traits = { naval_lineage craven politically_connected cruiser_captain safety_first }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 5
+			coordination_skill = 2
 		}
 	} 
 
@@ -248,13 +254,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
+		desc = "LOV_mifeixiutiya_APDF_DES"
+			legacy_id = 82
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	} 
 
@@ -272,13 +279,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
+		desc = "LOV_ailuola_APDF_DES"
+			legacy_id = 83
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	} 
 	LOV_walunsite={
@@ -294,17 +302,18 @@ characters={
 		
 		}
 		country_leader={
-			desc = "LOV_APDF_DES"
+			desc = "LOV_walunsite_APDF_DES"
 				 traits = { jefe born_agitator backroom_backstabber  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+			field_marshal = {
+			desc = "LOV_walunsite_APDF_DES"
+			legacy_id = 84
+			traits = { cavalry_leader skilled_staffer combined_arms_expert cavalry_expert fortress_buster offensive_doctrine inspirational_leader aggressive_assaulter media_personality harsh_leader cavalry_officer  }
 			skill = 5
-			attack_skill = 4
+			attack_skill = 5
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 5
@@ -324,7 +333,7 @@ characters={
 		
 		}
 		advisor={	
-		    desc = "RED_斯蒂优_APDF_DES"
+		    desc = "RED_8_APDF_DES"
 			slot = high_command
 			idea_token = 斯蒂优
 			allowed = {
@@ -336,39 +345,16 @@ characters={
 			cost = 100
         }
 		field_marshal = {
-			legacy_id = 1
+		desc = "RED_8_APDF_DES"
+			legacy_id = 85
 			traits = { guerilla_fighter infantry_officer camouflage_expert infantry_leader expert_delegator organisational_leader inspirational_leader }
-			skill = 7
-			attack_skill = 7
-			defense_skill = 4
-			planning_skill = 6
-			logistics_skill = 7
+			skill = 4
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 3
 		}
 	}
-
-	LOV_bulalita={
-		name=布拉莉塔
-		portraits={
-			civilian={
-				large="gfx/leaders/LOV/布拉莉塔.dds"
-			}
-			army = {   
-				large="gfx/leaders/LOV/布拉莉塔.dds" 
-				small="gfx/interface/ideas/XXX.png"
-			}
-		
-		}
-		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
-		}
-	} 
 
 	LOV_ailisi={
 		name=爱丽丝
@@ -384,13 +370,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "LOV_ailisi_APDF_DES"
+			legacy_id = 86
+			traits = { armor_officer panzer_expert }
+			skill = 3
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 2
 		}
 	} 
 	LOV_bulanershiqishi={
@@ -405,16 +392,54 @@ characters={
 			}
 		
 		}
-		
 		corps_commander = {
-			legacy_id = 1
+		desc = "LOV_bulanershiqishi_APDF_DES"
+			legacy_id = 87
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	} 
+	LOV_kataliya={
+		name=卡塔莉娅
+		portraits = {
+			army = {
+				large = "gfx/leaders/LOV/卡塔莉娅.dds" 
+			}
+		}
+		corps_commander = {
+		desc = "LOV_kataliya_APDF_DES"
+			legacy_id = 88
+			traits = {
+				infantry_officer infantry_leader organizer urban_assault_specialist
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	} 
+	LOV_buerliya={
+		name=布尔莉娅
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/布尔莉娅.dds"
+			}
+		}
+		corps_commander = {
+		desc = "LOV_buerliya_APDF_DES"
+			legacy_id = 89
+			traits = { brilliant_strategist old_guard trait_cautious }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
 }
 	

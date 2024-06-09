@@ -9,7 +9,7 @@ characters={
 				large="gfx/leaders/EIN/克伦斯基.dds" 
 				small="gfx/interface/ideas/XXX.png"
 			}
-		
+	 	
 		}
 		country_leader={
 		desc = ""
@@ -19,7 +19,7 @@ characters={
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
+			legacy_id = 30
 			traits = {  }
 			skill = 5
 			attack_skill = 4

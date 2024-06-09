@@ -12,20 +12,20 @@ characters={
 		
 		}
 		country_leader={
-		desc = ""
+		desc = "STA_sitawushi_APDF_DES"
 		     traits = {  }
 			 ideology= despotism 
 			expire="4999.1.1.1"
 			id=-1
 		}
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		camouflage_expert = {
+		desc = "STA_sitawushi_APDF_DES"
+			legacy_id = 195
+			traits = {}
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 
@@ -42,13 +42,14 @@ characters={
 		
 		}
 		corps_commander = {
-			legacy_id = 1
+		desc = "STA_zhennimajuewang_APDF_DES"
+			legacy_id = 196
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 
@@ -64,14 +65,16 @@ characters={
 			}
 		
 		}
+		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+		desc = "ENU_linai_APDF_DES"
+			legacy_id = 197
+			traits = { trickster ranger organizer adaptable skilled_staffer ambusher brilliant_strategist infantry_officer }
 			skill = 5
-			attack_skill = 4
-			defense_skill = 3
+			attack_skill = 5
+			defense_skill = 4
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 4
 		}
 	}
 
@@ -88,39 +91,40 @@ characters={
 		
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "STA_sitawushi_APDF_DES"
+			legacy_id = 198
+			traits = { organizer politically_connected  }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 
 	STA_kadi={
-		name=卡蒂
+		name=伊莲
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/卡蒂.dds"
+				large="gfx/leaders/STA/伊莲.dds"
 			}
 			army = {   
-				large="gfx/leaders/STA/卡蒂.dds" 
+				large="gfx/leaders/STA/伊莲.dds" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
+		desc = "ENU_yilian_APDF_DES"
+			legacy_id = 199
+			traits = { armor_officer panzer_expert  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 4
 		}
 	}
-
 	STA_jiangyu={
 		name=江雨
 		portraits={
@@ -134,13 +138,14 @@ characters={
 		
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "STA_jiangyu_APDF_DES"
+			legacy_id = 200
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 
@@ -158,13 +163,13 @@ characters={
 		}
 		corps_commander = {
 			desc = "RED_4_APDF_DES"
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+			legacy_id = 201
+			traits = { infantry_officer  }
+			skill = 2
+			attack_skill = 1
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 
@@ -180,14 +185,16 @@ characters={
 			}
 		
 		}
+		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "ENU_hedifuni_APDF_DES"
+			legacy_id = 202
+			traits = { fleet_protector search_pattern_expert navy_career_officer }
+			skill = 3
 			attack_skill = 4
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 1
+			logistics_skill = 2
 		}
 	}
 
@@ -204,13 +211,14 @@ characters={
 		
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "STA_hedilan_APDF_DES"
+			legacy_id = 203
+			traits = { trait_cautious career_officer organizer }
+			skill = 3
 			attack_skill = 4
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 3
+			logistics_skill = 4
 		}
 	}
 
@@ -224,7 +232,7 @@ characters={
 		
 		corps_commander = {
 			desc = "RED_5_APDF_DES"
-			legacy_id = 1
+			legacy_id = 204
 			traits = { logistics_wizard }
 			skill = 2
 			attack_skill = 2
@@ -247,13 +255,14 @@ characters={
 		
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "STA_aimisha_APDF_DES"
+			legacy_id = 205
+			traits = { trait_cautious }
+			skill = 2
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 
@@ -271,13 +280,15 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "ENU_miluoxita_APDF_DES"
+			legacy_id = 206
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 4
 		}
 	}
-}	
+	
+}

@@ -1,6 +1,6 @@
 characters={ 
 	KIA_hanni={
-		name=汉妮
+		name= hanni
 		portraits={
 			civilian={
 				large="gfx/leaders/KIA/汉妮.dds"
@@ -12,20 +12,40 @@ characters={
 		
 		}
 		country_leader={
-		desc = ""
+		desc = "KIA_hanni_APDF_DES"
 		     traits = {  }
 			ideology= rexism
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "KIA_hanni_APDF_DES"
+			legacy_id = 62
+			traits = { armor_officer scavenger }
+			skill = 3
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
+	KIA_laoluntina={
+		name= laoluntina
+		portraits = {
+			army = {
+				large = "gfx/leaders/KIA/劳伦缇娜.dds"
+			}
+		}
+		corps_commander = {
+		desc = "KIA_laoluntina_APDF_DES"
+			legacy_id = 63
+			traits = { guerilla_fighter infantry_leader skilled_staffer career_officer infantry_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
 }	

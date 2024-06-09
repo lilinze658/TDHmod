@@ -9,7 +9,7 @@ characters={
 				large="gfx/leaders/BSP/格莱科樱.dds" 
 				small="gfx/interface/ideas/XXX.png"
 			}
-		
+		 
 		}
 		country_leader={
 			desc = "BSP_1_APDF_DES"
@@ -20,13 +20,13 @@ characters={
 			}
 			corps_commander = {
 				desc = "BSP_1_APDF_DES"
-				legacy_id = 1
-				traits = {  }
-				skill = 5
-				attack_skill = 4
+				legacy_id = 11
+				traits = { old_guard hill_fighter adaptable }
+				skill = 3
+				attack_skill = 3
 				defense_skill = 3
 				planning_skill = 4
-				logistics_skill = 5
+				logistics_skill = 1
 			}
 	
 	}

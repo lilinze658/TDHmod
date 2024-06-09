@@ -1,6 +1,6 @@
 characters={ 
 	WIM_weiliya={
-		name=薇莉娅
+		name= weiliya
 		portraits={
 			civilian={
 				large="gfx/leaders/WIM/薇莉娅.dds"
@@ -12,25 +12,26 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
+		desc = "WIM_weiliya_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
+		desc = "WIM_weiliya_APDF_DES"
+			legacy_id = 224
+			traits = { harsh_leader media_personality }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 5
 			logistics_skill = 5
 		}
 	}
 
 	WIM_fanluntingna={
-		name=范伦汀娜
+		name= fanluntingna
 		portraits={
 			civilian={
 				large="gfx/leaders/WIM/范伦汀娜.dds"
@@ -43,18 +44,19 @@ characters={
 		}
 
 		corps_commander = {
-			legacy_id = 1
+		desc = "WIM_fanluntingna_APDF_DES"
+			legacy_id = 225
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
 		}
 	}
 
 	WIM_xitelei={
-		name=希特蕾
+		name= xitelei
 		portraits={
 			civilian={
 				large="gfx/leaders/WIM/希特蕾.dds"
@@ -67,18 +69,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "WIM_xitelei_APDF_DES"
+			legacy_id = 226
+			traits = { armor_officer skilled_staffer }
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
+			planning_skill = 2
 			logistics_skill = 5
 		}
 	}
 
 	WIM_kaluoer={
-		name=卡洛儿
+		name= kaluoer
 		portraits={
 			civilian={
 				large="gfx/leaders/WIM/卡洛儿.dds"
@@ -90,14 +93,15 @@ characters={
 		
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		navy_leader = {
+		desc = "WIM_kaluoer_APDF_DES"
+			legacy_id = 227
+			traits = { aviation_enthusiast torpedo_bomber }
+			skill = 3
 			attack_skill = 4
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			maneuvering_skill = 3
+			coordination_skill = 2
 		}
 	}
 }
