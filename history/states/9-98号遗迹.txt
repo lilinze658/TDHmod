@@ -13,16 +13,22 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 5
-			arms_factory = 15
-			dockyard = 5
-			air_base = 5
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 8
 			776 = {
-                naval_base = 5
+                naval_base = 8
 			}  
 		}
 		add_core_of = SHE
-
+		set_variable = { state_local_factories_var = -1.00 }
+		set_variable = { state_state_resources_factor_var = -1.00 }
+		set_variable = { state_industrial_complex_var = 0 }
+		set_variable = { state_arms_factory_var = 0 }
+		set_variable = { state_dockyard_var = 0 }
+		set_variable = { state_capacity_factory_var = 0 }
+		set_variable = { state_capacity_dockyard_var = 0 }
 	}
 
 	provinces={

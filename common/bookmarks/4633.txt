@@ -87,10 +87,14 @@ bookmarks = {
 			history = "SHE_4633_DESC"
 			ideology = fascism
 			ideas = {
-				
+				SHE_incomplete_industrial_foundation_fake
+				SHE_administrative_efficiency_fake
+				SHE_national_consensus
 			}	
 			focuses = {
-				
+				SHE_industry_revolution
+				SHE_test_in_combat
+				SHE_marshal_YangJieyu
 			}		
 		}
 

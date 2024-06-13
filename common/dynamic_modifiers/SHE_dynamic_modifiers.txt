@@ -26,7 +26,41 @@
 #	can be added to countries, states or unit leaders
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
+###### STATE MODIFIERS ######
+
+SHE_shore_bombardment_state_dynamic_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_SOV_armored_battery
+	
+	army_attack_factor = 0.50
+	army_defence_factor = 0.25
+	army_attack_speed_factor = 0.20
+}
+
+SHE_relics_exploration_state_dynamic_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_generic_construction
+	
+	local_factories = THIS.state_local_factories_var
+	state_resources_factor = THIS.state_state_resources_factor_var
+	local_intel_to_enemies = -1.00
+	recruitable_population_factor = -0.50
+	local_supplies_for_controller = 0.25
+	state_production_speed_buildings_factor = -0.80
+	custom_modifier_tooltip = SHE_RE_state_exploration_mtt
+}
+
 ###### COUNTRY MODIFIERS ######
+
+SHE_relics_exploration_dynamic_modifier = {
+	enable = { always = yes }
+	
+	industrial_factory_donations = SHE_RE_industrial_factory_donations_var
+	military_factory_donations = SHE_RE_military_factory_donations_var
+	dockyard_donations = SHE_RE_dockyard_donations_var
+	industrial_capacity_factory = SHE_RE_industrial_capacity_factory_var	
+	industrial_capacity_dockyard = SHE_RE_industrial_capacity_dockyard_var
+}
 
 SHE_incomplete_industrial_foundation_dynamic_modifier = {
 	enable = { always = yes }
@@ -39,6 +73,17 @@ SHE_incomplete_industrial_foundation_dynamic_modifier = {
 	production_speed_arms_factory_factor = SHE_IIF_production_speed_arms_factory_factor_var
 	custom_modifier_tooltip = SHE_IIF_cost_mtt
 	custom_modifier_tooltip = SHE_IIF_research_mtt
+	
+	command_power_gain_mult = SHE_IIF_command_power_gain_mult_var
+	max_command_power_mult = SHE_IIF_max_command_power_mult_var
+	production_speed_buildings_factor = SHE_IIF_production_speed_buildings_factor_var
+	research_speed_factor = SHE_IIF_research_speed_factor_var
+	local_resources_factor = SHE_IIF_local_resources_factor_var
+	production_speed_infrastructure_factor = SHE_IIF_production_speed_infrastructure_factor_var
+	production_speed_rail_way_factor = SHE_IIF_production_speed_rail_way_factor_var
+	production_speed_naval_base_factor = SHE_IIF_production_speed_naval_base_factor_var
+	consumer_goods_factor = SHE_IIF_consumer_goods_factor_var
+	global_building_slots_factor = SHE_IIF_global_building_slots_factor_var
 }
 
 SHE_administrative_efficiency_dynamic_modifier = {
@@ -62,6 +107,13 @@ SHE_administrative_efficiency_dynamic_modifier = {
 	enemy_operative_detection_chance_factor = SHE_AE_enemy_operative_detection_chance_factor_var
 	intelligence_agency_defense = SHE_AE_intelligence_agency_defense_var
 	crypto_strength = SHE_AE_crypto_strength_var
+	
+	intel_from_operatives_factor = SHE_AE_intel_from_operatives_factor_var
+	own_operative_detection_chance_factor = SHE_AE_own_operative_detection_chance_factor_var
+	own_operative_capture_chance_factor = SHE_AE_own_operative_capture_chance_factor_var
+	political_advisor_cost_factor = SHE_AE_political_advisor_cost_factor_var
+	stability_factor = SHE_AE_stability_factor_var
+	war_support_factor = SHE_AE_war_support_factor_var
 }
 
 SHE_imperial_army_dynamic_modifier = {
@@ -71,37 +123,30 @@ SHE_imperial_army_dynamic_modifier = {
 	army_infantry_attack_factor = SHE_IA_army_infantry_attack_factor_var
 	army_infantry_defence_factor = SHE_IA_army_infantry_defence_factor_var
 	supply_consumption_factor = SHE_IA_supply_consumption_factor_var
+	
+	experience_gain_army_factor = SHE_IA_experience_gain_army_factor_var
 }
 
 SHE_imperial_navy_dynamic_modifier = {
 	enable = { always = yes }
 	icon = GFX_idea_generic_navy_bonus
 	
-	navy_capital_ship_attack_factor = SHE_IA_navy_capital_ship_attack_factor_var
-	navy_capital_ship_defence_factor = SHE_IA_navy_capital_ship_defence_factor_var
-	screening_efficiency = SHE_IA_screening_efficiency_var
-	navy_anti_air_attack_factor = SHE_IA_navy_anti_air_attack_factor_var
-	naval_retreat_chance = SHE_IA_naval_retreat_chance_var
-	naval_accidents_chance = SHE_IA_naval_accidents_chance_var
+	navy_capital_ship_attack_factor = SHE_IN_navy_capital_ship_attack_factor_var
+	navy_capital_ship_defence_factor = SHE_IN_navy_capital_ship_defence_factor_var
+	screening_efficiency = SHE_IN_screening_efficiency_var
+	navy_anti_air_attack_factor = SHE_IN_navy_anti_air_attack_factor_var
+	naval_retreat_chance = SHE_IN_naval_retreat_chance_var
+	naval_accidents_chance = SHE_IN_naval_accidents_chance_var
 }
 
 SHE_imperial_airforce_dynamic_modifier = {
 	enable = { always = yes }
 	icon = GFX_idea_air_support_focus
 	
-	air_range_factor = SHE_IA_air_range_factor_var
-	air_agility_factor = SHE_IA_air_agility_factor_var
-	air_attack_factor = SHE_IA_air_attack_factor_var
-	air_maximum_speed_factor = SHE_IA_air_maximum_speed_factor_var
-	air_defence_factor = SHE_IA_air_defence_factor_var
-	army_bonus_air_superiority_factor = SHE_IA_army_bonus_air_superiority_factor_var
-}
-
-SHE_shore_bombardment_state_dynamic_modifier = {
-	enable = { always = yes }
-	icon = GFX_modifiers_SOV_armored_battery
-	
-	army_attack_factor = 0.50
-	army_defence_factor = 0.25
-	army_attack_speed_factor = 0.20
+	air_range_factor = SHE_IAF_air_range_factor_var
+	air_agility_factor = SHE_IAF_air_agility_factor_var
+	air_attack_factor = SHE_IAF_air_attack_factor_var
+	air_maximum_speed_factor = SHE_IAF_air_maximum_speed_factor_var
+	air_defence_factor = SHE_IAF_air_defence_factor_var
+	army_bonus_air_superiority_factor = SHE_IAF_army_bonus_air_superiority_factor_var
 }

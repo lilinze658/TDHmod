@@ -20,6 +20,38 @@ defined_text = { # Country
 }
 
 defined_text = {
+	name = GETYangStatus
+	text = {
+		trigger = {
+			has_relation_modifier = {
+				target = DIV
+				modifier = SHE_dim_star_static_1
+			}
+		}
+		localization_key = dim_star_mtt1
+	}
+	text = {
+		trigger = {
+			has_relation_modifier = {
+				target = DIV
+				modifier = SHE_dim_star_static_2
+			}
+		}
+		localization_key = dim_star_mtt2
+	}
+	text = {
+		trigger = {
+			has_relation_modifier = {
+				target = DIV
+				modifier = SHE_dim_star_static_3
+			}
+		}
+		localization_key = dim_star_mtt3
+	}
+	text = { localization_key = generic_null }
+}
+
+defined_text = {
 	name = GETDIVAimTime
 	text = {
 		trigger = {

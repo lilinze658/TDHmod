@@ -461,5 +461,119 @@ ideas = {
 				ai_focus_aggressive_factor = 0.75
 			}
 		}
+		
+		SHE_industry_revolution = {
+			#picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.40
+			}
+			research_bonus = {
+				industry = 0.05
+				electronics = 0.05
+			}
+		}
+		
+		SHE_population_management = {
+			#picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.10
+			}
+		}
+		
+		SHE_population_management_21 = {
+			name = SHE_population_management
+			#picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.15
+				political_power_cost = 0.1
+			}
+		}
+		
+		SHE_population_management_221 = {
+			name = SHE_population_management
+			#picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.15
+				political_power_cost = 0.15
+				conscription_factor = 0.10
+			}
+		}
+		
+		SHE_population_management_222 = {
+			name = SHE_population_management
+			#picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.15
+				political_power_cost = 0.15
+				party_popularity_stability_factor = 0.10
+			}
+		}
+		
+		SHE_population_management_23 = {
+			name = SHE_population_management
+			#picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.20
+				political_power_cost = 0.2
+				conscription_factor = 0.10
+				party_popularity_stability_factor = 0.10
+			}
+		}
+		
+		SHE_nation_unite = {
+			#picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+			}
+		}
 	}
 }

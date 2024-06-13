@@ -1,0 +1,428 @@
+DEBUG_SHE_effect_1 = {
+	if = {
+		limit = { is_debug = yes }
+		add_to_variable = { SHE_RE_industrial_factory_donations_var = 1 }
+	}
+}
+DEBUG_SHE_effect_2 = {
+	if = {
+		limit = { is_debug = yes }
+		add_to_variable = { SHE_RE_military_factory_donations_var = 1 }
+	}
+}
+DEBUG_SHE_effect_3 = {
+	if = {
+		limit = { is_debug = yes }
+		add_to_variable = { SHE_RE_dockyard_donations_var = 1 }
+	}
+}
+
+ROOT_core_add_1_infrastructure = {
+	random_owned_controlled_state = {
+		limit = {
+			is_core_of = ROOT
+			free_building_slots = {
+				building = infrastructure
+				size > 0
+				include_locked = yes
+			}
+		}
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+
+ROOT_core_add_1_industrial_complex = {
+	random_owned_controlled_state = {
+		limit = {
+			is_core_of = ROOT
+			free_building_slots = {
+				building = industrial_complex
+				size > 0
+				include_locked = yes
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+
+ROOT_core_add_1_arms_factory = {
+	random_owned_controlled_state = {
+		limit = {
+			is_core_of = ROOT
+			free_building_slots = {
+				building = arms_factory
+				size > 0
+				include_locked = yes
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+
+ROOT_core_add_1_dockyard = {
+	random_owned_controlled_state = {
+		limit = {
+			is_core_of = ROOT
+			is_coastal = yes
+			free_building_slots = {
+				building = dockyard
+				size > 0
+				include_locked = yes
+			}
+		}
+		add_building_construction = {
+			type = dockyard
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+
+SHE_IIF_infantry_equipment_cost_reduction = {
+	if = {
+		limit = { has_idea = SHE_IIF_infantry_equipment_cost_idea_5 }
+		add_to_variable = { SHE_IIF_command_power_gain_mult_var = 0.02 tooltip = command_power_gain_mult_tt }
+	}
+	else = {
+		add_to_variable = { SHE_IIF_cost_infantry_equipment_var = -0.05 tooltip = SHE_IIF_cost_infantry_equipment_tt }
+		hidden_effect = {
+			if = {
+				limit = { has_idea = SHE_IIF_infantry_equipment_cost_idea_4 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_infantry_equipment_cost_idea_4
+					add_idea = SHE_IIF_infantry_equipment_cost_idea_5
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_infantry_equipment_cost_idea_3 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_infantry_equipment_cost_idea_3
+					add_idea = SHE_IIF_infantry_equipment_cost_idea_4
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_infantry_equipment_cost_idea_2 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_infantry_equipment_cost_idea_2
+					add_idea = SHE_IIF_infantry_equipment_cost_idea_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_infantry_equipment_cost_idea_1 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_infantry_equipment_cost_idea_1
+					add_idea = SHE_IIF_infantry_equipment_cost_idea_2
+				}
+			}
+		}
+	}
+}
+
+SHE_IIF_artillery_equipment_cost_reduction = {
+	if = {
+		limit = { has_idea = SHE_IIF_artillery_equipment_cost_idea_5 }
+		add_to_variable = { SHE_IIF_command_power_gain_mult_var = 0.02 tooltip = command_power_gain_mult_tt }
+	}
+	else = {
+		add_to_variable = { SHE_IIF_cost_artillery_var = -0.05 tooltip = SHE_IIF_cost_artillery_tt }
+		hidden_effect = {
+			if = {
+				limit = { has_idea = SHE_IIF_artillery_equipment_cost_idea_4 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_artillery_equipment_cost_idea_4
+					add_idea = SHE_IIF_artillery_equipment_cost_idea_5
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_artillery_equipment_cost_idea_3 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_artillery_equipment_cost_idea_3
+					add_idea = SHE_IIF_artillery_equipment_cost_idea_4
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_artillery_equipment_cost_idea_2 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_artillery_equipment_cost_idea_2
+					add_idea = SHE_IIF_artillery_equipment_cost_idea_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_artillery_equipment_cost_idea_1 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_artillery_equipment_cost_idea_1
+					add_idea = SHE_IIF_artillery_equipment_cost_idea_2
+				}
+			}
+		}
+	}
+}
+
+SHE_IIF_motorized_equipment_cost_reduction = {
+	if = {
+		limit = { has_idea = SHE_IIF_motorized_equipment_cost_idea_5 }
+		add_to_variable = { SHE_IIF_command_power_gain_mult_var = 0.02 tooltip = command_power_gain_mult_tt }
+	}
+	else = {
+		add_to_variable = { SHE_IIF_cost_motorized_equipment_var = -0.05 tooltip = SHE_IIF_cost_motorized_equipment_tt }
+		hidden_effect = {
+			if = {
+				limit = { has_idea = SHE_IIF_motorized_equipment_cost_idea_4 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_motorized_equipment_cost_idea_4
+					add_idea = SHE_IIF_motorized_equipment_cost_idea_5
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_motorized_equipment_cost_idea_3 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_motorized_equipment_cost_idea_3
+					add_idea = SHE_IIF_motorized_equipment_cost_idea_4
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_motorized_equipment_cost_idea_2 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_motorized_equipment_cost_idea_2
+					add_idea = SHE_IIF_motorized_equipment_cost_idea_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_motorized_equipment_cost_idea_1 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_motorized_equipment_cost_idea_1
+					add_idea = SHE_IIF_motorized_equipment_cost_idea_2
+				}
+			}
+		}
+	}
+}
+
+SHE_IIF_armor_cost_reduction = {
+	if = {
+		limit = { has_idea = SHE_IIF_armor_cost_idea_6 }
+		add_to_variable = { SHE_IIF_command_power_gain_mult_var = 0.02 tooltip = command_power_gain_mult_tt }
+	}
+	else = {
+		add_to_variable = { SHE_IIF_cost_armor_var = -0.05 tooltip = SHE_IIF_cost_armor_tt }
+		hidden_effect = {
+			if = {
+				limit = { has_idea = SHE_IIF_armor_cost_idea_5 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_armor_cost_idea_5
+					add_idea = SHE_IIF_armor_cost_idea_6
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_armor_cost_idea_4 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_armor_cost_idea_4
+					add_idea = SHE_IIF_armor_cost_idea_5
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_armor_cost_idea_3 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_armor_cost_idea_3
+					add_idea = SHE_IIF_armor_cost_idea_4
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_armor_cost_idea_2 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_armor_cost_idea_2
+					add_idea = SHE_IIF_armor_cost_idea_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_armor_cost_idea_1 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_armor_cost_idea_1
+					add_idea = SHE_IIF_armor_cost_idea_2
+				}
+			}
+		}
+	}
+}
+
+SHE_IIF_industry_research_on_speed = {
+	if = {
+		limit = { has_idea = SHE_IIF_industry_research_idea_4 }
+		add_to_variable = { SHE_IIF_max_command_power_mult_var = 0.04 tooltip = max_command_power_mult_tt }
+	}
+	else = {
+		add_to_variable = { SHE_IIF_research_industry_var = 0.05 tooltip = SHE_IIF_research_industry_tt }
+		hidden_effect = {
+			else_if = {
+				limit = { has_idea = SHE_IIF_industry_research_idea_3 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_industry_research_idea_3
+					add_idea = SHE_IIF_industry_research_idea_4
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_industry_research_idea_2 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_industry_research_idea_2
+					add_idea = SHE_IIF_industry_research_idea_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_industry_research_idea_1 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_industry_research_idea_1
+					add_idea = SHE_IIF_industry_research_idea_2
+				}
+			}
+		}
+	}
+}
+
+SHE_IIF_electronics_research_on_speed = {
+	if = {
+		limit = { has_idea = SHE_IIF_electronics_research_idea_6 }
+		add_to_variable = { SHE_IIF_max_command_power_mult_var = 0.04 tooltip = max_command_power_mult_tt }
+	}
+	else = {
+		add_to_variable = { SHE_IIF_research_electronics_var = 0.05 tooltip = SHE_IIF_research_electronics_tt }
+		hidden_effect = {
+			else_if = {
+				limit = { has_idea = SHE_IIF_electronics_research_idea_5 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_electronics_research_idea_5
+					add_idea = SHE_IIF_electronics_research_idea_6
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_electronics_research_idea_4 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_electronics_research_idea_4
+					add_idea = SHE_IIF_electronics_research_idea_5
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_electronics_research_idea_3 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_electronics_research_idea_3
+					add_idea = SHE_IIF_electronics_research_idea_4
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_electronics_research_idea_2 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_electronics_research_idea_2
+					add_idea = SHE_IIF_electronics_research_idea_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = SHE_IIF_electronics_research_idea_1 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_electronics_research_idea_1
+					add_idea = SHE_IIF_electronics_research_idea_2
+				}
+			}
+		}
+	}
+}
+
+SHE_IIF_support_tech_research_on_speed = {
+	if = {
+		limit = { has_idea = SHE_IIF_industry_research_idea_2 }
+		add_to_variable = { SHE_IIF_max_command_power_mult_var = 0.04 tooltip = max_command_power_mult_tt }
+	}
+	else = {
+		add_to_variable = { SHE_IIF_research_support_tech_var = 0.05 tooltip = SHE_IIF_research_support_tech_tt }
+		hidden_effect = {
+			if = {
+				limit = { has_idea = SHE_IIF_support_tech_research_idea_1 }
+				swap_ideas = {
+					remove_idea = SHE_IIF_support_tech_research_idea_1
+					add_idea = SHE_IIF_support_tech_research_idea_2
+				}
+			}
+		}
+	}
+}
+
+SHE_transforming_environment = {
+	effect_tooltip = {
+		swap_ideas = {
+			remove_idea = SHE_not_acclimatized_2
+			add_idea = SHE_not_acclimatized_1
+		}
+	}
+	hidden_effect = {
+		if = {
+			limit = { has_idea = SHE_not_acclimatized_1 }
+			remove_ideas = SHE_not_acclimatized_1
+		}
+		else_if = {
+			limit = { has_idea = SHE_not_acclimatized_2 }
+			swap_ideas = {
+				remove_idea = SHE_not_acclimatized_2
+				add_idea = SHE_not_acclimatized_1
+			}
+		}
+		else_if = {
+			limit = { has_idea = SHE_not_acclimatized_3 }
+			swap_ideas = {
+				remove_idea = SHE_not_acclimatized_3
+				add_idea = SHE_not_acclimatized_2
+			}
+		}
+		else_if = {
+			limit = { has_idea = SHE_not_acclimatized_4 }
+			swap_ideas = {
+				remove_idea = SHE_not_acclimatized_4
+				add_idea = SHE_not_acclimatized_3
+			}
+		}
+		else_if = {
+			limit = { has_idea = SHE_not_acclimatized_5 }
+			swap_ideas = {
+				remove_idea = SHE_not_acclimatized_5
+				add_idea = SHE_not_acclimatized_4
+			}
+		}
+	}
+}
+
+
+SHE_complete_dams_extra_rewards = {
+	custom_effect_tooltip = SHE_complete_dams_extra_rewards_tt
+	effect_tooltip = {
+		custom_effect_tooltip = SHE_modifier_IIF_dynamic_modifier_tt
+		add_to_variable = { SHE_IIF_global_building_slots_factor_var = 0.20 tooltip = global_building_slots_factor_tt }
+		custom_effect_tooltip = SHE_blank_tt
+		SHE_transforming_environment = yes
+	}
+	hidden_effect = {
+		if = {
+			limit = {
+				OR = {
+					has_country_flag = SHE_wind_power_generation_flag
+					has_country_flag = SHE_hydroelectric_power_generation_flag
+				}
+				has_country_flag = SHE_dams_flag
+				NOT = { has_country_flag = SHE_energy_rewards_distribute_flag }
+			}
+			add_to_variable = { SHE_IIF_global_building_slots_factor_var = 0.20 }
+			SHE_transforming_environment = yes
+			set_country_flag = SHE_energy_rewards_distribute_flag
+		}
+	}
+}

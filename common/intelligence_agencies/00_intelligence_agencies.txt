@@ -35,4 +35,22 @@ intelligence_agency = {
 	default = { tag = LEG }
 	available = { original_tag = LEG }
 }
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "Tokubetsu Koto Keisatsu" "Special Higher Police Bureau" }
+
+	default = { tag = SHE }
+	available = {
+		original_tag = SHE
+		NOT = { has_government = communism }
+		OR = {
+			AND = {
+				has_war = yes
+				any_enemy_country = { is_major = yes }
+			}
+			has_completed_focus = SHE_reorganize_intelligence_department
+		}
+	}
+}
 

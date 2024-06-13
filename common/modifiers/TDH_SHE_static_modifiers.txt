@@ -2,7 +2,7 @@
 # Effects are fully scriptable here.
 # These names can NOT be removed or changes, as the code uses them....
 
-SHE_dim_star_static = {
+SHE_dim_star_static_1 = {
 	valid_relation_trigger = {
 		ROOT = {
 			has_country_leader = {
@@ -14,5 +14,33 @@ SHE_dim_star_static = {
 	}
 	
 	generate_wargoal_tension_against = 0.75
+	attack_bonus_against_cores = -0.15
+}
+
+SHE_dim_star_static_2 = {
+	valid_relation_trigger = {
+		ROOT = {
+			has_country_leader = {
+				character = SHE_YangJieyu
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = dim_star
+		}
+	}
+	
+	generate_wargoal_tension_against = 0.75
+}
+
+SHE_dim_star_static_3 = {
+	valid_relation_trigger = {
+		ROOT = {
+			has_country_leader = {
+				character = SHE_YangJieyu
+				ruling_only = yes
+			}
+			has_country_leader_with_trait = dim_star
+		}
+	}
+	
 	attack_bonus_against_cores = -0.15
 }
