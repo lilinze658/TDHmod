@@ -2,6 +2,7 @@ ideas = {
 	hidden_ideas = {
 		SHE_IIF_infantry_equipment_cost_idea_1 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -19,6 +20,7 @@ ideas = {
 		
 		SHE_IIF_infantry_equipment_cost_idea_2 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -36,6 +38,7 @@ ideas = {
 		
 		SHE_IIF_infantry_equipment_cost_idea_3 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -53,6 +56,7 @@ ideas = {
 		
 		SHE_IIF_infantry_equipment_cost_idea_4 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -70,6 +74,7 @@ ideas = {
 		
 		SHE_IIF_infantry_equipment_cost_idea_5 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -87,6 +92,7 @@ ideas = {
 		
 		SHE_IIF_motorized_equipment_cost_idea_1 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -104,6 +110,7 @@ ideas = {
 		
 		SHE_IIF_motorized_equipment_cost_idea_2 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -121,6 +128,7 @@ ideas = {
 		
 		SHE_IIF_motorized_equipment_cost_idea_3 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -138,6 +146,7 @@ ideas = {
 		
 		SHE_IIF_motorized_equipment_cost_idea_4 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -155,6 +164,7 @@ ideas = {
 		
 		SHE_IIF_motorized_equipment_cost_idea_5 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -172,6 +182,7 @@ ideas = {
 		
 		SHE_IIF_artillery_equipment_cost_idea_1 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -189,6 +200,7 @@ ideas = {
 		
 		SHE_IIF_artillery_equipment_cost_idea_2 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -206,6 +218,7 @@ ideas = {
 		
 		SHE_IIF_artillery_equipment_cost_idea_3 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -223,6 +236,7 @@ ideas = {
 		
 		SHE_IIF_artillery_equipment_cost_idea_4 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -240,6 +254,7 @@ ideas = {
 		
 		SHE_IIF_artillery_equipment_cost_idea_5 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -257,6 +272,7 @@ ideas = {
 		
 		SHE_IIF_armor_cost_idea_1 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -274,6 +290,7 @@ ideas = {
 		
 		SHE_IIF_armor_cost_idea_2 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -291,6 +308,7 @@ ideas = {
 		
 		SHE_IIF_armor_cost_idea_3 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -308,6 +326,7 @@ ideas = {
 		
 		SHE_IIF_armor_cost_idea_4 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -325,6 +344,7 @@ ideas = {
 		
 		SHE_IIF_armor_cost_idea_5 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -342,6 +362,7 @@ ideas = {
 		
 		SHE_IIF_armor_cost_idea_6 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -359,6 +380,7 @@ ideas = {
 		
 		SHE_IIF_industry_research_idea_1 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -373,6 +395,7 @@ ideas = {
 		
 		SHE_IIF_industry_research_idea_2 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -387,6 +410,7 @@ ideas = {
 		
 		SHE_IIF_industry_research_idea_3 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -401,6 +425,7 @@ ideas = {
 		
 		SHE_IIF_industry_research_idea_4 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -415,6 +440,7 @@ ideas = {
 		
 		SHE_IIF_industry_research_idea_5 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -429,6 +455,7 @@ ideas = {
 		
 		SHE_IIF_electronics_research_idea_1 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -443,6 +470,7 @@ ideas = {
 		
 		SHE_IIF_electronics_research_idea_2 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -457,6 +485,7 @@ ideas = {
 		
 		SHE_IIF_electronics_research_idea_3 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -471,6 +500,7 @@ ideas = {
 		
 		SHE_IIF_electronics_research_idea_4 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -485,6 +515,7 @@ ideas = {
 		
 		SHE_IIF_electronics_research_idea_5 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -499,6 +530,7 @@ ideas = {
 		
 		SHE_IIF_electronics_research_idea_6 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -513,6 +545,7 @@ ideas = {
 		
 		SHE_IIF_electronics_research_idea_7 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -527,6 +560,7 @@ ideas = {
 		
 		SHE_IIF_support_tech_research_idea_1 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}
@@ -541,6 +575,7 @@ ideas = {
 		
 		SHE_IIF_support_tech_research_idea_2 = {
 			name = SHE_industry_improve
+			picture = SOV_third_five_year_plan_civilian
 			allowed = {
 				always = no
 			}

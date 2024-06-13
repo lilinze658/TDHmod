@@ -80,7 +80,7 @@ on_actions = {
 						NOT = {
 							has_relation_modifier = {
 								target = THIS
-								modifier = SHE_dim_star_static
+								modifier = SHE_dim_star_static_1
 							}
 						}
 					}
@@ -89,7 +89,7 @@ on_actions = {
 						SHE = {
 							has_relation_modifier = {
 								target = PREV
-								modifier = SHE_dim_star_static
+								modifier = SHE_dim_star_static_1
 							}
 						}
 					}
@@ -97,7 +97,83 @@ on_actions = {
 				SHE = {
 					add_relation_modifier = {
 						target = THIS
-						modifier = SHE_dim_star_static
+						modifier = SHE_dim_star_static_1
+					}
+				}
+				THIS = {
+					add_opinion_modifier = {
+						target = SHE
+						modifier = traitor_of_Shenzhou
+					}
+				}
+			}
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						NOT = {
+							has_relation_modifier = {
+								target = THIS
+								modifier = SHE_dim_star_static_2
+							}
+						}
+					}
+					FROM = {
+						original_tag = DIV
+						SHE = {
+							has_relation_modifier = {
+								target = PREV
+								modifier = SHE_dim_star_static_2
+							}
+						}
+					}
+				}
+				SHE = {
+					add_relation_modifier = {
+						target = THIS
+						modifier = SHE_dim_star_static_2
+					}
+				}
+				THIS = {
+					add_opinion_modifier = {
+						target = SHE
+						modifier = traitor_of_Shenzhou
+					}
+				}
+			}
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						NOT = {
+							has_relation_modifier = {
+								target = THIS
+								modifier = SHE_dim_star_static_3
+							}
+						}
+					}
+					FROM = {
+						original_tag = DIV
+						SHE = {
+							has_relation_modifier = {
+								target = PREV
+								modifier = SHE_dim_star_static_3
+							}
+						}
+					}
+				}
+				SHE = {
+					add_relation_modifier = {
+						target = THIS
+						modifier = SHE_dim_star_static_3
 					}
 				}
 				THIS = {
@@ -123,7 +199,7 @@ on_actions = {
 						NOT = {
 							has_relation_modifier = {
 								target = FROM
-								modifier = SHE_dim_star_static
+								modifier = SHE_dim_star_static_1
 							}
 						}
 					}
@@ -132,7 +208,7 @@ on_actions = {
 						SHE = {
 							has_relation_modifier = {
 								target = PREV
-								modifier = SHE_dim_star_static
+								modifier = SHE_dim_star_static_1
 							}
 						}
 					}
@@ -140,7 +216,83 @@ on_actions = {
 				SHE = {
 					add_relation_modifier = {
 						target = FROM
-						modifier = SHE_dim_star_static
+						modifier = SHE_dim_star_static_1
+					}
+				}
+				FROM = {
+					add_opinion_modifier = {
+						target = SHE
+						modifier = traitor_of_Shenzhou
+					}
+				}
+			}
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						NOT = {
+							has_relation_modifier = {
+								target = FROM
+								modifier = SHE_dim_star_static_2
+							}
+						}
+					}
+					THIS = {
+						original_tag = DIV
+						SHE = {
+							has_relation_modifier = {
+								target = PREV
+								modifier = SHE_dim_star_static_2
+							}
+						}
+					}
+				}
+				SHE = {
+					add_relation_modifier = {
+						target = FROM
+						modifier = SHE_dim_star_static_2
+					}
+				}
+				FROM = {
+					add_opinion_modifier = {
+						target = SHE
+						modifier = traitor_of_Shenzhou
+					}
+				}
+			}
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						NOT = {
+							has_relation_modifier = {
+								target = FROM
+								modifier = SHE_dim_star_static_3
+							}
+						}
+					}
+					THIS = {
+						original_tag = DIV
+						SHE = {
+							has_relation_modifier = {
+								target = PREV
+								modifier = SHE_dim_star_static_3
+							}
+						}
+					}
+				}
+				SHE = {
+					add_relation_modifier = {
+						target = FROM
+						modifier = SHE_dim_star_static_3
 					}
 				}
 				FROM = {
@@ -165,14 +317,82 @@ on_actions = {
 						has_country_leader_with_trait = dim_star
 						has_relation_modifier = {
 							target = ROOT
-							modifier = SHE_dim_star_static
+							modifier = SHE_dim_star_static_1
 						}
 					}
 				}
 				SHE = {
 					remove_relation_modifier = {
 						target = ROOT
-						modifier = SHE_dim_star_static
+						modifier = SHE_dim_star_static_1
+					}
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_opinion_modifier = traitor_of_Shenzhou
+						}
+					}
+					ROOT = {
+						remove_opinion_modifier = {
+							target = SHE
+							modifier = traitor_of_Shenzhou
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						has_relation_modifier = {
+							target = ROOT
+							modifier = SHE_dim_star_static_2
+						}
+					}
+				}
+				SHE = {
+					remove_relation_modifier = {
+						target = ROOT
+						modifier = SHE_dim_star_static_2
+					}
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_opinion_modifier = traitor_of_Shenzhou
+						}
+					}
+					ROOT = {
+						remove_opinion_modifier = {
+							target = SHE
+							modifier = traitor_of_Shenzhou
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						has_relation_modifier = {
+							target = ROOT
+							modifier = SHE_dim_star_static_3
+						}
+					}
+				}
+				SHE = {
+					remove_relation_modifier = {
+						target = ROOT
+						modifier = SHE_dim_star_static_3
 					}
 				}
 				if = {

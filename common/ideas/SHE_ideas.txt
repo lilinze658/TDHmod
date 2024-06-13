@@ -272,7 +272,7 @@ ideas = {
 				enemy_operative_capture_chance_factor = -0.25
 				enemy_operative_detection_chance_factor = -0.25
 				intelligence_agency_defense = -0.50
-				crypto_strength = -1
+				crypto_strength = -4
 			}
 		}
 		
@@ -463,7 +463,7 @@ ideas = {
 		}
 		
 		SHE_industry_revolution = {
-			#picture = 
+			picture = bul_national_industry
 			allowed = {
 				always = no
 			}
@@ -481,7 +481,7 @@ ideas = {
 		}
 		
 		SHE_population_management = {
-			#picture = 
+			picture = CHL_corvo
 			allowed = {
 				always = no
 			}
@@ -496,7 +496,7 @@ ideas = {
 		
 		SHE_population_management_21 = {
 			name = SHE_population_management
-			#picture = 
+			picture = CHL_corvo
 			allowed = {
 				always = no
 			}
@@ -512,7 +512,7 @@ ideas = {
 		
 		SHE_population_management_221 = {
 			name = SHE_population_management
-			#picture = 
+			picture = CHL_corvo
 			allowed = {
 				always = no
 			}
@@ -529,7 +529,7 @@ ideas = {
 		
 		SHE_population_management_222 = {
 			name = SHE_population_management
-			#picture = 
+			picture = CHL_corvo
 			allowed = {
 				always = no
 			}
@@ -546,7 +546,7 @@ ideas = {
 		
 		SHE_population_management_23 = {
 			name = SHE_population_management
-			#picture = 
+			picture = CHL_corvo
 			allowed = {
 				always = no
 			}
@@ -563,7 +563,7 @@ ideas = {
 		}
 		
 		SHE_nation_unite = {
-			#picture = 
+			picture = generic_victors_of_ww1
 			allowed = {
 				always = no
 			}
@@ -573,6 +573,35 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				stability_factor = 0.15
+			}
+		}
+		
+		SHE_battle_for_land = {
+			picture = generic_central_management
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				global_building_slots_factor = 0.20
+				consumer_goods_factor = -0.10
+			}
+		}
+		
+		SHE_common_army = {
+			picture = generic_war_preparation
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.025
 			}
 		}
 	}

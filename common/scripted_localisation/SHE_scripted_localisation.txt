@@ -61,3 +61,21 @@ defined_text = {
 	}
 	text = { localization_key = SHE_aim_to_shenzhou_uncomplete }
 }
+
+defined_text = {
+	name = GETIndustryLevel
+	text = {
+		trigger = {
+			check_variable = { SHE_industry_progress_var > 5 }
+			check_variable = { SHE_industry_progress_var < 11 }
+		}
+		localization_key = SHE_industry_improve_developing
+	}
+	text = {
+		trigger = {
+			check_variable = { SHE_industry_progress_var > 10 }
+		}
+		localization_key = SHE_industry_improve_developed
+	}
+	text = { localization_key = SHE_industry_improve_poor }
+}

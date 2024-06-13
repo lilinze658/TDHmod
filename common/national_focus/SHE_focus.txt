@@ -41,7 +41,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_artillery2
 		x = 4
 		y = 0
-		cost = 35
+		cost = 5
 		available = {
 			
 		}
@@ -64,6 +64,7 @@ focus_tree = {
 				uses = 1
 				category = industry
 			}
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -89,6 +90,7 @@ focus_tree = {
 			custom_effect_tooltip = SHE_blank_tt
 			ROOT_core_add_1_industrial_complex = yes
 			ROOT_core_add_1_industrial_complex = yes
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -115,6 +117,7 @@ focus_tree = {
 			custom_effect_tooltip = SHE_blank_tt
 			custom_effect_tooltip = available_political_advisor
 			
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -151,6 +154,7 @@ focus_tree = {
 				uses = 1
 				category = cat_synth_oil
 			}
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -200,6 +204,7 @@ focus_tree = {
 			SHE_IIF_industry_research_on_speed = yes
 			SHE_IIF_electronics_research_on_speed = yes
 			custom_effect_tooltip = SHE_blank_tt
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -230,6 +235,7 @@ focus_tree = {
 				uses = 1
 				category = excavation_tech
 			}
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -274,6 +280,7 @@ focus_tree = {
 			add_to_variable = { SHE_IIF_research_speed_factor_var = 0.05 tooltip = research_speed_factor_tt }
 			custom_effect_tooltip = SHE_blank_tt
 			add_research_slot = 1
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -300,6 +307,7 @@ focus_tree = {
 			add_to_variable = { SHE_IIF_production_factory_start_efficiency_factor_var = 0.05 tooltip = production_factory_start_efficiency_factor_tt }
 			custom_effect_tooltip = SHE_blank_tt
 			ROOT_core_add_1_infrastructure = yes
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -329,6 +337,7 @@ focus_tree = {
 			add_to_variable = { SHE_IIF_production_speed_buildings_factor_var = 0.05 tooltip = production_speed_buildings_factor_tt }
 			custom_effect_tooltip = SHE_blank_tt
 			add_research_slot = 1
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -355,6 +364,7 @@ focus_tree = {
 			add_to_variable = { SHE_IIF_production_speed_industrial_complex_factor_var = 0.05 tooltip = production_speed_industrial_complex_factor_tt }
 			custom_effect_tooltip = SHE_blank_tt
 			ROOT_core_add_1_industrial_complex = yes
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -383,6 +393,7 @@ focus_tree = {
 			ROOT_core_add_1_arms_factory = yes
 			ROOT_core_add_1_arms_factory = yes
 			ROOT_core_add_1_arms_factory = yes
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -411,6 +422,7 @@ focus_tree = {
 			add_to_variable = { SHE_IIF_consumer_goods_factor_var = -0.10 tooltip = consumer_goods_factor_tt }
 			custom_effect_tooltip = SHE_blank_tt
 			SHE_complete_dams_extra_rewards = yes
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -439,6 +451,7 @@ focus_tree = {
 			add_to_variable = { SHE_IIF_production_speed_infrastructure_factor_var = 0.10 tooltip = production_speed_infrastructure_factor_tt }
 			custom_effect_tooltip = SHE_blank_tt
 			SHE_complete_dams_extra_rewards = yes
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -541,6 +554,7 @@ focus_tree = {
 					}
 				}
 			}
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -569,6 +583,7 @@ focus_tree = {
 			ROOT_core_add_1_dockyard = yes
 			ROOT_core_add_1_dockyard = yes
 			ROOT_core_add_1_dockyard = yes
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -599,6 +614,7 @@ focus_tree = {
 				uses = 1
 				category = industry
 			}
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -626,6 +642,7 @@ focus_tree = {
 				uses = 3
 				category = rocketry
 			}
+			add_to_variable = { SHE_industry_progress_var = 1 }
 		}
 	}
 
@@ -675,7 +692,28 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_army_org_factor_var = 0.10 tooltip = army_org_factor_tt }
+			add_to_variable = { SHE_IA_conscription_factor_var = 0.25 tooltip = conscription_factor_tt }
+			add_to_variable = { SHE_IA_production_speed_buildings_factor_var = -0.05 tooltip = production_speed_buildings_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			army_experience = 10
+			custom_effect_tooltip = SHE_modifier_IIF_dynamic_modifier_tt
+			SHE_IIF_infantry_equipment_cost_reduction = yes
+			SHE_IIF_artillery_equipment_cost_reduction = yes
+			custom_effect_tooltip = SHE_blank_tt
+			add_tech_bonus = {
+				name = SHE_shenzhou_path
+				bonus = 1
+				uses = 1
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				name = SHE_shenzhou_path
+				bonus = 1
+				uses = 1
+				category = artillery
+			}
 		}
 	}
 
@@ -696,7 +734,7 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			add_ideas = SHE_common_army
 		}
 	}
 
@@ -717,7 +755,20 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_breakthrough_factor_var = 0.15 tooltip = breakthrough_factor_tt }
+			add_to_variable = { SHE_IA_army_org_factor_var = 0.10 tooltip = army_org_factor_tt }
+			add_to_variable = { SHE_IA_river_crossing_factor_var = -0.10 tooltip = river_crossing_factor_tt }
+			add_to_variable = { SHE_IA_army_attack_speed_factor_var = 0.20 tooltip = army_attack_speed_factor_tt }
+			add_to_variable = { SHE_IA_conscription_factor_var = -0.05 tooltip = conscription_factor_tt }
+			add_to_variable = { SHE_IA_minimum_training_level_var = 0.10 tooltip = minimum_training_level_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			add_tech_bonus = {
+				name = SHE_trial_of_allegiance
+				bonus = 1
+				uses = 3
+				category = support_tech
+			}
 		}
 	}
 
@@ -739,7 +790,29 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_supply_consumption_factor_var = -0.05 tooltip = supply_consumption_factor_tt }
+			add_to_variable = { SHE_IA_army_org_factor_var = 0.05 tooltip = army_org_factor_tt }
+			add_to_variable = { SHE_IA_conscription_factor_var = -0.10 tooltip = conscription_factor_tt }
+			add_to_variable = { SHE_IA_planning_speed_var = 0.10 tooltip = planning_speed_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			army_experience = 10
+			custom_effect_tooltip = SHE_modifier_IIF_dynamic_modifier_tt
+			SHE_IIF_infantry_equipment_cost_reduction = yes
+			SHE_IIF_artillery_equipment_cost_reduction = yes
+			custom_effect_tooltip = SHE_blank_tt
+			add_tech_bonus = {
+				name = SHE_shenzhou_path
+				bonus = 1
+				uses = 1
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				name = SHE_shenzhou_path
+				bonus = 1
+				uses = 1
+				category = support_tech
+			}
 		}
 	}
 
@@ -763,7 +836,14 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_command_abilities_cost_factor_var = -0.25 tooltip = command_abilities_cost_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			custom_effect_tooltip = SHE_modifier_IIF_dynamic_modifier_tt
+			SHE_IIF_armor_cost_reduction = yes
+			SHE_IIF_motorized_equipment_cost_reduction = yes
+			custom_effect_tooltip = SHE_blank_tt
+			custom_effect_tooltip = available_high_command
 		}
 	}
 
@@ -784,7 +864,21 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_max_commander_army_size_var = 6 tooltip = max_commander_army_size_tt }
+			add_to_variable = { SHE_IA_combat_width_factor_var = -0.25 tooltip = combat_width_factor_tt }
+			add_to_variable = { SHE_IA_attrition_var = -0.10 tooltip = attrition_tt }
+			add_to_variable = { SHE_IA_reassignment_duration_factor_var = 1.00 tooltip = reassignment_duration_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			custom_effect_tooltip = SHE_modifier_IIF_dynamic_modifier_tt
+			SHE_IIF_motorized_equipment_cost_reduction = yes
+			custom_effect_tooltip = SHE_blank_tt
+			add_doctrine_cost_reduction = {
+				name = SHE_large_army_group
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 
@@ -805,7 +899,10 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_army_attack_factor_var = 0.15 tooltip = army_attack_factor_tt }
+			add_to_variable = { SHE_IA_army_defence_factor_var = 0.15 tooltip = army_defence_factor_tt }
+			
 		}
 	}
 
@@ -827,7 +924,16 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IIF_dynamic_modifier_tt
+			SHE_IIF_infantry_equipment_cost_reduction = yes
+			SHE_IIF_artillery_equipment_cost_reduction = yes
+			custom_effect_tooltip = SHE_blank_tt
+			add_tech_bonus = {
+				name = SHE_new_artillery
+				bonus = 3.0
+				uses = 2
+				category = artillery
+			}
 		}
 	}
 
@@ -848,7 +954,17 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_army_infantry_attack_factor_var = -0.05 tooltip = army_infantry_attack_factor_tt }
+			add_to_variable = { SHE_IA_army_infantry_defence_factor_var = -0.05 tooltip = army_infantry_defence_factor_tt }
+			add_to_variable = { SHE_IA_training_time_factor_var = -0.10 tooltip = training_time_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			custom_effect_tooltip = SHE_modifier_IIF_dynamic_modifier_tt
+			SHE_IIF_infantry_equipment_cost_reduction = yes
+			custom_effect_tooltip = SHE_blank_tt
+			custom_effect_tooltip = SHE_modifier_AE_dynamic_modifier_tt
+			add_to_variable = { SHE_AE_surrender_limit_var = 0.10 tooltip = surrender_limit_tt }
+			add_to_variable = { SHE_AE_war_support_factor_var = -0.05 tooltip = war_support_factor_tt }
 		}
 	}
 
@@ -869,7 +985,19 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_recon_factor_var = 0.25 tooltip = recon_factor_tt }
+			add_to_variable = { SHE_IA_army_morale_factor_var = 0.05 tooltip = army_morale_factor_tt }
+			add_to_variable = { SHE_IA_special_forces_cap_var = 0.15 tooltip = special_forces_cap_tt }
+			add_to_variable = { SHE_IA_special_forces_attack_factor_var = 0.10 tooltip = special_forces_attack_factor_tt }
+			add_to_variable = { SHE_IA_special_forces_defence_factor_var = 0.10 tooltip = special_forces_defence_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			add_tech_bonus = {
+				name = SHE_special_force_army
+				bonus = 1
+				uses = 2
+				category = cat_special_forces_generic
+			}
 		}
 	}
 
@@ -890,7 +1018,20 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_org_loss_at_low_org_factor_var = -0.25 tooltip = org_loss_at_low_org_factor_fixed_tt }
+			add_to_variable = { SHE_IA_army_morale_factor_var = 0.05 tooltip = army_morale_factor_tt }
+			add_to_variable = { SHE_IA_supply_consumption_factor_var = -0.05 tooltip = supply_consumption_factor_tt }
+			add_to_variable = { SHE_IA_special_forces_min_var = 10 tooltip = special_forces_min_tt }
+			add_to_variable = { SHE_IA_terrain_penalty_reduction_var = -0.10 tooltip = terrain_penalty_reduction_tt }
+			add_to_variable = { SHE_IA_special_forces_training_time_factor_var = 0.15 tooltip = special_forces_training_time_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			add_doctrine_cost_reduction = {
+				name = SHE_special_force_army
+				cost_reduction = 1.0
+				uses = 3
+				category = special_forces_doctrine
+			}
 		}
 	}
 
@@ -917,7 +1058,13 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_skill_bonus_factor_var = 0.25 tooltip = skill_bonus_factor_tt }
+			add_to_variable = { SHE_IA_army_morale_factor_var = 0.10 tooltip = army_morale_factor_tt }
+			add_to_variable = { SHE_IA_land_reinforce_rate_var = 0.05 tooltip = land_reinforce_rate_tt }
+			add_to_variable = { SHE_IA_army_speed_factor_var = 0.10 tooltip = army_speed_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			army_experience = 25
 		}
 	}
 
@@ -938,7 +1085,40 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_research_speed_factor_var = 0.05 tooltip = research_speed_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			custom_effect_tooltip = SHE_modifier_IIF_dynamic_modifier_tt
+			SHE_IIF_infantry_equipment_cost_reduction = yes
+			SHE_IIF_artillery_equipment_cost_reduction = yes
+			SHE_IIF_motorized_equipment_cost_reduction = yes
+			SHE_IIF_armor_cost_reduction = yes
+			custom_effect_tooltip = SHE_blank_tt
+			add_tech_bonus = {
+				name = SHE_tech_first
+				bonus = 1
+				uses = 2
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				name = SHE_tech_first
+				bonus = 1
+				uses = 2
+				category = artillery
+			}
+			add_tech_bonus = {
+				name = SHE_tech_first
+				bonus = 1
+				uses = 2
+				category = motorized_equipment
+				category = cat_mechanized_equipment
+			}
+			add_tech_bonus = {
+				name = SHE_tech_first
+				bonus = 1
+				uses = 2
+				category = armor
+			}
 		}
 	}
 
@@ -959,7 +1139,19 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_army_morale_factor_var = 0.05 tooltip = army_morale_factor_tt }
+			add_to_variable = { SHE_IA_army_spirit_category_type_cost_factor_var = -0.50 tooltip = army_spirit_category_type_cost_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			custom_effect_tooltip = SHE_modifier_IN_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_naval_morale_factor_var = 0.05 tooltip = naval_morale_factor_tt }
+			add_to_variable = { SHE_IA_navy_spirit_category_type_cost_factor_var = -0.50 tooltip = navy_spirit_category_type_cost_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			custom_effect_tooltip = SHE_modifier_IAF_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_air_mission_efficiency_var = 0.05 tooltip = air_mission_efficiency_tt }
+			add_to_variable = { SHE_IA_air_spirit_category_type_cost_factor_var = -0.50 tooltip = air_spirit_category_type_cost_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			
 		}
 	}
 
@@ -980,7 +1172,28 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modifier_IA_dynamic_modifier_tt
+			add_to_variable = { SHE_IA_army_armor_speed_factor_var = 0.10 tooltip = army_armor_speed_factor_tt }
+			add_to_variable = { SHE_IA_planning_speed_var = 0.10 tooltip = planning_speed_factor_tt }
+			add_to_variable = { SHE_IA_out_of_supply_factor_var = -0.15 tooltip = out_of_supply_factor_tt }
+			add_to_variable = { SHE_IA_no_supply_grace_var = -12 tooltip = no_supply_grace_tt }
+			add_to_variable = { SHE_IA_pocket_penalty_var = 0.10 tooltip = pocket_penalty_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			custom_effect_tooltip = SHE_modifier_IIF_dynamic_modifier_tt
+			SHE_IIF_armor_cost_reduction = yes
+			custom_effect_tooltip = SHE_blank_tt
+			add_tech_bonus = {
+				name = SHE_light_move
+				bonus = 1
+				uses = 1
+				category = cat_light_armor
+			}
+			add_tech_bonus = {
+				name = SHE_light_move
+				bonus = 1
+				uses = 1
+				category = cat_anti_tank
+			}
 		}
 	}
 
@@ -1015,7 +1228,7 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_DEBUG_yurikoomega_tt
 		}
 	}
 
@@ -1027,7 +1240,10 @@ focus_tree = {
 		y = 0
 		cost = 5
 		available = {
-			
+			custom_trigger_tooltip = {
+				tooltip = lazy_ttt
+				always = no
+			}
 		}
 		ai_will_do = {
 			base = 1
@@ -1035,7 +1251,7 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			
 		}
 	}
 
@@ -1304,7 +1520,10 @@ focus_tree = {
 		y = 0
 		cost = 5
 		available = {
-			
+			custom_trigger_tooltip = {
+				tooltip = lazy_ttt
+				always = no
+			}
 		}
 		ai_will_do = {
 			base = 1
@@ -1597,11 +1816,12 @@ focus_tree = {
 				add_political_power = -100
 				add_stability = 0.20
 			}
-			remove_dynamic_modifier = {
-				modifier = SHE_administrative_efficiency_dynamic_modifier
-			}
-			remove_ideas = SHE_resistance_of_aborigine_4
-			remove_ideas = SHE_not_acclimatized_5
+			#remove_dynamic_modifier = {
+			#	modifier = SHE_administrative_efficiency_dynamic_modifier
+			#}
+			#remove_ideas = SHE_resistance_of_aborigine_4
+			#remove_ideas = SHE_not_acclimatized_5
+			complete_national_focus = SHE_marshal_YangJieyu
 		}
 	}
 
@@ -1644,6 +1864,7 @@ focus_tree = {
 		search_filters = {  }
 		completion_reward = {
 			add_ideas = SHE_population_management
+			SHE_place_aborigines = yes
 		}
 	}
 
@@ -1657,7 +1878,7 @@ focus_tree = {
 		y = 1
 		cost = 0
 		available = {
-			
+			always = no
 		}
 		ai_will_do = {
 			base = 1
@@ -1665,7 +1886,7 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_DEBUG_knife_fast_tt
 		}
 	}
 
@@ -1686,7 +1907,7 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			
 		}
 	}
 
@@ -1712,6 +1933,7 @@ focus_tree = {
 				remove_idea = SHE_population_management
 				add_idea = SHE_population_management_21
 			}
+			SHE_place_aborigines = yes
 		}
 	}
 
@@ -1758,6 +1980,7 @@ focus_tree = {
 				}
 				else = { set_political_power = 0 }
 			}
+			SHE_place_aborigines = yes
 		}
 	}
 
@@ -1804,6 +2027,7 @@ focus_tree = {
 				}
 				else = { set_political_power = 0 }
 			}
+			SHE_place_aborigines = yes
 		}
 	}
 
@@ -1856,7 +2080,7 @@ focus_tree = {
 			add_to_variable = { SHE_AE_political_power_factor_var = 0.05 tooltip = political_power_factor_tt }
 			add_to_variable = { SHE_AE_enemy_operative_capture_chance_factor_var = 0.10 tooltip = enemy_operative_capture_chance_factor_tt }
 			add_to_variable = { SHE_AE_enemy_operative_detection_chance_factor_var = 0.10 tooltip = enemy_operative_detection_chance_factor_tt }
-			add_to_variable = { SHE_AE_crypto_strength_var = 0.25 tooltip = crypto_strength_tt }
+			add_to_variable = { SHE_AE_crypto_strength_var = 1 tooltip = crypto_strength_tt }
 			
 		}
 	}
@@ -1885,7 +2109,7 @@ focus_tree = {
 			add_to_variable = { SHE_AE_army_intel_to_others_var = -30 tooltip = army_intel_to_others_tt }
 			add_to_variable = { SHE_AE_navy_intel_to_others_var = -30 tooltip = navy_intel_to_others_tt }
 			add_to_variable = { SHE_AE_airforce_intel_to_others_var = -30 tooltip = airforce_intel_to_others_tt }
-			add_to_variable = { SHE_AE_crypto_strength_var = 0.25 tooltip = crypto_strength_tt }
+			add_to_variable = { SHE_AE_crypto_strength_var = 1 tooltip = crypto_strength_tt }
 			custom_effect_tooltip = SHE_blank_tt
 			if = {
 				limit = { has_intelligence_agency = yes }
@@ -1926,7 +2150,7 @@ focus_tree = {
 			add_to_variable = { SHE_AE_army_intel_to_others_var = -30 tooltip = army_intel_to_others_tt }
 			add_to_variable = { SHE_AE_navy_intel_to_others_var = -30 tooltip = navy_intel_to_others_tt }
 			add_to_variable = { SHE_AE_airforce_intel_to_others_var = -30 tooltip = airforce_intel_to_others_tt }
-			add_to_variable = { SHE_AE_crypto_strength_var = 0.25 tooltip = crypto_strength_tt }
+			add_to_variable = { SHE_AE_crypto_strength_var = 1 tooltip = crypto_strength_tt }
 			custom_effect_tooltip = SHE_blank_tt
 			set_country_flag = SHE_national_scurity_act_flag
 			custom_effect_tooltip = SHE_national_scurity_act_tt
@@ -1955,7 +2179,7 @@ focus_tree = {
 			add_to_variable = { SHE_AE_intel_from_operatives_factor_var = 0.10 tooltip = intel_from_operatives_factor_tt }
 			add_to_variable = { SHE_AE_own_operative_detection_chance_factor_var = -0.15 tooltip = own_operative_detection_chance_factor_tt }
 			add_to_variable = { SHE_AE_own_operative_capture_chance_factor_var = -0.15 tooltip = own_operative_capture_chance_factor_tt }
-			add_to_variable = { SHE_AE_crypto_strength_var = 0.25 tooltip = crypto_strength_tt }
+			add_to_variable = { SHE_AE_crypto_strength_var = 1 tooltip = crypto_strength_tt }
 			custom_effect_tooltip = SHE_blank_tt
 			custom_effect_tooltip = SHE_diplo_is_intel_tt
 			hidden_effect = {
@@ -2076,8 +2300,9 @@ focus_tree = {
 		}
 		bypass = {}
 		search_filters = {  }
-		completion_reward = {{
+		completion_reward = {
 			custom_effect_tooltip = SHE_modifier_AE_dynamic_modifier_tt
+			add_to_variable = { SHE_AE_stability_factor_var = -0.05 tooltip = stability_factor_tt }
 			add_to_variable = { SHE_AE_political_power_factor_var = 0.05 tooltip = political_power_factor_tt }
 			add_to_variable = { SHE_AE_fascism_drift_var = 0.05 tooltip = fascism_drift_tt }
 		}
@@ -2129,6 +2354,7 @@ focus_tree = {
 			add_to_variable = { SHE_AE_economy_cost_factor_var = -0.33 tooltip = economy_cost_factor_tt }
 			add_to_variable = { SHE_AE_trade_laws_cost_factor_var = -0.33 tooltip = trade_laws_cost_factor_tt }
 			add_to_variable = { SHE_AE_mobilization_laws_cost_factor_var = -0.33 tooltip = mobilization_laws_cost_factor_tt }
+			add_to_variable = { SHE_AE_agency_upgrade_time_var = -0.50 tooltip = agency_upgrade_time_tt }
 			add_to_variable = { SHE_AE_fascism_drift_var = 0.05 tooltip = fascism_drift_tt }
 		}
 	}
@@ -2222,7 +2448,8 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			add_ideas = SHE_battle_for_land
+			SHE_transforming_environment = yes
 		}
 	}
 
@@ -2233,7 +2460,7 @@ focus_tree = {
 		relative_position_id = SHE_battle_for_land
 		x = 0
 		y = 1
-		cost = 5
+		cost = 15
 		available = {
 			
 		}
@@ -2244,6 +2471,8 @@ focus_tree = {
 		search_filters = {  }
 		completion_reward = {
 			add_stability = 0.10
+			SHE_transforming_environment = yes
+			SHE_complete_dams_extra_rewards = yes
 		}
 	}
 
@@ -2264,7 +2493,8 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_use_nature_tt
+			SHE_transforming_environment = yes
 		}
 	}
 
@@ -2285,7 +2515,7 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			SHE_transforming_environment = yes
 		}
 	}
 
@@ -2307,7 +2537,7 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			
 		}
 	}
 
@@ -2421,9 +2651,12 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			effect_tooltip = {
-			
+			create_wargoal = {
+				target = DIV
+				type = annex_everything
 			}
+			custom_effect_tooltip = SHE_war_plan_black_tt2
+			custom_effect_tooltip = SHE_war_plan_black_tt
 			hidden_effect = {
 				if = {
 					limit = { check_variable = { SHE_dim_star_level_var = 1 } }

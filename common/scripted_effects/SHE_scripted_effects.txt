@@ -16,6 +16,23 @@ DEBUG_SHE_effect_3 = {
 		add_to_variable = { SHE_RE_dockyard_donations_var = 1 }
 	}
 }
+DEBUG_SHE_effect_4 = {
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 100000
+		producer = ROOT
+	}
+	add_equipment_to_stockpile = {
+		type = artillery_equipment
+		amount = 20000
+		producer = ROOT
+	}
+	add_equipment_to_stockpile = {
+		type = motorized_equipment
+		amount = 2000
+		producer = ROOT
+	}
+}
 
 ROOT_core_add_1_infrastructure = {
 	random_owned_controlled_state = {
@@ -267,7 +284,7 @@ SHE_IIF_industry_research_on_speed = {
 	else = {
 		add_to_variable = { SHE_IIF_research_industry_var = 0.05 tooltip = SHE_IIF_research_industry_tt }
 		hidden_effect = {
-			else_if = {
+			if = {
 				limit = { has_idea = SHE_IIF_industry_research_idea_3 }
 				swap_ideas = {
 					remove_idea = SHE_IIF_industry_research_idea_3
@@ -300,7 +317,7 @@ SHE_IIF_electronics_research_on_speed = {
 	else = {
 		add_to_variable = { SHE_IIF_research_electronics_var = 0.05 tooltip = SHE_IIF_research_electronics_tt }
 		hidden_effect = {
-			else_if = {
+			if = {
 				limit = { has_idea = SHE_IIF_electronics_research_idea_5 }
 				swap_ideas = {
 					remove_idea = SHE_IIF_electronics_research_idea_5
@@ -401,6 +418,41 @@ SHE_transforming_environment = {
 	}
 }
 
+SHE_place_aborigines = {
+	effect_tooltip = {
+		swap_ideas = {
+			remove_idea = SHE_resistance_of_aborigine_4
+			add_idea = SHE_resistance_of_aborigine_3
+		}
+	}
+	hidden_effect = {
+		if = {
+			limit = { has_idea = SHE_resistance_of_aborigine_1 }
+			remove_ideas = SHE_resistance_of_aborigine_1
+		}
+		else_if = {
+			limit = { has_idea = SHE_resistance_of_aborigine_2 }
+			swap_ideas = {
+				remove_idea = SHE_resistance_of_aborigine_2
+				add_idea = SHE_resistance_of_aborigine_1
+			}
+		}
+		else_if = {
+			limit = { has_idea = SHE_resistance_of_aborigine_3 }
+			swap_ideas = {
+				remove_idea = SHE_resistance_of_aborigine_3
+				add_idea = SHE_resistance_of_aborigine_2
+			}
+		}
+		else_if = {
+			limit = { has_idea = SHE_resistance_of_aborigine_4 }
+			swap_ideas = {
+				remove_idea = SHE_resistance_of_aborigine_4
+				add_idea = SHE_resistance_of_aborigine_3
+			}
+		}
+	}
+}
 
 SHE_complete_dams_extra_rewards = {
 	custom_effect_tooltip = SHE_complete_dams_extra_rewards_tt

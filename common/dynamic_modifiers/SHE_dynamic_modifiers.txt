@@ -114,6 +114,7 @@ SHE_administrative_efficiency_dynamic_modifier = {
 	political_advisor_cost_factor = SHE_AE_political_advisor_cost_factor_var
 	stability_factor = SHE_AE_stability_factor_var
 	war_support_factor = SHE_AE_war_support_factor_var
+	war_support_factor = SHE_AE_war_support_factor_var
 }
 
 SHE_imperial_army_dynamic_modifier = {
@@ -125,6 +126,40 @@ SHE_imperial_army_dynamic_modifier = {
 	supply_consumption_factor = SHE_IA_supply_consumption_factor_var
 	
 	experience_gain_army_factor = SHE_IA_experience_gain_army_factor_var
+	army_org_factor = SHE_IA_army_org_factor_var
+	production_speed_buildings_factor = SHE_IA_production_speed_buildings_factor_var
+	conscription_factor = SHE_IA_conscription_factor_var
+	breakthrough_factor = SHE_IA_breakthrough_factor_var
+	river_crossing_factor = SHE_IA_river_crossing_factor_var
+	army_attack_speed_factor = SHE_IA_army_attack_speed_factor_var
+	minimum_training_level = SHE_IA_minimum_training_level_var
+	command_abilities_cost_factor = SHE_IA_command_abilities_cost_factor_var
+	max_commander_army_size = SHE_IA_max_commander_army_size_var
+	combat_width_factor = SHE_IA_combat_width_factor_var
+	attrition = SHE_IA_attrition_var
+	reassignment_duration_factor = SHE_IA_reassignment_duration_factor_var
+	army_attack_factor = SHE_IA_army_attack_factor_var
+	army_defence_factor = SHE_IA_army_defence_factor_var
+	training_time_factor = SHE_IA_training_time_factor_var
+	planning_speed = SHE_IA_planning_speed_var
+	recon_factor = SHE_IA_recon_factor_var
+	army_morale_factor = SHE_IA_army_morale_factor_var
+	special_forces_cap = SHE_IA_special_forces_cap_var
+	special_forces_attack_factor = SHE_IA_special_forces_attack_factor_var
+	special_forces_defence_factor = SHE_IA_special_forces_defence_factor_var
+	org_loss_at_low_org_factor = SHE_IA_org_loss_at_low_org_factor_var
+	special_forces_min = SHE_IA_special_forces_min_var
+	terrain_penalty_reduction = SHE_IA_terrain_penalty_reduction_var
+	special_forces_training_time_factor = SHE_IA_special_forces_training_time_factor_var
+	skill_bonus_factor = SHE_IA_skill_bonus_factor_var
+	land_reinforce_rate = SHE_IA_land_reinforce_rate_var
+	army_speed_factor = SHE_IA_army_speed_factor_var
+	research_speed_factor = SHE_IA_research_speed_factor_var
+	army_spirit_category_type_cost_factor = SHE_IA_army_spirit_category_type_cost_factor_var
+	army_armor_speed_factor = SHE_IA_army_armor_speed_factor_var
+	out_of_supply_factor = SHE_IA_out_of_supply_factor_var
+	no_supply_grace = SHE_IA_no_supply_grace_var
+	pocket_penalty = SHE_IA_pocket_penalty_var
 }
 
 SHE_imperial_navy_dynamic_modifier = {
@@ -137,6 +172,8 @@ SHE_imperial_navy_dynamic_modifier = {
 	navy_anti_air_attack_factor = SHE_IN_navy_anti_air_attack_factor_var
 	naval_retreat_chance = SHE_IN_naval_retreat_chance_var
 	naval_accidents_chance = SHE_IN_naval_accidents_chance_var
+	
+	navy_spirit_category_type_cost_factor = SHE_IN_navy_spirit_category_type_cost_factor_var
 }
 
 SHE_imperial_airforce_dynamic_modifier = {
@@ -149,4 +186,6 @@ SHE_imperial_airforce_dynamic_modifier = {
 	air_maximum_speed_factor = SHE_IAF_air_maximum_speed_factor_var
 	air_defence_factor = SHE_IAF_air_defence_factor_var
 	army_bonus_air_superiority_factor = SHE_IAF_army_bonus_air_superiority_factor_var
+	
+	air_spirit_category_type_cost_factor = SHE_IAF_air_spirit_category_type_cost_factor_var
 }

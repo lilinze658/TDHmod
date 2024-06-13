@@ -1,5 +1,8 @@
 capital = 8
 
+DEBUG_SHE_effect_4 = yes
+#will be deleted in the future
+
 set_stability = 0.20
 set_war_support = 0.50
 set_research_slots = 3
@@ -19,9 +22,8 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	basic_train = 1
-	defence_in_depth = 1
-	grand_battle_plan = 1
-	trench_warfare = 1
+	#grand_battle_plan = 1
+	#trench_warfare = 1
 	synth_oil_experiments = 1
 	fuel_silos = 1
 	fuel_refining = 1
@@ -118,7 +120,7 @@ set_variable = { SHE_AE_airforce_intel_to_others_var = 50 }
 set_variable = { SHE_AE_enemy_operative_capture_chance_factor_var = -0.25 }
 set_variable = { SHE_AE_enemy_operative_detection_chance_factor_var = -0.25 }
 set_variable = { SHE_AE_intelligence_agency_defense_var = -0.50 }
-set_variable = { SHE_AE_crypto_strength_var = -1 }
+set_variable = { SHE_AE_crypto_strength_var = -4 }
 #add_dynamic_modifier = { modifier = SHE_administrative_efficiency_dynamic_modifier }
 
 set_variable = { SHE_IA_army_infantry_attack_factor_var = 0.05 }
