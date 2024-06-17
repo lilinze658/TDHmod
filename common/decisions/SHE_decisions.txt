@@ -1369,13 +1369,15 @@ SHE_reserve_shenzhou_4635_decision_category = {
 		}
         available = {
 			has_completed_focus = SHE_war_plan_black
-			NOT = {
-				has_country_flag = SHE_submit_declaration_flag
-				has_country_flag = SHE_surprise_attack_flag
+			hidden_trigger = {
+				NOT = {
+					has_country_flag = SHE_submit_declaration_flag
+					has_country_flag = SHE_surprise_attack_flag
+				}
 			}
 		}
 		fire_only_once = yes
-		days_re_enable = 14
+		days_remove = 14
 		complete_effect = {
 			set_country_flag = SHE_submit_declaration_flag
 		}
@@ -1411,7 +1413,7 @@ SHE_reserve_shenzhou_4635_decision_category = {
 			}
 		}
 		fire_only_once = yes
-		days_re_enable = 14
+		days_remove = 14
 		complete_effect = {
 			set_country_flag = SHE_surprise_attack_flag
 		}
@@ -1578,22 +1580,23 @@ SHE_reserve_shenzhou_4635_decision_category = {
 		}
 		cancel_trigger = {
 			OR = {
-				NOT = { country_exist = DIV }
+				NOT = { country_exists = DIV }
+				ROOT = { has_full_control_of_state = FROM }
 				AND = {
 					OR = {
-						NOT = { country_exist = ONG }
+						NOT = { country_exists = ONG }
 						ONG = { has_capitulated = yes }
 					}
 					OR = {
-						NOT = { country_exist = GOD }
+						NOT = { country_exists = GOD }
 						GOD = { has_capitulated = yes }
 					}
 					OR = {
-						NOT = { country_exist = ANY }
+						NOT = { country_exists = ANY }
 						ANY = { has_capitulated = yes }
 					}
 					OR = {
-						NOT = { country_exist = SOU }
+						NOT = { country_exists = SOU }
 						SOU = { has_capitulated = yes }
 					}
 				}
