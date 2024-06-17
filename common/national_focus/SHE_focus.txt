@@ -2753,7 +2753,6 @@ focus_tree = {
 					add_ideas = SHE_war_plan_black
 				}
 			}
-			custom_effect_tooltip = SHE_blank_tt
 			hidden_effect = {
 				if = {
 					limit = { check_variable = { SHE_dim_star_level_var = 1 } }
@@ -2851,6 +2850,11 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
+			custom_effect_tooltip = SHE_modify_ATS_dynamic_modifier_tt
+			add_to_variable = { SHE_ATS_naval_detection_var = 0.10 tooltip = naval_detection_tt }
+			add_to_variable = { SHE_ATS_screening_efficiency_var = 0.10 tooltip = screening_efficiency_tt }
+			add_to_variable = { SHE_ATS_carrier_traffic_var = 0.10 tooltip = carrier_traffic_tt }
+			custom_effect_tooltip = SHE_blank_tt
 			SHE_aim_to_shenzhou_rewards = yes
 		}
 	}

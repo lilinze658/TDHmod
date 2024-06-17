@@ -216,4 +216,7 @@ SHE_aim_to_shenzhou_dynamic_modifier = {
 	amphibious_invasion = SHE_ATS_amphibious_invasion_var
 	amphibious_invasion_defence = SHE_ATS_amphibious_invasion_defence_var
 	invasion_preparation = SHE_ATS_invasion_preparation_var
+	screening_efficiency = SHE_ATS_screening_efficiency_var
+	carrier_traffic = SHE_ATS_carrier_traffic_var
+	naval_detection = SHE_ATS_naval_detection_var
 }

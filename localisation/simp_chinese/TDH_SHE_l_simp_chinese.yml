@@ -61,7 +61,7 @@
  SHE_network_in_eastern_desc: ""
  SHE_network_in_eastern_flag: "已完成§Y$SHE_network_in_eastern$§!国策"
  SHE_network_in_eastern_tt: "解锁决议：§Y$SHE_network_in_eastern$§!"
- SHE_sea_supply_to_eastern: "海上后勤线"
+ SHE_sea_supply_to_eastern: "确保海上后勤线"
  SHE_sea_supply_to_eastern_desc: ""
  SHE_sea_supply_to_eastern_flag: "已完成§Y$SHE_sea_supply_to_eastern$§!国策"
  SHE_solid_work: "脚踏实地"
@@ -437,5 +437,22 @@
  pocket_penalty_tt: "$MODIFIER_POCKET_PENALTY$: $RIGHT|-=%1$"
  out_of_supply_factor_tt: "$MODIFIER_OUT_OF_SUPPLY_FACTOR$: $RIGHT|-=%2$"
  no_supply_grace_tt: "$MODIFIER_NO_SUPPLY_GRACE$: $RIGHT|+=1$ 小时"
+ transport_capacity_tt: "$MODIFIER_TRANSPORT_CAPACITY$: $RIGHT|-=%2$"
+ amphibious_invasion_tt: "$MODIFIER_AMPHIBIOUS_INVASION$: $RIGHT|+=%2$"
+ carrier_traffic_tt: "$MODIFIER_CARRIER_TRAFFIC$: $RIGHT|+=%2$"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
