@@ -23,13 +23,8 @@ DEBUG_SHE_effect_4 = {
 		producer = ROOT
 	}
 	add_equipment_to_stockpile = {
-		type = artillery_equipment
+		type = artillery_equipment_1
 		amount = 20000
-		producer = ROOT
-	}
-	add_equipment_to_stockpile = {
-		type = motorized_equipment
-		amount = 2000
 		producer = ROOT
 	}
 }
@@ -476,5 +471,29 @@ SHE_complete_dams_extra_rewards = {
 			SHE_transforming_environment = yes
 			set_country_flag = SHE_energy_rewards_distribute_flag
 		}
+	}
+}
+
+SHE_aim_to_shenzhou_rewards = {
+	custom_effect_tooltip = SHE_aim_to_shenzhou_rewards_tt
+	effect_tooltip = {
+		add_political_power = 25
+		custom_effect_tooltip = SHE_aim_to_shenzhou_rewards_tt2
+	}
+	hidden_effect = {
+		if = {
+			limit = { has_idea = SHE_aim_to_shenzhou_idea }
+			add_political_power = 25
+			modify_timed_idea = {
+				idea = SHE_aim_to_shenzhou_idea
+				days = 60
+			}
+		}
+	}
+}
+
+SHE_prowl_in_eastern_country_decision_show_effect = {
+	effect_tooltip = {
+		
 	}
 }

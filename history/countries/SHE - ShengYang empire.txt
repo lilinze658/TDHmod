@@ -144,6 +144,9 @@ set_variable = { SHE_IAF_air_defence_factor_var = -0.15 }
 set_variable = { SHE_IAF_army_bonus_air_superiority_factor_var = -0.25 }
 #add_dynamic_modifier = { modifier = SHE_imperial_airforce_dynamic_modifier }
 
+set_variable = { SHE_ATS_command_power_gain_mult_var = 0.05 }
+#add_dynamic_modifier = { modifier = SHE_aim_to_shenzhou_dynamic_modifier }
+
 #Insufficient exploration and utilization of relics
 9 = {
 	add_dynamic_modifier = {

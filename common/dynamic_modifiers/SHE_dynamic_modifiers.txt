@@ -50,6 +50,20 @@ SHE_relics_exploration_state_dynamic_modifier = {
 	custom_modifier_tooltip = SHE_RE_state_exploration_mtt
 }
 
+SHE_john_kmt_in_49_state_dynamic_modifier = {
+	enable = { always = yes }
+	remove_trigger = {
+		ROOT = {#refers state
+			owner = {
+				original_tag = SHE
+			}
+		}
+	}
+	icon = GFX_modifiers_generic_immigration_promoted
+	
+	enemy_operative_detection_chance_factor_over_occupied_tag = 1.0
+}
+
 ###### COUNTRY MODIFIERS ######
 
 SHE_relics_exploration_dynamic_modifier = {
@@ -188,4 +202,18 @@ SHE_imperial_airforce_dynamic_modifier = {
 	army_bonus_air_superiority_factor = SHE_IAF_army_bonus_air_superiority_factor_var
 	
 	air_spirit_category_type_cost_factor = SHE_IAF_air_spirit_category_type_cost_factor_var
+}
+
+SHE_aim_to_shenzhou_dynamic_modifier = {
+	enable = { always = yes }
+	icon = GFX_idea_generic_japanese_conflict
+	
+	command_power_gain_mult = SHE_ATS_command_power_gain_mult_var
+	planning_speed = SHE_ATS_planning_speed_var
+	operative_slot = SHE_ATS_operative_slot_var
+	own_operative_detection_chance_factor = SHE_ATS_own_operative_detection_chance_factor_var
+	transport_capacity = SHE_ATS_transport_capacity_var
+	amphibious_invasion = SHE_ATS_amphibious_invasion_var
+	amphibious_invasion_defence = SHE_ATS_amphibious_invasion_defence_var
+	invasion_preparation = SHE_ATS_invasion_preparation_var
 }
