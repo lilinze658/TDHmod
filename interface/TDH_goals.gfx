@@ -1,0 +1,27 @@
+SpriteTypes = {	
+
+	spriteType = {
+		name = "GFX_focus_SHE_focus_on_eastern_shenzhou"
+		texturefile = "gfx/interface/goals/focus_SHE_focus_on_eastern_shenzhou.dds"			
+	}
+
+	spriteType = {
+		name = "GFX_focus_SHE_focus_on_northern_gbpaint"
+		texturefile = "gfx/interface/goals/focus_SHE_focus_on_northern_gbpaint.dds"			
+	}
+
+	spriteType = {
+		name = "GFX_focus_SHE_focus_on_shenzhou"
+		texturefile = "gfx/interface/goals/focus_SHE_focus_on_shenzhou.dds"			
+	}
+
+	spriteType = {
+		name = "GFX_focus_SHE_focus_on_southern_gbpaint"
+		texturefile = "gfx/interface/goals/focus_SHE_focus_on_southern_gbpaint.dds"			
+	}
+
+	spriteType = {
+		name = "GFX_focus_SHE_focus_on_gbpaint"
+		texturefile = "gfx/interface/goals/focus_SHE_focus_on_gbpaint.dds"			
+	}
+}

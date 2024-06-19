@@ -2571,7 +2571,7 @@ focus_tree = {
 
 	focus = {
 		id = SHE_aim_to_shenzhou
-		icon = GFX_focus_usa_focus_on_asia
+		icon = GFX_focus_SHE_focus_on_shenzhou
 		prerequisite = { focus = SHE_empire_expand_plan }
 		relative_position_id = SHE_empire_expand_plan
 		x = -2
@@ -2694,7 +2694,7 @@ focus_tree = {
 
 	focus = {
 		id = SHE_war_plan_black
-		icon = GFX_focus_attack_china
+		icon = GFX_focus_SHE_focus_on_eastern_shenzhou
 		prerequisite = { focus = SHE_prowl_in_eastern }
 		prerequisite = { focus = SHE_across_sea_to_eastern }
 		relative_position_id = SHE_aim_to_shenzhou
@@ -2950,7 +2950,7 @@ focus_tree = {
 
 	focus = {
 		id = SHE_gbpaint_strategy
-		icon = GFX_focus_SOV_reinforce_northern_naval_bases
+		icon = GFX_goal_generic_occypy_states_ongoing_war
 		prerequisite = { focus = SHE_empire_expand_plan }
 		relative_position_id = SHE_empire_expand_plan
 		x = 6
@@ -2971,7 +2971,7 @@ focus_tree = {
 
 	focus = {
 		id = SHE_southern_gbpaint_policy
-		icon = GFX_focus_ITA_southern_industry
+		icon = GFX_focus_SHE_focus_on_southern_gbpaint
 		prerequisite = { focus = SHE_gbpaint_strategy }
 		relative_position_id = SHE_gbpaint_strategy
 		x = -1
@@ -2992,7 +2992,7 @@ focus_tree = {
 
 	focus = {
 		id = SHE_expand_resource_gain
-		icon = GFX_focus_generic_mining_industry
+		icon = GFX_focus_generic_resource_extraction
 		prerequisite = { focus = SHE_southern_gbpaint_policy }
 		relative_position_id = SHE_southern_gbpaint_policy
 		x = 0
@@ -3013,7 +3013,7 @@ focus_tree = {
 
 	focus = {
 		id = SHE_northern_gbpaint_policy
-		icon = GFX_focus_ITA_northern_industry
+		icon = GFX_focus_SHE_focus_on_northern_gbpaint
 		prerequisite = { focus = SHE_gbpaint_strategy }
 		relative_position_id = SHE_gbpaint_strategy
 		x = 1
@@ -3055,7 +3055,7 @@ focus_tree = {
 
 	focus = {
 		id = SHE_war_plan_blue
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_generic_total_war
 		prerequisite = {
 			focus = SHE_southern_gbpaint_policy
 			focus = SHE_northern_gbpaint_policy
