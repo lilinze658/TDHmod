@@ -452,7 +452,7 @@ SHE_place_aborigines = {
 SHE_complete_dams_extra_rewards = {
 	custom_effect_tooltip = SHE_complete_dams_extra_rewards_tt
 	effect_tooltip = {
-		custom_effect_tooltip = SHE_modifier_IIF_dynamic_modifier_tt
+		custom_effect_tooltip = SHE_modify_IIF_dynamic_modifier_tt
 		add_to_variable = { SHE_IIF_global_building_slots_factor_var = 0.20 tooltip = global_building_slots_factor_tt }
 		custom_effect_tooltip = SHE_blank_tt
 		SHE_transforming_environment = yes

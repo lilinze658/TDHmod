@@ -2950,7 +2950,7 @@ focus_tree = {
 
 	focus = {
 		id = SHE_gbpaint_strategy
-		icon = GFX_goal_generic_occypy_states_ongoing_war
+		icon = GFX_goal_generic_occupy_states_ongoing_war
 		prerequisite = { focus = SHE_empire_expand_plan }
 		relative_position_id = SHE_empire_expand_plan
 		x = 6
