@@ -492,8 +492,23 @@ SHE_aim_to_shenzhou_rewards = {
 	}
 }
 
-SHE_prowl_in_eastern_country_decision_show_effect = {
-	effect_tooltip = {
-		
+SHE_political_quagmire = {
+	hidden_effect = {
+		if = {
+			limit = {
+				has_country_flag = SHE_diplo_is_intel
+				has_country_flag = SHE_three_committee
+				has_country_flag = SHE_strict_party_discipline
+			}
+			clr_country_flag = SHE_diplo_is_intel
+			clr_country_flag = SHE_three_committee
+			clr_country_flag = SHE_strict_party_discipline
+			add_popularity = {
+				ideology = ROOT
+				popularity = -0.05
+			}
+			add_ideas = SHE_political_quagmire_4
+			set_country_flag = SHE_political_quagmire_flag
+		}
 	}
 }

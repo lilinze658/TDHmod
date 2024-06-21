@@ -79,3 +79,26 @@ defined_text = {
 	}
 	text = { localization_key = SHE_industry_improve_poor }
 }
+
+defined_text = {
+	name = GetPoliticalSolutionName
+	text = {
+		trigger = {
+			has_dynamic_modifier = {
+				modifier = SHE_administrative_efficiency_dynamic_modifier
+			}
+		}
+		localization_key = SHE_political_solution_marshal
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_dynamic_modifier = {
+					modifier = SHE_administrative_efficiency_dynamic_modifier
+				}
+			}
+		}
+		localization_key = SHE_political_solution_quagmire
+	}
+	text = { localization_key = SHE_political_solution_marshal }
+}

@@ -2235,6 +2235,8 @@ focus_tree = {
 					}
 				}
 			}
+			set_country_flag = SHE_diplo_is_intel_flag
+			SHE_political_quagmire = yes
 		}
 	}
 
@@ -2281,6 +2283,8 @@ focus_tree = {
 			custom_effect_tooltip = SHE_modify_AE_dynamic_modifier_tt
 			add_to_variable = { SHE_AE_political_power_factor_var = 0.10 tooltip = political_power_factor_tt }
 			add_to_variable = { SHE_AE_fascism_drift_var = 0.15 tooltip = fascism_drift_tt }
+			set_country_flag = SHE_three_committee_tt
+			SHE_political_quagmire = yes
 		}
 	}
 
@@ -2380,12 +2384,32 @@ focus_tree = {
 			custom_effect_tooltip = SHE_modify_AE_dynamic_modifier_tt
 			add_to_variable = { SHE_AE_political_advisor_cost_factor_var = -0.33 tooltip = political_advisor_cost_factor_tt }
 			add_to_variable = { SHE_AE_fascism_drift_var = 0.05 tooltip = fascism_drift_tt }
+			set_country_flag = SHE_strict_party_discipline_flag
+			SHE_political_quagmire = yes
 		}
 	}
 
 	focus = {
-		id = SHE_salute_to_marshal
-		icon = GFX_focus_SWI_guisans_coup
+		id = SHE_political_solution
+		dynamic = yes
+		icon = {
+			trigger = {
+				has_dynamic_modifier = {
+					modifier = SHE_administrative_efficiency_dynamic_modifier
+				}
+			}
+			value = GFX_focus_SWI_guisans_coup
+		}
+		icon = {
+			trigger = {
+				NOT = {
+					has_dynamic_modifier = {
+						modifier = SHE_administrative_efficiency_dynamic_modifier
+					}
+				}
+			}
+			value = GFX_focus_BRA_rio_protocol
+		} 
 		prerequisite = { focus = SHE_diplo_is_intel }
 		prerequisite = { focus = SHE_three_committee }
 		prerequisite = { focus = SHE_strict_party_discipline }
@@ -2401,12 +2425,30 @@ focus_tree = {
 		}
 		bypass = {}
 		search_filters = {  }
+		select_effect = {
+			set_country_flag = SHE_political_solution_flag
+		}
 		completion_reward = {
 			custom_effect_tooltip = SHE_modify_AE_dynamic_modifier_tt
 			add_to_variable = { SHE_AE_stability_factor_var = 0.10 tooltip = stability_factor_tt }
 			add_to_variable = { SHE_AE_war_support_factor_var = 0.10 tooltip = war_support_factor_tt }
 			add_to_variable = { SHE_AE_fascism_drift_var = 0.10 tooltip = fascism_drift_tt }
-		
+			custom_effect_tooltip = SHE_blank_tt
+			if = {
+				limit = { has_country_flag = SHE_political_quagmire_flag }
+				remove_dynamic_modifier = {
+					modifier = SHE_administrative_efficiency_dynamic_modifier
+				}
+				add_popularity = {
+					ideology = ROOT
+					popularity = -0.05
+				}
+				swap_ideas = {
+					remove_idea = SHE_political_quagmire_4
+					add_idea = SHE_political_quagmire_5
+				}
+			}
+			clr_country_flag = SHE_political_solution_flag
 		}
 	}
 
@@ -2965,7 +3007,12 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
+			add_war_support = 0.05
 			set_country_flag = SHE_gbpaint_strategy_flag
+			set_country_flag = { flag = SHE_gbpaint_canceled_count_flag value = 1 days = 30 }
+			set_variable = { gbpaint_step_var = 1 }
+			activate_mission = SHE_ng_declare_war_mission
+			activate_mission = SHE_sg_declare_war_mission
 		}
 	}
 
@@ -2978,12 +3025,19 @@ focus_tree = {
 		y = 1
 		cost = 5
 		available = {
-			
+			has_active_mission = SHE_sg_declare_war_mission
 		}
 		ai_will_do = {
 			base = 1
 		}
-		bypass = {}
+		bypass = {
+			DUC = {
+				OR = {
+					has_war_with = BER
+					has_war_with = ROOT
+				}
+			}
+		}
 		search_filters = {  }
 		completion_reward = {
 			add_stability = 0.10
@@ -3020,12 +3074,19 @@ focus_tree = {
 		y = 1
 		cost = 5
 		available = {
-			
+			has_active_mission = SHE_ng_declare_war_mission
 		}
 		ai_will_do = {
 			base = 1
 		}
-		bypass = {}
+		bypass = {
+			HAS = {
+				OR = {
+					has_war_with = POS
+					has_war_with = ROOT
+				}
+			}
+		}
 		search_filters = {  }
 		completion_reward = {
 			add_stability = 0.10
@@ -3041,7 +3102,54 @@ focus_tree = {
 		y = 1
 		cost = 5
 		available = {
-			
+			HAS = {
+				OR = {
+					is_in_faction_with = ROOT
+					is_subject_of = ROOT
+					AND = {
+						exists = no
+						all_core_state = { is_controlled_by_ROOT_or_subject = yes }
+					}
+					AND = {
+						OR = {
+							is_in_faction_with = MAG
+							is_subject_of = MAG
+						}
+						any_core_state = { is_controlled_by_ROOT_or_subject = yes }
+					}
+					AND = {
+						OR = {
+							is_in_faction_with = FAL
+							is_subject_of = FAL
+						}
+						any_core_state = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+			}
+#			DUC = {
+#				OR = {
+#					is_in_faction_with = ROOT
+#					is_subject_of = ROOT
+#					AND = {
+#						exists = no
+#						all_core_state = { is_controlled_by_ROOT_or_subject = yes }
+#					}
+#					AND = {
+#						OR = {
+#							is_in_faction_with = MAG
+#							is_subject_of = MAG
+#						}
+#						any_core_state = { is_controlled_by_ROOT_or_subject = yes }
+#					}
+#					AND = {
+#						OR = {
+#							is_in_faction_with = FAL
+#							is_subject_of = FAL
+#						}
+#						any_core_state = { is_controlled_by_ROOT_or_subject = yes }
+#					}
+#				}
+#			}
 		}
 		ai_will_do = {
 			base = 1
@@ -3049,7 +3157,14 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			every_other_country = {
+				limit = {
+					any_controlled_state = {
+						is_core_of = HAS
+					}
+				}
+				add_political_power = 25
+			}
 		}
 	}
 
@@ -3073,7 +3188,20 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			every_other_country = {
+				limit = {
+					any_neighbor_country = {
+						is_ROOT_or_subject = yes
+					}
+				}
+				ROOT = {
+					create_wargoal = {
+						target = PREV
+						type = annex_everything
+					}
+				}
+			}
+			custom_effect_tooltip = SHE_war_plan_blue_tt
 		}
 	}
 }
