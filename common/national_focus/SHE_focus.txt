@@ -16,7 +16,7 @@
 ### #!gfx:interface\DTH_goals.gfx ###
 
 focus_tree = {
-	id = DTH_SHE_focus
+	id = TDH_SHE_focus
 	
 	country = {
 		factor = 0
@@ -1251,7 +1251,42 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			
+			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
+			add_to_variable = { SHE_IN_experience_gain_navy_factor_var = 0.05 tooltip = experience_gain_navy_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1272,7 +1307,13 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			navy_experience = 5
+			add_tech_bonus = {
+				name = SHE_generalist_in_fleet
+				bonus = 1.0
+				uses = 1
+				category = mio_cat_tech_all_cruiser_and_modules
+			}
 		}
 	}
 
@@ -1293,7 +1334,8 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
+			add_to_variable = {  }
 		}
 	}
 
