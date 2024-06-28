@@ -15,6 +15,12 @@ on_actions = {
 				add_dynamic_modifier = { modifier = SHE_imperial_navy_dynamic_modifier }
 				add_dynamic_modifier = { modifier = SHE_imperial_airforce_dynamic_modifier }
 			}
+			115 = { set_state_flag = SHE_northern_gbpaint_target_flag }
+			116 = { set_state_flag = SHE_northern_gbpaint_target_flag }
+			117 = { set_state_flag = SHE_northern_gbpaint_target_flag }
+			162 = { set_state_flag = SHE_southern_gbpaint_target_flag }
+			163 = { set_state_flag = SHE_southern_gbpaint_target_flag }
+			164 = { set_state_flag = SHE_southern_gbpaint_target_flag }
 			###  XIZHOU STRATEGY  ###
 			every_state = {
 				limit = { has_state_flag = SHE_northern_gbpaint_target_flag }

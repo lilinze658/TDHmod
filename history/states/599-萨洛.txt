@@ -10,9 +10,7 @@ state={
 		}
  
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
+			infrastructure = 2
 		}
 		add_core_of = WIM
 
@@ -23,6 +21,6 @@ state={
 	}
 	manpower=2601520
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 	local_supplies=0.000
 }

@@ -10,8 +10,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 3
+			industrial_complex = 4
+			arms_factory = 4
 
 		}
 		add_core_of = ORD
@@ -21,7 +21,7 @@ state={
 	provinces={
 		587 2473 2626 3462 4799 6563 7005 7609 8794 8983 9285 9499 9611 10472 14558 14566 14637 14696 14741 14828 14914 14915 14918 14974 14989 
 	}
-	manpower=2790000
+	manpower=4621024
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

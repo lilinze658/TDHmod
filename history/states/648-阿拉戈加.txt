@@ -11,7 +11,6 @@ state={
  
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
 		}
 		add_core_of = MIY
 
@@ -20,7 +19,7 @@ state={
 	provinces={
 		198 501 1273 6340 8713 9166 10321 16909 16980 
 	}
-	manpower=1698547
+	manpower=1153620
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

@@ -1,23 +1,22 @@
 
 state={
 	id=854
-	name="STATE_854"
+	name="STATE_1054"
 
 	history={
-		owner = WEI
- 
+		owner = ONG
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 2
 
 		}
-		add_core_of = WEI
+		add_core_of = ONG
 
 	}
 
 	provinces={
-		725 920 2009 3688 4805 5880 7794 7821 13484 13533 13631 
+		356 2577 3242 3678 6691 9163 14334 14380 14396 14439 14490 14529 14555 14589 14595 847 6302 6741 8620 9972 10670 14387 14507 14623 14689 2582 3083 4282 6123 6417 8901 14397 14424 14530 14544 14615 
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000

@@ -1,0 +1,24 @@
+
+state={
+	id=908
+	name="逊安"
+
+	history={
+		owner = ZHI
+ 
+		buildings = {
+			infrastructure = 1
+		
+		}
+		add_core_of = ZHI
+
+	}
+
+	provinces={
+		44 93 866 2413 2735 4331 4945 6834 7124 7654 9011 16313 16337 16448 16471 16484 16546 878 3044 3383 3551 6533 7876 8308 9393 9870 10281 15898 15999 16089 16124 16199 16212 16251 16259 16304 
+	}
+	manpower=730261
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

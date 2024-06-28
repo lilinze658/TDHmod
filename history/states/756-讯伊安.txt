@@ -1,0 +1,24 @@
+
+state={
+	id=756
+	name="讯伊安"
+	
+	history={
+		owner = OLI
+		 
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = OLI
+
+	}
+	
+	provinces={
+		1629 1865 3463 4122 4953 5347 8208 8922 10152 12318 12331 12365 12376 12423 12466 12472 12487 12514 
+	}
+	manpower=915432
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

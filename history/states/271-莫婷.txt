@@ -5,11 +5,18 @@ state={
 
 	history={
 		owner = OLI
+		victory_points = {
+			6023 20
+		}
 		 
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
 			industrial_complex = 3
 			arms_factory = 2
+
+			13007 = {
+				naval_base = 2
+			}
 
 		}
 		add_core_of = OLI
@@ -19,8 +26,8 @@ state={
 	provinces={
 		1012 1136 1463 1497 3163 6023 8580 9893 12783 12833 12870 13007 
 	}
-	manpower=10000000
+	manpower=5136204
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_city
 	local_supplies=0.000
 }

@@ -1,23 +1,22 @@
 
 state={
 	id=869
-	name="STATE_869"
+	name="STATE_1020"
 
 	history={
-		owner = KAN
- 
+		owner = NAN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 2
 
 		}
-		add_core_of = KAN
+		add_core_of = NAN
 
 	}
-
+	
 	provinces={
-		418 1874 2535 4032 4500 4570 4884 5242 6378 9921 17481 17503 17557 17577 17634 17643 
+		2477 2927 4511 4955 10773 17223 17299 17389 17445 17499 17528 17618 163 602 2250 4664 8571 8621 9315 9852 10543 17488 17570 17716 17744 2232 2449 5862 6236 6258 7493 8371 8964 10687 17419 17468 17579 17743 1896 2151 2682 4459 7270 7858 8677 17844 17888 17963 18036 
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000

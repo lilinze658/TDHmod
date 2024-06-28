@@ -1,0 +1,26 @@
+
+state={
+	id=864
+	name="温丽"
+
+	history={
+		owner = KAN
+ 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = KAN
+
+	}
+
+	provinces={
+		11 647 2782 3471 3950 5020 8851 17356 17366 17417 17482 17487 17517 17527 17589 129 1319 1510 2702 2799 3213 3731 4855 6138 6676 6878 10460 17363 17497 17538 17673 17686 
+	}
+	manpower=3710262
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

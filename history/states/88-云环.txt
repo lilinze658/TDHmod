@@ -9,10 +9,13 @@ state={
 			1181 30 
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 2
-
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+            
+			16791 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = KAN
 
@@ -21,7 +24,7 @@ state={
 	provinces={
 		43 476 1181 1565 1804 2410 3650 3841 3961 4091 5293 5443 6158 6573 6790 7400 7670 7675 8221 10511 16652 16662 16694 16722 16765 16772 16773 16791 16792 16826 16840 16857 16881 16911 16915 16987 17031 17044 17074 
 	}
-	manpower=10000000
+	manpower=4892036
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

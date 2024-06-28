@@ -1,0 +1,30 @@
+
+state={
+	id=910
+	name="万亚"
+	resources={
+		steel= 30
+        aluminium= 20
+	}
+	history={
+		owner = MOB
+		victory_points = {
+			8311 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+		add_core_of = MOB
+
+	}
+	
+	provinces={
+		1635 2049 3600 3743 4372 5071 5652 7410 7751 8265 8311 9469 9514 15322 15350 15377 15404 15466 15478 15487 15506 15530 15546 15578 15649 
+	}
+	manpower=4301852
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

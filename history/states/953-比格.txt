@@ -1,0 +1,29 @@
+
+state={
+	id=953
+	name="比格"
+	history={
+		owner = ZET
+		victory_points = {
+			4767 10
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ZET
+		4635.10.25 = {
+			owner = KIA
+			add_core_of = ZET
+			add_core_of = KIA
+
+		}
+	}
+
+	provinces={
+		128 621 2174 4137 4767 5500 7260 7961 9926 19194 19235 19267 19346 19358 
+	}
+	manpower=301420
+	buildings_max_level_factor=1.000
+	state_category=large_town 
+	local_supplies=0.000
+}

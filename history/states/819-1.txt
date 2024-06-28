@@ -1,22 +1,23 @@
 
 state={
 	id=819
-	name="STATE_819"
+	name="STATE_978"
 
 	history={
-		owner = GOD
+		owner = UNI
+ 
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 2
 
 		}
-		add_core_of = GOD
+		add_core_of = UNI
 
 	}
 
 	provinces={
-		922 2283 7015 7253 7504 9376 19167 19168 19197 19230 19292 19323 19342 
+		216 220 604 1264 1632 3637 5114 5935 10078 18915 18931 18983 19009 19021 19049 19056 19076 19123 19166 19262 19269 19283 
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000
