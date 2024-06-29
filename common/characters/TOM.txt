@@ -1,6 +1,6 @@
 characters={ 
 	TOM_gemila={
-		name=格米拉
+		name=gemila
 		portraits={
 			civilian={
 				large="gfx/leaders/TOM/格米拉.dds"
@@ -12,20 +12,21 @@ characters={
 		
 		}
 		country_leader={
-		desc = ""
+		desc = "TOM_gemila_APDF_DES"
 		     traits = {  }
 			 ideology= despotism 
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
+		desc = "TOM_gemila_APDF_DES"
+			legacy_id = 208
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 }

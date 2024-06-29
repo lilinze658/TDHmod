@@ -14,51 +14,85 @@ on_actions = {
 				add_dynamic_modifier = { modifier = SHE_imperial_army_dynamic_modifier }
 				add_dynamic_modifier = { modifier = SHE_imperial_navy_dynamic_modifier }
 				add_dynamic_modifier = { modifier = SHE_imperial_airforce_dynamic_modifier }
-				every_state = {
-					limit = { has_state_flag = SHE_northern_gbpaint_target_flag }
-					PREV = {
+			}
+			115 = { set_state_flag = SHE_northern_gbpaint_target_flag }
+			116 = { set_state_flag = SHE_northern_gbpaint_target_flag }
+			117 = { set_state_flag = SHE_northern_gbpaint_target_flag }
+			162 = { set_state_flag = SHE_southern_gbpaint_target_flag }
+			163 = { set_state_flag = SHE_southern_gbpaint_target_flag }
+			164 = { set_state_flag = SHE_southern_gbpaint_target_flag }
+			###  XIZHOU STRATEGY  ###
+			every_state = {
+				limit = { has_state_flag = SHE_northern_gbpaint_target_flag }
+				SHE = {
+					add_to_array = {
+						array = SHE.SHE_northern_gbpaint_target_array
+						value = PREV.id
+					}
+				}
+			}
+			every_state = {
+				limit = { has_state_flag = SHE_southern_gbpaint_target_flag }
+				SHE = {
+					add_to_array = {
+						array = SHE.SHE_southern_gbpaint_target_array
+						value = PREV.id
+					}
+				}
+			}
+			HAS = { set_country_flag = AREA_gbpaint_country_flag }
+			DUC = { set_country_flag = AREA_gbpaint_country_flag }
+			RUT = { set_country_flag = AREA_gbpaint_country_flag }
+			NED = { set_country_flag = AREA_gbpaint_country_flag }
+			WIN = { set_country_flag = AREA_gbpaint_country_flag }
+			ZET = { set_country_flag = AREA_gbpaint_country_flag }
+			NGD = { set_country_flag = AREA_gbpaint_country_flag }
+			TZY = { set_country_flag = AREA_gbpaint_country_flag }
+			GUS = { set_country_flag = AREA_gbpaint_country_flag }
+			MAG = { set_country_flag = AREA_gbpaint_country_flag }
+			AIS = { set_country_flag = AREA_gbpaint_country_flag }
+			REP = { set_country_flag = AREA_gbpaint_country_flag }
+			every_country = {
+				limit = { has_country_flag = AREA_gbpaint_country_flag }
+				SHE = {
+					add_to_array = {
+						array = SHE.gbpaint_country_array
+						value = PREV.id
+					}
+				}
+				every_owned_state = {
+					limit = { is_in_home_area = yes }
+					set_state_flag = gbpaint_state_flag
+					SHE = {
 						add_to_array = {
-							array = SHE.SHE_northern_gbpaint_target_array
+							array = SHE.gbpaint_state_array
 							value = PREV.id
 						}
 					}
 				}
-				every_state = {
-					limit = { has_state_flag = SHE_southern_gbpaint_target_flag }
-					PREV = {
-						add_to_array = {
-							array = SHE.SHE_southern_gbpaint_target_array
-							value = PREV.id
-						}
+			}
+			#########################
+			### SHENZHOU STRATEGY ###
+			every_country = {
+				limit = {
+					OR = {
+						original_tag = ONG
+						original_tag = GOD
+						original_tag = ANY
+						original_tag = SOU
 					}
 				}
-				HAS = { set_country_flag = AREA_gbpaint_country_flag }
-				DUC = { set_country_flag = AREA_gbpaint_country_flag }
-				RUT = { set_country_flag = AREA_gbpaint_country_flag }
-				NED = { set_country_flag = AREA_gbpaint_country_flag }
-				WIN = { set_country_flag = AREA_gbpaint_country_flag }
-				ZET = { set_country_flag = AREA_gbpaint_country_flag }
-				NGD = { set_country_flag = AREA_gbpaint_country_flag }
-				TZY = { set_country_flag = AREA_gbpaint_country_flag }
-				GUS = { set_country_flag = AREA_gbpaint_country_flag }
-				MAG = { set_country_flag = AREA_gbpaint_country_flag }
-				AIS = { set_country_flag = AREA_gbpaint_country_flag }
-				REP = { set_country_flag = AREA_gbpaint_country_flag }
-				every_country = {
-					limit = { has_country_flag = AREA_gbpaint_country_flag }
-					every_owned_state = {
-						limit = { is_in_home_area = yes }
-						set_state_flag = gbpaint_state_flag
-						PREV.PREV = {
-							add_to_array = {
-								array = SHE.gbpaint_state_array
-								value = PREV.id
-							}
-						}
+				SHE = {
+					add_to_array = {
+						array = SHE.shenzhou_strategy_country_array
+						value = PREV.id
 					}
-					PREV = {
+				}
+				every_owned_state = {
+					set_state_flag = SHE_shenzhou_strategy_state_flag
+					SHE = {
 						add_to_array = {
-							array = SHE.gbpaint_country_array
+							array = SHE.shenzhou_strategy_state_array
 							value = PREV.id
 						}
 					}
@@ -80,7 +114,7 @@ on_actions = {
 						NOT = {
 							has_relation_modifier = {
 								target = THIS
-								modifier = SHE_dim_star_static
+								modifier = SHE_dim_star_static_1
 							}
 						}
 					}
@@ -89,7 +123,7 @@ on_actions = {
 						SHE = {
 							has_relation_modifier = {
 								target = PREV
-								modifier = SHE_dim_star_static
+								modifier = SHE_dim_star_static_1
 							}
 						}
 					}
@@ -97,7 +131,83 @@ on_actions = {
 				SHE = {
 					add_relation_modifier = {
 						target = THIS
-						modifier = SHE_dim_star_static
+						modifier = SHE_dim_star_static_1
+					}
+				}
+				THIS = {
+					add_opinion_modifier = {
+						target = SHE
+						modifier = traitor_of_Shenzhou
+					}
+				}
+			}
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						NOT = {
+							has_relation_modifier = {
+								target = THIS
+								modifier = SHE_dim_star_static_2
+							}
+						}
+					}
+					FROM = {
+						original_tag = DIV
+						SHE = {
+							has_relation_modifier = {
+								target = PREV
+								modifier = SHE_dim_star_static_2
+							}
+						}
+					}
+				}
+				SHE = {
+					add_relation_modifier = {
+						target = THIS
+						modifier = SHE_dim_star_static_2
+					}
+				}
+				THIS = {
+					add_opinion_modifier = {
+						target = SHE
+						modifier = traitor_of_Shenzhou
+					}
+				}
+			}
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						NOT = {
+							has_relation_modifier = {
+								target = THIS
+								modifier = SHE_dim_star_static_3
+							}
+						}
+					}
+					FROM = {
+						original_tag = DIV
+						SHE = {
+							has_relation_modifier = {
+								target = PREV
+								modifier = SHE_dim_star_static_3
+							}
+						}
+					}
+				}
+				SHE = {
+					add_relation_modifier = {
+						target = THIS
+						modifier = SHE_dim_star_static_3
 					}
 				}
 				THIS = {
@@ -123,7 +233,7 @@ on_actions = {
 						NOT = {
 							has_relation_modifier = {
 								target = FROM
-								modifier = SHE_dim_star_static
+								modifier = SHE_dim_star_static_1
 							}
 						}
 					}
@@ -132,7 +242,7 @@ on_actions = {
 						SHE = {
 							has_relation_modifier = {
 								target = PREV
-								modifier = SHE_dim_star_static
+								modifier = SHE_dim_star_static_1
 							}
 						}
 					}
@@ -140,7 +250,83 @@ on_actions = {
 				SHE = {
 					add_relation_modifier = {
 						target = FROM
-						modifier = SHE_dim_star_static
+						modifier = SHE_dim_star_static_1
+					}
+				}
+				FROM = {
+					add_opinion_modifier = {
+						target = SHE
+						modifier = traitor_of_Shenzhou
+					}
+				}
+			}
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						NOT = {
+							has_relation_modifier = {
+								target = FROM
+								modifier = SHE_dim_star_static_2
+							}
+						}
+					}
+					THIS = {
+						original_tag = DIV
+						SHE = {
+							has_relation_modifier = {
+								target = PREV
+								modifier = SHE_dim_star_static_2
+							}
+						}
+					}
+				}
+				SHE = {
+					add_relation_modifier = {
+						target = FROM
+						modifier = SHE_dim_star_static_2
+					}
+				}
+				FROM = {
+					add_opinion_modifier = {
+						target = SHE
+						modifier = traitor_of_Shenzhou
+					}
+				}
+			}
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						NOT = {
+							has_relation_modifier = {
+								target = FROM
+								modifier = SHE_dim_star_static_3
+							}
+						}
+					}
+					THIS = {
+						original_tag = DIV
+						SHE = {
+							has_relation_modifier = {
+								target = PREV
+								modifier = SHE_dim_star_static_3
+							}
+						}
+					}
+				}
+				SHE = {
+					add_relation_modifier = {
+						target = FROM
+						modifier = SHE_dim_star_static_3
 					}
 				}
 				FROM = {
@@ -165,14 +351,82 @@ on_actions = {
 						has_country_leader_with_trait = dim_star
 						has_relation_modifier = {
 							target = ROOT
-							modifier = SHE_dim_star_static
+							modifier = SHE_dim_star_static_1
 						}
 					}
 				}
 				SHE = {
 					remove_relation_modifier = {
 						target = ROOT
-						modifier = SHE_dim_star_static
+						modifier = SHE_dim_star_static_1
+					}
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_opinion_modifier = traitor_of_Shenzhou
+						}
+					}
+					ROOT = {
+						remove_opinion_modifier = {
+							target = SHE
+							modifier = traitor_of_Shenzhou
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						has_relation_modifier = {
+							target = ROOT
+							modifier = SHE_dim_star_static_2
+						}
+					}
+				}
+				SHE = {
+					remove_relation_modifier = {
+						target = ROOT
+						modifier = SHE_dim_star_static_2
+					}
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_opinion_modifier = traitor_of_Shenzhou
+						}
+					}
+					ROOT = {
+						remove_opinion_modifier = {
+							target = SHE
+							modifier = traitor_of_Shenzhou
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					SHE = {
+						has_country_leader = {
+							character = SHE_YangJieyu
+							ruling_only = yes
+						}
+						has_country_leader_with_trait = dim_star
+						has_relation_modifier = {
+							target = ROOT
+							modifier = SHE_dim_star_static_3
+						}
+					}
+				}
+				SHE = {
+					remove_relation_modifier = {
+						target = ROOT
+						modifier = SHE_dim_star_static_3
 					}
 				}
 				if = {
@@ -204,6 +458,102 @@ on_actions = {
 					}
 				}
 				THIS = { set_country_flag = AREA_gbpaint_country_flag }
+			}
+		}
+	}
+	
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = SHE
+						has_country_flag = SHE_war_plan_black_flag
+					}
+					FROM = {
+						OR = {
+							original_tag = SHE
+							original_tag = ONG
+							original_tag = GOD
+							original_tag = ANY
+							original_tag = SOU
+						}
+					}
+				}
+				ROOT = {
+					add_timed_idea = {
+						idea = SHE_war_plan_black_timed
+						days = 90
+					}
+					clr_country_flag = SHE_war_plan_black_flag
+				}
+			}
+		}
+	}
+	
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					any_country = {
+						is_in_array = {
+							array = SHE.shenzhou_strategy_country_array
+							value = THIS.id
+						}
+						has_war_with = SHE
+					}
+				}
+				if = {
+					limit = {
+						any_state = {
+							has_state_flag = SHE_shenzhou_strategy_state_flag
+							owner = {
+								has_war_with = SHE
+								NOT = { has_full_control_of_state = PREV }
+							}
+							#There are loopholes in this judgment, but I haven't figured out how to better express it yet.
+						}
+					}
+					if = {
+						limit = { SHE = { NOT = { has_template = "ShengYang Guerrilla" } } }
+						SHE = {
+							division_template = {
+								name = "ShengYang Guerrilla"
+								is_locked = yes
+								division_names_group = SHE_GAR_01
+								priority = 0
+								regiments = {
+									infantry = { x = 0 y = 0 }
+									infantry = { x = 0 y = 1 }
+									infantry = { x = 0 y = 2 }
+									infantry = { x = 0 y = 3 }
+								}
+							}
+						}
+					}
+					every_state = {
+						limit = {
+							has_state_flag = SHE_shenzhou_strategy_state_flag
+							owner = {
+								has_war_with = SHE
+								NOT = { has_full_control_of_state = PREV }
+							}
+						}
+						meta_effect = {
+							text = {
+								create_unit = {
+									division = "name = \"ShengYang Guerrilla\" division_template = \"ShengYang Guerrilla\" start_manpower_factor = 0.3 start_equipment_factor = 0.8 start_experiment_factor = 0.25"
+									owner = SHE
+									count = KMTNUM
+									allow_spawning_on_enemy_provs = yes
+								}
+							}
+							KMTNUM = [?THIS.SHE_num_of_volunteer_var]
+						}
+						clr_state_flag = SHE_shenzhou_strategy_state_flag
+						clear_variable = SHE_num_of_volunteer_var
+					}
+				}
 			}
 		}
 	}

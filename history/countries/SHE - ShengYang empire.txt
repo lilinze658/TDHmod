@@ -1,7 +1,10 @@
 capital = 8
 
+DEBUG_SHE_effect_4 = yes
+#will be deleted in the future
+
 set_stability = 0.20
-set_war_support = 0.40
+set_war_support = 0.50
 set_research_slots = 3
 set_convoys = 1000
 
@@ -14,14 +17,14 @@ set_technology = {
 	staff_samurai = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	tech_trucks = 1
 	tech_recon = 1
 	tech_support = 1		
 	gw_artillery = 1
 	interwar_antiair = 1
 	basic_train = 1
-	defence_in_depth = 1
-	grand_battle_plan = 1
-	trench_warfare = 1
+	#grand_battle_plan = 1
+	#trench_warfare = 1
 	synth_oil_experiments = 1
 	fuel_silos = 1
 	fuel_refining = 1
@@ -92,6 +95,15 @@ set_variable = { SHE_IIF_cost_armor_var = 0.20 }
 set_variable = { SHE_IIF_research_industry_var = -0.10 }
 set_variable = { SHE_IIF_research_electronics_var = -0.20 }
 set_variable = { SHE_IIF_research_support_tech_var = 0.05 }
+add_ideas = {
+	SHE_IIF_infantry_equipment_cost_idea_1
+	SHE_IIF_artillery_equipment_cost_idea_1
+	SHE_IIF_motorized_equipment_cost_idea_1
+	SHE_IIF_armor_cost_idea_1
+	SHE_IIF_industry_research_idea_1
+	SHE_IIF_electronics_research_idea_1
+	SHE_IIF_support_tech_research_idea_1
+}
 #add_dynamic_modifier = { modifier = SHE_incomplete_industrial_foundation_dynamic_modifier }
 
 set_variable = { SHE_AE_political_power_factor_var = -0.40 }
@@ -109,7 +121,7 @@ set_variable = { SHE_AE_airforce_intel_to_others_var = 50 }
 set_variable = { SHE_AE_enemy_operative_capture_chance_factor_var = -0.25 }
 set_variable = { SHE_AE_enemy_operative_detection_chance_factor_var = -0.25 }
 set_variable = { SHE_AE_intelligence_agency_defense_var = -0.50 }
-set_variable = { SHE_AE_crypto_strength_var = -1 }
+set_variable = { SHE_AE_crypto_strength_var = -4 }
 #add_dynamic_modifier = { modifier = SHE_administrative_efficiency_dynamic_modifier }
 
 set_variable = { SHE_IA_army_infantry_attack_factor_var = 0.05 }
@@ -117,22 +129,37 @@ set_variable = { SHE_IA_army_infantry_defence_factor_var = 0.05 }
 set_variable = { SHE_IA_supply_consumption_factor_var = 0.10 }
 #add_dynamic_modifier = { modifier = SHE_imperial_army_dynamic_modifier }
 
-set_variable = { SHE_IA_navy_capital_ship_attack_factor_var = 0.05 }
-set_variable = { SHE_IA_navy_capital_ship_defence_factor_var = 0.05 }
-set_variable = { SHE_IA_screening_efficiency_var = -0.10 }
-set_variable = { SHE_IA_navy_anti_air_attack_factor_var = -0.20 }
-set_variable = { SHE_IA_naval_retreat_chance_var = -0.75 }
-set_variable = { SHE_IA_naval_accidents_chance_var = 0.50 }
+set_variable = { SHE_IN_navy_capital_ship_attack_factor_var = 0.05 }
+set_variable = { SHE_IN_navy_capital_ship_defence_factor_var = 0.05 }
+set_variable = { SHE_IN_screening_efficiency_var = -0.10 }
+set_variable = { SHE_IN_navy_anti_air_attack_factor_var = -0.20 }
+set_variable = { SHE_IN_naval_retreat_chance_var = -0.75 }
+set_variable = { SHE_IN_naval_accidents_chance_var = 0.50 }
 #add_dynamic_modifier = { modifier = SHE_imperial_navy_dynamic_modifier }
 
-set_variable = { SHE_IA_air_range_factor_var = 0.10 }
-set_variable = { SHE_IA_air_agility_factor_var = 0.05 }
-set_variable = { SHE_IA_air_attack_factor_var = 0.05 }
-set_variable = { SHE_IA_air_maximum_speed_factor_var = 0.05 }
-set_variable = { SHE_IA_air_defence_factor_var = -0.15 }
-set_variable = { SHE_IA_army_bonus_air_superiority_factor_var = -0.25 }
+set_variable = { SHE_IAF_air_range_factor_var = 0.10 }
+set_variable = { SHE_IAF_air_agility_factor_var = 0.05 }
+set_variable = { SHE_IAF_air_attack_factor_var = 0.05 }
+set_variable = { SHE_IAF_air_maximum_speed_factor_var = 0.05 }
+set_variable = { SHE_IAF_air_defence_factor_var = -0.15 }
+set_variable = { SHE_IAF_army_bonus_air_superiority_factor_var = -0.25 }
 #add_dynamic_modifier = { modifier = SHE_imperial_airforce_dynamic_modifier }
 
+set_variable = { SHE_ATS_command_power_gain_mult_var = 0.05 }
+#add_dynamic_modifier = { modifier = SHE_aim_to_shenzhou_dynamic_modifier }
+
+#Insufficient exploration and utilization of relics
+9 = {
+	add_dynamic_modifier = {
+		modifier = SHE_relics_exploration_state_dynamic_modifier
+	}
+}
+set_variable = { SHE_RE_industrial_factory_donations_var = 1 }
+set_variable = { SHE_RE_military_factory_donations_var = 1 }
+set_variable = { SHE_RE_dockyard_donations_var = 1 }
+set_variable = { SHE_RE_industrial_capacity_factory_var = 1 }
+set_variable = { SHE_RE_industrial_capacity_dockyard_var = 1 }
+add_dynamic_modifier = { modifier = SHE_relics_exploration_dynamic_modifier }
 
 set_autonomy = {
 	target = BER
@@ -174,6 +201,7 @@ every_country = {
 	}
 }
 
+set_variable = { SHE_dim_star_level_var = 1 }
 every_other_country = {
 	limit = {
 		OR = {
@@ -184,7 +212,7 @@ every_other_country = {
 			NOT = {
 				has_relation_modifier = {
 					target = PREV
-					modifier = SHE_dim_star_static
+					modifier = SHE_dim_star_static_1
 				}
 			}
 		}
@@ -193,10 +221,16 @@ every_other_country = {
 		target = ROOT
 		modifier = traitor_of_Shenzhou
 	}
+	#diplomatic_relation = {
+	#	country = ROOT
+	#	relation = military_access
+	#	active = no
+	#}
+	send_embargo = ROOT
 	ROOT = {
 		add_relation_modifier = {
 			target = PREV
-			modifier = SHE_dim_star_static
+			modifier = SHE_dim_star_static_1
 		}
 		if = {
 			limit = { is_debug = yes }

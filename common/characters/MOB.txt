@@ -11,30 +11,31 @@ characters={
 			}
 		 
 		}
+		
 		country_leader={
-		desc = "MOB_CHIANG_APDF_DESC"
+		desc = "MOB_aipudifei_APDF_DESC"
 		     traits = { dictator economic_organizer }
 			ideology= Fascism_ideology
 			expire="4999.1.1.1"
 			id=-1
 		}
-		内阁
+		#内阁
 		advisor={
-			介绍	
+			#介绍	
 		    desc = "MOB_CHIANG_APDF_DESC"
-			顾问类型
+			#顾问类型
 			slot = high_command
-			顾问名字
+			#顾问名字
 			idea_token = 艾普蒂菲
-			国家
+			#国家
 			allowed = {
 				original_tag = MOB
 			}
-			顾问特质
+			#顾问特质
 			traits = {
 				army_chief_drill_3
 			}
-			政治点数
+			#政治点数
 			cost = 200
         }
 		advisor={
@@ -48,11 +49,12 @@ characters={
 				captain_of_industry fascist_demagogue
 			}
 		}
+		
 		field_marshal = {
-			desc = "MOB_CHIANG_APDF_DESC"
-			legacy_id = 8
+			desc = "MOB_aipudifei_APDF_DESC"
+			legacy_id = 101
 			traits = { panzer_leader organisational_leader inspirational_leader }
-			skill = 6
+			skill = 5
 			attack_skill = 5
 			defense_skill = 3
 			planning_skill = 4
@@ -85,7 +87,7 @@ characters={
         }
 		corps_commander = {
 			desc = "MOB_4_APDF_DESC"
-			legacy_id = 9
+			legacy_id = 102
 			traits = { infantry_leader infantry_expert organizer camouflage_expert trait_reckless }
 			skill = 4
 			attack_skill = 5
@@ -105,7 +107,7 @@ characters={
 		
 		corps_commander = {
 			desc = "MOB_7_APDF_DESC"
-			legacy_id = 10
+			legacy_id = 103
 			traits = { infantry_leader }
 			skill = 1
 			attack_skill = 2
@@ -152,7 +154,7 @@ characters={
 		
 		corps_commander = {
 			desc = "MOB_5_APDF_DESC"
-			legacy_id = 11
+			legacy_id = 104
 			traits = { panzer_leader panzer_expert brilliant_strategist }
 			skill = 5
 			attack_skill = 6
@@ -172,7 +174,7 @@ characters={
 		
 		corps_commander = {
 			desc = "MOB_9_APDF_DESC"
-			legacy_id = 12
+			legacy_id = 105
 			traits = { panzer_leader brilliant_strategist trait_reckless }
 			skill = 1
 			attack_skill = 2
@@ -192,7 +194,7 @@ characters={
 		
 		corps_commander = {
 			desc = "MOB_8_APDF_DESC"
-			legacy_id = 13
+			legacy_id = 106
 			traits = { panzer_leader }
 			skill = 1
 			attack_skill = 1
@@ -212,7 +214,7 @@ characters={
 		
 		corps_commander = {
 			desc = "MOB_10_APDF_DESC"
-			legacy_id = 14
+			legacy_id = 107
 			traits = { panzer_leader panzer_expert fortress_buster }
 			skill = 3
 			attack_skill = 4
@@ -232,7 +234,7 @@ characters={
 		
 		corps_commander = {
 			desc = "MOB_11_APDF_DESC"
-			legacy_id = 15
+			legacy_id = 108
 			traits = { panzer_leader urban_assault_specialist }
 			skill = 4
 			attack_skill = 5
@@ -252,7 +254,7 @@ characters={
 		
 		corps_commander = {
 			desc = "MOB_12_APDF_DESC"
-			legacy_id = 16
+			legacy_id = 109
 			traits = { bearer_of_artillery trait_engineer fortress_buster }
 			skill = 2
 			attack_skill = 3
@@ -287,7 +289,7 @@ characters={
 		
 		corps_commander = {
 			desc = "MOB_1_APDF_DESC"
-			legacy_id = 17
+			legacy_id = 110
 			traits = {  }
 			skill = 3
 			attack_skill = 1
@@ -305,7 +307,7 @@ characters={
 			}
 		}
 		advisor={	
-		    desc = "MOB_6_APDF_DESC"
+		    desc = "MOB_13_APDF_DESC"
 			slot = high_command
 			idea_token = 凯瑟琳
 			allowed = {
@@ -317,7 +319,7 @@ characters={
 			cost = 100
         }
 		advisor={	
-		    desc = "MOB_6_APDF_DESC"
+		    desc = "MOB_13_APDF_DESC"
 			slot = theorist
 			idea_token = 凯瑟琳
 			allowed = {
@@ -330,7 +332,7 @@ characters={
         }
 		corps_commander = {
 			desc = "MOB_13_APDF_DESC"
-			legacy_id = 18
+			legacy_id = 111
 			traits = { bearer_of_artillery infantry_leader }
 			skill = 4
 			attack_skill = 5
@@ -377,7 +379,7 @@ characters={
 
 		field_marshal = {
 			desc = "MOB_6_APDF_DESC"
-			legacy_id = 19
+			legacy_id = 112
 			traits = { bearer_of_artillery infantry_leader thorough_planner }
 			skill = 3
 			attack_skill = 4
@@ -441,7 +443,7 @@ characters={
         }
 		navy_leader = {
 			desc = "MOB_3_APDF_DESC"
-			legacy_id = 20
+			legacy_id = 113
 			traits = { ironside air_controller cruiser_captain marksman big_guns_expert battleship_adherent }
 			skill = 5
 			attack_skill = 6
@@ -488,7 +490,7 @@ characters={
 		
 		navy_leader = {
 			desc = "MOB_2_APDF_DESC"
-			legacy_id = 21
+			legacy_id = 114
 			traits = { seawolf bold crisis_magician }
 			skill = 4
 			attack_skill = 5
@@ -497,29 +499,56 @@ characters={
 			coordination_skill = 5
 		}
 	}
-	GER_carl_friedrich_goerdeler={
-		name=GER_carl_friedrich_goerdeler
-		portraits={
-			army={
-				small="GFX_idea_GER_carl_friedrich_goerdeler"
+	MOB_laoluntina={
+		name=劳伦缇娜
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOB/劳伦缇娜.dds"
 			}
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = GER_carl_friedrich_goerdeler
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-			available = {
-				has_completed_focus = GER_revive_the_kaiserreich 
-			}
-			traits = {
-				economist 
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}		
+		corps_commander = {
+		desc = "KIA_laoluntina_APDF_DES"
+			legacy_id = 115
+			traits = { skilled_staffer career_officer infantry_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
 	}
+
+	MOB_weiliansanshi={
+		name=薇莲三世
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/薇莲三世内阁.dds"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/薇莲三世.dds"
+			}
+		}
+	advisor={
+		desc = "MOB_CHIANG_WLSS_DESC"
+		slot = political_advisor
+		idea_token = 薇莲三世
+		allowed = {
+			original_tag = MOB
+		}
+		traits = {
+			mobisiqiantaizi
+		}
+		cost = 150
+	} 
+	corps_commander = {
+	desc = "MOB_14_APDF_DESC"
+		legacy_id = 116
+		traits = {  }
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+}
 }		

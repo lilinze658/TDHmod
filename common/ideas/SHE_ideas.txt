@@ -1,4 +1,97 @@
 ideas = {
+	hidden_ideas = {
+		SHE_recent_growth_in_intelligence_activities_0 = {
+			name = SHE_recent_growth_in_intelligence_activities
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				enemy_operative_detection_chance_factor = 0.1
+				enemy_operative_capture_chance_factor = 0.05
+			}
+		}
+		
+		SHE_recent_growth_in_intelligence_activities_1 = {
+			name = SHE_recent_growth_in_intelligence_activities
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				enemy_operative_detection_chance_factor = 0.2
+				enemy_operative_capture_chance_factor = 0.1
+			}
+		}
+		
+		SHE_recent_growth_in_intelligence_activities_2 = {
+			name = SHE_recent_growth_in_intelligence_activities
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				enemy_operative_detection_chance_factor = 0.3
+				enemy_operative_capture_chance_factor = 0.15
+			}
+		}
+		
+		SHE_recent_growth_in_intelligence_activities_3 = {
+			name = SHE_recent_growth_in_intelligence_activities
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				enemy_operative_detection_chance_factor = 0.4
+				enemy_operative_capture_chance_factor = 0.2
+			}
+		}
+		
+		SHE_recent_growth_in_intelligence_activities_4 = {
+			name = SHE_recent_growth_in_intelligence_activities
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				enemy_operative_detection_chance_factor = 0.5
+				enemy_operative_capture_chance_factor = 0.25
+			}
+		}
+		
+		SHE_recent_growth_in_intelligence_activities_5 = {
+			name = SHE_recent_growth_in_intelligence_activities
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_weekly = -1
+				war_support_weekly = -1
+				#You shouldn't have obtained it, let alone seen this buff
+			}
+		}
+	}
 	country = {
 		SHE_state_shintoism = {
 			name = state_shintoism
@@ -272,7 +365,7 @@ ideas = {
 				enemy_operative_capture_chance_factor = -0.25
 				enemy_operative_detection_chance_factor = -0.25
 				intelligence_agency_defense = -0.50
-				crypto_strength = -1
+				crypto_strength = -4
 			}
 		}
 		
@@ -459,6 +552,231 @@ ideas = {
 				ai_get_ally_desire_factor = -10000
 				ai_join_ally_desire_factor = -10000
 				ai_focus_aggressive_factor = 0.75
+			}
+		}
+		
+		SHE_industry_revolution = {
+			picture = bul_national_industry
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.40
+			}
+			research_bonus = {
+				industry = 0.05
+				electronics = 0.05
+			}
+		}
+		
+		SHE_population_management = {
+			picture = CHL_corvo
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.10
+			}
+		}
+		
+		SHE_population_management_21 = {
+			name = SHE_population_management
+			picture = CHL_corvo
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.15
+				political_power_cost = 0.1
+			}
+		}
+		
+		SHE_population_management_221 = {
+			name = SHE_population_management
+			picture = CHL_corvo
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.15
+				political_power_cost = 0.15
+				conscription_factor = 0.10
+			}
+		}
+		
+		SHE_population_management_222 = {
+			name = SHE_population_management
+			picture = CHL_corvo
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.15
+				political_power_cost = 0.15
+				party_popularity_stability_factor = 0.10
+			}
+		}
+		
+		SHE_population_management_23 = {
+			name = SHE_population_management
+			picture = CHL_corvo
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.20
+				political_power_cost = 0.2
+				conscription_factor = 0.10
+				party_popularity_stability_factor = 0.10
+			}
+		}
+		
+		SHE_nation_unite = {
+			picture = generic_victors_of_ww1
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+			}
+		}
+		
+		SHE_battle_for_land = {
+			picture = generic_central_management
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				global_building_slots_factor = 0.20
+				consumer_goods_factor = -0.10
+			}
+		}
+		
+		SHE_common_army = {
+			picture = generic_war_preparation
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.025
+			}
+		}
+		
+		SHE_aim_to_shenzhou_idea = {
+			picture = generic_japanese_conflict
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				mobilization_speed = 0.20
+				operative_slot = 1
+				intel_network_gain_factor = 0.10
+			}
+		}
+		
+		SHE_aim_to_shenzhou_idea_fake = {
+			picture = generic_japanese_conflict
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = { always = no }
+			removal_cost = -1
+			modifier = {
+				command_power_gain_mult = 0.05
+			}
+		}
+		
+		SHE_war_plan_black = {
+			picture = jap_intervene_in_china
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				mobilization_speed = 0.20
+				offensive_war_stability_factor = 0.25
+				operative_slot = 1
+			}
+			targeted_modifier = {
+				tag = DIV
+				breakthrough_bonus_against = 0.15
+			}
+		}
+		
+		SHE_war_plan_black_timed = {
+			picture = cze_planning_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			targeted_modifier = {
+				tag = ONG
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = GOD
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = ANY
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = SOU
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.05
 			}
 		}
 	}

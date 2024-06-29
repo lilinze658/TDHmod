@@ -1,7 +1,7 @@
 characters={ 
 	
 	AIS_luosailuona={
-		name=罗赛罗娜
+		name= luosailuona
 		portraits={
 			civilian={
 				large="gfx/leaders/AIS/罗赛罗娜.dds"
@@ -13,14 +13,14 @@ characters={
 		
 		}
 		country_leader={
-		desc = "AIS_1_APDF_DES"
+		desc = "AIS_luosailuona_APDF_DES"
 		     traits = {  }
 			ideology= socialism 
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			desc = "AIS_1_APDF_DES"
+			desc = "AIS_luosailuona_APDF_DES"
 			legacy_id = 1
 			traits = {  }
 			skill = 5
@@ -32,7 +32,7 @@ characters={
 	}
 
 	AIS_limilian={
-		name=莉米莉安
+		name= limilian
 		portraits={
 			civilian={
 				large="gfx/leaders/AIS/莉米莉安.dds"
@@ -40,19 +40,19 @@ characters={
 		}
 		
 		corps_commander = {
-			desc = "AIS_2_APDF_DES"
+			desc = "AIS_limilian_APDF_DES"
 			legacy_id = 2
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			traits = { infantry_leader ambusher trait_reckless infantry_officer }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
 	AIS_nuobeisi={
-		name=诺贝丝
+		name= nuobeisi
 		portraits={
 			civilian={
 				large="gfx/leaders/AIS/诺贝丝.dds"
@@ -60,14 +60,99 @@ characters={
 		}
 		
 		corps_commander = {
-			desc = "AIS_3_APDF_DES"
+			desc = "AIS_nuobeisi_APDF_DES"
 			legacy_id = 3
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			traits = { infantry_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
+	AIS_walunfeili={
+	  name=瓦伦菲莉
+	  portraits = {
+		army = {
+		large="gfx/leaders/ELT/没有内阁.dds"
+		}
+	  }
+	advisor={
+       desc="AIS_walunfeili_desc"
+	   slot = political_advisor
+	   idea_token = 瓦伦菲莉
+	   allowed = {
+		original_tag = AIS
+	   }
+	   traits = {
+		luoweiniyademishuguan
+	   }
+	   cost = 150
+	}
+	}
+
+	AIS_teleimi={
+		name=特雷密
+		portraits = {
+			army = {
+				large="gfx/leaders/ELT/没有内阁.dds"
+			}
+		}
+		advisor = {
+			desc = "AIS_teleimi_desc"
+			slot = political_advisor
+			idea_token = 特雷密
+			allowed = {
+				original_tag = AIS
+			}
+			traits = { 
+				jungongkuangren
+			}
+			cost = 150
+		}
+	}
+
+	AIS_huolahuo={
+		name = 霍拉霍
+		portraits = {
+			army = {
+				large="gfx/leaders/ELT/没有内阁.dds"
+			}
+		}
+		advisor = {
+			desc = "AIS_huolahuo_desc"
+			slot = political_advisor
+			idea_token = 霍拉霍
+			allowed = {
+				original_tag = AIS
+			}
+			traits = {
+				jingmindeshangren
+			 }
+			 cost = 150
+		}
+	}
+
+    AIS_meilisi={
+		name = 梅莉斯
+		portraits = {
+			army = {
+				large="gfx/leaders/ELT/没有内阁.dds"
+			}
+		}
+		advisor = {
+			desc = "AIS_lakalameilisi_desc"
+			slot = political_advisor
+			idea_token = 梅莉斯
+			allowed = {
+				original_tag = AIS
+			}
+			traits = {
+                junfangdaiyanren
+			 }
+			 cost = 150
+		}
+	}
+
+
 }	

@@ -12,20 +12,21 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
+			desc = "ETE_baoweizhe_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
+		desc = "ETE_baoweizhe_APDF_DES"
+			legacy_id = 207
 			traits = {  }
-			skill = 5
-			attack_skill = 4
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 

@@ -1,6 +1,6 @@
 characters={ 
 	NAN_anjingzhi={
-		name=安靖之
+		name=anjingzhi
 		portraits={
 			civilian={
 				large="gfx/leaders/NAN/安靖之.dds"
@@ -12,20 +12,39 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
+			desc = "NAN_anjingzhi_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "NAN_anjingzhi_APDF_DES"
+			legacy_id = 117
+			traits = { career_officer bearer_of_artillery fortress_buster }
+			skill = 4
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 4
+		}
+	}
+	NAN_xiali={
+		name=xiali
+		portraits = {
+			army = {
+				large = "gfx/leaders/NAN/夏莉.dds" 
+			}
+		}
+		corps_commander = {
+		desc = "NAN_xiali_APDF_DES"
+			legacy_id = 118
+			traits = { trait_reckless infantry_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 }

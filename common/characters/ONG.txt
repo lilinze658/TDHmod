@@ -1,6 +1,6 @@
 characters={ 
 	ONG_shaoxuan={
-		name=邵宣
+		name=shaoxuan
 		portraits={
 			civilian={
 				large="gfx/leaders/ONG/邵宣.dds"
@@ -9,28 +9,28 @@ characters={
 				large="gfx/leaders/ONG/邵宣.dds" 
 				small="gfx/interface/ideas/XXX.png"
 			}
-		
 		}
 		country_leader={
-			desc = ""
-				 traits = {  }
+		desc = "ONG_shaoxuan_APDF_DES"
+			traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+			field_marshal = {
+			desc = "ONG_shaoxuan_APDF_DES"
+			legacy_id = 128
+			traits = { trait_engineer skilled_staffer ambusher unyielding_defender old_guard }
 			skill = 5
 			attack_skill = 4
-			defense_skill = 3
+			defense_skill = 5
 			planning_skill = 4
 			logistics_skill = 5
 		}
 	}
 
 	ONG_yamu={
-		name=雅木
+		name=yamu
 		portraits={
 			civilian={
 				large="gfx/leaders/ONG/雅木.dds"
@@ -43,18 +43,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "ONG_yamu_APDF_DES"
+			legacy_id = 129
+			traits = { armor_officer naval_liason panzer_expert skilled_staffer }
+			skill = 4
 			attack_skill = 4
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 4
 		}
 	}
 
 	ONG_qinyun={
-		name=青云
+		name=qinyun
 		portraits={
 			civilian={
 				large="gfx/leaders/ONG/青云.dds"
@@ -66,19 +67,20 @@ characters={
 		
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		navy_leader = {
+		desc = "ONG_qinyun_APDF_DES"
+			legacy_id = 130
+			traits = { green_water_expert cruiser_captain gunnery_expert }
+			skill = 3
 			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 3
 		}
 	}
 
 	ONG_chenlingjing={
-		name=陈玲静
+		name=chenlingjing
 		portraits={
 			civilian={
 				large="gfx/leaders/ONG/陈玲静.dds"
@@ -90,14 +92,15 @@ characters={
 		
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		navy_leader = {
+		desc = "ONG_chenlingjing_APDF_DES"
+			legacy_id = 131
+			traits = { aviation_enthusiast torpedo_bomber blue_water_expert air_controller }
+			skill = 4
+			attack_skill = 5
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			maneuvering_skill = 2
+			coordination_skill = 5
 		}
 	}
 }

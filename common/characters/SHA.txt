@@ -1,6 +1,6 @@
 characters={ 
 	SHA_mei={
-		name=梅
+		name=mei
 		portraits={
 			civilian={
 				large="gfx/leaders/SHA/梅.dds"
@@ -12,25 +12,26 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
+			desc = "SHA_mei_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "SHA_mei_APDF_DES"
+			legacy_id = 176
+			traits = { harsh_leader career_officer bearer_of_artillery }
+			skill = 4
 			attack_skill = 4
-			defense_skill = 3
+			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 5
 		}
 	}
 
 	SHA_jiyu={
-		name=冀宇
+		name=jiyu
 		portraits={
 			civilian={
 				large="gfx/leaders/SHA/冀宇.dds"
@@ -41,15 +42,14 @@ characters={
 			}
 		
 		}
-		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		camouflage_expert = {
+		desc = "SHA_jiyu_APDF_DES"
+			legacy_id = 177
+			traits = {}
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 
@@ -67,13 +67,38 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
+		desc = "ETE_baoweizhe_APDF_DES"
+			legacy_id = 178
 			traits = {  }
-			skill = 5
-			attack_skill = 4
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
 		}
+	}
+
+	SHA_miula={
+		name=miula
+		portraits = {
+			civilian = {
+				large="gfx/leaders/SHA/缪拉.dds"
+			}
+		}
+		country_leader={
+			desc = "SHA_miula_APDF_DES"
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+			camouflage_expert = {
+				legacy_id = 179
+				traits = {}
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
 	}
 }

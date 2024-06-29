@@ -1,6 +1,6 @@
 characters={ 
 	NED_tonghua={
-		name=桐华
+		name= tonghua
 		portraits={
 			civilian={
 				large="gfx/leaders/NED/桐华.dds"
@@ -12,25 +12,25 @@ characters={
 		
 		}
 		country_leader={
-		desc = ""
+		desc = "NED_ptonghua_APDF_DES"
 		    traits = {  }
 			ideology= socialism 
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+			legacy_id = 119
+			traits = { career_officer paratroopers trickster }
+			skill = 3
+			attack_skill =3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 
 	NED_kunna={
-		name=昆娜
+		name= kunna
 		portraits={
 			civilian={
 				large="gfx/leaders/NED/昆娜.dds"
@@ -42,13 +42,14 @@ characters={
 		
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "NED_kunna_APDF_DES"
+			legacy_id = 120
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 }	

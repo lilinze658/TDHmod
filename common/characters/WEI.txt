@@ -1,6 +1,6 @@
 characters={ 
 	WEI_yuanfupei={
-		name=袁芙茜
+		name=yuanfupei
 		portraits={
 			civilian={
 				large="gfx/leaders/WEI/袁芙茜.dds"
@@ -12,25 +12,26 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
+		desc = "WEI_yuanfupei_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "WEI_yuanfupei_APDF_DES"
+			legacy_id = 221
+			traits = { armor_officer panzer_expert winter_expert swamp_fox }
+			skill = 4
 			attack_skill = 4
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 
 	WEI_guilin={
-		name=桂琳
+		name=guilin
 		portraits={
 			civilian={
 				large="gfx/leaders/WEI/桂琳.dds"
@@ -43,18 +44,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "WEI_guilin_APDF_DES"
+			legacy_id = 222
+			traits = { bearer_of_artillery }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
 		}
 	}
 
 	WEI_linfang={
-		name=林芳
+		name=linfang
 		portraits={
 			civilian={
 				large="gfx/leaders/WEI/林芳.dds"
@@ -66,14 +68,15 @@ characters={
 		
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		navy_leader = {
+		desc = "WEI_linfang_APDF_DES"
+			legacy_id = 223
+			traits = { bold green_water_expert search_pattern_expert }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 2
 		}
 	}
 }

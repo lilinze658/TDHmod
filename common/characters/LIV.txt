@@ -1,6 +1,6 @@
 characters={ 
 	LIV_buliqite={
-		name=布里奇特
+		name=buliqite
 		portraits={
 			civilian={
 				large="gfx/leaders/LIV/布里奇特.dds"
@@ -12,20 +12,41 @@ characters={
 		
 		} 
 		country_leader={
-			desc = ""
+		desc = "LIV_buliqite_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
+		desc = "LIV_buliqite_APDF_DES"
+			legacy_id = 71
 			traits = {  }
-			skill = 5
-			attack_skill = 4
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 2
+		}
+	}
+	LIV_xiaojiang={
+		name=xiaojiang
+		portraits = {
+			army = {
+				large = "gfx/leaders/LIV/小僵.dds" 
+			}
+		}
+		corps_commander = {
+		desc = "LIV_xiaojiang_APDF_DES"
+			legacy_id = 72
+			traits = {
+				
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 }

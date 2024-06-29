@@ -1,3 +1,26 @@
+political_actions = {
+	SHE_political_quagmire_mission = {
+		icon = generic_wreckers
+        available = {
+			has_completed_focus = SHE_political_solution
+		}
+		activation = {
+			always = no
+		}
+		days_mission_timeout = 50
+		is_good = no
+		timeout_effect = {
+			add_political_power = -25
+			complete_national_focus = SHE_political_solution
+		}
+		complete_effect = {
+			add_political_power = 25
+		}
+		ai_will_do = {
+			base = 0
+		}
+	}
+}
 
 SHE_ai_decision_category = {
 
@@ -223,10 +246,7 @@ SHE_gbpaint_decision_category = {
 				exists = yes
 				NOT = { is_subject_of = ROOT }
 			}
-			OR = {
-				is_debug = yes
-				check_variable = { ROOT.gbpaint_step_var = 3 }
-			}
+			check_variable = { ROOT.gbpaint_step_var = 3 }
 		}
         available = {
 			custom_trigger_tooltip = {
@@ -541,10 +561,7 @@ SHE_northern_gbpaint_decision_category = {
 		icon = generic_naval
 		targets = { POS }
 		visible = {
-			OR = {
-				is_debug = yes
-				has_country_flag = SHE_ng_first_step_start_flag
-			}
+			has_country_flag = SHE_ng_first_step_start_flag
 		}
         available = {
 			custom_trigger_tooltip = {
@@ -630,10 +647,7 @@ SHE_northern_gbpaint_decision_category = {
 		icon = infiltrate_state
 		targets = { POS }
 		visible = {
-			OR = {
-				is_debug = yes
-				has_country_flag = SHE_ng_first_step_start_flag
-			}
+			has_country_flag = SHE_ng_first_step_start_flag
 		}
         available = {
 			
@@ -663,10 +677,7 @@ SHE_northern_gbpaint_decision_category = {
 		icon = generic_military
 		targets = { POS }
 		visible = {
-			OR = {
-				is_debug = yes
-				has_country_flag = SHE_ng_first_step_start_flag
-			}
+			has_country_flag = SHE_ng_first_step_start_flag
 		}
         available = {
 			FROM = { has_war = yes }
@@ -711,10 +722,7 @@ SHE_northern_gbpaint_decision_category = {
 		icon = generic_operation
 		targets = { POS }
 		visible = {
-			OR = {
-				is_debug = yes
-				has_country_flag = SHE_ng_first_step_start_flag
-			}
+			has_country_flag = SHE_ng_first_step_start_flag
 		}
         available = {
 			network_strength = {
@@ -1067,10 +1075,7 @@ SHE_southern_gbpaint_decision_category = {
 		icon = generic_naval
 		targets = { BER }
 		visible = {
-			OR = {
-				is_debug = yes
-				has_country_flag = SHE_sg_first_step_start_flag
-			}
+			has_country_flag = SHE_sg_first_step_start_flag
 		}
         available = {
 			custom_trigger_tooltip = {
@@ -1153,10 +1158,7 @@ SHE_southern_gbpaint_decision_category = {
 		icon = infiltrate_state
 		targets = { BER }
 		visible = {
-			OR = {
-				is_debug = yes
-				has_country_flag = SHE_sg_first_step_start_flag
-			}
+			has_country_flag = SHE_sg_first_step_start_flag
 		}
         available = {
 			
@@ -1186,10 +1188,7 @@ SHE_southern_gbpaint_decision_category = {
 		icon = generic_military
 		targets = { BER }
 		visible = {
-			OR = {
-				is_debug = yes
-				has_country_flag = SHE_sg_first_step_start_flag
-			}
+			has_country_flag = SHE_sg_first_step_start_flag
 		}
         available = {
 			FROM = { has_war = yes }
@@ -1234,10 +1233,7 @@ SHE_southern_gbpaint_decision_category = {
 		icon = generic_operation
 		targets = { BER }
 		visible = {
-			OR = {
-				is_debug = yes
-				has_country_flag = SHE_sg_first_step_start_flag
-			}
+			has_country_flag = SHE_sg_first_step_start_flag
 		}
         available = {
 			network_strength = {
@@ -1360,6 +1356,277 @@ SHE_southern_gbpaint_decision_category = {
 					type = annex_everything
 				}
 			}
+		}
+	}
+}
+
+SHE_reserve_shenzhou_4635_decision_category = {
+	SHE_storing_firearms_decision = {
+		icon = generic_industry
+        available = {
+			has_equipment = {
+				infantry_equipment > 999
+			}
+		}
+		fire_only_once = no
+		days_re_enable = 14
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+			add_to_variable = { SHE_RS_storing_firearms_var = 1000 tooltip = SHE_RS_storing_firearms_tt }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	SHE_submit_declaration_decision = {
+		icon = eng_trade_unions_support
+		visible = {
+			NOT = {
+				has_country_flag = SHE_submit_declaration_flag
+				has_country_flag = SHE_surprise_attack_flag
+			}
+		}
+        available = {
+			has_completed_focus = SHE_war_plan_black
+			hidden_trigger = {
+				NOT = {
+					has_country_flag = SHE_submit_declaration_flag
+					has_country_flag = SHE_surprise_attack_flag
+				}
+			}
+		}
+		fire_only_once = yes
+		days_remove = 14
+		complete_effect = {
+			set_country_flag = SHE_submit_declaration_flag
+		}
+		modifier = {
+			war_support_weekly = 0.05
+		}
+		remove_effect = {
+			create_wargoal = {
+				target = SHE
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	SHE_surprise_attack_decision = {
+		icon = eng_trade_unions_demand
+		visible = {
+			NOT = {
+				has_country_flag = SHE_submit_declaration_flag
+				has_country_flag = SHE_surprise_attack_flag
+			}
+		}
+        available = {
+			has_completed_focus = SHE_war_plan_black
+			hidden_trigger = {
+				NOT = {
+					has_country_flag = SHE_submit_declaration_flag
+					has_country_flag = SHE_surprise_attack_flag
+				}
+			}
+		}
+		fire_only_once = yes
+		days_remove = 14
+		complete_effect = {
+			set_country_flag = SHE_surprise_attack_flag
+		}
+		modifier = {
+			war_support_weekly = 0.025
+			command_power_gain = 1
+		}
+		remove_effect = {
+			create_wargoal = {
+				target = SHE
+				type = annex_everything
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	SHE_prowl_in_eastern_country_decision = {
+		icon = generic_intelligence_operation
+		targets = { ANY SOU }
+        available = {
+			has_country_flag = SHE_prowl_in_eastern_flag
+			network_strength = {
+				target = FROM
+				value > 5
+			}
+			custom_trigger_tooltip = {
+				tooltip = SHE_prowl_in_eastern_country_decision_ttt
+				check_variable = {
+					var = SHE_prowl_in_eastern_country_var
+					value = 5
+					compare = less_than
+				}
+			}
+		}
+		custom_cost_text = decision_cost_rifle_1000
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment > 1000
+			}
+		}
+		fire_only_once = no
+		days_remove = 14
+		days_re_enable = 14
+		complete_effect = {
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -1000
+				}
+			}
+			FROM = {
+				meta_effect = {
+					text = {
+						add_ideas = SHE_recent_growth_in_intelligence_activities_[PENETRATION_LEVEL]
+					}
+					PENETRATION_LEVEL = [?THIS.SHE_penetration_level_var]
+				}
+			}
+		}
+		remove_effect = {
+			FROM = {
+				meta_effect = {
+					text = {
+						remove_ideas = SHE_recent_growth_in_intelligence_activities_[PENETRATION_LEVEL]
+					}
+					PENETRATION_LEVEL = [?THIS.SHE_penetration_level_var]
+				}
+				add_to_variable = { SHE_penetration_level_var = 1 }
+			}
+			custom_effect_tooltip = SHE_prowl_in_eastern_country_decision_tt
+		}
+		cancel_trigger = {
+			OR = {
+				DIV = {
+					all_core_state = {
+						is_owned_by = ROOT
+					}
+				}
+				has_war_with = DIV
+			}
+		}
+		cancel_effect = {
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 800
+				}
+				FROM = {
+					meta_effect = {
+						text = {
+							remove_ideas = SHE_recent_growth_in_intelligence_activities_[PENETRATION_LEVEL]
+						}
+						PENETRATION_LEVEL = [?THIS.SHE_penetration_level_var]
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	SHE_network_in_eastern_state_decision = {
+		icon = generic_intelligence_operation
+		state_target = yes
+		target_array = SHE.shenzhou_strategy_state_array
+		on_map_mode = map_only
+        available = {
+			has_country_flag = SHE_network_in_eastern_flag
+			FROM = {
+				owner = {
+					has_full_control_of_state = FROM
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = SHE_network_in_eastern_state_decision_ttt
+				FROM = {
+					controller = {
+						ROOT = {
+							network_national_coverage = {
+								target = PREV
+								value > 10
+							}
+						}
+					}
+				}
+			}
+		}
+		custom_cost_text = decision_cost_rifle_1000
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment > 1000
+			}
+		}
+		fire_only_once = no
+		days_remove = 14
+		days_re_enable = 14
+		complete_effect = {
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -1000
+				}
+			}
+			FROM = {
+				add_dynamic_modifier = {
+					modifier = SHE_john_kmt_in_49_state_dynamic_modifier
+				}
+			}
+		}
+		remove_effect = {
+			FROM = {
+				custom_effect_tooltip = SHE_network_in_eastern_state_decision_tt
+				set_state_flag = SHE_network_in_eastern_state_flag
+				set_variable_to_random = {
+					var = SHE_num_of_volunteer_var
+					min = 1
+					max = 4 #strictly less than the maximum value instead of less than or equal to
+					integer = yes
+				}
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = DIV }
+				ROOT = { has_full_control_of_state = FROM }
+				AND = {
+					OR = {
+						NOT = { country_exists = ONG }
+						ONG = { has_capitulated = yes }
+					}
+					OR = {
+						NOT = { country_exists = GOD }
+						GOD = { has_capitulated = yes }
+					}
+					OR = {
+						NOT = { country_exists = ANY }
+						ANY = { has_capitulated = yes }
+					}
+					OR = {
+						NOT = { country_exists = SOU }
+						SOU = { has_capitulated = yes }
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }

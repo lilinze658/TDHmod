@@ -1,0 +1,1794 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_HISTORICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_PROPAGANDA}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+### search_filters = {FOCUS_FILTER_BALANCE_OF_POWER}
+### search_filters = {FOCUS_FILTER_INTERNAL_AFFAIRS}
+
+### #!gfx:interface\DTH_goals.gfx ###
+
+focus_tree = {
+	id = DTH_SHE_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 100
+			tag = SHE
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 100 y = 3250 }
+
+	initial_show_position = {
+		x = 10
+		y = 0
+	}
+
+	focus = {
+		id = SHE_industry_revolution
+		icon = GFX_goal_generic_army_artillery2
+		x = 4
+		y = 0
+		cost = 0
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_strengthen_foundation
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = SHE_industry_revolution }
+		relative_position_id = SHE_industry_revolution
+		x = -2
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_recruit_talant
+		icon = GFX_focus_generic_industrialists
+		prerequisite = { focus = SHE_strengthen_foundation }
+		relative_position_id = SHE_strengthen_foundation
+		x = -1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_synthetic_rubber
+		icon = GFX_focus_generic_rubber
+		prerequisite = { focus = SHE_recruit_talant }
+		relative_position_id = SHE_recruit_talant
+		x = 0
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_disaster_prevention_strategies
+		icon = GFX_focus_generic_coastal_fort
+		prerequisite = { focus = SHE_recruit_talant }
+		relative_position_id = SHE_recruit_talant
+		x = -1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_arrange_tech_tree
+		icon = GFX_focus_generic_military_academy
+		prerequisite = { focus = SHE_strengthen_foundation }
+		relative_position_id = SHE_strengthen_foundation
+		x = 1
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_restore_engineering_technology
+		icon = GFX_focus_generic_copy_plane_designs
+		prerequisite = { focus = SHE_arrange_tech_tree }
+		relative_position_id = SHE_arrange_tech_tree
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_NSPD
+		icon = GFX_focus_research2
+		prerequisite = { focus = SHE_synthetic_rubber }
+		prerequisite = { focus = SHE_restore_engineering_technology }
+		relative_position_id = SHE_restore_engineering_technology
+		x = -1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_optimize_layout
+		icon = GFX_focus_POL_warsaw_main_station
+		prerequisite = { focus = SHE_industry_revolution }
+		relative_position_id = SHE_industry_revolution
+		x = 2
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_tech_school
+		icon = GFX_focus_generic_university_1
+		prerequisite = { focus = SHE_strengthen_foundation }
+		prerequisite = { focus = SHE_optimize_layout }
+		relative_position_id = SHE_industry_revolution
+		x = 0
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = SHE_overinvestment
+		icon = GFX_focus_generic_concessions
+		prerequisite = { focus = SHE_optimize_layout }
+		relative_position_id = SHE_optimize_layout
+		x = -1
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_establish_arms_factory
+		icon = GFX_focus_generic_reorient_production
+		prerequisite = { focus = SHE_overinvestment }
+		relative_position_id = SHE_overinvestment
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_wind_power_generation
+		icon = GFX_focus_generic_energy
+		prerequisite = { focus = SHE_optimize_layout }
+		mutually_exclusive = { focus = SHE_hydroelectric_power_generation }
+		relative_position_id = SHE_optimize_layout
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_hydroelectric_power_generation
+		icon = GFX_focus_generic_hydroelectric_energy
+		prerequisite = { focus = SHE_optimize_layout }
+		mutually_exclusive = { focus = SHE_wind_power_generation }
+		relative_position_id = SHE_optimize_layout
+		x = 2
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_repairing_roads
+		icon = GFX_focus_generic_road_investment
+		prerequisite = {
+			focus = SHE_wind_power_generation
+			focus = SHE_hydroelectric_power_generation
+		}
+		relative_position_id = SHE_hydroelectric_power_generation
+		x = -1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_develop_maritime_industry
+		icon = GFX_focus_generic_merchant_fleet
+		prerequisite = { focus = SHE_repairing_roads }
+		relative_position_id = SHE_repairing_roads
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_new_industry_project
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = SHE_establish_arms_factory }
+		prerequisite = { focus = SHE_develop_maritime_industry }
+		relative_position_id = SHE_establish_arms_factory
+		x = 1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_project_lightning
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_NSPD }
+		prerequisite = { focus = SHE_new_industry_project }
+		relative_position_id = SHE_industry_revolution
+		x = 0
+		y = 6
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_path_of_army
+		icon = GFX_focus_rocketry
+		relative_position_id = SHE_industry_revolution
+		x = 10
+		y = 0
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_shenzhou_path
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_path_of_army }
+		mutually_exclusive = { focus = SHE_shengyang_path }
+		relative_position_id = SHE_path_of_army
+		x = -4
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_common_army
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_shenzhou_path }
+		relative_position_id = SHE_shenzhou_path
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_trial_of_allegiance
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_common_army }
+		relative_position_id = SHE_common_army
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_shengyang_path
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_path_of_army }
+		mutually_exclusive = { focus = SHE_shenzhou_path }
+		relative_position_id = SHE_path_of_army
+		x = 4
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_new_military_officer
+		icon = GFX_focus_rocketry
+		prerequisite = {
+			focus = SHE_shenzhou_path
+			focus = SHE_shengyang_path
+		}
+		relative_position_id = SHE_path_of_army
+		x = 0
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_large_army_group
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_shenzhou_path }
+		relative_position_id = SHE_shenzhou_path
+		x = 2
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_victory_of_spirit
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_large_army_group }
+		relative_position_id = SHE_large_army_group
+		x = -1
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_new_artillery
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_large_army_group }
+		prerequisite = { focus = SHE_new_military_officer }
+		relative_position_id = SHE_large_army_group
+		x = 1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_everyone_armed
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_new_artillery }
+		relative_position_id = SHE_new_artillery
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_special_force_army
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_shengyang_path }
+		relative_position_id = SHE_shengyang_path
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_choose_best
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_special_force_army }
+		relative_position_id = SHE_special_force_army
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_test_in_combat
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_shengyang_path }
+		relative_position_id = SHE_shengyang_path
+		x = -2
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_tech_first
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_test_in_combat }
+		relative_position_id = SHE_test_in_combat
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_mutl_fight
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_tech_first }
+		relative_position_id = SHE_tech_first
+		x = -1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_light_move
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_tech_first }
+		relative_position_id = SHE_tech_first
+		x = 1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_yurikoomega
+		icon = GFX_focus_rocketry
+		prerequisite = {
+			focus = SHE_victory_of_spirit
+			focus = SHE_everyone_armed
+			focus = SHE_mutl_fight
+			focus = SHE_light_move
+		}
+		relative_position_id = SHE_path_of_army
+		x = 0
+		y = 5
+		cost = 5
+		available = {
+			OR = {
+				AND = {
+					has_completed_focus = SHE_victory_of_spirit
+					has_completed_focus = SHE_everyone_armed
+				}
+				AND = {
+					has_completed_focus = SHE_mutl_fight
+					has_completed_focus = SHE_light_move
+				}
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_position_of_navy
+		icon = GFX_focus_rocketry
+		relative_position_id = SHE_path_of_army
+		x = 9
+		y = 0
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_generalist_in_fleet
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_position_of_navy }
+		relative_position_id = SHE_position_of_navy
+		x = -2
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_acid_torpedo
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_generalist_in_fleet }
+		relative_position_id = SHE_generalist_in_fleet
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_anti_air
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_generalist_in_fleet }
+		relative_position_id = SHE_generalist_in_fleet
+		x = -1
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_anti_submarine
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_generalist_in_fleet }
+		relative_position_id = SHE_generalist_in_fleet
+		x = 1
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_battleship_first
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_position_of_navy }
+		relative_position_id = SHE_position_of_navy
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_improve_production_ways
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_battleship_first }
+		relative_position_id = SHE_battleship_first
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_carrier_first
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_position_of_navy }
+		relative_position_id = SHE_position_of_navy
+		x = 2
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_large_space_with_small_body
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_carrier_first }
+		relative_position_id = SHE_carrier_first
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_oversea_fight
+		icon = GFX_focus_rocketry
+		prerequisite = {
+			focus = SHE_large_space_with_small_body
+			focus = SHE_improve_production_ways
+		}
+		relative_position_id = SHE_large_space_with_small_body
+		x = -1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_convoy_camouflage
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_oversea_fight }
+		relative_position_id = SHE_oversea_fight
+		x = -2
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_relic_application
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_oversea_fight }
+		relative_position_id = SHE_oversea_fight
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_naval_warfare_fast
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_oversea_fight }
+		relative_position_id = SHE_oversea_fight
+		x = 2
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_future_of_airforce
+		icon = GFX_focus_rocketry
+		relative_position_id = SHE_position_of_navy
+		x = 6
+		y = 0
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_sea_air_force_cooperation_project
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_future_of_airforce }
+		relative_position_id = SHE_future_of_airforce
+		x = -2
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_large_scale_carrier_based_aircraft_boarding_test
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_large_space_with_small_body }
+		prerequisite = { focus = SHE_sea_air_force_cooperation_project }
+		relative_position_id = SHE_sea_air_force_cooperation_project
+		x = -1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_fighter_command
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_future_of_airforce }
+		relative_position_id = SHE_future_of_airforce
+		x = -1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_stat_airforce
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_fighter_command }
+		relative_position_id = SHE_fighter_command
+		x = 0
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_ground_support_module_improve
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_future_of_airforce }
+		relative_position_id = SHE_future_of_airforce
+		x = 1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_transport_plane
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_ground_support_module_improve }
+		relative_position_id = SHE_ground_support_module_improve
+		x = 0
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_air_relic_test
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_stat_airforce }
+		prerequisite = { focus = SHE_transport_plane }
+		relative_position_id = SHE_stat_airforce
+		x = 1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_support_air_production
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_future_of_airforce }
+		relative_position_id = SHE_future_of_airforce
+		x = 3
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_speed_first
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_support_air_production }
+		relative_position_id = SHE_support_air_production
+		x = -1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_zero_forever
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_speed_first }
+		relative_position_id = SHE_speed_first
+		x = 0
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_range_first
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_support_air_production }
+		relative_position_id = SHE_support_air_production
+		x = 1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_engine_behemoth
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SHE_range_first }
+		relative_position_id = SHE_range_first
+		x = 0
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_rebuild_high_command
+		icon = GFX_focus_generic_military_dictatorship
+		x = 40
+		y = 0
+		cost = 20
+		available = {
+			is_subject = no
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_ARMY_XP FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		select_effect = {
+			set_country_flag = SHE_rebuild_high_command_flag
+		}
+		completion_reward = {
+			add_war_support = 0.10
+			custom_effect_tooltip = SHE_rebuild_high_command_tt
+			clr_country_flag = SHE_rebuild_high_command_flag
+			if = {
+				limit = { has_stability < 0.80 }
+				add_political_power = -100
+				add_stability = 0.20
+			}
+		}
+	}
+
+	focus = {
+		id = SHE_marshal_YangJieyu
+		icon = GFX_focus_ARG_alvears_democracy
+		prerequisite = { focus = SHE_rebuild_high_command }
+		relative_position_id = SHE_rebuild_high_command
+		x = 0
+		y = 1
+		cost = 0
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_population_management
+		icon = GFX_focus_ARG_alvears_democracy
+		prerequisite = { focus = SHE_marshal_YangJieyu }
+		relative_position_id = SHE_marshal_YangJieyu
+		x = -4
+		y = 1
+		cost = 0
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_empire_expand_plan
+		icon = GFX_focus_generic_fascist_troops
+		prerequisite = { focus = SHE_rebuild_high_command }
+		relative_position_id = SHE_rebuild_high_command
+		x = 10
+		y = 1
+		offset = {
+			x = -6
+			y = 0
+			trigger = {
+				always = yes
+			}
+		}
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_aim_to_shenzhou
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = SHE_empire_expand_plan }
+		relative_position_id = SHE_empire_expand_plan
+		x = -2
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			set_variable = { SHE_aim_to_shenzhou_time_var = var:year }
+			add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = SHE_prowl_in_eastern
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = SHE_aim_to_shenzhou }
+		relative_position_id = SHE_aim_to_shenzhou
+		x = -1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_across_sea_to_eastern
+		icon = GFX_focus_SMB_blue_water_fleet
+		prerequisite = { focus = SHE_aim_to_shenzhou }
+		relative_position_id = SHE_aim_to_shenzhou
+		x = 1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_war_plan_black
+		icon = GFX_focus_attack_china
+		prerequisite = { focus = SHE_prowl_in_eastern }
+		prerequisite = { focus = SHE_across_sea_to_eastern }
+		relative_position_id = SHE_aim_to_shenzhou
+		x = 0
+		y = 3
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_network_in_eastern
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = SHE_prowl_in_eastern }
+		relative_position_id = SHE_prowl_in_eastern
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_sea_supply_to_eastern
+		icon = GFX_focus_BRA_german_submarine_development
+		prerequisite = { focus = SHE_across_sea_to_eastern }
+		relative_position_id = SHE_across_sea_to_eastern
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_solid_work
+		icon = GFX_focus_generic_industry_1
+		prerequisite = { focus = SHE_empire_expand_plan }
+		mutually_exclusive = { focus = SHE_explore_islands }
+		relative_position_id = SHE_empire_expand_plan
+		x = 1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_squeezing_resources
+		icon = GFX_goal_generic_production2
+		prerequisite = { focus = SHE_solid_work }
+		relative_position_id = SHE_solid_work
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_explore_islands
+		icon = GFX_goal_poland_goal
+		prerequisite = { focus = SHE_empire_expand_plan }
+		mutually_exclusive = { focus = SHE_solid_work }
+		relative_position_id = SHE_empire_expand_plan
+		x = 3
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_warning_measures
+		icon = GFX_goal_generic_radar
+		prerequisite = {
+			focus = SHE_solid_work
+			focus = SHE_explore_islands
+		}
+		relative_position_id = SHE_explore_islands
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_gbpaint_strategy
+		icon = GFX_focus_SOV_reinforce_northern_naval_bases
+		prerequisite = { focus = SHE_empire_expand_plan }
+		relative_position_id = SHE_empire_expand_plan
+		x = 6
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_southern_gbpaint_policy
+		icon = GFX_focus_ITA_southern_industry
+		prerequisite = { focus = SHE_gbpaint_strategy }
+		relative_position_id = SHE_gbpaint_strategy
+		x = -1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_expand_resource_gain
+		icon = GFX_focus_generic_mining_industry
+		prerequisite = { focus = SHE_southern_gbpaint_policy }
+		relative_position_id = SHE_southern_gbpaint_policy
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_northern_gbpaint_policy
+		icon = GFX_focus_ITA_northern_industry
+		prerequisite = { focus = SHE_gbpaint_strategy }
+		relative_position_id = SHE_gbpaint_strategy
+		x = 1
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_treaty_with_shoujo
+		icon = GFX_focus_chi_mission_to_the_us
+		prerequisite = { focus = SHE_northern_gbpaint_policy }
+		relative_position_id = SHE_northern_gbpaint_policy
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SHE_war_plan_blue
+		icon = GFX_goal_generic_position_armies
+		prerequisite = {
+			focus = SHE_southern_gbpaint_policy
+			focus = SHE_northern_gbpaint_policy
+		}
+		relative_position_id = SHE_gbpaint_strategy
+		x = 0
+		y = 3
+		cost = 5
+		available = {
+			
+		}
+		ai_will_do = {
+			base = 1
+		}
+		bypass = {}
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+}
+

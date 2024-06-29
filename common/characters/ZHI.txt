@@ -1,6 +1,6 @@
 characters={ 
 	ZHI_zhanghaigui={
-		name=张海桂
+		name=zhanghaigui
 		portraits={
 			civilian={
 				large="gfx/leaders/ZHI/张海桂.dds"
@@ -12,25 +12,26 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
+		desc = "ZHI_zhanghaigui_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "ZHI_zhanghaigui_APDF_DES"
+			legacy_id = 228
+			traits = { trait_cautious infantry_expert naval_liason improvisation_expert }
+			skill = 4
 			attack_skill = 4
-			defense_skill = 3
+			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 5
 		}
 	}
 
 	ZHI_guqin={
-		name=孤晴
+		name=guqin
 		portraits={
 			civilian={
 				large="gfx/leaders/ZHI/孤晴.dds"
@@ -42,14 +43,15 @@ characters={
 		
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		navy_leader = {
+		desc = "ZHI_guqin_APDF_DES"
+			legacy_id = 229
+			traits = { naval_lineage destroyer_leader  }
+			skill = 3
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			maneuvering_skill = 3
+			coordination_skill  = 4
 		}
 	}
 }

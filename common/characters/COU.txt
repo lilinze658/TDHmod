@@ -1,6 +1,6 @@
 characters={ 
 	COU_walundina={
-		name=瓦伦蒂娜
+		name= walundina
 		portraits={
 			civilian={
 				large="gfx/leaders/COU/瓦伦蒂娜.dds"
@@ -12,26 +12,27 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
+		desc = "COU_walundina_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+		desc = "COU_walundina_APDF_DES"
+			legacy_id = 12
+			traits = { urban_assault_specialist harsh_leader }
 			skill = 5
-			attack_skill = 4
-			defense_skill = 3
+			attack_skill = 3
+			defense_skill = 5
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 2
 		}
 	}
 
 
 	COU_wendi={
-		name=温蒂
+		name= wendi
 		portraits={
 			civilian={
 				large="gfx/leaders/COU/温蒂.dds"
@@ -44,18 +45,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "COU_wendi_APDF_DES"
+			legacy_id = 13
+			traits = { trait_cautious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
 		}
 	}
 
 	COU_xiatigute={
-		name=夏提古特
+		name=xiatigute
 		portraits={
 			civilian={
 				large="gfx/leaders/COU/夏提古特.dds"
@@ -67,15 +69,15 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
+		desc = "COU_xiatigute_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+			legacy_id = 14
+			traits = { panzer_expert ambusher brilliant_strategist }
 			skill = 5
 			attack_skill = 4
 			defense_skill = 3
@@ -85,7 +87,7 @@ characters={
 	}
 
 		COU_feiluolunsi={
-			name=斐罗伦丝
+			name=feiluolunsi
 			portraits={
 				civilian={
 					large="gfx/leaders/COU/斐罗伦丝.dds"
@@ -98,19 +100,20 @@ characters={
 			}
 			
 			corps_commander = {
-				legacy_id = 1
-				traits = {  }
-				skill = 5
-				attack_skill = 4
+			desc = "COU_feiluolunsi_APDF_DES"
+				legacy_id = 15
+				traits = { trait_cautious }
+				skill = 4
+				attack_skill = 2
 				defense_skill = 3
 				planning_skill = 4
-				logistics_skill = 5
+				logistics_skill = 4
 			}
 	    }  
 
 
 	COU_fating={
-		name=法婷
+		name=fating
 		portraits={
 			civilian={
 				large="gfx/leaders/COU/法婷.dds"
@@ -123,18 +126,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
+		desc = "COU_fating_APDF_DES"
+			legacy_id = 16
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}  
 
 	COU_mase={
-		name=玛瑟
+		name=mase
 		portraits={
 			civilian={
 				large="gfx/leaders/COU/玛瑟.dds"
@@ -147,18 +151,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "COU_mase_APDF_DES"
+			legacy_id = 17
+			traits = { improvisation_expert }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}  
 
 	COU_aerxipei={
-		name=阿尔西佩
+		name=aerxipei
 		portraits={
 			civilian={
 				large="gfx/leaders/COU/阿尔西佩.dds"
@@ -171,14 +176,73 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "COU_aerxipei_APDF_DES"
+			legacy_id = 18
+			traits = { combined_arms_expert paratroopers naval_liason inflexible_strategist harsh_leader }
+			skill = 4
 			attack_skill = 4
-			defense_skill = 3
+			defense_skill = 2
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 3
 		}
 	} 
+
+	COU_biersi={
+		name=biersi
+		portraits = {
+			army = {
+				large = "gfx/leaders/COU/碧儿丝.dds"
+			}
+		}
+
+		navy_leader = {
+		desc = "COU_biersi_APDF_DES"
+			legacy_id = 19
+			traits = { 	}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+
+	COU_yejing={
+		name=yejing
+		portraits = {
+			army = {
+				large = "gfx/leaders/COU/夜净.dds"
+			}
+		}
+
+		corps_commander = {
+		desc = "COU_yejing_APDF_DES"
+			legacy_id = 20
+			traits = {	 }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	COU_zixie={
+		name=zixie
+		portraits = {
+			large = "gfx/leaders/COU/紫谐.dds"
+		}
+
+		corps_commander = {
+		desc = "COU_zixie_APDF_DES"
+			legacy_id = 21
+			traits = { panzer_leader armor_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
 }
 	

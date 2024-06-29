@@ -1,23 +1,22 @@
 
 state={
 	id=936
-	name="STATE_936"
+	name="STATE_1039"
 
 	history={
-		owner = ZHI
- 
+		owner = ONG
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 2
 
 		}
-		add_core_of = ZHI
+		add_core_of = ONG
 
 	}
 
 	provinces={
-		2786 3894 4188 4704 5828 6261 7026 8617 10735 15865 15878 15909 15932 15942 16065 16075 16097 16113 16135 
+		1966 4021 4094 4398 4483 5116 7911 8523 10719 12659 12660 12672 12721 12726 12764 12826 12827 12867 
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000

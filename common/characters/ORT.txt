@@ -1,6 +1,6 @@
 characters={ 
 	ORT_busha={
-		name=布莎
+		name= busha
 		portraits={
 			civilian={
 				large="gfx/leaders/ORT/布莎.dds"
@@ -12,24 +12,26 @@ characters={
 		
 		}
 		country_leader={
+		desc = "ORT_busha_APDF_DES"
 		    traits = {  }
 			ideology= socialism
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "ORT_busha_APDF_DES"
+			legacy_id = 135
+			traits = { infantry_officer guerilla_fighter }
+			skill = 3
+			attack_skill = 1
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
 	ORT_yisha={
-		name=伊莎
+		name= yisha
 		portraits={
 			civilian={
 				large="gfx/leaders/ORT/伊莎.dds"
@@ -37,13 +39,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "ORT_yisha_APDF_DES"
+			legacy_id = 136
+			traits = { infantry_officer guerilla_fighter }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 }

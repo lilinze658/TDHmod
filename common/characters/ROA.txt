@@ -24,7 +24,8 @@ characters={
 			cost = 100
         }
 		field_marshal = {
-			legacy_id = 1
+		desc = "RED_8_APDF_DES"
+			legacy_id = 169
 			traits = { guerilla_fighter infantry_officer camouflage_expert infantry_leader expert_delegator organisational_leader inspirational_leader }
 			skill = 7
 			attack_skill = 7
@@ -41,20 +42,21 @@ characters={
 			}
 		}
 		country_leader={
-			desc = ""
+		desc = "LOV_buerliya_APDF_DES"
 				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "LOV_buerliya_APDF_DES"
+			legacy_id = 170
+			traits = { brilliant_strategist old_guard trait_cautious }
+			skill = 4
 			attack_skill = 4
-			defense_skill = 3
+			defense_skill = 4
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 4
 		}
 	}
 
@@ -66,7 +68,8 @@ characters={
 			}
 		}
 		corps_commander = {
-			legacy_id = 1
+		desc = "RED_8_APDF_DES"
+			legacy_id = 171
 			traits = {  }
 			skill = 5
 			attack_skill = 4
@@ -85,13 +88,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "LOV_ailisi_APDF_DES"
+			legacy_id = 172
+			traits = { armor_officer }
+			skill = 3
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 4
 		}
 	}
 
@@ -102,15 +106,31 @@ characters={
 				large="gfx/leaders/ROA/布兰二十七世.dds"
 			}
 		}
-		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		camouflage_expert = {
+		desc = "LOV_bulanershiqishi_APDF_DES"
+			legacy_id = 173
+			traits = {}
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+    }	
+    ROA_xiaoailisi={
+		name=小爱丽丝
+		portraits={
+			civilian={
+				large="gfx/leaders/ROA/小爱丽丝"
+			}
+		}
+		camouflage_expert = {
+		desc = "LOV_1_APDF_DES"
+			legacy_id = 174
+			traits = {}
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
-}	
+}

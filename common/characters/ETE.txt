@@ -12,25 +12,25 @@ characters={
 		
 		}
 		country_leader={
-			desc = ""
-				 traits = {  }
+			desc = "ETE_ZERO_APDF_DES"
+				 traits = { guanchazhe zhixie }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 		corps_commander = {
-			legacy_id = 1
+			legacy_id = 40
 			traits = {  }
-			skill = 5
-			attack_skill = 4
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 
 	ETE_jiabilila={
-		name=嘉比里拉
+		name= jiabilila
 		portraits={
 			civilian={
 				large="gfx/leaders/ETE/嘉比里拉.dds"
@@ -43,18 +43,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
+		desc = "ETE_jiabilila_APDF_DES"
+			legacy_id = 41
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
 		}
 	}
 
 	ETE_zige={
-		name=紫歌
+		name= zige
 		portraits={
 			civilian={
 				large="gfx/leaders/ETE/紫歌.dds"
@@ -67,18 +68,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+		desc = "ETE_zige_APDF_DES"
+			legacy_id = 42
+			traits = { panzer_leader bearer_of_artillery panzer_expert }
 			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 
 	ETE_huanmo={
-		name=幻沫
+		name= huanmo
 		portraits={
 			civilian={
 				large="gfx/leaders/ETE/幻沫.dds"
@@ -91,18 +93,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+		desc = "ETE_huanmo_APDF_DES"
+			legacy_id = 43
+			traits = { bearer_of_artillery fortress_buster organizer improvisation_expert  }
 			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 5
 			logistics_skill = 5
 		}
 	}
 
 		ETE_baoweizhe={
-			name=保卫者
+			name=baoweizhe
 			portraits={
 				civilian={
 					large="gfx/leaders/ETE/保卫者.dds"
@@ -115,13 +118,14 @@ characters={
 			}
 			
 			corps_commander = {
-				legacy_id = 1
+			desc = "ETE_baoweizhe_APDF_DES"
+				legacy_id = 44
 				traits = {  }
-				skill = 5
-				attack_skill = 4
+				skill = 3
+				attack_skill = 3
 				defense_skill = 3
-				planning_skill = 4
-				logistics_skill = 5
+				planning_skill = 3
+				logistics_skill = 3
 			}
 	    }  
 }

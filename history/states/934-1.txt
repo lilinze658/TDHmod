@@ -1,23 +1,22 @@
 
 state={
 	id=934
-	name="STATE_934"
+	name="STATE_1029"
 
 	history={
-		owner = ZHI
- 
+		owner = NAN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 2
 
 		}
-		add_core_of = ZHI
+		add_core_of = NAN
 
 	}
 
 	provinces={
-		879 4036 5287 5997 6415 7285 9075 16176 16204 16227 16241 16291 16321 16352 
+		400 1163 1479 1507 2721 2977 3995 4007 4170 4271 4412 5501 5980 6142 6822 8489 9825 17298 17387 17422 17432 17453 17491 17492 17511 17539 17558 17568 17687 17700 17756 17763 17804 17814 17828 17868 17886 
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000

@@ -10,10 +10,8 @@ state={
 		}
  
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			dockyard = 1
-
+			infrastructure = 2
+		
 		}
 		add_core_of = MIY
 
@@ -22,7 +20,7 @@ state={
 	provinces={
 		2457 3306 4353 5871 7233 7330 7618 17098 17126 
 	}
-	manpower=1784570
+	manpower=1350264
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

@@ -12,12 +12,14 @@ characters = {
 			}
 		}
 		country_leader = {
+		desc = "SHE_YangJieyu_APDF_DES"
 			ideology = Fascism_ideology
 		    traits = { dim_star }
 			expire = "4999.1.1.1"
 			id = -1
 		}
 		field_marshal = {
+		desc = "SHE_YangJieyu_APDF_DES"
 			legacy_id = 180
 			traits = { panzer_leader fortress_buster naval_invader offensive_doctrine harsh_leader }
 			skill = 5
@@ -42,6 +44,7 @@ characters = {
 		}
 		
 		navy_leader = {
+		desc = "SHE_MiHuiling_APDF_DES"
 			legacy_id = 181
 			traits = { navy_career_officer ground_pounder cruiser_captain crisis_magician }
 			skill = 4
@@ -66,6 +69,7 @@ characters = {
 		}
 		
 		navy_leader = {
+		desc = "SHE_Oukokorozasi_Nagame_APDF_DES"
 			legacy_id = 182
 			traits = { aviation_enthusiast bold fleet_protector dive_bomber torpedo_bomber }
 			skill = 5
@@ -90,6 +94,7 @@ characters = {
 		}
 		
 		navy_leader = {
+		desc = "SHE_Kitaka_Dai_APDF_DES"
 			legacy_id = 183
 			traits = { destroyer_leader torpedo_expert gunnery_expert }
 			skill = 3
@@ -114,6 +119,7 @@ characters = {
 		}
 		
 		corps_commander = {
+		desc = "SHE_BanQihexi_APDF_DES"
 			legacy_id = 184
 			traits = { old_guard infantry_leader }
 			skill = 3
@@ -137,6 +143,7 @@ characters = {
 			}
 		}
 		navy_leader = {
+		desc = "SHE_Nero_Kana_APDF_DES"
 			legacy_id = 185
 			traits = { craven }
 			skill = 2
@@ -161,6 +168,7 @@ characters = {
 		}
 		
 		corps_commander = {
+		desc = "SHE_FuNingfei_APDF_DES"
 			legacy_id = 186
 			traits = { trait_cautious infantry_officer guerilla_fighter infantry_leader }
 			skill = 4
@@ -184,6 +192,7 @@ characters = {
 			}
 		}
 		corps_commander = {
+		desc = "SHE_Nou_Naga_APDF_DES"
 			legacy_id = 187
 			traits = { infantry_officer }
 			skill = 1
@@ -194,8 +203,8 @@ characters = {
 		}
 	}
 
-	SHE_aigenisi = {
-		name = 爱葛妮丝
+	SHE_Agnes = {
+		name = Agnes
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/SHE/爱葛妮丝.dds"
@@ -203,6 +212,7 @@ characters = {
 		}
 		
 		corps_commander = {
+		desc = "SHE_Agnes_APDF_DES"
 			legacy_id = 188
 			traits = { infantry_officer trait_reckless }
 			skill = 2
@@ -226,6 +236,7 @@ characters = {
 			}
 		}
 		navy_leader = {
+		desc = "SHE_MaKena_APDF_DES"
 			legacy_id = 189
 			traits = { navy_career_officer blue_water_expert }
 			skill = 3
@@ -250,6 +261,7 @@ characters = {
 		}
 		
 		corps_commander = {
+		desc = "SHE_XiaoAn_APDF_DES"
 			legacy_id = 190
 			traits = { infantry_officer }
 			skill = 1
@@ -261,7 +273,7 @@ characters = {
 	}
 
 	SHE_zuolehailun = {
-		name = 佐乐海伦
+		name = zuolehailun
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/SHE/佐乐海伦.dds"
@@ -269,6 +281,7 @@ characters = {
 		}
 
 		corps_commander = {
+		desc = "SHE_zuolehailun_APDF_DES"
 			legacy_id = 191
 			traits = {
 				infantry_officer trait_reckless trickster

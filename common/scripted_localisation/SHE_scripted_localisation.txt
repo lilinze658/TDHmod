@@ -20,6 +20,38 @@ defined_text = { # Country
 }
 
 defined_text = {
+	name = GETYangStatus
+	text = {
+		trigger = {
+			has_relation_modifier = {
+				target = DIV
+				modifier = SHE_dim_star_static_1
+			}
+		}
+		localization_key = dim_star_mtt1
+	}
+	text = {
+		trigger = {
+			has_relation_modifier = {
+				target = DIV
+				modifier = SHE_dim_star_static_2
+			}
+		}
+		localization_key = dim_star_mtt2
+	}
+	text = {
+		trigger = {
+			has_relation_modifier = {
+				target = DIV
+				modifier = SHE_dim_star_static_3
+			}
+		}
+		localization_key = dim_star_mtt3
+	}
+	text = { localization_key = generic_null }
+}
+
+defined_text = {
 	name = GETDIVAimTime
 	text = {
 		trigger = {
@@ -28,4 +60,45 @@ defined_text = {
 		localization_key = SHE_aim_to_shenzhou_completed
 	}
 	text = { localization_key = SHE_aim_to_shenzhou_uncomplete }
+}
+
+defined_text = {
+	name = GETIndustryLevel
+	text = {
+		trigger = {
+			check_variable = { SHE_industry_progress_var > 5 }
+			check_variable = { SHE_industry_progress_var < 11 }
+		}
+		localization_key = SHE_industry_improve_developing
+	}
+	text = {
+		trigger = {
+			check_variable = { SHE_industry_progress_var > 10 }
+		}
+		localization_key = SHE_industry_improve_developed
+	}
+	text = { localization_key = SHE_industry_improve_poor }
+}
+
+defined_text = {
+	name = GetPoliticalSolutionName
+	text = {
+		trigger = {
+			has_dynamic_modifier = {
+				modifier = SHE_administrative_efficiency_dynamic_modifier
+			}
+		}
+		localization_key = SHE_political_solution_marshal
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_dynamic_modifier = {
+					modifier = SHE_administrative_efficiency_dynamic_modifier
+				}
+			}
+		}
+		localization_key = SHE_political_solution_quagmire
+	}
+	text = { localization_key = SHE_political_solution_marshal }
 }

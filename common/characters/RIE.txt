@@ -1,6 +1,6 @@
 characters={ 
 	RIE_xila={
-		name=席拉
+		name=xila
 		portraits={
 			civilian={
 				large="gfx/leaders/RIE/席拉.dds"
@@ -9,20 +9,20 @@ characters={
 				large="gfx/leaders/RIE/席拉.dds" 
 				small="gfx/interface/ideas/XXX.png"
 			}
-		
 		}
 		country_leader={
-		desc = ""
+		desc = "RIE_xila_APDF_DES"
 		     traits = {  }
 			ideology= Fascism_ideology 
 			expire="4999.1.1.1"
 			id=-1
 		}
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
+		field_marshal = {
+		desc = "RIE_xila_APDF_DES"
+			legacy_id = 163
+			traits = { thorough_planner career_officer harsh_leader organizer combined_arms_expert }
 			skill = 5
-			attack_skill = 4
+			attack_skill = 5
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 5
@@ -30,7 +30,7 @@ characters={
 	}
 
 	RIE_modaisiti={
-		name=摩黛丝提
+		name=modaisiti
 		portraits={
 			civilian={
 				large="gfx/leaders/RIE/摩黛丝提.dds"
@@ -38,36 +38,38 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "RIE_modaisiti_APDF_DES"
+			legacy_id = 164
+			traits = { infantry_officer desert_fox }
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
 	RIE_aofeiliya={
-		name=奥菲莉娅
+		name=aofeiliya
 		portraits={
 			civilian={
 				large="gfx/leaders/RIE/奥菲莉娅.dds"
 			}
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		navy_leader = {
+		desc = "RIE_aofeiliya_APDF_DES"
+			legacy_id = 165
+			traits = { aviation_enthusiast air_controller }
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			maneuvering_skill = 4
+			coordination_skill = 4
 		}
 	}
 	RIE_naemi={
-		name=娜娥迷
+		name=naemi
 		portraits={
 			civilian={
 				large="gfx/leaders/RIE/娜娥迷.dds"
@@ -75,9 +77,10 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "RIE_naemi_APDF_DES"
+			legacy_id = 166
+			traits = { battleship_adherent gunnery_expert fleet_protector silent_hunter }
+			skill = 4
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 4
@@ -85,7 +88,7 @@ characters={
 		}
 	}
 	RIE_aimi={
-		name=艾咪
+		name=aimi
 		portraits={
 			civilian={
 				large="gfx/leaders/RIE/艾咪.dds"
@@ -93,18 +96,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "RIE_aimi_APDF_DES"
+			legacy_id = 167
+			traits = { armor_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 
 	RIE_zhaoyazou={
-		name=赵雅奏
+		name=zhaoyazou
 		portraits={
 			civilian={
 				large="gfx/leaders/RED/赵雅奏.dds"
@@ -112,12 +116,14 @@ characters={
 		}
 		
 		navy_leader = {
-			desc = "RED_2_APDF_DES"
-			legacy_id = 1
+			desc = "RED_zhaoyazou_APDF_DES"
+			legacy_id = 168
 			traits = { fleet_protector concealment_expert cruiser_captain ironside }
 			skill = 5
 			attack_skill = 4
 			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 

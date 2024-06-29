@@ -1,6 +1,6 @@
 characters={ 
 	RAS_gelinna={
-		name=格林娜
+		name=gelinna
 		portraits={
 			civilian={
 				large="gfx/leaders/RAS/格林娜.dds"
@@ -12,24 +12,25 @@ characters={
 		
 		}
 		country_leader={
-		desc = ""
+		desc = "RAS_gelinna_APDF_DES"
 		     traits = {  }
 			ideology = despotism 
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "RAS_gelinna_APDF_DES"
+			legacy_id = 142
+			traits = { bearer_of_artillery }
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 	RAS_peiliya={
-		name=佩莉娅
+		name=peiliya
 		portraits={
 			civilian={
 				large="gfx/leaders/RAS/佩莉娅.dds"
@@ -42,13 +43,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "RAS_gelinna_APDF_DES"
+			legacy_id = 143
+			traits = { bearer_of_artillery }
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 }	

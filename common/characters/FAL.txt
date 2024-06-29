@@ -12,24 +12,26 @@ characters={
 		
 		}
 		country_leader={
-		    traits = {  }
+		desc = "MAG_naierjiade_APDF_DES"
+		    traits = { mofashaonvdebihuizhe chuanqimofashaonv }
 			ideology= socialism
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
+		desc = "MAG_naierjiade_APDF_DES"
+			legacy_id = 45
 			traits = {  }
-			skill = 5
+			skill = 4
 			attack_skill = 4
-			defense_skill = 3
+			defense_skill = 4
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 4
 		}
 	}
 
 	FAL_nuolina={
-		name=诺丽娜
+		name= nuolina
 		portraits={
 			civilian={
 				large="gfx/leaders/FAL/诺丽娜.dds"
@@ -37,13 +39,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
+		desc = "MAG_nuolina_APDF_DES"
+			legacy_id = 46
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
 		}
 	}
 
@@ -56,18 +59,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "MAG_yinuoya_APDF_DES"
+			legacy_id = 47
+			traits = {  }#打算加点新的部队特质
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 
 	FAL_aeraili={
-		name=阿尔艾莉
+		name= aeraili
 		portraits={
 			civilian={
 				large="gfx/leaders/FAL/阿尔艾莉.dds"
@@ -75,37 +79,39 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
+		desc = "MAG_aeraili_APDF_DES"
+			legacy_id = 48
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 3
 		}
 	}
 
 	FAL_kuna={
-		name=库娜
+		name= kuna
 		portraits={
 			civilian={
 				large="gfx/leaders/FAL/库娜.dds"
 			}
 		}
 		
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		navy_leader = {
+		desc = "MAG_kuna_APDF_DES"
+			legacy_id = 49
+			traits = { aviation_enthusiast }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 4
 		}
 	}
-
+    #内阁
 	FAL_balunna={
-		name=巴伦娜
+		name= balunna
 		portraits={
 			civilian={
 				large="gfx/leaders/FAL/巴伦娜.dds"
@@ -113,7 +119,8 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
+		desc = "MAG_balunna_APDF_DES"
+			legacy_id = 50
 			traits = {  }
 			skill = 5
 			attack_skill = 4
@@ -124,7 +131,7 @@ characters={
 	}
 
 	FAL_aleisi={
-		name=阿蕾丝
+		name= aleisi
 		portraits={
 			civilian={
 				large="gfx/leaders/FAL/阿蕾丝.dds"
@@ -132,18 +139,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "MAG_aleisi_APDF_DES"
+			legacy_id = 51
+			traits = { bearer_of_artillery  }
+			skill = 3
 			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 
 	FAL_aimili={
-		name=艾米莉
+		name= aimili
 		portraits={
 			civilian={
 				large="gfx/leaders/FAL/艾米莉.dds"
@@ -151,18 +159,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "MAG_aimili_APDF_DES"
+			legacy_id = 52
+			traits = { armor_officer panzer_leader fortress_buster panzer_expert combined_arms_expert }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
 		}
 	}
 
 	FAL_misite={
-		name=米丽特
+		name= misite
 		portraits={
 			civilian={
 				large="gfx/leaders/FAL/米丽特.dds"
@@ -170,13 +179,55 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
+		desc = "MAG_misite_APDF_DES"
+			legacy_id = 53
 			traits = {  }
-			skill = 5
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	FAL_heiyu={
+		name= heiyu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FAL/黑羽.dds"
+			}
+		}
+
+		corps_commander = {
+		desc = "MAG_heiyu_APDF_DES"
+			legacy_id = 54
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	FAL_dailan={
+		name= dailan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FAL/戴兰.dds"
+			}
+		}
+
+		corps_commander = {
+		desc = "MAG_dailan_APDF_DES"
+			legacy_id = 55
+			skill = 4
+			traits = {
+				infantry_officer infantry_expert 
+			}
 			attack_skill = 4
-			defense_skill = 3
+			defense_skill = 4
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 4
 		}
 	}
 

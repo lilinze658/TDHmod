@@ -1,7 +1,7 @@
 characters={ 
 
 	HAS_ailuoyi={
-		name=爱洛依
+		name= ailuoyi
 		portraits={
 			civilian={
 				large="gfx/leaders/HAS/爱洛依.dds"
@@ -13,7 +13,7 @@ characters={
 		
 		}
 		country_leader={
-			desc = "HAS_1_APDF_DES"
+			desc = "HAS_ailuoyi_APDF_DES"
 			traits = {  }
 			ideology= socialism 
 			expire="4999.1.1.1"
@@ -21,19 +21,19 @@ characters={
 		}
 
 		corps_commander = {
-			desc = "HAS_1_APDF_DES"
-			legacy_id = 1
+			desc = "HAS_ailuoyi_APDF_DES"
+			legacy_id = 60
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 
 	HAS_ajiliya={
-		name=阿吉丽雅
+		name= ajiliya
 		portraits={
 			civilian={
 				large="gfx/leaders/HAS/阿吉丽雅.dds"
@@ -46,14 +46,14 @@ characters={
 		}
 
 		corps_commander = {
-			desc = "HAS_2_APDF_DES"
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			desc = "HAS_ajiliya_APDF_DES"
+			legacy_id = 61
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 }	

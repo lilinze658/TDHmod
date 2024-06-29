@@ -1,6 +1,6 @@
 characters={ 
 	REP_waertaya={
-		name=瓦尔塔娅
+		name= waertaya
 		portraits={
 			civilian={
 				large="gfx/leaders/REP/瓦尔塔娅.dds"
@@ -12,15 +12,17 @@ characters={
 		
 		} 
 		country_leader={
+		desc = "REP_waertaya_APDF_DES"
 			traits = {  }
 			ideology= Fascism_ideology
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "REP_waertaya_APDF_DES"
+			legacy_id = 160
+			traits = { infantry_officer brilliant_strategist organizer }
+			skill = 4
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 4
@@ -29,7 +31,7 @@ characters={
 	}
 
 	REP_zuoyi={
-		name=佐伊
+		name= zuoyi
 		portraits={
 			civilian={
 				large="gfx/leaders/REP/佐伊.dds"
@@ -37,18 +39,19 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "REP_zuoyi_APDF_DES"
+			legacy_id = 161
+			traits = { infantry_office }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
 	REP_beiliaiqie={
-		name=贝利艾切
+		name= beiliaiqie
 		portraits={
 			civilian={
 				large="gfx/leaders/REP/贝利艾切.dds"
@@ -56,13 +59,14 @@ characters={
 		}
 		
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "REP_beiliaiqie_APDF_DES"
+			legacy_id = 162
+			traits = { fortress_buster }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 }

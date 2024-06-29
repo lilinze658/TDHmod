@@ -1,0 +1,30 @@
+
+state={
+	id=954
+	name="克斯马里恩"
+
+	history={
+		owner = ZET
+		victory_points = {
+			19007 5
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ZET
+		4635.10.25 = {
+			owner = KIA
+			add_core_of = ZET
+			add_core_of = KIA
+
+		}
+	}
+
+	provinces={
+		1495 3916 4787 6068 7042 18965 19007 19053 19070 19120 
+	}
+	manpower=25032
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

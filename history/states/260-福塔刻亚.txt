@@ -7,9 +7,7 @@ state={
 		owner = OLI
 		 
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 2
+			infrastructure = 2
 
 		}
 		add_core_of = OLI
@@ -19,8 +17,8 @@ state={
 	provinces={
 		212 582 673 1410 3103 3131 3164 6215 6696 7425 7723 7997 8789 9109 9912 11469 11489 11523 11530 11607 11670 
 	}
-	manpower=10000000
+	manpower=401235
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category= rural
 	local_supplies=0.000
 }

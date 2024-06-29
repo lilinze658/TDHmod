@@ -1,25 +1,24 @@
 
 state={
 	id=867
-	name="STATE_867"
+	name="STATE_1152"
 
 	history={
-		owner = KAN
- 
+		owner = DIV
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 2
 
 		}
-		add_core_of = KAN
+		add_core_of = DIV
 
 	}
 
 	provinces={
-		1182 2011 5503 6620 7021 7297 7414 8096 8098 9187 9737 17509 17567 17588 17642 17654 17658 17667 17711 17724 17732 
+		704 1687 2743 2944 4995 14625 14797 14865 14879 14909 14944 14968 14971 14987 1074 4026 5660 5856 7225 10413 14601 14614 14673 14710 14778 
 	}
-	manpower=10000000
+ 	manpower=10000000
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

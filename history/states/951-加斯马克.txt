@@ -1,0 +1,30 @@
+
+state={
+	id=951
+	name="加斯马克"
+
+	history={
+		owner = ZET
+		victory_points = {
+			18786 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ZET
+		4635.10.25 = {
+			owner = KIA
+			add_core_of = ZET
+			add_core_of = KIA
+
+		}
+	}
+
+	provinces={
+		2010 5044 5168 5527 5571 8886 18762 18786 18792 18824 18929 
+	}
+	manpower=460251
+	buildings_max_level_factor=1.000
+	state_category=rural 
+	local_supplies=0.000
+}

@@ -8,7 +8,7 @@ characters={
 			army = {   
 				large="gfx/leaders/ART/柳德米拉.dds" 
 				small="gfx/interface/ideas/XXX.png"
-			}
+		 	}
 		
 		}
 		country_leader={
@@ -19,7 +19,7 @@ characters={
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
+			legacy_id = 8
 			traits = {  }
 			skill = 5
 			attack_skill = 4

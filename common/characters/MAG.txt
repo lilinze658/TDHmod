@@ -1,6 +1,6 @@
 characters={ 
 	MAG_ailin={
-		name=艾琳
+		name= ailin
 		portraits={
 			civilian={
 				large="gfx/leaders/MAG/艾琳.dds"
@@ -12,25 +12,26 @@ characters={
 		
 		}
 		country_leader={
-		desc = ""
+		desc = "MAG_ailin_APDF_DES"
 		     traits = {  }
 			ideology= socialism
 			expire="4999.1.1.1"
 			id=-1
 		}
-		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		navy_leader = {
+		desc = "MAG_ailin_APDF_DES"
+			legacy_id = 90
+			traits = { politically_connected }
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			maneuvering_skill = 2
+			coordination_skill = 3
 		}
 	}
 
 	MAG_geladisi={
-		name=格拉蒂丝
+		name= geladisi
 		portraits={
 			civilian={
 				large="gfx/leaders/MAG/格拉蒂丝.dds"
@@ -39,7 +40,139 @@ characters={
 		}
 
 		corps_commander = {
-			legacy_id = 1
+		desc = "MAG_geladisi_APDF_DES"
+			legacy_id = 91
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4 
+		}
+	}
+
+	MAG_naierjiade={
+		name= naierjiade
+		portraits={
+			civilian={
+				large="gfx/leaders/MAG/奈尔嘉德.dds"
+			}
+			army = {   
+				large="gfx/leaders/MAG/奈尔嘉德.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+		desc = "MAG_naierjiade_APDF_DES"
+		    traits = { mofashaonvdebihuizhe chuanqimofashaonv }
+			ideology= socialism
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+		desc = "MAG_naierjiade_APDF_DES"
+			legacy_id = 92
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	MAG_nuolina={
+		name= nuolina
+		portraits={
+			civilian={
+				large="gfx/leaders/MAG/诺丽娜.dds"
+			}
+		}
+		
+		corps_commander = {
+		desc = "MAG_nuolina_APDF_DES"
+			legacy_id = 93
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+
+	MAG_yinuoya={
+		name= yinuoya
+		portraits={
+			civilian={
+				large="gfx/leaders/MAG/伊诺雅.dds"
+			}
+		}
+		
+		corps_commander = {
+		desc = "MAG_yinuoya_APDF_DES"
+			legacy_id = 94
+			traits = {  }#打算加点新的部队特质
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	MAG_aeraili={
+		name= aeraili
+		portraits={
+			civilian={
+				large="gfx/leaders/MAG/阿尔艾莉.dds"
+			}
+		}
+		
+		corps_commander = {
+		desc = "MAG_aeraili_APDF_DES"
+			legacy_id = 95
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+
+	MAG_kuna={
+		name= kuna
+		portraits={
+			civilian={
+				large="gfx/leaders/MAG/库娜.dds"
+			}
+		}
+		
+		navy_leader = {
+		desc = "MAG_kuna_APDF_DES"
+			legacy_id = 96
+			traits = { aviation_enthusiast }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 4
+		}
+	}
+    #内阁
+	MAG_balunna={
+		name= balunna
+		portraits={
+			civilian={
+				large="gfx/leaders/MAG/巴伦娜.dds"
+			}
+		}
+		
+		corps_commander = {
+		desc = "MAG_balunna_APDF_DES"
+			legacy_id = 97
 			traits = {  }
 			skill = 5
 			attack_skill = 4
@@ -48,4 +181,66 @@ characters={
 			logistics_skill = 5
 		}
 	}
+
+	MAG_aleisi={
+		name=阿蕾丝
+		portraits={
+			civilian={
+				large="gfx/leaders/MAG/阿蕾丝.dds"
+			}
+		}
+		
+		corps_commander = {
+		desc = "MAG_aleisi_APDF_DES"
+			legacy_id = 98
+			traits = { bearer_of_artillery  }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	MAG_aimili={
+		name=艾米莉
+		portraits={
+			civilian={
+				large="gfx/leaders/MAG/艾米莉.dds"
+			}
+		}
+		
+		corps_commander = {
+		desc = "MAG_aimili_APDF_DES"
+			legacy_id = 99
+			traits = { armor_officer panzer_leader fortress_buster panzer_expert combined_arms_expert }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+
+	MAG_misite={
+		name= misite
+		portraits={
+			civilian={
+				large="gfx/leaders/MAG/米丽特.dds"
+			}
+		}
+		
+		corps_commander = {
+		desc = "MAG_misite_APDF_DES"
+			legacy_id = 100
+			traits = {  }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	
 }	

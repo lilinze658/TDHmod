@@ -20,7 +20,7 @@ characters={
 		}
 		corps_commander = {
 			desc = "SNO_1_APDF_DES"
-			legacy_id = 1
+			legacy_id = 192
 			traits = { winter_expert infantry_expert brilliant_strategist career_officer media_personality infantry_officer infantry_leader bearer_of_artillery }
 			skill = 6
 			attack_skill = 6
@@ -29,7 +29,7 @@ characters={
 			logistics_skill = 4
 		}
 	}
-
+  
 	SNO_xuejin={
 		name=雪晶
 		portraits={
@@ -44,7 +44,7 @@ characters={
 		}
 		corps_commander = {
 			desc = "SNO_2_APDF_DES"
-			legacy_id = 2
+			legacy_id = 193
 			traits = { panzer_expert panzer_leader armor_officer brilliant_strategist winter_specialist organizer }
 			skill = 5
 			attack_skill = 7

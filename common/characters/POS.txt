@@ -12,12 +12,14 @@ characters = {
 			}
 		}
 		country_leader = {
+		desc = "SHE_Saionji_Sanae_APDF_DES"
 		    traits = {  }
 			ideology = Fascism_ideology
 			expire = "4999.1.1.1"
 			id = -1
 		}
 		corps_commander = {
+		desc = "SHE_Saionji_Sanae_APDF_DES"
 			legacy_id = 138
 			traits = { media_personality bearer_of_artillery  }
 			skill = 3
@@ -41,6 +43,7 @@ characters = {
 			}
 		}
 		navy_leader = {
+		desc = "SHE_Nagare_APDF_DES"
 			legacy_id = 139
 			traits = { aviation_enthusiast air_controller }
 			skill = 3
@@ -64,6 +67,7 @@ characters = {
 			}
 		}
 		corps_commander = {
+		desc = "SHE_LiMisha_APDF_DES"
 			legacy_id = 140
 			traits = { trait_reckless infantry_officer naval_invader }
 			skill = 3
@@ -87,6 +91,7 @@ characters = {
 			}
 		}
 		corps_commander = {
+		desc = "SHE_JiXue_APDF_DES"
 			legacy_id = 141
 			traits = { trait_cautious }
 			skill = 2

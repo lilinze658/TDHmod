@@ -1,6 +1,6 @@
 characters={ 
-	DCU_moyila={
-		name=莫伊拉
+	DUC_moyila={
+		name= moyila
 		portraits={
 			civilian={
 				large="gfx/leaders/DUC/莫伊拉.dds"
@@ -12,20 +12,21 @@ characters={
 		
 		}
 		country_leader={
-		desc = ""
+		desc = "DUC_moyila_APDF_DES"
 		     traits = {  }
 			ideology= socialism 
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "DUC_moyila_APDF_DES"
+			legacy_id = 29
+			traits = { organizer career_officer }
+			skill = 3
+			attack_skill = 1
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 }	

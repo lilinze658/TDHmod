@@ -12,20 +12,21 @@ characters={
 		
 		}
 		country_leader={
-		desc = ""
+		desc = "COU_aerxipei_APDF_DES"
 		     traits = {  }
 			ideology= despotism  
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
+		desc = "COU_aerxipei_APDF_DES"
+			legacy_id = 121
+			traits = { combined_arms_expert paratroopers naval_liason inflexible_strategist harsh_leader }
+			skill = 4
 			attack_skill = 4
-			defense_skill = 3
+			defense_skill = 2
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 3
 		}
 	}
 
@@ -42,13 +43,14 @@ characters={
 		
 		}
 		corps_commander = {
-			legacy_id = 1
+		desc = "COU_fating_APDF_DES"
+			legacy_id = 122
 			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 
@@ -65,13 +67,14 @@ characters={
 		
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+		desc = "COU_mase_APDF_DES"
+			legacy_id = 123
+			traits = { improvisation_expert }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 

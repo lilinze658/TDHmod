@@ -1,6 +1,6 @@
 characters={ 
 	FRO_hana={
-		name=哈娜
+		name= hana
 		portraits={
 			civilian={
 				large="gfx/leaders/FRO/哈娜.dds"
@@ -12,19 +12,21 @@ characters={
 		
 		}
 		country_leader={
+		desc = "FRO_hana_APDF_DES"
 		    traits = {  }
 			ideology= socialism
 			expire="4999.1.1.1"
 			id=-1
 		}
 		corps_commander = {
-			legacy_id = 1
-			traits = {  }
-			skill = 5
-			attack_skill = 4
+		desc = "FRO_hana_APDF_DES"
+			legacy_id = 56
+			traits = { winter_expert  }
+			skill = 2
+			attack_skill = 2
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 }
