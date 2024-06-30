@@ -445,11 +445,18 @@
  transport_capacity_tt: "$MODIFIER_TRANSPORT_CAPACITY$: $RIGHT|-=%2$"
  amphibious_invasion_tt: "$MODIFIER_AMPHIBIOUS_INVASION$: $RIGHT|+=%2$"
  carrier_traffic_tt: "$MODIFIER_CARRIER_TRAFFIC$: $RIGHT|+=%2$"
- 
- 
- 
- 
- 
+ experience_gain_navy_factor_tt: "$MODIFIER_XP_GAIN_NAVY_FACTOR$: $RIGHT|+=%2$"
+ naval_torpedo_screen_penetration_factor_tt: "$MODIFIER_NAVAL_TORPEDO_SCREEN_PENETRATION_FACTOR$: $RIGHT|+=%2$"
+ naval_torpedo_enemy_critical_chance_factor_tt: "$MODIFIER_NAVAL_TORPEDO_ENEMY_CRITICAL_CHANCE_FACTOR$: $RIGHT|-=%2$"
+ navy_capital_ship_attack_factor_tt: "$MODIFIER_NAVY_CAPITAL_SHIP_ATTACK_FACTOR$: $RIGHT|+=%1$"
+ strike_force_movement_org_loss_tt: "$MODIFIER_STRIKE_FORCE_MOVING_ORG$: $RIGHT|-=%1$"
+ navy_carrier_air_attack_factor_tt: "$MODIFIER_NAVAL_CARRIER_AIR_ATTACK_FACTOR$: $RIGHT|+=%1$"
+ navy_fuel_consumption_factor_tt: "$MODIFIER_NAVY_FUEL_CONSUMPTION_FACTOR$: $RIGHT|-=%1$"
+ carrier_capacity_penalty_reduction_tt: "$MODIFIER_CARRIER_CAPACITY_PENALTY_REDUCTION$: $RIGHT|-=%1$"
+ navy_carrier_air_agility_factor_tt: "$MODIFIER_NAVAL_CARRIER_AIR_AGILITY_FACTOR$: $RIGHT|+=%1$"
+ navy_visibility_tt: "$MODIFIER_NAVAL_VISIBILITY_FACTOR$: $RIGHT|-=%1$"
+ naval_retreat_chance_tt: "$MODIFIER_NAVAL_RETREAT_CHANCE$: $RIGHT|+=%1$"
+ naval_speed_factor_tt: "$MODIFIER_NAVAL_SPEED$: $RIGHT|+=%1$"
  
  
  

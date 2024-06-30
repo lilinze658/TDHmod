@@ -1240,10 +1240,7 @@ focus_tree = {
 		y = 0
 		cost = 5
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = lazy_ttt
-				always = no
-			}
+			
 		}
 		ai_will_do = {
 			base = 1
@@ -1307,6 +1304,9 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
+			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
+			add_to_variable = { SHE_IN_positioning_var = 0.10 tooltip = positioning_tt }
+			custom_effect_tooltip = SHE_blank_tt
 			navy_experience = 5
 			add_tech_bonus = {
 				name = SHE_generalist_in_fleet
@@ -1335,7 +1335,14 @@ focus_tree = {
 		search_filters = {  }
 		completion_reward = {
 			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
-			add_to_variable = {  }
+			add_to_variable = { SHE_IN_naval_torpedo_screen_penetration_factor_var = 1.00 tooltip = naval_torpedo_screen_penetration_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			add_tech_bonus = {
+				name = SHE_acid_torpedo
+				uses = 1
+				bonus = 3.0
+				category = cat_torpedoes
+			}
 		}
 	}
 
@@ -1356,7 +1363,31 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
+			add_to_variable = { SHE_IN_positioning_var = 0.05 tooltip = positioning_tt }
+			add_to_variable = { SHE_IN_navy_anti_air_attack_factor_var = 0.15 tooltip = navy_anti_air_attack_factor_tt }
+			add_to_variable = { SHE_IN_naval_accidents_chance_var = -0.20 tooltip = naval_accidents_chance_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			add_tech_bonus = {
+				name = SHE_anti_air
+				uses = 1
+				bonus = 1.0
+				category = mio_cat_tech_all_screen_ship_and_modules
+			}
+			add_tech_bonus = {
+				name = SHE_anti_air
+				uses = 1
+				bonus = 1.0
+				category = radar_tech
+			}
+			add_tech_bonus = {
+				name = SHE_anti_air
+				uses = 1
+				bonus = 1.0
+				technology = basic_fire_control_system
+				technology = improved_fire_control_system
+				technology = advanced_fire_control_system
+			}
 		}
 	}
 
@@ -1377,7 +1408,32 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
+			add_to_variable = { SHE_IN_positioning_var = 0.05 tooltip = positioning_tt }
+			add_to_variable = { SHE_IN_naval_torpedo_enemy_critical_chance_factor_var = -0.10 tooltip = naval_torpedo_enemy_critical_chance_factor_tt }
+			add_to_variable = { SHE_IN_navy_submarine_detection_factor_var = 0.15 tooltip = navy_submarine_detection_factor_tt }
+			add_to_variable = { SHE_IN_naval_accidents_chance_var = -0.20 tooltip = naval_accidents_chance_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			add_tech_bonus = {
+				name = SHE_anti_submarine
+				uses = 1
+				bonus = 1.0
+				category = mio_cat_tech_all_screen_ship_and_modules
+			}
+			add_tech_bonus = {
+				name = SHE_anti_submarine
+				uses = 1
+				bonus = 1.0
+				category = asw_tech
+			}
+			add_tech_bonus = {
+				name = SHE_anti_submarine
+				uses = 1
+				bonus = 1.0
+				technology = basic_fire_control_system
+				technology = improved_fire_control_system
+				technology = advanced_fire_control_system
+			}
 		}
 	}
 
@@ -1399,7 +1455,16 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
+			add_to_variable = { SHE_IN_navy_capital_ship_attack_factor_var = 0.10 tooltip = navy_capital_ship_attack_factor_tt }
+			add_to_variable = { SHE_IN_navy_capital_ship_defence_factor_var = 0.05 tooltip = navy_capital_ship_defence_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			add_tech_bonus = {
+				name = SHE_battleship_first
+				uses = 1
+				bonus = 1.0
+				category = mio_cat_tech_all_capital_ship_and_modules
+			}
 		}
 	}
 
@@ -1420,7 +1485,45 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
+			add_to_variable = { SHE_IN_industrial_capacity_dockyard_var = 0.10 tooltip = industrial_capacity_dockyard_tt }
+			add_to_variable = { SHE_IN_refit_speed_var = 0.15 tooltip = refit_speed_tt }
+			add_to_variable = { SHE_IN_repair_speed_factor_var = 0.05 tooltip = repair_speed_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1442,7 +1545,17 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
+			add_to_variable = { SHE_IN_carrier_traffic_var = 0.10 tooltip = carrier_traffic_tt }
+			add_to_variable = { SHE_IN_strike_force_movement_org_loss_var = -0.05 tooltip = strike_force_movement_org_loss_tt }
+			add_to_variable = { SHE_IN_navy_carrier_air_attack_factor_var = 0.05 tooltip = navy_carrier_air_attack_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			add_tech_bonus = {
+				name = SHE_carrier_first
+				uses = 1
+				bonus = 1.0
+				category = mio_cat_tech_all_carrier_and_modules
+			}
 		}
 	}
 
@@ -1463,7 +1576,13 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
+			add_to_variable = { SHE_IN_navy_fuel_consumption_factor_var = 0.10 tooltip = navy_fuel_consumption_factor_tt }
+			add_to_variable = { SHE_IN_carrier_capacity_penalty_reduction_var = -0.15 tooltip = carrier_capacity_penalty_reduction_tt }
+			add_to_variable = { SHE_IN_navy_carrier_air_agility_factor_var = -0.05 tooltip = navy_carrier_air_agility_factor_tt }
+			add_to_variable = { SHE_IN_air_superiority_efficiency_var = 0.05 tooltip = air_superiority_efficiency_tt }
+			add_to_variable = { SHE_IN_production_speed_naval_base_factor_var = 0.05 tooltip = production_speed_naval_base_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
 		}
 	}
 
@@ -1487,7 +1606,14 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
+			add_to_variable = { SHE_IN_navy_max_range_factor_var = 1.00 tooltip = navy_max_range_factor_tt }
+			add_to_variable = { SHE_IN_navy_visibility_var = -0.15 tooltip = navy_visibility_tt }
+			add_to_variable = { SHE_IN_naval_accidents_chance_var = -0.10 tooltip = naval_accidents_chance_tt }
+			add_to_variable = { SHE_IN_naval_retreat_chance_var = 0.50 tooltip = naval_retreat_chance_tt }
+			add_to_variable = { SHE_IN_screening_efficiency_var = 0.15 tooltip = screening_efficiency_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			navy_experience = 25
 		}
 	}
 
@@ -1508,7 +1634,9 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
+			add_to_variable = { SHE_IN_convoy_escort_efficiency_var = 0.20 tooltip = convoy_escort_efficiency_tt }
+			add_to_variable = { SHE_IN_convoy_retreat_speed_var = 0.10 tooltip = convoy_retreat_speed_tt }
 		}
 	}
 
@@ -1521,7 +1649,10 @@ focus_tree = {
 		y = 1
 		cost = 5
 		available = {
-			
+			custom_trigger_tooltip = {
+				tooltip = lazy_ttt
+				always = no
+			}
 		}
 		ai_will_do = {
 			base = 1
@@ -1550,7 +1681,9 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modify_IN_dynamic_modifier_tt
+			add_to_variable = { SHE_IN_naval_retreat_chance_var = 0.25 tooltip = naval_retreat_chance_tt }
+			add_to_variable = { SHE_IN_naval_speed_factor_var = 0.20 tooltip = naval_speed_factor_tt }
 		}
 	}
 

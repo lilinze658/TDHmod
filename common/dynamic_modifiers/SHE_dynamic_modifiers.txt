@@ -188,6 +188,30 @@ SHE_imperial_navy_dynamic_modifier = {
 	naval_accidents_chance = SHE_IN_naval_accidents_chance_var
 	
 	navy_spirit_category_type_cost_factor = SHE_IN_navy_spirit_category_type_cost_factor_var
+	experience_gain_navy_factor = SHE_IN_experience_gain_navy_factor_var
+	naval_torpedo_screen_penetration_factor = SHE_IN_naval_torpedo_screen_penetration_factor_var
+	naval_torpedo_enemy_critical_chance_factor = SHE_IN_naval_torpedo_enemy_critical_chance_factor_var
+	navy_submarine_detection_factor = SHE_IN_navy_submarine_detection_factor_var
+	positioning = SHE_IN_positioning_var
+	industrial_capacity_dockyard = SHE_IN_industrial_capacity_dockyard_var
+	refit_speed = SHE_IN_refit_speed_var
+	repair_speed_factor = SHE_IN_repair_speed_factor_var
+	carrier_traffic = SHE_IN_carrier_traffic_var
+	strike_force_movement_org_loss = SHE_IN_strike_force_movement_org_loss_var
+	navy_carrier_air_attack_factor = SHE_IN_navy_carrier_air_attack_factor_var
+	navy_fuel_consumption_factor = SHE_IN_navy_fuel_consumption_factor_var
+	carrier_capacity_penalty_reduction = SHE_IN_carrier_capacity_penalty_reduction_var
+	navy_carrier_air_agility_factor = SHE_IN_navy_carrier_air_agility_factor_var
+	air_superiority_efficiency = SHE_IN_air_superiority_efficiency_var
+	production_speed_naval_base_factor = SHE_IN_production_speed_naval_base_factor_var
+	navy_visibility = SHE_IN_navy_visibility_var
+	navy_max_range_factor = SHE_IN_navy_max_range_factor_var
+	
+	
+	
+	naval_speed_factor = SHE_IN_naval_speed_factor_var
+	convoy_escort_efficiency = SHE_IN_convoy_escort_efficiency_var
+	convoy_retreat_speed = SHE_IN_convoy_retreat_speed_var
 }
 
 SHE_imperial_airforce_dynamic_modifier = {
