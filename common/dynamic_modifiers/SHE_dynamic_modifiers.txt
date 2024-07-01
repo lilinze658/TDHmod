@@ -226,6 +226,7 @@ SHE_imperial_airforce_dynamic_modifier = {
 	army_bonus_air_superiority_factor = SHE_IAF_army_bonus_air_superiority_factor_var
 	
 	air_spirit_category_type_cost_factor = SHE_IAF_air_spirit_category_type_cost_factor_var
+	experience_gain_air_factor = SHE_IAF_experience_gain_air_factor_var
 }
 
 SHE_aim_to_shenzhou_dynamic_modifier = {

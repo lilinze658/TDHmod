@@ -1284,6 +1284,12 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_doctrine_cost_reduction = {
+				name = SHE_position_of_navy
+				cost_reduction = 1.0
+				uses = 1
+				category = naval_doctrine
+			}
 		}
 	}
 
@@ -1614,6 +1620,12 @@ focus_tree = {
 			add_to_variable = { SHE_IN_screening_efficiency_var = 0.15 tooltip = screening_efficiency_tt }
 			custom_effect_tooltip = SHE_blank_tt
 			navy_experience = 25
+			add_doctrine_cost_reduction = {
+				name = SHE_oversea_fight
+				cost_reduction = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
 		}
 	}
 
@@ -1695,10 +1707,7 @@ focus_tree = {
 		y = 0
 		cost = 5
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = lazy_ttt
-				always = no
-			}
+			
 		}
 		ai_will_do = {
 			base = 1
@@ -1706,7 +1715,69 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modify_IAF_dynamic_modifier_tt
+			add_to_variable = { SHE_IAF_experience_gain_air_factor_var = 0.05 tooltip = experience_gain_air_factor_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					is_coastal = yes
+					free_building_slots = {
+						building = air_base
+						size > 1
+						include_locked = yes
+					}
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					is_coastal = yes
+					free_building_slots = {
+						building = air_base
+						size > 1
+						include_locked = yes
+					}
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_doctrine_cost_reduction = {
+				name = SHE_future_of_airforce
+				cost_reduction = 1.0
+				uses = 1
+				category = air_doctrine
+			}
 		}
 	}
 
@@ -1727,7 +1798,20 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			navy_experience = 20
+			air_experience = 20
+			add_doctrine_cost_reduction = {
+				name = SHE_sea_air_force_cooperation_project
+				cost_reduction = 0.25
+				uses = 1
+				category = nava;_doctrine
+			}
+			add_doctrine_cost_reduction = {
+				name = SHE_sea_air_force_cooperation_project
+				cost_reduction = 0.25
+				uses = 1
+				category = air_doctrine
+			}
 		}
 	}
 
@@ -1749,7 +1833,12 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			add_tech_bonus = {
+				name = SHE_large_scale_carrier_based_aircraft_boarding_test
+				bonus = 1.0
+				uses = 3
+				category = mio_cat_all_naval_bomber_and_modules
+			}
 		}
 	}
 
@@ -1812,7 +1901,13 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			add_tech_bonus = {
+				name = SHE_ground_support_module_improve
+				bonus = 1.0
+				uses = 2
+				category = cat_air_bombs
+				category = cat_air_engine
+			}
 		}
 	}
 
@@ -1833,7 +1928,19 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			
+			add_doctrine_cost_reduction = {
+				name = SHE_transport_plane
+				cost_reduction = 0.25
+				uses = 1
+				category = special_forces_doctrine
+			}
+			add_doctrine_cost_reduction = {
+				name = SHE_transport_plane
+				cost_reduction = 0.5
+				uses = 1
+				category = cat_paratroopers_doctrine
+			}
 		}
 	}
 
@@ -1847,7 +1954,10 @@ focus_tree = {
 		y = 1
 		cost = 5
 		available = {
-			
+			custom_trigger_tooltip = {
+				tooltip = lazy_ttt
+				always = no
+			}
 		}
 		ai_will_do = {
 			base = 1
@@ -1876,7 +1986,10 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
-			add_stability = 0.10
+			custom_effect_tooltip = SHE_modify_IAF_dynamic_modifier_tt
+			add_to_variable = { SHE_IAF_military_industrial_organization_research_bonus_var = 0.10 tooltip = military_industrial_organization_research_bonus_tt }
+			custom_effect_tooltip = SHE_blank_tt
+			
 		}
 	}
 
