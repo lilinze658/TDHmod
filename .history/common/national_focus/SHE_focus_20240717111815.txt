@@ -1948,6 +1948,7 @@ focus_tree = {
 		bypass = {}
 		search_filters = {  }
 		completion_reward = {
+			
 			add_doctrine_cost_reduction = {
 				name = SHE_transport_plane
 				cost_reduction = 0.25
@@ -2008,6 +2009,7 @@ focus_tree = {
 			custom_effect_tooltip = SHE_modify_IAF_dynamic_modifier_tt
 			add_to_variable = { SHE_IAF_military_industrial_organization_research_bonus_var = 0.10 tooltip = military_industrial_organization_research_bonus_tt }
 			custom_effect_tooltip = SHE_blank_tt
+			
 		}
 	}
 

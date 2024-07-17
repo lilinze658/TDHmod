@@ -2008,6 +2008,7 @@ focus_tree = {
 			custom_effect_tooltip = SHE_modify_IAF_dynamic_modifier_tt
 			add_to_variable = { SHE_IAF_military_industrial_organization_research_bonus_var = 0.10 tooltip = military_industrial_organization_research_bonus_tt }
 			custom_effect_tooltip = SHE_blank_tt
+			
 		}
 	}
 
