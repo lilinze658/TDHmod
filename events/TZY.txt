@@ -1,0 +1,299 @@
+add_namespace = tzy
+country_event = {
+	id = tzy.1
+    title = tzy.1.t 
+    desc = tzy.1.d 
+
+    trigger = {
+        
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = tzy.1.a
+        trigger = {
+            tag = tzy
+            }
+	}
+    option = { 
+        name = tzy.1.b  
+        trigger = {
+            tag = NGD
+            }
+    }
+}
+country_event = {
+	id = tzy.2
+    title = tzy.2.t 
+    desc = tzy.2.d 
+
+    trigger = {
+        
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = tzy.2.a
+        ai_chance = { factor = 70 } 
+        TZY = {
+          news_event = {
+			id = tzy.3
+			
+		  }
+        }
+            
+	}
+    option = { 
+        name = tzy.2.b  
+        ai_chance = { factor = 30 }
+        TZY = {
+            news_event = {
+			id = tzy.7
+			
+		  }
+        }
+    }
+}
+country_event = {
+	id = tzy.3
+    title = tzy.3.t 
+    desc = tzy.3.d 
+
+    trigger = {
+        
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = tzy.3.a
+        ai_chance = { factor = 70 } 
+          news_event = {
+			id = tzy.4
+			
+		  }
+	}
+    option = { 
+        name = tzy.3.b  
+        ai_chance = { factor = 30 }
+        custom_effect_tooltip = TZY_reparations_1_tt
+        
+    }
+}
+country_event = {
+	id = tzy.4
+    title = tzy.4.t 
+    desc = tzy.4.d 
+
+    trigger = {
+        
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = tzy.4.a
+        ai_chance = { factor = 70 }
+        if = {
+			limit = {
+				is_ai = on
+			}
+			ai_chance = { factor = 0 }   annex_country = { target = GUS transfer_troops = no }
+			news_event = {
+			id = tzy.5
+			
+		  }
+		}
+		annex_country = { target = GUS transfer_troops = no }
+          news_event = {
+			id = tzy.5
+			
+		  }
+	}
+    option = { 
+        name = tzy.4.b
+        
+        ai_chance = { factor = 30 }
+        if = {
+			limit = {
+				is_ai = on
+			}
+			ai_chance = { factor = 100 }   
+			news_event = {
+			id = tzy.5
+			
+		  }
+		}
+        news_event = {
+			id = tzy.5
+			
+		  }
+    }
+}
+country_event = {
+	id = tzy.5
+    title = tzy.5.t 
+    desc = tzy.5.d 
+
+    trigger = {
+        
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = tzy.5.a
+        ai_chance = { factor = 70 }
+        if = {
+			limit = {
+				is_ai = on
+			}
+			ai_chance = { factor = 100 } 
+			news_event = {
+			id = tzy.6
+		  }
+		}
+          news_event = {
+			id = tzy.6
+		  }
+	}
+    option = { 
+        name = tzy.5.b
+        ai_chance = { factor = 30 }
+        if = {
+			limit = {
+				is_ai = on
+			}
+			ai_chance = { factor = 0 }   annex_country = { target = tzy transfer_troops = no }
+			news_event = {
+			id = tzy.6
+		  }
+		}
+		ai_chance = { factor = 0 }   annex_country = { target = tzy transfer_troops = no }
+        news_event = {
+			id = tzy.6
+		  }
+    }
+}
+country_event = {
+	id = tzy.6
+    title = tzy.6.t 
+    desc = tzy.6.d 
+
+    trigger = {
+        
+    }
+	is_triggered_only = yes
+    option = { 
+        name = tzy.6.a
+        ai_chance = { factor = 70 }
+        if = {
+			limit = {
+				is_ai = on
+			}
+			ai_chance = { factor = 100  } 
+		}
+
+	}
+    option = { 
+        name = tzy.6.b
+        ai_chance = { factor = 30 }
+        if = {
+			limit = {
+				is_ai = on
+			}
+			ai_chance = { factor = 0 } 
+	annex_country = { target = WIN transfer_troops = no }
+		}
+		annex_country = { target = WIN transfer_troops = no }
+    }
+}
+
+country_event = {
+	id = tzy.7
+    title = tzy.7.t 
+    desc = tzy.7.d 
+
+    trigger = {
+        
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = tzy.7.a
+        
+	}
+    
+}
+country_event = {
+	id = tzy.8
+    title = tzy.8.t 
+    desc = tzy.8.d 
+
+    trigger = {
+        
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = tzy.8.a
+        ai_chance = { factor = 90 }
+	}
+	option = { 
+        name = tzy.8.a
+        ai_chance = { factor = 10 }
+	}
+    
+}
+country_event = {
+	id = tzy.9
+    title = tzy.9.t 
+    desc = tzy.9.d 
+
+    trigger = {
+        
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = tzy.9.a
+        
+	}
+    
+}
+country_event = {
+	id = tzy.10
+    title = tzy.10.t 
+    desc = tzy.10.d 
+
+    trigger = {
+        
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = tzy.10.a
+        
+	}
+    
+}
+country_event = {
+	id = tzy.11
+    title = tzy.11.t 
+    desc = tzy.11.d 
+
+    trigger = {
+        has_completed_focus = TZY_focus_29
+    }
+    
+    is_triggered_only = yes
+	
+    option = { 
+        name = tzy.11.a
+        manpower=-15000
+        add_timed_idea = { idea = TZY_ideas_8 days = 200 } 
+	}
+	option = { 
+        name = tzy.11.b
+        manpower=-15000
+        add_timed_idea = { idea = TZY_ideas_8 days = 200 } 
+	}
+    
+}
