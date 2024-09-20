@@ -59,11 +59,13 @@ set_technology = {
 	sonar = 1
 	basic_cruiser_armor_scheme = 1
 }
-set_research_slots = 5
+set_research_slots = 3
 set_convoys = 20
 oob = "TZY-4633"
 add_ideas = { 
-
+ TZY_ideas_17
+ TZY_ideas_18
+ TZY_ideas_19
 }
  
 set_politics = {
@@ -85,7 +87,6 @@ recruit_character = TZY_fukelina
 recruit_character = TZY_feinila
 recruit_character = TZY_kelisiduo
 recruit_character = TZY_katelan
-recruit_character = TZY_biyoulai
 recruit_character = TZY_feidinisiya
 recruit_character = TZY_youliya
 recruit_character = TZY_katewen
@@ -107,6 +108,7 @@ recruit_character = TZY_aisilan
 		target = WIN 
 		type = annex_everything
 	}
+	recruit_character = TZY_biyoulai
 }
 add_equipment_to_stockpile = {
 	type = light_tank_destroyer_chassis_1
