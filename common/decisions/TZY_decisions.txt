@@ -1,0 +1,198 @@
+TZY_decision_category = {
+	TZY_1_decision = {
+		cost = 50
+		days_remove = 0
+
+		allowed = {
+			tag = TZY
+		}
+		available = {
+		has_completed_focus = TZY_focus_32
+		}
+		fire_only_once = yes
+		visible = {
+			 
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		remove_effect = {
+		add_timed_idea = { idea = TZY_ideas_1 days = 60 } 
+		
+	    }
+    }
+    TZY_2_decision = {
+		cost = 50
+		days_remove = 0
+
+		allowed = {
+			tag = TZY
+		}
+		available = {
+		has_completed_focus = TZY_focus_32
+		}
+		fire_only_once = yes
+		visible = {
+			 
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		remove_effect = {
+		add_ideas  = TZY_ideas_2
+		NGD = {
+		news_event = {
+			id = tzy.1
+			
+		  }
+		  
+		  }
+		  declare_war_on = { target = NGD type = annex_everything } 
+	    }
+    }
+    TZY_3_decision = {
+		cost = 50
+		days_remove = 0
+
+		allowed = {
+			tag = TZY
+		}
+		available = {
+		has_war_with = NGD
+		
+		NGD={
+		surrender_progress > 0.7	
+		}
+	   }
+		fire_only_once = yes
+		visible = {
+			 
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		remove_effect = {
+		
+		NGD = {
+		news_event = {
+			id = tzy.2
+			
+		  }
+		  }
+	    }
+    }
+    TZY_7_decision = {
+		cost = 0
+		days_remove = 0
+
+		allowed = {
+			tag = TZY
+		}
+		available = {
+		has_completed_focus = TZY_focus_32
+		}
+		visible = {
+			 
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		remove_effect = {
+		create_faction = TZYNED
+		TZY = {
+			add_to_faction = NED
+		}
+		NGD = {
+		create_faction = NGDGUSWIN
+		NGD = {
+			add_to_faction = GUS
+		}
+		NGD = {
+			add_to_faction = WIN
+		}
+	    }
+	}
+    }
+}
+TZY_decision_1_category = {
+	TZY_4_decision = {
+		cost = 50
+		days_remove = 0
+
+		allowed = {
+			tag = TZY
+		}
+		available = {
+		has_completed_focus = TZY_focus_34
+		has_war_with = SHE
+		}
+		fire_only_once = yes
+		visible = {
+			 
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		remove_effect = {
+		add_ideas  = TZY_ideas_3
+		FAL = {
+		news_event = {
+			id = tzy.8
+			
+		  }
+		  }
+	    }
+    }
+    TZY_5_decision = {
+		cost = 50
+		days_remove = 180
+
+		allowed = {
+			tag = TZY
+		}
+		available = {
+		has_completed_focus =   TZY_focus_34
+		has_war_with = SHE
+		}
+		fire_only_once = yes
+		visible = {
+			 
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		targeted_modifier = {
+		tag = SHE
+		attack_bonus_against = 0.25
+		defense_bonus_against = 0.25
+	    }
+	    targeted_modifier = {
+		tag = BER
+		attack_bonus_against = 0.25
+		defense_bonus_against = 0.25
+	    }
+    }
+    TZY_6_decision = {
+		cost = 50
+		days_remove = 10
+
+		allowed = {
+			tag = TZY
+		}
+		available = {
+	has_completed_focus = TZY_focus_34
+		has_war_with = SHE
+		}
+		fire_only_once = yes
+		visible = {
+			 
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		remove_effect = {
+		
+	    }
+    }
+	
+}
