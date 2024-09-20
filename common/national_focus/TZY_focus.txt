@@ -1,0 +1,1249 @@
+focus_tree={
+	id = TZY_focus
+	country={
+		factor=0
+		modifier={
+			add=10
+			tag=TZY
+		}
+	}
+	continuous_focus_position = { x = 400 y = 1999 }
+	default=no
+	focus={
+		id= TZY_focus_1
+		x=3
+		y=0
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			add_political_power = 150
+		}
+	}
+	focus={
+		id= TZY_focus_2
+		x=-2
+		y=1
+		cost=10
+		prerequisite={focus=TZY_focus_1}
+		relative_position_id = TZY_focus_1
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			390 = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes 
+		}
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_3
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_4}
+		relative_position_id = TZY_focus_4
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 add_tech_bonus = {
+		name = nuclear_research
+		bonus = 0.2
+		uses = 2
+		category = nuclear_research
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_4
+		x=2
+		y=1
+		prerequisite={focus=TZY_focus_1}
+		relative_position_id = TZY_focus_1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			add_research_slot = 1
+		}
+	}
+	focus={
+		id= TZY_focus_5
+		x=-1
+		y=1
+		cost=10
+		prerequisite={focus=TZY_focus_2}
+		relative_position_id = TZY_focus_2
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			390 = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes 
+		}
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_6
+		x=0
+		y=1
+		cost=10
+		prerequisite={focus=TZY_focus_5}
+		relative_position_id = TZY_focus_5
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			388 = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes 
+		}
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_7
+		x=1
+		y=1
+		cost=10
+		prerequisite={focus=TZY_focus_2}
+		relative_position_id = TZY_focus_2
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 511 = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes 
+		}
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_8
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_7}
+		relative_position_id = TZY_focus_7
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 388 = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes 
+		}
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_9
+		x=11
+		y=0
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 512 = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes 
+		}
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_10
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_9}
+		relative_position_id = TZY_focus_9
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			512 = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes 
+		}
+	}
+	      513 = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes 
+		}
+	}
+	     511 = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes 
+		}
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_11
+		x=-2
+		y=1
+		prerequisite={focus=TZY_focus_10}
+		relative_position_id = TZY_focus_10
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 add_tech_bonus = {
+		name = artillery
+		bonus = 0.1
+		uses = 2
+		category = artillery
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_12
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_11}
+		relative_position_id = TZY_focus_11
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 add_tech_bonus = {
+		name = artillery
+		bonus = 0.1
+		uses = 2
+		category = artillery
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_13
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_10}
+		relative_position_id = TZY_focus_10
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+	    add_tech_bonus = {
+		name = armor
+		bonus = 0.1
+		uses = 2
+		category = armor
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_14
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_13}
+		relative_position_id = TZY_focus_13
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			add_political_power = 150
+		}
+	}
+	focus={
+		id= TZY_focus_15
+		x=2
+		y=1
+		prerequisite={focus=TZY_focus_10}
+		relative_position_id = TZY_focus_10
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 add_timed_idea = { idea = TZY_ideas_4 days = 200 } 
+		}
+	}
+	focus={
+		id= TZY_focus_16
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_15}
+		relative_position_id = TZY_focus_15
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 add_tech_bonus = {
+		name = infantry_weapons
+		bonus = 0.1
+		uses = 2
+		category = infantry_weapons
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_17
+		x=1
+		y=2
+		prerequisite={focus=TZY_focus_19}
+		relative_position_id = TZY_focus_19
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		     392 = {
+		 add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+				
+			}
+		}
+		}
+	}
+	
+	focus={
+		id= TZY_focus_18
+		x=1
+		y=1
+		prerequisite={focus=TZY_focus_19}
+		relative_position_id = TZY_focus_19
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 add_tech_bonus = {
+		name = bb_tech
+		bonus = 0.1
+		uses = 2
+		category = bb_tech
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_19
+		x=18
+		y=0
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			   add_tech_bonus = {
+		name = naval_doctrine
+		bonus = 0.1
+		uses = 2
+		category = naval_doctrine
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_20
+		x=25
+		y=0
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 add_tech_bonus = {
+		name = air_doctrine
+		bonus = 0.1
+		uses = 2
+		category = air_doctrine
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_21
+		x=-1
+		y=1
+		prerequisite={focus=TZY_focus_20}
+		relative_position_id = TZY_focus_20
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			   add_tech_bonus = {
+		name = light_fighter
+		bonus = 0.1
+		uses = 2
+		category = light_fighter
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_22
+		x=1
+		y=1
+		prerequisite={focus=TZY_focus_20}
+		relative_position_id = TZY_focus_20
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			    add_tech_bonus = {
+		name = tactical_bomber
+		bonus = 0.1
+		uses = 2
+		category = tactical_bomber
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_23
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_18}
+		relative_position_id = TZY_focus_18
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 add_tech_bonus = {
+		name = cv_tech
+		bonus = 0.1
+		uses = 2
+		category = cv_tech
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_24
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_17}
+		relative_position_id = TZY_focus_17
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			  add_ideas = TZY_ideas_5
+		}
+	}
+	focus={
+		id= TZY_focus_25
+		x=1
+		y=1
+		prerequisite={focus=TZY_focus_21 focus=TZY_focus_22 }
+		relative_position_id = TZY_focus_21
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		add_timed_idea = { idea = TZY_ideas_6 days = 200 }
+			  
+		}
+	}
+	focus={
+		id= TZY_focus_26
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_25 }
+		relative_position_id = TZY_focus_25
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 add_tech_bonus = {
+		name = electronics_research
+		bonus = 0.1
+		uses = 2
+		category = electronics_research
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_27
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_26 }
+		relative_position_id = TZY_focus_26
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 add_timed_idea = { idea = TZY_ideas_7 days = 200 }
+			  
+		}
+	}
+	focus={
+		id= TZY_focus_28
+		x=23
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 add_political_power = 150
+		}
+	}
+	focus={
+		id= TZY_focus_29
+		x=-1
+		y=1
+		prerequisite={focus=TZY_focus_28 }
+		relative_position_id = TZY_focus_28
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 news_event = {
+			id = tzy.11
+		  }
+		}
+	}
+	focus={
+		id= TZY_focus_30
+		x=1
+		y=1
+		prerequisite={focus=TZY_focus_28 }
+		relative_position_id = TZY_focus_28
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 MOB = { add_opinion_modifier = { target = TZY modifier = LEG_LOV_1_opinion } }
+			 add_opinion_modifier = { target = MOB modifier = TZY_MOB_1_opinion } 
+		}
+	}
+	focus={
+		id= TZY_focus_31
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_30 }
+		relative_position_id = TZY_focus_30
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			add_ideas = TZY_ideas_9 
+			recruit_character = TZY_biyoulai
+		}
+	}
+	focus={
+		id= TZY_focus_32
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_31 }
+		relative_position_id = TZY_focus_31
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+        unlock_decision_category_tooltip = TZY_decision_category
+         
+		}
+	}
+	focus={
+		id= TZY_focus_33
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_32 }
+		relative_position_id = TZY_focus_32
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+			 FAL = {
+		news_event = {
+			id = tzy.8
+			
+		  }
+		  }
+		}
+	}
+	focus={
+		id= TZY_focus_34
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_33 }
+		relative_position_id = TZY_focus_33
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		unlock_decision_category_tooltip = TZY_4_decision
+			  
+		}
+	}
+	focus={
+		id= TZY_focus_35
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_34 }
+		relative_position_id = TZY_focus_34
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		unlock_decision_category_tooltip = TZY_6_decision
+			 
+		}
+	}
+	focus={
+		id= TZY_focus_36
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		   news_event = {
+			id = tzy.14
+			
+		  }
+		}
+	}
+	focus={
+		id= TZY_focus_37
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		
+		news_event = {
+			id = tzy.12
+			
+		  }
+		  add_political_power = 150
+		}
+	}
+	focus={
+		id= TZY_focus_38
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  MOB = {
+		news_event = {
+			id = tzy.13
+			
+		  }
+		  }
+		}
+	}
+	focus={
+		id= TZY_focus_39
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  add_ideas = TZY_ideas_10
+		}
+	}
+	focus={
+		id= TZY_focus_40
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  add_tech_bonus = {
+		name = infantry_weapons
+		bonus = 0.1
+		uses = 6
+		category = infantry_weapons
+	}
+		}
+	}
+	focus={
+		id= TZY_focus_41
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  add_research_slot = 1
+		}
+	}
+	focus={
+		id= TZY_focus_42
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		   add_war_support = 0.06
+		}
+	}
+	focus={
+		id= TZY_focus_43
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=1
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  unlock_decision_category_tooltip = TZY_decision_2_category
+		}
+	}
+	focus={
+		id= TZY_focus_44
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		available = {
+		has_army_manpower = { size > 5000 }
+	}
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  unlock_decision_category_tooltip = TZY_2_decision
+		}
+	}
+	focus={
+		id= TZY_focus_45
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		available = {
+		has_army_manpower = { size > 50000 }
+	}
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		   create_wargoal = { target = WIN type = annex_everything }
+		   		  unlock_decision_category_tooltip = TZY_10_decision
+		}
+	}
+	focus={
+		id= TZY_focus_46
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		   		  unlock_decision_category_tooltip = TZY_8_decision 
+		}
+	}
+	focus={
+		id= TZY_focus_47
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		   custom_effect_tooltip = TZY_focus_47_tt
+		}
+	}
+	focus={
+		id= TZY_focus_48
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		   army_experience = 15
+	navy_experience = 15
+	air_experience = 15
+	add_ideas = TZY_ideas_13
+		}
+	}
+	focus={
+		id= TZY_focus_49
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		   add_ideas = TZY_ideas_14
+		}
+	}
+	focus={
+		id= TZY_focus_50
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  FAL ={
+		  add_ideas = TZY_ideas_14
+		  } 
+		}
+	}
+	focus={
+		id= TZY_focus_51
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=2
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		   DIV ={
+		  add_ideas = TZY_ideas_14
+		  }  
+		}
+	}
+	focus={
+		id= TZY_focus_52
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=2
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  DUC ={
+		  add_ideas = TZY_ideas_14
+		  } 
+		  RUT ={
+		  add_ideas = TZY_ideas_14
+		  } 
+		}
+	}
+	focus={
+		id= TZY_focus_53
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=2
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		swap_ideas = {
+			add_idea = TZY_ideas_14
+			remove_idea = TZY_ideas_15
+		}
+		   FAL ={
+		  swap_ideas = {
+			add_idea = TZY_ideas_14
+			remove_idea = TZY_ideas_15
+		}
+		  } 
+		  DUC ={
+		  swap_ideas = {
+			add_idea = TZY_ideas_14
+			remove_idea = TZY_ideas_15
+		}
+		  } 
+		  RUT ={
+		  swap_ideas = {
+			add_idea = TZY_ideas_14
+			remove_idea = TZY_ideas_15
+		}
+		  } 
+		  DIV ={
+		  swap_ideas = {
+			add_idea = TZY_ideas_14
+			remove_idea = TZY_ideas_15
+		}
+		  }  
+		}
+	}
+	focus={
+		id= TZY_focus_54
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=2
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  unlock_decision_category_tooltip = TZY_5_decision
+		}
+	}
+	focus={
+		id= TZY_focus_55
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		   add_timed_idea = { idea = TZY_ideas_16 days = 100 } 
+		}
+	}
+	focus={
+		id= TZY_focus_56
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  add_ideas = TZY_ideas_17
+		}
+	}
+	focus={
+		id= TZY_focus_57
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  custom_effect_tooltip = TZY_focus_57_tt
+		}
+	}
+	focus={
+		id= TZY_focus_58
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  
+		}
+	}
+	focus={
+		id= TZY_focus_59
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  
+		}
+	}
+	focus={
+		id= TZY_focus_60
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  
+		}
+	}
+	focus={
+		id= TZY_focus_61
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  
+		}
+	}
+	focus={
+		id= TZY_focus_62
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  
+		}
+	}
+	focus={
+		id= TZY_focus_63
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  
+		}
+	}
+	focus={
+		id= TZY_focus_64
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		   
+		}
+	}
+	focus={
+		id= TZY_focus_65
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  
+		}
+	}
+	focus={
+		id= TZY_focus_66
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  
+		}
+	}
+	focus={
+		id= TZY_focus_67
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  
+		}
+	}
+	focus={
+		id= TZY_focus_68
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  
+		}
+	}
+	focus={
+		id= TZY_focus_69
+		x=0
+		y=1
+		prerequisite={focus=TZY_focus_35 }
+		relative_position_id = TZY_focus_35
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		  
+		}
+	}
+}
