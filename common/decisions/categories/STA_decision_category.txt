@@ -1,0 +1,32 @@
+r56_chinese_gui_category = {
+	icon = generic_independence
+	allowed = {
+		OR = {
+			original_tag = STA
+		}
+	}
+	priority = {
+		base = 250
+		modifier = {
+			factor = -1
+			has_country_flag = r56_chinese_gui_flag
+		}
+		modifier = {
+			add = -245
+			original_tag = SOV
+		}
+		modifier = {
+			add = -247
+			original_tag = JAP
+		}
+	}
+	scripted_gui = r56_scripted_chinese_gui
+	visible_when_empty = yes
+	visible = {
+		r56_chinese_gui_enabled = yes
+		NOT = {
+			has_country_flag = r56_chinese_gui_flag
+		}
+		is_ai = no
+	}
+}

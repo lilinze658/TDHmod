@@ -1,0 +1,12 @@
+TZY_decision_category = {
+	allowed = {
+		tag = TZY
+	}
+	priority = 5
+}
+TZY_decision_1_category = {
+	allowed = {
+		tag = TZY
+	}
+	priority = 5
+}
