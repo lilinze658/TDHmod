@@ -1,0 +1,216 @@
+ideas = {
+
+	country = {
+
+        #战争准备#
+        TZY_ideas_1 = {
+            removal_cost = -1
+            picture = TZY_ideas_1
+            modifier = {
+	       production_factory_max_efficiency_factor = 0.25
+	       production_factory_efficiency_gain_factor = 0.25
+	       industrial_capacity_factory = 0.25
+	industrial_capacity_dockyard = 0.25
+			}
+        }
+        #双奇战争#
+        TZY_ideas_2 = {
+            removal_cost = -1
+            picture = TZY_ideas_2
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+            targeted_modifier = {
+                tag = NGD
+                attack_bonus_against = 0.25
+                defense_bonus_against = 0.25
+            }
+            targeted_modifier = {
+                tag = GUS
+                attack_bonus_against = 0.25
+                defense_bonus_against = 0.25
+            }
+        }
+        TZY_ideas_3 = {
+            removal_cost = -1
+            picture = TZY_ideas_3
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+            targeted_modifier = {
+                tag = SHE
+                attack_bonus_against = 0.25
+                defense_bonus_against = 0.25
+            }
+            targeted_modifier = {
+                tag =  POS
+                attack_bonus_against = 0.25
+                defense_bonus_against = 0.25
+            }
+            targeted_modifier = {
+                tag =  BER
+                attack_bonus_against = 0.25
+                defense_bonus_against = 0.25
+            }
+        }
+        TZY_ideas_4 = {
+            removal_cost = -1
+            picture = TZY_ideas_4
+            modifier = {
+	       training_time_factor = -0.25
+	       
+			}
+        }
+        TZY_ideas_5 = {
+            removal_cost = -1
+            picture = TZY_ideas_5
+            modifier = {
+	       experience_gain_navy_unit_factor = 0.25
+	       navy_org_factor = 0.25
+	       naval_coordination = 0.25
+	       
+			}
+        }
+        TZY_ideas_6 = {
+            removal_cost = -1
+            picture = TZY_ideas_6
+            modifier = {
+	       xp_gain_air_factor = 0.25
+	       training_time_air = -0.25
+	       air_accidents = -0.25
+	       
+			}
+        }
+        TZY_ideas_7 = {
+            removal_cost = -1
+            picture = TZY_ideas_7
+            equipment_bonus = {
+		fighter_equipment = {
+			build_cost_ic = -0.25
+			instant = yes
+		}
+	}
+        }
+        TZY_ideas_8 = {
+            removal_cost = -1
+            picture = TZY_ideas_8
+            modifier = {
+	       consumer_goods_factor = -0.25
+			}
+        }
+        TZY_ideas_9 = {
+            removal_cost = -1
+            picture = TZY_ideas_9
+            modifier = {
+	       max_command_power_mult = 2
+	      experience_gain_army_unit_factor = 0.25 
+	      planning_speed = 0.10
+			}
+        }
+        TZY_ideas_10 = {
+            removal_cost = -1
+            picture = TZY_ideas_10
+            modifier = {
+	       max_command_power_mult = 2
+	      experience_gain_army_unit_factor = 0.25 
+	      planning_speed = 0.10
+			}
+        }
+        TZY_ideas_11 = {
+            removal_cost = -1
+            picture = TZY_ideas_11
+            modifier = {
+	       experience_gain_air = 1 
+	       air_ace_generation_chance_factor = 0.25
+			air_accidents = -0.25
+			}
+			
+        }
+        TZY_ideas_12 = {
+            removal_cost = -1
+            picture = TZY_ideas_12
+            modifier = {
+	       experience_gain_naval = 1	           navy_org = 0.25
+			}
+        }
+        TZY_ideas_13 = {
+            removal_cost = -1
+            picture = TZY_ideas_13
+            modifier = {
+	       army_org_factor = 0.20
+			}
+			targeted_modifier = {
+				tag = SHE
+				attack_bonus_against = 0.50
+		        defense_bonus_against = 0.50
+			}
+        }
+        TZY_ideas_14 = {
+            removal_cost = -1
+            picture = TZY_ideas_14
+            modifier = {
+	       army_org_regain = 0.10
+			}
+			targeted_modifier = {
+				tag = SHE
+				attack_bonus_against = 0.15
+		        defense_bonus_against = 0.15
+			}
+        }
+        TZY_ideas_15 = {
+            removal_cost = -1
+            picture = TZY_ideas_14
+            modifier = {
+	       army_org_regain = 0.10
+	       land_reinforce_rate = 0.05
+			}
+			targeted_modifier = {
+				tag = SHE
+				attack_bonus_against = 0.25
+		        defense_bonus_against = 0.25
+			}
+        }
+        TZY_ideas_16 = {
+            removal_cost = -1
+            picture = TZY_ideas_16
+            modifier = {
+	       naval_morale = 0.3                     navy_submarine_attack_factor = 0.25
+	       navy_capital_ship_attack_factor = 0.25
+			}
+        }
+        TZY_ideas_17 = {
+            removal_cost = -1
+            picture = TZY_ideas_17
+            modifier = {
+            political_power_gain = 0.25
+            stability_weekly_factor = 0.5
+            war_support_weekly_factor = 0.5
+            command_power_gain = 0.25
+			}
+        }
+        TZY_ideas_18 = {
+            removal_cost = -1
+            picture = TZY_ideas_18
+            modifier = {
+            conscription_total_factor = -0.02
+            army_attack_factor = 0.05
+            land_reinforce_rate = 0.03
+			}
+        }
+        TZY_ideas_19 = {
+            removal_cost = -1
+            picture = TZY_ideas_19
+            modifier = {
+             consumer_goods_factor = 0.15
+             production_speed_building = -0.25
+			}
+        }
+        
+}
+}

@@ -1,0 +1,33 @@
+ideas = {
+    
+    country = {
+        #洛维尼亚开扩集团
+        ZET_ideas_1 = {
+
+            picture = ZET_ideas_1
+            modifier = {
+             industrial_capacity_factory = -0.5
+                industrial_capacity_dockyard = -0.5
+            }
+            targeted_modifier = {
+               tag = LOV cic_to_target_factor = 0.3
+            }
+        }
+        #集团法令
+        ZET_ideas_2 = {
+            removal_cost = -1
+            picture = ZET_ideas_2
+            modifier = {
+                custom_modifier_tooltip = LOV_ideas_3_tt
+            }
+        }
+        #契约奴法案
+        ZET_ideas_3 = {
+            picture = ZET_ideas_3
+            modifier = {
+                weekly_manpower = 3000
+                stability_weekly = -0.05
+            }
+        }
+    }
+}

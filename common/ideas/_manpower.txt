@@ -133,6 +133,12 @@ ideas = {
 					}
 					NOT = { has_idea = LOV_ideas_3 }
 				}
+				if = {
+					limit = {
+						original_tag = ZET
+					}
+					NOT = { has_idea = ZET_ideas_2 }
+				}
 			}
 
 			modifier = {
@@ -243,6 +249,12 @@ ideas = {
 						original_tag = LOV
 					}
 					NOT = { has_idea = LOV_ideas_3 }
+				}
+				if = {
+					limit = {
+						original_tag = ZET
+					}
+					NOT = { has_idea = ZET_ideas_2 }
 				}
 			}
 			ai_will_do = {
@@ -389,6 +401,12 @@ ideas = {
 					}
 					NOT = { has_idea = LOV_ideas_3 }
 				}
+				if = {
+					limit = {
+						original_tag = ZET
+					}
+					NOT = { has_idea = ZET_ideas_2 }
+				}
 			}
 
 			ai_will_do = {
@@ -534,6 +552,12 @@ ideas = {
 					}
 					NOT = { has_idea = LOV_ideas_3 }
 				}
+				if = {
+					limit = {
+						original_tag = ZET
+					}
+					NOT = { has_idea = ZET_ideas_2 }
+				}
 			}
 
 			ai_will_do = {
@@ -668,6 +692,12 @@ ideas = {
 						original_tag = LOV
 					}
 					NOT = { has_idea = LOV_ideas_3 }
+				}
+				if = {
+					limit = {
+						original_tag = ZET
+					}
+					NOT = { has_idea = ZET_ideas_2 }
 				}
 			}
 
