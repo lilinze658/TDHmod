@@ -1,0 +1,25 @@
+state={
+	id=212
+	name="STATE_212"#基塔堡
+	history={
+		owner = AIS
+		victory_points = {
+			5417 25
+		}
+		 
+		buildings = {
+			infrastructure = 5
+			arms_factory = 6
+            dockyard = 2
+		}
+		add_core_of = AIS
+
+	}
+	provinces={
+		437 2511 2732 2980 4728 5417 6293 9577 10542 15355 15371 15448 15500 15512 
+	}
+	manpower=5920614
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

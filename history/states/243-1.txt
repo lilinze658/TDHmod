@@ -1,0 +1,30 @@
+state={
+	id=243
+	name="STATE_243"#莱克
+    history={
+		owner = PIR
+		victory_points = {
+			4873 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = PIR
+		
+		4636.10.25 = {
+			owner = LEG
+            add_core_of = LEG
+		}
+
+	}
+	provinces={
+		1286 3600 4873 6103 6601 6877 8090 15867 15880 15987 16004 
+	}
+	manpower=745000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

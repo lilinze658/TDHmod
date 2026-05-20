@@ -1,0 +1,29 @@
+
+state={
+	id=36
+	name="STATE_36"
+	resources={
+		steel= 10
+	}
+	history={
+		owner = SUP
+		 
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 2
+			7557= {
+                naval_base = 2
+			}                  
+		}
+		add_core_of = SUP
+
+	}
+	provinces={
+		3837 7557 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

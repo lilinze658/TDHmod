@@ -1,0 +1,31 @@
+state={
+	id=239
+	name="STATE_239"#乌特姆
+    resources={
+		aluminium=30
+	}
+	history={
+		owner = PIR
+		victory_points = {
+			5131 10
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PIR
+		
+		4636.10.25 = {
+			owner = ZET
+
+		}
+
+	}
+	provinces={
+		585 1730 2390 2446 4033 4608 4693 5131 7507 8097 9831 16080 16081 16109 16239 16272 
+	}
+	manpower=341000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

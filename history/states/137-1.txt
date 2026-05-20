@@ -1,0 +1,24 @@
+state={
+	id=137
+	name="STATE_137"
+	history={
+		owner = TOM
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = TOM
+		
+	}
+	provinces={
+		448 1645 2804 6482 6855 7904 8439 9667 16551 16558 16605 16612 16656 16693 16744 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

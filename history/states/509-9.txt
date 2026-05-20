@@ -1,0 +1,21 @@
+state={
+	id=509
+	name="STATE_509"
+	history={
+		owner = NAN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = NAN
+
+	}
+	provinces={
+		385 822 925 1472 1509 2451 2699 3422 3895 4343 4798 6582 7496 8193 10118 10127 10422 16606 16614 16657 16713 16759 16774 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

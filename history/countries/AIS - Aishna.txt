@@ -1,4 +1,4 @@
-capital = 149
+capital = 166
 set_technology = {
 	staff_knight = 1
 	infantry_weapons = 1
@@ -63,7 +63,11 @@ set_research_slots = 5
 set_convoys = 20
 oob = "AIS-4633"
 add_ideas = { 
-
+  pony_ren
+  industrial_2
+  whuiu_2
+  weay_3
+  gyea_2
 }
 4636.1.1 = {
 	oob = "AIS-4636"

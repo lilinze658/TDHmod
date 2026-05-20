@@ -1,0 +1,21 @@
+state={
+	id=497
+	name="STATE_497"
+		history={
+		owner = GOD
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = GOD
+
+	}
+	provinces={
+		213 1591 1971 2684 3146 3644 3822 4230 5309 6350 6367 7178 9538 9547 10265 10747 11042 17112 17141 17149 17204 17211 17214 17347 17357 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

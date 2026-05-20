@@ -1,0 +1,26 @@
+state={
+	id=211
+	name="STATE_211"#洛希尔
+    resources = {
+		steel=30
+		tungsten=20
+	}
+	history={
+		owner = AIS
+		victory_points = {
+			15489 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AIS
+
+	}
+	provinces={
+		1333 1857 4247 5090 7260 15303 15327 15447 15489 15493 15556 
+	}
+	manpower=117563
+	buildings_max_level_factor=1.000
+	state_category=pastoral 
+	local_supplies=0.000
+}

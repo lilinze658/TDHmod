@@ -1,0 +1,25 @@
+state={
+	id=112
+	name="STATE_112"#卡尔丹
+	history={
+		owner = LOB
+		victory_points = {
+			17611 10 
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		1202 2816 3625 5306 7513 17611 17629 17630 17639 17651 17652 17677 17678 
+	}
+	manpower=2168950
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

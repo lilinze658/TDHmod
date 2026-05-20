@@ -1,0 +1,24 @@
+state={
+	id=30
+	name="STATE_30"#瑟尔诺克
+	history={
+		owner = LOB
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LOB
+
+	}
+	
+	provinces={
+		3764 5700 5794 8535 8664 9798 10793 17703 17707 
+	}
+	manpower=1348560
+	buildings_max_level_factor=1.000
+	state_category=rural 
+	local_supplies=0.000
+}

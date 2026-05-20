@@ -1,0 +1,33 @@
+state={
+	id=49
+	name="STATE_49"
+	resources = {
+		rubber=20
+	}
+	history={
+		owner = LOB
+		victory_points = {
+			17355 10
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			17355 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		30 412 927 1517 2075 2861 2897 3079 3332 3339 3366 3399 3456 3469 3630 3664 3710 3901 3921 3954 4279 4969 5282 5944 6160 6176 6213 6619 6711 7108 7126 7139 7918 8263 8745 10768 10965 17026 17071 17074 17089 17093 17103 17110 17117 17122 17180 17235 17244 17272 17281 17304 17320 17323 17335 17346 17355 17423 17426 17462 
+	}
+	manpower=2759483
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,4 +1,4 @@
-capital = 35
+capital = 233
 set_technology = {
 	gwtank_chassis = 1
 	basic_medium_tank_chassis = 1
@@ -23,7 +23,11 @@ set_research_slots = 5
 set_convoys = 200 
 oob = "SNO-4633"
 add_ideas = { 
-	
+	pony_race
+	industrial_4
+	whuiu_1
+	weay_2
+	gyea_1
 }
 4636.1.1 = {
 oob = "SNO-4636"

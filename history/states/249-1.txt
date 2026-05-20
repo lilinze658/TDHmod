@@ -1,0 +1,32 @@
+state={
+	id=249
+	name="STATE_249" #瓦杜斯
+	history={
+		owner = LOV
+		victory_points = {
+             2591 15
+         } 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			10517 = {
+                naval_base = 2
+			} 
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		176 1938 2591 3218 4482 4507 5378 5413 5683 5835 5909 7459 9144 9870 10234 10517 10685 10808 14599 14713 14726 14771 14810 14830 14855 14868 14872 14904 14934 
+	}
+	manpower=2678510
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

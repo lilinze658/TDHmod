@@ -1,0 +1,23 @@
+state={
+	id=121
+	name="STATE_121"
+	history={
+		owner = GUS
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = GUS
+
+	}
+	provinces={
+		737 1081 1154 1984 4171 5228 5288 5623 5636 5687 5979 6734 6986 7510 7999 8532 8703 8826 9846 9972 10011 10078 10657 15422 15511 15555 15564 15595 15604 15621 15654 15660 15718 
+	}
+	manpower=3140000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

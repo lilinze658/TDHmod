@@ -1,0 +1,28 @@
+state={
+	id=793
+	name="STATE_793"#奥托干德
+	history={
+		owner = ZET
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ZET
+		4635.10.25 = {
+			owner = KIA
+			add_core_of = ZET
+			add_core_of = KIA
+
+		}
+	}
+	provinces={
+		86 158 200 219 536 1022 2051 2393 2534 2610 4076 5608 5885 6093 6361 6744 7156 7860 9338 9690 9822 17157 17167 17168 17266 17267 17280 17283 
+	}
+	manpower=17560
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

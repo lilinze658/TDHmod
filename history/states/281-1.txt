@@ -1,0 +1,25 @@
+state={
+	id=281
+	name="STATE_281"#熔铁城地方
+	history={
+		owner = ELT
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 2
+			8699 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = ELT
+
+	}
+	provinces={
+		1305 2412 3039 3427 3675 6201 8220 8699 8918 9058 10593 14004 14063 14215 14288 14344 
+	}
+	manpower=3649000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

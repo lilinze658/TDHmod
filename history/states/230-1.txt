@@ -1,0 +1,23 @@
+state={
+	id=230
+	name="STATE_230"#帕尔克莱克
+    history={
+		owner = LEG
+		victory_points = {
+			1418 15
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LEG
+
+	}
+	provinces={
+		333 1418 3236 4772 4903 5214 6890 7629 7676 15631 15665 15685 15820 
+	}
+	manpower=801623
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

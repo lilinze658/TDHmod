@@ -1,0 +1,34 @@
+state={
+	id=276
+	name="STATE_276"#塔格昂
+    history={
+		owner = STA
+		victory_points = {
+			6448 15 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 4
+			6748 = {
+				bunker = 1
+				coastal_bunker = 3
+                naval_base = 4
+			}     
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = NEW
+			add_core_of = STA
+			add_core_of = NEW
+
+		}
+
+	}
+	provinces={
+		509 836 1232 3613 4542 4592 6262 6448 6748 9019 13044 13081 13082 13115 13128 13157 13181 13206 
+	}
+	manpower=4620000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

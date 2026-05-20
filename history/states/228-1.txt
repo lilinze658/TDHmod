@@ -1,0 +1,23 @@
+state={
+	id=228
+	name="STATE_228"#科尔巴
+	history={
+		owner = LEG
+		victory_points = {
+			2569 5
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LEG
+
+	}
+	provinces={
+		835 2207 2569 3173 3549 5858 8620 15526 15611 15617 15645 15666 15686 15696 15720 15726 15773 
+	}
+	manpower=712010
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

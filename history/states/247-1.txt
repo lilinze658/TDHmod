@@ -1,0 +1,25 @@
+state={
+	id=247
+	name="STATE_247" #因特门
+	history={
+		owner = LOV
+		victory_points = {
+            7666  5
+        } 
+		buildings = {
+			infrastructure = 1
+            4388 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = LEG
+
+	}
+	provinces={
+		43 256 387 2305 3267 4055 4224 4388 6554 7666 8783 9104 9756 10781 14681 14788 14811 14812 14863 14869 
+	}
+	manpower=530601
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+state={
+	id=216
+	name="STATE_216"#奥塔克
+	resources = {
+		steel=26
+	}
+	history={
+		owner = ZET
+		victory_points = {
+			3964 10
+		}
+ 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		113 2554 2965 3964 6242 6508 7606 15809 15859 15923 15924 15980 16064 
+	}
+	manpower=1714203
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

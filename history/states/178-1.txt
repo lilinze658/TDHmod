@@ -1,0 +1,26 @@
+state={
+	id=178
+	name="STATE_178"#万亚
+	resources={
+		steel= 30
+        aluminium= 20
+	}
+	history={
+		owner = MOB
+		victory_points = {
+			 14305  10
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		786 2467 5298 8167 10177 14260 14276 14305 14343 14399 14419 
+	}
+	manpower=3280000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_town
+}

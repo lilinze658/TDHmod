@@ -1,0 +1,23 @@
+state={
+	id=209
+	name="STATE_209"#爱尔哲罗特
+	history={
+		owner = AIS
+		victory_points = {
+			14991 10
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AIS
+
+	}
+	provinces={
+		524 2867 3797 5500 5506 6239 6423 7234 7270 9024 10050 10215 11015 14881 14888 14898 14933 14939 14959 14991 15013 15045 15060 15102 
+	}
+	manpower=401625
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

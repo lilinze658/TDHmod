@@ -1,0 +1,36 @@
+
+state={
+	id=90
+	name="STATE_90"#1号枢纽
+    resources={
+		steel= 10
+        oil= 10
+        rubber= 10
+        chromium= 10
+        tungsten= 10
+        aluminium= 10
+	}
+	history={
+		owner = ENU
+		victory_points = {
+			10000 30 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+            3326 = {
+                naval_base = 5
+			} 
+		}
+		add_core_of = ENU
+
+	}
+	provinces={
+		1813 1914 3326 3869 6474 10000 10276 11925 11973 12049 12083 
+	}
+	manpower=107641
+	buildings_max_level_factor=1.000
+	state_category= megalopolis
+	local_supplies=0.000
+}

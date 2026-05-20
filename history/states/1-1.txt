@@ -1,0 +1,23 @@
+state={
+	id=1
+	name="STATE_1"#尤提尼亚
+	history={
+		owner = MIC
+		victory_points = {
+			2780 10
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MIC
+
+	}
+	provinces={
+		2 753 2156 2755 2780 3008 4015 4148 4757 4867 4990 5284 5366 8951 9020 9340 9590 12313 12406 12480 12511 12560 12572 12582 12594 12603 12604 
+	}
+	manpower=601302
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

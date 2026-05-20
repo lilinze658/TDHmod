@@ -1,0 +1,22 @@
+state={
+	id=451
+	name="STATE_451"
+	history={
+		owner = COU
+		 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = COU
+
+	}
+	provinces={
+		439 768 1127 1254 1411 2181 2854 2888 6248 7797 8513 9230 9290 9519 9663 9820 10087 10201 10354 11106 12109 12128 12141 12146 12154 12161 12164 12191 12193 12220 12243 12255 12284 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,26 @@
+state={
+	id=284
+	name="STATE_284"
+	history={
+		owner = LOV
+		victory_points = {
+            
+         } 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		561 945 1835 2386 2974 3720 4026 4398 5362 6338 6468 7091 7174 8149 9258 14022 14049 14189 14230 14233 14261 14322 14376 
+	}
+	manpower=2798541
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=210
+	name="STATE_210"#卡吉布斯
+	history={
+		owner = AIS
+		victory_points = {
+			15216 5
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = AIS
+
+	}
+	provinces={
+		374 2265 2575 3999 4420 7605 9389 9394 10169 10344 15070 15118 15188 15216 15249 15250 15271 
+	}
+	manpower=290156
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

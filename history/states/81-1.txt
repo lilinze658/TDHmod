@@ -1,0 +1,22 @@
+
+state={
+	id=81
+	name="STATE_81"
+	history={
+		owner = ART
+		 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = ART
+
+	}
+	provinces={
+		681 910 2058 4016 4280 5863 6112 6120 6122 6535 6714 6992 7153 8176 8882 9077 9287 10852 11162 11165 11174 11189 11190 11210 11217 11220 11231 11239 11242 11244 11250 11262 11269 11270 11275 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

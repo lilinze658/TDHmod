@@ -1,0 +1,24 @@
+state={
+	id=208
+	name="STATE_208"#瓦拉姆
+    history={
+		owner = AIS
+		victory_points = {
+			5211 25
+		}
+		 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+		}
+		add_core_of = AIS
+
+	}
+	provinces={
+		1049 1275 1408 1458 2006 4513 5020 5211 6313 6892 8610 8740 9155 9229 10174 14838 14962 15016 15039 15069 
+	}
+	manpower=3826044
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

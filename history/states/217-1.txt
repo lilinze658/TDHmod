@@ -1,0 +1,24 @@
+state={
+	id=217
+	name="STATE_217"#罗德特赫克
+	history={
+		owner = ZET
+		victory_points = {
+			4120 25
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		90 3170 3670 4072 4120 4627 5611 5634 5733 5997 6258 6336 7442 7730 7801 9633 10397 15537 15557 15622 15650 15663 15723 
+	}
+	manpower=5450326
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=14
+	name="STATE_14"#小岛4号
+    resources = {
+		rubber=30
+	}
+	history={
+		owner = HAS
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HAS
+		4635.10.25 = {
+			owner = FAL
+			add_core_of = HAS
+			add_core_of = FAL
+	
+		}
+	}
+	
+	provinces={
+		3719 8481 9265 13343 
+	}
+	manpower=142000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

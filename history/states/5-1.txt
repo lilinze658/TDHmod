@@ -1,0 +1,29 @@
+state={
+	id=5
+	name="STATE_5"#拉提娅
+	resources = {
+		rubber=30
+	}
+	history={
+		owner = LOB
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			
+
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		217 570 5321 8501 9513 10959 17646 17690 17700 17704 
+	}
+	manpower=1168950
+	buildings_max_level_factor=1.000
+	state_category=rural 
+	local_supplies=0.000
+}

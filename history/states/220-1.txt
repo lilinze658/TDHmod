@@ -1,0 +1,26 @@
+state={
+	id=220
+	name="STATE_220"#米格拉夫
+    history={
+		owner = ZET
+		victory_points = {
+			16195 50
+		}
+ 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+            dockyard = 1
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		512 556 2452 2646 3618 3765 3840 4246 5998 6758 8382 10980 16049 16065 16174 16195 16203 16246 
+	}
+	manpower=5106254
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

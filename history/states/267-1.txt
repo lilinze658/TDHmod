@@ -1,0 +1,28 @@
+state={
+	id=267
+	name="STATE_267" #菲罗萨
+	history={
+		owner = LOV
+		victory_points = {
+            13610 20
+         }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		1352 2374 3019 3890 3926 4018 4028 4285 4303 5419 6388 6861 6907 7649 7935 9917 10252 13475 13501 13525 13536 13545 13567 13610 13639 13673 13680 13701 13727 13774 
+	}
+	manpower=6820341
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

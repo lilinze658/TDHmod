@@ -1,0 +1,28 @@
+state={
+	id=282
+	name="STATE_282"#熔铁城
+    resources = {
+		steel=60
+	}
+	history={
+		owner = ELT
+		victory_points = {
+			8559 30 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = ELT
+
+	}
+	provinces={
+		465 2760 4654 5283 5459 7151 7355 7591 7836 8265 8306 8559 9335 13728 13778 13820 13860 13905 13969 13977 14014 
+	}
+	manpower=5864000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

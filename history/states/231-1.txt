@@ -1,0 +1,24 @@
+state={
+	id=231
+	name="STATE_231"#伊克斯坎特
+	history={
+		owner = LEG
+		victory_points = {
+			5346 20
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = LEG
+
+	}
+	provinces={
+		202 1647 2661 3455 4667 5346 5664 7342 8215 8834 9572 9733 9980 11018 15501 15562 15584 
+	}
+	manpower=1801201
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

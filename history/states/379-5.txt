@@ -1,0 +1,22 @@
+state={
+	id=379
+	name="STATE_379"
+		history={
+		owner = RIE
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FAR
+
+	}
+	provinces={
+		573 1130 1553 4242 4788 4938 5426 6161 10599 17505 17510 17528 17565 
+	}
+	manpower=864125
+	buildings_max_level_factor=1
+	local_supplies=0
+}

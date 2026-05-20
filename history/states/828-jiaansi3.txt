@@ -1,0 +1,23 @@
+state={
+	id=828
+	name="STATE_828"#伯德利
+	history={
+		owner = REP
+		victory_points = {
+			6966 5
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = REP
+
+	}
+	provinces={
+		3550 5497 6966 9238 9559 9727 10137 14479 14636 14685 14750 
+	}
+	manpower=601524
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

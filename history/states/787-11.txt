@@ -1,0 +1,29 @@
+state={
+	id=787
+	name="STATE_787"#斯科英
+	history={
+		owner = ZET
+		victory_points = {
+			3041 20
+		}
+		 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = ZET
+		4635.10.25 = {
+			owner = KIA
+			add_core_of = ZET
+			add_core_of = KIA
+
+		}
+	}
+	provinces={
+		1528 2543 2595 2967 3041 5571 6165 7585 8030 8887 9841 16445 16505 16555 16585 
+	}
+	manpower=2010000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

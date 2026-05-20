@@ -1,26 +1,24 @@
-
 state={
 	id=859
 	name="STATE_859"
-
 	history={
-		owner = WEI
- 
-		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 2
-
+		owner = NED
+		victory_points = {
+			
 		}
-		add_core_of = WEI
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+            dockyard = 1
+		}
+		add_core_of = NED
 
 	}
-
 	provinces={
-		801 1405 2878 4433 5030 6028 8296 10202 10359 13356 13395 13401 13442 13451 13467 13485 13503 2305 6729 7360 9028 10360 13250 13299 13315 13328 13336 13344 13361 118 1224 2303 2749 4645 5109 9042 9350 9444 10635 13325 13332 13337 13398 13423 13449 13486 176 859 1050 2391 2644 4690 6064 6204 9149 10757 13125 13138 13169 13224 13265 
+		1036 1137 1564 2389 4647 5856 5917 6756 7555 8245 9385 10789 10825 17151 17223 17332 
 	}
-	manpower=10000000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
 }

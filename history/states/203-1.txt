@@ -1,0 +1,23 @@
+state={
+	id=203
+	name="STATE_203"#拉斯塔格温
+	history={
+		owner = AIS
+		victory_points = {
+			15075 20
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = AIS
+
+	}
+	provinces={
+		2148 2673 4099 4875 5038 7637 9013 9176 10132 11005 11010 15015 15068 15075 15112 15162 15224 15266 
+	}
+	manpower=2410625
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=42
+	name="STATE_42"
+	history={
+		owner = ART
+		 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = ART
+
+	}
+	provinces={
+		290 586 828 1880 1935 2463 3072 3190 3199 5447 6616 7340 7552 8898 9746 10300 10339 10698 10897 11130 11223 11232 11246 11251 11290 11300 11317 11320 11323 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

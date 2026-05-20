@@ -1,0 +1,19 @@
+state={
+	id=430
+	name="STATE_430"
+	history={
+		owner = MOO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = MOO
+
+	}
+	provinces={
+		2102 2346 3823 6223 6609 9518 11993 12064 12105 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

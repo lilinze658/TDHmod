@@ -1,0 +1,30 @@
+state={
+	id=259
+	name="STATE_259"#雅奈森
+	
+    history={
+		owner = STA
+		victory_points = {
+            12963 15
+        } 
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = PEC
+			add_core_of = STA
+			add_core_of = PEC
+
+		}
+
+	}
+	provinces={
+		1397 2278 2885 3526 3897 3970 4570 4581 6593 7243 8055 12849 12890 12963 12964 13004 13006 
+	}
+	manpower=1750000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=343
+	name="STATE_343"
+	history={
+		owner = MIY
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MIY
+
+	}
+	provinces={
+		230 1062 1802 2319 2937 6335 6435 7225 7246 8156 8894 10703 10801 10814 15137 15148 15180 15244 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

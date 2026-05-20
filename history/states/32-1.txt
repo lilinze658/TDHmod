@@ -1,0 +1,31 @@
+
+state={
+	id=32
+	name="STATE_32"
+	history={
+		owner = LOB
+		victory_points = {
+			4431 5
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			8536 = {
+				naval_base = 1
+				coastal_bunker = 2
+			}
+
+		}
+		add_core_of = LOB
+
+	}
+
+	provinces={
+		39 603 2308 4431 5084 8089 8321 8536 8764 9032 9361 9588 10044 10367 10636 15729 15755 15788 15814 15830 15831 15849 15888 15900 15901 15934 15939 15954 
+	}
+	manpower=1689520
+	buildings_max_level_factor=1.000
+	state_category=town 
+	local_supplies=0.000
+}

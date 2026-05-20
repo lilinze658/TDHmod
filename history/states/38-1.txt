@@ -1,0 +1,29 @@
+
+state={
+	id=38
+	name="STATE_38"
+	history={
+		owner = LOB
+		victory_points = {
+			9987 5
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			9987 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = LOB
+		add_core_of = COU
+
+	}
+	provinces={
+		981 2603 2682 3233 4146 4391 8124 9803 9987 10145 12654 12702 12740 
+	}
+	manpower=1038650
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

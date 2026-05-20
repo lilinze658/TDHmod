@@ -1,0 +1,30 @@
+state={
+	id=252
+	name="STATE_252" #克纳达
+	history={
+		owner = LOV
+		victory_points = {
+            14549 20
+         } 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			owner = RED
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		331 2494 3088 4046 4269 4304 5129 5140 5547 5953 8583 8820 9521 10216 14427 14480 14483 14512 14549 14567 14585 14615 14633 14678 
+	}
+	manpower=3860000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

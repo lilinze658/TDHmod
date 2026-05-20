@@ -1,0 +1,26 @@
+state={
+	id=162
+	name="STATE_162"
+	history={
+		owner = POS
+		victory_points = {
+		 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = POS
+		4635.10.25 = {
+			owner = SHE
+			add_core_of = SHE
+			add_core_of = POS
+	
+		}
+	}
+	provinces={
+		52 3185 3464 3682 3754 4732 5064 5642 5879 6430 7070 7717 7965 8010 8451 9759 12640 12642 12651 12676 12732 12743 12761 12767 12809 12825 12836 12837 
+	}
+	manpower=910000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

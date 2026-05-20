@@ -1,25 +1,24 @@
-
 state={
 	id=860
-	name="STATE_1204"
-
+	name="STATE_860"
 	history={
-		owner = DIV
-		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 2
-
+		owner = NED
+		victory_points = {
+			
 		}
-		add_core_of = DIV
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+            dockyard = 1
+		}
+		add_core_of = NED
 
 	}
-
 	provinces={
-		4688 5191 5683 6239 10012 13266 13304 13345 13365 13372 13374 170 1006 1625 7195 7767 7813 8721 9208 10120 10446 13255 13289 1591 2262 2714 4728 5804 7231 8114 9800 13354 13378 13450 13461 13492 
+		1518 1729 2913 4504 6997 7005 9263 10910 16983 17033 17078 17088 17114 
 	}
-	manpower=10000000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
 }

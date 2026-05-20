@@ -1,0 +1,26 @@
+state={
+	id=681
+	name="STATE_681"
+	history={
+		owner = HAS
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HAS
+		4635.10.25 = {
+			owner = FAL
+			add_core_of = HAS
+			add_core_of = FAL
+	
+		}
+	}
+	provinces={
+		474 814 897 1778 1944 1987 2468 3824 5119 5313 7609 7888 8313 8719 8841 9006 10246 13723 13744 13745 13798 13845 13879 13990 13991 
+	}
+	manpower=740000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

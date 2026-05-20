@@ -1,0 +1,29 @@
+state={
+	id=260
+	name="STATE_260"#贝尔瓦勒
+	resources = {
+		steel=40
+		chromium=20
+	}
+	history={
+		owner = STA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = PEC
+			add_core_of = STA
+			add_core_of = PEC
+
+		}
+
+	}
+	provinces={
+		533 1046 1674 3281 3373 3607 5685 6814 7183 7458 7537 8172 9423 12850 12855 12866 12882 12907 12920 12947 12974 
+	}
+	manpower=1400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

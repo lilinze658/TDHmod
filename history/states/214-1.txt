@@ -1,0 +1,27 @@
+state={
+	id=214
+	name="STATE_214"#卡帕
+	history={
+		owner = ZET
+		victory_points = {
+			543 20
+		}
+ 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+                2217 = {
+               naval_base = 3
+                }
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		543 2217 3076 4110 7690 8996 9781 10568 10791 15922 15975 15986 16032 
+	}
+	manpower=4102601
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

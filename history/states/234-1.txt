@@ -1,0 +1,24 @@
+state={
+	id=234
+	name="STATE_234"#迪特里姆
+	history={
+		owner = LEG
+		victory_points = {
+			4410 10
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = LEG
+
+	}
+	provinces={
+		2477 3095 4410 5008 5262 6234 7807 8367 10576 15419 15476 15525 15591 
+	}
+	manpower=2254602
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,24 @@
+state={
+	id=126
+	name="STATE_126"
+	history={
+		owner = NED
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+            dockyard = 1
+		}
+		add_core_of = NED
+
+	}
+	provinces={
+		1318 6597 7031 8049 8342 8995 9395 17099 17106 17143 17171 17206 17237 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

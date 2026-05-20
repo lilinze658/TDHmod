@@ -1,0 +1,22 @@
+state={
+	id=443
+	name="STATE_443"
+	history={
+		owner = COU
+		 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = COU
+
+	}
+	provinces={
+		1096 1491 1889 2553 3291 5630 5961 6726 7080 7890 10839 11639 11648 11662 11689 11704 11740 11741 11790 11799 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,22 @@
+state={
+	id=328
+	name="STATE_328"
+	history={
+		owner = WIM
+		victory_points = {
+			
+		}
+ 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = WIM
+
+	}
+	provinces={
+		3168 3775 4191 4673 5629 7026 7074 7626 9082 9198 9253 9632 9792 10290 10511 14879 14909 14941 15027 15061 15077 15093 
+	}
+	manpower=3741685
+	buildings_max_level_factor=1
+	local_supplies=0
+}

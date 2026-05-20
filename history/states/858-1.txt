@@ -1,25 +1,24 @@
-
 state={
 	id=858
-	name="STATE_1035"
-
+	name="STATE_858"
 	history={
-		owner = ONG
-		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 2
-
+		owner = NED
+		victory_points = {
+			
 		}
-		add_core_of = ONG
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+            dockyard = 1
+		}
+		add_core_of = NED
 
 	}
-
 	provinces={
-		829 3562 4332 5077 6873 7509 7624 8910 10513 11984 12029 12044 12080 12092 12133 12204 12234 12248 12258 12294 2867 8605 8735 10114 12307 12317 12434 12440 1955 3581 3682 5327 6420 12483 12530 12545 12609 12615 12625 
+		496 959 4498 4733 4958 5966 6940 8138 8904 10612 16895 16902 16940 16988 16992 17037 17048 17067 17205 17243 
 	}
-	manpower=10000000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
 }

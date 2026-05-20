@@ -1,0 +1,25 @@
+state={
+	id=166
+	name="STATE_166"
+	history={
+		owner = HAS
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = HAS
+		4635.10.25 = {
+			
+	
+		}
+	}
+	provinces={
+		3400 3527 3929 4411 4640 6297 6483 7351 8109 8368 10156 14094 14095 14122 14187 14360 
+	}
+	manpower=1620000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

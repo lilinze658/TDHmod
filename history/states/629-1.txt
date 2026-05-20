@@ -1,0 +1,26 @@
+state={
+	id=629
+	name="STATE_629"
+	history={
+		owner = HAS
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = HAS
+		4635.10.25 = {
+			owner = FAL
+			add_core_of = HAS
+			add_core_of = FAL
+	
+		}
+	}
+	provinces={
+		604 1191 3468 4503 5360 9099 9811 10207 10492 10500 10774 13270 13274 13281 13321 13332 
+	}
+	manpower=1760000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

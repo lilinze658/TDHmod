@@ -1,0 +1,24 @@
+state={
+	id=224
+	name="STATE_224"#托普
+    history={
+		owner = ZET
+		victory_points = {
+			3428 10
+		}
+ 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		247 758 1262 1531 3049 3290 3428 3758 5696 7546 8007 8753 9975 10972 16366 16373 16425 16446 16456 
+	}
+	manpower=716053
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

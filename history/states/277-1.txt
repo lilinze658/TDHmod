@@ -1,0 +1,31 @@
+state={
+	id=277
+	name="STATE_277"#萨拉特
+	history={
+		owner = STA
+		victory_points = {
+			5294 40 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 6
+			arms_factory = 3
+            air_base = 3
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = NEW
+			add_core_of = STA
+			add_core_of = NEW
+
+		}
+
+	}
+	provinces={
+		295 874 4606 5294 5556 6437 7413 7832 9018 10231 10249 13171 13239 13289 13295 13407 
+	}
+	manpower=7450000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis 
+	local_supplies=0.000
+}

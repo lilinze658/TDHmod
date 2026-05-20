@@ -1,0 +1,19 @@
+state={
+	id=146
+	name="STATE_146"
+	history={
+		owner = LIV
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LIV
+
+	}
+	provinces={
+		2177 3846 3997 4180 4199 4347 5716 8370 10553 11870 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

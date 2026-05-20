@@ -1,0 +1,23 @@
+state={
+	id=823
+	name="STATE_823"
+	history={
+		owner = NGD
+		victory_points = {
+		
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = NGD
+
+	}
+	provinces={
+		135 903 999 1038 1116 2823 4263 6493 6853 7167 7863 7989 8151 8892 9742 10707 16399 16422 16475 16485 16523 16583 16639 
+	}
+	manpower=1764521
+	buildings_max_level_factor=1
+	local_supplies=0
+}

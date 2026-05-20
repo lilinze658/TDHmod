@@ -1,0 +1,28 @@
+state={
+	id=238
+	name="STATE_238"#奥福柯
+	history={
+		owner = PIR
+		victory_points = {
+			15886 20
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PIR
+		
+		4636.10.25 = {
+			owner = LEG
+
+		}
+
+	}
+	provinces={
+		349 1106 2879 3500 8310 8330 15754 15886 16059 
+	}
+	manpower=610000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

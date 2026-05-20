@@ -1,0 +1,22 @@
+state={
+	id=177
+	name="STATE_177"#科伦德
+	history={
+		owner = MOB
+		victory_points = {
+			14662 20
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		98 1575 2357 3097 3771 4511 6955 7238 14653 14662 14738 14751 
+	}
+	manpower=4160000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_city
+}

@@ -1,0 +1,30 @@
+state={
+	id=273
+	name="STATE_273"#阿特米尔
+	history={
+		owner = STA
+		victory_points = {
+			13406 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = NEW
+			add_core_of = STA
+			add_core_of = NEW
+
+		}
+
+	}
+
+	provinces={
+		670 1001 2322 2832 5220 6628 6631 6813 7461 10037 10457 10758 13210 13265 13355 13406 13438 13455 13523 13582 
+	}
+	manpower=2971021
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

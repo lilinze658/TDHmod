@@ -1,0 +1,22 @@
+state={
+	id=838
+	name="STATE_838"
+	history={
+		owner = GUS
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GUS
+
+	}
+	
+	provinces={
+		274 1264 1894 2905 4700 5239 8829 9016 10944 15589 15601 15616 15629 15661 15691 15719 15752 15760 15772 
+	}
+	manpower=2410000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

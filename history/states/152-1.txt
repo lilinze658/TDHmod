@@ -1,0 +1,24 @@
+state={
+	id=152
+	name="STATE_152"
+	history={
+		owner = ANY
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = ANY
+
+	}
+	provinces={
+		291 2988 3687 3911 5130 6699 8228 8359 10264 10664 10905 15436 15459 15486 15508 15521 15544 15561 15588 15592 15624 15643 15684 15701 15708 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

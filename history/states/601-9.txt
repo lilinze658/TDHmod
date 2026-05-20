@@ -1,0 +1,21 @@
+state={
+	id=601
+	name="STATE_601"
+	history={
+		owner = DIV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = DIV
+
+	}
+	provinces={
+		513 774 1171 1678 2344 3266 4531 5312 5575 6241 6827 6905 7415 8199 9196 9225 10482 10621 14271 14350 14426 14458 14486 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,24 +1,34 @@
-
 state={
 	id=847
-	name="STATE_1006"
-
+	name="STATE_847"
 	history={
-		owner = NAN
+		owner = DUC
+		victory_points = {
+			3137 25 
+		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 2
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			  
+		}
+		add_core_of = DUC
+		4635.10.25 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 3
+				arms_factory = 4
+				dockyard = 3
+				air_base = 2
+				
+			}
 
 		}
-		add_core_of = NAN
-
 	}
-
 	provinces={
-		1189 2176 2964 3560 6916 6983 7505 7543 8781 8815 10122 16590 16609 16663 16699 16743 16818 1680 2633 2822 5560 5577 6053 6230 9100 10501 16671 16676 16734 16753 16819 16841 
+		1188 1882 2141 2972 3137 4648 5191 7090 7425 8095 10600 17441 17464 17481 17494 17495 17515 17517 17536 17561 
 	}
-	manpower=10000000
+	manpower=1306204
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

@@ -1,0 +1,29 @@
+state={
+	id=271
+	name="STATE_271"#伊卡洛
+	history={ 
+		owner = STA
+		victory_points = {
+			1138 30 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 5
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = MOB
+			add_core_of = STA
+
+		}
+
+	}
+	provinces={
+		1138 2291 2302 5802 5868 6860 8773 8990 9758 13191 13200 13249 13288 13294 13322 13416 13437 13454 
+	}
+	manpower=6530000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

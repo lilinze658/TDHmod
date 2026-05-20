@@ -1,0 +1,21 @@
+state={
+	id=634
+	name="STATE_634"
+		history={
+		owner = ETE
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = ETE
+
+	}
+	provinces={
+		1799 3288 6121 7872 9359 9428 11622 11655 11684 11692 11719 11720 11749 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

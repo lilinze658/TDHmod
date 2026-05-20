@@ -1,0 +1,22 @@
+state={
+	id=467
+	name="STATE_467"
+	history={
+		owner = KAY
+		 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = KAY
+
+	}
+	provinces={
+		68 824 1044 1091 1910 2197 2653 3027 3462 3496 4048 4139 4582 5251 5527 5566 6019 6428 7100 7367 8415 8643 8733 9041 17291 17303 17305 17327 17333 17345 17371 17400 17405 17406 17412 17434 17507 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

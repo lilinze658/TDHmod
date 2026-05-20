@@ -1,0 +1,30 @@
+state={
+	id=195
+	name="STATE_195"#卡提玛岛
+	history={
+		owner = LOB
+		victory_points = {
+			580 10 
+		}
+		buildings = {
+		infrastructure = 3
+		industrial_complex = 1
+		arms_factory = 1
+		dockyard = 1
+		580 = {
+			naval_base = 1
+			coastal_bunker = 4
+		}
+
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		170 580 1150 4328 4539 6135 6903 7244 9328 10045 12921 12943 13003 13011 13036 13086 13160 13187 13216 
+	}
+	manpower=1896750
+	buildings_max_level_factor=1.000
+	state_category=large_town 
+	local_supplies=0.000
+}

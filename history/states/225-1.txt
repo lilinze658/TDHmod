@@ -1,0 +1,27 @@
+state={
+	id=225
+	name="STATE_225"#塔尔图斯
+	history={
+		owner = ZET
+		victory_points = {
+			7501 5
+		}
+ 
+		buildings = {
+			infrastructure = 1
+            2677 = {
+                naval_base = 1
+            }
+		}
+		add_core_of = ZET
+
+	}
+	
+	provinces={
+		1226 2677 3070 4073 4382 5335 6003 6557 7501 9300 10013 10187 10941 11103 16182 16269 16286 16312 16379 
+	}
+	manpower=604560
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

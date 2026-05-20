@@ -1,0 +1,24 @@
+state={
+	id=119
+	name="STATE_119"
+	history={
+		owner = MAG
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 3
+            dockyard = 2
+		}
+		add_core_of = MAG
+
+	}
+	provinces={
+		139 203 1050 2588 3383 5725 5886 7123 8560 8807 14988 15001 15052 15058 15101 15193 15215 15237 15238 15262 15263 
+	}
+	manpower=4100000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

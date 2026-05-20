@@ -1,0 +1,19 @@
+state={
+	id=194
+	name="STATE_194"#格索拉
+	history={
+		owner = MOB
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		2115 3494 3718 5352 7536 11043 14139 14308 
+	}
+	manpower=2160000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_city
+}

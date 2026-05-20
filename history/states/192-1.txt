@@ -1,0 +1,24 @@
+state={
+	id=192
+	name="STATE_192"#莫顿
+	history={
+		owner = MOB
+		victory_points = {
+			4911 20
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 3
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		381 1898 3260 4911 6731 7542 7582 8175 8657 13899 14072 14105 14140 
+	}
+	manpower=4280000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = metropolis
+}

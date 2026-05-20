@@ -1,4 +1,4 @@
-capital = 53
+capital = 256
 
 set_technology = {
 	staff_Royal = 1
@@ -63,7 +63,12 @@ set_technology = {
 set_research_slots = 5
 set_convoys = 20
 oob = "LOV-4633"
-add_ideas = { 
+add_ideas = {
+    pony_ren
+    industrial_3
+    whuiu_1
+    weay_2
+    gyea_1
 	LOV_ideas_1
 	LOV_ideas_2
 	LOV_ideas_3

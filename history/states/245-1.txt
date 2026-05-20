@@ -1,0 +1,26 @@
+state={
+	id=245
+	name="STATE_245"#马恩沃德
+	history={
+		owner = LOB
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			
+
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		761 1082 1143 3013 3510 9151 9512 9897 11100 17564 17590 17597 17637 
+	}
+	manpower=156821
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

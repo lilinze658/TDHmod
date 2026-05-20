@@ -1,0 +1,30 @@
+
+state={
+	id=37
+	name="STATE_37"
+	history={
+		owner = LOB
+		victory_points = {
+			13007 5
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			6371 = {
+				naval_base = 1
+				coastal_bunker = 3
+			}
+
+		}
+		add_core_of = LOB
+
+	}
+
+	provinces={
+		368 1830 2288 2556 4387 5285 5612 6371 6479 7450 7695 8285 9095 9505 9551 10242 12834 12853 12860 12869 12908 12923 12932 12933 12938 12966 12967 12988 13001 13007 13061 
+	}
+	manpower=985790
+	buildings_max_level_factor=1.000
+	state_category=small_island 
+	local_supplies=0.000
+}

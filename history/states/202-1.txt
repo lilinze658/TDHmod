@@ -1,0 +1,30 @@
+state={
+	id=202
+	name="STATE_202" #弗雷克索德
+	history={
+		owner = REP
+		victory_points = {
+			6238 25
+		}
+		 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+            6238 = {
+                naval_base = 2
+            }
+
+		}
+		add_core_of = REP
+
+	}
+	provinces={
+		745 2388 2893 4761 6238 6880 7408 7521 9731 14903 14958 15012 15021 15038 15053 15084 15114 15140 
+	}
+	manpower=4756158
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

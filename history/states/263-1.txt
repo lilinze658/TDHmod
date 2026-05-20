@@ -1,0 +1,29 @@
+state={
+	id=263
+	name="STATE_263" #埃米斯托
+	history={
+		owner = LOV
+		victory_points = {
+			5892 10
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			owner = RED
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		272 691 880 1122 4460 4841 5030 5892 6181 6717 7602 7912 8047 8275 9037 9741 9807 9838 13087 13104 13109 13179 13201 13211 13254 13257 13283 13304 
+	}
+	manpower=810320
+	buildings_max_level_factor=1
+	state_category=rural
+	local_supplies=0
+}

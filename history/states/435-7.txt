@@ -1,0 +1,24 @@
+state={
+	id=435
+	name="STATE_435"
+	history={
+		owner = ORT
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = ORT
+		
+	}
+	provinces={
+		323 531 1111 1435 1698 2362 4684 4767 5056 6547 8173 8524 8727 9649 11505 11523 11556 11592 11593 11605 11625 11626 11656 
+	}
+	manpower=1874011
+	buildings_max_level_factor=1
+	local_supplies=0
+}

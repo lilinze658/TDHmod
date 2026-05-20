@@ -1,0 +1,19 @@
+state={
+	id=184
+	name="STATE_184"#格兰斯下
+	history={
+		owner = MOB
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		447 2267 4874 7315 7960 8052 9721 10805 14473 14588 14590 14632 14637 14693 14697 
+	}
+	manpower=2150000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+}

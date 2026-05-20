@@ -1,0 +1,31 @@
+
+state={
+	id=139
+	name="STATE_139"
+	history={
+		owner = LOB
+		victory_points = {
+			16727 5
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			7880 = {
+				naval_base = 1
+				coastal_bunker = 4
+			}
+
+		}
+		add_core_of = LOB
+		add_core_of = OME
+
+	}
+	provinces={
+		1723 2367 3014 3286 3451 4093 5169 6385 6551 6671 6831 7274 7880 8906 10248 10472 10578 16556 16586 16610 16644 16665 16727 16746 16762 16787 16823 16830 16869 16884 16888 16914 
+	}
+	manpower=1389570
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

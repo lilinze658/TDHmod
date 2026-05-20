@@ -1,0 +1,24 @@
+state={
+	id=213
+	name="STATE_213"#奥科普斯
+	history={
+		owner = AIS
+		victory_points = {
+			7576 5
+		}
+		 
+		buildings = {
+			infrastructure = 3
+            dockyard = 2
+		}
+		add_core_of = AIS
+
+	}
+	provinces={
+		427 1529 2444 4031 4160 4538 4602 4736 7039 7236 7576 8937 10416 15152 15194 15198 15208 15234 15253 15256 15320 
+	}
+	manpower=567186
+	buildings_max_level_factor=1.000
+	state_category=city 
+	local_supplies=0.000
+}

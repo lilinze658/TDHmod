@@ -1,0 +1,35 @@
+state={
+	id=269
+	name="STATE_269"#米丁
+	resources={
+		oil=30
+	}
+	history={
+		owner = STA
+		victory_points = {
+			8009 10
+		}
+		buildings = {
+			infrastructure = 2
+			13851 = {
+				bunker = 1
+				coastal_bunker = 1
+                naval_base = 2
+			}
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = MOB
+			add_core_of = STA
+
+		}
+
+	}
+	provinces={
+		2813 3207 4450 5773 5893 6067 6920 8009 10162 13624 13647 13652 13660 13691 13697 13720 13789 13810 13846 13851 
+	}
+	manpower=3100000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

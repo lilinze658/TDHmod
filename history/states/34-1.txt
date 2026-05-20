@@ -1,0 +1,25 @@
+
+state={
+	id=34
+	name="STATE_34"#奥拉马斯岛
+	history={
+		owner = LOB
+		 
+		buildings = {
+			infrastructure = 1
+			3750 = {
+			naval_base = 1
+			coastal_bunker = 3
+		}            
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		20 907 2472 3179 3465 3750 5995 6798 8233 8361 8393 9692 12482 12515 12576 12605 12707 
+	}
+	manpower=766420
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

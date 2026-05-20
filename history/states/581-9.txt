@@ -1,0 +1,21 @@
+state={
+	id=581
+	name="STATE_581"
+	history={
+		owner = ONG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = ONG
+
+	}
+	provinces={
+		106 640 678 1649 1790 1840 3733 4621 5444 6207 6308 6626 7453 7917 8112 8760 9170 10088 13147 13152 13155 13174 13197 13205 13220 13273 13318 13398 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

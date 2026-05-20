@@ -1,4 +1,4 @@
-capital = 466
+capital = 229
 
 set_technology = {
 	infantry_weapons = 1
@@ -67,6 +67,11 @@ set_convoys = 200
 oob = "LEG-4633"
 add_ideas = { 
 	economy_flange
+	pony_race
+	industrial_3
+	whuiu_3
+	weay_3
+	gyea_2
 }
 
 set_politics = {

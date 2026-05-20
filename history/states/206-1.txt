@@ -1,0 +1,30 @@
+state={
+	id=206
+	name="STATE_206"#特乌
+  resources = {
+		aluminium=18
+	}
+	history={
+		owner = AIS
+		victory_points = {
+			8316 5
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			 15518 = {
+              naval_base = 2
+              }
+		}
+		add_core_of = AIS
+
+	}
+	provinces={
+		260 2975 4023 4638 4766 6925 7814 8316 15455 15471 15491 15518 15541 15545 15551 15580 15590 15634 15662 
+	}
+	manpower=1702654
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

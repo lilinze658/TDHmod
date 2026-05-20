@@ -1,0 +1,23 @@
+state={
+	id=207
+	name="STATE_207"#洛克尼姆摩格
+	history={
+		owner = AIS
+		victory_points = {
+			15766 10
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AIS
+
+	}
+	provinces={
+		3253 3474 3707 5054 5816 6188 7643 8303 9071 9311 9852 10202 10439 15605 15635 15658 15698 15722 15766 15777 15786 15833 15848 15872 15933 
+	}
+	manpower=1689015
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

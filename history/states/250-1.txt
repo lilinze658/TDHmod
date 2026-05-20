@@ -1,0 +1,28 @@
+state={
+	id=250
+	name="STATE_250" #马科拉
+	history={
+		owner = LOV
+		victory_points = {
+            6059 15
+         } 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		201 730 1968 2192 2902 3580 4708 4847 5684 6059 7534 7916 14401 14465 14475 14521 14528 14536 14579 14601 14621 14650 14665 
+	}
+	manpower=2458900
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

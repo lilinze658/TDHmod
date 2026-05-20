@@ -1,0 +1,23 @@
+state={
+	id=227
+	name="STATE_227"#斯布阿
+	history={
+		owner = ZET
+		victory_points = {
+			7707 5
+		}
+ 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		141 1597 2283 3176 5361 6319 6895 7707 8509 9059 10932 15748 15821 15873 15909 15968 16017 
+	}
+	manpower=980625
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

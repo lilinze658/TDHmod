@@ -1,0 +1,146 @@
+division_template = {
+	name = "帝国远征军"			
+		division_names_group = POS_INF_01 
+		regiments = { 
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+                  infantry = { x = 1 y = 2 }
+                  infantry = { x = 2 y = 0 }
+                  infantry = { x = 2 y = 1 }
+                  infantry = { x = 2 y = 2 }
+		}
+		support = {
+			   engineer = { x = 0 y = 0 }
+		}	
+	}
+
+division_template = {
+	name = "步兵协同师"
+
+	division_names_group = POS_MOT_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+            light_armor = { x = 0 y = 2 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+            light_armor = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+        motorized = { x = 2 y = 2 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+units = {
+	division = {
+		location = 6977
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 6977
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 6977
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 6977
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 6977
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 10331
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 10331
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 10331
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 10331
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 10331
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 19193
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 19193
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 19193
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 19193
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		location = 19193
+		division_template = "帝国远征军"
+		start_equipment_factor = 1
+	}
+}

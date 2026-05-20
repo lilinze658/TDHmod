@@ -1,0 +1,26 @@
+state={
+	id=170
+	name="STATE_170"
+	history={
+		owner = HAS
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			dockyard = 3
+		}
+		add_core_of = HAS
+		4635.10.25 = {
+			
+	
+		}
+	}
+	provinces={
+		394 2107 6083 6192 7887 9627 10400 10613 14317 14390 14432 14519 
+	}
+	manpower=1740000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

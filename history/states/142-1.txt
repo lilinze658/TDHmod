@@ -1,0 +1,22 @@
+state={
+	id=142
+	name="STATE_142"
+	history={
+		owner = ORT
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ORT
+		
+	}
+	provinces={
+		770 1750 2044 2198 3512 5106 5709 6068 8401 9896 11512 11524 11570 11610 11649 11663 
+	}
+	manpower=447651
+	buildings_max_level_factor=1
+	local_supplies=0
+}

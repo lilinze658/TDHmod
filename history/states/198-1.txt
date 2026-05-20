@@ -1,0 +1,23 @@
+state={
+	id=198
+	name="STATE_198" #艾特维普
+	history={
+		owner = REP
+		victory_points = {
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = REP
+
+	}
+	provinces={
+		410 420 3149 3617 5490 5626 6588 6894 7302 8746 9564 9754 10936 14546 14563 14607 14608 14614 14645 14668 
+	}
+	manpower=420685
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=764
+	name="STATE_764"
+	history={
+		owner = LIV
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LIV
+
+	}
+	provinces={
+		515 756 1468 1769 1961 3208 3587 3739 3808 4119 4562 4613 4727 7409 8256 8833 9449 9471 10540 10982 11513 11534 11589 11621 11679 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

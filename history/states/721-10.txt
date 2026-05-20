@@ -1,0 +1,21 @@
+state={
+	id=721
+	name="STATE_721"
+	history={
+		owner = WEI
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = WEI
+
+	}
+	provinces={
+		511 1331 1428 1807 3082 4141 5872 6114 6124 6959 9130 9298 10303 10499 10550 10552 11975 12029 12040 12156 12162 12172 12188 12195 12234 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

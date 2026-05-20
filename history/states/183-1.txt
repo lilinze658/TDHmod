@@ -1,0 +1,23 @@
+state={
+	id=183
+	name="STATE_183"#格兰斯
+	history={
+		owner = MOB
+		victory_points = {
+			261 20
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 6
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		261 3044 4256 5717 7765 8779 9531 9677 14320 14388 14532 14555 14577 14597 
+	}
+	manpower=5810000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+}

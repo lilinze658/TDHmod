@@ -1,0 +1,27 @@
+
+state={
+	id=39
+	name="STATE_39"
+	history={
+		owner = COU
+		 victory_points = {
+			4541 5
+		}
+		buildings = {
+			infrastructure = 2
+			12460 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = COU
+		add_core_of = LOB
+
+	}
+	provinces={
+		228 689 2260 2769 3068 4175 4541 4818 5143 7448 8985 9304 9676 12460 12488 12514 12527 12566 12579 12584 12613 
+	}
+	manpower=1058650
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

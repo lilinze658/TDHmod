@@ -1,0 +1,28 @@
+state={
+	id=278
+	name="STATE_278"#门卡利南
+	history={
+		owner = STA
+		 victory_points = {
+			11080 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = NEW
+			add_core_of = STA
+			add_core_of = NEW
+
+		}
+
+	}
+	provinces={
+		1058 3204 4215 5740 5847 6417 6546 6875 6889 7061 9866 11080 11107 13323 13630 13656 13698 13726 13766 
+	}
+	manpower=5840000
+	buildings_max_level_factor=1.000
+	state_category=pastoral 
+	local_supplies=0.000
+}

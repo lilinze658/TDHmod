@@ -1,0 +1,29 @@
+state={
+	id=627
+	name="STATE_627"
+	history={
+		owner = HAS
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+
+		}
+		add_core_of = HAS
+		4635.10.25 = {
+			owner = FAL
+			add_core_of = HAS
+			add_core_of = FAL
+	
+		}
+	}
+	provinces={
+		144 7301 7862 8444 9654 10192 10320 10616 11114 14195 14258 14265 14296 14328 14357 14373 14395 
+	}
+	manpower=3760000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

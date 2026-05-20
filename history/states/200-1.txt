@@ -1,0 +1,23 @@
+state={
+	id=200
+	name="STATE_200" #普洛夫
+	history={
+		owner = REP
+		victory_points = {
+            14878 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = REP
+
+	}
+	provinces={
+		484 3085 5160 5166 5276 5937 7050 8758 9369 10125 10198 14782 14829 14878 14923 14949 
+	}
+	manpower=623751
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

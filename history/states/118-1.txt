@@ -1,0 +1,29 @@
+state={
+	id=118
+	name="STATE_14"
+	history={
+		owner = HAS
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+
+		}
+		add_core_of = HAS
+		4635.10.25 = {
+			owner = FAL
+			add_core_of = HAS
+			add_core_of = FAL
+	
+		}
+	}
+	provinces={
+		2079 2649 3697 5206 5480 5913 7024 8551 10305 14285 14362 14470 14592 
+	}
+	manpower=3874651
+	buildings_max_level_factor=1
+	local_supplies=0
+}

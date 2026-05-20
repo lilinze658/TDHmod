@@ -1,0 +1,24 @@
+state={
+	id=40
+	name="STATE_40"
+	history={
+		owner = SUP
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 5
+
+		}
+		add_core_of = SUP
+
+	}
+	provinces={
+		1476 1805 1887 2247 2445 2709 3145 3436 3660 3902 4014 4338 4493 5593 5984 6097 7434 8373 8397 8998 9270 9747 10080 10437 10888 11131 11133 11148 11152 11157 11160 11177 11185 11186 11219 11226 11243 11261 11288 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

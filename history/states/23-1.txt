@@ -1,0 +1,22 @@
+
+state={
+	id=23
+	name="STATE_23"
+	history={
+		owner = SHE
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SHE
+
+	}
+	provinces={
+		930 2104 2277 2355 2562 2999 4663 5747 6206 6433 6506 6690 6857 7583 7831 8876 9166 9357 9434 9922 10226 15480 15516 15538 15563 15579 15582 15626 15627 15652 15681 15689 15735 15739 15759 15791 15870 15897 15919 
+	}
+	manpower=4520000
+	buildings_max_level_factor=1.000
+}

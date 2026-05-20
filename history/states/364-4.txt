@@ -1,0 +1,24 @@
+state={
+	id=364
+	name="STATE_364"
+		history={
+		owner = TOM
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = TOM
+		
+	}
+	provinces={
+		1542 1573 1747 2622 3067 3472 3967 5087 5165 5463 5496 8287 8391 9094 9250 9946 9961 10350 16387 16406 16423 16457 16470 16489 16490 16545 16579 16655 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

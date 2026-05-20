@@ -1,0 +1,29 @@
+state={
+	id=235
+	name="STATE_235"#艾薇力
+    resources={
+		steel= 20
+		aluminium= 15
+	}
+	history={
+		owner = LEG
+		victory_points = {
+			10543 25
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		add_core_of = LEG
+
+	}
+	provinces={
+		1145 1530 1585 1624 2822 4695 7249 8002 8102 8411 8638 9003 9927 10543 15299 15316 15356 15367 15409 15428 15513 15519 15670 
+	}
+	manpower=3505841
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

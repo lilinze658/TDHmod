@@ -1,0 +1,24 @@
+state={
+	id=842
+	name="STATE_842"
+	history={
+		owner = TZY
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+		}
+		add_core_of = TZY
+
+	}
+	provinces={
+		1602 2090 2165 3411 4104 5920 6951 7242 8665 15383 15390 15394 15418 15517 15554 
+	}
+	manpower=5764100
+	buildings_max_level_factor=1
+	local_supplies=0
+}

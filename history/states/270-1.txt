@@ -1,0 +1,36 @@
+state={
+	id=270
+	name="STATE_270"#瓦拉斯
+	history={
+		owner = STA
+		victory_points = {
+			6249 10
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 5
+			dockyard = 3
+			6249 = {
+				bunker = 2
+				coastal_bunker = 2
+                naval_base = 3
+			}    
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = MOB
+			add_core_of = STA
+		}
+
+	}
+
+	provinces={
+		136 1033 1204 3226 3787 4901 5000 5291 5525 6014 6249 6438 7133 7909 8068 9266 9786 10206 10638 10906 11088 13188 13190 13199 13285 13307 13333 13334 13372 13385 13399 13482 13570 13592 13593 
+	}
+	manpower=6710000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

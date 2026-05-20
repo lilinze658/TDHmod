@@ -1,0 +1,31 @@
+state={
+	id=47
+	name="STATE_47"
+	resources = {
+		steel=20
+	}
+	history={
+		owner = LOB
+		victory_points = {
+			7846 5
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10141 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = LOB
+
+	}
+
+	provinces={
+		124 891 990 1206 1536 1824 2593 3511 3757 3880 4575 5048 5424 6224 6365 6598 7094 7110 7396 7846 7886 8107 9482 9540 10141 10699 15558 15585 15667 15697 15732 15756 15779 15780 15823 15842 15875 15912 
+	}
+	manpower=2379485
+	buildings_max_level_factor=1.000
+	state_category=rural 
+	local_supplies=0.000
+}

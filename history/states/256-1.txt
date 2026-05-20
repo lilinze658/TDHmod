@@ -1,0 +1,33 @@
+state={
+	id=256
+	name="STATE_256" #洛维尼亚城
+	 resources = {
+		steel=30
+		chromium=20
+	}
+	history={
+		owner = LOV
+		victory_points = {
+            13975 50
+         } 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 7
+			arms_factory = 6
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		976 1393 1897 2243 2656 2710 2725 4396 4425 8352 8626 10889 13790 13848 13915 13925 13975 14073 14074 14106 
+	}
+	manpower=15106402
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.00
+}

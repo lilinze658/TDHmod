@@ -1,0 +1,30 @@
+state={
+	id=185
+	name="STATE_185"#拉库普斯
+	history={
+		owner = MOB
+		victory_points = {
+			11123 25
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 10
+			arms_factory = 3
+			dockyard = 1
+			13884 = {
+				bunker = 2
+				coastal_bunker = 1
+                naval_base = 3
+			} 
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		1146 1417 2263 2592 2917 3449 4201 6677 8422 8872 8890 10916 11123 13865 13883 13884 13914 14001 14079 14080 14148 14188 
+	}
+	manpower=6480000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = megalopolis
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=78
+	name="STATE_78"
+	history={
+		owner = DIV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = DIV
+
+	}
+	provinces={
+		2018 13120 13161 13186 13195 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

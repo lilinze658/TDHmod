@@ -1,0 +1,29 @@
+state={
+	id=157
+	name="STATE_157"
+	history={
+		owner = HAS
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+            darms_factory = 2
+			
+		}
+		add_core_of = HAS
+		4635.10.25 = {
+			owner = POS
+			add_core_of = POS
+			add_core_of = HAS
+			add_core_of = FAL
+		}
+	}
+	provinces={
+		1162 1273 1654 2184 3193 3561 4974 5067 5101 5729 7149 7467 7997 8202 9784 9908 9988 12865 12889 12903 12942 12945 12962 12992 13010 13038 13043 13074 13075 13099 13123 
+	}
+	manpower=4620000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

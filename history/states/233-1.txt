@@ -1,0 +1,26 @@
+state={
+	id=233
+	name="STATE_233"#卢利乌斯
+	history={
+		owner = LEG
+		victory_points = {
+			1300 20
+		}
+ 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+            dockyard = 1
+		}
+		add_core_of = LEG
+
+	}
+	provinces={
+		847 1300 1514 3638 4253 4698 5710 9809 9833 10802 11120 15174 15221 15235 15273 15281 15325 15340 15341 15353 15363 15401 15410 
+	}
+	manpower=3964000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

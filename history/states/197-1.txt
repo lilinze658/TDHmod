@@ -1,0 +1,24 @@
+state={
+	id=197
+	name="STATE_197" #特拉格勒克
+	history={
+		owner = REP
+		victory_points = {
+            6662 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		add_core_of = REP
+
+	}
+	provinces={
+		500 1710 2266 2850 3560 4044 6412 6662 7692 9474 9728 10962 14070 14112 14124 14138 14174 14181 14205 14237 14286 14287 14330 14386 14462 14496 
+	}
+	manpower=3015362
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

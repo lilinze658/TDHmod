@@ -1,0 +1,25 @@
+state={
+	id=472
+	name="STATE_472"
+	history={
+		owner = LOB
+		victory_points = {
+			15542 5
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		618 818 1692 1920 2034 2475 2626 3987 4190 4308 5135 5616 6066 8190 9001 9601 9744 10404 15283 15311 15317 15343 15344 15376 15380 15403 15451 15498 15542 15572 15603 15656 15711 
+	}
+	manpower=2159740
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

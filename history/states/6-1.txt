@@ -1,0 +1,27 @@
+state={
+	id=6
+	name="STATE_6"#南笼
+	history={
+		owner = LOB
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			5035 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		2036 3164 3441 4181 4337 4397 5035 8609 8899 8959 8972 17511 17516 17539 17562 17573 
+	}
+	manpower=1278950
+	buildings_max_level_factor=1.000
+	state_category=rural 
+	local_supplies=0.000
+}

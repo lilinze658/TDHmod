@@ -1,0 +1,24 @@
+
+state={
+	id=75
+	name="STATE_75"
+	history={
+		owner = SOU
+		victory_points = {
+			 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = SOU
+
+	}
+	provinces={
+		1173 3830 4616 6852 7020 8043 8921 9736 10224 10798 17076 17113 17129 17161 17188 17212 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

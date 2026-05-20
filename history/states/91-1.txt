@@ -1,0 +1,23 @@
+state={
+	id=91
+	name="STATE_91"
+	history={
+		owner = EIN
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = EIN
+
+	}
+	provinces={
+		2190 3000 4006 8880 9647 12015 12080 12115 12132 
+	}
+	manpower=1553412
+	buildings_max_level_factor=1
+	local_supplies=0
+}

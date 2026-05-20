@@ -1,0 +1,22 @@
+state={
+	id=342
+	name="STATE_342"
+	history={
+		owner = MIY
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MIY
+
+	}
+	provinces={
+		120 1388 1588 2316 3135 3162 3796 6063 6911 7725 8084 8335 8540 11020 11083 15421 15484 15495 15548 15568 15655 15704 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,23 @@
+state={
+	id=215
+	name="STATE_215"#奥克普伦
+	history={
+		owner = ZET
+		victory_points = {
+			9497 15
+		}
+ 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		914 2153 2513 2645 2655 5655 6532 6881 7411 7760 8441 8706 9497 15610 15636 15638 15669 15710 15753 
+	}
+	manpower=2862015
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,25 +1,32 @@
-
 state={
 	id=844
-	name="STATE_1163"
-
+	name="STATE_844"
+	resources = {
+		tungsten= 10
+	}
 	history={
-		owner = DIV
+		owner = DUC
+		victory_points = { 
+            10163 15
+            }
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 2
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = DUC
+		4635.10.25 = {
+			owner = BER
+			add_core_of = BER
+			add_core_of = DUC
 
 		}
-		add_core_of = DIV
 
 	}
-
 	provinces={
-		777 6375 6530 7587 14081 14143 14192 14204 14261 14329 14330 14378 2026 3087 8234 8740 9304 9997 13937 13966 14009 14071 14142 14150 14197 14284 
+		609 1670 5442 10163 10243 10882 16947 16974 17166 
 	}
- 	manpower=10000000
+	manpower=930000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town 
 	local_supplies=0.000
 }

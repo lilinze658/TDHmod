@@ -1,0 +1,33 @@
+
+state={
+	id=29
+	name="STATE_29"
+
+	history={
+		owner = LOB
+		victory_points = {
+			8718 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			8718= {
+                naval_base = 3
+			}            
+		}
+		add_core_of = LOB
+		add_core_of = BER
+        add_core_of = DUC
+	}
+
+
+	provinces={
+		257 1006 1043 1652 1688 2495 3084 3102 3227 6709 6808 6995 7942 8379 8691 8718 8823 9210 9285 10114 10270 10297 10915 17534 17547 17559 17580 17589 17591 17593 17631 17660 17668 17697 17698 
+	}
+	manpower=1141755
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

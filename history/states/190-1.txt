@@ -1,0 +1,20 @@
+state={
+	id=190
+	name="STATE_190"#阿格里克丽丝
+	history={
+		owner = MOB
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MOB
+
+	}
+	
+	provinces={
+		2011 2050 3751 3789 5542 7664 8902 9370 9766 10034 13788 13882 13943 14008 14041 14048 14085 
+	}
+	manpower=3562000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+}

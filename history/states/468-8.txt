@@ -1,0 +1,22 @@
+state={
+	id=468
+	name="STATE_468"
+		history={
+		owner = FEN
+		 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = FEN
+
+	}
+	provinces={
+		119 1156 2332 2340 2371 2962 3578 3609 3752 3786 3989 4117 4208 4561 4720 4908 5516 5862 6368 6724 6825 6989 7352 7398 8023 8203 8372 8598 9004 10254 10395 10587 10796 10974 16458 16491 16540 16570 16629 16753 16813 16835 16864 16905 16909 16952 16964 17042 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

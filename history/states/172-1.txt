@@ -1,0 +1,23 @@
+state={
+	id=172
+	name="STATE_172"#浩尔提
+	history={
+		owner = MIC
+		victory_points = {
+			3793 5
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MIC
+
+	}
+	provinces={
+		2509 3659 3683 3793 3813 3971 4097 5016 5632 9456 9635 9637 10018 10535 12236 12270 12278 12306 12308 12388 12428 12508 
+	}
+	manpower=810423
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

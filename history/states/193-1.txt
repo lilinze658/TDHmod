@@ -1,0 +1,19 @@
+state={
+	id=193
+	name="STATE_193"#玛士高
+	history={
+		owner = MOB
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		99 2110 2331 5745 5972 6253 8461 8804 14182 14211 14239 14387 14410 
+	}
+	manpower=2150000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+}

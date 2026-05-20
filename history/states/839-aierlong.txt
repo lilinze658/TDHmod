@@ -1,0 +1,23 @@
+state={
+	id=839
+	name="STATE_839"
+	history={
+		owner = TZY
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 7
+			arms_factory = 4
+		}
+		add_core_of = TZY
+
+	}
+	provinces={
+		1592 2180 4794 5582 5713 6298 6696 6779 8871 9164 9296 15452 15487 
+	}
+	manpower=6741251
+	buildings_max_level_factor=1
+	local_supplies=0
+}

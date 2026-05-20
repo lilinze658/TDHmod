@@ -1,0 +1,21 @@
+state={
+	id=765
+	name="STATE_765"
+	history={
+		owner = MAG
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MAG
+
+	}
+	provinces={
+		443 843 900 2440 3022 4760 5190 6145 8008 15066 15105 15212 
+	}
+	manpower=760000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

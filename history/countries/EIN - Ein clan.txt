@@ -1,4 +1,4 @@
-capital = 29
+capital = 176
 
 set_technology = {
 	infantry_weapons = 1
@@ -63,6 +63,11 @@ set_research_slots = 5
 set_convoys = 20
 oob = "EIN-4636"
 add_ideas = { 
+	pony_race
+	industrial_2
+	whuiu_3
+	weay_3
+	gyea_2
 	
 }
 4636.1.1 = {

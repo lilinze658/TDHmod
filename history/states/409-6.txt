@@ -1,0 +1,23 @@
+state={
+	id=409
+	name="STATE_409"
+		history={
+		owner = OME
+		victory_points = {
+			
+		}
+ 
+		buildings = {
+			infrastructure = 1
+		
+		}
+		add_core_of = OME
+
+	}
+	provinces={
+		552 2210 5530 6300 6591 8675 9804 16969 16984 17020 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

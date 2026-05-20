@@ -1,0 +1,24 @@
+state={
+	id=774
+	name="STATE_774"#拉勒弗雷克
+	history={
+		owner = REP
+		victory_points = {
+			3838 5
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = REP
+
+	}
+
+	provinces={
+		194 426 1029 3735 3838 4986 6125 6823 8070 8947 10589 10998 11047 14090 14091 14228 14297 14329 
+	}
+	manpower=581725
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=115
+	name="STATE_115"
+	history={
+		owner = AIS
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = AIS
+
+	}
+	provinces={
+		173 870 974 1885 1924 2317 2429 3801 3942 4518 4918 4992 8039 9165 9463 10718 14908 14914 14989 15074 15145 15157 15172 15185 15239 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

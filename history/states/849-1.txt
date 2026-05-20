@@ -1,25 +1,28 @@
-
 state={
 	id=849
-	name="STATE_1025"
-	
+	name="STATE_849"
+	resources={
+        oil= 10
+	}
 	history={
-		owner = NAN
-		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 2
-
+		owner = DUC
+		victory_points = {
+			1466 15 
 		}
-		add_core_of = NAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			     
+		}
+		add_core_of = DUC
 
 	}
-
 	provinces={
-		27 246 1215 5162 5671 7349 7579 8214 8337 8989 9838 18108 18121 18182 18196 18217 18235 18250 18308 18337 175 952 2302 3852 3921 3923 4629 6387 6436 6904 7438 18285 18304 18412 18454 18469 18490 18508 18559 899 998 1690 2636 4265 6026 7266 7600 8065 8657 9096 9557 18413 18429 18479 18532 18533 18571 18582 18591 18614 18701 
+		1017 1065 1169 1466 1627 2563 2848 3614 4442 5712 6459 9480 9776 9939 10493 10775 17578 17605 17635 17650 17661 17662 17672 17687 17701 17706 
 	}
-	manpower=10000000
+	manpower=1092610
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 	local_supplies=0.000
 }

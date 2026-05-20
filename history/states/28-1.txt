@@ -1,0 +1,35 @@
+
+state={
+	id=28
+	name="STATE_28"
+	history={
+		owner = BER
+
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 2			 
+		}
+		add_core_of = BER
+		4635.10.25 = {
+			owner = SHE
+			add_core_of = BER
+			add_core_of = SHE
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 3
+				dockyard = 4
+				air_base = 3
+				 
+			}
+		}
+
+	}
+	provinces={
+		1288 2105 2900 4743 5940 7466 10318 10964 16554 16568 16608 16659 16674 16707 16714 16737 16775 
+	}
+	manpower=1750000
+	buildings_max_level_factor=1.000
+}

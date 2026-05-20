@@ -1,0 +1,27 @@
+state={
+	id=248
+	name="STATE_248" #桑迪尔
+		history={
+		owner = LOV
+		victory_points = {
+            5887 5
+         } 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		664 2459 2837 2858 4022 5887 6422 7226 9069 10152 10412 11017 14940 14967 14978 14999 15085 15106 15119 15153 15168 15190 15205 15220 
+	}
+	manpower=627013
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

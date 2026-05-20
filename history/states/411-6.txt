@@ -1,0 +1,22 @@
+state={
+	id=411
+	name="STATE_411"
+	history={
+		owner = AKU
+		 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = AKU
+
+	}
+	provinces={
+		1442 2154 2427 3255 6604 6625 7016 14252 14268 14335 14341 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

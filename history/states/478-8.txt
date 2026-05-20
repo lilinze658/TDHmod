@@ -1,0 +1,22 @@
+state={
+	id=478
+	name="STATE_478"
+	history={
+		owner = UNI
+ 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = UNI
+
+	}
+	provinces={
+		744 1623 1955 3109 3523 3741 3833 4218 4394 5027 5028 5132 5414 5941 6021 6279 6988 7033 7052 7348 8024 8716 8944 9010 9589 10195 10749 17219 17295 17312 17338 17359 17368 17383 17447 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

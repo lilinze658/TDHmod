@@ -1,0 +1,22 @@
+state={
+	id=205
+	name="STATE_205"#苏亚斯
+	history={
+		owner = AIS
+		victory_points = {
+			8325 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AIS
+
+	}
+	provinces={
+		328 2497 4032 4878 5693 6076 8325 8357 8674 9429 9791 10311 10425 15305 15324 15374 15397 15440 
+	}
+	manpower=336025
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

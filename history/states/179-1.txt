@@ -1,0 +1,19 @@
+state={
+	id=179
+	name="STATE_179"#金尼姆
+	history={
+		owner = MOB
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		204 803 1549 4027 7566 8623 9691 9729 10208 14354 14414 14566 
+	}
+	manpower=3480000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_town
+}

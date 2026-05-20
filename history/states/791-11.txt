@@ -1,0 +1,34 @@
+state={
+	id=791
+	name="STATE_791"#菲唐德
+	history={
+		owner = ZET
+		victory_points = {
+			17241 10  10743 5
+		}
+		victory_points = {
+			10743 5
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+                17241 = {
+               naval_base = 2
+               }
+		}
+		add_core_of = ZET
+		4635.10.25 = {
+			owner = KIA
+			add_core_of = ZET
+			add_core_of = KIA
+
+		}
+	}
+	provinces={
+		360 1032 2384 2549 2782 3405 4822 5098 5653 5669 6450 6639 7004 7781 9615 10743 17000 17029 17072 17178 17184 17241 17247 17248 17288 
+	}
+	manpower=1760000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

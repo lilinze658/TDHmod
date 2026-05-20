@@ -1,0 +1,27 @@
+state={
+	id=12
+	name="STATE_12"#芙芬
+	history={
+		owner = MIC
+		victory_points = {
+			3352 10
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			12214 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = MIC
+
+	}
+	provinces={
+		469 544 1650 3352 4194 5149 5535 6053 8216 9485 10004 12176 12214 12227 12295 12335 12367 12427 
+	}
+	manpower=864975
+	buildings_max_level_factor=1.000
+	state_category=rural 
+	local_supplies=0.000
+}

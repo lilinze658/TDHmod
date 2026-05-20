@@ -1,0 +1,20 @@
+state={
+	id=536
+	name="STATE_536"
+	history={
+		owner = KAN
+ 
+		buildings = {
+			infrastructure = 1
+			
+		}
+		add_core_of = KAN
+
+	}
+	provinces={
+		478 710 1135 2993 3221 3497 5279 5906 6490 7661 7838 8210 8920 9990 10268 11012 15306 15365 15393 15407 15408 15442 15463 15474 15504 15573 15577 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

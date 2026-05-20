@@ -1,4 +1,4 @@
-capital = 1222
+capital = 679
 
 set_technology = {
 	staff_Magi = 1
@@ -66,6 +66,11 @@ set_research_slots = 5
 set_convoys = 20
 oob = "4633"
 add_ideas = {
+    pony_mofam
+    industrial_4
+    whuiu_1
+    weay_3
+    gyea_2
 	hurted_flange
 	dangerous_soul
 	magic_research

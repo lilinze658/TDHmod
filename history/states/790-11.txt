@@ -1,0 +1,31 @@
+state={
+	id=790
+	name="STATE_790"#金尼甘
+	history={
+		owner = ZET
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			6691 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ZET
+		4635.10.25 = {
+			owner = KIA
+			add_core_of = ZET
+			add_core_of = KIA
+
+		}
+	}
+	provinces={
+		449 475 1533 2003 2176 4227 5402 6341 6691 7511 7911 7929 8208 8802 8875 10083 10378 16949 17019 17023 17051 17073 17100 17137 17185 
+	}
+	manpower=1120325
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,35 @@
+state={
+	id=129
+	name="STATE_129"
+	resources={
+		steel= 10
+        chromium= 10
+	}
+	history={
+		owner = DUC
+		victory_points = {
+			8627 20 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+            air_base = 2
+		}
+		add_core_of = DUC
+		4635.10.25 = {
+			owner = BER
+			add_core_of = BER
+			add_core_of = DUC
+
+		}
+
+	}
+	provinces={
+		952 2238 3021 4192 6163 7169 8627 9887 10403 17142 17242 17293 17319 17341 17354 
+	}
+	manpower=3310000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=21
+	name="STATE_21"
+	history={
+		owner = SHE
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 4
+			arms factory = 2
+			industrial_complex = 6
+			dockyard = 2
+		}
+		add_core_of = SHE
+
+	}
+	provinces={
+		40 708 1861 2862 4122 4259 5436 5805 6184 6186 6299 6868 7078 7921 8289 8709 8768 9007 9491 9976 10960 15008 15046 15097 15104 15130 15169 15170 15207 15222 15279 15290 15359 15382 15430 15497 
+	}
+	manpower=5710000
+	buildings_max_level_factor=1.000
+}

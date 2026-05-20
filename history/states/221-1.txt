@@ -1,0 +1,24 @@
+state={
+	id=221
+	name="STATE_221"#容戈瑟
+	history={
+		owner = ZET
+		victory_points = {
+			16439 20
+		}
+ 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		1148 1694 2166 2948 3667 4137 5919 6119 6425 6753 7135 7791 9163 9261 9286 16316 16400 16419 16439 16440 16486 
+	}
+	manpower=1810260
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

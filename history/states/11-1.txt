@@ -1,0 +1,32 @@
+
+state={
+	id=11
+	name="STATE_11"#薇隆
+    resources={
+		rubber=30
+	}
+	history={
+		owner = MOB
+		victory_points = {
+			10777 5
+		}
+		 
+		buildings = {
+			infrastructure = 1
+			10777 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = STA
+		add_core_of = MOB
+
+	}
+	provinces={
+		1990 2130 2489 3372 4464 5486 8184 10617 10777 12770 12804 12915 
+	}
+	manpower=270000
+	buildings_max_level_factor=1.000
+	state_category=small_island 
+	local_supplies=0.000
+}

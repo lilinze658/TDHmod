@@ -1,0 +1,22 @@
+state={
+	id=51
+	name="STATE_51"
+	history={
+		owner = KAY
+		 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = KAY
+
+	}
+	provinces={
+		1303 1696 7404 8989 17132 17187 17265 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

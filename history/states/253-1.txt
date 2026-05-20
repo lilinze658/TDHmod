@@ -1,0 +1,29 @@
+state={
+	id=253
+	name="STATE_253" #迪力
+	resources={
+		steel=60
+		chromium=20
+	}
+	history={
+		owner = LOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LOV
+	    4635.10.25 = {
+			owner = RED
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		727 1292 2433 3374 3998 4491 4657 4789 6841 7022 8723 9488 9819 10176 10719 11054 14165 14206 14299 14312 14321 14349 14405 14466 
+	}
+	manpower=810000
+	buildings_max_level_factor=1.000
+	state_category=pastoral 
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+state={
+	id=829
+	name="STATE_829"#克雷古克斯
+	history={
+		owner = REP
+		victory_points = {
+			5718 20
+		}
+		 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+            air_base = 3
+		}
+		add_core_of = REP
+
+	}
+	provinces={
+		943 5205 5587 5718 7654 8698 9404 10446 14702 14753 14768 14814 14818 
+	}
+	manpower=4816054
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

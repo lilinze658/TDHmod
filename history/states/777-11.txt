@@ -1,0 +1,22 @@
+state={
+	id=777
+	name="STATE_777"
+	history={
+		owner = WIN
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		add_core_of = WIN
+
+	}
+	provinces={
+		785 1455 2303 3417 5021 5172 5266 5477 5543 5544 5978 8127 8219 8528 9108 9124 9693 10539 16892 16934 16975 17049 17056 17059 17084 17096 17107 17145 
+	}
+	manpower=2467000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

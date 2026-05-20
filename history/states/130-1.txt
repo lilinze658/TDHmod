@@ -1,0 +1,26 @@
+state={
+	id=130
+	name="STATE_130"
+	history={
+		owner = LOV
+		victory_points = {
+            
+         } 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		3481 4037 4052 4549 6278 6679 8785 14107 14142 14154 14192 14214 14250 
+	}
+	manpower=741258
+	buildings_max_level_factor=1
+	local_supplies=0
+}

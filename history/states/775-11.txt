@@ -1,0 +1,27 @@
+state={
+	id=775
+	name="STATE_775"#奥瑞尔
+	resources = {
+		oil=50
+	}
+	history={
+		owner = ZET
+		victory_points = {
+			1738 5
+		}
+ 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		1738 2868 2932 2942 4008 5112 5315 5635 6246 6979 8200 8267 11037 16661 16726 16771 16773 16795 16812 
+	}
+	manpower=2061540
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

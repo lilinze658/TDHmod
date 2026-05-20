@@ -1,0 +1,24 @@
+state={
+	id=123
+	name="STATE_123"
+	history={
+		owner = NGD
+		victory_points = {
+		
+		}
+		 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		add_core_of = NGD
+
+	}
+	provinces={
+		116 482 2766 2800 3247 4467 4563 5103 5520 7485 9493 9624 9916 16122 16131 16138 16191 16244 16260 16336 16337 16341 16360 
+	}
+	manpower=4135142
+	buildings_max_level_factor=1
+	local_supplies=0
+}

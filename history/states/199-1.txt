@@ -1,0 +1,27 @@
+
+state={
+	id=199
+	name="STATE_199" #克萨雷德
+
+	history={
+		owner = REP
+		victory_points = {
+            14554 15
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		add_core_of = REP
+
+	}
+
+	provinces={
+		208 307 688 2037 3520 4057 8135 9341 10387 11067 14463 14472 14554 14565 14574 14596 14627 14640 14759 
+	}
+	manpower=6541200
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

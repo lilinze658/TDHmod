@@ -1,0 +1,26 @@
+state={
+	id=127
+	name="STATE_127"
+	history={
+		owner = RUT
+		victory_points = {
+			2940 30 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+            air_base = 1
+		}
+		add_core_of = RUT
+
+	}
+	
+	provinces={
+		677 830 1768 2414 2940 3906 4004 5147 5601 6410 6618 7484 7800 8428 8919 9159 9825 10486 10875 17314 17342 17433 17455 17491 
+	}
+	manpower=2010692
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

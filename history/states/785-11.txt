@@ -1,0 +1,24 @@
+state={
+	id=785
+	name="STATE_785"#沃德卡多布
+	history={
+		owner = ZET
+		victory_points = {
+			16385 5
+		}
+ 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		740 2057 4225 5032 6703 7619 8803 16245 16309 16338 16372 16385 
+	}
+	manpower=18142
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

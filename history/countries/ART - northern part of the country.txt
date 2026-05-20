@@ -63,7 +63,11 @@ set_research_slots = 5
 set_convoys = 20
 oob = "4633"
 add_ideas = { 
-
+    pony_race
+    industrial_2
+    whuiu_3
+    weay_3
+    gyea_2
 }
 
 set_politics = {

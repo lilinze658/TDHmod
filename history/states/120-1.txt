@@ -1,0 +1,27 @@
+state={
+	id=120
+	name="STATE_120"#加兰
+	 resources = {
+		oil=30
+	}
+	history={
+		owner = REP
+		victory_points = {
+			3222 30 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+            air_base = 3
+		}
+		add_core_of = REP
+
+	}
+	provinces={
+		529 1035 1611 3093 3222 3575 5985 6173 6934 9065 10580 11051 11059 14382 14442 14461 14488 14569 14589 14593 14639 
+	}
+	manpower=5896275
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

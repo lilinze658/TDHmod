@@ -1,0 +1,24 @@
+state={
+	id=4
+	name="STATE_4"#阿特米尔
+	history={
+		owner = LOB
+		victory_points = {
+			
+			
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		187 3243 3546 4508 8522 8835 9227 17619 17670 17680 17689 
+	}
+	manpower=1024950
+	buildings_max_level_factor=1.000
+	state_category=pastoral 
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=143
+	name="STATE_143"
+	history={
+		owner = FRO
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FRO
+	
+
+	}
+	provinces={
+		1675 3379 3615 4937 7526 7945 8710 9869 9930 11474 
+	}
+	manpower=384102
+	buildings_max_level_factor=1
+	local_supplies=0
+}

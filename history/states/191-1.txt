@@ -1,0 +1,19 @@
+state={
+	id=191
+	name="STATE_191"#图班
+	history={
+		owner = MOB
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		1025 8763 9040 13666 13696 13733 13787 13864 13877 13923 13935 13995 14013 
+	}
+	manpower=2140100
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_city
+}

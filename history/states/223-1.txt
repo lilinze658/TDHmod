@@ -1,0 +1,26 @@
+state={
+	id=223
+	name="STATE_223"#卡普
+    resources = {
+		rubber=50
+	}
+	history={
+		owner = ZET
+		victory_points = {
+			7970 20 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		1811 2688 6106 6392 7957 7970 8533 8546 16503 16514 16564 16600 
+	}
+	manpower=1499000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

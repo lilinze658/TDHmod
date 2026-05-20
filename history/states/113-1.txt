@@ -1,0 +1,22 @@
+state={
+	id=113
+	name="STATE_113"
+	history={
+		owner = EIN
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = EIN
+
+	}
+	provinces={
+		149 1502 3033 4623 6295 6971 10405 11834 11861 11866 11879 11895 
+	}
+	manpower=776415
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,21 @@
+state={
+	id=617
+	name="STATE_617"
+	history={
+		owner = DIV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = DIV
+
+	}
+	provinces={
+		458 595 868 1816 2094 2719 3384 3678 4265 4682 4899 5343 6541 6941 8821 9371 9889 9952 10383 10878 13168 13218 13266 13383 13480 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

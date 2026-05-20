@@ -1,0 +1,19 @@
+state={
+	id=110
+	name="STATE_110"
+	history={
+		owner = OLI
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = OLI
+
+	}
+	provinces={
+		1883 1936 4133 4156 5790 6630 7728 8589 9117 11503 11504 11507 11521 11530 11538 11564 11568 11576 11595 
+	}
+	manpower=2417681
+	buildings_max_level_factor=1
+	local_supplies=0
+}

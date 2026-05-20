@@ -1,4 +1,4 @@
-capital = 52
+capital = 175
 
 if = {
 	limit = {
@@ -16,6 +16,7 @@ if = {
 }
 
 set_technology = {
+	staff_yurikoomega11 = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	support_weapons = 1
@@ -78,6 +79,11 @@ set_research_slots = 5
 set_convoys = 20
 oob = "MOB-4633"
 add_ideas = { 
+    pony_ren
+    industrial_3
+    whuiu_1
+    weay_2
+    gyea_1
 	disarmed_nation
 	MOB_reparations
 	MOB_states_47
@@ -142,6 +148,24 @@ recruit_character = MOB_kaiselin
 recruit_character = MOB_modekela
 recruit_character = MOB_namuleite
 recruit_character = MOB_xila
+#保守派
+recruit_character = MOB_NekrusKafans
+recruit_character = MOB_NeklusLikanah
+recruit_character = MOB_KimvonKoch
+recruit_character = MOB_TuBaryli
+recruit_character = MOB_KimvonGenscher
+recruit_character = MOB_KimvonKállay
+recruit_character = MOB_KimvonItneras
+recruit_character = MOB_TuEles
+recruit_character = MOB_TuGofft
+recruit_character = MOB_NeklusLinas
+recruit_character = MOB_weiliansanshi
+recruit_character = MOB_Teresztes
+recruit_character = MOB_Mukbing
+recruit_character = MOB_Pruner
+recruit_character = MOB_MuunakCobra
+recruit_character = MOB_Habraslina
+
 
 add_equipment_to_stockpile = {
 	type = light_tank_destroyer_chassis_1

@@ -1,0 +1,33 @@
+state={
+	id=229
+	name="STATE_229"#斯沃克
+	resources={
+		steel= 40
+	}
+	history={
+		owner = LEG
+		victory_points = {
+			15406 40
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 3
+            air_base = 3
+			dockyard = 1
+			6706= {
+                naval_base = 3
+			}          
+
+		}
+		add_core_of = LEG
+
+	}
+	provinces={
+		6706 7560 7903 8479 11028 15406 15450 15456 15461 15462 15514 
+	}
+	manpower=9436914
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

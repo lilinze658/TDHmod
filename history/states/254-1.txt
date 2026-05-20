@@ -1,0 +1,38 @@
+state={
+	id=254
+	name="STATE_254" #白城
+	resources = {
+		steel=40
+		tungsten=20
+	}
+	history={
+		owner = LOV
+		victory_points = {
+            2756 20
+         } 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 5
+			dockyard = 2
+			2756 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			owner = ROA
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		2756 3055 4204 5929 7314 8541 9365 10522 10615 10816 14116 14176 14183 14240 14415 
+	}
+	manpower=6283201
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

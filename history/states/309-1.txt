@@ -1,0 +1,24 @@
+state={
+	id=309
+	name="STATE_309"#卡纳洛
+	history={
+		owner = MIC
+		victory_points = {
+			4358 10
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = MIC
+
+	}
+	provinces={
+		169 1801 2404 3825 4358 4956 5559 6309 8943 10479 12300 12314 12342 12376 12409 
+	}
+	manpower=760123
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

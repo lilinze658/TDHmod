@@ -1,0 +1,22 @@
+
+state={
+	id=44
+	name="STATE_44"
+	history={
+		owner = WEI
+		 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = WEI
+
+	}
+	provinces={
+		1871 2096 2120 4714 6754 7277 8241 9495 10625 12662 12667 12710 12742 12769 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

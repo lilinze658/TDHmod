@@ -1,0 +1,23 @@
+state={
+	id=222
+	name="STATE_222"#哈玛卡德
+	history={
+		owner = ZET
+		victory_points = {
+			8969 5
+		}
+ 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		311 1432 2054 2652 5842 5854 8147 8830 8969 10335 10377 16234 16386 16393 16449 16509 
+	}
+	manpower=916580
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=33
+	name="STATE_33"
+	history={
+		owner = LOB
+		victory_points = {
+			6081 5
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			8038 = {
+				naval_base = 1
+				coastal_bunker = 2
+			}
+
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		2039 3493 3574 5670 6074 6081 8038 9031 14916 14950 14954 14973 15009 15022 15126 
+	}
+	manpower=1597862
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=201
+	name="STATE_201" #图诺伯
+	history={
+		owner = REP
+		victory_points = {
+            10512 5
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = REP
+
+	}
+	provinces={
+		312 1786 1905 2596 3317 5273 5368 7188 8110 9197 9487 10313 10512 14652 14677 14707 14743 14795 14854 14902 
+	}
+	manpower=479683
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

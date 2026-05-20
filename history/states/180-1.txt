@@ -1,0 +1,22 @@
+state={
+	id=180
+	name="STATE_180"#梅德卡拉什
+	history={
+		owner = MOB
+		victory_points = {
+			14730 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		411 5022 7523 7906 9435 14686 14729 14730 14770 14816 
+	}
+	manpower=3180010
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_city
+}

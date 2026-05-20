@@ -1,0 +1,26 @@
+state={
+	id=246
+	name="STATE_246"#克斯马里恩
+	history={
+		owner = LOB
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			
+
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		2091 4652 5769 6577 7487 7616 8196 17682 17692 
+	}
+	manpower=15032
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

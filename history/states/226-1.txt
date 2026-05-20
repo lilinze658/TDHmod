@@ -1,0 +1,26 @@
+state={
+	id=226
+	name="STATE_226"#帕格奇
+    resources = {
+		tungsten=15
+	}
+	history={
+		owner = ZET
+		victory_points = {
+			2064 10
+		}
+ 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		854 1420 1851 2064 3133 4724 5181 5994 7388 7817 8669 9387 9796 9815 15787 15891 15908 15925 16022 16035 16097 16098 
+	}
+	manpower=2301567
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

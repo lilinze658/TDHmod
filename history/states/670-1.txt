@@ -1,0 +1,21 @@
+
+state={
+	id=670
+	name="STATE_670"
+		history={
+		owner = OLI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		add_core_of = OLI
+
+	}
+	provinces={
+		9 178 1419 1873 2053 2087 2989 3849 4920 5537 6964 6967 7212 8358 8687 9240 9330 9700 10085 10294 10441 10481 10837 11833 11852 11865 11957 11977 12036 12045 12067 12068 12079 
+	}
+	manpower=4016751
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

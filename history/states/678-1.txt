@@ -1,0 +1,28 @@
+
+state={
+	id=678
+	name="STATE_678"
+	history={
+		owner = LOB
+		victory_points = {
+			6470 5
+		}
+		 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = LOB
+		add_core_of = OLI
+
+	}
+	provinces={
+		1198 3748 4915 5755 6470 7495 8036 8319 12464 12485 12501 12612 
+	}
+	manpower=2957860
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

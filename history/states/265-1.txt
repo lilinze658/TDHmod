@@ -1,0 +1,33 @@
+state={
+	id=265
+	name="STATE_265" ##皮夏
+	  resources={
+		aluminium=30
+	}
+	history={
+		owner = LOV
+		victory_points = {
+			3810 20
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 6
+			arms_factory = 6
+
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		2876 3810 3979 5780 6045 7179 8983 10042 13207 13213 13271 13308 13356 13379 13417 
+	}
+	manpower=6205120
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

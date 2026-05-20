@@ -1,0 +1,27 @@
+state={
+	id=8
+	name="STATE_8"
+	resources={
+		steel= 50
+        chromium= 40
+		coal= 40
+	}
+	history={
+		owner = MOB
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		1814 2352 3415 3476 4401 4811 6786 6981 7235 7350 8840 10975 14159 14164 14248 14525 
+	}
+	manpower=114514
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

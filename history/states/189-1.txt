@@ -1,0 +1,30 @@
+state={
+	id=189
+	name="STATE_189"#费里什纳
+	history={
+		owner = MOB
+		victory_points = {
+			13707 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 7
+			dockyard = 3
+			13636 = {
+				bunker = 2
+				coastal_bunker = 1
+                naval_base = 3
+			} 
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		2448 4427 4806 5466 6888 7774 8679 9379 9730 13636 13677 13707 13816 13834 
+	}
+	manpower=5420000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_city
+}

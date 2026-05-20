@@ -1,0 +1,22 @@
+state={
+	id=477
+	name="STATE_477"
+	history={
+		owner = UNI
+ 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = UNI
+
+	}
+	provinces={
+		190 211 344 479 723 1117 1456 1561 2759 3285 3538 3936 4179 4416 5596 9431 9587 17046 17081 17165 17181 17192 17194 17224 17239 17246 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

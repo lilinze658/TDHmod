@@ -1,0 +1,24 @@
+state={
+	id=473
+	name="STATE_473"
+	history={
+		owner = LOB
+		victory_points = {
+			7667 5
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		724 934 1073 1284 1812 1846 1994 2007 5491 6443 6802 7269 7363 7463 7667 8161 10041 10690 15838 15860 15889 15894 15898 15927 15958 15988 16024 16037 16062 16090 16205 16223 
+	}
+	manpower=2498675
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

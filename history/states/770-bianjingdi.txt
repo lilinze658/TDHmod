@@ -1,0 +1,27 @@
+state={
+	id=770
+	name="STATE_770"
+	history={
+		owner = HAS
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = HAS
+		4635.10.25 = {
+			owner = FAL
+			add_core_of = HAS
+			add_core_of = FAL
+	
+		}
+	}
+	provinces={
+		123 728 2995 3118 3726 4254 6171 7735 8405 8425 8538 9216 9478 9895 11124 14210 14304 14319 14337 14361 14441 14511 14541 14623 
+	}
+	manpower=2410356
+	buildings_max_level_factor=1
+	local_supplies=0
+}

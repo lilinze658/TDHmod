@@ -1,0 +1,28 @@
+state={
+	id=825
+	name="STATE_825"#多鲁克
+	history={
+		owner = REP
+		victory_points = {
+			5481 10
+		}
+		 
+		buildings = {
+			infrastructure = 3
+            dockyard = 2
+              5481 = {
+                naval_base = 2
+                 }
+
+		}
+		add_core_of = REP
+
+	}
+	provinces={
+		4497 5481 6415 7197 7218 8314 8604 9204 10455 14180 14259 14471 14545 
+	}
+	manpower=586392
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

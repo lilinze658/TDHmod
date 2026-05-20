@@ -1,0 +1,23 @@
+state={
+	id=782
+	name="STATE_782"
+	history={
+		owner = WIN
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+            air_base = 3
+		}
+		add_core_of = WIN
+
+	}
+	provinces={
+		2358 2964 3122 4505 4517 4679 4995 6478 7170 9193 10606 11004 16838 16842 16860 16916 16960 16980 16994 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

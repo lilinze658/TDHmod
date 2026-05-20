@@ -1,0 +1,36 @@
+
+state={
+	id=35
+	name="STATE_35"
+	resources={
+		steel= 10
+        oil= 10
+        rubber= 10
+        chromium= 10
+        tungsten= 10
+        aluminium= 10
+	}
+	history={
+		owner = SUP
+		victory_points = {
+			2458 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 5
+			2458 = {
+                naval_base = 5
+			}  
+		}
+		add_core_of = SUP
+
+	}
+	provinces={
+		2420 2458 3605 3982 5786 8432 9460 11282 11306 11355 11365 11367 
+	}
+	manpower=9364500
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

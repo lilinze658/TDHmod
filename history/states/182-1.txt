@@ -1,0 +1,20 @@
+state={
+	id=182
+	name="STATE_182"#伊宁
+	history={
+		owner = MOB
+		
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		717 2969 3364 4274 7580 14754 14796 14815 14887 
+	}
+	manpower=3480000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+}

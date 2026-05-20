@@ -1,4 +1,4 @@
-capital = 57
+capital = 167
 
 set_technology = {
 	staff_Magi = 1
@@ -66,10 +66,16 @@ set_research_slots = 5
 set_convoys = 20
 oob = "MAG-4633"
 add_ideas = { 
+    pony_mofam
+    industrial_4
+    whuiu_1
+    weay_3
+    gyea_1
 	ANZ_undeveloped_southern
 	ANZ_urbanization_trend
 	ANZ_catholicism_collude_with_communism
 	ANZ_low_birth_rate
+	pony_mofam
 }
 
 set_politics = {

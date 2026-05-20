@@ -1,0 +1,22 @@
+state={
+	id=548
+	name="STATE_548"
+	history={
+		owner = ZHI
+ 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = ZHI
+
+	}
+	provinces={
+		320 2301 3507 4383 6510 7165 7657 8963 9274 9536 14655 14656 14784 14824 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,26 @@
+state={
+	id=301
+	name="STATE_301"
+	history={
+		owner = LOV
+		victory_points = {
+            
+         } 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			add_core_of = ROA
+			add_core_of = RED
+
+		}
+
+	}
+	provinces={
+		287 2015 2268 2685 3589 4235 5939 6178 7329 8843 9289 10135 10340 13867 13871 13926 13954 13955 14003 14018 14029 14231 
+	}
+	manpower=140621
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

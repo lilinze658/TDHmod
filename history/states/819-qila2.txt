@@ -1,0 +1,22 @@
+state={
+	id=819
+	name="STATE_819"
+	history={
+		owner = NGD
+		victory_points = {
+		
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NGD
+
+	}
+	provinces={
+		104 826 2777 3920 4143 4356 5714 5788 7361 8554 10219 10745 10752 16476 16511 
+	}
+	manpower=1345751
+	buildings_max_level_factor=1
+	local_supplies=0
+}

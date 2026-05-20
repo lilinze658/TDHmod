@@ -1,0 +1,35 @@
+state={
+	id=279
+	name="STATE_279"#克纳斯
+    resources = {
+		tungsten=20
+		steel=30
+	}
+	history={
+		owner = STA
+		victory_points = {
+			9935 10
+		}
+		 
+		buildings = {
+			infrastructure = 4
+			arms_factory = 5
+
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = NEW
+			add_core_of = STA
+			add_core_of = NEW
+
+		}
+
+	}
+	provinces={
+		225 1452 1693 3705 5610 6331 7128 7751 7883 9576 9622 9935 10178 10620 13460 13474 13494 13524 13535 13551 13571 13614 13648 13649 13661 13708 
+	}
+	manpower=5640000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

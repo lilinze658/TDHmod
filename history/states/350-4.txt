@@ -1,0 +1,25 @@
+state={
+	id=350
+	name="STATE_350"
+	history={
+		owner = KAT
+		victory_points = {
+			
+		}
+ 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+            air_base = 3
+		}
+		add_core_of = KAT
+
+	}
+	provinces={
+		171 2273 3489 4087 4226 4954 5267 10296 15795 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

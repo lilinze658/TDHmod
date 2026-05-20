@@ -1,0 +1,27 @@
+state={
+	id=41
+	name="STATE_41"
+	history={
+		owner = SNO
+		victory_points = {
+			2659 30 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 4
+			dockyard = 2
+			1235= {
+                naval_base = 3
+			}    
+		}
+		add_core_of = SNO
+
+	}
+	provinces={
+		1235 2608 2659 2803 2987 3361 3958 4174 5415 5573 6681 7630 8181 10583 11237 11267 11298 11308 11341 11373 11386 11404 
+	}
+	manpower=3740652
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

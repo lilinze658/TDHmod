@@ -1,4 +1,4 @@
-capital = 216
+capital = 232
 
 set_technology = {
 	infantry_weapons = 1
@@ -63,6 +63,11 @@ set_research_slots = 5
 set_convoys = 20
 oob = "4633"
 add_ideas = { 
+    pony_xie
+    industrial_4
+    weay_1
+    whuiu_1
+    gyea_5
 	ANZ_undeveloped_southern
 	ANZ_urbanization_trend
 	ANZ_catholicism_collude_with_communism

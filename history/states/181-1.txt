@@ -1,0 +1,19 @@
+state={
+	id=181
+	name="STATE_181"#潘迪尔
+	history={
+		owner = MOB
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		276 647 860 3306 6200 6538 6543 7636 9915 10717 10730 10908 14455 14489 14547 14578 
+	}
+	manpower=2600000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = metropolis
+}

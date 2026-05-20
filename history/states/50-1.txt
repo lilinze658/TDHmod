@@ -1,0 +1,24 @@
+
+state={
+	id=50
+	name="STATE_50"
+	history={
+		owner = LOB
+		victory_points = {
+			7956 5
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LOB
+
+	}
+	provinces={
+		390 1276 1499 4706 7097 7956 8255 8901 16581 16619 16631 16638 16683 16718 16814 
+	}
+	manpower=1025896
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

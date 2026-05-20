@@ -1,4 +1,4 @@
-capital = 8
+capital = 222
 
 DEBUG_SHE_effect_4 = yes
 #will be deleted in the future
@@ -67,6 +67,11 @@ set_technology = {
 }
 
 add_ideas = {
+    pony_ren
+    industrial_3
+    whuiu_5
+    weay_3
+    gyea_3
 	SHE_state_shintoism
 	SHE_national_consensus
 	SHE_resistance_of_aborigine_4

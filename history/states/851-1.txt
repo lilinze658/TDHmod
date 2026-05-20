@@ -1,25 +1,23 @@
-
 state={
 	id=851
-	name="STATE_1161"
-
+	name="STATE_851"
 	history={
-		owner = DIV
+		owner = DUC
+		victory_points = {
+			6429 15 
+		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 2
+			infrastructure = 1
 
 		}
-		add_core_of = DIV
+		add_core_of = DUC
 
 	}
-
 	provinces={
-		1266 3512 3709 3727 6365 6769 6944 7433 8980 14167 14183 14193 14218 
+		550 1646 2220 3975 4424 6429 7731 8423 8965 9629 10571 10737 17525 17596 
 	}
- 	manpower=10000000
+	manpower=406301
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pastoral 
 	local_supplies=0.000
 }

@@ -1,26 +1,31 @@
-
 state={
-	id=852
+	id=852#172-
 	name="STATE_852"
-
+	resources={
+		oil= 5
+	}
 	history={
-		owner = WEI
- 
-		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 2
-
+		owner = RUT
+		victory_points = {
+			3046 15 
 		}
-		add_core_of = WEI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			3046 = {
+				coastal_bunker = 1
+                naval_base = 2
+			}  
+		}
+		add_core_of = RUT
 
 	}
-
 	provinces={
-		1784 2832 3833 5919 6374 13317 13331 13357 13394 13400 13432 13454 13478 13512 13513 13553 142 1286 3102 5367 5416 7006 9113 13340 13363 13389 13414 13447 725 920 2009 3688 4805 5880 7794 7821 13484 13533 13631 2417 4421 6850 7076 8775 13527 13534 13543 13563 13608 13624 13663 15 574 1201 2708 2857 3124 3496 9318 13298 13306 13307 13324 13341 13349 13368 13407 13441 
+		421 812 1377 3046 3785 5586 6143 6151 7339 7812 8075 8771 10495 10954 11070 17216 17228 17276 
 	}
-	manpower=10000000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
 }

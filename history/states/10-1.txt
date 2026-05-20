@@ -1,0 +1,20 @@
+state={
+	id=10
+	name="STATE_10"
+	history={
+		owner = ZET
+		buildings = {
+			infrastructure = 1
+	
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		4617 7783 10365 16722 16782 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

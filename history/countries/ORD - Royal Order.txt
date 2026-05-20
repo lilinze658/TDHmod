@@ -1,4 +1,4 @@
-capital = 54
+capital = 114
 
 set_technology = {
 	staff_Ranger_Royal = 1
@@ -63,7 +63,11 @@ set_technology = {
 set_research_slots = 5
 oob = "ORD-4633"
 add_ideas = { 
-
+    pony_ren
+    industrial_4
+    whuiu_3
+    weay_3
+    gyea_1
 }
 
 set_politics = {

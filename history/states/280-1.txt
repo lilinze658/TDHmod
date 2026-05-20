@@ -1,0 +1,29 @@
+state={
+	id=280
+	name="STATE_280"#赛尔祖诺
+    history={
+		owner = STA
+		victory_points = {
+			10077 5
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = NEW
+			add_core_of = STA
+			add_core_of = NEW
+
+		}
+
+	}
+	provinces={
+		1653 1909 3320 4127 4500 4849 4985 5317 9899 10077 10647 13141 13144 13193 13221 13240 13348 
+	}
+	manpower=3740000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

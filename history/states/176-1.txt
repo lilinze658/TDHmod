@@ -1,0 +1,26 @@
+state={
+	id=176
+	name="STATE_176"#艾比利
+	history={
+		owner = MOB
+		
+		buildings = {
+			infrastructure = 2
+			dockyard = 5
+			3945 = {
+				bunker = 1
+				coastal_bunker = 1
+                naval_base = 1
+			}  
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		1469 3945 4428 5580 14584 14612 14646 
+	}
+	manpower=2600000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

@@ -1,0 +1,22 @@
+state={
+	id=93
+	name="STATE_93"#克泊斯
+		history={
+		owner = COU
+		 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = COU
+
+	}
+	provinces={
+		602 932 1136 1503 2491 2898 2983 6874 10594 12432 12434 12481 12489 12490 12529 12531 12598 12632 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,4 +1,4 @@
-capital = 32
+capital = 170
 
 set_technology = {
 	infantry_weapons = 1
@@ -63,7 +63,11 @@ set_research_slots = 5
 set_convoys = 20
 oob = "4633"
 add_ideas = { 
-
+    pony_xie
+    industrial_4
+    whuiu_1
+    weay_1
+    gyea_5
 }
 
 set_politics = {

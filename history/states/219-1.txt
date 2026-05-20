@@ -1,0 +1,26 @@
+state={
+	id=219
+	name="STATE_219"#拉姆杰
+    resources = {
+		oil=30
+	}
+	history={
+		owner = ZET
+		victory_points = {
+			8765 5
+		}
+ 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		1454 1563 2063 4145 7164 8765 10223 16085 16149 16192 16218 
+	}
+	manpower=1601523
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

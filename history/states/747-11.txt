@@ -1,0 +1,21 @@
+state={
+	id=747
+	name="STATE_747"
+	history={
+		owner = WEI
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = WEI
+
+	}
+	provinces={
+		1274 1757 2738 2981 3040 3703 3949 4408 5015 5095 6743 6783 7854 8927 9122 10443 10663 10926 12119 12194 12201 12246 12254 12286 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

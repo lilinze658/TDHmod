@@ -1,0 +1,29 @@
+state={
+	id=258
+	name="STATE_258" #塔玛扬
+    history={
+		owner = STA
+		victory_points = {
+			6142 5
+		}
+		 
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = PEC
+			add_core_of = STA
+			add_core_of = PEC
+
+		}
+
+	}
+	provinces={
+		405 579 1301 3480 3712 4726 6142 6204 6913 7171 8534 8630 8812 10917 12692 12700 12718 12748 12783 12787 
+	}
+	manpower=1620000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

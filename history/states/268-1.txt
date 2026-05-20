@@ -1,0 +1,34 @@
+state={
+	id=268
+	name="STATE_268"#弗拉门特
+	history={
+		owner = STA
+		victory_points = {
+			1583 20
+		}
+		 
+	    buildings = {
+			infrastructure = 3
+			8046 = {
+				bunker = 1
+				coastal_bunker = 2
+                naval_base = 3
+			}                      
+		}
+		add_core_of = STA
+		4635.10.25 = {
+			owner = MOB
+			add_core_of = STA
+
+		}
+
+	}
+
+	provinces={
+		1583 3107 4007 4448 4848 5201 5221 5502 5555 7237 7471 8046 9131 9965 13344 13510 13576 13591 13690 
+	}
+	manpower=2340000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

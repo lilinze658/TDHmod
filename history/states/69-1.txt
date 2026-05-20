@@ -1,0 +1,24 @@
+
+state={
+	id=69
+	name="STATE_69"
+	history={
+		owner = ANY
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = ANY
+
+	}
+	provinces={
+		122 1391 1628 2713 4515 4837 5407 5971 6082 8662 8974 9613 9885 10089 11097 15883 15884 15942 15999 16027 16070 16075 16078 16136 16145 16172 16202 16221 16253 16271 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

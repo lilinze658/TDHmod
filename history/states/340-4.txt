@@ -1,0 +1,22 @@
+state={
+	id=340
+	name="STATE_340"
+	history={
+		owner = MIY
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MIY
+
+	}
+	provinces={
+		966 1225 1815 3163 3908 4488 5501 5599 5882 6026 6842 6936 7727 8683 9183 9909 9924 10003 10728 14772 14918 14920 14952 14979 15028 15029 15054 15071 15087 15121 15160 15210 15230 15241 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

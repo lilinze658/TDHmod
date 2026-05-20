@@ -1,0 +1,22 @@
+
+state={
+	id=145
+	name="STATE_145"
+	history={
+		owner = BSP
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = BSP
+
+	}
+	provinces={
+		73 1672 2559 4571 4790 7412 10220 10434 10537 10561 11816 11902 11927 11940 11969 11990 12092 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

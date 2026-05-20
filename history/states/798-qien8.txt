@@ -1,0 +1,21 @@
+state={
+	id=798
+	name="STATE_798"
+	history={
+		owner = TZY
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TZY
+
+	}
+	provinces={
+		1556 2027 3571 3760 4521 5182 5396 6079 6811 7677 10282 10983 15816 15893 15948 16045 16054 16092 
+	}
+	manpower=1423751
+	buildings_max_level_factor=1
+	local_supplies=0
+}

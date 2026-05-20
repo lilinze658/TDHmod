@@ -1,0 +1,28 @@
+state={
+	id=124
+	name="STATE_124"#尤巴克
+	history={
+		owner = ZET
+		victory_points = {
+			1255 10
+		}
+		 
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ZET
+		4635.10.25 = {
+			owner = KIA
+			add_core_of = ZET
+			add_core_of = KIA
+
+		}
+	}
+	provinces={
+		357 422 1166 1255 1867 2422 3160 3414 4210 4644 4854 6098 6767 6908 6944 7358 7640 7769 8569 8668 8797 9256 9824 10521 16530 16577 16636 16684 16732 16736 16770 16781 16809 16852 16900 
+	}
+	manpower=626052
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

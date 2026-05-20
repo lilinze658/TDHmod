@@ -1,0 +1,22 @@
+state={
+	id=96
+	name="STATE_96"
+	history={
+		owner = COU
+		 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = COU
+
+	}
+	provinces={
+		191 1981 2204 5068 5865 6605 6953 8767 9468 9859 11458 11487 11519 11546 11565 11599 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

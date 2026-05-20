@@ -1,4 +1,4 @@
-capital = 37
+capital = 235
 
 set_technology = {
 	staff_kingdom = 1
@@ -18,6 +18,11 @@ set_research_slots = 3
 set_convoys = 200
 oob = "ORT-4633"
 add_ideas = { 
+    pony_race
+    industrial_3
+    whuiu_3
+    weay_3
+    gyea_2
     ORT_militia
 }
 

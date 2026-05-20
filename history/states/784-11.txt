@@ -1,0 +1,27 @@
+state={
+	id=784
+	name="STATE_784"#赞德班
+	history={
+		owner = ZET
+		victory_points = {
+			6578 5
+		}
+ 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4231 = {
+				naval_base = 2
+				 }
+		}
+		add_core_of = ZET
+
+	}
+	provinces={
+		506 1684 3377 4231 5508 6578 6638 7177 8248 9481 9879 10291 16067 16103 16117 16132 16139 
+	}
+	manpower=601520
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

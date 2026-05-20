@@ -1,4 +1,4 @@
-capital = 567
+capital = 220
 
 set_technology = {
 	infantry_weapons = 1
@@ -84,9 +84,50 @@ set_popularities = {
 		target = PIR
 		type = annex_everything
 	}
+} 
+add_dynamic_modifier = {
+	modifier = ZET_luxi_dy
 }
-recruit_character = ZET_没有指挥官
-
+recruit_character = ZET_walunseting
+recruit_character = ZET_shasilina
+recruit_character = ZET_hanwufa
+recruit_character = ZET_buernuola
+recruit_character = ZET_dantuku
+recruit_character = ZET_hezhenan
+recruit_character = ZET_kani
+recruit_character = ZET_walunfapu
+recruit_character = ZET_walunduosi
+recruit_character =	ZET_luxi_a
+recruit_character =	ZET_luxi_b
+recruit_character =	ZET_chaiquan
+recruit_character =	ZET_luori
+recruit_character =	ZET_suyiyang
+recruit_character =	ZET_deyasu
+recruit_character =	ZET_chaiquan_shui
+recruit_character =	ZET_jianglingzhi
+recruit_character =	ZET_laowang
+add_ideas = ZET_luxi_N
+set_variable = {
+	ZET_luxi_a = 0.01
+}
+set_variable = {
+	ZET_luxi_b = 0.01
+}
+set_variable = {
+	ZET_luxi_d = 0.01
+}
+set_variable = {
+	ZET_luxi_e = 0.01
+}
+set_variable = {
+	ZET_luxi_f = -0.01
+}
+set_variable = {
+	ZET_luxi_g = 0
+}
+set_variable = {
+	ZET_luxi_h = 0
+}
 add_equipment_to_stockpile = {
 	type = light_tank_destroyer_chassis_1
 	amount = 500

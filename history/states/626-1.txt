@@ -1,0 +1,24 @@
+state={
+	id=626
+	name="STATE_626"
+	history={
+		owner = TOM
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = TOM
+		
+	}
+	provinces={
+		4102 4676 4866 5510 5671 7920 9393 9923 10560 16178 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

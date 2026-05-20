@@ -1,0 +1,28 @@
+state={
+	id=159
+	name="STATE_159"
+	history={
+		owner = HAS
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 3
+            dockyard = 2
+			
+		}
+		add_core_of = HAS
+		4635.10.25 = {
+			owner = POS
+			add_core_of = POS
+			add_core_of = HAS
+			add_core_of = FAL
+		}
+	}
+	provinces={
+		578 749 917 1334 1339 1543 2270 3863 4409 5099 5139 5677 5949 6086 6935 8238 8539 9579 12946 12991 13069 13073 13114 13131 13166 13248 13312 
+	}
+	manpower=2760000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

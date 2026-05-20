@@ -1,0 +1,22 @@
+state={
+	id=433
+	name="STATE_433"
+	history={
+		owner = ORT
+		victory_points = {
+			
+		}
+		 
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ORT
+		
+	}
+	provinces={
+		1068 1216 1233 1593 2726 3246 3545 4779 5121 9025 9722 10548 10817 11675 11705 11707 11747 11771 11794 11815 11829 11890 11896 
+	}
+	manpower=751042
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,22 @@
+state={
+	id=337
+	name="STATE_337"
+	history={
+		owner = RAS
+		victory_points = {
+			
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = RAS
+
+	}
+	provinces={
+		74 1312 1903 2212 4282 4368 7473 7659 8133 10109 10528 15141 15176 15200 15225 15267 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

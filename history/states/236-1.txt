@@ -1,0 +1,29 @@
+state={
+	id=236
+	name="STATE_236"#优塔堡
+	
+	history={
+		owner = LEG
+		victory_points = {
+			777 10
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			15032 = {
+                naval_base = 2
+			}                  
+		}
+		add_core_of = LEG
+
+	}
+	provinces={
+		591 777 2193 2526 3594 4025 4463 5104 5476 5992 7868 8031 8498 8705 10197 10286 14960 14998 15026 15032 15132 15155 15189 15199 15219 
+	}
+	manpower=1899000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

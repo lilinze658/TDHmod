@@ -1,0 +1,28 @@
+state={
+	id=175
+	name="STATE_175"#夏普洛
+	resources={
+		steel= 50
+        aluminium= 10
+	}
+	history={
+		owner = MOB
+		victory_points = {
+			14309 50 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 8
+		}
+		add_core_of = MOB
+
+	}
+	provinces={
+		282 709 1527 2343 2951 4262 5504 5976 9995 14309 14310 14348 14490 14497 
+	}
+	manpower=7680000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category =  large_city
+}

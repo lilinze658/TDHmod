@@ -1,0 +1,27 @@
+state={
+	id=830
+	name="STATE_830"#古莱克
+	resources = {
+		steel=40
+	}
+	history={
+		owner = REP
+		victory_points = {
+			9770 10
+		}
+		 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = REP
+
+	}
+	provinces={
+		2341 3799 6558 9770 10579 14509 14644 14680 
+	}
+	manpower=1460289
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

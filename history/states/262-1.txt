@@ -1,0 +1,34 @@
+state={
+	id=262
+	name="STATE_262" #瓦瑞班
+	history={
+		owner = LOV
+		victory_points = {
+			12975 20
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			air_base = 5
+			dockyard = 4
+			9047 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = LOV
+		4635.10.25 = {
+			add_core_of = ROA
+			add_core_of = RED
+			
+		}
+
+	}
+	provinces={
+		2069 3061 3843 3853 4056 4791 7228 9047 9614 10373 10691 12927 12937 12956 12975 12981 13012 13018 13052 13053 13068 
+	}
+	manpower=3920165
+	buildings_max_level_factor=1
+	state_category=large_city
+	local_supplies=0
+}

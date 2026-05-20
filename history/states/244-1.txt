@@ -1,0 +1,30 @@
+state={
+	id=244
+	name="STATE_244"#丝野蒂呐依
+	history={
+		owner = LOB
+		victory_points = {
+			8596 5
+		}
+		 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1054 = {
+				naval_base = 1
+				coastal_bunker = 3
+			}
+
+		}
+		add_core_of = LOB
+		add_core_of = ZET
+
+	}
+	provinces={
+		1054 1762 2872 3927 5110 6193 6212 6999 7403 8596 10054 16087 16169 16196 16222 16254 16313 16361 16390 
+	}
+	manpower=1857960
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
