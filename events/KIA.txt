@@ -1,0 +1,194 @@
+add_namespace = KIA
+country_event = {
+	id = KIA.1
+    title = KIA.1.t 
+    desc = KIA.1.d 
+    immediate = {
+		hidden_effect = {
+			KIA = {
+				recruit_character =	ZET_error
+				transfer_state  = 75
+				transfer_state  = 67
+				transfer_state  = 80
+				transfer_state  = 82
+				transfer_state  = 74
+				transfer_state  = 79
+				every_state = {
+					add_core_of = KIA
+				}
+				division_template = {
+					name = "沙洲工人游击队"
+					regiments = {
+					infantry  = { x = 0 y = 0 }
+					infantry  = { x = 0 y = 1 }
+					infantry  = { x = 1 y = 0 }
+					infantry  = { x = 1 y = 1 }
+					}
+				}
+				division_template = {
+					name = "沙洲工人革命军"
+					regiments = {
+					infantry  = { x = 0 y = 0 }
+					infantry  = { x = 0 y = 1 }
+					infantry  = { x = 1 y = 0 }
+					infantry  = { x = 1 y = 1 }
+					infantry  = { x = 0 y = 2 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 0 }
+					}
+				}
+				division_template = {
+					name = "沙洲人民先锋队"
+					regiments = {
+					cavalry  = { x = 0 y = 0 }
+					cavalry  = { x = 0 y = 1 }
+					cavalry  = { x = 1 y = 0 }
+					cavalry  = { x = 1 y = 1 }
+					}
+					support = {
+						recon = { x = 0 y = 0 }
+					}
+				}
+				every_owned_state = {
+					limit = {
+						any_neighbor_state = {
+							is_owned_by = ZET 
+						}
+					}
+					create_unit = {
+						division = "division_template = \"沙洲工人游击队\" start_experience_factor = 0.2 start_equipment_factor = 0.7"
+						owner = KIA
+						allow_spawning_on_enemy_provs = yes 
+				    }
+					create_unit = {
+						division = "division_template = \"沙洲工人游击队\" start_experience_factor = 0.2 start_equipment_factor = 0.7"
+						owner = KIA
+						allow_spawning_on_enemy_provs = yes 
+				    }
+					create_unit = {
+						division = "division_template = \"沙洲工人游击队\" start_experience_factor = 0.2 start_equipment_factor = 0.7"
+						owner = KIA
+						allow_spawning_on_enemy_provs = yes 
+					}
+					create_unit = {
+						division = "division_template = \"沙洲工人游击队\" start_experience_factor = 0.2 start_equipment_factor = 0.7"
+						owner = KIA
+						allow_spawning_on_enemy_provs = yes 
+					}
+					create_unit = {
+						division = "division_template = \"沙洲人民先锋队\" start_experience_factor = 0.4 start_equipment_factor = 0.9"
+						owner = KIA
+						allow_spawning_on_enemy_provs = yes 
+					}
+					create_unit = {
+						division = "division_template = \"沙洲工人革命军\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = KIA
+						allow_spawning_on_enemy_provs = yes 
+				    }
+				}
+			}
+		}
+    }
+    is_triggered_only = yes
+
+    option = { 
+        name = KIA.1.o.1
+           
+	}
+    option = { 
+        name = KIA.1.o.2
+		KIA = { change_tag_from = ZET }
+	}
+}
+unit_leader_event = {
+	id = KIA.100
+    title = KIA.ver1.t 
+    desc = KIA.ver1.d 
+	is_triggered_only = yes
+	option = { 
+        name = KIA.ver1.o.1
+        ZET_vertin = {
+			add_skill_level = 1
+			unit_leader_event = {
+				days = 30
+				id = KIA.101
+			}
+		}
+	}
+}
+unit_leader_event = {
+	id = KIA.101
+    title = KIA.ver2.t 
+    desc = KIA.ver2.d 
+	is_triggered_only = yes
+	option = { 
+        name = KIA.ver2.o.1
+		ZET_vertin = {
+			add_skill_level = 1
+			unit_leader_event = {
+				days = 30
+				id = KIA.102
+			}
+		}
+	}
+}
+unit_leader_event = {
+	id = KIA.102
+    title = KIA.ver3.t 
+    desc = KIA.ver3.d 
+	is_triggered_only = yes
+	option = { 
+        name = KIA.ver3.o.1
+        ZET_vertin = {
+			add_skill_level = 1
+			unit_leader_event = {
+				days = 30
+				id = KIA.103
+			}
+		}
+	}
+}
+unit_leader_event = {
+	id = KIA.103
+    title = KIA.ver4.t 
+    desc = KIA.ver4.d 
+	is_triggered_only = yes
+	option = { 
+        name = KIA.ver4.o.1
+        ZET_vertin = {
+			promote_leader = yes
+			unit_leader_event = {
+				days = 30
+				id = KIA.104
+			}
+		}
+	}
+}
+unit_leader_event = {
+	id = KIA.104
+    title = KIA.ver5.t 
+    desc = KIA.ver5.d 
+	is_triggered_only = yes
+	option = { 
+        name = KIA.ver5.o.1
+        ZET_vertin = {
+			add_skill_level = 2
+			unit_leader_event = {
+				days = 365
+				id = KIA.101
+			}
+		}
+	}
+}
+unit_leader_event = {
+	id = KIA.105
+    title = KIA.ver6.t 
+    desc = KIA.ver6.d 
+	is_triggered_only = yes
+	option = { 
+        name = KIA.ver5.o.1
+		retire_character = ZET_vertin
+	}
+}

@@ -1,0 +1,303 @@
+add_namespace = mag
+
+ #法兰复国战争#
+country_event = {
+    id = mag.1
+    picture = GFX_
+    title = mag.1.t
+    desc = mag.1.d
+    is_triggered_only = yes
+    major = yes
+    option = { 
+        name = mag.1.a
+            trigger = {
+            tag = MAG
+            }
+            add_ideas = MAG_ideas_2
+            custom_effect_tooltip =MAG_STWAM1_tt
+            declare_war_on = { target = HAS type = annex_everything } 
+
+     }
+    option = { 
+        name = mag.1.b
+            trigger = {
+            tag = SHE
+            }
+            POS={
+        custom_effect_tooltip = SHE_STWAM1_tt
+        declare_war_on = { target = HAS type = annex_everything } 
+        }  
+    }
+        option = { 
+        name = mag.1.c
+            trigger = {
+			NOT = {
+				TAG = SHE
+				TAG = MAG
+				TAG = HAS
+			}
+		}
+		}
+         option = { 
+        name = mag.1.g
+            trigger = {
+				TAG = HAS
+		}   
+        }
+        
+}
+  #法兰复国#
+country_event = {
+    id = mag.2
+    picture = GFX_
+    title = mag.2.t
+    desc = mag.2.d
+    is_triggered_only = yes
+    major = yes
+    immediate = {
+		hidden_effect = {
+		MAG = {
+		promote_character = MAG_ailin
+	    retire_character = MAG_naierjiade
+	    }
+        HAS ={
+            white_peace = MAG
+            white_peace = POS
+            white_peace = SHE
+            white_peace = BER 
+        }
+       
+	    hidden_effect = {
+            POS = {
+            transfer_state = 46
+            transfer_state = 121
+            transfer_state = 122
+            transfer_state = 123
+            transfer_state = 124
+            transfer_state = 125
+            transfer_state = 126
+            transfer_state = 127
+            }
+		}
+			FAL = {
+				transfer_state = 55
+                add_state_core = 55
+                transfer_state = 92
+                add_state_core = 92
+                transfer_state = 93
+                add_state_core = 93
+                transfer_state = 94
+                add_state_core = 94
+				transfer_state = 95
+                add_state_core = 95
+				transfer_state = 96
+                add_state_core = 96
+				transfer_state = 97
+                add_state_core = 97
+				transfer_state = 98
+                add_state_core = 98
+				transfer_state = 99
+                add_state_core = 99
+				transfer_state = 100
+                add_state_core = 100
+				transfer_state = 101
+                add_state_core = 101
+				transfer_state = 102
+                add_state_core = 102
+				transfer_state = 103
+                add_state_core = 103
+				transfer_state = 104
+                add_state_core = 104
+				transfer_state = 105
+                add_state_core = 105
+				transfer_state = 106
+                add_state_core = 106
+				transfer_state = 107
+                add_state_core = 107
+				transfer_state = 108
+                add_state_core = 108
+				transfer_state = 109
+                add_state_core = 109
+                transfer_state = 110
+                add_state_core = 110
+                transfer_state = 1222
+                add_state_core = 1222
+                transfer_state = 1223
+                add_state_core = 1223
+			 }
+		}
+    }
+    trigger = {
+    or = {
+     HAS={
+		surrender_progress > 0.7
+		}
+	}
+        MAG = {
+            controls_state = 55
+         }
+		
+	}
+    option = { 
+        name = fal.2.a
+            trigger = {
+            tag = MAG
+            }
+             
+
+        }
+        option = { 
+        name = mag.2.b
+            trigger = {
+            tag = SHE
+            }
+            
+    }
+        option = { 
+        name = mag.2.c
+            trigger = {
+			NOT = {
+				TAG = SHE
+				TAG = MAG
+				TAG = HAS
+			}
+		}
+		}
+         option = { 
+        name = mag.2.g
+            trigger = {
+				TAG = HAS
+		}   
+        }
+        
+}
+country_event = {
+    id = mag.3
+    picture = GFX_
+    title = mag.3.t
+    desc = mag.3.d
+    is_triggered_only = yes
+    major = yes
+    option = { 
+        name = mag.3.a
+        ai_chance = { factor = 100 } 
+        SHE = {
+          news_event = {
+			id = mag.4
+		  }  
+        } 
+    }
+    option = { 
+        name = mag.3.b
+         
+    }
+}
+country_event = {
+    id = mag.4
+    picture = GFX_
+    title = mag.4.t
+    desc = mag.4.d
+    is_triggered_only = yes
+    major = yes
+    option = { 
+        name = mag.4.a
+        ai_chance = { factor = 100 } 
+        MAG = {
+          news_event = {
+			id = mag.5
+			
+		  }  
+       }
+     }
+    option = { 
+        name = mag.4.b
+            MAG = {
+          news_event = {
+			id = mag.6
+			
+		  } 
+		  }
+    }
+}
+country_event = {
+    id = mag.5
+    picture = GFX_
+    title = mag.5.t
+    desc = mag.5.d
+    is_triggered_only = yes
+    major = yes
+    option = { 
+        name = mag.5.a
+          
+
+     }
+}
+country_event = {
+    id = mag.6
+    picture = GFX_
+    title = mag.6.t
+    desc = mag.6.d
+    is_triggered_only = yes
+    major = yes
+    option = { 
+        name = mag.6.a
+          
+
+     }
+    
+}
+country_event = {
+    id = mag.7
+    picture = GFX_
+    title = mag.7.t
+    desc = mag.7.d
+    is_triggered_only = yes
+    major = yes
+    option = { 
+        name = mag.7.a
+        ai_chance = { factor = 100 } 
+        MAG = {
+          news_event = {
+			id = mag.8
+			
+		  }  
+       }
+     }
+    option = { 
+        name = mag.7.b
+            MAG = {
+          news_event = {
+			id = mag.9
+			
+		  } 
+		  }
+    }
+}
+country_event = {
+    id = mag.8
+    picture = GFX_
+    title = mag.8.t
+    desc = mag.8.d
+    is_triggered_only = yes
+    major = yes
+    option = { 
+        name = mag.8.a
+          
+
+     }
+    
+}
+country_event = {
+    id = mag.9
+    picture = GFX_
+    title = mag.9.t
+    desc = mag.9.d
+    is_triggered_only = yes
+    major = yes
+    option = { 
+        name = mag.9.a
+          
+
+     }
+    
+}

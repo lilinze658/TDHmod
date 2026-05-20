@@ -1,0 +1,58 @@
+add_namespace = STA
+country_event = {
+	id = STA.1
+    picture = GFX_
+    title = STA.1.t 
+    desc = STA.1.d 
+    trigger = {
+		439 = { is_controlled_by = MOB }
+		439 = { is_owned_by = STA }
+		MOB = { has_war_with = STA }
+		NOT = { has_global_flag = fall_of_warsaw_ger }
+	}
+    immediate = {
+    
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = STA.1.a  
+        ENU = { change_tag_from = ROOT }
+	}
+    option = { 
+        name = STA.1.b  
+        
+	}
+}
+country_event = {
+	id = STA.2
+    picture = GFX_
+    title = STA.2.t 
+    desc = STA.2.d 
+    immediate = {
+    
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = STA.2.a  
+          
+	}
+    
+}
+country_event = {
+	id = STA.3
+    picture = GFX_
+    title = STA.3.t 
+    desc = STA.3.d 
+    immediate = {
+    
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = STA.3.a  
+          
+	}
+    
+}
