@@ -1,0 +1,78 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_bagongyouxing"
+		texturefile = "gfx/interface/ideas/idea_bagongyouxing.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_bagongyouxing2"
+		texturefile = "gfx/interface/ideas/idea_bagongyouxing2.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_dabibotao"
+		texturefile = "gfx/interface/ideas/idea_dabibotao.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_fensuifangyu"
+		texturefile = "gfx/interface/ideas/idea_fensuifangyu.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_jinjunleicheng"
+		texturefile = "gfx/interface/ideas/idea_jinjunleicheng.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_junzhenghui"
+		texturefile = "gfx/interface/ideas/idea_junzhenghui.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_junzhenghui2"
+		texturefile = "gfx/interface/ideas/idea_junzhenghui2.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_junzhenghui3"
+		texturefile = "gfx/interface/ideas/idea_junzhenghui3.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_kuodajundui"
+		texturefile = "gfx/interface/ideas/idea_kuodajundui.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_kuodajundui2"
+		texturefile = "gfx/interface/ideas/idea_kuodajundui2.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_shenchangdui"
+		texturefile = "gfx/interface/ideas/idea_shenchangdui.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_shenchangdui2"
+		texturefile = "gfx/interface/ideas/idea_shenchangdui2.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_wajieaoweier"
+		texturefile = "gfx/interface/ideas/idea_wajieaoweier.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_weishenghuoerzhan"
+		texturefile = "gfx/interface/ideas/idea_weishenghuoerzhan.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_weishenghuoerzhan2"
+		texturefile = "gfx/interface/ideas/idea_weishenghuoerzhan2.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_zijizizu"
+		texturefile = "gfx/interface/ideas/idea_zijizizu.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_zijizizu2"
+		texturefile = "gfx/interface/ideas/idea_zijizizu2.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_zijizizu3"
+		texturefile = "gfx/interface/ideas/idea_zijizizu3.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_weiziyouerzhan"
+		texturefile = "gfx/interface/ideas/idea_weiziyouerzhan.png"
+	}	
+}

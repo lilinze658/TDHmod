@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trade_header_bg"
+		texturefile = "gfx/interface/tradeview/trade_header_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trade_header"
+		texturefile = "gfx/interface/tradeview/trade_header.dds"
+	}
+
+}

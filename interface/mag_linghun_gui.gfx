@@ -1,0 +1,74 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_MAG_background"
+		textureFile = "gfx/interface/mag_gui/MAG_background.png"
+	}
+	spriteType = {
+		name = "GFX_MAG_base"
+		textureFile = "gfx/interface/mag_gui/MAG_base.png"
+	}
+	spriteType = {
+		name = "GFX_MAG_enclosure"
+		textureFile = "gfx/interface/mag_gui/MAG_enclosure.png"
+	}
+	spriteType = {
+		name = "GFX_MAG_core"
+		textureFile = "gfx/interface/mag_gui/MAG_core.png"
+	}
+	#核心
+	spriteType = {
+		name = "GFX_MAG_core_1"
+		textureFile = "gfx/interface/mag_gui/MAG_core_1.png"
+	}
+	spriteType = {
+		name = "GFX_MAG_core_2"
+		textureFile = "gfx/interface/mag_gui/MAG_core_2.png"
+	}
+	spriteType = {
+		name = "GFX_MAG_core_3"
+		textureFile = "gfx/interface/mag_gui/MAG_core_3.png"
+	}
+	spriteType = {
+		name = "GFX_MAG_core_4"
+		textureFile = "gfx/interface/mag_gui/MAG_core_4.png"
+	}
+	#外壳
+	spriteType = {
+		name = "GFX_MAG_enclosure_1"
+		textureFile = "gfx/interface/mag_gui/MAG_enclosure_1.png"
+	}
+	spriteType = {
+		name = "GFX_MAG_enclosure_2"
+		textureFile = "gfx/interface/mag_gui/MAG_enclosure_2.png"
+	}
+	spriteType = {
+		name = "GFX_MAG_enclosure_3"
+		textureFile = "gfx/interface/mag_gui/MAG_enclosure_3.png"
+	}
+	spriteType = {
+		name = "GFX_MAG_enclosure_4"
+		textureFile = "gfx/interface/mag_gui/MAG_enclosure_4.png"
+	}
+	#底座
+	spriteType = {
+		name = "GFX_MAG_base_1"
+		textureFile = "gfx/interface/mag_gui/MAG_base_1.png"
+	}
+	spriteType = {
+		name = "GFX_MAG_base_2"
+		textureFile = "gfx/interface/mag_gui/MAG_base_2.png"
+	}
+	spriteType = {
+		name = "GFX_MAG_base_3"
+		textureFile = "gfx/interface/mag_gui/MAG_base_3.png"
+	}
+	spriteType = {
+		name = "GFX_MAG_base_4"
+		textureFile = "gfx/interface/mag_gui/MAG_base_4.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MAG_linghunluhuo"
+		textureFile = "gfx/interface/idea/idea_MAG_linghunluhuo.png"
+	}
+}

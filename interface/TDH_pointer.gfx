@@ -1,0 +1,91 @@
+SpriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_pony_tian"
+		texturefile = "gfx/interface/laws/Ethnicity_tian.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_pony_mofam"
+		texturefile = "gfx/interface/laws/Ethnicity_mofam.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_weay_1"
+		texturefile = "gfx/interface/laws/weay_1.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_weay_2"
+		texturefile = "gfx/interface/laws/weay_2.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_weay_3"
+		texturefile = "gfx/interface/laws/weay_3.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_weay_4"
+		texturefile = "gfx/interface/laws/weay_4.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_weay_5"
+		texturefile = "gfx/interface/laws/weay_5.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_gyea_1"
+		texturefile = "gfx/interface/laws/gyea_1.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_gyea_2"
+		texturefile = "gfx/interface/laws/gyea_2.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_gyea_3"
+		texturefile = "gfx/interface/laws/gyea_3.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_gyea_4"
+		texturefile = "gfx/interface/laws/gyea_4.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_gyea_5"
+		texturefile = "gfx/interface/laws/gyea_5.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_whuiu_1"
+		texturefile = "gfx/interface/laws/whuiu_1.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_whuiu_2"
+		texturefile = "gfx/interface/laws/whuiu_2.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_whuiu_3"
+		texturefile = "gfx/interface/laws/whuiu_3.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_whuiu_4"
+		texturefile = "gfx/interface/laws/whuiu_4.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_whuiu_5"
+		texturefile = "gfx/interface/laws/whuiu_5.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_whuiu_6"
+		texturefile = "gfx/interface/laws/whuiu_6.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_industrial_1"
+		texturefile = "gfx/interface/laws/industrial_1.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_industrial_2"
+		texturefile = "gfx/interface/laws/industrial_2.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_industrial_3"
+		texturefile = "gfx/interface/laws/industrial_3.PNG"
+	}
+	spriteType = {
+		name = "GFX_idea_industrial_4"
+		texturefile = "gfx/interface/laws/industrial_4.PNG"
+	}
+}

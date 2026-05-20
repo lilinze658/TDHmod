@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ZET_luxi_bg"
+		texturefile = "gfx/interface/ZET_luxi/ZET_luxi_bg.png"
+	}
+	spriteType = {
+		name = "GFX_ZET_luxi_gui_L"
+		texturefile = "gfx/interface/ZET_luxi/ZET_luxi_gui_L.png"
+	}
+}

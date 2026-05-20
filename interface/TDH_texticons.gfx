@@ -5,4 +5,5 @@ spriteTypes = {
 		texturefile = "gfx/texticons/rifle_texticon.dds"
 		legacy_lazy_load = no
 	}
+
 }

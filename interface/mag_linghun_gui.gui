@@ -1,0 +1,109 @@
+guiTypes = {
+	containerWindowType = {
+		name = "mag_linghun_gui"
+		size = { width = 1000 height = 666 }
+		position = { x = 500 y = 500 }
+		moveable = yes
+		fade_time = 4000
+		fade_type = linear
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_MAG_background"
+		}
+
+		buttonType = {
+			name = "MAG_base"
+			quadTextureSprite = "GFX_MAG_base"
+			position = { x = 189 y = 294 }
+		}
+		buttonType = {
+			name = "MAG_enclosure"
+			quadTextureSprite = "GFX_MAG_enclosure"
+			position = { x = 734 y = 101 }
+		}
+		buttonType = {
+			name = "MAG_core"
+			quadTextureSprite = "GFX_MAG_core"
+			position = { x = 289 y = 69 }
+		}
+	
+		#核心
+		iconType = {
+			name = "MAG_core_1"
+			quadTextureSprite = "GFX_MAG_core_1"
+			position = { x = 299 y = 76 }
+			pdx_tooltip = "MAG_linghunluhuo_core_1"
+		}
+		iconType = {
+			name = "MAG_core_2"
+			quadTextureSprite = "GFX_MAG_core_2"
+			position = { x = 305 y = 78 }
+			pdx_tooltip = "MAG_linghunluhuo_core_2"
+		}
+		iconType = {
+			name = "MAG_core_3"
+			quadTextureSprite = "GFX_MAG_core_3"
+			position = { x = 307 y = 59 }
+			pdx_tooltip = "MAG_linghunluhuo_core_3"
+		}
+		iconType = {
+			name = "MAG_core_4"
+			quadTextureSprite = "GFX_MAG_core_4"
+			position = { x = 297 y = 84 }
+			pdx_tooltip = "MAG_linghunluhuo_core_4"
+		}
+
+		#外壳
+		iconType = {
+			name = "MAG_enclosure_1"
+			quadTextureSprite = "GFX_MAG_enclosure_1"
+			position = { x = 860 y = 113 }
+			pdx_tooltip = "MAG_linghunluhuo_enclosure_1"
+		}
+		iconType = {
+			name = "MAG_enclosure_2"
+			quadTextureSprite = "GFX_MAG_enclosure_2"
+			position = { x = 855 y = 114 }
+			pdx_tooltip = "MAG_linghunluhuo_enclosure_2"
+		}
+		iconType = {
+			name = "MAG_enclosure_3"
+			quadTextureSprite = "GFX_MAG_enclosure_3"
+			position = { x = 864 y = 112 }
+			pdx_tooltip = "MAG_linghunluhuo_enclosure_3"
+		}
+		iconType = {
+			name = "MAG_enclosure_4"
+			quadTextureSprite = "GFX_MAG_enclosure_4"
+			position = { x = 827 y = 95 }
+			pdx_tooltip = "MAG_linghunluhuo_enclosure_4"
+		}
+
+		#底座
+		iconType = {
+			name = "MAG_base_1"
+			quadTextureSprite = "GFX_MAG_base_1"
+			position = { x = 209 y = 275 }
+			pdx_tooltip = "MAG_linghunluhuo_base_1"
+		}
+		iconType = {
+			name = "MAG_base_2"
+			quadTextureSprite = "GFX_MAG_base_2"
+			position = { x = 198 y = 303 }
+			pdx_tooltip = "MAG_linghunluhuo_base_2"
+		}
+		iconType = {
+			name = "MAG_base_3"
+			quadTextureSprite = "GFX_MAG_base_3"
+			position = { x = 201 y = 264 }
+			pdx_tooltip = "MAG_linghunluhuo_base_3"
+		}
+		iconType = {
+			name = "MAG_base_4"
+			quadTextureSprite = "GFX_MAG_base_4"
+			position = { x = 202 y = 286 }
+			pdx_tooltip = "MAG_linghunluhuo_base_4"
+		}
+	}
+}

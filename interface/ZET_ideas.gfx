@@ -1,0 +1,23 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_ZET_shazhougongyejituan"
+		texturefile = "gfx/interface/ideas/idea_ZET_shazhougongyejituan.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_ZET_qiyuenufan"
+		texturefile = "gfx/interface/ideas/idea_ZET_qiyuenufan.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_ZET_manuangkaikuo"
+		texturefile = "gfx/interface/ideas/idea_ZET_manuangkaikuo.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_ZET_luxi_neige"
+		texturefile = "gfx/leaders/ZET/露西.png"
+	}		
+	spriteType = {
+		name = "GFX_idea_ZET_luxi"
+		texturefile = "gfx/leaders/ZET/露西s.png"
+		legacy_lazy_load = no
+	}
+}

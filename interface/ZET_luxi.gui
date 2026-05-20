@@ -1,0 +1,26 @@
+guiTypes = {
+	containerWindowType = {
+		name = "ZET_luxi_gui"
+		size = { width = 1920 height = 1080 }
+		moveable = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_ZET_luxi_bg"
+		}
+		buttonType = {
+			name = "ZET_luxi_gui_L"
+			quadTextureSprite = "GFX_ZET_luxiA"
+			position = { x = 610 y = 435 }
+			pdx_tooltip = "ZET_luxi_gui_L_tt"
+			pdx_tooltip_delayed = "ZET_luxi_gui_L_tt1"
+		}
+		buttonType = {
+			name = "ZET_luxi_gui_T"
+			quadTextureSprite = "GFX_ZET_luxi_gui_L"
+			position = { x = 1295 y = 324 }
+			pdx_tooltip = "ZET_luxi_gui_L_tt"
+			pdx_tooltip_delayed = "ZET_luxi_gui_L_tt2"
+		}
+	}
+}

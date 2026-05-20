@@ -6,6 +6,11 @@ spriteTypes = {
 		noOfFrames = 2 
 	}
 	spriteType = {
+		name = "GFX_unit_demi_yurikoomega11_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/demi_yurikoomega11_icon.dds"
+		noOfFrames = 2 
+	}
+	spriteType = {
 		name = "GFX_unit_elite_samurai_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/elite_samurai_icon.dds"
 		noOfFrames = 2 
@@ -35,6 +40,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unit_demi_selfguard_icon_medium_white" 
 		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_demi_selfguard_icon.dds" 
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_demi_yurikoomega11_icon_medium_white" 
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_demi_yurikoomega11_icon.dds" 
 		noOfFrames = 2
 	}
 	spriteType = {
@@ -104,6 +114,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_demi_selfguard_texticon"
 		texturefile = "gfx/texticons/unit_demi_selfguard_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_demi_yurikoomega11_texticon"
+		texturefile = "gfx/texticons/unit_demi_yurikoomega11_icon_small.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {

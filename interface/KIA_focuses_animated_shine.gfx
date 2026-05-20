@@ -1,0 +1,10 @@
+spriteTypes = {	
+	frameAnimatedSpriteType = {
+		name = "GFX_KIA_laike_shine"
+		texturefile = "gfx/interface/goals/focus_KIA_laike.png"
+		noOfFrames = 40
+		animation_rate_fps = 14
+		looping = yes
+		play_on_show = yes
+	}
+}
