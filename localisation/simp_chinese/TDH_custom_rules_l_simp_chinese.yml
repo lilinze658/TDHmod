@@ -3,7 +3,7 @@
  PATHS:0 "政治路线"
  path_random:0 "随机"
  TEG_paths:0 "§Y莫比斯帝国§!政治路线"
- TEG_path_qinwai:0 ""
+ TEG_path_qinwai:0 "帝王归来"
  TEG_path_guli:0 ""
  TEG_path_fandong:0 ""
  MRY_paths:0 "§Y洛维尼亚§!政治路线"
@@ -54,6 +54,18 @@
  CLO_path_fandong:0 ""
 
 
+ ＃游戏彩蛋
+ TDH_1:0"制作组穿越"
+ TDH_2:0"魔王加强"
+ TDH_3:0"黯雪颂歌剧情"
+ TDH_4:0"斯佩奇斯剧情"
+ TDH_5:0"荒希秩序剧情"
+ TDH_6:0"神圣朕合剧情"
+ TDH_7:0"月骸降临"
+ TDH_8:0"原神启动"
+ TDH_9:0"星穹列车"
+ TDH_10:0"小马穿越"
+ 
  #####rule
  RULE_FREE_ALLOW_WARGOALS:0 ""吞并"的战争目标"
  FREE_OPTION_FREE:0 "自由"

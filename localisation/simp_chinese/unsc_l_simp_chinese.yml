@@ -1,0 +1,203 @@
+﻿l_simp_chinese:
+ unsc_command:0 "UNSC指挥部"
+ unsc_command_desc:0 "UNSC的信息化程度使其在部队的集结以及战斗部署上有着巨大优势。"
+ unsc_social:0 "UNSC体制"
+ unsc_social_desc:0 "UNSC的许多科技先进到不可思议，例如氢能源车辆以及核动力引擎。"
+ unsc_production:0 "自动化生产线"
+ unsc_production_desc:0 "高效、灵活的自动化生产线，可随时根据需求变更产物。"
+ oni_1:0 "海军情报局在行动"
+ oni_1_desc:0 "来到新世界，oni的特工们用他们的能力协助UNSC的任务。"
+ oni_ai:0 "AI计算网络"
+ oni_ai_desc:0 "unsc的ai网络同本世界土著的计算机在算力上有着难以想象的差距。"
+ tech_1:0 "先行者水晶-未来预知"
+ unsc_infantry_equipment_short:0 "UNSC步兵装备"
+ unsc_infantry_equipment_0:0 "VK78突击步枪"
+ unsc_infantry_equipment_0_short:0 "VK78突击步枪"
+ unsc_infantry_equipment_1:0 "MA37突击步枪+M392射手步枪"
+ unsc_infantry_equipment_1_short:0 "MA37突击步枪+M392射手步枪"
+ unsc_infantry_equipment_2:0 "MA5B突击步枪+BR55战斗步枪"
+ unsc_infantry_equipment_2_short:0 "MA5B突击步枪+BR55战斗步枪"
+ unsc_infantry_equipment_3:0 "MA5C突击步枪+BR55战斗步枪"
+ unsc_infantry_equipment_3_short:0 "MA5C突击步枪+BR55战斗步枪"
+ unsc_infantry_equipment_4:0 "MA5D突击步枪+BR85战斗步枪"
+ unsc_infantry_equipment_4_short:0 "MA5D突击步枪+BR85战斗步枪"
+
+##################上面别看，没用
+ fal_fuguo:0 "复国热情"
+
+
+ mag_resistance_1:0 "对哈斯佩芙地区的投资"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ magic_infantry_equipment:0 "单兵魔导装备"
+ magic_infantry_equipment_short:0 "单兵魔导装备"
+ magic_infantry_equipment_0:0 "试制型魔导装备"
+ magic_infantry_equipment_0_short:0 "试制型魔导装备"
+ magic_infantry_equipment_1:0 "成熟型魔导装备"
+ magic_infantry_equipment_1_short:0 "成熟型魔导装备"
+ magic_infantry_equipment_2:0 "先进型魔导装备"
+ magic_infantry_equipment_2_short:0 "先进型魔导装备"
+ magic_infantry_equipment_3:0 "传承型魔导装备"
+ magic_infantry_equipment_3_short:0 "传承型魔导装备"
+ magic_girl_guards: "魔法少女近卫军"
+ magic_girl_guards_desc: "自三千年前法兰第一帝国成立时就诞生的精锐军队，由最强的魔法少女们组成，负责应对常规部队无法处理的危险事件和特殊行动。使用破坏力极强的魔导武器进行作战，擅长对付大型目标，无论是厚重的装甲还是坚固的要塞都无法抵挡魔法的力量。据说近卫军的方舟骑士团是魔法少女们最初的军旅，在法兰第一帝国崩溃后陪伴无家可归的人们度过了最艰难的岁月。
+ magic_girl_guards_slience: "沉寂之影"
+ magic_girl_guards_slience_desc: "古帝国的遗留，最危险的魔法少女。据说其指挥官曾参加千年前的弑神之战，后下落不明。"
+ magic_girl_order: "执行者"
+ magic_girl_guards_slience_desc: "寄宿在伊诺雅体内的审判庭执行者之魂，能在宿主需要时现身代其行事。执行者是审判庭的最高战力，其成员几乎都接受了来自审判长的魔力，与魔法近卫军一起组成旧帝国的两大支柱。旧帝国崩溃后，审判庭的执行者们也跟着审判长一起开始了漫长的流浪岁月。（此兵种被视为炮兵单位）"
+
+
+
+ # --- Political & Restoration War ---
+ MAG_political_convene_magical_girls: "召集魔法少女"
+ MAG_political_convene_magical_girls_desc: "天翼蔽日，故土沦丧。但希望的火种尚未熄灭。我们必须吹响集结的号角，让所有幸存的魔法少女回到我们的旗帜下。这是我们复兴的第一步，也是最关键的一步。"
+ MAG_political_stand_firm: "站稳脚跟"
+ MAG_political_stand_firm_desc: "奈尔嘉德已经带领我们在阿尔瓦瑞兹建立了复国的前哨站，但是在旧帝国崩溃之后占据这里的外来者并不服从我们的统治，为了确保复国的顺利进行，先在本地建立稳固的统治是必要的。"
+ MAG_political_ark_respite: "方舟的休憩"
+ MAG_political_ark_respite_desc: "方舟骑士团的流浪已逾千年，骑士团的幸存者们身心俱疲，她们是久经沙场的战士，也是我们最宝贵的财富。必须让她们得到充分的休整，同时将她们的战斗经验传授给新一代的年轻战士。"
+ MAG_political_youlans_gadgets: "幽兰的小玩意"
+ MAG_political_youlans_gadgets_desc: "天才发明家幽兰总能捣鼓出一些超乎想象的东西。虽然她总是说‘只是一些小玩意’，但我们都知道，她的发明将在战场上拯救无数生命。"
+ MAG_political_lunar_essence_reserves: "古帝国月华储备"
+ MAG_political_lunar_essence_reserves_desc: "法兰古帝国曾拥有巨大的月华物质储备，它们是驱动魔法奇迹的燃料。根据残存的记录，一些秘密仓库或许躲过了天翼族的搜刮。我们必须找到它们。"
+ MAG_political_prepare_restoration_war: "准备复国战争"
+ MAG_political_prepare_restoration_war_desc: "休养生息的时刻已经结束。我们将秣兵历马，筹备战争，伙伴们，光复故国的日子不远了。"
+ MAG_political_foreign_aid: "请求外国援助"
+ MAG_political_foreign_aid_desc: "在大陆的另一端，尚有未被天翼族阴影笼罩的国度。我们或许可以向他们寻求援助，哪怕只是一些过时的武器，也足以武装那些愿意为自由而战的人民。"
+ MAG_political_naelgards_friends: "奈尔嘉德的朋友们"
+ MAG_political_naelgards_friends_desc: "我们的领袖，奈尔嘉德，以其人格魅力聚起了许多志同道合的伙伴。现在，是时候让她将这些分散在各地的力量整合起来，形成一股强大的洪流。让这些杰出人才为我们的事业做出贡献"
+ MAG_political_youth_guard: "青年近卫军"
+ MAG_political_youth_guard_desc: "方舟骑士团的近卫军是法兰最精锐的部队，但时过境迁，近卫军的数量大不如前，但是在奈尔嘉德的号召下，大批魔法少女踊跃加入同盟，我们可以将其中的佼佼者编为全新的近卫军部队，以加强我们的军事力量。"
+ MAG_political_skywing_falls: "天翼坠落"
+ MAG_political_skywing_falls_desc: "再造法兰的时机已至，现在，北伐，光复故国！"
+ MAG_political_emergency_powers: "授予审判庭紧急权利"
+ MAG_political_emergency_powers_desc: "战争时期，效率就是生命。为了清除内部的间谍与叛徒，我们必须授予审判庭更大的权力，让她们能够快速、果断地采取行动，粉碎一切不安定份子"
+ MAG_political_summon_executors: "召集执行者部队"
+ MAG_political_summon_executors_desc: "审判庭需要一支绝对忠诚、冷酷无情的武装力量来执行他们的判决。让审判长重新召集执行者部队吧，这些执行者将成为悬在所有心怀不轨者头上的利剑。"
+ MAG_political_prevent_overreach: "防止审判扩大化"
+ MAG_political_prevent_overreach_desc: "权力是危险的诱惑。我们必须设立明确的界限，确保审判庭的权力不会被滥用，避免我们的复国事业因无休止的内部清洗而偏离正轨。"
+
+ # --- Economic & Development ---
+ MAG_economic_develop_alvarez: "开发阿尔瓦瑞兹"
+ MAG_economic_develop_alvarez_desc: "阿尔瓦瑞兹地区是同盟的核心区域，也是我们未来的工业心脏。重建这里的工厂和作坊是我们的首要任务。"
+ MAG_economic_stabilize_territory: "稳定新征服的领土"
+ MAG_economic_stabilize_territory_desc: "收复领土只是第一步，赢得民心同样重要。我们必须尽快在解放区建立稳定的秩序，恢复生产，让人民看到希望。"
+ MAG_economic_invest_in_haspef: "投资哈斯佩芙"
+ MAG_economic_invest_in_haspef_desc: "哈斯佩芙地区拥有重要的交通线路和资源。改善这里的基础设施，将极大地提升我们的后勤效率。"
+ MAG_rebulid_factory: "重启法兰旧工厂"
+ MAG_rebulid_factory_desc: "既然已经重建了法兰，那么自然是优先建设我们的故土了。"
+ MAG_economic_haspef_industry: "哈斯佩芙工业"
+ MAG_economic_haspef_industry_desc: "在哈斯佩芙建立新的兵工厂，可以分担首都的生产压力，并为前线提供更及时的武器补给。"
+ MAG_economic_alvarez_heartland: "阿尔瓦瑞兹核心区"
+ MAG_economic_alvarez_heartland_desc: "进一步投资阿尔瓦瑞兹，将民用和军用工业结合起来，形成一个高效的生产集群。"
+ MAG_economic_expand_infrastructure: "扩建基础设施"
+ MAG_economic_expand_infrastructure_desc: "道路、桥梁、铁路……这些是军队的血管。一个完善的交通网络能让我们的部队和物资畅通无阻。"
+ MAG_new_country: "尘埃落定，法兰建国"
+ MAG_new_country: "终于，完成了收复故土和重建国家的大业，我们可以于今日正式宣告，一个属于魔法少女的国度正式建立了。"
+
+ # --- Military Command ---
+ MAG_military_restoration_command: "法兰复国指挥部"
+ MAG_military_restoration_command_desc: "我们需要一个统一高效的指挥机构来协调所有军事行动。复国指挥部的成立，将整合目前魔法少女所有武装力量，为复国战争的胜利奠定基础。"
+ MAG_military_form_whitewing_scouts: "组建白翼侦察部队"
+ MAG_military_form_whitewing_scouts_desc: "侦察兵是部队的眼睛。我们将挑选最敏捷、最擅长隐蔽的魔法少女，组建‘白翼’部队，她们将深入敌后，为我们带来关键信息。"
+ MAG_military_form_blackfeather_army: "组建黑羽军"
+ MAG_military_form_blackfeather_army_desc: "正面战场需要坚不可摧的力量。‘黑羽’部队将由最具攻击性的魔法少女组成，她们是攻坚的矛头，是撕裂敌人防线的黑色闪电。"
+ MAG_military_bolster_auxiliaries: "加强人类辅助军"
+ MAG_military_bolster_auxiliaries_desc: "魔法少女数量有限，我们不能让她们包办一切。通过为人类辅助军提供更好的装备和训练，她们将能更有效地在战场上支援魔法少女，替我们的进攻矛头分担压力。"
+ MAG_military_training: "羽翼强化训练"
+ MAG_military_training_desc: "加强对羽翼们的训练，羽翼部队将会是法兰精英中的精英。我们将为她们提供最严酷的训练和最精良的装备，将她们的战斗力推向极限，每一名黑羽或者白翼战士都将成为战场上敌人的噩梦。"
+ MAG_military_new_high_command: "新指挥部"
+ MAG_military_new_high_command_desc: "战争的规模在扩大，旧的为复国设置的指挥体系已不堪重负。我们需要提拔更多有才华的指挥官，建立一个更现代、更灵活的最高指挥部。"
+
+ # --- The Silent Shadow - Civil War ---
+ MAG_shadow_silent_shadow: "沉寂的暗影······"
+ MAG_shadow_silent_shadow_desc: "形势正在急剧恶化。奈尔嘉德开始公开谈论'帝制的必要性'，而伊诺雅对此保持着诡异的沉默。我们必须为最坏的情况做准备。联系那些仍然忠于法兰理想的魔法少女，时间不多了。"
+ MAG_shadow_control_ark_knights: "控制方舟骑士团"
+ MAG_shadow_control_ark_knights_desc: "随着奈尔嘉德开始确立在北方的独裁统治，方舟骑士团中的一些老兵开始发出不满的声音，我们将同她们接洽，准备在首都发起一场推翻奈尔嘉德的起义。"
+ MAG_shadow_woo_republicans: "拉拢共和派"
+ MAG_shadow_woo_republicans_desc: "我们不是孤军奋战。在同盟内部，许多魔法少女和人类早已对奈尔嘉德的独断专行心生不满。我们必须高举共和国的旗帜，向她们承诺一个没有皇帝、人人平等的未来。将所有渴望自由的力量些微团结起来，就足以形成一股足以撼动奈尔嘉德统治的洪流。"
+ MAG_shadow_state_of_emergency: "紧急状态"
+ MAG_shadow_state_of_emergency_desc: "我们的行动已经引起了奈尔嘉德的警觉。她以‘叛国’为名，下令审判庭在全境展开搜捕。独裁者的爪牙已然逼近，我们没有退路。现在，我们向所有忠于法兰理想的人民宣告：从今日起南方各省进入紧急状态！反抗暴政的斗争，从今日开始！"
+ MAG_shadow_save_the_nation: "救国！救国！"
+ MAG_shadow_save_the_nation_desc: "奈尔嘉德终于露出了真面目！她公开宣布要改法兰为帝制，自立为帝，而审判长伊诺雅竟然表示支持！这是对法兰理想的背叛！那些为了创造灵魂炉火而牺牲的英雄们，她们的死难道就是为了迎来一个暴君在我们的头上耀武扬威吗？不！绝不！我们必将捍卫法兰和她的人民！通电南方各省，北伐刻不容缓。"
+ MAG_shadow_a_new_order: "完成未竟之事"
+ MAG_shadow_a_new_order_desc: "内战结束了，代价是惨痛的，但我们不能停下脚步，法兰的战士们，前进！打碎压迫者对人民的枷锁！"
+
+ # --- Technology & Lunar Essence ---
+ MAG_tech_lunar_essence_research: "月华物质研究"
+ MAG_tech_lunar_essence_research_desc: "月华矿蕴含着大量的魔力，但我们目前对它的理解还很肤浅。系统性地研究它，将为我们解锁前所未有的力量。"
+ MAG_tech_lunar_magitech_equipment: "月华魔导装备"
+ MAG_tech_lunar_magitech_equipment_desc: "将月华物质直接应用于军事装备，我们将可以制造出更强大的魔导武器和护甲，让我们的战士如虎添翼。"
+ MAG_tech_combat_serum: "战斗药剂"
+ MAG_tech_combat_serum_desc: "研制一种能瞬间激发魔法少女潜能的月华药剂。它能带来无与伦比的力量，但其副作用……仍是未知的。这是一个高风险、高回报的赌博。"
+ MAG_tech_restrict_essence_use: "限制月华物资使用"
+ MAG_tech_restrict_essence_use_desc: "月华物质的力量过于危险，不能滥用。我们将制定严格的使用规程，优先保证其安全性和稳定性，而非追求极限的力量。稳妥才是长久之计。"
+ MAG_tech_perfected_magitech: "完善的魔导科技"
+ MAG_tech_perfected_magitech_desc: "经过无数次实验，我们终于掌握了月华科技的核心。现在，我们可以开启一个全新的研究领域，将我们的技术优势提升到新的高度。"
+ MAG_tech_advanced_serum: "高级药剂"
+ MAG_tech_advanced_serum_desc: "在原有战斗药剂的基础上进行改良，我们或许能减轻其副作用，同时保留其强大的增益效果。"
+ MAG_tech_sustainable_magitech: "可持续魔导技术"
+ MAG_tech_sustainable_magitech_desc: "优化生产流程，降低月华装备的制造成本。让这些强大的装备能够配发给更多的部队。"
+
+ # --- Post-War & Queen's Path ---
+ MAG_postwar_stabilize_soul_furnace: "稳定灵魂炉火（复国后）"
+ MAG_postwar_stabilize_soul_furnace_desc: "灵魂炉火是我们胜利的基石，但它在战争中承受了巨大的负荷。现在战争结束了，我们必须立刻对其进行维护和加固，确保这来之不易的希望之火永不熄灭。"
+ MAG_postwar_youlan_workshop: "幽兰工坊"
+ MAG_postwar_youlan_workshop_desc: "为幽兰提供她所需要的一切资源，建立一个专门的魔导技术工坊。她的才华将为我们的军队带来革命性的变化。"
+ MAG_postwar_new_magitech_equipment: "新型单兵魔导装备"
+ MAG_postwar_new_magitech_equipment_desc: "幽兰工坊的第一个成果。这种新型装备将魔力传导效率提升到了新的水平，极大地增强了单兵作战能力。"
+ MAG_postwar_expand_production: "扩大生产"
+ MAG_postwar_expand_production_desc: "和平时期，我们可以将更多的资源投入到生产中。扩大我们的工业基础，为应对下一次危机做好准备。"
+ MAG_queen_god_save_the_queen: "天佑女王"
+ MAG_queen_god_save_the_queen_desc: "奈尔嘉德带领我们赢得了复国战争，她的功绩无人能及。人民拥戴她，军队忠于她。是时候为她加冕，让她成为法兰名正言顺的女王！"
+ MAG_queen_her_majestys_will: "女王陛下的意志"
+ MAG_queen_her_majestys_will_desc: "女王的意志就是国家的意志。我们将围绕女王建立一个高效、集权的政府，确保她的每一个命令都能得到最迅速、最彻底的执行。"
+ MAG_queen_royal_army: "女王的军队"
+ MAG_queen_royal_army_desc: "组建一支完全由女王直属的新近卫军。她们将是女王最锋利的剑，最坚固的盾。"
+ MAG_queen_the_scientists: "科学家"
+ MAG_queen_the_scientists_desc: "在女王的资助下，科学家们将获得前所未有的支持，推动国家的技术进步。"
+ MAG_queen_the_generals: "将军们"
+ MAG_queen_the_generals_desc: "重组军队高层，确保每一位将军都对女王绝对忠诚。"
+ MAG_queen_the_people: "人民"
+ MAG_queen_the_people_desc: "通过宣传和庆典，巩固女王在人民心中的神圣地位，将整个国家团结在她的王座之下。"
+
+
+
+ mag_leader_a1: "同盟的创始人"
+ mag_leader_a2: "残虐且好大喜功之帝皇"
+ mag_leader_a3: "最后的疯狂"
+
+
+ #设定：两千五百年前的弑神之战>爱神创造了魔法少女，同时爱神也是魔法少女们魔力的源泉
+
+ mag_shadow.1.t:0 "暗影涌动"
+ mag_shadow.1.d:0 "形势正在急剧恶化。奈尔嘉德开始公开谈论'帝制的必要性'，而伊诺雅对此保持着诡异的沉默。我们必须为最坏的情况做准备。\n\n联系那些仍然忠于法兰理想的魔法少女，时间不多了。"
+ mag_shadow.1.a:0 "暗影已经开始涌动······"
+
+ mag_shadow.2.t:0 "雷雨"
+ mag_shadow.2.d:0 "奈尔嘉德并非算无遗策，方舟骑士团的突袭远在她的预料之外，针对南方各省发生叛乱的预案作废了——自己手下这帮饭桶于什么吃的，敌人冲到眼前了才汇报情况。眼下的局势已经很明显了，自己和审判庭已经被反贼拉到了同一条起跑线上，军事政变来的太突然，索性天平尚未完全倾斜，她还有法兰的青年近卫军可以调动……\n\n借着同盟领袖的名义，艾米莉调集剩下的自卫队和近卫军组织防御，同时通知了审判长，要求她收集叛变部队的一切情报，并且赶紧抽调审判庭卫队平叛。\n\n战火烧到了卡洛克托娅市区。特务与警察在路口挨个检查通行车辆，防止共和派的骨干逃出首都，同时镇压游行的魔法少女。多亏了艾米莉同法兰参谋本部间建立的专线，周围的卫成部队响应迅速，仅用一个下午便将冲入首都的孤军包围。并查明了骑士团诡异行为的原因——她们并非按军部的意思进行轮换，而是带着伪造的假文件前来。\n\n……阳光逐渐暗淡，枪炮与魔法轰击的巨响掩盖住了隆隆雷声。士兵们在泥泞的大地与她们的同胞自相残杀，警察与特务在昏暗的街道上与市民互殴。\n\n对于想要靠政变上台的共和派来说，时间比枪杆子还要宝贵。一天的交战已经足以奠定结局——方舟骑士团终究没有能力创造奇迹，被其他部队层层包围、（）爬上街垒，想着动员民众对抗军队，却被一发流弹了结了性命：（）在私宅中被逮捕、最后同审判庭的执行者消失在了一场绚烂的爆炸中。其他骨干力量被尽数打进监狱，但还是有人靠自杀躲过了屈辱的审判。\n\n这次的军事政变，以反对派的彻底失败告终。\n\n暴雨很快洗去了炉火旁的血污，只有远处被震碎的玻璃还在记录着昨天的战斗。一段急促的铃声响过，收音机里传来了僵硬的声音："
+ mag_shadow.2.a:0 "“为了全体魔法少女的未来与法兰的复兴，奈尔嘉德陛下决定于今日加冕称帝……”"
+
+ SLI: "法兰护国军"
+
+ mag.53.t:0 "南方叛乱"
+ mag.53.d:0 "共和派的民兵已经控制了南方，现在她们自称“护国军”，宣称要推翻女皇的统治。"
+ mag.53.a:0 "北伐，北伐！"
+ mag.53.b:0 "为了女皇陛下，扫清叛匪！"
+
+ mag.54.t:0 "护国军的旗帜"
+ mag.54.d:0 "奈尔嘉德的统治必须被终结"
+ mag.54.a:0 "为了法兰的未来，前进！"

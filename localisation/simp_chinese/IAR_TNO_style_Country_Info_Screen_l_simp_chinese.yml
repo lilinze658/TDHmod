@@ -1,0 +1,325 @@
+﻿l_simp_chinese:
+
+# GUI functionality
+
+ CountryInfo_pls_click_on_entry: "==点击左侧的条目以继续=="
+
+ CountryInfo_Folder_button_tt: "§G点击§! 切换显示'§Y[CountryInfo_GET_Folder_Country]§!'的条目§!"
+ CountryInfo_Content_button_tt: "§G点击§! 显示'§Y[CountryInfo_GET_Content_Country]§!'的内容§!"
+
+# Close button text
+TNO_COUNTRY_INFO_BUTTON_TT: "§Y前进，主宰你的命运！§!"
+
+ TNO_COUNTRY_INFO_BUTTON_TEXT_LOV: "自由!"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_GEN: "前进!"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_USA: "自由!"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_ENG: "呔嗬!"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_SPA: "前进!"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_SOV: "为了祖国!"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_CHI: "民族、民权、民生!"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_MAN: "前进!"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_JAP: "万岁!"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_GER: "上帝、祖国、元首!"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_ITA: "荣耀、至高、力量!"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_BRA: "前进!"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_FRA: "法兰西万岁!"
+ 
+### COUNTRY OPENING ###
+CountryInfo_tab_name_country: "国家概况"
+ 
+ ### Germany
+  GER_CountryInfo_Folder.101: "德意志国"
+  GER_CountryInfo_Folder.102: "德国的未来"
+  #101
+
+  GER_CountryInfo_Content.1: "§R战败§!的遗产"
+  GER_CountryInfo_Content_desc.1: "在§Y世界大战§!中惨败后，§Y德意志帝国§!在§R凡尔赛条约§!的重压下崩溃。新的§4魏玛政权§!饱受内部分裂、经济萧条以及§R赔款§!和非军事化带来的屈辱。\n\n在§R阿道夫·希特勒§!继任魏玛共和国总理的那天晚上，从黄昏直到午夜过后很久，乐极忘形的纳粹冲锋队员在街头举行盛大的火炬游行，庆祝胜利。他们成千上万的人，排成整齐的队形，从动物园出来，经过勃兰登堡凯旋门，到威廉街，他们的乐队在震天的鼓声伴奏下吹奏着军乐，他们的嘴里高唱着新编的§Y《霍斯特·威塞尔之歌》§!和其他一些同德国一样古老的歌曲，他们的长筒皮靴在马路上咔嚓咔嚓踩出了有力的节奏，他们的火炬高举着，成了一片火海，照亮了夜空，使聚集在人行道上观看的人们的欢呼声变得分外热烈。\n\n§R阿道夫.希特勒§!说，1933年1月30日诞生的第三帝国将历经千年而不衰，在纳粹党的语言中，它常常被称为§R“千秋帝国”§!。\n\n§R阿道夫·希特勒§!及其§O国家社会主义§!党的崛起标志着魏玛共和国政治混乱、民众极端化以及新生的民主体制的终结......"
+
+  GER_CountryInfo_Content.2: "§Y祖国§!崛起"
+  GER_CountryInfo_Content_desc.2: "第三帝国成为专制权力的化身，§Y力图重拾§!昔日的辉煌与伟大。在激进的再军事化支持下，一种新的民族自豪感使德国走上了重获全球影响力的道路。\n\n每个阶级的生活都不断获得改善以后，德国人的性格随之出现了某种变化。\n1848年以前的德国人（甚至俾斯麦时代的德国人），在本质上是一个谦卑朴实的民族，其最高目标就是团结在同一个屋檐下，而且他们已经如愿以偿。可是，自从俾斯麦下野以来，他们产生了一种大国的心态。\n\n许许多多德皇威廉时代的德国人，而且是来自各个不同阶层的德国人，突然在眼前浮现一个伟大的国家远景，一个全国性的目标：我们要成为世界强权，我们要向全世界扩张，德国必须在全世界享有优先地位！与此同时，他们的爱国主义也演变出一种有异于前的特质。\n\n当时振奋激励德国人的东西——他们的“民族主义”——与其说是一种休戚与共的感觉，倒不如说是一种§R自我意识§!，让他们觉得自己与众不同，是§R未来的霸主§!。\n\n在有些德国人看来，而且无疑地，在大多数外国人看来，当时的情况似乎是，一个江湖骗子在柏林取得了政权。但是对大多数德国人来说，§R阿道夫.希特勒§!具有或者不久就会具有一个真正天生的领袖的气质。在以后的暴风雨般的岁月中，他们要盲目地追随他，好似他具有出自天授的英明睿断。"
+
+  GER_CountryInfo_Content.3: "现状-1936年"
+  GER_CountryInfo_Content_desc.3: "§Y德意志祖国§!尽管在从大萧条中复苏方面取得了成功，但帝国仍面临诸多挑战：经济仍显脆弱，军队也才刚刚开始恢复昔日的实力。\n另一方面，§Y阿道夫.希特勒§!获得了广大人民群众的支持，德国政府提出的§Y四年计划§!则对未来的发展做出了新的规划，展现了一幅更美好的画卷。在§Y欧洲§!，人们的担忧日益加剧，但到目前为止，德国的行动尚未引发严重后果。\n\n然而，德国隐含的危机不仅仅是政治上的，还有经济上的——梅福券和军事经济学；在由于德国军队的重整军备过程极其昂贵。1933年，德国政府损失了GDP的1%，到1936年损失了近15%的GDP。由于§G重建军队§!和跟上世界大战期间技术和理论的巨大进步需要付出§R巨大的成本§!，德国政府将越来越开始依赖预算技巧，其中最重要的是§Y梅福券§!。\n\n梅福券将支出转化为另一种形式，并不直接进入债务，而是以6个月为一个周期进行延期，进而利用这些“凭空变出来的财富”实现军备重整。但一切§G利益§!早就在冥冥之中标好了§R价格§!，梅福券无法一直延续，它总会有要偿付的那一天，届时§Y帝国财政§!将面临极大的§R危机§!——除非能有什么借口让我们用别的方式，抑或是将偿付的时间拖延到数年甚至十数年之后。\n\n§R只有战争，是唯一能让我们无限制延期梅福券的借口。§!\n\n§4第三帝国的成败将取决于果断的行动、战略以及希特勒在外交和军事力量之间进行权衡的能力。§!"
+  #102
+
+  GER_CountryInfo_Content.4: "§R一个元首§!"
+  GER_CountryInfo_Content_desc.4: "我们的元首§R阿道夫.希特勒§!，在您的统治下，祖国正日渐强大，这将是一个全新世代的开端，通过与德意志祖国和她的盟友并肩作战，你将有机会建设一个§R新世界秩序§!，将一切反对者碾为齑粉。然而，内部敌人，如持不同政见的军官和君主主义者，可能会试图§R损害§!您和祖国的无上权威。尤其是，倘若战争走向不顺......\n你是否会保持党内的团结，建立一个强大的帝国以准备好为这场塑造新世界秩序的战争而战？\n\n有人说，§R阿道夫.希特勒§!的目标是拿破仑式的：在德国控制之下，建立一个日尔曼大陆体系。同时，他的手段也与那位大皇帝的相差不远：把德国从国际性资本主义的枷锁之下解放出来，联合所有的日尔曼民族共同组成一个第三帝国，在东欧建立一个所谓“生存空间”。他认为这对于德国的经济安全是有必要性的，正好像拿破仑认为莱茵联邦对于法国的战略安全是有必要性的一样。\n\n§O德意志国§!是否会成为§R新秩序§!的缔造者?\n\n让我们拭目以待。"
+  
+  GER_CountryInfo_Content.5: "§Y一个国家§!"
+  GER_CountryInfo_Content_desc.5: "自古以来，德国人对雄鹰的崇敬都是虔诚而深沉的。\n\n早在古罗马时代，雄鹰被看作是至高无上的上帝的象征，它保护着上帝的子孙和信徒不受侵害。上帝把自己比作雄鹰，谁相信它，谁就可以像雄鹰一样展翅高飞，不断获得新的生命活力。同时它又是太阳之鸟，它的锐眼能经受住太阳神的照射。\n\n在封建王朝时代，雄鹰是皇权的象征，帝王们希望以此使皇位永固。以雄鹰入图，早在九世纪就已经出现。\n\n在那些情绪兴奋、如醉如狂的日子里，常常会有一大群小贩在叫卖一种明信片，上面印着§Y腓特烈大帝§!、§Y俾斯麦§!、§Y兴登堡§!和§R希特勒§!的肖像。文字说明是：§R“国王所征服的，由亲王建成，元帅保卫，士兵拯救和统一。”§!希特勒不仅被描绘为德国的拯救者和统一者，而且是过去这些把德国造成一个伟大国家的杰出人物的继承者。希特勒的统治是德国历史的延续的结果。§Y“第三帝国”§!这个名称也有助于加强这种概念。第一帝国是中世纪的神圣罗马帝国，第二帝国是普鲁士击败法国后，俾斯麦在1871年建立的帝国。这两个帝国都为德国带来了荣誉，而§4魏玛共和国§!却玷污了德国的令名。第三帝国如希特勒当初所保证的一样，恢复了这种名誉。因此，希特勒的德国被说成是过去一切——至少是过去的荣誉——的合乎逻辑的发展。\n\n现如今，德意志雄鹰在已再次展翅，它将展翅翱翔，但§R能否直抵巅峰呢§!？"
+  
+  GER_CountryInfo_Content.6: "一个党"
+  GER_CountryInfo_Content_desc.6: "党旗上有红底白圆心、中间是一个黑色万字的图案。红底象征党派运动的社会性，白圆象征民族主义。党徽上的万象征争取雅利安人胜利的斗争的使命。\n\n§Y阿道夫.希特勒§!在《我的奋斗》一书中写道：“红色象征我们这个运动的社会意义，白色象征民族主义思想。万字象征争取雅利安人胜利斗争的使命。”\n\n在维京人的符文字母中，“S”代表太阳，正义，战胜魔鬼，用这个标志做标志，正好符合§Y阿道夫.希特勒§!的必胜理念和浓厚的西欧情结。\n\n卐字的历史同人类一样悠久。在特洛伊的废墟中，在埃及和中国的废墟中，都有人发现过卐字。我自己也曾在印度古代印度教和佛教的遗物中看到过它。\n\n在近代，爱沙尼亚和芬兰这样一些波罗的海国家的国徽中也出现过它，德国自由军团人员在1918年至1919年的战斗中曾在那里看到过。埃尔哈特旅在1920年卡普政变期间开进柏林时曾经把它漆在钢盔上。\n希特勒在奥地利的时候无疑在某个反犹政党的党徽中看到过它，也可能是埃尔哈特旅来慕尼黑的时候加深了他的印象。他说，许多党员向他提出的图样不约而同地都有一个卐字，而且有一个“来自施滕贝格的牙医师”确实提出了一个“一点也不坏而且同我的图样很相像的”旗帜的图样。\n\n至于颜色，希特勒当然不要他痛恨的魏玛共和国的黑红黄三色。他不想采用前帝国的红白黑三色旗，但是他喜欢这三种颜色，不仅因为——据他说——这三种颜色是“现有色彩最协调的颜色”，而且因为这三种颜色是他曾经为之战斗的德国军旗的颜色。不过它们得换个形式，于是便加了一个卐字。\n\n“这是一个真正的象征！”他在《我的奋斗》中惊叹说，“§R红色§!象征我们这个运动的社会意义，§Y白色§!象征民族主义思想，§0卐字§!象征争取雅利安人胜利的斗争的使命。”"
+ 
+ # ITALY
+  ITA_CountryInfo_Folder.101: "法西斯时代"
+  ITA_CountryInfo_Folder.102: "我们的未来"
+ 
+  ITA_CountryInfo_Content.1: "§G胜利§!的§R失败者§!"
+  ITA_CountryInfo_Content_desc.1: "1915年5月，意大利进攻奥匈帝国，意大利军队在奥匈帝国边境的士兵人数超过400,000人。可是奥匈帝国顽强防御，即使奥匈帝国兵员不足仍成功挡住意大利的攻势。意大利军官的训练相比奥匈帝国和德意志帝国的军队明显不足，另外意大利部队缺乏弹药，这些问题持续阻碍着意大利占领奥匈帝国领土。在第一年的战争中，战场上条件差导致爆发霍乱，造成大量的士兵死亡。意大利将士的士气低落，他们即使在休假，仍被禁止进入电影院或酒吧。但是当战斗即将发生，酒精就会免费提供给士兵，以缓和紧张心情。为了保持士气，意大利军队开了一些讲座。1916年后意大利的情况更糟，意大利面临军舰短缺，被潜艇攻击，运费飞涨，粮食供给的问题，缺乏原材料和设备，意大利需要高税收来维持战争。\n\n1917年法国、英国和美国表示愿意派军队到意大利帮助抵御同盟国，但遭意大利政府拒绝。\n\n1917年俄国因俄国革命退出战争，东方战线战争结束，更多的奥匈帝国和德国军队得以正面对抗意大利。意大利的反战声音日益增加，经济恶劣下为了维持战争经费，政府增加村地区的税收，使民无法维生，农业工作者已经从4,800,000人下跌到2,200,000人。\n\n左翼妇女在意大利北部城市领导发起抗议行动，要求结束战争。\n在米兰，示威者的抗议导致军队进入米兰，用坦克和机枪镇压，事件造成近50人死亡，其中包括3个意大利士兵，超过800人被捕。\n\n随着奥匈帝国决定停战，并于1918年11月11日对意大利下停战协定，世界大战结束。\n\n意大利在凡尔赛条约中的利益被损害，其向奥地利-匈牙利帝国声索的大量领土没有得到满足，加上在意大利境内普遍的经济萧条，大量退伍军人返国后失业，使§R本尼托·墨索里尼§!的国家法西斯党有机可乘。"
+  ITA_CountryInfo_Content.2: "§R法西斯主义§!的崛起"
+  ITA_CountryInfo_Content_desc.2: "在§O国家法西斯党§!的支持下, §Y贝尼托.墨索里尼§!于1922年10月利用工人罢工，宣布了他要求向意大利政府给予法西斯政治权力，否则就会发动军事政变。由于政府没有立即作出反应，法西斯支持者向罗马进军，自称是法西斯打算恢复意大利法律和秩序。在法西斯的领导和政府、皇室的纵容下，墨索里尼就任为意大利总理。墨索里尼发誓，在他的统治下，意大利将恢复§Y古老罗马帝国的无上荣光§!."
+  ITA_CountryInfo_Content.3: "§Y我们的海§!"
+  ITA_CountryInfo_Content_desc.3: "§Y贝尼托.墨索里尼§!认为，意大利王国继承自古罗马帝国的天然宣称，因此他将地中海称为§O“我们的海”§!。他的目标包括向巴尔干、希腊、土耳其乃至非洲的整个环地中海地区扩张并扩大意大利的影响力，同时在东非完成对埃塞俄比亚的征服。然而，这些目标仍然面临着一系列严峻考验。"
+  ITA_CountryInfo_Content.4: "现状-1936年"
+  ITA_CountryInfo_Content_desc.4: "§Y意大利王国§!  1936年的意大利是一个充满矛盾的国家。一方面，其陆军和海军正在进行现代化改造，对埃塞俄比亚的控制有望带来新的资源！另一方面，经济不稳定，工业基础弱于其他大国，政治体系过度依赖§Y贝尼托.墨索里尼§!的个人权威！\n\n现在，诚然我们通过取消国家干涉机构，取消对企业经营的一切限制，降低税收和简化税种，鼓励投资和对外贸易，甚至是削减政府开支和精简政府人员等种种手段取得了暂时的繁荣，但在大萧条当中，我国绝大部分的工业便陷入瘫痪，全国工业生产降低了33.2%，55000多家中小企业倒闭，123万人失业，一场新的风暴席卷了世界，我们不能仅靠国家干预来解决这场危机，命运的车轮已经开动，现在，我们必须选择去驾驭它，或是被它碾过。\n\n§4意大利能否在平衡野心与局限性的同时实现其目标？§!"
+  #102 - Path Split
+  ITA_CountryInfo_Content.5: "非洲的§G胜利§!"
+  ITA_CountryInfo_Content_desc.5: "在§O埃塞俄比亚§!取得最终胜利，击败当地的土著，并巩固§Y贝尼托·墨索里尼§!的权威，为进一步扩张奠定了基础。作为地中海的领导者，意大利可以继续复兴，成为一个§Y罗马§!帝国的继业者。\n\n完成§O非洲战役§!，并控制§O红海§!。\n开始在§Y地中海沿岸§!扩张巴尔干半岛、埃及，甚至法国都成为你的目标。\n\n利用与§r德国§!的联盟，完成§r大意大利§!的愿景和一个§r环地中海帝国§!的宏伟目标。"
+  ITA_CountryInfo_Content.6: "§Y领袖§!"
+  ITA_CountryInfo_Content_desc.6: "Duce是意大利语表示“领袖”或者“元首”意义的一个特殊名词，Duce一词源于拉丁语Dux。并因意大利法西斯主义独裁者§Y贝尼托.墨索里尼§!在1925年至1945年间使用此称谓而著称。Duce的渊源及迷思来自于法国大革命及18世纪理想主义和浪漫主义所提到的“特质”。\n\n类似于德语的“Führer”，它同样也是一个头衔和代名词。Duce的称号始用于19世纪，被用作意大利统一运动的政治宣传中，曾被用于朱塞佩·加里波底与之后的加布里埃尔·邓南遮。世界大战期间，“Duce Supremo（最高统帅）”曾被用来指代意大利王国国王维托里奥·埃马努埃莱三世作为意大利最高军事统帅。这个头衔此后的使用者，同时也是最为著名的使用者是意大利王国首相§Y贝尼托.墨索里尼§!。\n\n国家法西斯党成立后，Duce被明确引入党章的第一条：“国家法西斯党是一个执行领袖的命令、为法西斯国家服务的志愿民兵组织”。"
+
+ # Brazil
+
+  BRA_CountryInfo_Folder.101: "Republic of Brazil"
+
+BRA_CountryInfo_Content.1: "§GThe Fall of the Empire, Rise of the Republic§!"
+BRA_CountryInfo_Content_desc.1: "Brazil, having declared independence from Portugal in 1822, existed as an §YEmpire§! under the Braganza dynasty until the late 19th century. The economy, based on coffee, sugar, and rubber, helped maintain stability, but the rise of §Yrepublican sentiments§! and §Rmilitary crises§! undermined the monarchy.\n\nIn 1889, the §RBrazilian Empire fell§!, and the First Republic was proclaimed, where power was shared by §Gregional oligarchs§!. However, republican rule faced corruption, economic crises, and dependence on exports, laying the groundwork for future upheavals."
+
+BRA_CountryInfo_Content.2: "Coffee, Crisis, and Chaos"
+BRA_CountryInfo_Content_desc.2: "The §YGreat Depression§! of 1929 hit Brazil particularly hard. Dependence on coffee exports, which accounted for more than half of the country's revenue, led to §Reconomic collapse§! following a sharp drop in global prices. This caused §Rmass unemployment§!, exacerbated §Yinequality§!, and increased tensions between regions.\nDuring this period, §YGetúlio Vargas§!, governor of Rio Grande do Sul, gained §Ypopularity as a reformer§!, promising economic recovery and political stability. His rise came amid §Gweakening oligarchies§! and growing distrust of central authority."
+
+BRA_CountryInfo_Content.3: "The 1930 Coup"
+BRA_CountryInfo_Content_desc.3: "§YGetúlio Vargas§! came to power following the 1930 coup, which ended the old republic. Under his leadership, an era of reforms began, aimed at §Gindustrialization§!, §Ocentralization of power§!, and §Yworker protection§!.\nHowever, Vargas faced §Rpolitical resistance§!. Liberals and conservatives, dissatisfied with §Rincreasing authoritarianism§!, posed threats to his regime. In 1934, a new constitution was adopted, but §Rthreats of coups§! and pressure from rising extremist movements remained significant challenges.\n\nBy 1936, §YBrazil§! is a nation striving to balance §Yeconomic reforms§! with §Rpolitical instability§!. Vargas's regime brought §Gindustrial development§! and §Ysocial reforms§!, but also increased §Rcentralization of power§! and suppressed §Yopposition§!."
+
+BRA_CountryInfo_Content.4: "The New Republic"
+BRA_CountryInfo_Content_desc.4: "Vargas aimed to create a strong central government capable of controlling the economy and combating regionalism. In 1934, a new constitution was adopted, and his regime, officially §Odemocratic§!, increasingly leaned towards authoritarianism. The growing role of the §Ystate§! in the economy and politics sparked resistance from both liberals and radicals. What happens next remains uncertain."
+
+#102
+BRA_CountryInfo_Folder.102: "Hegemon of South America"
+
+BRA_CountryInfo_Content.5: "An Industrial Power"
+BRA_CountryInfo_Content_desc.5: "Getúlio Vargas focuses on §Yindustrialization§! and modernization. Brazil can develop heavy industry, build powerful armed forces, and become the leader of South America. Will Vargas maintain his fragile position, or will the country fall under the democrats? The choice is yours."
+
+BRA_CountryInfo_Content.6: "Socialist Revolution"
+BRA_CountryInfo_Content_desc.6: "Communist ideas gain support among the §Oworking class§! and students. The overthrow of Vargas leads to the establishment of a §RSocialist Republic§! and the transformation of Brazil into a bastion of §Yrevolution§! in Latin America.\n\nSpread socialist ideals across the continent.\nSeek support from the §eSoviet Union§! and other communist powers.\nOppose imperialism and fascism in all forms."
+
+BRA_CountryInfo_Content.7: "Fascist Rule"
+BRA_CountryInfo_Content_desc.7: "Brazilian §RIntegralists§!, inspired by the successes of fascist regimes in Europe, seize power. The new regime proclaims §Ynational unity§!, strict control over the economy, and readiness for expansion.\n\nEstablish §Rauthoritarian control§! over the country.\nSupport §rGermany§! and its allies, strengthening ties with Axis powers.\nBecome the leading military force in South America."
+
+ # Japan
+  JAP_CountryInfo_Folder.101: "Japanese Empire"
+  JAP_CountryInfo_Content.1: "Meiji and Modernization"
+  JAP_CountryInfo_Content_desc.1: "The §YMeiji Era§! (1868–1912) was a turning point in Japanese history. In just a few decades, the country transitioned from an isolated feudal state to a §Ymodern industrial power§!. Meiji reforms included strengthening central authority, creating a modern army and navy, and rapid economic modernization.\n\nThese changes allowed Japan to §Ysuccessfully defeat§! China in 1895 and Russia in 1905, solidifying its status as a §Yrising imperial power§! in East Asia."
+  JAP_CountryInfo_Content.2: "Japanese Empire"
+  JAP_CountryInfo_Content_desc.2: "Following victories in the §OFirst Sino-Japanese War§! and the §RRusso-Japanese War§!, Japan established control over §OKorea§! and strengthened its influence in §GManchuria§!. However, international restrictions like the §YWashington Treaty§! caused §Lmilitarists' dissatisfaction§!, as they sought to overcome these barriers."
+  JAP_CountryInfo_Content.3: "A Grim Gaze of Death"
+  JAP_CountryInfo_Content_desc.3: "The 1920s were marked by §Rpolitical instability§! and economic crises, allowing the §YJapanese army§! to seize power. In §R1931§!, Japan invaded §GManchuria§! and established the puppet state of §YManchukuo§!. Its withdrawal from the §LLeague of Nations§! and rising tensions with the West marked the beginning of a path to §YMilitarist Expansion§!.\n\nBy 1936, §YJapan§! is a §Gmodern yet militarized country§!. The army is preparing for further §Oexpansion§!, but internal struggles between military and civilian elites threaten stability.\n§4Can Japan achieve its ambitions, or will it fall to internal contradictions?§!"
+
+  JAP_CountryInfo_Folder.102: "On the Brink of Change..."
+  JAP_CountryInfo_Content.4: "Empire Under Fascism"
+  JAP_CountryInfo_Content_desc.4: "Choosing the historical path, Japan will continue to strengthen military control over the government by eliminating the §4Kodoha faction§! and maintaining internal stability. Efforts will focus on completing the war in China and preparing for conflict with Western powers, including the §YUnited States§!.\n\nFocusing on §Rfascism§! enables the strengthening of §Ostate control§! and mobilization of resources for global war. As part of the §OAxis§!, Japan will become a key player on the world stage, seizing resources and territories in Southeast Asia to ensure economic and military independence. However, the long-term consequences of aggressive policies may lead to significant challenges, especially in conflict with major powers."
+  JAP_CountryInfo_Content.5: "Influence of Kodoha"
+  JAP_CountryInfo_Content_desc.5: "The §4Kodoha faction§! offers an alternative vision for Japan's future, seeing §Gthe Soviet Union§! as the primary enemy and focusing on war in the north. Supporting this faction will lead to significant policy changes, including heightened aggression against the USSR and possible entry into the §OAxis§! to coordinate with the §OGerman Reich§!."
+  JAP_CountryInfo_Content.5: "§CThe Unthinkable Option§!"
+  JAP_CountryInfo_Content_desc.5: "Establishing a §ecommunist regime§! in Japan is a path fraught with dangers and challenges. This will require overthrowing the fascist government through §Ca civil war§!, splitting the country into warring factions. A successful revolution will give Japan the chance to join §Gthe Soviet Union§! or form its own communist bloc with §GChina§!."
+  JAP_CountryInfo_Content.6: "§YConstitutional Monarchy§!"
+  JAP_CountryInfo_Content_desc.6: "The democratic path begins with §Ya civil war§! against the fascist dictatorship. A successful uprising will establish a §GConstitutional Monarchy§! where a civilian government restores the balance of power and secures diplomatic recovery.\n\nFollowing victory, democratic Japan can join §Othe Allies§! to fight the Axis or create its own bloc, the §GWest Pacific Alliance§!, to safeguard its interests in Asia."
+
+  # CHINA
+
+  #101 General for all Chinese clicks
+  CHI_CountryInfo_Folder.101: "命运的捉弄"
+  
+  CHI_CountryInfo_Content.1: "§4民国§!的诞辰"
+  CHI_CountryInfo_Content_desc.1: "1911年§O辛亥革命§!的一声炮响拉开了中华大地的一个新时代，§R孙中山§!，革命的领导者与§4国民党§!的创始人，成为了§R中华民国§!的首任总统。然而，他建立一个§4民主且现代的国家§!的梦想却遭遇了残酷的现实：国家被军阀割据，中央政府势力薄弱。这一时期被称为§R军阀时代§!，其特征是地方势力为争夺国家控制权而斗争。每位将军都试图建立自己的国家，而北京的中央政府则失去了其影响力。\n\n其后内阁由北洋军阀掌控，史称“北洋政府”。在国民党领导人宋教仁遭到暗杀后，孙中山等发动二次革命失败。当选大总统的袁世凯先后颁布《中华民国约法》、接受日本《二十一条》，其后因为筹备中华帝国引发护国战争。"
+  
+  CHI_CountryInfo_Content.2: "§R军阀时代§!"
+  CHI_CountryInfo_Content_desc.2: "1916年袁世凯的去世使中国陷入了军阀混战的时代！众多军事独裁者将国家划分为各自的势力范围，中央政府几乎不复存在。这一时期的特点是§R派系林立与内战不断§!，破坏了国家的经济和团结。由于北洋军阀与地方军阀持续争权、各地陷入混战，中国国民党与中国共产党展开合作，成立陆军军官学校（黄埔军校）。\n\n1925年，国民政府在广州市成立。1926年起，蒋中正担任国民革命军总司令，发动国民革命军北伐。"
+  
+  CHI_CountryInfo_Content.3: "北伐战争"
+  CHI_CountryInfo_Content_desc.3: "§T国民党§!，1926年起，§Y蒋中正§!担任国民革命军总司令，发动国民革命军北伐，目标在于终结这一军阀混战的乱世并重新统一国家。1928年，当首都迁至§Y南京§!时，该运动取得了成功，并建立了一个名义上的统一政府。然而，§R地区矛盾§!和§R经济困难§!继续威胁着国家的稳定。1928年，东北易帜，中国分裂政局宣告统一。其后，中国国民党为首的国民政府实施以党治国的训政，国家建设得到发展。同时期内部有地方军阀与中国共产党势力割据，外部有大日本帝国威胁。1927年起，中国共产党在多地建立革命根据地。1931年，日本发动§R九一八事变§!，成立§R傀儡政权满洲国§!。"
+  
+  CHI_CountryInfo_Content.4: "改革与现代化"
+  CHI_CountryInfo_Content_desc.4: "尽管政治局势不稳定，§O中华民国政府§!仍试图实现现代化。政府努力§G建设基础设施§!（铁路、公路）并改革军队。然而，§R腐败§!和§R精英阶层的抵制§!阻碍了进展。另外，日本侵略者的铁蹄和军事上的威胁也进一步加剧了国内政治的不稳定，让改革与现代化步步维艰。\n\n然而，就在这样的情况下，中国政府仍然做出了一定的努力，获得了一定的成效，被称为§G“黄金十年”§!的国民党经济发展时期促进了中国整体的经济、工业和基础建设发展，也为中华的进一步现代化奠定了足够的基础。"
+
+  CHI_CountryInfo_Folder.102: "中华民国的沉重负担"
+ 
+  CHI_CountryInfo_Content.5: "§R扭曲的三民主义§!"
+  CHI_CountryInfo_Content_desc.5: "§G三民主义§!， 即民族主义、民权主义和民生主义，又称“孙文学说”、“国父思想”、“总理遗教”，是由中华民国国父暨中国国民党总理孙中山提出的政治思想，为中国国民党立党的基本思想，在《中华民国宪法》前言则以“孙中山先生创立中华民国之遗教”称呼，并被纳入《中华民国宪法》第一条内容。\n\n1905年，孙在《〈民报〉发刊词》中阐明民族、民权、民生三大主义，主张同时进行民族革命、政治革命和社会革命。\n\n蒋中正继承孙中山的“知难行易”学说，提出“力行哲学”，提倡革命务须力行，宣称“使全国国民都能知‘知’之难而能笃信主义；知‘行’之易而力行主义，从而除‘坐而言不能起而行’之苟且偷惰空疏颓放的积习，养成严谨勤劳求真崇实振奋进取的心性。”\n并进一步与新生活运动结合，说明“新生活运动的意义，就其内容而言，则为国民生活革命的运动；就其方式而言，则为普通社会教育的运动；就其最后目的而言，则为民族复兴运动中最重要根本的中心工作，即国民精神建设运动。\n\n其意义与作用，与总理关于心理建设的一切遗教，完全是一贯的，因此我们可以说新生活运动就是心理建设的补充实施办法。我们要完成心理建设，来奠定国家精神的基础，就要力行新生活。”继而与孙中山讲演所及的“中国人的固有道德”思想相对应，“来实践并发‘礼、义、廉、耻’的固有德性和立国精神。”\n\n然而，这一主义和后续蒋介石所提出的相关理解却逐渐在§R国民党的腐败§!和§R高层普遍的奢华生活§!、§R对普通百姓的压榨和盘剥§!中§R逐渐崩塌§!。\n\n我们需要一位手段强硬，敢于做出创新，§G敢于做出改变的人物§!，来真正的洗刷这一§R扭曲的三民主义§!，还中华民族一个§G美好的未来§!。"
+
+  CHI_CountryInfo_Content.6: "§R军阀化的中华民国与国民革命军§!"
+  CHI_CountryInfo_Content_desc.6: "中华大地§R军阀割据§!，国民革命军§R腐败崩塌§!，可以说我们现在仍然尚未§G统一中华§!，中央政府的权威仍然无法树立，大量省份对中央政府实质上是貌合神离，暗地里互相勾结，以损害中央政府的权威和行政能力为核心，确保中央政府无法将触手渗入这些省长的“小小王国”中。可以说，除却没有外交机构，这些小小的省份长官完全就是一个个独立于中央政府之外的独立国家。\n倘若我们希望在未来可以抵抗日本帝国主义的侵略，就必须终结这个糟糕的局面，并且完成国家实际上的统一。\n真正实现政令从首都出发，控制到地方各省。\n\n国民革命军也已经不是曾经那支进步的、先进的军队了，他们失去了为何而战的力量，现在又在大量直接易帜的军阀部队的腐化下§R堕落成了各个军头的私产§!，实际上又让军阀时代秽土转生。\n这一情况也必须得到解决，否则我们必将§R国之不国，国将危矣§!！"
+
+  #Маньчжурия
+
+  #101
+  MAN_CountryInfo_Folder.101: "The Shadow of the Qing Dynasty"
+
+  MAN_CountryInfo_Content.1: "The Fall of the Empire"
+  MAN_CountryInfo_Content_desc.1: "The collapse of the §RQing Dynasty§! in 1912 marked the end of over two centuries of Manchu rule over China. The dynasty, once a powerful force, was brought to its knees by §Rinternal corruption§! and §Rforeign intervention§!. With the abdication of §4Emperor Puyi§!, the §REmpire of Manchuria§! ceased to exist, leaving its people adrift in the tides of history."
+
+  MAN_CountryInfo_Content.2: "Foreign Domination"
+  MAN_CountryInfo_Content_desc.2: "Following the Qing's collapse, §OManchuria§! became a land of great geopolitical interest. Its fertile lands and rich resources drew the attention of foreign powers, particularly §TJapan§!. In 1931, the §RJapanese invasion§! resulted in the creation of §VManchukuo§!, a puppet state under Japanese control, ruled nominally by §4Emperor Puyi§!. However, true power remained in the hands of the §RJapanese military§!."
+
+  MAN_CountryInfo_Content.3: "The Puppet State"
+  MAN_CountryInfo_Content_desc.3: "Under Japanese control, §VManchukuo§! was promoted as a model of §4modernization and industrial development§!. Infrastructure projects, such as §Grailroads§! and §Gfactories§!, were constructed to exploit Manchuria's resources for the benefit of Japan. The reality, however, was far grimmer, as the native population suffered under §Reconomic exploitation§! and §Rpolitical repression§!."
+
+  MAN_CountryInfo_Content.4: "The Legacy of the Qing"
+  MAN_CountryInfo_Content_desc.4: "Despite its subjugation, §OManchuria§! remains a land of deep historical significance. The §RQing Dynasty§! may have fallen, but its cultural and political legacy still influences the region. Whether Manchuria can reclaim its sovereignty or remain a pawn of foreign powers depends on the §Rstrength and unity§! of its people."
+
+  MAN_CountryInfo_Folder.102: "The Struggle for Manchuria"
+
+  MAN_CountryInfo_Content.5: "A Nation Divided"
+  MAN_CountryInfo_Content_desc.5: "Manchuria stands at a crossroads. With §RJapanese occupation§! on one side and the §GChinese Republic§! on the other, its fate is uncertain. Can its people rally to restore §Vsovereignty and independence§!, or will it remain trapped in the shadow of foreign powers?"
+
+  #Soviet Union
+  SOV_CountryInfo_Folder.101: "十字路口上的共产主义"
+
+  SOV_CountryInfo_Content.1: "社会主义之诞辰"
+  SOV_CountryInfo_Content_desc.1: "§O十月革命§!1917年的十月革命推翻了临时政府，并在§R弗拉基米尔·列宁§!的领导下建立了§Y布尔什维克政权§!！§Y苏俄§!面临§R内战§!、§R经济崩溃§!和§R外国干涉§!，忠于皇帝的武装势力联合富农、地主等资产阶级组成白军，与俄国共产党领导的红军展开内战争夺政权，最终红军击败各路白军势力和干涉此战的多国军队，于1922年10月取得内战的胜利，巩固政权；并于1922年宣布成立§R苏维埃社会主义共和国联盟§!。同年12月30日，苏俄和白俄罗斯、乌克兰、外高加索联邦签署《苏联成立条约》，苏联成立，并后续纳入更多加盟国，版图不断扩张。"
+
+  SOV_CountryInfo_Content.2: "列宁的遗产"
+  SOV_CountryInfo_Content_desc.2: "在§R列宁§!于1924年逝世后，一场激烈的权力斗争随之展开。主要竞争者包括一国社会主义的倡导者§R约瑟夫·斯大林§!，以及左翼反对派领袖§4列昂.托洛茨基§!左翼反对派的领袖，坚持其§G世界革命§!的观点。这场冲突为日后党和国家内部的分歧埋下了伏笔。苏联共产党中央委员会总书记约瑟夫·斯大林从政治斗争中胜出，获得苏联的领导权。\n\n在苏共第十三次代表大会上，列宁的遗嘱没有被公布于众，而仅仅是在中央委员会的高级领导人中传达，斯大林根据列宁遗嘱的建议提出辞职，而加米涅夫、季诺维也夫等人不同意，他们认为列宁的建议是不合适的，并一致选举斯大林为苏共中央总书记。\n\n托洛茨基写下§R《论列宁》§!和§R《十月的教训》§!，捍卫列宁主义，直言不讳的批评加米涅夫、季诺维也夫等人，促使两人与斯大林联手形成共同对抗托洛茨基的局面。三人发表文章称““托洛茨基主义”并非真正的列宁主义”，斯大林还表示“党的任务就是要埋葬托洛茨基主义这一思潮”。\n被孤立的托洛茨基在政治斗争中失败，被解除革命军事委员会主席的职务。而不久之后，斯大林与加米涅夫、季诺维也夫的意见亦见分歧：斯大林支持尼古拉·布哈林的意见，延续新经济政策，减少约束农民，并希望先在一国建成社会主义；而加米涅夫和季诺维也夫反对放大新经济政策并拥护世界革命的主张，他们形成“新反对派”，1925年在党的第十四次代表会议上，他们和斯大林为首的主流派公开对抗，却以失败告终。\n\n季诺维也夫于是重新联合托洛茨基，并和列宁遗孀克鲁普斯卡娅等人结成反对派联盟，共同和斯大林的“右倾”集团斗争。\n\n斯大林充分利用中央权力打压反对派，1927年12月党的第十五次代表大会后，§R托洛茨基、季诺维也夫、加米涅夫等人被先后开除出党§!。\n\n通过一系列政治手段，斯大林完成了自己对苏联政治体系的§G完全控制§!。"
+
+  SOV_CountryInfo_Content.3: "工业化时代"
+  SOV_CountryInfo_Content_desc.3: "从1927年开始，斯大林提出要在短期内实现赶超发达国家的目标，于是按照§O每五年一计划§!的方式，以高度集中的§O指令性计划经济模式§!发展经济。1928年－1932年的§4第一个五年计划§!主要推行§R农业集体化§!政策。随后的§4第二个五年计划§!则以§R牺牲农业§!为代价，大规模§G发展重工业§!。\n\n在这段时间内，苏联的工业总产值以惊人的速度增长。期间在乌拉尔山以东的马格尼托哥尔斯克、库兹涅茨克等地建立诸多新兴工业区。然而，和1928年相比，1937年苏联的人均食品消费和人均工业消费品量下降3%－8%。在有些地区，工人需要付出超出常人的工作量，且不能达到生产要求的会被处分，以至进行劳改甚至被枪决。\n\n而在另一些地区，工人们却有良好的福利保障，八小时工作制得到落实。\n1935年首先取消面包和面粉、米的配给制，后来又取消了按定额发放的其它食品的配给制。1936年初，工业品也采取类似的措施。”\n\n与1932年相比，苏联1936年通过零售商品流转渠道供应的重要日用工业品和食品增长情况如下：针织外衣增长2.86倍，针织内衣3.08倍，砂糖1.92倍，动物脂肪1.59倍，糖果点心0.81倍，灌肠和熏制食品3.90倍，靴子1.18倍，长、短裤子0.97倍，自行车3.2倍，留声机10.7倍，手表7.2倍。消费品的销售额有很大的增长。"
+
+  SOV_CountryInfo_Content.4: "挑战和威胁"
+  SOV_CountryInfo_Content_desc.4: "在工业化取得的巨大成功的背后，如今的苏联仍然饱受§R平均主义§!，§R残留的小农经济§!和§R封建残留§!所害。\n\n被驱赶进集体农庄的农民缺乏生产积极性，利用农产品和工业品之间的剪刀差推进的一五计划加剧了农民的负担，让大量人民身无分文，难以维持温饱；另外，自基洛夫案之后不断升温的政治运动，也让越来越多的公民和党员被层层下发的胡乱定义流放和迫害，反复加速放缓的农业集体化让农民晕头转向，被盲目定下的大指标则导致了席卷全苏联的大饥荒。\n\n现在的苏联还能从不愿耕种粮食的人民心中得到拥护和信任，重新解决这一场危机吗？\n\n在国际孤立和§R日益增长的法西斯威胁§!下，苏联为新的考验做好了准备吗？\n\n苏联是否已为战争做好准备，以及§R社会主义意识形态§!能否承受内外压力，只有时间才能揭晓答案。"
+
+  SOV_CountryInfo_Folder.102: "§G更美好的未来§!"
+
+  SOV_CountryInfo_Content.5: "§R大清洗§!"
+  SOV_CountryInfo_Content_desc.5: "1934年12月1日，苏联政治风头正盛的列宁格勒州委书记§R谢尔盖·基洛夫§!在斯莫尔尼宫三层被刺客枪击头部身亡。\n\n§R斯大林§!对此案高度重视，他亲自前往列宁格勒参与调查和审讯，并且宣称此次暗杀是由§R托洛茨基及其反对派所策划§!，开始针对老布尔什维克的清洗。\n1935年2月原内务人民委员部的党中央书记亨里希·雅戈达被尼古拉·叶若夫接替。\n同时安德烈·维辛斯基被任命为检察长。\n\n大清洗活动也涉及到社会中的许多人：知识分子、农民（尤其是“富农”）、神职人员、技术专业人员(他们可能因为计划、专案的失败而获罪)和少数族裔。很多人遭到逮捕，被关押在古拉格集中营里，遭受身体和精神上的虐待，部分人在饥饿、疾病等恶劣的生存环境中死亡。苏联境内的诸多少数族裔被集体迁移和流放，其中包括：波兰人、伏尔加德意志人、摩尔多瓦人、犹太人、爱沙尼亚人、拉脱维亚人、立陶宛人、克里米亚鞑靼人、车臣人、哈萨克人、朝鲜人等等。\n\n即便其中有无辜者，我们也必须继续推进大清洗，§R“宁可错杀一千，绝不能放过一个”§!！"
+
+  SOV_CountryInfo_Content.6: "斯大林主义"
+  SOV_CountryInfo_Content_desc.6: "斯大林在苏联建立他自己和列宁的个人崇拜。\n\n他不顾列宁的遗孀克鲁普斯卡娅反对，将列宁的遗体安放在水晶棺内供人瞻仰。\n\n斯大林自己也曾是大规模敬爱甚至是崇拜的中心。\n一些城镇、乡村、城市以他的名字命名，如斯大林格勒，还有斯大林奖、斯大林和平奖等等。托洛茨基曾批评斯大林的个人崇拜，认为建立这样的个人崇拜将个人价值凌驾于党和阶级之上，违反社会主义的价值，从而没有人能对斯大林进行个人批评。苏联境内处处树立斯大林的像，尽管照片显示他只有165–168公分高，雕像的高度却和沙皇亚历山大三世相当。\n私生活的领域也不能免于斯大林文艺的包围，从1930年代初起，很多居家里都有一间“斯大林屋”用来放置他的肖像片之类宣传品。\n\n§R斯大林模式§!“全面集中管理社会生活的所有领域，将行政命令方法与国家恐怖手段相结合，直至组织大规模镇压和建立强制性劳动的集中营；粗放和浪费的经济与政治机制，在这种机制下，完全取消了依据社会效益来评价成果；否认从前的民主化形式的价值，取消群众管理和民主制度的形式；否认自治思想，政权的神圣化直至个人崇拜；社会生活甚至不受形式的民主程序控制；把党和国家的机关结为一体；执行机关监督选举机关；执法机关脱离法律和社会。\n\n其结果是§R一人的意志足以压倒一切...§!"
+
+  SOV_CountryInfo_Content.7: "钢铁之人"
+  SOV_CountryInfo_Content_desc.7: "他成就了§G崇高而又伟大的事业§!，也为此而严厉地对待民众；他§R极其刻板§!又§4知识渊博§!，同时也犯了一些十分明显的错误；他是一个真正大公无私的人，但由于过于迷信权力有时也无暇顾及他人的感情；他在国家大事上既有深谋远虑、谨小慎微一面，而在涉及数百万人的命运上又采取比较简单粗鲁的方式，以至事后不得不长时间地、痛苦地纠正其错误。\n\n§R这就是斯大林§!。\n\n他在短短十五年中，将自己手中还没有实权的职位变成了苏联权力的顶点，在他联合布哈林，季诺维也夫等人击败自己的最大敌人，将托洛茨基和他的党羽驱逐出党后，便以雷霆手段掌控了内务部，开始对党进行改组，昔日的盟友被一一清算，敢于反对他的人也被契卡各种名义驱逐或暗杀，而在他的挚友和心腹基洛夫被暗杀后，他的疑心病也变得愈发严重，外部的巨大威胁和严峻现实，内部的种种病患都让这位优柔寡断的统帅不得不以暴力手段解决这一危机，但往往，这又会引发更多的危机，无论是农业集体化，还是快速工业化，在斯大林的带领下，成绩斐然的背后，也暗藏着滔天的危机。\n\n我们所崇拜的最高统帅现在似乎终于从§R接连不断的噩耗§!当中得以脱身，§R他将带领我们走向何方？§!"
+
+  SOV_CountryInfo_Content.8: "§G斯大林宪法§!"
+  SOV_CountryInfo_Content_desc.8: "该宪法对苏联政府进行了重新设计。从法律上肯定了工业化和农业集体化的成就及所带来的社会政治和经济的根本变化。新宪法规定苏联是§R工农社会主义国家§!，他的经济基础是§R生产资料的社会主义所有制§!，它的政治基础是§R劳动者代表苏维埃§!，苏联共产党是一切社会团体和国家机构的核心，以法律的形式否定其他政党存在的基础。\n\n新宪法的颁布，标志着社会主义制度在苏联基本确立。\n该宪法撤销了对选举的限制，加入了普选权、工作的权力及之前宪法所保障的权力。\n\n该宪法是由斯大林担任主席的一个31人的特别委员会编写的。这些人包括安德烈·维辛斯基、安德烈·日丹诺夫、马克西姆·李维诺夫、克里门特·伏罗希洛夫、维亚切斯拉夫·莫洛托夫、拉扎尔·卡冈诺维奇、尼古拉·布哈林及卡尔·拉狄克，不过最后两人扮演的角色较少。"
+
+
+  #Франция
+  FRA_CountryInfo_Folder.101: "Divided Republic"
+
+  FRA_CountryInfo_Content.1: "The Legacy of the Great War"
+  FRA_CountryInfo_Content_desc.1: "\n§OThe First World War§! left a profound mark on the French nation. The country lost millions of lives, and the economic devastation was §Rimmense§!. Nevertheless, France remained one of the §Ygreat powers§! of Europe, relying on its control over an extensive colonial empire and a network of alliances."
+
+  FRA_CountryInfo_Content.2: "Political Instability"
+  FRA_CountryInfo_Content_desc.2: "France's internal politics during the interwar period were characterized by §Rfrequent government changes§!, a growing divide between leftist and rightist forces, and §Gsocial unrest§!. The hardships of the Great Depression only deepened public distrust in the Third Republic."
+
+  FRA_CountryInfo_Content.3: "Challenges of the Colonial Empire"
+  FRA_CountryInfo_Content_desc.3: "\nThe French Empire spans vast territories across Africa, Asia, and Oceania. However, §Oanticolonial movements§! are gaining momentum, and many in the metropole are questioning whether to maintain control over the colonies or focus on strengthening France itself."
+
+  FRA_CountryInfo_Content.4: "External Threats"
+  FRA_CountryInfo_Content_desc.4: "The rise of §Rfascist regimes§! in Germany and Italy forces France to bolster its military forces and seek §Ynew diplomatic alliances§!. Whether the Third Republic can address these external challenges while managing its internal problems remains an open question."
+
+  FRA_CountryInfo_Folder.102: "Paths of France"
+  
+  FRA_CountryInfo_Content.5: "The Diversity of France"
+  FRA_CountryInfo_Content_desc.5: "§YLéon Blum§! and the §OPopular Front§! represent the hope for democratic revival in France. This path includes §Gsocial reforms§!, protecting workers' rights, and §Yresisting extremism§! from both the left and right. However, resistance from the elites and economic difficulties may hinder the realization of these ideals.\nThe §OFrench Communist Party§!, led by §RRené Nicod§!, aims to establish a §Gpeople's government§! and build a society founded on equality. This course envisions §Rnationalizing industries§! and aggressively suppressing bourgeois influence. However, the risk of societal division and potential isolation from allies threaten this path.\nA return to the §Yimperial tradition§! under the leadership of §GNapoleon VI§! promises the restoration of §Rnational grandeur§!.\n\nWhich path will the Third Republic take?"
+
+
+  #101 - A Nation Unmoored
+  USA_CountryInfo_Folder.101: "自由的灯塔，民主的火炬"
+  USA_CountryInfo_Folder.102: "下一个是什么？"
+  
+  USA_CountryInfo_Content.1: "回顾历史"
+  USA_CountryInfo_Content_desc.1: "欧洲人从16世纪开始殖民北美，1607年起开始成为英国的殖民地。1775年美国独立战争爆发，1776年7月4日《独立宣言》发表，1783年英国战败并承认其独立。1787年《美利坚合众国宪法》完稿，标志联邦政府和联邦制正式确立。\n\n自19世纪起。美国不断西进和对外扩张，至1848年时疆域已横跨北美大陆。1861年，由于奴隶制的分歧，美国南部七个蓄奴州宣布退出联邦而独立，南北战争爆发。1868年，北方胜利，奴隶制被废除。\n\n到19世纪末，美国已成为一个工业和经济强国。1898年§Y美西战争§!的胜利使美国获得了对菲律宾、波多黎各和古巴的控制权，随后，在第二次工业革命和世界大战的推动下，美国经济实力不断增长，从而确立了美国作为§G全球强国§!的地位！。"
+  
+  USA_CountryInfo_Content.2: "从孤立主义到世界舞台"
+  USA_CountryInfo_Content_desc.2: "孤立主义在很长一段时间内都是美国历史上最具影响力的政治思想之一。\n\n个贯穿美国历史，自华盛顿时代就逐渐确立起来的政治观点在珍珠港事件前一直都是美国国内盛行的主流思想。由于美国与多数国家的联系都被太平洋和大西洋所隔绝，故此自独立以来，美国人就始终认为自己与其他地方的人们生活在一个不同的世界里。\n\n美国建国伊始，华盛顿就要求美国在结交盟友的时候必须保持高度警惕，尽管当初孤立主义思想在美国并不受到支持。\n\n然而随着约翰·亚当斯因避免美国卷入拿破仑战争而在二期总统选举中落败，其继任者托马斯·杰斐逊又在第二个任期内因避免美国卷入拿破仑战争遂中断与欧洲的贸易往来而导致支持率暴跌，再接着詹姆斯·麦迪逊在执政期间遭遇了惨淡收场的1812年战争；自此之后，​“不要卷入欧洲战争”就渐渐成为了所有美国执政人士达成的某种默契。\n\n十九世纪初，美国出现“门罗主义”，美国将会以战争阻止欧洲列强干预拉丁美洲，同时对欧洲列强之间的战争保持中立，也是孤立主义的一种表现，但也为美国至此介入拉丁美洲国家的内政。\n\n美国在§Y世界大战§!初期保持中立，但1917年加入战争成为了一个转折点。美国的工业、资源和军事力量帮助协约国扭转了战局，巩固了美国作为全球经济和军事强国的地位。战后，伍德罗·威尔逊总统提议成立并加入§Y国际联盟§!，但国会中的孤立主义情绪导致美国拒绝加入。\n由于欧洲在世界大战中遭受了巨大伤亡，美国政府在1920年代开始重新奉行孤立主义，决心不再参与任何在欧洲发生的军事冲突。当时的孤立主义导致严格的关税制度，这被认为是后来大萧条的一个重要原因。\n\n1930年代美国国会通过了《中立法案》。\n\n这些相互矛盾的政策和法案揭示了美国的全球野心与不干涉传统之间的矛盾，这一矛盾将影响20世纪20年代美国的外交政策。"
+
+  USA_CountryInfo_Content.3: "§G大萧条与罗斯福新政§!"
+  USA_CountryInfo_Content_desc.3: "§Y1920年§!带来了经济增长和§G“咆哮的二十年代”§!，但1929年的大萧条重创了国家经济。数百万美国人失业，企业倒闭，§R“社会紧张局势”§!达到了临界点。美国经济的衰退减缓其他国家的发展，各国因自身经济强弱衰退情况有所不同。贸易保护主义者抬头《斯姆特-霍利关税法》，疯狂寻求自保，导致其他国家以报复性关税作为回应，加剧全球贸易崩溃。到1930年底，全球经济衰退全面蔓延，并于1933年达到底谷。\n\n大萧条造成严重的社会问题，期间约有200－400万中学生辍学；许多人忍受不了痛苦而自杀；治安恶化。最重要的问题是失业，美国曾有1370万人失业，1929-1933年间的失业率高居25%[来源请求]，即使是罗斯福新政时期也从未低于15%。在美国各城市，排队领救济食物的穷人长达几个街区；英国更曾有则有500-700万人失业[来源请求]，市民在劳务市场内需要排很长的队伍。\n\n1933年，富兰克林·D·罗斯福总统推出了“新政”——一系列旨在“经济复苏”、创造就业机会和“社会保护”的改革。尽管取得了成功，但“不平等”和“社会问题”继续威胁着国家的稳定。\n\n“新政”于1933年开始实行，1933-1934年为“第一次新政”，1935年至今为“第二次新政”。“救济”针对穷人与失业者，“复兴”是将经济恢复到正常水准，“改革”针对金融系统，预防再次发生大萧条。\n\n对外，美国保持中立，但欧洲和亚洲独裁政权崛起的“威胁”开始引起政府的担忧。"
+
+  USA_CountryInfo_Content.4: "站在十字路口"
+  USA_CountryInfo_Content_desc.4: "1936年的§Y美国§!正从§R经济危机§!中复苏。经济再次增长，但社会分歧仍是一个严重问题。\n美国的外交政策根植于孤立主义，但全球事件有可能将该国卷入新的冲突。德国、日本、意大利抑或是其他国家挑战§Y世界秩序§!，美国必须决定是继续保持中立还是重返全球舞台。\n\n§4美国能否保持中立，还是必须在即将到来的斗争中发挥积极作用？§!"
+
+  #102 - The Sixth Party System
+  USA_CountryInfo_Content.5: "§G罗斯福新政§!"
+  USA_CountryInfo_Content_desc.5: "“新政”以增加政府对经济直接或间接干预的方式，大大缓解大萧条所带来的经济危机与社会矛盾。通过国会制定了§Y《紧急银行法》§!、§Y《农业调节法》§!、§Y《国家产业复兴法》§!、§Y《社会安全法》§!等法案。截止到目前，罗斯福新政时期产生的一些制度或机构如社会安全保障基金、美国证券交易委员会、美国联邦存款保险公司、美国住宅局、田纳西河谷管理局等仍产生着重要的影响，并极力推进我国经济恢复和降低失业。\n\n§G“遍布全国、在政府的政治哲学中遭到遗忘的男人和女人，期望我们起而领导他们，也冀望有更公平的机会可以分享国家财富的配额...我保证将提出一项为了美国人民的新措施。这不仅是政治性的竞选活动，这是一次战斗。”§!\n\n罗斯福当选时并未有一套特别的计划来处理大萧条，所以他如同国会般听取各种意见。在罗斯福的顾问中，最有名的是“国策智库，这群人倾向于正面看待政府对经济务实性的干预。他所选用的劳工部长弗朗西丝·珀金斯大幅度地影响了他的想法，她对工作的各种应具备性质的名单如：“一周工时40小时、最低工资、工人的补偿、失业补偿、禁止童工的联邦法律、直接来自于联邦的失业救济、社会安全法案、再兴劳工委员会与健康保险”。第一次新政融合了各种团体提出的建议。\n\n新政第一个阶段的特征还有财政政策的保守主义，与实验使用多种不同、有时甚至相冲突的解药来治疗经济的病灶。其结果并不平均。有些计划──尤其是国家工业复兴总署（NRA）与银本位计划被广泛地视为失败的政策，其他可能持续了十年，有些甚至成为永久的政策。在罗斯福的第一个任期内经济向上反转，这是史上GDP成长最快的时期之一。"
+  
+  USA_CountryInfo_Content.6: "§4最伟大的一任§!"
+  USA_CountryInfo_Content_desc.6: "罗斯福被广泛认为是20世纪的最重要、最具影响力的人物之一。国内方面，强化了联邦政府的权力推行罗斯福新政，带领国家走出大萧条的阴影，并为日后的福利主义奠下基础；虽受保守派的抵制，但罗斯福的§4新政联盟§!仍占优势。\n\n罗斯福亦善用媒体宣传自己和国家政策，例如他本人以广播形式向基层传达讯息的炉边谈话，并首次代表§Y美国政府§!公开支持美国§Y好莱坞电影§!的发展，使好莱坞作为政治宣传和美国文化对外输出的工具。\n罗斯福政府重新定义了自由主义，并重组了民主党促成强大的新政联盟，由此开启第五政党体系时期。\n\n§4他与其妻埃莉诺·罗斯福被视为美国现代自由主义的典范。§!\n\n§Y然而，当风暴真正来临，这艘航船是否还能在富兰克林·D·罗斯福的手中平稳航行呢？§!"
+
+  # Britain RULES THE WAVES
+
+  ENG_CountryInfo_Folder.101: "蒙上阴霾的群岛"
+  ENG_CountryInfo_Folder.102: "统治吧，不列颠尼亚！"
+
+  ENG_CountryInfo_Content.1: "不列颠帝国殖民秩序"
+  ENG_CountryInfo_Content_desc.1: "§R世界大战§!结束之后英帝国完成最后一次的大规模海外扩张。英国经国际联盟的批准对原本属于奥斯曼帝国的巴勒斯坦和伊拉克进行委任统治，而前德国殖民地-坦噶尼喀、喀麦隆部分地区、西南非洲（即纳米比亚）和新几内亚也被划入英帝国的版图（其实西南非洲被归由南非管理，而新几内亚则由澳大利亚统治）。\n\n不过世界大战之后英国在莱因兰的占领区就不被认为是帝国的一部分。\n\n1920年代是自治领发生巨大变革的时代。虽然自治领在世界大战爆发时还无权选择是否参战，1919年结束世界大战的§Y《凡尔赛条约》§!，却是由英国和其自治领分别签署的。\n\n1922年自治领不再愿意支持英国对土耳其的军事行动，迫使英国寻求一个和平的妥协方案。自治领的完全独立经由1926年的§Y《贝尔福宣言》§!和1931年的§Y《威斯敏斯特法案》§!得到最终确立：所有自治领取得与英国的同等地位，英国的立法机构不再有权干涉自治领内部事务，自治领也将享有自主外交政策的自由。1907年在殖民部内设立的一个主管自治领事务的部门也在1925年从殖民部分离出来成立独立的自治领部，并在1930年拥有首位部门大臣。\n\n虽然到20世纪初，英国已成为历史上最大的帝国！其领土遍布各大洲，海军力量确保了其在海上的主导地位！贸易路线、金融控制和工业实力使伦敦成为政治和经济的世界中心！\n\n然而，就目前来看，帝国的辉煌已经开始动摇，受到§R美国§!和§R德国§!崛起以及印度、爱尔兰和其他殖民地§Y民族主义运动§!的挑战。"
+
+  ENG_CountryInfo_Content.2: "胜利的代价"
+  ENG_CountryInfo_Content_desc.2: "§R世界大战§!既展示了英国陆军和海军的强大实力，也暴露了其经济和社会的脆弱性。大英帝国与法国和俄罗斯并肩作战，提供了后勤和财政支持。1918年的胜利付出了巨大的代价——数十万人丧生，巨额军费开支，以及对帝国未来的信心丧失。和平条约巩固了英国的领土，但经济不稳定、分离主义运动抬头以及政治分歧开始动摇其根基。\n\n虽然英国赢得了战争，并从战争中获得新的殖民地，但是§R战争的巨大开销§!使得英国无法继续承担维系一个帝国所需要的庞大财政支出。英国有数百万人死亡，无数资产被毁，其结果是§R债台高筑§!、§R资本市场的混乱§!以及在§R海外殖民地英国籍官员人数的缺乏§!。与此同时，§Y民族主义§!情绪在新老殖民地都在高涨，而帝国的参战以及非白人士兵在战争中所感受到的强烈的种族歧视都更加助长这种民族主义情绪。"
+
+  ENG_CountryInfo_Content.3: "世界大战后的§R挣扎§!"
+  ENG_CountryInfo_Content_desc.3: "20世纪20年代和30年代，英国经历了危机与希望并存的时代。\n\n一方面，英国恢复了经济，加强了议会制度，并成为国际外交的中心，助力建立了国际联盟。另一方面，大萧条对经济造成了破坏，引发了失业和社会动荡。殖民地，尤其是印度的民族独立运动日益高涨。此外，德国、意大利和日本的崛起所带来的战争威胁也日益明显。\n\n尽管面临这些挑战，英国在全球政治中仍发挥着关键作用，维持着强大的海军，并与加拿大、澳大利亚和南非等自治领保持着同盟关系。\n\n然而，大英帝国的§R衰落§!已经日益显著，§G世界霸主§!的宝座已经被虎视眈眈的继业者所挑战，一场新的风暴很快便会降临这个§R垂垂老矣的帝国§!。"
+
+  ENG_CountryInfo_Content.4: "应对挑战"
+  ENG_CountryInfo_Content_desc.4: "1936年，§Y英国§!面临着一个艰难的选择。其工业正从大萧条中复苏，而议会则试图通过加强其在国际联盟中的地位来维护和平。然而，德国和日本构成的威胁，以及殖民地日益增长的不满情绪，都要求英国采取果断行动。\n\n§4英国能否保持其作为世界帝国的地位，还是将失去对局势的控制？§!"
+
+  ENG_CountryInfo_Content.5: "终结一切战争的战争"
+  ENG_CountryInfo_Content_desc.5: "英国作家及社会评论家赫伯特·乔治·威尔斯在报章出版的一系列文章而成，随后更辑成§Y《将终结一切战争的战争》§!一书，鼓吹只有通过战争结束德军国主义造成的世界大战。\n\n世界大战期间，终结一切战争的战争之理论曾遭受怀疑，领导英国的战时内阁首相大卫·劳合·乔治讽刺地说：§R“这一战，就像下一场，是终结一切战争的战争”§!，批评战争无助阻止大战，反而酿成下一次战争。\n\n英军将领阿奇博尔德·珀西瓦尔·韦维尔更沮丧地批评巴黎和会：§R“经过终结一切战争的战争，他们（三巨头）却以和平结束和平。§!"
+
+  ENG_CountryInfo_Content.6: "§Y维续日不落帝国§!"
+  ENG_CountryInfo_Content_desc.6: "世界大战带来的世界秩序变化，尤其是美国和日本发展成为海军强国，以及印度和爱尔兰独立运动的兴起，引起了大英帝国对政策重新评估。英国被迫在与美国或日本结盟之间做出选择，英国选择不再续签英日同盟，而是签署了1922年§Y《华盛顿海军条约》§!，其中英国接受了与美国的海军平等。安全问题是英国的一个严重关切，因为它对英国的自豪感、金融和贸易导向型经济至关重要。\n\n而作为我们帝国皇冠上最璀璨的宝石，印度在世界大战中大力支持帝国，它期望得到回报，但未能获得自治，政府仍然控制在英国手中，并担心再次发生类似于1857年印度起义。§Y《1919年印度政府法案》§!未能满足自治的要求。日益紧张的局势，特别是在旁遮普地区，在1919年的阿姆利则惨案中达到顶峰。印度民族主义高涨，并以莫罕达斯·甘地领导的印度国大党为中心。\n在英国，公众舆论对于大屠杀的道德性存在分歧，一些人认为这场屠杀将印度从无政府状态中拯救出来，另一些人则对此表示厌恶。§R但无论如何，我们都必须通过此举，向世界展示大英帝国的决心与力量！§!"
+
+  ENG_CountryInfo_Content.7: "§Y全球防卫§!"
+  ENG_CountryInfo_Content_desc.7: "帝国的领土遍布七大洲八大洋，阳光无时无刻不照耀在帝国的领土上。然而，这也带来了新的问题：科技的发展让帝国的殖民地受到来自世界各个国家的挑战，这些威胁都必须得到解决，我们必须捍卫§G不列颠的日不落帝国§!，直到最后一刻！"
+
+  ENG_CountryInfo_Content.8: "绥靖政策"
+  ENG_CountryInfo_Content_desc.8: "绥靖主义指对侵略势力作出政治或物质让步的短视现实主义、孤立主义及和平主义政策来暂时避免军事冲突的外交政策，常被用以指称英国首相拉姆齐·麦克唐纳、斯坦利·鲍德温和内维尔·张伯伦在1935年至今间对德国和意大利实施的外交政策。\n\n1930年代初，由于第一次世界大战的创伤及《凡尔赛条约》的德国待遇等问题，这种让步被一些人认为是正确的，法西斯主义也被认为是一股可以用以反对共产主义的力量。张伯伦的绥靖政策源于国际联盟的失败和集体安全的失败。国际联盟于一战后成立，希望以当时的国际合作和对侵略扩张的集体抵抗可以防止另一场战争。联盟成员如果受到攻击，有权获得其他成员的协助。\n\n集体安全政策与实现国际裁军的措施同时进行，并在可能的情况下以对侵略者的经济制裁为基础。当面对独裁者的侵略时行为，例如意大利入侵埃塞俄比亚，国际联盟并没有做出实质性的行动。\n\n§4我们应不惜一切代价，避免帝国在未准备好前卷入一场前途未卜的世界大战！即便这意味着要喂饱几头喂不饱的白眼狼也必须如此。为了帝国的利益，一部分小国是可以被牺牲的。§!"
+ 
+  #GENERIC
+
+  GEN_CountryInfo_Folder.101: "国家的道路"
+
+  GEN_CountryInfo_Content.1: "世界大战后的世界"
+  GEN_CountryInfo_Content_desc.1: "别看了，这个国家目前没写简介"
+
+  GEN_CountryInfo_Content.2: "玩家的选择"
+  GEN_CountryInfo_Content_desc.2: "别看了，这个国家目前没写简介"
+
+
+ ### ECONOMIC DATA
+  CountryInfo_tab_name_economic: "Economic Data"
+  CountryInfo_Economic.1: "Economic Data"
+  CountryInfo_Economic.2: "Overview"
+ 
+  CountryInfo_Economic_Overview_GER: "Econ broke"
+  CountryInfo_Economic_Overview_ITA: "As 1962 begins, the §YItalian Empire§! finds itself in a difficult situation.\n\nItaly's §Ycorporatist§! economy, while undoubtedly more lively than the twitching corpse that is the §rGerman§! one after the market crash of the Fifties, is plagued by §Robsolete§! production methods, §Rlack§! of private investment, as well as §Rcorruption§! and §Rcronyism§! in the supervision organs. Unemployment is on the rise, and while the oil from the Gulf fields maintains the budget afloat, and allows Italy to afford massive subsidization programs, public debt grows at an §Ralarming rate§!."
+  CountryInfo_Economic_Overview_IRE: "Ireland's Economy is that of a Free Market Economy§!. This is a system where corporate enterprise is allowed to run with either no or few checks from the Government. Depending on the government, this system will have varying amounts of regulation ensuring that corporations are kept in check. More importantly for Ireland, it is a Bündnispartner. The Irish Economy has a series of ties with that of the Reich. With German mistreatment of Irish workers in factories, the influence that the Reich has over Ireland is getting more strained by the day. However, German influence also has meant investment. The §pAufsichtsrat der Wehrwirtschaftsführer in Irland§! - or just the Adwil - is the main board in charge of German investment in Ireland, also being Germany's main mode of influencing the Economy. One one hand, the Adwil is a "free" source of funds, which Ireland can use to fund national projects. On the other, displease the investors too much and they may pull out, leaving us destitute."
+  CountryInfo_Economic_Overview_IBR: "Iberia's Economy operates on the principles of Dirigisme - a system where the state is the unchecked maestro of the economy it benefits from. In this case, Iberia is responsible for building and managing it's projects using quotas and forecasts alongside deep co-operation with the many corporations that make up the state.\n\nAgriculture is in shambles, due to the stagnation that the repression has caused. Much of the population still toils in the countryside, which hurts industrialisation. Conditions in the rural areas are varied, however the poorest areas suffer from crippling poverty and lack of basic, governmental services. Spain serves as the Industrial Heartland of the Union, with most corporations being in Madrid's orbit. However, Portugal still remains as the main heart of global trade, although it's a role that has diminished in importance with Iberia's retreat from the Globe."
+
+  CountryInfo_Economic_Overview_JAP: "The Empire of Japan operates under the principle of §hDirigisme§!. This principle - literally to "direct" - is a state of development where the government enforces its will upon the free market and directs the players inside it to bend to its will. This isn't to say that it is a planned economy, like the sort that Stalin envisioned inside the former §VSoviet Union§!, because the private sector is as important - if not more - to the Dirigisme Economy compared to a Free Market State.\n\nIn Japan, this has led to the rise of the §KZaibatsu§! such as §xMitsubishi§! - near-dynastic corporations that control vertical monopolies over huge sectors of the economy - taking prominence inside the economy, with considerable influence. In return, alliances of "small" businesses in Japan have formed loose alliances called the §dKeiretsus§! to combat the Zaibatsu's rampant control of the economy."
+
+  CountryInfo_Economic_Overview_ENG: "The Kingdom of England is a §KFree Market Economy§!, where corporations are allowed to do most of their activities and business with very few to no regulations. While the level of regulation differs from nation to nation and government to government, it is generally much more laissez-faire.\n\nIn England's case, it's economy has remained mostly intact from the pre-Occupation days. However, the biggest issue in the English economic sphere is §Orebuilding§! what is left. During the Second World War, England was subject to the largest strategic bombing campaign - called §YThe Blitz§! - in European History, with Luftwaffe planes leaving very little English industry untouched. The lack of significant reconstruction has led to even more §4resentment§! towards the government and high levels of unemployment inside England."
+
+  CountryInfo_Economic_Overview_SVR: "Sverdlovsk operates under the §gMilitary-Directed Economic§! model. This is a model where the military, due to its §gunchecked grip§! on the state, has the ability to completely command and direct the economy. It is not a command economy similar to that in the former §VSoviet Union§!, because private enterprise is allowed to exist in the state, but the military regime has the §Rfinal say§! over all directives inside the nation.\n\nIn Sverdlovsk's case, the military regime commands what is left of the industry that was moved west by §CBukharin§! and §eStalin§! into the Siberian plains, and was not damaged during the §LLuftwaffe Terror Bombings§! in the 50's and 60's. Compared to other states, it still has a fairly hefty industry and is able to project economic power further than the other warlord states."
+  #- Place Economic Overviews here -#
+    
+  ##Guangdong
+  CountryInfo_Economic_Overview_GNG: "§RGuangdong's economy§! operates as a §RCorporate Oligarchy§! - a polity where both the economic and political spheres have been subsumed under the direction of large corporations, in this case the §YFour Companies§! of §YYasuda§!, §VSony§!, §YMatsushita§!, and §OFujitsu§!.\n\nSocial and labor protections are intentionally kept weak - weaker than on the §OHome Islands§! themselves - to enable the maximization of profit, with the Four Companies given essentially free reign to do as they please. While Guangdong maintains the minimum necessary to maintain the pretense of a functional government, the withering away of the state has afforded even more opportunities for §Rcorruption§! or §Ycorporate interests§! to insert themselves into public life.\n\nGuangdong's economic performance is also intimately tied to the §Oelectronics product cycle§! - a competition to win the hearts and wallets of consumers with the §Kbest product§! at the §Kcheapest price§!."
+
+  CountryInfo_Economic_Overview_GRO: "Reichskommissariat Ostafrika's Economy is that of the §oGelenkte Wirtschaft§! model. This model tries to balance between the command economy of the former §RSoviet Union§! and the free market capitalism of the §YUnited States of America§! by combining a use of state-directed initiatives and cooperation with private enterprise and selecting a few trusted and proven corporations to serve the state in a fashion that suits both parties.\n\nIn §OOstafrika§!'s case, the state runs on African branches and subsidiaries of German corporations within Europe. However, it is most similar to §EBurgundy§! in the fact that it heavily relies on slave labour and an incredibly repressed underclass to serve the §rselect few§! chosen inside the colony, that can barely eek out a living themselves in the harsh conditions of Eastern Africa."
+
+  CountryInfo_Economic_Overview_ANG: "Reichskommissariat Südwestafrika's Economy is that of the §oGelenkte Wirtschaft§! model. This model tries to balance between the command economy of the former §RSoviet Union§! and the free market capitalism of the §YUnited States of America§! by combining a use of state-directed initiatives and cooperation with private enterprise and selecting a few trusted and proven corporations to serve the state in a fashion that suits both parties.\n\nHowever, §OSüdwestafrika§!'s economy doesn't so much pretend to Germanise what parts of the colony it fully controls, but is more content to waste it's money on building Luftwaffe infrastructure inside Namibia, trying to justify it by pointing to the §OSouth African§! powderkeg. In reality, it's Luftwaffe officials pocketing the cash for themselves and going on half-hearted missions to prove that they deserve the funding more than the rest."
+
+  CountryInfo_Economic_Overview_COG: "Reichskommissariat Zentralafrika's Economy is that of the §oGelenkte Wirtschaft§! model. This model tries to balance between the command economy of the former §RSoviet Union§! and the free market capitalism of the §YUnited States of America§! by combining a use of state-directed initiatives and cooperation with private enterprise and selecting a few trusted and proven corporations to serve the state in a fashion that suits both parties.\n\nThe reality on the ground is that Zentralafrika is run more like Müller's §ysweetshop§! than anything else. The entire colony is littered with shell companies of Western and other §oforeign-based corporations§! who pay Müller a hefty fee to sap what resources haven't been drowned by the §4Congo Lake§! - with the Reichskommissar away to hunt down big game and leaving the economic paperwork to his underlings."
+
+### TUTORIALS ###
+### Development ###
+ CountryInfo_tab_name_tutorials: "MOD 感谢名单"
+
+CountryInfo_Tutorial_Folder.101: "感谢名单"
+
+ CountryInfo_Tutorial_Content.1: "感谢名单"
+ CountryInfo_Tutorial_Content_desc.1: "组长:dream\n副组长:成祖\n成员：菜鸟、施里芬、浅野、雪风、Wh1te\n\n牢d妙妙屋中每一位不辞辛劳，测试版一推出就§R疯狂玩+反馈BUG（免 费 测 试）§!的§Y群友§!，以及为IAR MOD提供代码和文案帮助的§Y群友§!。\n\n§G我们最由衷感谢的，就是电脑前的玩家，你。§!"
+
+### Development ###
+CountryInfo_tab_name_development: "Mod 更新日志"
+
+CountryInfo_Development_Folder.101: "最新更新日志"
+
+CountryInfo_Development_Content.1: "MOD 持续更新中！"
+CountryInfo_Development_Content_desc.1: "§C更新日志§!：\n§Y25.6.2§!\n1.中国\N新增土改系统，完成第二次国民大革命分支的国策：推行土地革命 后解锁\N新增政治顾问：董必武\N增强总司令：粟裕，杜聿明\N恢复孙立人作为总司令，并加强特质\N修复了印度独立事件和决议，现在可以正常触发了\N去除了征兵法案：旌旗十万斩阎罗 要求与德国同阵营的限制\N2.德国\N修复建设船坞修到内陆 旱地行舟\N国策：扩大资源开采取消要求至少修一个炼油厂的限制"
+
+### COUNTRY ENDING ###
+CountryInfo_tab_name_ending: "Afterthought"
+ 
