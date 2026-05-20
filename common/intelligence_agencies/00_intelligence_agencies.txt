@@ -7,7 +7,259 @@ intelligence_agency = {
 	default = { tag = MOB }
 	available = { original_tag = MOB }
 }
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "洛维尼亚情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = LOV }
+	available = { original_tag = LOV }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "洛维尼亚情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = LOR  }
+	available = { original_tag = LOR }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = RED  }
+	available = { original_tag = RED }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = NEW  }
+	available = { original_tag = NEW }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "骑士团情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = ORD  }
+	available = { original_tag = ORD }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "洛维尼亚情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = ROA  }
+	available = { original_tag = ROA }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = LOB }
+	available = { original_tag = LOB }
+}
 
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = PEC }
+	available = { original_tag = PEC }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "法兰王国情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = FAL }
+	available = { original_tag = FAL }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = POS }
+	available = { original_tag = POS }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "哈斯佩芙情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = HAS }
+	available = { original_tag = HAS }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "奇恩情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = TZY }
+	available = { original_tag = TZY }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "奇拉情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = NGD }
+	available = { original_tag = NGD }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = SUP }
+	available = { original_tag = SUP }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "艾希尼亚情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = AIS }
+	available = { original_tag = AIS }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "加安斯情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = REP }
+	available = { original_tag = REP }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "安息之国情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = COU }
+	available = { original_tag = COU }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "斯塔情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = STA }
+	available = { original_tag = STA }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "瑞恩情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = DUC }
+	available = { original_tag = DUC }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "奈德兰情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = NED }
+	available = { original_tag = NED }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "卢瑟联邦情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = RUT }
+	available = { original_tag = RUT }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = BER }
+	available = { original_tag = BER }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "魔法少女情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = MAG }
+	available = { original_tag = MAG }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "军团情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = WIN }
+	available = { original_tag = WIN }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "工社情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = KIA }
+	available = { original_tag = KIA }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "集团情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = ZET }
+	available = { original_tag = ZET }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "古西布拉公国情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = GUS }
+	available = { original_tag = GUS }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "军团情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = PIR }
+	available = { original_tag = PIR }
+}
 intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_generic_1
 	names = { "北狐氏族情报部" }
@@ -36,6 +288,114 @@ intelligence_agency = {
 	available = { original_tag = LEG }
 }
 intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "翼神教国情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = WIM }
+	available = { original_tag = WIM }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "熔铁城情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = ELT }
+	available = { original_tag = ELT }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "神州情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = DIV }
+	available = { original_tag = DIV }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "西卫致远军情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = ZHI }
+	available = { original_tag = ZHI }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "北卫凛冬军情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = WEI }
+	available = { original_tag = WEI }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "南卫安平军情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = NAN }
+	available = { original_tag = NAN }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "东卫定洋军情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = ONG }
+	available = { original_tag = ONG }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "里斯亚尼亚情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = RIE }
+	available = { original_tag = RIE }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "月影氏族情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = MOO }
+	available = { original_tag = MOO }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "微光氏族情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = MIC }
+	available = { original_tag = MIC }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "风雪之都情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = SNO }
+	available = { original_tag = SNO }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "逐生荒地情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = LIV }
+	available = { original_tag = LIV }
+}
+intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_generic_1
 	names = { "Tokubetsu Koto Keisatsu" "Special Higher Police Bureau" }
@@ -53,4 +413,201 @@ intelligence_agency = {
 		}
 	}
 }
-
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "安阳国情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = ANY }
+	available = { original_tag = ANY }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "可米亚尔情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = OME }
+	available = { original_tag = OME }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "托梅尼亚情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = TOM }
+	available = { original_tag = TOM }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "海盗团情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = IRA }
+	available = { original_tag = IRA }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "阿库娅情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = AKU }
+	available = { original_tag = AKU }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "卡缇娅联邦情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = KAT }
+	available = { original_tag = KAT }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "爱恩氏族情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = EIN }
+	available = { original_tag = EIN }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "卫康国情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = KAN }
+	available = { original_tag = KAN }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "科尔拉斯情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = RAS }
+	available = { original_tag = RAS }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "芬燃国情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = FEN }
+	available = { original_tag = FEN }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "洛神港情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = GOD }
+	available = { original_tag = GOD }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "雅蒂安邦联情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = UNI }
+	available = { original_tag = UNI }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "北国情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = ART }
+	available = { original_tag = ART }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "米亚王国情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = MIY }
+	available = { original_tag = MIY }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "凯拉氏族情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = KAY }
+	available = { original_tag = KAY }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "启明星情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = ENU }
+	available = { original_tag = ENU }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "永恒之国情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = ETE }
+	available = { original_tag = ETE }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "南国情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = SOU }
+	available = { original_tag = SOU }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "黄昏圣国情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = OLI }
+	available = { original_tag = OLI }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "香格里拉情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = SHA }
+	available = { original_tag = SHA }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "法尔情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = FAR }
+	available = { original_tag = FAR }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "断魂港情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = BSP }
+	available = { original_tag = BSP }
+}

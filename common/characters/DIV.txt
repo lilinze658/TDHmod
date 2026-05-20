@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	DIV_zhuqiu={
 		name=zhuqiu
 		portraits={
 			civilian={
-				large="gfx/leaders/DIV/朱秋.dds"
+				large="gfx/leaders/DIV/朱秋.png"
 			}
 			army = {   
-				large="gfx/leaders/DIV/朱秋.dds" 
+				large="gfx/leaders/DIV/朱秋.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -35,10 +35,10 @@ characters={
 		name=zhangxikai
 		portraits={
 			civilian={
-				large="gfx/leaders/DIV/张希凯.dds"
+				large="gfx/leaders/DIV/张希凯.png"
 			}
 			army = {   
-				large="gfx/leaders/DIV/张希凯.dds" 
+				large="gfx/leaders/DIV/张希凯.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -60,10 +60,10 @@ characters={
 		name=anbai
 		portraits={
 			civilian={
-				large="gfx/leaders/DIV/安白.dds"
+				large="gfx/leaders/DIV/安白.png"
 			}
 			army = {   
-				large="gfx/leaders/DIV/安白.dds" 
+				large="gfx/leaders/DIV/安白.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -85,10 +85,10 @@ characters={
 		name=wanghuacai
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/DIV/汪花彩.dds"
+				large = "gfx/leaders/DIV/汪花彩.png"
 			}
 			army = {
-				large = "gfx/leaders/DIV/汪花彩.dds"
+				large = "gfx/leaders/DIV/汪花彩.png"
 				small = "gfx/leaders/DIV/xxx.png"
 			}
 			 
@@ -108,7 +108,7 @@ characters={
 		name=huangbeiya
 		portraits = {
 			army = {
-				large = "gfx/leaders/DIV/黄贝娅.dds"
+				large = "gfx/leaders/DIV/黄贝娅.png"
 			}
 		}
 
@@ -127,7 +127,7 @@ characters={
 		name=lvzhilan
 		portraits = {
 			army = {
-				large = "gfx/leaders/DIV/吕治岚.dds"
+				large = "gfx/leaders/DIV/吕治岚.png"
 			}
 		}
 
@@ -146,7 +146,7 @@ characters={
 		name=suluona
 		portraits = {
 			army = {
-				large = "gfx/leaders/DIV/苏洛娜.dds"
+				large = "gfx/leaders/DIV/苏洛娜.png"
 			}
 		}
 
@@ -164,3 +164,4 @@ characters={
 	
 }
 	
+

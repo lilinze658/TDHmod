@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	FAL_naierjiade={
 		name=奈尔嘉德
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/奈尔嘉德.dds"
+				large="gfx/leaders/FAL/奈尔嘉德.png"
 			}
 			army = {   
-				large="gfx/leaders/FAL/奈尔嘉德.dds" 
+				large="gfx/leaders/FAL/奈尔嘉德.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,7 +34,7 @@ characters={
 		name= nuolina
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/诺丽娜.dds"
+				large="gfx/leaders/FAL/诺丽娜.png"
 			}
 		}
 		
@@ -54,7 +54,7 @@ characters={
 		name=伊诺雅
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/伊诺雅.dds"
+				large="gfx/leaders/FAL/伊诺雅.png"
 			}
 		}
 		
@@ -74,7 +74,7 @@ characters={
 		name= aeraili
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/阿尔艾莉.dds"
+				large="gfx/leaders/FAL/阿尔艾莉.png"
 			}
 		}
 		
@@ -94,7 +94,7 @@ characters={
 		name= kuna
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/库娜.dds"
+				large="gfx/leaders/FAL/库娜.png"
 			}
 		}
 		
@@ -114,7 +114,7 @@ characters={
 		name= balunna
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/巴伦娜.dds"
+				large="gfx/leaders/FAL/巴伦娜.png"
 			}
 		}
 		
@@ -134,7 +134,7 @@ characters={
 		name= aleisi
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/阿蕾丝.dds"
+				large="gfx/leaders/FAL/阿蕾丝.png"
 			}
 		}
 		
@@ -154,7 +154,7 @@ characters={
 		name= aimili
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/艾米莉.dds"
+				large="gfx/leaders/FAL/艾米莉.png"
 			}
 		}
 		
@@ -174,7 +174,7 @@ characters={
 		name= misite
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/米丽特.dds"
+				large="gfx/leaders/FAL/米丽特.png"
 			}
 		}
 		
@@ -194,7 +194,7 @@ characters={
 		name= heiyu
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/FAL/黑羽.dds"
+				large = "gfx/leaders/FAL/黑羽.png"
 			}
 		}
 
@@ -213,7 +213,7 @@ characters={
 		name= dailan
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/FAL/戴兰.dds"
+				large = "gfx/leaders/FAL/戴兰.png"
 			}
 		}
 

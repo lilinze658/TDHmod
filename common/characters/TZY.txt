@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	TZY_lilimaliansanshi={
 		name= lilimaliansanshi
 		portraits={
 			civilian={
-				large="gfx/leaders/TZY/莉莉玛莲三世.dds"
+				large="gfx/leaders/TZY/莉莉玛莲三世.png"
 			}
 			army = {   
-				large="gfx/leaders/TZY/莉莉玛莲三世.dds" 
+				large="gfx/leaders/TZY/莉莉玛莲三世.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,7 +34,7 @@ characters={
 		name= nimideka
 		portraits={
 			civilian={
-				large="gfx/leaders/TZY/尼米德卡.dds"
+				large="gfx/leaders/TZY/尼米德卡.png"
 			}
 		}
 		
@@ -54,7 +54,7 @@ characters={
 		name= fukelina
 		portraits={
 			civilian={
-				large="gfx/leaders/TZY/芙可丽娜.dds"
+				large="gfx/leaders/TZY/芙可丽娜.png"
 			}
 		}
 		
@@ -74,7 +74,7 @@ characters={
 		name= feinila
 		portraits={
 			civilian={
-				large="gfx/leaders/TZY/菲妮拉.dds"
+				large="gfx/leaders/TZY/菲妮拉.png"
 			}
 		}
 		
@@ -94,7 +94,7 @@ characters={
 		name= kelisiduo
 		portraits={
 			civilian={
-				large="gfx/leaders/TZY/克莉丝多.dds"
+				large="gfx/leaders/TZY/克莉丝多.png"
 			}
 		}
 		
@@ -114,7 +114,7 @@ characters={
 		name= katelan
 		portraits={
 			civilian={
-				large="gfx/leaders/TZY/卡特兰.dds"
+				large="gfx/leaders/TZY/卡特兰.png"
 			}
 		}
 		
@@ -134,7 +134,7 @@ characters={
 		name= biyoulai
 		portraits={
 			civilian={
-				large="gfx/leaders/TZY/比优莱.dds"
+				large="gfx/leaders/TZY/比优莱.png"
 			}
 		}
 		corps_commander = {
@@ -153,7 +153,7 @@ characters={
 		name= feidinisiya
 		portraits={
 			civilian={
-				large="gfx/leaders/TZY/菲蒂尼丝娅.dds"
+				large="gfx/leaders/TZY/菲蒂尼丝娅.png"
 			}
 		}
 		
@@ -173,7 +173,7 @@ characters={
 		name= youliya
 		portraits={
 			civilian={
-				large="gfx/leaders/TZY/尤利娅.dds"
+				large="gfx/leaders/TZY/尤利娅.png"
 			}
 		}
 		
@@ -193,7 +193,7 @@ characters={
 		name= katewen
 		portraits={
 			civilian={
-				large="gfx/leaders/TZY/卡特文.dds"
+				large="gfx/leaders/TZY/卡特文.png"
 			}
 		}
 		
@@ -212,7 +212,7 @@ characters={
 		name= aisilan
 		portraits={
 			civilian={
-				large="gfx/leaders/TZY/艾丝兰.dds"
+				large="gfx/leaders/TZY/艾丝兰.png"
 			}
 		}
 		

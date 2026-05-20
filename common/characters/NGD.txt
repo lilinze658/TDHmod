@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	NGD_xiruiwei={
 		name= xiruiwei
 		portraits={
 			civilian={
-				large="gfx/leaders/NGD/希瑞薇.dds"
+				large="gfx/leaders/NGD/希瑞薇.png"
 			}
 			army = {   
-				large="gfx/leaders/NGD/希瑞薇.dds" 
+				large="gfx/leaders/NGD/希瑞薇.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,10 +34,10 @@ characters={
 		name= maliya
 		portraits={
 			civilian={
-				large="gfx/leaders/NGD/玛丽亚.dds"
+				large="gfx/leaders/NGD/玛丽亚.png"
 			}
 			army = {   
-				large="gfx/leaders/NGD/玛丽亚.dds" 
+				large="gfx/leaders/NGD/玛丽亚.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -59,10 +59,10 @@ characters={
 		name= aijiluna
 		portraits={
 			civilian={
-				large="gfx/leaders/NGD/艾吉露娜.dds"
+				large="gfx/leaders/NGD/艾吉露娜.png"
 			}
 			army = {   
-				large="gfx/leaders/NGD/艾吉露娜.dds" 
+				large="gfx/leaders/NGD/艾吉露娜.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

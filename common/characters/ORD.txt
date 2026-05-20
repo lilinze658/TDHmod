@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	ORD_xideruila={
 		name=希德瑞拉
 		portraits={
 			civilian={
-				large="gfx/leaders/ORD/希德瑞拉.dds"
+				large="gfx/leaders/ORD/希德瑞拉.png"
 			}
 			army = {   
-				large="gfx/leaders/ORD/希德瑞拉.dds" 
+				large="gfx/leaders/ORD/希德瑞拉.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -33,10 +33,10 @@ characters={
 		name=阿洛雅
 		portraits={
 			civilian={
-				large="gfx/leaders/ORD/阿洛雅.dds"
+				large="gfx/leaders/ORD/阿洛雅.png"
 			}
 			army = {   
-				large="gfx/leaders/ORD/阿洛雅.dds" 
+				large="gfx/leaders/ORD/阿洛雅.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -64,10 +64,10 @@ characters={
 		name=阿芙兰
 		portraits={
 			civilian={
-				large="gfx/leaders/ORD/阿芙兰.dds"
+				large="gfx/leaders/ORD/阿芙兰.png"
 			}
 			army = {   
-				large="gfx/leaders/ORD/阿芙兰.dds" 
+				large="gfx/leaders/ORD/阿芙兰.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -87,3 +87,4 @@ characters={
 
 }
 	
+

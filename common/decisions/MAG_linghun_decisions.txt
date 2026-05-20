@@ -1,0 +1,304 @@
+MAG_linghun_decision_category = {
+	MAG_dakaiGui = {
+
+		available = {
+			
+		}
+
+		visible = {
+			
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = MAG_dakaiGui_linghun
+					}
+				}
+				set_country_flag = MAG_dakaiGui_linghun
+			}
+			else = {
+				clr_country_flag = MAG_dakaiGui_linghun
+				clr_country_flag = MAG_enclosure_c
+				clr_country_flag = MAG_core_c
+				clr_country_flag = MAG_base_c
+			}
+		}
+	}
+	MAG_dakaijieshao = {
+		available = {
+			
+		}
+		visible = {
+			
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = MAG_linghuoluhuo_jieshaowu
+					}
+				}
+				set_country_flag = MAG_linghuoluhuo_jieshaowu
+			}
+			else = {
+				clr_country_flag = MAG_linghuoluhuo_jieshaowu
+			}
+		}
+	}
+	MAG_linghunluhuo_core_1 = {
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = MAG_core_c
+		}
+		complete_effect = {
+			set_country_flag = MAG_core_1_c
+			clr_country_flag = MAG_core_2_c
+			clr_country_flag = MAG_core_3_c
+			clr_country_flag = MAG_core_4_c
+			MAG_linghunluhuo_shuaxin = yes
+			effect_tooltip = {
+				custom_effect_tooltip = MAG_linghunluhuo_dy_tt
+				add_to_variable = { MAG_linghunluhuo_a = 0.05 tooltip = army_attack_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_b = 0.05 tooltip = army_defence_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_c = 0.10 tooltip = army_org_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_d = -0.05 tooltip = political_power_gain_tt }
+			}
+		}
+	}
+	MAG_linghunluhuo_core_2 = {
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = MAG_core_c
+		}
+		complete_effect = {
+			clr_country_flag = MAG_core_1_c
+			set_country_flag = MAG_core_2_c
+			clr_country_flag = MAG_core_3_c
+			clr_country_flag = MAG_core_4_c
+			MAG_linghunluhuo_shuaxin = yes
+			effect_tooltip = {
+				custom_effect_tooltip = MAG_linghunluhuo_dy_tt
+				add_to_variable = { MAG_linghunluhuo_d = 0.1 tooltip = political_power_gain_tt }
+				add_to_variable = { MAG_linghunluhuo_e = 0.001 tooltip = stability_weekly_tt }
+				add_to_variable = { MAG_linghunluhuo_f = 0.075 tooltip = research_speed_factor_tt }
+			}
+		}
+	}
+	MAG_linghunluhuo_core_3 = {
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = MAG_core_c
+		}
+		complete_effect = {
+			clr_country_flag = MAG_core_1_c
+			clr_country_flag = MAG_core_2_c
+			set_country_flag = MAG_core_3_c
+			clr_country_flag = MAG_core_4_c
+			MAG_linghunluhuo_shuaxin = yes
+			effect_tooltip = {
+				custom_effect_tooltip = MAG_linghunluhuo_dy_tt
+				add_to_variable = { MAG_linghunluhuo_b = 0.1 tooltip = army_defence_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_g = 0.1 tooltip = max_dig_in_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_h = 0.05 tooltip = army_org_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_i = -0.15 tooltip = experience_gain_army_factor_tt }
+			}
+		}
+	}
+	MAG_linghunluhuo_core_4 = {
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = MAG_core_c
+		}
+		complete_effect = {
+			clr_country_flag = MAG_core_1_c
+			clr_country_flag = MAG_core_2_c
+			clr_country_flag = MAG_core_3_c
+			set_country_flag = MAG_core_4_c
+			MAG_linghunluhuo_shuaxin = yes
+			effect_tooltip = {
+				custom_effect_tooltip = MAG_linghunluhuo_dy_tt
+				add_to_variable = { MAG_linghunluhuo_j = 0.1 tooltip = industrial_capacity_factory_tt }
+				add_to_variable = { MAG_linghunluhuo_k = 0.1 tooltip = production_speed_buildings_factor_tt }
+			}
+		}
+	}
+
+	MAG_linghunluhuo_enclosure_1 = {
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = MAG_enclosure_c
+		}
+		complete_effect = {
+			set_country_flag = MAG_enclosure_1_c
+			clr_country_flag = MAG_enclosure_2_c
+			clr_country_flag = MAG_enclosure_3_c
+			clr_country_flag = MAG_enclosure_4_c
+			MAG_linghunluhuo_shuaxin = yes
+			effect_tooltip = {
+				custom_effect_tooltip = MAG_linghunluhuo_dy_tt
+				add_to_variable = { MAG_linghunluhuo_a = 0.05 tooltip = army_attack_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_l = 0.05 tooltip = army_speed_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_m = 0.05 tooltip = army_attack_against_major_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_n = -0.075 tooltip = stability_factor_tt }
+			}
+		}
+	}
+	MAG_linghunluhuo_enclosure_2 = {
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = MAG_enclosure_c
+		}
+		complete_effect = {
+			clr_country_flag = MAG_enclosure_1_c
+			set_country_flag = MAG_enclosure_2_c
+			clr_country_flag = MAG_enclosure_3_c
+			clr_country_flag = MAG_enclosure_4_c
+			MAG_linghunluhuo_shuaxin = yes
+			effect_tooltip = {
+				custom_effect_tooltip = MAG_linghunluhuo_dy_tt
+				add_to_variable = { MAG_linghunluhuo_e = 0.001 tooltip = stability_weekly_tt }
+				add_to_variable = { MAG_linghunluhuo_p = 0.15 tooltip = local_resources_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_o = -0.1 tooltip = consumer_goods_factor_tt }
+			}
+		}
+	}
+	MAG_linghunluhuo_enclosure_3 = {
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = MAG_enclosure_c
+		}
+		complete_effect = {
+			clr_country_flag = MAG_enclosure_1_c
+			clr_country_flag = MAG_enclosure_2_c
+			set_country_flag = MAG_enclosure_3_c
+			clr_country_flag = MAG_enclosure_4_c
+			MAG_linghunluhuo_shuaxin = yes
+			effect_tooltip = {
+				custom_effect_tooltip = MAG_linghunluhuo_dy_tt
+				add_to_variable = { MAG_linghunluhuo_q = 0.1 tooltip = experience_gain_army_tt }
+				add_to_variable = { MAG_linghunluhuo_r = 0.1 tooltip = experience_gain_navy_tt }
+				add_to_variable = { MAG_linghunluhuo_s = 0.1 tooltip = experience_gain_air_tt }
+				add_to_variable = { MAG_linghunluhuo_t = 0.5 tooltip = command_power_gain_tt }
+				add_to_variable = { MAG_linghunluhuo_u = 50 tooltip = max_command_power_tt }
+			}
+		}
+	}
+	MAG_linghunluhuo_enclosure_4 = {
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = MAG_enclosure_c
+		}
+		complete_effect = {
+			clr_country_flag = MAG_enclosure_1_c
+			clr_country_flag = MAG_enclosure_2_c
+			clr_country_flag = MAG_enclosure_3_c
+			set_country_flag = MAG_enclosure_4_c
+			MAG_linghunluhuo_shuaxin = yes
+			effect_tooltip = {
+				custom_effect_tooltip = MAG_linghunluhuo_dy_tt
+				add_to_variable = { MAG_linghunluhuo_v = 0.1 tooltip = production_factory_efficiency_gain_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_w = 0.1 tooltip = production_factory_max_efficiency_factor_tt }
+			}
+		}
+	}
+
+	MAG_linghunluhuo_base_1 = {
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = MAG_base_c
+		}
+		complete_effect = {
+			set_country_flag = MAG_base_1_c
+			clr_country_flag = MAG_base_2_c
+			clr_country_flag = MAG_base_3_c
+			clr_country_flag = MAG_base_4_c
+			MAG_linghunluhuo_shuaxin = yes
+			effect_tooltip = {
+				custom_effect_tooltip = MAG_linghunluhuo_dy_tt
+				add_to_variable = { MAG_linghunluhuo_h = 0.05 tooltip = army_org_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_x = 0.1 tooltip = breakthrough_factor_tt }
+			}
+		}
+	}
+	MAG_linghunluhuo_base_2 = {
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = MAG_base_c
+		}
+		complete_effect = {
+			clr_country_flag = MAG_base_1_c
+			set_country_flag = MAG_base_2_c
+			clr_country_flag = MAG_base_3_c
+			clr_country_flag = MAG_base_4_c
+			MAG_linghunluhuo_shuaxin = yes
+			effect_tooltip = {
+				custom_effect_tooltip = MAG_linghunluhuo_dy_tt
+				add_to_variable = { MAG_linghunluhuo_e = 0.001 tooltip = stability_weekly_tt }
+				add_to_variable = { MAG_linghunluhuo_y = 0.001 tooltip = war_support_weekly_tt }
+				add_to_variable = { MAG_linghunluhuo_f = 0.05 tooltip = research_speed_factor_tt }
+			}
+		}
+	}
+	MAG_linghunluhuo_base_3 = {
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = MAG_base_c
+		}
+		complete_effect = {
+			clr_country_flag = MAG_base_1_c
+			clr_country_flag = MAG_base_2_c
+			set_country_flag = MAG_base_3_c
+			clr_country_flag = MAG_base_4_c
+			MAG_linghunluhuo_shuaxin = yes
+			effect_tooltip = {
+				custom_effect_tooltip = MAG_linghunluhuo_dy_tt
+				add_to_variable = { MAG_linghunluhuo_b = 0.05 tooltip = army_defence_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_z = -0.15 tooltip = supply_consumption_factor_tt }
+			}
+		}
+	}
+	MAG_linghunluhuo_base_4 = {
+		available = {
+			
+		}
+		visible = {
+			has_country_flag = MAG_base_c
+		}
+		complete_effect = {
+			clr_country_flag = MAG_base_1_c
+			clr_country_flag = MAG_base_2_c
+			clr_country_flag = MAG_base_3_c
+			set_country_flag = MAG_base_4_c
+			MAG_linghunluhuo_shuaxin = yes
+			effect_tooltip = {
+				custom_effect_tooltip = MAG_linghunluhuo_dy_tt
+				add_to_variable = { MAG_linghunluhuo_k = 0.15 tooltip = production_speed_buildings_factor_tt }
+				add_to_variable = { MAG_linghunluhuo_w = 0.05 tooltip = production_factory_max_efficiency_factor_tt }
+			}
+		}
+	}
+}

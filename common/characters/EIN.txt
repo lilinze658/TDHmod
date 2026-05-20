@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	EIN_kelunsiji={
 		name=克伦斯基
 		portraits={
 			civilian={
-				large="gfx/leaders/EIN/克伦斯基.dds"
+				large="gfx/leaders/EIN/克伦斯基.png"
 			}
 			army = {   
-				large="gfx/leaders/EIN/克伦斯基.dds" 
+				large="gfx/leaders/EIN/克伦斯基.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 	 	

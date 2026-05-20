@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	ETE_ZERO={
 		name=ZERO
 		portraits={
 			civilian={
-				large="gfx/leaders/ETE/ZERO.dds"
+				large="gfx/leaders/ETE/ZERO.png"
 			}
 			army = {   
-				large="gfx/leaders/ETE/ZERO.dds" 
+				large="gfx/leaders/ETE/ZERO.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -33,10 +33,10 @@ characters={
 		name= jiabilila
 		portraits={
 			civilian={
-				large="gfx/leaders/ETE/嘉比里拉.dds"
+				large="gfx/leaders/ETE/嘉比里拉.png"
 			}
 			army = {   
-				large="gfx/leaders/ETE/嘉比里拉.dds" 
+				large="gfx/leaders/ETE/嘉比里拉.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -58,10 +58,10 @@ characters={
 		name= zige
 		portraits={
 			civilian={
-				large="gfx/leaders/ETE/紫歌.dds"
+				large="gfx/leaders/ETE/紫歌.png"
 			}
 			army = {   
-				large="gfx/leaders/ETE/紫歌.dds" 
+				large="gfx/leaders/ETE/紫歌.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -83,10 +83,10 @@ characters={
 		name= huanmo
 		portraits={
 			civilian={
-				large="gfx/leaders/ETE/幻沫.dds"
+				large="gfx/leaders/ETE/幻沫.png"
 			}
 			army = {   
-				large="gfx/leaders/ETE/幻沫.dds" 
+				large="gfx/leaders/ETE/幻沫.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -108,10 +108,10 @@ characters={
 			name=baoweizhe
 			portraits={
 				civilian={
-					large="gfx/leaders/ETE/保卫者.dds"
+					large="gfx/leaders/ETE/保卫者.png"
 				}
 				army = {   
-					large="gfx/leaders/ETE/保卫者.dds" 
+					large="gfx/leaders/ETE/保卫者.png" 
 					small="gfx/interface/ideas/XXX.png"
 				}
 			
@@ -129,3 +129,4 @@ characters={
 			}
 	    }  
 }
+

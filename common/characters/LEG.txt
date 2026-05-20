@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	LEG_heersi={
 		name=荷尔丝
 		portraits={
 			civilian={
-				large="gfx/leaders/LEG/荷尔丝.dds"
+				large="gfx/leaders/LEG/荷尔丝.png"
 			}
 			army = {   
-				large="gfx/leaders/LEG/荷尔丝.dds" 
+				large="gfx/leaders/LEG/荷尔丝.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -33,10 +33,10 @@ characters={
 		name=杀手兔
 		portraits={
 			civilian={
-				large="gfx/leaders/LEG/杀手兔.dds"
+				large="gfx/leaders/LEG/杀手兔.png"
 			}
 			army = {   
-				large="gfx/leaders/LEG/杀手兔.dds" 
+				large="gfx/leaders/LEG/杀手兔.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -57,10 +57,10 @@ characters={
 		name=弑君者
 		portraits={
 			civilian={
-				large="gfx/leaders/LEG/弑君者.dds"
+				large="gfx/leaders/LEG/弑君者.png"
 			}
 			army = {   
-				large="gfx/leaders/LEG/弑君者.dds" 
+				large="gfx/leaders/LEG/弑君者.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -81,10 +81,10 @@ characters={
 		name=玛菲丽特
 		portraits={
 			civilian={
-				large="gfx/leaders/LEG/玛菲丽特.dds"
+				large="gfx/leaders/LEG/玛菲丽特.png"
 			}
 			army = {   
-				large="gfx/leaders/LEG/玛菲丽特.dds" 
+				large="gfx/leaders/LEG/玛菲丽特.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -105,10 +105,10 @@ characters={
 		name=琳岚
 		portraits={
 			civilian={
-				large="gfx/leaders/LEG/琳岚.dds"
+				large="gfx/leaders/LEG/琳岚.png"
 			}
 			army = {   
-				large="gfx/leaders/LEG/琳岚.dds" 
+				large="gfx/leaders/LEG/琳岚.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -129,10 +129,10 @@ characters={
 		name=妮芙
 		portraits={
 			civilian={
-				large="gfx/leaders/LEG/妮芙.dds"
+				large="gfx/leaders/LEG/妮芙.png"
 			}
 			army = {   
-				large="gfx/leaders/LEG/妮芙.dds" 
+				large="gfx/leaders/LEG/妮芙.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -153,10 +153,10 @@ characters={
 		name=戴兰
 		portraits={
 			civilian={
-				large="gfx/leaders/LEG/戴兰.dds"
+				large="gfx/leaders/LEG/戴兰.png"
 			}
 			army = {   
-				large="gfx/leaders/LEG/戴兰.dds" 
+				large="gfx/leaders/LEG/戴兰.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

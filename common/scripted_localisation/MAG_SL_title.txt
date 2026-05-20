@@ -1,0 +1,102 @@
+defined_text = { 
+	name = GETMAGlinghunluhuojieshao
+
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = MAG_linghuoluhuo_jieshaowu
+			}
+		}
+		localization_key = MAG_linghuoluhuo_jieshaowu_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = MAG_linghuoluhuo_jieshaowu
+		}
+		localization_key = MAG_linghuoluhuo_jieshaowu_2
+	}
+}
+defined_text = { 
+	name = GETMAGlinghunluhuohexin
+
+	text = {
+		trigger = {
+			has_country_flag = MAG_core_1_c
+		}
+		localization_key = MAG_linghunluhuo_core_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = MAG_core_2_c
+		}
+		localization_key = MAG_linghunluhuo_core_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = MAG_core_3_c
+		}
+		localization_key = MAG_linghunluhuo_core_3
+	}
+	text = {
+		trigger = {
+			has_country_flag = MAG_core_4_c
+		}
+		localization_key = MAG_linghunluhuo_core_4
+	}
+}
+defined_text = { 
+	name = GETMAGlinghunluhuowaike
+
+	text = {
+		trigger = {
+			has_country_flag = MAG_enclosure_1_c
+		}
+		localization_key = MAG_linghunluhuo_enclosure_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = MAG_enclosure_2_c
+		}
+		localization_key = MAG_linghunluhuo_enclosure_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = MAG_enclosure_3_c
+		}
+		localization_key = MAG_linghunluhuo_enclosure_3
+	}
+	text = {
+		trigger = {
+			has_country_flag = MAG_enclosure_4_c
+		}
+		localization_key = MAG_linghunluhuo_enclosure_4
+	}
+}
+defined_text = { 
+	name = GETMAGlinghunluhuodizuo
+
+	text = {
+		trigger = {
+			has_country_flag = MAG_base_1_c
+		}
+		localization_key = MAG_linghunluhuo_base_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = MAG_base_2_c
+		}
+		localization_key = MAG_linghunluhuo_base_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = MAG_base_3_c
+		}
+		localization_key = MAG_linghunluhuo_base_3
+	}
+	text = {
+		trigger = {
+			has_country_flag = MAG_base_4_c
+		}
+		localization_key = MAG_linghunluhuo_base_4
+	}
+}

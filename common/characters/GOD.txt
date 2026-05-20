@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	GOD_jieyi={
 		name=jieyi
 		portraits={
 			civilian={
-				large="gfx/leaders/GOD/洁依.dds"
+				large="gfx/leaders/GOD/洁依.png"
 			}
 			army = {   
-				large="gfx/leaders/GOD/洁依.dds" 
+				large="gfx/leaders/GOD/洁依.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,10 +34,10 @@ characters={
 		name=binhui
 		portraits={
 			civilian={
-				large="gfx/leaders/GOD/彬惠.dds"
+				large="gfx/leaders/GOD/彬惠.png"
 			}
 			army = {   
-				large="gfx/leaders/GOD/彬惠.dds" 
+				large="gfx/leaders/GOD/彬惠.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

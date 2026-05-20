@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	SUP_baoweizhe={
 		name=保卫者
 		portraits={
 			civilian={
-				large="gfx/leaders/SUP/保卫者.dds"
+				large="gfx/leaders/SUP/保卫者.png"
 			}
 			army = {   
-				large="gfx/leaders/SUP/保卫者.dds" 
+				large="gfx/leaders/SUP/保卫者.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	ART_liudemila={
 		name=柳德米拉
 		portraits={
 			civilian={
-				large="gfx/leaders/ART/柳德米拉.dds"
+				large="gfx/leaders/ART/柳德米拉.png"
 			}
 			army = {   
-				large="gfx/leaders/ART/柳德米拉.dds" 
+				large="gfx/leaders/ART/柳德米拉.png" 
 				small="gfx/interface/ideas/XXX.png"
 		 	}
 		

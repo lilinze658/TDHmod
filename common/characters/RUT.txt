@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	RUT_kousini={
 		name= kousini
 		portraits={
 			civilian={
-				large="gfx/leaders/RUT/蔻丝妮.dds"
+				large="gfx/leaders/RUT/蔻丝妮.png"
 			}
 			army = {   
-				large="gfx/leaders/RUT/蔻丝妮.dds" 
+				large="gfx/leaders/RUT/蔻丝妮.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

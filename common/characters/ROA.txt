@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	ROA_sidiyou={
 		name=斯蒂优
 		portraits={
 			civilian={
-				large="gfx/leaders/ROA/斯蒂优.dds"
+				large="gfx/leaders/ROA/斯蒂优.png"
 			}
 			army = {   
-				large="gfx/leaders/ROA/斯蒂优.dds" 
+				large="gfx/leaders/ROA/斯蒂优.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -38,7 +38,7 @@ characters={
 		name=布尔莉娅
 		portraits={
 			civilian={
-				large="gfx/leaders/ROA/布尔莉娅.dds"
+				large="gfx/leaders/ROA/布尔莉娅.png"
 			}
 		}
 		country_leader={
@@ -64,7 +64,7 @@ characters={
 		name=布拉莉塔
 		portraits={
 			civilian={
-				large="gfx/leaders/ROA/布拉莉塔.dds"
+				large="gfx/leaders/ROA/布拉莉塔.png"
 			}
 		}
 		corps_commander = {
@@ -83,7 +83,7 @@ characters={
 		name=爱丽丝
 		portraits={
 			civilian={
-				large="gfx/leaders/ROA/爱丽丝.dds"
+				large="gfx/leaders/ROA/爱丽丝.png"
 			}
 		}
 		
@@ -103,7 +103,7 @@ characters={
 		name=布兰二十七世
 		portraits={
 			civilian={
-				large="gfx/leaders/ROA/布兰二十七世.dds"
+				large="gfx/leaders/ROA/布兰二十七世.png"
 			}
 		}
 		camouflage_expert = {

@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	AKU_kama={
 		name=卡玛
 		portraits={
 			civilian={
-				large="gfx/leaders/AKU/卡玛.dds"
+				large="gfx/leaders/AKU/卡玛.png"
 			}
 			army = {   
-				large="gfx/leaders/AKU/卡玛.dds" 
+				large="gfx/leaders/AKU/卡玛.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		 

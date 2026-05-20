@@ -1,0 +1,16 @@
+
+
+r56_chinese_gui_category = {
+	r56_chinese_gui_hide = {
+		icon = icon_kuomintang
+		available = {
+			
+		}
+		visible = {
+			NOT = { has_country_flag = r56_chinese_gui_flag }
+		}
+		complete_effect = {
+			set_country_flag = r56_chinese_gui_flag
+		}
+	}
+}

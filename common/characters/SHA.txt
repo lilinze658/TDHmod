@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	SHA_mei={
 		name=mei
 		portraits={
 			civilian={
-				large="gfx/leaders/SHA/梅.dds"
+				large="gfx/leaders/SHA/梅.png"
 			}
 			army = {   
-				large="gfx/leaders/SHA/梅.dds" 
+				large="gfx/leaders/SHA/梅.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,10 +34,10 @@ characters={
 		name=jiyu
 		portraits={
 			civilian={
-				large="gfx/leaders/SHA/冀宇.dds"
+				large="gfx/leaders/SHA/冀宇.png"
 			}
 			army = {   
-				large="gfx/leaders/SHA/冀宇.dds" 
+				large="gfx/leaders/SHA/冀宇.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -57,10 +57,10 @@ characters={
 		name=保卫者
 		portraits={
 			civilian={
-				large="gfx/leaders/SHA/保卫者.dds"
+				large="gfx/leaders/SHA/保卫者.png"
 			}
 			army = {   
-				large="gfx/leaders/SHA/保卫者.dds" 
+				large="gfx/leaders/SHA/保卫者.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -82,7 +82,7 @@ characters={
 		name=miula
 		portraits = {
 			civilian = {
-				large="gfx/leaders/SHA/缪拉.dds"
+				large="gfx/leaders/SHA/缪拉.png"
 			}
 		}
 		country_leader={

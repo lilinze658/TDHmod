@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	DUC_moyila={
 		name= moyila
 		portraits={
 			civilian={
-				large="gfx/leaders/DUC/莫伊拉.dds"
+				large="gfx/leaders/DUC/莫伊拉.png"
 			}
 			army = {   
-				large="gfx/leaders/DUC/莫伊拉.dds" 
+				large="gfx/leaders/DUC/莫伊拉.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

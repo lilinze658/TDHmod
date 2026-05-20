@@ -1,0 +1,72 @@
+
+
+#多用途飞行器制造商
+SHE_role_aircraft_organizatio = {
+	include = generic_multi_role_aircraft_organization
+	icon = GFX_idea_generic_air_manufacturer_3
+	allowed = {	
+		tag = SHE
+	}
+	available = {
+		owner = { controls_state = 8 }
+	}
+}
+#长航程飞机制造商
+SHE_focused_aircraft_organizatio = {
+	include = generic_range_focused_aircraft_organization
+	icon = GFX_idea_generic_air_manufacturer_1
+	allowed = {	
+		tag = SHE
+	}
+	available = {
+		owner = { controls_state = 8 }
+	}
+}
+#火炮
+SHE_generic_artillery_organizatio = {
+	include = generic_artillery_organization
+	icon = GFX_idea_generic_artillery_manufacturer_2
+	allowed = {	
+		tag = SHE
+	}
+	available = {
+		owner = { controls_state = 8 }
+	}
+}
+#步枪
+SHE_mukden_arsenal_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_generic_infantry_equipment_manufacturer_2
+	allowed = {	
+		tag = SHE
+	}
+	available = {
+		owner = { controls_state = 8 }
+	}
+}
+
+#战列线舰艇制造商
+SHE_battle_line_organization = {
+	include = generic_battle_line_ship_organization
+	icon = GFX_idea_generic_naval_manufacturer_2
+	allowed = {	
+		tag = SHE
+	}
+	available = {
+		owner = { controls_state = 8 }
+	}
+}
+#潜艇制造商
+SHE_generic_submarine_organization = {
+	include = generic_submarine_organization
+	icon = GFX_idea_generic_naval_manufacturer_1
+	allowed = {	
+		tag = SHE
+	}
+	available = {
+		owner = { controls_state = 8 }
+	}
+}
+
+
+

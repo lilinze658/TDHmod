@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	COU_walundina={
 		name= walundina
 		portraits={
 			civilian={
-				large="gfx/leaders/COU/瓦伦蒂娜.dds"
+				large="gfx/leaders/COU/瓦伦蒂娜.png"
 			}
 			army = {   
-				large="gfx/leaders/COU/瓦伦蒂娜.dds" 
+				large="gfx/leaders/COU/瓦伦蒂娜.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -35,10 +35,10 @@ characters={
 		name= wendi
 		portraits={
 			civilian={
-				large="gfx/leaders/COU/温蒂.dds"
+				large="gfx/leaders/COU/温蒂.png"
 			}
 			army = {   
-				large="gfx/leaders/COU/温蒂.dds" 
+				large="gfx/leaders/COU/温蒂.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -60,10 +60,10 @@ characters={
 		name=xiatigute
 		portraits={
 			civilian={
-				large="gfx/leaders/COU/夏提古特.dds"
+				large="gfx/leaders/COU/夏提古特.png"
 			}
 			army = {   
-				large="gfx/leaders/COU/夏提古特.dds" 
+				large="gfx/leaders/COU/夏提古特.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -90,10 +90,10 @@ characters={
 			name=feiluolunsi
 			portraits={
 				civilian={
-					large="gfx/leaders/COU/斐罗伦丝.dds"
+					large="gfx/leaders/COU/斐罗伦丝.png"
 				}
 				army = {   
-					large="gfx/leaders/COU/斐罗伦丝.dds" 
+					large="gfx/leaders/COU/斐罗伦丝.png" 
 					small="gfx/interface/ideas/XXX.png"
 				}
 			
@@ -116,10 +116,10 @@ characters={
 		name=fating
 		portraits={
 			civilian={
-				large="gfx/leaders/COU/法婷.dds"
+				large="gfx/leaders/COU/法婷.png"
 			}
 			army = {   
-				large="gfx/leaders/COU/法婷.dds" 
+				large="gfx/leaders/COU/法婷.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -141,10 +141,10 @@ characters={
 		name=mase
 		portraits={
 			civilian={
-				large="gfx/leaders/COU/玛瑟.dds"
+				large="gfx/leaders/COU/玛瑟.png"
 			}
 			army = {   
-				large="gfx/leaders/COU/玛瑟.dds" 
+				large="gfx/leaders/COU/玛瑟.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -166,10 +166,10 @@ characters={
 		name=aerxipei
 		portraits={
 			civilian={
-				large="gfx/leaders/COU/阿尔西佩.dds"
+				large="gfx/leaders/COU/阿尔西佩.png"
 			}
 			army = {   
-				large="gfx/leaders/COU/阿尔西佩.dds" 
+				large="gfx/leaders/COU/阿尔西佩.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -191,7 +191,7 @@ characters={
 		name=biersi
 		portraits = {
 			army = {
-				large = "gfx/leaders/COU/碧儿丝.dds"
+				large = "gfx/leaders/COU/碧儿丝.png"
 			}
 		}
 
@@ -211,7 +211,7 @@ characters={
 		name=yejing
 		portraits = {
 			army = {
-				large = "gfx/leaders/COU/夜净.dds"
+				large = "gfx/leaders/COU/夜净.png"
 			}
 		}
 
@@ -230,7 +230,7 @@ characters={
 	COU_zixie={
 		name=zixie
 		portraits = {
-			large = "gfx/leaders/COU/紫谐.dds"
+			large = "gfx/leaders/COU/紫谐.png"
 		}
 
 		corps_commander = {
@@ -246,3 +246,4 @@ characters={
 	}
 }
 	
+

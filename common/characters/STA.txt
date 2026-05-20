@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	STA_sitawushi={
 		name=斯卡五世
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/斯卡五世.dds"
+				large="gfx/leaders/STA/斯卡五世.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/斯卡五世.dds" 
+				large="gfx/leaders/STA/斯卡五世.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -33,10 +33,10 @@ characters={
 		name=珍妮玛珏望
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/珍妮玛珏望.dds"
+				large="gfx/leaders/STA/珍妮玛珏望.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/珍妮玛珏望.dds" 
+				large="gfx/leaders/STA/珍妮玛珏望.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -57,10 +57,10 @@ characters={
 		name=莉乃
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/莉乃.dds"
+				large="gfx/leaders/STA/莉乃.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/莉乃.dds" 
+				large="gfx/leaders/STA/莉乃.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -82,10 +82,10 @@ characters={
 		name=瑞贝卡
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/瑞贝卡.dds"
+				large="gfx/leaders/STA/瑞贝卡.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/瑞贝卡.dds" 
+				large="gfx/leaders/STA/瑞贝卡.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -106,10 +106,10 @@ characters={
 		name=伊莲
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/伊莲.dds"
+				large="gfx/leaders/STA/伊莲.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/伊莲.dds" 
+				large="gfx/leaders/STA/伊莲.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -129,10 +129,10 @@ characters={
 		name=江雨
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/江雨.dds"
+				large="gfx/leaders/STA/江雨.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/江雨.dds" 
+				large="gfx/leaders/STA/江雨.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -153,10 +153,10 @@ characters={
 		name=江雪
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/江雪.dds"
+				large="gfx/leaders/STA/江雪.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/江雪.dds" 
+				large="gfx/leaders/STA/江雪.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -177,10 +177,10 @@ characters={
 		name=赫蒂芙尼
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/赫蒂芙尼.dds"
+				large="gfx/leaders/STA/赫蒂芙尼.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/赫蒂芙尼.dds" 
+				large="gfx/leaders/STA/赫蒂芙尼.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -202,10 +202,10 @@ characters={
 		name=赫迪兰
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/赫迪兰.dds"
+				large="gfx/leaders/STA/赫迪兰.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/赫迪兰.dds" 
+				large="gfx/leaders/STA/赫迪兰.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -226,7 +226,7 @@ characters={
 		name=艾瑞奇
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/艾瑞奇.dds"
+				large="gfx/leaders/RED/艾瑞奇.png"
 			}
 		}
 		
@@ -246,10 +246,10 @@ characters={
 		name=艾米莎
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/艾米莎.dds"
+				large="gfx/leaders/STA/艾米莎.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/艾米莎.dds" 
+				large="gfx/leaders/STA/艾米莎.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -270,10 +270,10 @@ characters={
 		name=米洛茜塔
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/米洛茜塔.dds"
+				large="gfx/leaders/STA/米洛茜塔.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/米洛茜塔.dds" 
+				large="gfx/leaders/STA/米洛茜塔.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

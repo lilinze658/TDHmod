@@ -1,0 +1,5 @@
+opinion_modifiers = {
+TZY_MOB_1_opinion = {
+	value = 50
+}
+}

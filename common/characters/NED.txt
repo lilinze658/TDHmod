@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	NED_tonghua={
 		name= tonghua
 		portraits={
 			civilian={
-				large="gfx/leaders/NED/桐华.dds"
+				large="gfx/leaders/NED/桐华.png"
 			}
 			army = {   
-				large="gfx/leaders/NED/桐华.dds" 
+				large="gfx/leaders/NED/桐华.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -33,10 +33,10 @@ characters={
 		name= kunna
 		portraits={
 			civilian={
-				large="gfx/leaders/NED/昆娜.dds"
+				large="gfx/leaders/NED/昆娜.png"
 			}
 			army = {   
-				large="gfx/leaders/NED/昆娜.dds" 
+				large="gfx/leaders/NED/昆娜.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

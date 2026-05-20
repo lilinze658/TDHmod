@@ -39,5 +39,38 @@ leader_traits = {
 
 		
 	}
+	ChairmanoftheCouncil= {
+		random = no
+		consumer_goods_factor =  -0.1
+		local_resources_factor=  0.1
+		trade_opinion_factor=  0.1
+	}
+	Familyinterestscomefirst= {
+		random = no
+		custom_modifier_tooltip = LOV_demihuman_Familyinterestscomefirst_effect_tt
+	}
+	Demon= {
+		random = no
+		stability_factor = -0.05
+		war_support_factor = -0.05
+	}
+	Conspirator= {
+		random = no
+		operative_slot = 1
+		decryption = 1
+	}
+	waimaobubuzhang= {
+		random = no
+		trade_opinion_factor=  0.1
+		production_lack_of_resource_penalty_factor = -0.1
+	}
+	lishihuifuhuizhang= {
+		random = no
+		consumer_goods_factor =  -0.15
+	}
+	haishijujuzhang= {
+		random = no
+		experience_gain_naval = 0.3
+	}
 }
 

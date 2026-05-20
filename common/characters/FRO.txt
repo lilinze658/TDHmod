@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	FRO_hana={
 		name= hana
 		portraits={
 			civilian={
-				large="gfx/leaders/FRO/哈娜.dds"
+				large="gfx/leaders/FRO/哈娜.png"
 			}
 			army = {   
-				large="gfx/leaders/FRO/哈娜.dds" 
+				large="gfx/leaders/FRO/哈娜.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

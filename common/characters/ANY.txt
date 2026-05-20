@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	ANY_qingji={
 		name=qingji
 		portraits={
 			civilian={
-				large="gfx/leaders/ANY/青姬.dds"
+				large="gfx/leaders/ANY/青姬.png"
 			}
 			army = {   
-				large="gfx/leaders/ANY/青姬.dds" 
+				large="gfx/leaders/ANY/青姬.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,7 +34,7 @@ characters={
 		name=mieyazi
 		portraits={
 			civilian={
-				large="gfx/leaders/ANY/咩亚子.dds"
+				large="gfx/leaders/ANY/咩亚子.png"
 			}
 		}
 		
@@ -54,7 +54,7 @@ characters={
 		name=xiaodie
 		portraits={
 			civilian={
-				large="gfx/leaders/ANY/咲蝶.dds"
+				large="gfx/leaders/ANY/咲蝶.png"
 			}
 		}
 		

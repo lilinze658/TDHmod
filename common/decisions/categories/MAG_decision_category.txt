@@ -1,0 +1,7 @@
+MAG_decision_category = {
+	icon = generic_prospect_for_resources
+	allowed = {
+	    tag = MAG
+	}
+	priority = 2
+}

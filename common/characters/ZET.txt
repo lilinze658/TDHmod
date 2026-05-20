@@ -1,24 +1,462 @@
-characters={ 
-	ZET_没有指挥官={
-		name=没有指挥官
+﻿characters={ 
+	ZET_walunseting={
+		name="瓦伦·瑟蒂安"
 		portraits={
 			civilian={
-				large="gfx/leaders/ELT/没有指挥官.dds"
+				large="gfx/leaders/ELT/没有指挥官.png"
 			}
 			army = {   
-				large="gfx/leaders/ELT/没有指挥官.dds" 
+				large="gfx/leaders/ELT/没有指挥官.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
 		}
 		country_leader={
-			desc = ""
-				 traits = {  }
+			desc = "ZET_walunseting_desc"
+				 traits = { ChairmanoftheCouncil Familyinterestscomefirst Demon Conspirator }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1
 			}
 	}
 
+	ZET_hanwufa={
+		name = "韩舞阀"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ELT/没有指挥官.png"
+			}
+			army = {
+				large = "gfx/leaders/ELT/没有指挥官.png" 
+				small = "gfx/interface/ideas/XXX.png"
+			}
+		}
+		advisor = {
+			desc = "ZET_hanwufa_desc"
+			slot = political_advisor
+			idea_token = ZET_hanwufa
+			allowed = {
+				original_tag = ZET
+			}
+			traits = { 
+				lishihuifuhuizhang
+			}
+			cost = 200
+		}
+	}
+
+	ZET_shasilina = {
+		name = "莎斯莉娜"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ELT/没有指挥官.png"
+			}
+			army = {
+				large = "gfx/leaders/ELT/没有指挥官.png" 
+				small = "gfx/interface/ideas/XXX.png"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = ZET_shasilina
+			traits = { 
+				haishijujuzhang navy_chief_reform_2 naval_theorist
+			}
+			cost = 200
+		}
+	}
+
+	ZET_buernuola = {
+		name = "布尔诺拉"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ELT/没有指挥官.png"
+			}
+			army = {
+				large = "gfx/leaders/ELT/没有指挥官.png" 
+				small = "gfx/interface/ideas/XXX.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ZET_buernuola
+			traits = {
+
+			 }
+			 cost = 200
+			}
+			}
+	ZET_dantuku = {
+		name = "丹兔库"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ELT/没有指挥官.png"
+			}
+			army = {
+				large = "gfx/leaders/ELT/没有指挥官.png" 
+				small = "gfx/interface/ideas/XXX.png"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ZET_dantuku
+			traits = {
+				fangweibubuzhang
+			 }
+			 cost = 200
+		}
+	}
+
+	ZET_hezhenan = {
+		name = "贺哲楠"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ELT/没有指挥官.png"
+			}
+			army = {
+				large = "gfx/leaders/ELT/没有指挥官.png" 
+				small = "gfx/interface/ideas/XXX.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ZET_hezhenan
+			traits = { 
+				jishububuzhang
+			}
+			cost = 200
+		}
+	}
+
+	ZET_kani = {
+		name = "卡妮"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ELT/没有指挥官.png"
+			}
+			army = {
+				large = "gfx/leaders/ELT/没有指挥官.png" 
+				small = "gfx/interface/ideas/XXX.png"
+			}
+		}
+		advisor = {
+			 desc = "ZET_dantuku_desc"
+			slot = political_advisor
+			idea_token = ZET_kani
+			traits = { 
+				waimaobubuzhang
+			}
+			cost = 200
+		}
+	}
+
+	ZET_walunfapu = {
+		name = "瓦伦法普"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ELT/没有指挥官.png"
+			}
+			army = {
+				large = "gfx/leaders/ELT/没有指挥官.png" 
+				small = "gfx/interface/ideas/XXX.png"
+			}
+		}
+		advisor = { 
+			slot = political_advisor
+			idea_token = ZET_walunfapu
+			traits = { 
+				renshibubuzhang
+			}
+			cost = 200
+		}
+	}
+
+	ZET_walunduosi = {
+		name = "瓦伦多丝"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ELT/没有指挥官.png"
+			}
+			army = {
+				large = "gfx/leaders/ELT/没有指挥官.png" 
+				small = "gfx/interface/ideas/XXX.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ZET_walunfapu
+			traits = {
+				diquzhixingguan
+			 }
+			 cost = 200
+		}
+	}
+
+	ZET_shasilina = {
+		name = "莎斯莉娜"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ELT/没有指挥官.png"
+			}
+			army = {
+				large = "gfx/leaders/ELT/没有指挥官.png" 
+				small = "gfx/interface/ideas/XXX.png"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = 莎斯莉娜
+			traits = { 
+				haishijujuzhangjunshi
+			}
+		}
+		cost = 200
+	}
+	ZET_luxi_a ={
+		name = ZET_luxi
+		portraits={
+			civilian={
+				large= GFX_ZET_luxiA
+				small="gfx/leaders/ZET/露西.png"
+			}
+			army = {
+				large= GFX_ZET_luxiA
+				small="gfx/leaders/ZET/露西.png"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ZET_luxi_N
+			traits = { ZET_luxi_AA }   
+			available = {
+				NOT = {
+					has_idea = ZET_luxi_G
+				}
+			}
+		}
+		corps_commander = {
+			traits = { ZET_luxibuff }
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			skill = 1
+		}
+	}
+	ZET_luxi_b ={
+		name = ZET_luxi
+		portraits={
+			civilian={
+				large= GFX_ZET_luxiA
+				small="gfx/leaders/ZET/露西.png"
+			}
+			army = {
+				large= GFX_ZET_luxiA
+				small="gfx/leaders/ZET/露西.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ZET_luxi_G
+			available = {
+				NOT = {
+					has_idea = ZET_luxi_N
+				}
+			}
+			traits = { ZET_luxi_BB }   
+		}
+	}
+	ZET_vertin ={
+		name =ZET_vertin_name
+		portraits={
+			civilian = {
+				large = GFX_ZET_ver
+			}
+			army = {
+				large = GFX_ZET_ver
+			}
+		}
+		corps_commander  = {
+			traits = { adaptable }
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			skill = 1
+		}
+	}
+	ZET_error ={
+		name = ZET_error
+		portraits={
+			civilian = {
+				large = GFX_ZET_error
+			}
+			army = {
+				large = GFX_ZET_error
+			}
+		}
+		corps_commander  = {
+			traits = { ZET_error_buff harsh_leader }
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			skill = 1
+		}
+	}
+	ZET_chaiquan ={
+		name = 布兰克丝
+		portraits={
+			civilian={
+				large="gfx/leaders/ZET/布兰克丝.png"
+			}
+			army = {
+				large="gfx/leaders/ZET/布兰克丝.png"
+			}
+		}
+		corps_commander = {
+			traits = { media_personality armor_officer winter_specialist ZET_chaiquanbuff }
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			skill = 2
+		}
+	}
+	ZET_luori ={
+		name = 落日虹雨
+		portraits={
+			civilian={
+				large="gfx/leaders/ZET/落日虹雨.png"
+			}
+			army = {
+				large="gfx/leaders/ZET/落日虹雨.png"
+			}
+		}
+		corps_commander  = {
+			traits = { trait_cautious ZET_xinxing }
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			skill = 2
+		}
+	}
+	ZET_suyiyang ={
+		name = 苏依阳
+		portraits={
+			civilian={
+				large="gfx/leaders/ZET/苏依阳.png"
+			}
+			army = {
+				large="gfx/leaders/ZET/苏依阳.png"
+			}
+		}
+		corps_commander  = {
+			traits = { infantry_officer adaptable ZET_aimoyu }
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 3
+			skill = 4
+		}
+	}
+	ZET_wumeng ={
+		name = K421
+		portraits={
+			civilian={
+				large="gfx/leaders/ZET/K421.png"
+			}
+			army = {
+				large="gfx/leaders/ZET/K421.png"
+			}
+		}
+		corps_commander  = {
+			traits = { brilliant_strategist ZET_paihuai }
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			skill = 3
+		}
+	}
+	ZET_chaiquan_shui ={
+		name = 布兰克丝
+		portraits={
+			civilian={
+				large="gfx/leaders/ZET/布兰克丝.png"
+			}
+			army = {
+				large="gfx/leaders/ZET/布兰克丝.png"
+			}
+		}
+		navy_leader = {
+			traits = { Bold superior_tactician Ironside }
+			skill = 6
+			attack_skill = 7
+			defense_skill = 4
+			maneuvering_skill = 6
+			coordination_skill = 7
+		}
+	}
+	
+	ZET_deyasu ={
+		name = 德亚丝
+		portraits={
+			civilian={
+				large="gfx/leaders/ZET/德亚丝.png"
+			}
+			army = {
+				large="gfx/leaders/ZET/德亚丝.png"
+			}
+		}
+		field_marshal  = {
+			traits = { old_guard politically_connected ZET_buliren }
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 3
+			skill = 3
+		}
+	}
+	ZET_jianglingzhi ={
+		name = 江玲知
+		portraits={
+			civilian={
+				large="gfx/leaders/ZET/江铃知.png"
+			}
+			army = {
+				large="gfx/leaders/ZET/江铃知.png"
+			}
+		}
+		corps_commander  = {
+			traits = { trait_reckless harsh_leader }
+			attack_skill = 6
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+			skill = 4
+		}
+	}
+	ZET_laowang ={
+		name = 森珀
+		portraits={
+			civilian={
+				large="gfx/leaders/ZET/森珀.png"
+			}
+			army = {
+				large="gfx/leaders/ZET/森珀.png"
+			}
+		}
+		corps_commander  = {
+			traits = { bearer_of_artillery brilliant_strategist ZET_aojiao}
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			skill = 1
+		}
+	}
+	
 }
 	

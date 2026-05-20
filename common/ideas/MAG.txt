@@ -1,0 +1,30 @@
+ideas = {
+
+	country = {
+
+        #魔法少女同盟会#
+        MAG_ideas_1 = {
+            removal_cost = -1
+            picture = MAG_ideas_1
+            modifier = {
+				weekly_manpower = 1500
+			}
+        }
+        #复国复国#
+        MAG_ideas_2 = {
+            removal_cost = -1
+            picture = MAG_ideas_2
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+            targeted_modifier = {
+                tag = HAS
+                attack_bonus_against = 0.25
+                defense_bonus_against = 0.25
+            }
+        }
+}
+}

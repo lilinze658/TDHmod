@@ -1,13 +1,13 @@
-characters={ 
+﻿characters={ 
 	SNO_yao={
 		name=遥
 		portraits={
 			civilian={
-				large="gfx/leaders/SNO/遥.dds"
+				large="gfx/leaders/SNO/遥.png"
 			}
 			army = {   
-				large="gfx/leaders/SNO/遥.dds" 
-				small="gfx/leaders/SNO/遥内阁.dds"
+				large="gfx/leaders/SNO/遥.png" 
+				small="gfx/leaders/SNO/遥内阁.png"
 			}
 		
 		}
@@ -34,11 +34,11 @@ characters={
 		name=雪晶
 		portraits={
 			civilian={
-				large="gfx/leaders/SNO/雪晶.dds"
+				large="gfx/leaders/SNO/雪晶.png"
 			}
 			army = {   
-				large="gfx/leaders/SNO/雪晶.dds" 
-				small="gfx/leaders/SNO/雪晶内阁.dds"
+				large="gfx/leaders/SNO/雪晶.png" 
+				small="gfx/leaders/SNO/雪晶内阁.png"
 			}
 		
 		}

@@ -1,13 +1,13 @@
-characters={ 
+﻿characters={ 
 	MOB_aipudifei={
 		name=艾普蒂菲
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/艾普蒂菲.dds"
+				large="gfx/leaders/MOB/艾普蒂菲.png"
 			}
 			army = {   
-				large="gfx/leaders/MOB/艾普蒂菲.dds" 
-				small="gfx/leaders/MOB/艾普蒂菲内阁.dds"
+				large="gfx/leaders/MOB/艾普蒂菲.png" 
+				small="gfx/leaders/MOB/艾普蒂菲内阁.png"
 			}
 		 
 		}
@@ -66,10 +66,10 @@ characters={
 		name=维木奈
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/维木奈.dds"
+				large="gfx/leaders/MOB/维木奈.png"
 			}
 			army = {    
-				small="gfx/leaders/MOB/维木奈内阁.dds"
+				small="gfx/leaders/MOB/维木奈内阁.png"
 			}
 
 		}
@@ -101,7 +101,7 @@ characters={
 		name=布尼丝
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/布尼丝.dds"
+				large="gfx/leaders/MOB/布尼丝.png"
 			}
 		}
 		
@@ -121,10 +121,10 @@ characters={
 		name=薇诺露娅
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/薇诺露娅.dds"
+				large="gfx/leaders/MOB/薇诺露娅.png"
 			}
 			army = {    
-				small="gfx/leaders/MOB/薇诺露娅内阁.dds"
+				small="gfx/leaders/MOB/薇诺露娅内阁.png"
 			}
 		}
 		advisor={	
@@ -168,7 +168,7 @@ characters={
 		name=露米娅
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/露米娅.dds"
+				large="gfx/leaders/MOB/露米娅.png"
 			}
 		}
 		
@@ -188,7 +188,7 @@ characters={
 		name=艾薇
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/艾薇.dds"
+				large="gfx/leaders/MOB/艾薇.png"
 			}
 		}
 		
@@ -208,7 +208,7 @@ characters={
 		name=斯布罗娜
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/斯布罗娜.dds"
+				large="gfx/leaders/MOB/斯布罗娜.png"
 			}
 		}
 		
@@ -228,7 +228,7 @@ characters={
 		name=薇莲二世
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/薇莲二世.dds"
+				large="gfx/leaders/MOB/薇莲二世.png"
 			}
 		}
 		
@@ -248,7 +248,7 @@ characters={
 		name=佩尔卡
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/佩尔卡.dds"
+				large="gfx/leaders/MOB/佩尔卡.png"
 			}
 		}
 		
@@ -268,10 +268,10 @@ characters={
 		name=梅瑟兰蒂
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/梅瑟兰蒂.dds"
+				large="gfx/leaders/MOB/梅瑟兰蒂.png"
 			}
 			army = {    
-				small="gfx/leaders/MOB/梅瑟兰蒂内阁.dds"
+				small="gfx/leaders/MOB/梅瑟兰蒂内阁.png"
 			}
 		}
 		advisor={	
@@ -303,7 +303,7 @@ characters={
 		name=凯瑟琳
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/凯瑟琳.dds"
+				large="gfx/leaders/MOB/凯瑟琳.png"
 			}
 		}
 		advisor={	
@@ -346,10 +346,10 @@ characters={
 		name=莫德克拉
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/莫德克拉.dds"
+				large="gfx/leaders/MOB/莫德克拉.png"
 			}
 			army = {    
-				small="gfx/leaders/MOB/莫德克拉内阁.dds"
+				small="gfx/leaders/MOB/莫德克拉内阁.png"
 			}
 		}
 		advisor={	
@@ -393,10 +393,10 @@ characters={
 		name=纳姆蕾特
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/纳姆蕾特.dds"
+				large="gfx/leaders/MOB/纳姆蕾特.png"
 			}
 			army = {    
-				small="gfx/leaders/MOB/纳姆蕾特内阁.dds"
+				small="gfx/leaders/MOB/纳姆蕾特内阁.png"
 			}
 		}
 		advisor={	
@@ -457,10 +457,10 @@ characters={
 		name=茜拉
 		portraits={
 			civilian={
-				large="gfx/leaders/MOB/茜拉.dds"
+				large="gfx/leaders/MOB/茜拉.png"
 			}
 			army = {    
-				small="gfx/leaders/MOB/茜拉内阁.dds"
+				small="gfx/leaders/MOB/茜拉内阁.png"
 			}
 		}
 		advisor={	
@@ -503,7 +503,7 @@ characters={
 		name=劳伦缇娜
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MOB/劳伦缇娜.dds"
+				large = "gfx/leaders/MOB/劳伦缇娜.png"
 			}
 		}
 		corps_commander = {
@@ -522,33 +522,385 @@ characters={
 		name=薇莲三世
 		portraits = {
 			army = {
-				small="gfx/leaders/MOB/薇莲三世内阁.dds"
+				small="gfx/leaders/MOB/薇莲三世内阁.png"
 			}
 			civilian = {
-				large="gfx/leaders/MOB/薇莲三世.dds"
+				large="gfx/leaders/MOB/薇莲三世.png"
 			}
 		}
-	advisor={
-		desc = "MOB_CHIANG_WLSS_DESC"
-		slot = political_advisor
-		idea_token = 薇莲三世
-		allowed = {
-			original_tag = MOB
+	    advisor={
+		    desc = "MOB_CHIANG_WLSS_DESC"
+            slot = political_advisor
+		    idea_token = 薇莲三世
+		    allowed = {
+			    original_tag = MOB
+		    }
+		    traits = {
+			    mobisiqiantaizi
+		    }
+		    cost = 150
+	    } 
+	    corps_commander = {
+	       desc = "MOB_14_APDF_DESC"
+		   legacy_id = 116
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+	MOB_NekrusKafans={
+		name= "NekrusKafans"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
 		}
-		traits = {
-			mobisiqiantaizi
+	    
+	    corps_commander = {
+	       desc = "MOB_15_APDF_DESC"
+		   legacy_id = 230
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+	MOB_NeklusLikanah={
+		name="NeklusLikanah"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
 		}
-		cost = 150
-	} 
-	corps_commander = {
-	desc = "MOB_14_APDF_DESC"
-		legacy_id = 116
-		traits = {  }
-		skill = 1
-		attack_skill = 1
-		defense_skill = 1
-		planning_skill = 1
-		logistics_skill = 1
-	}
-}
+	    
+	    corps_commander = {
+	       desc = "MOB_16_APDF_DESC"
+		   legacy_id = 231
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+    MOB_KimvonKoch={
+		name="KimvonKoch"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_17_APDF_DESC"
+		   legacy_id = 232
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+	MOB_TuBaryli={
+		name="TuBaryli"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_18_APDF_DESC"
+		   legacy_id = 233
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+	MOB_KimvonGenscher={
+		name="KimvonGenscher"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_19_APDF_DESC"
+		   legacy_id = 234
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+	MOB_KimvonKállay={
+		name= "KimvonKllay"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_20_APDF_DESC"
+		   legacy_id = 235
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+	MOB_KimvonItneras={
+		name="KimvonItneras"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_21_APDF_DESC"
+		   legacy_id = 237
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+    MOB_TuEles={
+		name="TuEles"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_22_APDF_DESC"
+		   legacy_id = 238
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+    MOB_TuGofft={
+		name="TuGofft"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_23_APDF_DESC"
+		   legacy_id = 239
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+    MOB_NeklusLinas={
+		name="NeklusLinas"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_24_APDF_DESC"
+		   legacy_id = 240
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+	MOB_weiliansanshi={
+		name="weiliansanshi"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_25_APDF_DESC"
+		   legacy_id = 241
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+	MOB_Teresztes={
+		name="Teresztes"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_26_APDF_DESC"
+		   legacy_id = 242
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+	MOB_Mukbing={
+		name="Mukbing"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_27_APDF_DESC"
+		   legacy_id = 243
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+	MOB_Pruner={
+		name="Pruner"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_28_APDF_DESC"
+		   legacy_id = 244
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+	MOB_MuunakCobra={
+		name="MuunakCobra"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_29_APDF_DESC"
+		   legacy_id = 245
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
+	MOB_Habraslina={
+		name="Habraslina"
+		portraits = {
+			army = {
+				small="gfx/leaders/MOB/没有指挥官.png"
+			}
+			civilian = {
+				large="gfx/leaders/MOB/没有指挥官.png"
+			}
+		}
+	    
+	    corps_commander = {
+	       desc = "MOB_30_APDF_DESC"
+		   legacy_id = 116
+		   traits = {  }
+		   skill = 1
+		   attack_skill = 1
+		   defense_skill = 1
+		   planning_skill = 1
+		   logistics_skill = 1
+        }
+    }
 }		

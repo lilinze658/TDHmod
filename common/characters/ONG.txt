@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	ONG_shaoxuan={
 		name=shaoxuan
 		portraits={
 			civilian={
-				large="gfx/leaders/ONG/邵宣.dds"
+				large="gfx/leaders/ONG/邵宣.png"
 			}
 			army = {   
-				large="gfx/leaders/ONG/邵宣.dds" 
+				large="gfx/leaders/ONG/邵宣.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		}
@@ -33,10 +33,10 @@ characters={
 		name=yamu
 		portraits={
 			civilian={
-				large="gfx/leaders/ONG/雅木.dds"
+				large="gfx/leaders/ONG/雅木.png"
 			}
 			army = {   
-				large="gfx/leaders/ONG/雅木.dds" 
+				large="gfx/leaders/ONG/雅木.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -58,10 +58,10 @@ characters={
 		name=qinyun
 		portraits={
 			civilian={
-				large="gfx/leaders/ONG/青云.dds"
+				large="gfx/leaders/ONG/青云.png"
 			}
 			army = {   
-				large="gfx/leaders/ONG/青云.dds" 
+				large="gfx/leaders/ONG/青云.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -83,10 +83,10 @@ characters={
 		name=chenlingjing
 		portraits={
 			civilian={
-				large="gfx/leaders/ONG/陈玲静.dds"
+				large="gfx/leaders/ONG/陈玲静.png"
 			}
 			army = {   
-				large="gfx/leaders/ONG/陈玲静.dds" 
+				large="gfx/leaders/ONG/陈玲静.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

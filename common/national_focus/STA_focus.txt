@@ -1,0 +1,1663 @@
+focus_tree={
+	id = STA_focus
+	country={
+		factor=0
+		modifier={
+			add=10
+			tag=STA
+		}
+	}
+	continuous_focus_position = { x = 400 y = 1999 }
+	default=no
+	focus={
+		id=STA_focus_1
+		x=3
+		y=0
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+			
+		}
+	}
+	focus={
+		id=STA_focus_2
+		x=-1
+		y=1
+		prerequisite={focus=STA_focus_1}
+		relative_position_id = STA_focus_1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_3
+		x=0
+		y=1
+		prerequisite={focus=STA_focus_2}
+		relative_position_id = STA_focus_2
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_4
+		x=0
+		y=1
+		prerequisite={focus=STA_focus_3}
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		relative_position_id = STA_focus_3
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_5
+		x=1
+		y=1
+		prerequisite={focus=STA_focus_1}
+		relative_position_id = STA_focus_1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_6
+		x=0
+		y=1
+		prerequisite={focus=STA_focus_5}
+		cost=10
+		relative_position_id = STA_focus_5
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_7
+		x=0
+		y=1
+		relative_position_id = STA_focus_6
+		prerequisite={focus=STA_focus_6}
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_8
+		x=1
+		y=1
+		relative_position_id = STA_focus_4
+		prerequisite={focus=STA_focus_7}
+		prerequisite={focus=STA_focus_4}
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_9
+		x=0
+		y=1
+		relative_position_id = STA_focus_8
+		prerequisite={focus=STA_focus_8}
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_10
+		x=-2
+		y=1
+		relative_position_id = STA_focus_9
+		prerequisite={focus=STA_focus_9}
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_11
+		x=0
+		y=1
+		relative_position_id = STA_focus_9
+		prerequisite={focus=STA_focus_9}
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_12
+		x=2
+		y=1
+		
+		relative_position_id = STA_focus_9
+		prerequisite={focus=STA_focus_9}
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_13
+		x=3
+		y=8
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+			swap_ideas = {
+				add_idea = STA_ideas_5
+				remove_idea =STA_ideas_4
+			}
+		}
+	}
+	focus={
+		id=STA_focus_14
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_13}
+		relative_position_id = STA_focus_13
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+			swap_ideas = {
+				add_idea = STA_ideas_6
+				remove_idea = STA_ideas_5
+			}
+		}
+	}
+	focus={
+		id=STA_focus_15
+		x=-1
+		y=1
+		cost=10
+		mutually_exclusive = {
+			focus = STA_focus_18
+		}
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_14}
+		relative_position_id = STA_focus_14
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+			swap_ideas = {
+				add_idea = STA_ideas_7
+				remove_idea = STA_ideas_6
+			}
+		}
+	}
+	focus={
+		id=STA_focus_16
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_15}
+		relative_position_id = STA_focus_15
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+			swap_ideas = {
+				add_idea = STA_ideas_8
+				remove_idea = STA_ideas_7
+			}
+		}
+		
+	}
+	focus={
+		id=STA_focus_17
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_16}
+		relative_position_id = STA_focus_16
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+			show_ideas_tooltip = STA_heavy_machinery_manufacturer
+		}
+	}
+	focus={
+		id=STA_focus_18
+		x=1
+		y=1
+		cost=10
+		mutually_exclusive = {
+			focus = STA_focus_15
+		}
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_14}
+		relative_position_id = STA_focus_14
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+			439 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes 
+
+				}
+			}
+			swap_ideas = {
+				add_idea = STA_ideas_9
+				remove_idea = STA_ideas_6
+			}
+			
+		}
+	}
+	focus={
+		id=STA_focus_19
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_18}
+		relative_position_id = STA_focus_18
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+			45 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes 
+
+				}
+			}
+			swap_ideas = {
+				add_idea = STA_ideas_10
+				remove_idea = STA_ideas_9
+			}
+		}
+	}
+	focus={
+		id=STA_focus_20
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_19}
+		relative_position_id = STA_focus_19
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+			show_ideas_tooltip = STA_national_railway_corporation
+			show_ideas_tooltip = AIS_lakalameilisi
+		}
+	}
+	focus={
+		id=STA_focus_21
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_20 focus=STA_focus_17}
+		relative_position_id = STA_focus_20
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+			if = {
+				limit = {
+					has_idea = STA_ideas_10
+				}
+				swap_ideas = {
+					add_idea = STA_ideas_11
+					remove_idea = STA_ideas_10
+				}
+				
+			}
+			else_if = {
+				limit = {
+					has_idea = STA_ideas_8
+				}
+				swap_ideas = {
+					add_idea = STA_ideas_11
+					remove_idea = STA_ideas_8
+				}
+			}
+		}
+	}
+	focus={
+		id=STA_focus_22
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_21}
+		relative_position_id = STA_focus_21
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+			if = {
+				limit = {
+					has_idea = STA_ideas_11
+				}
+				remove_ideas = STA_ideas_11
+				
+			}
+			
+		}
+	}
+	focus={
+		id=STA_focus_23
+		x=10
+		y=0
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_24
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_23}
+		relative_position_id = STA_focus_23
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_25
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_24}
+		relative_position_id = STA_focus_24
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_26
+		x=1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_23}
+		relative_position_id = STA_focus_23
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_27
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_28 focus=STA_focus_25}
+		relative_position_id = STA_focus_28
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_28
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_26}
+		relative_position_id = STA_focus_26
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_29
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_27}
+		relative_position_id = STA_focus_27
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_30
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_29}
+		relative_position_id = STA_focus_29
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_31
+		x=14
+		y=8
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_32
+		x=-2
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_31}
+		relative_position_id = STA_focus_31
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_33
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_32}
+		relative_position_id = STA_focus_32
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_34
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_33}
+		relative_position_id = STA_focus_33
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_35
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_34}
+		relative_position_id = STA_focus_34
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_36
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_31}
+		relative_position_id = STA_focus_31
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_37
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_36}
+		relative_position_id = STA_focus_36
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_38
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_37}
+		relative_position_id = STA_focus_37
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_97
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_38}
+		relative_position_id = STA_focus_38
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	
+	focus={
+		id=STA_focus_39
+		x=2
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_31}
+		relative_position_id = STA_focus_31
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_40
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_39}
+		relative_position_id = STA_focus_39
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_41
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_40}
+		relative_position_id = STA_focus_40
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_42
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_41}
+		relative_position_id = STA_focus_41
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_43
+		x=40
+		y=0
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_44
+		x=-7
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_43}
+		relative_position_id = STA_focus_43
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_45
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_44}
+		relative_position_id = STA_focus_44
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_46
+		x=1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_44}
+		relative_position_id = STA_focus_44
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_47
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_46}
+		prerequisite={focus=STA_focus_45}
+		relative_position_id = STA_focus_46
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_48
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_47}
+		relative_position_id = STA_focus_47
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_49
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_48}
+		relative_position_id = STA_focus_48
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_50
+		x=0
+		y=2
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_49}
+		relative_position_id = STA_focus_48
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_51
+		x=1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_47}
+		relative_position_id = STA_focus_47
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_52
+		x=1
+		y=2
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_51}
+		relative_position_id = STA_focus_47
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_53
+		x=1
+		y=3
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_52}
+		relative_position_id = STA_focus_47
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_54
+		x=1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_50}
+		prerequisite={focus=STA_focus_53}
+		relative_position_id = STA_focus_50
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_55
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_54}
+		relative_position_id = STA_focus_54
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_56
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_55}
+		relative_position_id = STA_focus_55
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_57
+		x=1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_54}
+		relative_position_id = STA_focus_54
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_58
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_57}
+		relative_position_id = STA_focus_57
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_59
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_58}
+		relative_position_id = STA_focus_58
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_60
+		x=-6
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_44}
+		relative_position_id = STA_focus_44
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_61
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_60}
+		relative_position_id = STA_focus_60
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_62
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_61}
+		relative_position_id = STA_focus_61
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_63
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_62}
+		relative_position_id = STA_focus_62
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_64
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		mutually_exclusive = {
+			focus = STA_focus_65
+		}
+		prerequisite={focus=STA_focus_63}
+		relative_position_id = STA_focus_63
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_65
+		x=1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		mutually_exclusive = {
+			focus = STA_focus_64
+		}
+		prerequisite={focus=STA_focus_63}
+		relative_position_id = STA_focus_63
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_66
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_65 focus=STA_focus_64}
+		relative_position_id = STA_focus_65
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_67
+		x=-2
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_43}
+		relative_position_id = STA_focus_43
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_68
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_67}
+		relative_position_id = STA_focus_67
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_69
+		x=1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_67}
+		relative_position_id = STA_focus_67
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_70
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_69 focus=STA_focus_68}
+		relative_position_id = STA_focus_69
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_71
+		x=1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_70}
+		relative_position_id = STA_focus_70
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_72
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_71}
+		relative_position_id = STA_focus_71
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_73
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_70}
+		relative_position_id = STA_focus_70
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_74
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_73}
+		relative_position_id = STA_focus_73
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_75
+		x=1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_74}
+		relative_position_id = STA_focus_74
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_76
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_75}
+		relative_position_id = STA_focus_75
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_77
+		x=-4
+		y=2
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_79}
+		relative_position_id = STA_focus_79
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_78
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_77}
+		relative_position_id = STA_focus_77
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_79
+		x=7
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_43}
+		relative_position_id = STA_focus_43
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_80
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_79}
+		relative_position_id = STA_focus_79
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_81
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_80}
+		relative_position_id = STA_focus_80
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_82
+		x=1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_79}
+		relative_position_id = STA_focus_79
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_83
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_82}
+		relative_position_id = STA_focus_82
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_84
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_83}
+		relative_position_id = STA_focus_83
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_85
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_84}
+		relative_position_id = STA_focus_84
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_86
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_85}
+		relative_position_id = STA_focus_85
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_87
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_86}
+		relative_position_id = STA_focus_86
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_88
+		x=1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_84}
+		relative_position_id = STA_focus_84
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_89
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_88}
+		relative_position_id = STA_focus_88
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_90
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_89}
+		relative_position_id = STA_focus_89
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_91
+		x=-1
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_90 focus=STA_focus_87}
+		relative_position_id = STA_focus_90
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_92
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_91}
+		relative_position_id = STA_focus_91
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_93
+		x=4
+		y=2
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_79}
+		relative_position_id = STA_focus_79
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_94
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_93}
+		relative_position_id = STA_focus_93
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_95
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_94}
+		relative_position_id = STA_focus_94
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_96
+		x=0
+		y=1
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		prerequisite={focus=STA_focus_95}
+		relative_position_id = STA_focus_95
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=STA_focus_98
+		x=60
+		y=0
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+}

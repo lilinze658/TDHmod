@@ -1,0 +1,98 @@
+ideas = {
+    #军队规模
+	city_idea = {
+		law = yes
+		use_list_view = yes
+		generic_race_idea = {
+			allowed = {
+				has_tech = generic_race
+			}
+			visible = {
+				has_idea = generic_race_idea
+			}
+	
+			removal_cost = -1
+			default = yes
+	
+			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	 industrial_4 = {
+		 allowed_to_remove = {
+			 always = no
+		 }
+		 modifier = {
+			experience_loss_factor = -0.05
+			army_morale_factor = 0.1
+			land_reinforce_rate = 0.05
+			army_defence_factor	 = 0.1										
+            army_attack_factor	 = 0.1										
+		 }
+		 removal_cost = -1
+		 cancel_if_invalid = no
+		 ai_will_do = {
+			 factor = 0
+		 }
+	 }
+ 
+	 industrial_3 = {
+		 allowed_to_remove = {
+			 always = no
+		 }
+		 modifier = {
+			army_defence_factor	 = 0.05										
+            offence	 = 0.05	
+		 }
+		 cost = 0
+		 removal_cost = -1
+		 cancel_if_invalid = no
+		 ai_will_do = {
+			 factor = 0
+		 }
+	 }
+ 
+	 industrial_2 = {
+		 allowed_to_remove = {
+			 always = no
+		 }
+		 modifier = {
+			
+		 }
+		 cost = 0
+		 removal_cost = -1
+		 cancel_if_invalid = no
+		 ai_will_do = {
+			 factor = 0
+		 }
+	 }
+	 industrial_1 = {
+		 allowed_to_remove = {
+			 always = no
+		 }
+		 allowed = {
+			 
+		 }
+		 visible = {
+			 
+		 }
+		 modifier = {
+			experience_loss_factor = 0.05
+			army_morale_factor = -0.1
+			land_reinforce_rate = -0.05
+			army_defence_factor	 = -0.1										
+            army_attack_factor	 = -0.1	
+		 }
+		 cost = 0
+		 removal_cost = -1
+		 cancel_if_invalid = no
+		 ai_will_do = {
+			 factor = 0
+		 }
+	    }
+	
+	 }
+	 
+ }
+	

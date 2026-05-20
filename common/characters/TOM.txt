@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	TOM_gemila={
 		name=gemila
 		portraits={
 			civilian={
-				large="gfx/leaders/TOM/格米拉.dds"
+				large="gfx/leaders/TOM/格米拉.png"
 			}
 			army = {   
-				large="gfx/leaders/TOM/格米拉.dds" 
+				large="gfx/leaders/TOM/格米拉.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

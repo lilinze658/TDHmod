@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	ORT_busha={
 		name= busha
 		portraits={
 			civilian={
-				large="gfx/leaders/ORT/布莎.dds"
+				large="gfx/leaders/ORT/布莎.png"
 			}
 			army = {   
-				large="gfx/leaders/ORT/布莎.dds" 
+				large="gfx/leaders/ORT/布莎.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,7 +34,7 @@ characters={
 		name= yisha
 		portraits={
 			civilian={
-				large="gfx/leaders/ORT/伊莎.dds"
+				large="gfx/leaders/ORT/伊莎.png"
 			}
 		}
 		

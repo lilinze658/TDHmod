@@ -1,0 +1,62 @@
+ideas = {
+
+	country = {
+		
+		cze_command = {
+
+			picture = SOV_politicized_military_ccp_sov_compatibility
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {			
+				planning_speed = 0.30  # 计划速度 +30%
+				max_planning = 0.10  # 计划加成上限 +10%        
+			}
+		}
+
+		tired_ark_knights = {
+
+			picture = SOV_politicized_military_ccp_sov_compatibility
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				training_time_army_factor = 0.4
+				army_attack_factor = -0.2
+			}
+		}
+
+		rested_ark_knights = {
+
+			picture = SOV_politicized_military_ccp_sov_compatibility
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				training_time_army_factor = -0.20
+				experience_gain_army = 0.5
+			}
+		}
+
+		magic_gril_1 = {
+
+			picture = SOV_politicized_military_ccp_sov_compatibility
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				training_time_army_factor = -0.20
+				experience_gain_army = 0.5
+			}
+		}
+
+    }
+}

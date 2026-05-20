@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	GUS_xinaiya={
 		name= xinaiya
 		portraits={
 			civilian={
-				large="gfx/leaders/GUS/茜奈雅.dds"
+				large="gfx/leaders/GUS/茜奈雅.png"
 			}
 			army = {   
-				large="gfx/leaders/GUS/茜奈雅.dds" 
+				large="gfx/leaders/GUS/茜奈雅.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

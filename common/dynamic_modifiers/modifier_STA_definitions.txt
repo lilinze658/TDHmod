@@ -1,0 +1,20 @@
+STA_ideas_1_dynamic_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_generic_communist_army
+	production_speed_buildings_factor = STA_reparations_production_speed_buildings_factor    #建造速度
+	production_factory_max_efficiency_factor = STA_reparations_production_factory_max_efficiency_factor    #生产效率上限
+	production_factory_start_efficiency_factor = STA_reparations_production_factory_start_efficiency_factor  #基础生产效率
+	line_change_production_efficiency_factor = STA_reparations_line_change_production_efficiency_factor #生产效率保持
+	production_factory_efficiency_gain_factor = STA_reparations_line_production_factory_efficiency_gain_factor #生产效率增长
+	industrial_capacity_factory = STA_reparations_line_industrial_capacity_factory  #工厂产出
+	global_building_slots_factor = STA_reparations_global_building_slots_factor	#地区最大工业值
+	production_speed_bunker_factor = STA_reparations_production_speed_bunker_factor ＃工事
+	production_lack_of_resource_penalty_factor = STA_reparations_production_lack_of_resource_penalty_factor #缺乏战略资源惩罚
+}		
+STA_ideas_2_dynamic_modifier= {  
+
+}
+STA_ideas_3_dynamic_modifier= {  
+
+}

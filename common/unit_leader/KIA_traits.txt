@@ -1,0 +1,13 @@
+leader_traits = {
+	KIA_huaibniao = { 
+		type = all
+		trait_type = personality_trait
+		allowed = {
+			always = no
+		}
+		modifier = {
+			max_commander_army_size = 12
+			max_army_group_size = 2
+		}
+	}
+}

@@ -1,0 +1,46 @@
+defined_text = { 
+	name = GETZETluxiSL
+
+	text = {
+		trigger = {
+			check_variable = {
+				ZET_luxi_e = 0
+			}
+		}
+		localization_key = ZET_luxi_SL_0
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				ZET_luxi_e = 1
+			}
+		}
+		localization_key = ZET_luxi_SL_1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				ZET_luxi_e = 2
+			}
+		}
+		localization_key = ZET_luxi_SL_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				ZET_luxi_e = 3
+			}
+		}
+		localization_key = ZET_luxi_SL_3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				ZET_luxi_e = 4
+			}
+		}
+		localization_key = ZET_luxi_SL_4
+	}
+}
+
+

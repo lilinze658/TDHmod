@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	NEW_aerxipei={
 		name=阿尔西佩
 		portraits={
 			civilian={
-				large="gfx/leaders/NEW/阿尔西佩.dds"
+				large="gfx/leaders/NEW/阿尔西佩.png"
 			}
 			army = {   
-				large="gfx/leaders/NEW/阿尔西佩.dds" 
+				large="gfx/leaders/NEW/阿尔西佩.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,10 +34,10 @@ characters={
 		name=法婷
 		portraits={
 			civilian={
-				large="gfx/leaders/NEW/法婷.dds"
+				large="gfx/leaders/NEW/法婷.png"
 			}
 			army = {   
-				large="gfx/leaders/NEW/法婷.dds" 
+				large="gfx/leaders/NEW/法婷.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -58,10 +58,10 @@ characters={
 		name=玛瑟
 		portraits={
 			civilian={
-				large="gfx/leaders/NEW/玛瑟.dds"
+				large="gfx/leaders/NEW/玛瑟.png"
 			}
 			army = {   
-				large="gfx/leaders/NEW/玛瑟.dds" 
+				large="gfx/leaders/NEW/玛瑟.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

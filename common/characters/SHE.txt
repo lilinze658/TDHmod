@@ -1,4 +1,4 @@
-characters = { 
+﻿characters = { 
 	SHE_YangJieyu = {
 		name = YangJieyu
 		portraits = {
@@ -207,7 +207,7 @@ characters = {
 		name = Agnes
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SHE/爱葛妮丝.dds"
+				large = "gfx/leaders/SHE/爱葛妮丝.png"
 			}
 		}
 		
@@ -276,7 +276,7 @@ characters = {
 		name = zuolehailun
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SHE/佐乐海伦.dds"
+				large = "gfx/leaders/SHE/佐乐海伦.png"
 			}
 		}
 

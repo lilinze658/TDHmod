@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	MIC_没有指挥官={
 		name=没有指挥官
 		portraits={
 			civilian={
-				large="gfx/leaders/MIC/没有军官.dds"
+				large="gfx/leaders/MIC/没有军官.png"
 			}
 			army = {   
-				large="gfx/leaders/MIC/没有军官.dds" 
+				large="gfx/leaders/MIC/没有军官.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

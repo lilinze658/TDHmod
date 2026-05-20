@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	LIV_buliqite={
 		name=buliqite
 		portraits={
 			civilian={
-				large="gfx/leaders/LIV/布里奇特.dds"
+				large="gfx/leaders/LIV/布里奇特.png"
 			}
 			army = {   
-				large="gfx/leaders/LIV/布里奇特.dds" 
+				large="gfx/leaders/LIV/布里奇特.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -33,7 +33,7 @@ characters={
 		name=xiaojiang
 		portraits = {
 			army = {
-				large = "gfx/leaders/LIV/小僵.dds" 
+				large = "gfx/leaders/LIV/小僵.png" 
 			}
 		}
 		corps_commander = {

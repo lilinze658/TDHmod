@@ -1,7 +1,7 @@
-characters={ 
+﻿characters={ 
 	
 	AIS_luosailuona={
-		name= luosailuona
+		name= 罗赛罗娜
 		portraits={
 			civilian={
 				large="gfx/leaders/AIS/罗赛罗娜.dds"
@@ -32,10 +32,10 @@ characters={
 	}
 
 	AIS_limilian={
-		name= limilian
+		name= 莉米莉安
 		portraits={
 			civilian={
-				large="gfx/leaders/AIS/莉米莉安.dds"
+				large="gfx/leaders/AIS/莉米莉安.png"
 			}
 		}
 		
@@ -52,10 +52,10 @@ characters={
 	}
 
 	AIS_nuobeisi={
-		name= nuobeisi
+		name= 诺贝丝
 		portraits={
 			civilian={
-				large="gfx/leaders/AIS/诺贝丝.dds"
+				large="gfx/leaders/AIS/诺贝丝.png"
 			}
 		}
 		
@@ -74,7 +74,7 @@ characters={
 	  name=瓦伦菲莉
 	  portraits = {
 		army = {
-		large="gfx/leaders/ELT/没有内阁.dds"
+		large="gfx/leaders/ELT/没有内阁.png"
 		}
 	  }
 	advisor={
@@ -95,7 +95,7 @@ characters={
 		name=特雷密
 		portraits = {
 			army = {
-				large="gfx/leaders/ELT/没有内阁.dds"
+				large="gfx/leaders/ELT/没有内阁.png"
 			}
 		}
 		advisor = {
@@ -116,7 +116,7 @@ characters={
 		name = 霍拉霍
 		portraits = {
 			army = {
-				large="gfx/leaders/ELT/没有内阁.dds"
+				large="gfx/leaders/ELT/没有内阁.png"
 			}
 		}
 		advisor = {
@@ -137,7 +137,7 @@ characters={
 		name = 梅莉斯
 		portraits = {
 			army = {
-				large="gfx/leaders/ELT/没有内阁.dds"
+				large="gfx/leaders/ELT/没有内阁.png"
 			}
 		}
 		advisor = {

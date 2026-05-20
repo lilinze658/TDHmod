@@ -1,0 +1,147 @@
+focus_tree = {
+	id = FocusTree_1
+	country = {
+		factor = 0
+		modifier = {
+			add = 1000
+			tag = CZE
+		}
+	}
+	default = no
+
+
+	focus = {
+		id = CZE_zhanlue
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		x = 9
+		y = 0
+			ai_will_do = {
+					factor = 200
+				}
+			completion_reward = {
+					army_experience = 30
+					add_ideas = cze_command
+				}
+			available = {
+
+}
+			bypass = {
+
+}
+
+	}
+	focus = {
+		id = newfocus_5
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0.00
+		x = 25
+		y = 0
+
+	}
+	focus = {
+		id = CZE_junshi_a
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = CZE_zhanlue
+		}
+		mutually_exclusive = {
+			focus = CZE_junshi_b
+			focus = CZE_junshi_b
+		}
+		x = 5
+		y = 1
+			ai_will_do = {
+					factor = 200
+				}
+			completion_reward = {
+					army_experience = 30
+					add_named_threat = {
+							threat = 1
+							name = CZE_demand_memel_threat
+						}
+					add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 3000
+							producer = CZE
+						}
+				}
+			available = {
+
+}
+			bypass = {
+
+}
+
+	}
+	focus = {
+		id = CZE_junshi_b
+		icon = GFX_goal_generic_construct_military
+		cost = 0.00
+		prerequisite = {
+			focus = CZE_zhanlue
+		}
+		mutually_exclusive = {
+			focus = CZE_junshi_a
+			focus = CZE_junshi_a
+		}
+		x = 14
+		y = 1
+			ai_will_do = {
+					factor = 200
+				}
+			completion_reward = {
+					army_experience = 30
+					add_ideas = CZE_fortification_focus
+				}
+			available = {
+
+}
+			bypass = {
+
+}
+
+	}
+	focus = {
+		id = CZE_junshi_a1
+		icon = GFX_goal_demand_sudetenland
+		cost = 10.00
+		prerequisite = {
+			focus = CZE_junshi_a
+			focus = CZE_junshi_a
+		}
+		x = 3
+		y = 2
+			ai_will_do = {
+					factor = 500
+				}
+			completion_reward = {
+
+}
+			available = {
+					GER = {
+							exists = yes
+						}
+					NOT = {
+							has_war_with = JAP
+						}
+				}
+			bypass = {
+
+}
+
+	}
+	focus = {
+		id = CZE_junshi_a2
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = CZE_junshi_a
+			focus = CZE_junshi_a
+		}
+		x = 5
+		y = 2
+
+	}
+}

@@ -1,7 +1,89 @@
 
 FAL_cj_decision_category = {
 
+    FAL_cj_decision_lh = {
+        available = {
+	        has_completed_focus = FAL_diyuhuayuan
+	    }
+        remove_effect = {
+
+        }
+
+    }
+    FAL_cj_decision_lm = {
+        available = {
+	        has_completed_focus = FAL_diyuhuayuan
+	    }
+        remove_effect = {
+
+        }
+
+    }
+    
     FAL_cj_decision_diyuhuayuan = {
+        available = {
+	        has_completed_focus = FAL_diyuhuayuan
+	    }
+        remove_effect = {
+
+        }
+
+    }
+    FAL_cj_decision_klkty = {
+        available = {
+	        has_completed_focus = FAL_diyuhuayuan
+	    }
+        remove_effect = {
+
+        }
+
+    }
+    FAL_cj_decision_gezlz = {
+        available = {
+	        has_completed_focus = FAL_diyuhuayuan
+	    }
+        remove_effect = {
+
+        }
+
+    }
+    FAL_cj_decision_nje = {
+        available = {
+	        has_completed_focus = FAL_diyuhuayuan
+	    }
+        remove_effect = {
+
+        }
+
+    }
+    FAL_cj_decision_en = {
+        available = {
+	        has_completed_focus = FAL_diyuhuayuan
+	    }
+        remove_effect = {
+
+        }
+
+    }
+    FAL_cj_decision_falm = {
+        available = {
+	        has_completed_focus = FAL_diyuhuayuan
+	    }
+        remove_effect = {
+
+        }
+
+    }
+    FAL_cj_decision_fltlg = {
+        available = {
+	        has_completed_focus = FAL_diyuhuayuan
+	    }
+        remove_effect = {
+
+        }
+
+    }
+    FAL_cj_decision_cq = {
         available = {
 	        has_completed_focus = FAL_diyuhuayuan
 	    }

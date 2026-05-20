@@ -1,0 +1,14 @@
+ZET_luxi_dy = {
+	icon = GFX_idea_ZET_luxi_neige
+	enable = {  
+		always = yes
+	}
+	army_attack_factor = ZET_luxi_a
+	army_defence_factor = ZET_luxi_b
+	experience_gain_army_factor = ZET_luxi_c
+	army_org_factor = ZET_luxi_d
+	max_planning_factor = ZET_luxi_e
+	supply_consumption_factor = ZET_luxi_f
+	political_power_gain = ZET_luxi_g
+	stability_factor = ZET_luxi_h
+}

@@ -1,0 +1,15 @@
+KIA_genjudi_decision_category = {
+	icon = generic_prospect_for_resources
+	allowed = {
+	#   tag = KIA
+		has_completed_focus = KIA_6
+	}
+	priority = 999
+}
+ZET_ceshi_decision_category = {
+	icon = xxx
+	allowed = {
+	    tag = ZET
+	}
+	priority = 999
+}

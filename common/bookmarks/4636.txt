@@ -29,8 +29,8 @@ bookmarks = {
 			}
 		}
 		
-		"FAL"={
-			history = "FAL_4636_DESC"
+		"WIM"={
+			history = "WIM_4636_DESC"
 			ideology = fascism
 			ideas = {
 				
@@ -40,8 +40,8 @@ bookmarks = {
 			}
 		}
 
-		"RED"={
-			history = "RED_4636_DESC"
+		"RIE"={
+			history = "RIE_4636_DESC"
 			ideology = neutrality
 			ideas = {
 				
@@ -51,8 +51,8 @@ bookmarks = {
 			}
 		}
 		
-		"LEG"={
-			history = "LEG_4636_DESC"
+		"DIV"={
+			history = "DIV_4636_DESC"
 			ideology = neutrality
 			ideas = {
 				

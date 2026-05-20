@@ -1,0 +1,36 @@
+on_actions = {
+	
+	on_unit_leader_promote_from_ranks_veteran = {
+		effect = {
+			if = {
+				limit = {
+					OWNER = {
+						tag = MAG
+					}
+				}
+				ROOT = {
+					add_trait = magic_girl
+				}
+			}
+		}
+	}
+
+	on_unit_leader_promote_from_ranks_green = {
+		effect = {
+			if = {
+				limit = {
+					OWNER = {
+						tag = MAG
+					}
+				}
+				ROOT = {
+					add_trait = magic_girl
+				}
+			}
+		}
+	}
+	
+}
+
+
+

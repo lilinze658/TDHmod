@@ -1,0 +1,209 @@
+focus_tree = {
+	id = FocusTree_1
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CZE
+		}
+	}
+	default = no
+	focus = {
+		id = CZE_zhanlue
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		x = 9
+		y = 0
+			ai_will_do = {
+					factor = 200
+				}
+			completion_reward = {
+					army_experience = 30
+					add_ideas = cze_command
+				}
+
+	}
+	focus = {
+		id = CZE_junshi_a
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = CZE_zhanlue
+		}
+		mutually_exclusive = {
+			focus = CZE_junshi_b
+		}
+		x = 5
+		y = 1
+			ai_will_do = {
+					factor = 200
+				}
+			completion_reward = {
+					army_experience = 30
+					add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 3000
+							producer = CZE
+						}
+				}
+
+	}
+	focus = {
+		id = CZE_junshi_a1
+		icon = GFX_goal_demand_sudetenland
+		cost = 10.00
+		prerequisite = {
+			focus = CZE_junshi_a
+		}
+		x = 2
+		y = 2
+			ai_will_do = {
+					factor = 500
+				}
+			completion_reward = {
+					AUS = {
+							country_event = {
+									id = cze_mod.1
+									days = 1
+								}
+						}
+				}
+			available = {
+					has_army_manpower = {
+							size > 300000
+						}
+					AUS = {
+							exists = yes
+						}
+					is_subject = no
+				}
+					bypass = {
+					AUS = {
+							exists = no
+		}
+
+	}
+	focus = {
+		id = CZE_junshi_a_war
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		prerequisite = {
+			focus = CZE_junshi_a1
+		}
+		x = 2
+		y = 3
+
+
+	}
+
+
+
+
+
+	focus = {
+		id = CZE_junshi_a2
+		icon = GFX_goal_generic_territory_or_war 
+		cost = 10.00
+		prerequisite = { focus = CZE_junshi_a }
+		x = 5
+		y = 2
+		ai_will_do = { factor = 200 }
+		completion_reward = {
+			ROM = {
+				country_event = { id = cze_mod.2 days = 1 }
+			}
+		}
+		available = {
+			HUN = { exists = yes }
+			ROM = { exists = yes }
+			NOT = { has_war_with = ROM }
+		}
+		bypass = {
+		}
+	}
+
+
+
+
+	focus = {
+		id = CZE_junshi_a3
+		icon = GFX_goal_generic_major_alliance
+		cost = 5.00 # 35天
+		prerequisite = { focus = CZE_junshi_a2 }
+		mutually_exclusive = { focus = CZE_junshi_a4 }
+		x = 4
+		y = 3
+		
+		# 可用条件：罗马尼亚同意了我们的计划
+		available = {
+			has_country_flag = CZE_romania_agreed
+		}
+		
+		# 完成效果
+		completion_reward = {
+			# 增加与罗马尼亚的关系
+			ROM = {
+				add_opinion_modifier = {
+					modifier = CZE_prague_accord_strengthened
+				}
+			}
+			# 创建并加入科技共享组
+			add_to_tech_sharing_group = cze_tech_sharing
+			ROM = {
+			add_to_tech_sharing_group = cze_tech_sharing
+			}
+		}
+	}
+
+	focus = {
+		id = CZE_junshi_a4
+		icon = GFX_goal_generic_major_war
+		cost = 10.00 # 70天
+		prerequisite = { focus = CZE_junshi_a2 }
+		mutually_exclusive = { focus = CZE_junshi_a3 }
+		x = 6
+		y = 3
+		
+		# 可用条件：罗马尼亚拒绝了我们的计划
+		available = {
+			has_country_flag = CZE_romania_refused
+		}
+		
+		# 完成效果
+		completion_reward = {
+			# 获得对罗马尼亚的傀儡战争目标
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ROM
+			}
+			# 获得“快速行动”民族精神，持续30天
+			add_timed_idea = {
+				idea = CZE_rapid_action_spirit
+				days = 30
+			}
+		}
+	}
+	
+
+
+	focus = {
+		id = CZE_junshi_b
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = CZE_zhanlue
+		}
+		mutually_exclusive = {
+			focus = CZE_junshi_a
+		}
+		x = 14
+		y = 1
+			ai_will_do = {
+					factor = 200
+				}
+			completion_reward = {
+					army_experience = 30
+					add_ideas = CZE_fortification_focus
+				}
+	}
+

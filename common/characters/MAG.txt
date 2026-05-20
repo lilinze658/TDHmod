@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	MAG_ailin={
 		name= ailin
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/艾琳.dds"
+				large="gfx/leaders/MAG/艾琳.png"
 			}
 			army = {   
-				large="gfx/leaders/MAG/艾琳.dds" 
+				large="gfx/leaders/MAG/艾琳.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,7 +34,7 @@ characters={
 		name= geladisi
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/格拉蒂丝.dds"
+				large="gfx/leaders/MAG/格拉蒂丝.png"
 				small="gfx/interface/ideas/XXX.png"
 			}
 		}
@@ -55,10 +55,10 @@ characters={
 		name= naierjiade
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/奈尔嘉德.dds"
+				large="gfx/leaders/MAG/奈尔嘉德.png"
 			}
 			army = {   
-				large="gfx/leaders/MAG/奈尔嘉德.dds" 
+				large="gfx/leaders/MAG/奈尔嘉德.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -86,7 +86,7 @@ characters={
 		name= nuolina
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/诺丽娜.dds"
+				large="gfx/leaders/MAG/诺丽娜.png"
 			}
 		}
 		
@@ -106,7 +106,7 @@ characters={
 		name= yinuoya
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/伊诺雅.dds"
+				large="gfx/leaders/MAG/伊诺雅.png"
 			}
 		}
 		
@@ -126,7 +126,7 @@ characters={
 		name= aeraili
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/阿尔艾莉.dds"
+				large="gfx/leaders/MAG/阿尔艾莉.png"
 			}
 		}
 		
@@ -146,7 +146,7 @@ characters={
 		name= kuna
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/库娜.dds"
+				large="gfx/leaders/MAG/库娜.png"
 			}
 		}
 		
@@ -166,7 +166,7 @@ characters={
 		name= balunna
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/巴伦娜.dds"
+				large="gfx/leaders/MAG/巴伦娜.png"
 			}
 		}
 		
@@ -186,7 +186,7 @@ characters={
 		name=阿蕾丝
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/阿蕾丝.dds"
+				large="gfx/leaders/MAG/阿蕾丝.png"
 			}
 		}
 		
@@ -206,7 +206,7 @@ characters={
 		name=艾米莉
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/艾米莉.dds"
+				large="gfx/leaders/MAG/艾米莉.png"
 			}
 		}
 		
@@ -226,7 +226,7 @@ characters={
 		name= misite
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/米丽特.dds"
+				large="gfx/leaders/MAG/米丽特.png"
 			}
 		}
 		
@@ -244,3 +244,4 @@ characters={
 
 	
 }	
+

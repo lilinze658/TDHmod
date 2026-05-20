@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	PEC_zhennimajuewang={
 		name=珍妮玛珏望
 		portraits={
 			civilian={
-				large="gfx/leaders/PEC/珍妮玛珏望.dds"
+				large="gfx/leaders/PEC/珍妮玛珏望.png"
 			}
 			army = {   
-				large="gfx/leaders/PEC/珍妮玛珏望.dds" 
+				large="gfx/leaders/PEC/珍妮玛珏望.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

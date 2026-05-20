@@ -1,0 +1,75 @@
+scripted_gui = {
+	
+	mag_linghun_gui ={
+		window_name = "mag_linghun_gui"
+		context_type = player_context
+		
+		visible = {
+			original_tag = MAG
+			has_country_flag = MAG_dakaiGui_linghun
+		}
+
+		triggers = {
+			MAG_core_1_visible = {
+				has_country_flag = MAG_core_1_c
+			}
+			MAG_core_2_visible = {
+				has_country_flag = MAG_core_2_c
+			}
+			MAG_core_3_visible = {
+				has_country_flag = MAG_core_3_c
+			}
+			MAG_core_4_visible = {
+				has_country_flag = MAG_core_4_c
+			}
+
+			MAG_enclosure_1_visible = {
+				has_country_flag = MAG_enclosure_1_c
+			}
+			MAG_enclosure_2_visible = {
+				has_country_flag = MAG_enclosure_2_c
+			}
+			MAG_enclosure_3_visible = {
+				has_country_flag = MAG_enclosure_3_c
+			}
+			MAG_enclosure_4_visible = {
+				has_country_flag = MAG_enclosure_4_c
+			}
+
+			MAG_base_1_visible = {
+				has_country_flag = MAG_base_1_c
+			}
+			MAG_base_2_visible = {
+				has_country_flag = MAG_base_2_c
+			}
+			MAG_base_3_visible = {
+				has_country_flag = MAG_base_3_c
+			}
+			MAG_base_4_visible = {
+				has_country_flag = MAG_base_4_c
+			}
+		}
+
+		effects = {
+			MAG_base_click = {
+				clr_country_flag = MAG_enclosure_c
+				clr_country_flag = MAG_core_c
+				set_country_flag = MAG_base_c
+			}
+
+			MAG_enclosure_click = {
+				set_country_flag = MAG_enclosure_c
+				clr_country_flag = MAG_core_c
+				clr_country_flag = MAG_base_c
+			}
+
+			MAG_core_click = {
+				clr_country_flag = MAG_enclosure_c
+				set_country_flag = MAG_core_c
+				clr_country_flag = MAG_base_c
+			}
+		}
+		
+	}
+
+}

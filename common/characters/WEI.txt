@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	WEI_yuanfupei={
 		name=yuanfupei
 		portraits={
 			civilian={
-				large="gfx/leaders/WEI/袁芙茜.dds"
+				large="gfx/leaders/WEI/袁芙茜.png"
 			}
 			army = {   
-				large="gfx/leaders/WEI/袁芙茜.dds" 
+				large="gfx/leaders/WEI/袁芙茜.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,10 +34,10 @@ characters={
 		name=guilin
 		portraits={
 			civilian={
-				large="gfx/leaders/WEI/桂琳.dds"
+				large="gfx/leaders/WEI/桂琳.png"
 			}
 			army = {   
-				large="gfx/leaders/WEI/桂琳.dds" 
+				large="gfx/leaders/WEI/桂琳.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -59,10 +59,10 @@ characters={
 		name=linfang
 		portraits={
 			civilian={
-				large="gfx/leaders/WEI/林芳.dds"
+				large="gfx/leaders/WEI/林芳.png"
 			}
 			army = {   
-				large="gfx/leaders/WEI/林芳.dds" 
+				large="gfx/leaders/WEI/林芳.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

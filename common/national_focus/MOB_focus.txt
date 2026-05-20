@@ -1125,7 +1125,7 @@ focus_tree = {
 	focus = {
 		id = MOB_53
 		icon = GFX_goal_unknown
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = MOB_51
 		}
@@ -1139,7 +1139,7 @@ focus_tree = {
 	focus = {
 		id = MOB_54
 		icon = GFX_goal_generic_demand_territory
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = MOB_55
 		}
@@ -1150,7 +1150,7 @@ focus_tree = {
 	focus = {
 		id = MOB_56
 		icon = GFX_goal_unknown
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = MOB_54
 		}
@@ -1172,7 +1172,7 @@ focus_tree = {
 	focus = {
 		id = MOB_58
 		icon = GFX_idea_MOB_chuandaofangzi
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = MOB_57
 		}
@@ -1183,7 +1183,7 @@ focus_tree = {
 	focus = {
 		id = MOB_55
 		icon = GFX_goal_unknown
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = MOB_59
 		}
@@ -1194,7 +1194,7 @@ focus_tree = {
 	focus = {
 		id = MOB_59
 		icon = GFX_goal_unknown
-		cost = 0.00
+		cost = 10
 		prerequisite = {
 			focus = MOB_15
 		}

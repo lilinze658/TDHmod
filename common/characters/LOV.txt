@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	LOV_bulanershiliushi={
 		name=布兰二十六世
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/布兰二十六世.dds"
+				large="gfx/leaders/LOV/布兰二十六世.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/布兰二十六世.dds" 
+				large="gfx/leaders/LOV/布兰二十六世.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,10 +34,10 @@ characters={
 		name=瓦伦蒂娜
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/瓦伦蒂娜.dds"
+				large="gfx/leaders/LOV/瓦伦蒂娜.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/瓦伦蒂娜.dds" 
+				large="gfx/leaders/LOV/瓦伦蒂娜.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -65,10 +65,10 @@ characters={
 		name=赛维娜嘉
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/赛维娜嘉.dds"
+				large="gfx/leaders/LOV/赛维娜嘉.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/赛维娜嘉.dds" 
+				large="gfx/leaders/LOV/赛维娜嘉.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -90,10 +90,10 @@ characters={
 		name=斯兰蒂
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/斯兰蒂.dds"
+				large="gfx/leaders/LOV/斯兰蒂.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/斯兰蒂.dds" 
+				large="gfx/leaders/LOV/斯兰蒂.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -120,10 +120,10 @@ characters={
 			name=伊琳丝娜
 			portraits={
 				civilian={
-					large="gfx/leaders/LOV/伊琳丝娜.dds"
+					large="gfx/leaders/LOV/伊琳丝娜.png"
 				}
 				army = {   
-					large="gfx/leaders/LOV/伊琳丝娜.dds" 
+					large="gfx/leaders/LOV/伊琳丝娜.png" 
 					small="gfx/interface/ideas/XXX.png"
 				}
 			
@@ -145,10 +145,10 @@ characters={
 		name=埃琳娜
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/埃琳娜.dds"
+				large="gfx/leaders/LOV/埃琳娜.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/埃琳娜.dds" 
+				large="gfx/leaders/LOV/埃琳娜.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		}
@@ -169,10 +169,10 @@ characters={
 		name=菲瓦莉
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/菲瓦莉.dds"
+				large="gfx/leaders/LOV/菲瓦莉.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/菲瓦莉.dds" 
+				large="gfx/leaders/LOV/菲瓦莉.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -194,10 +194,10 @@ characters={
 		name=艾丽希娅
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/艾丽希娅.dds"
+				large="gfx/leaders/LOV/艾丽希娅.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/艾丽希娅.dds" 
+				large="gfx/leaders/LOV/艾丽希娅.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -219,10 +219,10 @@ characters={
 		name=格林特拉
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/格林特拉.dds"
+				large="gfx/leaders/LOV/格林特拉.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/格林特拉.dds" 
+				large="gfx/leaders/LOV/格林特拉.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -244,10 +244,10 @@ characters={
 		name=米菲修缇娅
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/米菲修缇娅.dds"
+				large="gfx/leaders/LOV/米菲修缇娅.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/米菲修缇娅.dds" 
+				large="gfx/leaders/LOV/米菲修缇娅.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -269,10 +269,10 @@ characters={
 		name=艾洛拉
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/艾洛拉.dds"
+				large="gfx/leaders/LOV/艾洛拉.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/艾洛拉.dds" 
+				large="gfx/leaders/LOV/艾洛拉.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -293,10 +293,10 @@ characters={
 		name=瓦伦丝特
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/瓦伦丝特.dds"
+				large="gfx/leaders/LOV/瓦伦丝特.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/瓦伦丝特.dds" 
+				large="gfx/leaders/LOV/瓦伦丝特.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -324,10 +324,10 @@ characters={
 		name=斯蒂优
 		portraits={
 			civilian={
-				large="gfx/leaders/ROA/斯蒂优.dds"
+				large="gfx/leaders/ROA/斯蒂优.png"
 			}
 			army = {   
-				large="gfx/leaders/ROA/斯蒂优.dds" 
+				large="gfx/leaders/ROA/斯蒂优.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -360,10 +360,10 @@ characters={
 		name=爱丽丝
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/爱丽丝.dds"
+				large="gfx/leaders/LOV/爱丽丝.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/爱丽丝.dds" 
+				large="gfx/leaders/LOV/爱丽丝.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -384,10 +384,10 @@ characters={
 		name=布兰二十七世
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/布兰二十七世.dds"
+				large="gfx/leaders/LOV/布兰二十七世.png"
 			}
 			army = {   
-				large="gfx/leaders/LOV/布兰二十七世.dds" 
+				large="gfx/leaders/LOV/布兰二十七世.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -407,7 +407,7 @@ characters={
 		name=卡塔莉娅
 		portraits = {
 			army = {
-				large = "gfx/leaders/LOV/卡塔莉娅.dds" 
+				large = "gfx/leaders/LOV/卡塔莉娅.png" 
 			}
 		}
 		corps_commander = {
@@ -427,7 +427,7 @@ characters={
 		name=布尔莉娅
 		portraits={
 			civilian={
-				large="gfx/leaders/LOV/布尔莉娅.dds"
+				large="gfx/leaders/LOV/布尔莉娅.png"
 			}
 		}
 		corps_commander = {
@@ -443,3 +443,4 @@ characters={
 	}
 }
 	
+

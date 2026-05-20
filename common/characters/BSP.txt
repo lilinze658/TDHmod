@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	BSP_gelaikeying={
 		name=格莱科樱
 		portraits={
 			civilian={
-				large="gfx/leaders/BSP/格莱科樱.dds"
+				large="gfx/leaders/BSP/格莱科樱.png"
 			}
 			army = {   
-				large="gfx/leaders/BSP/格莱科樱.dds" 
+				large="gfx/leaders/BSP/格莱科樱.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		 

@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	WIM_weiliya={
 		name= weiliya
 		portraits={
 			civilian={
-				large="gfx/leaders/WIM/薇莉娅.dds"
+				large="gfx/leaders/WIM/薇莉娅.png"
 			}
 			army = {   
-				large="gfx/leaders/WIM/薇莉娅.dds" 
+				large="gfx/leaders/WIM/薇莉娅.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,10 +34,10 @@ characters={
 		name= fanluntingna
 		portraits={
 			civilian={
-				large="gfx/leaders/WIM/范伦汀娜.dds"
+				large="gfx/leaders/WIM/范伦汀娜.png"
 			}
 			army = {   
-				large="gfx/leaders/WIM/范伦汀娜.dds" 
+				large="gfx/leaders/WIM/范伦汀娜.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -59,10 +59,10 @@ characters={
 		name= xitelei
 		portraits={
 			civilian={
-				large="gfx/leaders/WIM/希特蕾.dds"
+				large="gfx/leaders/WIM/希特蕾.png"
 			}
 			army = {   
-				large="gfx/leaders/WIM/希特蕾.dds" 
+				large="gfx/leaders/WIM/希特蕾.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -84,10 +84,10 @@ characters={
 		name= kaluoer
 		portraits={
 			civilian={
-				large="gfx/leaders/WIM/卡洛儿.dds"
+				large="gfx/leaders/WIM/卡洛儿.png"
 			}
 			army = {   
-				large="gfx/leaders/WIM/卡洛儿.dds" 
+				large="gfx/leaders/WIM/卡洛儿.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

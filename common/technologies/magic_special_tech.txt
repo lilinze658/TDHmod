@@ -1,0 +1,868 @@
+technologies = {
+
+	magic_infantry_eq_tech = {
+
+		enable_equipments = {
+			magic_infantry_equipment_0
+		}
+		
+		research_cost = 1.5
+		start_year = 4000
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+
+
+#别在意下面的
+	magic_infantry_eq_tech_1 = {
+
+		enable_equipments = {
+			magic_infantry_equipment_1
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	magic_infantry_eq_tech_2 = {
+
+		enable_equipments = {
+			magic_infantry_equipment_2
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	magic_infantry_eq_tech_3 = {
+
+		enable_equipments = {
+			magic_infantry_equipment_3
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	magic_infantry_eq_tech_4 = {
+
+		enable_equipments = {
+			magic_infantry_equipment_4
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+###################################################分割线
+
+
+
+
+
+
+
+
+
+
+
+
+
+	maid_motorised_eq_tech_1 = {
+
+		enable_equipments = {
+			maid_motorized_equipment_1
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	maid_motorised_eq_tech_2 = {
+
+		enable_equipments = {
+			maid_motorized_equipment_2
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	maid_motorised_eq_tech_3 = {
+
+		enable_equipments = {
+			maid_motorized_equipment_3
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	maid_motorised_eq_tech_4 = {
+
+		enable_equipments = {
+			maid_motorized_equipment_4
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	maid_motorised_eq_tech_5 = {
+
+		enable_equipments = {
+			maid_motorized_equipment_5
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	maid_motorised_eq_tech_6 = {
+
+		enable_equipments = {
+			maid_motorized_equipment_6
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	maid_support_eq_tech_1 = {
+
+		enable_equipments = {
+			maid_support_equipment_1
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	newcastle_amphibious_reinforce_tech = {
+
+		engineer = {
+			amphibious = {
+				attack = 0.20
+			}
+		}
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+		
+	}
+	
+	G36_infantry_through_river_tech = {
+
+		engineer = {
+			river = {
+				attack = 0.10
+			}
+		}
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+		
+	}
+	
+	maid_battle_hospital_tech = {
+
+		field_hospital = {
+			casualty_trickleback = 0.20
+		}
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+		
+	}
+	
+	maid_infantry_add_width_tech = {
+
+		infantry = {
+			combat_width = 0.4
+		}
+		category_army = {
+			breakthrough = 0.10
+		}
+		category_all_infantry = { 
+			soft_attack = 0.1
+		}
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+		
+	}
+	
+	maid_decryption_recon_tech = {
+				
+		research_cost = 1.5
+		start_year = 1944
+
+		allow = {
+			always = no
+		}
+		decryption_power = 15
+		category_recon = {
+			recon = 1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard = { #女仆近卫军
+
+		enable_subunits = {
+			battle_maid_guard
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_moto = { #机动女仆近卫军
+
+		enable_subunits = {
+			moto_maid_guard
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_buff_1 = { #
+
+		battle_maid_guard = {
+			max_organisation = 10
+		}
+		moto_maid_guard = {
+			max_organisation = 10
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_buff_2 = { #
+
+		battle_maid_guard = {
+			supply_consumption = -0.02
+			max_organisation = 5
+		}
+		moto_maid_guard = {
+			supply_consumption = -0.02
+			max_organisation = 5
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_buff_3 = { #
+
+		battle_maid_guard = {
+			default_morale = 0.2
+			breakthrough = 0.1
+		}
+		moto_maid_guard = {
+			default_morale = 0.2
+			breakthrough = 0.1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_buff_4 = { #
+
+		battle_maid_guard = {
+			combat_width = -0.4
+		}
+		moto_maid_guard = {
+			combat_width = -0.2
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_buff_5 = { #
+
+		battle_maid_guard = {
+			max_organisation = 5
+			soft_attack = 0.1
+		}
+		moto_maid_guard = {
+			max_organisation = 5
+			soft_attack = 0.1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_buff_6 = { #
+
+		battle_maid_guard = {
+			hard_attack = 0.25
+			ap_attack = 1
+		}
+		moto_maid_guard = {
+			hard_attack = 0.25
+			ap_attack = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_buff_7 = { #
+
+		battle_maid_guard = {
+			desert = {
+				movement = 0.05
+				attack = 0.05
+			}
+			hills = {
+				movement = 0.05
+				attack = 0.05
+			}
+			forest = {
+				movement = 0.05
+				attack = 0.05
+			}
+			mountain = {
+				movement = 0.05
+				attack = 0.05
+			}
+			plains = {
+				movement = 0.05
+				attack = 0.05
+			}
+			urban = {
+				movement = 0.05
+				attack = 0.05
+				defence = 0.05
+			}
+			jungle = {
+				movement = 0.05
+				attack = 0.05
+			}
+			marsh = {
+				movement = 0.05
+				attack = 0.05
+			}
+		}
+		moto_maid_guard = {
+			desert = {
+				movement = 0.05
+				attack = 0.05
+			}
+			hills = {
+				movement = 0.05
+				attack = 0.05
+			}
+			forest = {
+				movement = 0.05
+				attack = 0.05
+			}
+			mountain = {
+				movement = 0.05
+				attack = 0.05
+			}
+			plains = {
+				movement = 0.05
+				attack = 0.05
+			}
+			urban = {
+				movement = 0.05
+				attack = 0.05
+				defence = 0.05
+			}
+			jungle = {
+				movement = 0.05
+				attack = 0.05
+			}
+			marsh = {
+				movement = 0.05
+				attack = 0.05
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_buff_8 = { #
+
+		battle_maid_guard = {
+			max_strength = 10
+		}
+		moto_maid_guard = {
+			max_strength = 5
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_buff_9 = { #
+
+		battle_maid_guard = {
+			defense = 0.10
+			breakthrough = 0.05
+		}
+		moto_maid_guard = {
+			defense = 0.10
+			breakthrough = 0.05
+			soft_attack = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_buff_10 = { #
+
+		battle_maid_guard = {
+			defense = 0.10
+			breakthrough = 0.10
+		}
+		moto_maid_guard = {
+			defense = 0.10
+			breakthrough = 0.10
+			soft_attack = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_buff_11 = { #
+
+		battle_maid_guard = {
+			defense = 0.10
+			breakthrough = 0.10
+			soft_attack = 0.05
+		}
+		moto_maid_guard = {
+			defense = 0.10
+			breakthrough = 0.10
+			soft_attack = 0.10
+			hardness = 0.3 #新添加，待测试
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_guard_buff_12 = { #
+
+		battle_maid_guard = {
+			breakthrough = 0.10
+			soft_attack = 0.10
+		}
+		moto_maid_guard = {
+			breakthrough = 0.10
+			soft_attack = 0.10
+			hardness = 0.3 #新添加，待测试
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_support_team = { #非常昂贵，女仆演出所以组织度和回复高。并且因为直属女仆团所以有基础主动性
+
+		enable_subunits = {
+			maid_support_team
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_support_team_1 = { #彻底整合
+
+		maid_support_team = {
+			max_organisation = 20
+			initiative = 0.20
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_support_team_2 = { #女仆管理后勤
+
+		maid_support_team = {
+			supply_consumption_factor = -0.2
+			fuel_consumption_factor = -0.1
+			reliability_factor = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_support_team_3 = { #自卫火力
+
+		maid_support_team = {
+			soft_attack = 0.5
+			hard_attack = 0.5
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_support_team_4 = { #临时紧急医疗
+
+		maid_support_team = {
+			casualty_trickleback = 0.10
+			experience_loss_factor = -0.10
+			default_morale = 0.2
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_support_team_5 = { #发挥女仆战斗优势
+
+		maid_support_team = {
+			recon = 1
+			urban = {
+				attack = 0.2
+				defence = 0.2
+				movement = 0.1
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_support_team_6 = { #自卫火力2
+
+		maid_support_team = {
+			soft_attack = 0.5
+			hard_attack = 0.5
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_support_team_7 = { #统一调度
+
+		maid_support_team = {
+			desert = {
+				movement = 0.05
+			}
+			hills = {
+				movement = 0.05
+			}
+			forest = {
+				movement = 0.05
+			}
+			mountain = {
+				movement = 0.05
+			}
+			plains = {
+				movement = 0.05
+			}
+			urban = {
+				movement = 0.05
+			}
+			jungle = {
+				movement = 0.05
+			}
+			marsh = {
+				movement = 0.05
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_support_team_8 = { #战场清扫
+
+		maid_support_team = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	tech_maid_support_team_gacha_1 = { #抽卡效果
+
+		maid_support_team = {
+			soft_attack = 1.0
+			hard_attack = 1.0
+			initiative = 0.20
+			max_organisation = 10
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

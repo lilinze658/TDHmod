@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	REP_waertaya={
 		name= waertaya
 		portraits={
 			civilian={
-				large="gfx/leaders/REP/瓦尔塔娅.dds"
+				large="gfx/leaders/REP/瓦尔塔娅.png"
 			}
 			army = {   
-				large="gfx/leaders/REP/瓦尔塔娅.dds" 
+				large="gfx/leaders/REP/瓦尔塔娅.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,7 +34,7 @@ characters={
 		name= zuoyi
 		portraits={
 			civilian={
-				large="gfx/leaders/REP/佐伊.dds"
+				large="gfx/leaders/REP/佐伊.png"
 			}
 		}
 		
@@ -54,7 +54,7 @@ characters={
 		name= beiliaiqie
 		portraits={
 			civilian={
-				large="gfx/leaders/REP/贝利艾切.dds"
+				large="gfx/leaders/REP/贝利艾切.png"
 			}
 		}
 		

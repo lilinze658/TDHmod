@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	RAS_gelinna={
 		name=gelinna
 		portraits={
 			civilian={
-				large="gfx/leaders/RAS/格林娜.dds"
+				large="gfx/leaders/RAS/格林娜.png"
 			}
 			army = {   
-				large="gfx/leaders/RAS/格林娜.dds" 
+				large="gfx/leaders/RAS/格林娜.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -33,10 +33,10 @@ characters={
 		name=peiliya
 		portraits={
 			civilian={
-				large="gfx/leaders/RAS/佩莉娅.dds"
+				large="gfx/leaders/RAS/佩莉娅.png"
 			}
 			army = {   
-				large="gfx/leaders/RAS/佩莉娅.dds" 
+				large="gfx/leaders/RAS/佩莉娅.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

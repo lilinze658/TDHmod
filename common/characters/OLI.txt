@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	OLI_kela={
 		name= kela
 		portraits={
 			civilian={
-				large="gfx/leaders/OLI/科拉.dds"
+				large="gfx/leaders/OLI/科拉.png"
 			}
 			army = {   
-				large="gfx/leaders/OLI/科拉.dds" 
+				large="gfx/leaders/OLI/科拉.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

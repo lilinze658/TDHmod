@@ -543,24 +543,64 @@ focus_tree={
 		}
 	}
 	focus={
-		id= TZY_focus_28
-		x=23
-		y=1
+		id= TZY_focus_36
+		x=30
+		y=0
+		
 		cost=10
 		ai_will_do={
 			factor=1
 		}
 		available_if_capitulated=yes
 		completion_reward={
+		   news_event = {
+			id = tzy.14
+			
+		  }
+		}
+	}
+	focus={
+		id= TZY_focus_28
+		x=2
+		y=1
+		cost=10
+		prerequisite={focus=TZY_focus_36 }
+		relative_position_id = TZY_focus_36
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
 			 add_political_power = 150
+		     add_stability = 0.1
+		}
+	}
+	focus={
+		id= TZY_focus_37
+		x=-2
+		y=1
+		prerequisite={focus=TZY_focus_36 }
+		relative_position_id = TZY_focus_36
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		completion_reward={
+		
+		news_event = {
+			id = tzy.12
+			
+		  }
+		  add_political_power = 150
 		}
 	}
 	focus={
 		id= TZY_focus_29
-		x=-1
-		y=1
-		prerequisite={focus=TZY_focus_28 }
-		relative_position_id = TZY_focus_28
+		x=0
+		y=3
+		prerequisite={focus=TZY_focus_37 focus=TZY_focus_28 }
+		relative_position_id = TZY_focus_36
 		cost=10
 		ai_will_do={
 			factor=1
@@ -672,44 +712,8 @@ focus_tree={
 			 
 		}
 	}
-	focus={
-		id= TZY_focus_36
-		x=0
-		y=1
-		prerequisite={focus=TZY_focus_35 }
-		relative_position_id = TZY_focus_35
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		completion_reward={
-		   news_event = {
-			id = tzy.14
-			
-		  }
-		}
-	}
-	focus={
-		id= TZY_focus_37
-		x=0
-		y=1
-		prerequisite={focus=TZY_focus_35 }
-		relative_position_id = TZY_focus_35
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		completion_reward={
-		
-		news_event = {
-			id = tzy.12
-			
-		  }
-		  add_political_power = 150
-		}
-	}
+	
+	
 	focus={
 		id= TZY_focus_38
 		x=0
@@ -1078,7 +1082,7 @@ focus_tree={
 		}
 		available_if_capitulated=yes
 		completion_reward={
-		  
+		  add_ideas = TZY_ideas_2
 		}
 	}
 	focus={

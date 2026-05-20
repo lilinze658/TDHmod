@@ -1,0 +1,127 @@
+focus_tree = {
+	id = MAG_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MAG
+		} 
+	}
+	default = no
+
+
+
+
+	focus = {
+		id = mag_zhengzhi_0      #召集魔法少女
+		cost = 5.00
+		x = 9
+		y = 0
+        icon = GFX_focus_jap_showa_restoration
+			ai_will_do = {
+					factor = 200
+				}
+			available_if_capitulated=yes
+			completion_reward = {
+					army_experience = 30
+					add_political_power = 100
+                    add_manpower = 10000
+					#add_stability = 0.25
+					#add_war_support = 0.25
+					add_equipment_to_stockpile = {
+							type = magic_infantry_equipment_0
+							amount = 600
+							producer = MAG
+						}
+				}
+	}
+
+
+	focus = {
+		id = mag_zhengzhi_1      #站稳脚跟写个加工厂，但是地块没有做
+		cost = 5.00
+		x = 9
+		y = 5
+        icon = GFX_focus_jap_showa_restoration
+			ai_will_do = {
+					factor = 200
+				}
+			available_if_capitulated=yes
+			completion_reward = {
+					add_stability = 0.25       
+					#add_equipment_to_stockpile = {
+							type = magic_infantry_equipment_0
+							amount = 600
+							producer = MAG
+						}
+				}
+
+	}
+	focus = {
+		id = mag_zhengzhi_3        #方舟的休憩
+		cost = 10.00
+		x = 9
+		y = 3
+		icon = GFX_focus_jap_showa_restoration
+			ai_will_do = {
+					factor = 200
+				}
+			available_if_capitulated=yes
+			completion_reward = {
+					army_experience = 30
+					add_war_support = 0.25
+                    remove_ideas = tired_ark_knights
+					add_timed_idea = {
+    		    		idea = rested_ark_knights
+  		        		days = 365
+		    		}
+				}
+
+	}
+
+	focus = {
+		id = mag_zhengzhi_4  #准备复国战争
+		cost = 5.00
+		x = 91
+		y = 2
+			ai_will_do = {
+					factor = 200
+				}
+			available_if_capitulated=yes
+			completion_reward = {
+					army_experience = 30
+					#add_ideas = cze_command
+					add_political_power = 100
+					#add_stability = 0.25
+					add_war_support = 0.25
+				}
+}
+
+	focus = {
+		id = mag_zhengzhi_5a  #奈尔
+		cost = 5.00
+		x = 11
+		y = 2
+			ai_will_do = {
+					factor = 200
+				}
+			available_if_capitulated=yes
+			completion_reward = {
+				}
+
+}
+
+
+	focus = {
+		id = mag_zhengzhi_5b  #青年近卫军，没地块
+		cost = 5.00
+		x = 11
+		y = 2
+			ai_will_do = {
+					factor = 200
+				}
+			completion_reward = {
+				}
+
+}
+

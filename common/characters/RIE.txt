@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	RIE_xila={
 		name=xila
 		portraits={
 			civilian={
-				large="gfx/leaders/RIE/席拉.dds"
+				large="gfx/leaders/RIE/席拉.png"
 			}
 			army = {   
-				large="gfx/leaders/RIE/席拉.dds" 
+				large="gfx/leaders/RIE/席拉.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		}
@@ -33,7 +33,7 @@ characters={
 		name=modaisiti
 		portraits={
 			civilian={
-				large="gfx/leaders/RIE/摩黛丝提.dds"
+				large="gfx/leaders/RIE/摩黛丝提.png"
 			}
 		}
 		
@@ -53,7 +53,7 @@ characters={
 		name=aofeiliya
 		portraits={
 			civilian={
-				large="gfx/leaders/RIE/奥菲莉娅.dds"
+				large="gfx/leaders/RIE/奥菲莉娅.png"
 			}
 		}
 		
@@ -72,7 +72,7 @@ characters={
 		name=naemi
 		portraits={
 			civilian={
-				large="gfx/leaders/RIE/娜娥迷.dds"
+				large="gfx/leaders/RIE/娜娥迷.png"
 			}
 		}
 		
@@ -91,7 +91,7 @@ characters={
 		name=aimi
 		portraits={
 			civilian={
-				large="gfx/leaders/RIE/艾咪.dds"
+				large="gfx/leaders/RIE/艾咪.png"
 			}
 		}
 		
@@ -111,7 +111,7 @@ characters={
 		name=zhaoyazou
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/赵雅奏.dds"
+				large="gfx/leaders/RED/赵雅奏.png"
 			}
 		}
 		

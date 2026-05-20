@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	ENU_miuyun={
 		name= miuyun
 		portraits={
 			civilian={
-				large="gfx/leaders/ENU/缪云.dds"
+				large="gfx/leaders/ENU/缪云.png"
 			}
 			army = {   
-				large="gfx/leaders/ENU/缪云.dds" 
+				large="gfx/leaders/ENU/缪云.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,10 +34,10 @@ characters={
 		name=R
 		portraits={
 			civilian={
-				large="gfx/leaders/ENU/R.dds"
+				large="gfx/leaders/ENU/R.png"
 			}
 			army = {   
-				large="gfx/leaders/ENU/R.dds" 
+				large="gfx/leaders/ENU/R.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -59,10 +59,10 @@ characters={
 		name= pohuaizhe
 		portraits={
 			civilian={
-				large="gfx/leaders/ENU/破坏者.dds"
+				large="gfx/leaders/ENU/破坏者.png"
 			}
 			army = {   
-				large="gfx/leaders/ENU/破坏者.dds" 
+				large="gfx/leaders/ENU/破坏者.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -84,10 +84,10 @@ characters={
 		name= xundaozhe
 		portraits={
 			civilian={
-				large="gfx/leaders/ENU/殉道者.dds"
+				large="gfx/leaders/ENU/殉道者.png"
 			}
 			army = {   
-				large="gfx/leaders/ENU/殉道者.dds" 
+				large="gfx/leaders/ENU/殉道者.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -109,10 +109,10 @@ characters={
 		name= caixia
 		portraits={
 			civilian={
-				large="gfx/leaders/ENU/彩夏.dds"
+				large="gfx/leaders/ENU/彩夏.png"
 			}
 			army = {   
-				large="gfx/leaders/ENU/彩夏.dds" 
+				large="gfx/leaders/ENU/彩夏.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -134,10 +134,10 @@ characters={
 		name= yilian
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/伊莲.dds"
+				large="gfx/leaders/RED/伊莲.png"
 			}
 			army = {   
-				large="gfx/leaders/RED/伊莲.dds" 
+				large="gfx/leaders/RED/伊莲.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -159,10 +159,10 @@ characters={
 		name= linai
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/莉乃.dds"
+				large="gfx/leaders/STA/莉乃.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/莉乃.dds" 
+				large="gfx/leaders/STA/莉乃.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -184,10 +184,10 @@ characters={
 		name= miluoxita
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/米洛茜塔.dds"
+				large="gfx/leaders/STA/米洛茜塔.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/米洛茜塔.dds" 
+				large="gfx/leaders/STA/米洛茜塔.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -209,10 +209,10 @@ characters={
 		name= hedifuni
 		portraits={
 			civilian={
-				large="gfx/leaders/STA/赫蒂芙尼.dds"
+				large="gfx/leaders/STA/赫蒂芙尼.png"
 			}
 			army = {   
-				large="gfx/leaders/STA/赫蒂芙尼.dds" 
+				large="gfx/leaders/STA/赫蒂芙尼.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		}

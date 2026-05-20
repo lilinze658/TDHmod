@@ -1,0 +1,161 @@
+TZY_power_balance = {
+	initial_value = 0.35
+	left_side = TZY_grand_council_side	
+	right_side = TZY_mussolini_side	
+	decision_category = TZY_balance_of_power_category
+
+
+	range = {
+		id = TZY_balance_range
+		min = -0.10
+		max = 0.10
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+	side = {
+		id = TZY_grand_council_side
+		icon = GFX_bop_SWI_centralization_canton_side
+		
+	range = {
+		id = TZY_1_council_side
+		min = -0.3
+		max = -0.1
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+	range = {
+		id = TZY_2_council_side
+		min = -0.6
+		max = -0.3
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+	range = {
+		id = TZY_3_council_side
+		min = -0.9
+		max = -0.6
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+	range = {
+		id = TZY_4_council_side
+		min = -0.1
+		max = -0.3
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+	range = {
+		id = TZY_5_council_side
+		min = -0.8
+		max = -0.3
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+	}
+	side = {
+		id = TZY_mussolini_side
+		icon = GFX_bop_SWI_centralization_canton_side
+		
+	range = {
+		id = TZY_1_mussolini_side
+		min = 0.3
+		max = -0.1
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+	range = {
+		id = TZY_2_mussolini_side
+		min = 0.6
+		max = -0.3
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+	range = {
+		id = TZY_3_mussolini_side
+		min = 0.9
+		max = -0.6
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+	range = {
+		id = TZY_4_mussolini_side
+		min = 0.1
+		max = -0.3
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+	range = {
+		id = TZY_5_mussolini_side
+		min = 0.8
+		max = -0.3
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+	}
+}

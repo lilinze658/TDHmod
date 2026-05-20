@@ -1,0 +1,32 @@
+MAG_linghunluhuo_dy = {
+	icon = GFX_idea_MAG_linghunluhuo
+	enable = {  
+		always = yes
+	}
+	army_attack_factor = MAG_linghunluhuo_a
+	army_defence_factor = MAG_linghunluhuo_b
+	army_org_factor = MAG_linghunluhuo_c
+	political_power_gain = MAG_linghunluhuo_d
+	stability_weekly = MAG_linghunluhuo_e
+	research_speed_factor = MAG_linghunluhuo_f
+	max_dig_in_factor = MAG_linghunluhuo_g
+	army_org_factor = MAG_linghunluhuo_h
+	experience_gain_army_factor = MAG_linghunluhuo_i
+	industrial_capacity_factory = MAG_linghunluhuo_j
+	production_speed_buildings_factor = MAG_linghunluhuo_k
+	army_speed_factor = MAG_linghunluhuo_l
+	army_attack_against_major_factor = MAG_linghunluhuo_m
+	stability_factor = MAG_linghunluhuo_n
+	consumer_goods_factor = MAG_linghunluhuo_o
+	local_resources_factor = MAG_linghunluhuo_p
+	experience_gain_army = MAG_linghunluhuo_q
+	experience_gain_navy = MAG_linghunluhuo_r
+	experience_gain_air = MAG_linghunluhuo_s
+	command_power_gain = MAG_linghunluhuo_t
+	max_command_power = MAG_linghunluhuo_u
+	production_factory_efficiency_gain_factor = MAG_linghunluhuo_v
+	production_factory_max_efficiency_factor = MAG_linghunluhuo_w
+	breakthrough_factor = MAG_linghunluhuo_x
+	war_support_weekly = MAG_linghunluhuo_y
+	supply_consumption_factor = MAG_linghunluhuo_z
+}

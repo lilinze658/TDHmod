@@ -1,13 +1,13 @@
-characters={ 
+﻿characters={ 
 	RED_maruisha={
 		name=玛瑞莎
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/玛瑞莎.dds"
+				large="gfx/leaders/RED/玛瑞莎.png"
 			}
 			army = {   
-				large="gfx/leaders/RED/玛瑞莎.dds" 
-				small="gfx/leaders/RED/玛瑞莎内阁.dds"
+				large="gfx/leaders/RED/玛瑞莎.png" 
+				small="gfx/leaders/RED/玛瑞莎内阁.png"
 			}
 		
 		}
@@ -46,7 +46,7 @@ characters={
 		name=凝华
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/凝华.dds"
+				large="gfx/leaders/RED/凝华.png"
 			}
 		}
 		
@@ -66,7 +66,7 @@ characters={
 		name=克拉娜
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/克拉娜.dds"
+				large="gfx/leaders/RED/克拉娜.png"
 			}
 		}
 		
@@ -86,7 +86,7 @@ characters={
 		name=格温莉特
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/格温莉特.dds"
+				large="gfx/leaders/RED/格温莉特.png"
 			}
 		}
 		
@@ -106,7 +106,7 @@ characters={
 		name=安捷瑞拉
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/安捷瑞拉.dds"
+				large="gfx/leaders/RED/安捷瑞拉.png"
 			}
 		}
 		
@@ -126,7 +126,7 @@ characters={
 		name=佩可丽
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/佩可丽.dds"
+				large="gfx/leaders/RED/佩可丽.png"
 			}
 		}
 		
@@ -146,7 +146,7 @@ characters={
 		name=丽萨
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/丽萨.dds"
+				large="gfx/leaders/RED/丽萨.png"
 			}
 		}
 		
@@ -166,7 +166,7 @@ characters={
 		name=切特拉
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/切特拉.dds"
+				large="gfx/leaders/RED/切特拉.png"
 			}
 		}
 		
@@ -186,7 +186,7 @@ characters={
 		name=陵雪
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/陵雪.dds"
+				large="gfx/leaders/RED/陵雪.png"
 			}
 		}
 		
@@ -206,7 +206,7 @@ characters={
 		name=姬蓝
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/姬蓝.dds"
+				large="gfx/leaders/RED/姬蓝.png"
 			}
 		}
 		
@@ -226,7 +226,7 @@ characters={
 		name=伊莲
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/伊莲.dds"
+				large="gfx/leaders/RED/伊莲.png"
 			}
 		}
 		
@@ -246,7 +246,7 @@ characters={
 		name=卡蒂
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/卡蒂.dds"
+				large="gfx/leaders/RED/卡蒂.png"
 			}
 		}
 		
@@ -266,7 +266,7 @@ characters={
 		name=艾瑞奇
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/艾瑞奇.dds"
+				large="gfx/leaders/RED/艾瑞奇.png"
 			}
 		}
 		
@@ -286,7 +286,7 @@ characters={
 		name=江雨
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/江雨.dds"
+				large="gfx/leaders/RED/江雨.png"
 			}
 		}
 		
@@ -306,7 +306,7 @@ characters={
 		name=赵雅奏
 		portraits={
 			civilian={
-				large="gfx/leaders/RED/赵雅奏.dds"
+				large="gfx/leaders/RED/赵雅奏.png"
 			}
 		}
 		
@@ -325,10 +325,10 @@ characters={
 		name=斯蒂优
 		portraits={
 			civilian={
-				large="gfx/leaders/ROA/斯蒂优.dds"
+				large="gfx/leaders/ROA/斯蒂优.png"
 			}
 			army = {   
-				large="gfx/leaders/ROA/斯蒂优.dds" 
+				large="gfx/leaders/ROA/斯蒂优.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

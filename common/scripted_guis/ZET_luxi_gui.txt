@@ -1,0 +1,70 @@
+scripted_gui = {
+	ZET_luxi_gui = {
+		context_type = player_context
+		window_name = "ZET_luxi_gui"
+
+		visible = {
+			tag = ZET
+			ZET = {
+				check_variable = {
+					ZET_luxi_chai = 6
+				}
+				NOT = {
+					check_variable = {
+						cuihuilajitong > 29
+					}
+				}	
+			}		
+		}
+		triggers = {
+			ZET_luxi_gui_L_visible = {
+				check_variable = {
+					cuihuilajitong < 10
+				}
+			}
+			ZET_luxi_gui_T_visible = {
+				
+			}
+		}
+		effects = {
+			ZET_luxi_gui_L_click = {
+				set_country_flag = ZET_xuanzhongluxi
+			}
+			ZET_luxi_gui_T_click = {
+				if = {
+					limit = {
+						has_country_flag = ZET_xuanzhongluxi
+					}
+					set_variable = {
+						ZET_luxi_chai = 0
+					}
+					ZET_luxi_a = {
+						unit_leader_event = { id = ZET.89 }
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = ZET_xuanzhongluxi
+						}
+					}
+					add_to_variable = {
+						cuihuilajitong = 1
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							cuihuilajitong = 30
+						}
+					}
+					ZET = {
+						ZET_luxi_a = {
+							unit_leader_event = { id = ZET.90 }
+						}
+					}
+				}
+			}
+		}
+	}
+}

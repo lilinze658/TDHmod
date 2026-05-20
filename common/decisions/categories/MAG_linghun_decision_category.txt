@@ -1,0 +1,7 @@
+MAG_linghun_decision_category = {
+	icon = xxx
+	allowed = {
+	    tag = MAG
+	}
+	priority = 999
+}

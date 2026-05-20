@@ -1,12 +1,12 @@
-characters={ 
+﻿characters={ 
 	ZHI_zhanghaigui={
 		name=zhanghaigui
 		portraits={
 			civilian={
-				large="gfx/leaders/ZHI/张海桂.dds"
+				large="gfx/leaders/ZHI/张海桂.png"
 			}
 			army = {   
-				large="gfx/leaders/ZHI/张海桂.dds" 
+				large="gfx/leaders/ZHI/张海桂.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -34,10 +34,10 @@ characters={
 		name=guqin
 		portraits={
 			civilian={
-				large="gfx/leaders/ZHI/孤晴.dds"
+				large="gfx/leaders/ZHI/孤晴.png"
 			}
 			army = {   
-				large="gfx/leaders/ZHI/孤晴.dds" 
+				large="gfx/leaders/ZHI/孤晴.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

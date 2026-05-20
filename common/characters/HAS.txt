@@ -1,13 +1,13 @@
-characters={ 
+﻿characters={ 
 
 	HAS_ailuoyi={
 		name= ailuoyi
 		portraits={
 			civilian={
-				large="gfx/leaders/HAS/爱洛依.dds"
+				large="gfx/leaders/HAS/爱洛依.png"
 			}
 			army = {   
-				large="gfx/leaders/HAS/爱洛依.dds" 
+				large="gfx/leaders/HAS/爱洛依.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		
@@ -36,10 +36,10 @@ characters={
 		name= ajiliya
 		portraits={
 			civilian={
-				large="gfx/leaders/HAS/阿吉丽雅.dds"
+				large="gfx/leaders/HAS/阿吉丽雅.png"
 			}
 			army = {   
-				large="gfx/leaders/HAS/阿吉丽雅.dds" 
+				large="gfx/leaders/HAS/阿吉丽雅.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

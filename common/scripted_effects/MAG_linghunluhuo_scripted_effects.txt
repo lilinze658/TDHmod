@@ -1,0 +1,125 @@
+MAG_linghunluhuo_shuaxin = {
+    set_variable = { MAG_linghunluhuo_a = 0 }
+    set_variable = { MAG_linghunluhuo_b = 0 }
+    set_variable = { MAG_linghunluhuo_c = 0 }
+    set_variable = { MAG_linghunluhuo_d = 0 }
+    set_variable = { MAG_linghunluhuo_e = 0 }
+    set_variable = { MAG_linghunluhuo_f = 0 }
+    set_variable = { MAG_linghunluhuo_g = 0 }
+    set_variable = { MAG_linghunluhuo_h = 0 }
+    set_variable = { MAG_linghunluhuo_i = 0 }
+    set_variable = { MAG_linghunluhuo_j = 0 }
+    set_variable = { MAG_linghunluhuo_k = 0 }
+    set_variable = { MAG_linghunluhuo_l = 0 }
+    set_variable = { MAG_linghunluhuo_m = 0 }
+    set_variable = { MAG_linghunluhuo_n = 0 }
+    set_variable = { MAG_linghunluhuo_o = 0 }
+    set_variable = { MAG_linghunluhuo_p = 0 }
+    set_variable = { MAG_linghunluhuo_q = 0 }
+    set_variable = { MAG_linghunluhuo_r = 0 }
+    set_variable = { MAG_linghunluhuo_s = 0 }
+    set_variable = { MAG_linghunluhuo_u = 0 }
+    set_variable = { MAG_linghunluhuo_v = 0 }
+    set_variable = { MAG_linghunluhuo_w = 0 }
+    set_variable = { MAG_linghunluhuo_x = 0 }
+    set_variable = { MAG_linghunluhuo_y = 0 }
+    set_variable = { MAG_linghunluhuo_z = 0 }
+    if = {
+        limit = {
+            has_country_flag = MAG_core_1_c
+        }
+        add_to_variable = { MAG_linghunluhuo_a = 0.05 }
+		add_to_variable = { MAG_linghunluhuo_b = 0.05 }
+		add_to_variable = { MAG_linghunluhuo_c = 0.10 }
+		add_to_variable = { MAG_linghunluhuo_d = -0.05 }
+    }
+    else_if = {
+        limit = {
+            has_country_flag = MAG_core_2_c
+        }
+        add_to_variable = { MAG_linghunluhuo_d = 0.1 }
+		add_to_variable = { MAG_linghunluhuo_e = 0.001 }
+		add_to_variable = { MAG_linghunluhuo_f = 0.075 }
+    }
+    else_if = {
+        limit = {
+            has_country_flag = MAG_core_3_c
+        }
+        add_to_variable = { MAG_linghunluhuo_b = 0.1 }
+	    add_to_variable = { MAG_linghunluhuo_g = 0.1 }
+		add_to_variable = { MAG_linghunluhuo_h = 0.05 }
+		add_to_variable = { MAG_linghunluhuo_i = -0.15 }
+    }
+    else_if = {
+        limit = {
+            has_country_flag = MAG_core_4_c
+        }
+        add_to_variable = { MAG_linghunluhuo_j = 0.1 }
+		add_to_variable = { MAG_linghunluhuo_k = 0.1 }
+    }
+
+    if = {
+        limit = {
+            has_country_flag = MAG_enclosure_1_c
+        }
+        add_to_variable = { MAG_linghunluhuo_a = 0.05 }
+		add_to_variable = { MAG_linghunluhuo_l = 0.05 }
+		add_to_variable = { MAG_linghunluhuo_m = 0.05 }
+		add_to_variable = { MAG_linghunluhuo_n = -0.075 }
+    }
+    else_if = {
+        limit = {
+            has_country_flag = MAG_enclosure_2_c
+        }
+        add_to_variable = { MAG_linghunluhuo_e = 0.001 }
+		add_to_variable = { MAG_linghunluhuo_p = 0.15 }
+		add_to_variable = { MAG_linghunluhuo_o = -0.1 }
+    }
+    else_if = {
+        limit = {
+            has_country_flag = MAG_enclosure_3_c
+        }
+        add_to_variable = { MAG_linghunluhuo_q = 0.1 }
+		add_to_variable = { MAG_linghunluhuo_r = 0.1 }
+		add_to_variable = { MAG_linghunluhuo_s = 0.1 }
+		add_to_variable = { MAG_linghunluhuo_t = 0.5 }
+		add_to_variable = { MAG_linghunluhuo_u = 50 }
+    }
+    else_if = {
+         limit = {
+            has_country_flag = MAG_enclosure_4_c
+        }
+        add_to_variable = { MAG_linghunluhuo_v = 0.1 }
+		add_to_variable = { MAG_linghunluhuo_w = 0.1 }
+    }
+
+    if = {
+        limit = {
+            has_country_flag = MAG_base_1_c
+        }
+        add_to_variable = { MAG_linghunluhuo_h = 0.05 }
+		add_to_variable = { MAG_linghunluhuo_x = 0.1 }
+    }
+    else_if = {
+        limit = {
+            has_country_flag = MAG_base_2_c
+        }
+        add_to_variable = { MAG_linghunluhuo_e = 0.001 }
+		add_to_variable = { MAG_linghunluhuo_y = 0.001 }
+		add_to_variable = { MAG_linghunluhuo_f = 0.05 }
+    }
+    else_if = {
+        limit = {
+            has_country_flag = MAG_base_3_c
+        }
+        add_to_variable = { MAG_linghunluhuo_b = 0.05 }
+		add_to_variable = { MAG_linghunluhuo_z = -0.15 }
+    }
+    else_if = {
+        limit = {
+            has_country_flag = MAG_base_4_c
+        }
+       add_to_variable = { MAG_linghunluhuo_k = 0.15 }
+	   add_to_variable = { MAG_linghunluhuo_w = 0.05 }
+    }
+}
