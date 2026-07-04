@@ -1,4 +1,25 @@
 ﻿characters={ 
+    ZET_OdaYoshikageKawa={
+		name="织田良下川"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZET/ZET_OdaYoshikageKawa.png"
+			}
+			army = {   
+				large="gfx/leaders/ZET/ZET_OdaYoshikageKawa.png" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = "ZET_OdaYoshikageKawa_desc"
+				 traits = { ChairmanoftheCouncil Meaning VibrantLeader }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+	}
+
 	ZET_walunseting={
 		name="瓦伦·瑟蒂安"
 		portraits={
@@ -14,6 +35,27 @@
 		country_leader={
 			desc = "ZET_walunseting_desc"
 				 traits = { ChairmanoftheCouncil Familyinterestscomefirst Demon Conspirator }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+	}
+    
+    ZET_TemporaryPolitical={
+		name="集团临时政会"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZET/ZET_TemporaryPolitical.dds"
+			}
+			army = {   
+				large="gfx/leaders/ZET/ZET_TemporaryPolitical.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
 				ideology= despotism 
 				expire="4999.1.1.1"
 				id=-1

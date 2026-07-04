@@ -4,3 +4,9 @@ MOB_decision_category = {
 	}
 	priority = 5
 }
+MOB_decision_Economy_category = {
+	allowed = {
+		tag = MOB
+	}
+	priority = 5
+}

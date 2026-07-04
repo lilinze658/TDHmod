@@ -21,5 +21,5 @@ tags={
 }
 picture="Thumbnail.png"
 name="荒凉的希望"
-supported_version="1.17*"
+supported_version="1.19*"
 remote_file_id="2832043727"

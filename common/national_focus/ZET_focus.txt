@@ -1,0 +1,380 @@
+focus_tree = {
+	id = ZET_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ZET
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 1400 y = 900 }
+    
+    focus = {#进一步体制改革
+		id = ZET_falanfuxin 
+		icon = GFX_focus_ARG_keep_it_in_the_party
+		cost = 1.00
+		x = 6
+		y = 0
+		allow_branch = {
+			NOT = {
+				has_country_flag = ZET_was_assassinated
+			}
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.10
+			
+		}
+
+	}
+   focus = {#扩大家族威望
+		id = ZET_Enhanceamily
+		relative_position_id = ZET_falanfuxin
+		icon = GFX_focus_ARG_strengthening_the_concordancia
+		cost = 1.00
+		prerequisite = {
+			focus = ZET_falanfuxin
+		}
+		x = 0
+		y = 1
+		completion_reward = {
+			add_war_support = 0.10
+		}
+
+	}
+	focus = {#召开工权保障会议
+		id = ZET_meetingonworkers
+		relative_position_id = ZET_Enhanceamily
+		icon = GFX_focus_ETH_re-convene_the_parliament
+		cost = 10
+		select_effect = {
+			country_event = { id = ZET.1 days = 35 }
+		}
+		prerequisite = {
+			focus = ZET_Enhanceamily
+		}
+		x = 0
+		y = 1
+		bypass = {
+			has_country_flag = ZET_was_assassinated
+		}
+
+		completion_reward = {
+
+			add_political_power = 100
+			add_dynamic_modifier = { modifier = ZET_meetingonworkersincrease_modifier }
+			custom_effect_tooltip= ZET_meetingonworkersincrease_tt
+		}
+
+	}
+	focus = {#工人地位
+		id = ZET_Workersstatus
+		relative_position_id = ZET_meetingonworkers
+		icon = GFX_focus_PRC_bolshevik_urbanization_completed
+		cost = 1.00
+		prerequisite = {
+			focus = ZET_meetingonworkers
+		}
+		x = -3
+		y = 1
+		bypass = {
+			has_country_flag = ZET_was_assassinated
+		}
+		completion_reward = {
+			custom_effect_tooltip = ZET_meetingonworkersincrease_modifier_tt
+			add_to_variable = { 
+				ZET_meetingonworkersincrease_political_power_gain = 0.1 
+		        tooltip = ZET_meetingonworkersincrease_political_power_gain_equipment_tt
+			}
+			random_list = {
+				50 = {
+					ROOT = { news_event = { id = ZET.1 } } 
+				}
+				50 = { 
+				}
+			}
+		}
+
+	}
+	focus = {#提高工人权益
+		id = ZET_Enhancingworkers
+		relative_position_id = ZET_Workersstatus
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 1.00
+		prerequisite = {
+			focus = ZET_Workersstatus
+		}
+		x = 0
+		y = 1
+		bypass = {
+			has_country_flag = ZET_was_assassinated
+		}
+		completion_reward = {
+			custom_effect_tooltip = ZET_meetingonworkersincrease_modifier_tt
+			add_to_variable = { 
+				ZET_meetingonworkersincrease_consumer_goods_expected_value = 0.1 
+		        tooltip = ZET_meetingonworkersincrease_consumer_goods_expected_value_equipment_tt
+			}
+			random_list = {
+				50 = {
+					ROOT = { news_event = { id = ZET.1 } } 
+				}
+				50 = { 
+				}
+			}	
+		}
+
+	}
+	focus = {#允许工人参政
+		id = ZET_Allowingworkers
+		relative_position_id = ZET_Enhancingworkers
+		icon = GFX_focus_AUS_union_of_danubian_socialist_republics
+		cost = 1.00
+		prerequisite = {
+			focus = ZET_Enhancingworkers
+		}
+		x = 0
+		y = 1
+		bypass = {
+			has_country_flag = ZET_was_assassinated
+		}
+		completion_reward = {
+			custom_effect_tooltip = ZET_meetingonworkersincrease_modifier_tt
+			add_to_variable = { 
+				ZET_meetingonworkersincrease_stability_factor = 0.1 
+		        tooltip = stability_factor_tt
+			}
+			random_list = {
+				50 = {
+					ROOT = { news_event = { id = ZET.1 } } 
+				}
+				50 = { 
+				}
+			}	
+		}
+
+	}
+	focus = {#工人利益
+		id = ZET_WorkersInterests
+		relative_position_id = ZET_meetingonworkers
+		icon = GFX_focus_focus_fra_revolution_utmost
+		cost = 1.00
+		prerequisite = {
+			focus = ZET_meetingonworkers
+		}
+		x = 0
+		y = 1
+		bypass = {
+			has_country_flag = ZET_was_assassinated
+		}
+		completion_reward = {	
+			custom_effect_tooltip = ZET_meetingonworkersincrease_modifier_tt
+			add_to_variable = { 
+				ZET_meetingonworkersincrease_stability_factor = 0.05 
+		        tooltip = stability_factor_tt
+			}
+			random_list = {
+				50 = {
+					ROOT = { news_event = { id = ZET.1 } } 
+				}
+				50 = { 
+				}
+			}	
+		}
+
+	}
+	focus = {#出台集团工权法
+		id = ZET_Enactagroup
+		relative_position_id = ZET_WorkersInterests
+		icon = GFX_focus_generic_improve_the_administration
+		cost = 1.00
+		prerequisite = {
+			focus = ZET_WorkersInterests
+		}
+		x = 0
+		y = 1
+		bypass = {
+			has_country_flag = ZET_was_assassinated
+		}
+		completion_reward = {
+			custom_effect_tooltip = ZET_meetingonworkersincrease_modifier_tt
+			add_to_variable = { 
+				ZET_meetingonworkersincrease_industrial_capacity_factory = 0.05 
+		        tooltip = industrial_capacity_factory_tt
+			}
+			random_list = {
+				50 = {
+					ROOT = { news_event = { id = ZET.1 } } 
+				}
+				50 = { 
+				}
+			}	
+		}
+
+	}
+	focus = {#扩大福利法案
+		id = ZET_ExpandWelfare
+		relative_position_id = ZET_Enactagroup
+		icon = GFX_focus_NORDIC_com_capstone_army
+		cost = 1.00
+		prerequisite = {
+			focus = ZET_Enactagroup
+		}
+		x = 0
+		y = 1
+		bypass = {
+			has_country_flag = ZET_was_assassinated
+		}
+		completion_reward = {
+			custom_effect_tooltip = ZET_meetingonworkersincrease_modifier_tt
+			add_to_variable = { 
+				ZET_meetingonworkersincrease_consumer_goods_expected_value = 0.1 
+		        tooltip = ZET_meetingonworkersincrease_consumer_goods_expected_value_equipment_tt
+			}
+			random_list = {
+				50 = {
+					ROOT = { news_event = { id = ZET.1 } } 
+				}
+				50 = { 
+				}
+			}	
+		}
+
+	}
+	focus = {#工人智慧
+		id = ZET_WorkerWisdom
+		relative_position_id = ZET_meetingonworkers
+		icon = GFX_focus_PRC_rally_the_women
+		cost = 1.00
+		prerequisite = {
+			focus = ZET_meetingonworkers
+		}
+		x = 3
+		y = 1
+		bypass = {
+			has_country_flag = ZET_was_assassinated
+		}
+		completion_reward = {
+			custom_effect_tooltip = ZET_meetingonworkersincrease_modifier_tt
+			add_to_variable = { 
+				ZET_meetingonworkersincrease_research_speed_factor = 0.1 
+		        tooltip = research_speed_factor_tt
+			}
+			random_list = {
+				50 = {
+					ROOT = { news_event = { id = ZET.1 } } 
+				}
+				50 = { 
+				}
+			}	
+		}
+
+	}
+	focus = {#招募熟练工人
+		id = ZET_Recruitskilled
+		relative_position_id = ZET_WorkerWisdom
+		icon = GFX_focus_BRA_rubber_war
+		cost = 1.00
+		prerequisite = {
+			focus = ZET_WorkerWisdom
+		}
+		x = 0
+		y = 1
+		bypass = {
+			has_country_flag = ZET_was_assassinated
+		}
+		completion_reward = {
+			custom_effect_tooltip = ZET_meetingonworkersincrease_modifier_tt
+			add_to_variable = { 
+				ZET_meetingonworkersincrease_line_change_production_efficiency_factor = 0.1 
+		        tooltip = line_change_production_efficiency_factor_tt
+			}
+			add_to_variable = { 
+				ZET_meetingonworkersincrease_production_factory_efficiency_gain_factor = 0.1 
+		        tooltip = production_factory_efficiency_gain_factor_tt
+			}
+			random_list = {
+				50 = {
+					ROOT = { news_event = { id = ZET.1 } } 
+				}
+				50 = { 
+				}
+			}	
+		}
+
+	}
+	focus = {
+		id = ZET_EstablishSchool
+		relative_position_id = ZET_Recruitskilled
+		icon = GFX_focus_generic_education
+		cost = 1.00
+		prerequisite = {
+			focus = ZET_Recruitskilled
+		}
+		x = 0
+		y = 1
+		bypass = {
+			has_country_flag = ZET_was_assassinated
+		}
+		completion_reward = {
+			custom_effect_tooltip = ZET_meetingonworkersincrease_modifier_tt
+			add_to_variable = { 
+				ZET_meetingonworkersincrease_research_speed_factor = 0.05 
+		        tooltip = research_speed_factor_tt
+			}
+			add_research_slot = 1
+			random_list = {
+				50 = {
+					ROOT = { news_event = { id = ZET.1 } } 
+				}
+				50 = { 
+				}
+			}	
+		}
+
+	}
+	focus = {#完成改革
+		id = ZET_Ryshimogawa
+		relative_position_id = ZET_ExpandWelfare
+		icon = GFX_focus_PER_embrace_opulence
+		cost = 1.00
+		prerequisite = {
+			focus = ZET_Allowingworkers
+		}
+		prerequisite = {
+			focus = ZET_ExpandWelfare
+		}
+		prerequisite = {
+			focus = ZET_EstablishSchool
+		}
+		x = 0
+		y = 1
+		bypass = {
+			has_country_flag = ZET_was_assassinated
+		}
+		completion_reward = {
+			custom_effect_tooltip = ZET_Ryshimogawa_1_tt
+		}
+
+	}
+    
+	focus = {#紧急预案启动
+		id = ZET_Emergencyplanactivation
+		icon = GFX_focus_PER_embrace_opulence
+		cost = 3
+		x = 6
+		y = 0
+		bypass = {
+			
+		}
+		allow_branch = {
+			has_country_flag = ZET_was_assassinated
+		}
+		completion_reward = {
+			
+		}
+
+	}
+
+	}

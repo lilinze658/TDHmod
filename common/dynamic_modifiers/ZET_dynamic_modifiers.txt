@@ -9,6 +9,27 @@ ZET_luxi_dy = {
 	army_org_factor = ZET_luxi_d
 	max_planning_factor = ZET_luxi_e
 	supply_consumption_factor = ZET_luxi_f
-	political_power_gain = ZET_luxi_g
+	political_power_gain = ZET_luxi_g`
 	stability_factor = ZET_luxi_h
+}
+
+
+ZET_meetingonworkersincrease_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_generic_communist_army
+    #期待的基本生活消费品
+	consumer_goods_expected_value = ZET_meetingonworkersincrease_consumer_goods_expected_value
+	#政治点(以百分比形式增加
+	political_power_gain = ZET_meetingonworkersincrease_political_power_gain
+    #稳定度
+	stability_factor = ZET_meetingonworkersincrease_stability_factor
+    #工厂产出
+	industrial_capacity_factory = ZET_meetingonworkersincrease_industrial_capacity_factory
+    #生产效率保持
+	line_change_production_efficiency_factor = ZET_meetingonworkersincrease_line_change_production_efficiency_factor
+    #生产效率增长
+	production_factory_efficiency_gain_factor = ZET_meetingonworkersincrease_production_factory_efficiency_gain_factor
+	#研究速度	
+	research_speed_factor = ZET_meetingonworkersincrease_research_speed_factor
 }

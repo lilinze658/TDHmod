@@ -72,5 +72,16 @@ leader_traits = {
 		random = no
 		experience_gain_naval = 0.3
 	}
+	Meaning= {
+		random = no
+		political_power_factor = 0.15
+		stability_factor = 0.05
+	}
+	VibrantLeader= {
+		random = no
+		production_lack_of_resource_penalty_factor = -0.1
+		stability_weekly = 0.005
+		war_support_weekly = 0.005
+	}
 }
 

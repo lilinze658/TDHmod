@@ -88,6 +88,7 @@ set_popularities = {
 add_dynamic_modifier = {
 	modifier = ZET_luxi_dy
 }
+recruit_character = ZET_OdaYoshikageKawa
 recruit_character = ZET_walunseting
 recruit_character = ZET_shasilina
 recruit_character = ZET_hanwufa
@@ -106,6 +107,7 @@ recruit_character =	ZET_deyasu
 recruit_character =	ZET_chaiquan_shui
 recruit_character =	ZET_jianglingzhi
 recruit_character =	ZET_laowang
+recruit_character =	ZET_TemporaryPolitical
 add_ideas = ZET_luxi_N
 set_variable = {
 	ZET_luxi_a = 0.01

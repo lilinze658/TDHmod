@@ -59,7 +59,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 723 
+		location = 14309 
 		division_template = "轻坦装甲师"
 		start_experience_factor = 0.3
 	}
@@ -70,7 +70,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 723 
+		location = 14309 
 		division_template = "轻坦装甲师"
 		start_experience_factor = 0.3
 	}
@@ -81,7 +81,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -92,7 +92,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -103,7 +103,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -114,7 +114,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -125,7 +125,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -136,7 +136,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -147,7 +147,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -158,7 +158,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -169,7 +169,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -180,7 +180,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -191,7 +191,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -202,7 +202,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -213,7 +213,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -224,7 +224,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -235,7 +235,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -246,7 +246,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国直辖军"
 		start_experience_factor = 0.3
 	}
@@ -257,7 +257,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -268,7 +268,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -279,7 +279,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -290,7 +290,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -301,7 +301,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -312,7 +312,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -323,7 +323,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -334,7 +334,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -345,7 +345,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -356,7 +356,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -367,7 +367,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -378,7 +378,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -389,7 +389,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -400,7 +400,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -411,7 +411,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -422,7 +422,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 16
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -433,7 +433,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 17
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -444,7 +444,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -455,7 +455,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 19
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}
@@ -466,7 +466,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 20
 		}
-		location = 723 
+		location = 14309 
 		division_template = "帝国防卫军"
 		start_experience_factor = 0.3
 	}

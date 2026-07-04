@@ -1,0 +1,79 @@
+add_namespace = ZET
+event ZET.1
+country_event = {
+	id = ZET.1
+    picture = GFX_news_event_komet
+    title = ZET.1.t 
+    desc = ZET.1.d 
+	major = yes
+	
+	is_triggered_only = yes
+	trigger = {
+		ZET = {
+			focus_progress = {
+				focus = ZET_meetingonworkers
+				progress > 0.33
+			}
+		}
+	}
+
+	
+    option = { 
+        name = ZET.1.a  
+		trigger = { TAG = ZET }
+		promote_character = ZET_TemporaryPolitical
+		set_country_flag = ZET_was_assassinated
+		mark_focus_tree_layout_dirty = yes
+	}
+	  option = { 
+        name = ZET.1.b  
+		trigger = {
+			NOT = {
+				TAG = ZET
+				
+			}
+		}
+		
+	}
+    
+}
+country_event = {
+	id = ZET.2
+    picture = GFX_
+    title = ZET.2.t 
+    desc = ZET.2.d 
+	immediate = {
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = ZET.2.a  
+			
+	}
+	  option = { 
+        name = ZET.2.b  
+	}
+    
+} 
+news_event = {
+	id = ZET.3
+	title = ZET_.3.t 
+	picture = GFX_news_event_nuke 
+
+	major = yes 
+
+	is_triggered_only = yes  
+	
+	
+	option = { 
+		name = ZET_news.1.a 
+		trigger = {
+            tag = NGD
+        }
+	}
+	
+    option = { 
+		name = ZET_news.1.b 
+		
+	}
+}

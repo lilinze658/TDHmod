@@ -69,5 +69,43 @@ MOB_decision_category = {
 	}
  }
 }
-  
+MOB_decision_Economy_category = {
+	MOB_decision_Economy_A_decision = {
+		icon = generic_operation
+	
+	
+	ai_will_do = {
+		factor = 1
+	}
+	fire_only_once = yes
+	complete_effect  = {
+		remove_dynamic_modifier = { modifier = MOB_mefo_bills_modifier }
+		set_country_flag = MOB_mefo_1_bills_modifier
+	}
+ }
+ MOB_mefo_bills_decision = {     
+		days_mission_timeout = 30
+
+		available = {                           
+			has_country_flag = MOB_mefo_1_bills_modifier
+			
+		}   
+		
+		selectable_mission = no
+		
+
+		is_good = no                  
+	
+		war_with_on_timeout = MOB
+
+
+		timeout_effect = {         
+			custom_effect_tooltip = MOB_mefo_bills_increase_tt             
+			add_to_variable = { MOB_industrial_consumer_goods_factor = 0.01 } 
+            activate_mission = MOB_mefo_bills_decision
+		}       
+		
+	}
+}
+
 

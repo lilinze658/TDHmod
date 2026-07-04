@@ -84,17 +84,44 @@ add_ideas = {
     whuiu_1
     weay_2
     gyea_1
+	MOB_reparations
 	disarmed_nation
-	MOB_reparations
 	MOB_states_47
-	MOB_reparations
 }
 add_timed_idea = {
 	idea = war_reparations
 	days = 3000
 } 
+
 set_variable = { MOB_reparations_production_speed_buildings_factor = 0.1 }
 add_dynamic_modifier = { modifier = MOB_reparations_dynamic_modifier }
+  set_variable = { MOB_monthly_consumer_goods_increase = MOB_monthly_consumer_goods_start } #Amount of increasing CG each month
+        set_variable = { MOB_industrial_consumer_goods_factor = 0.1 } #Used for MEFO Bills, Economy of Conquest and Recovering Economy and Wirtschaftswunder - must correspond with the Fake MEFO Bills NS for the 1936 Bookmark
+        set_variable = { MOB_industrial_civilian_intel_to_others = -25 }
+        set_variable = { MOB_industrial_army_intel_to_others = -25 }
+        set_variable = { MOB_industrial_navy_intel_to_others = -25 }
+        set_variable = { MOB_industrial_airforce_intel_to_others = -25 }
+        set_variable = { MOB_industrial_production_speed_arms_factory_factor = 0.1 }
+        set_variable = { MOB_industrial_production_speed_dockyard_factor = 0.1 }
+        set_variable = { MOB_industrial_industrial_capacity_factory = 0 }
+        set_variable = { MOB_industrial_industrial_capacity_dockyard = 0 }
+        set_variable = { MOB_industrial_production_lack_of_resource_penalty_factor = 0 }
+        set_variable = { MOB_industrial_conversion_cost_civ_to_mil_factor = 0 }
+        set_variable = { MOB_industrial_industry_air_damage_factor = 0 }
+        set_variable = { MOB_industrial_resource_trade_cost_bonus_per_factory = 0 }
+        set_variable = { MOB_industrial_production_speed_buildings_factor = 0 }
+        set_variable = { MOB_industrial_research_speed_factor = 0 }
+        set_variable = { MOB_industrial_economy_cost_factor = 0 }
+        set_variable = { MOB_industrial_trade_laws_cost_factor = 0 }
+        set_variable = { MOB_recovering_economy_modifier_local_resources_factor = 0 }
+        set_variable = { MOB_industrial_production_factory_max_efficiency_factor = 0 }
+        set_variable = { MOB_industrial_production_factory_efficiency_gain_factor = 0 }
+        set_variable = { MOB_industrial_production_factory_start_efficiency_factor = 0 }
+        set_variable = { MOB_industrial_line_change_production_efficiency_factor = 0 }
+        set_variable = { MOB_industrial_equipment_conversion_speed = 0 }
+        set_variable = { MOB_industrial_consumer_goods_expected_value = 0 }
+        set_variable = { MOB_economic_crash_consumer_goods = 0.75 } 
+        add_dynamic_modifier = { modifier = MOB_mefo_bills_modifier }
 4636.1.1 = {
 	declare_war_on = {
 		target = NEW

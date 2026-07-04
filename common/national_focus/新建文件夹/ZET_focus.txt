@@ -1,0 +1,156 @@
+focus_tree = {
+	id = ZET_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ZET
+		}
+	}
+	default = no
+	focus = {
+		id = ZET_falanfuxin
+		icon = GFX_focus_ARG_keep_it_in_the_party
+		cost = 1
+		x = 6
+		y = 0
+	}
+	focus = {
+		id = ZET_Enhanceamily
+		icon = GFX_focus_ARG_strengthening_the_concordancia
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ZET_falanfuxin
+		}
+		relative_position_id = ZET_falanfuxin
+	}
+	focus = {
+		id = ZET_meetingonworkers
+		icon = GFX_focus_ETH_re-convene_the_parliament
+		cost = 10
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ZET_Enhanceamily
+		}
+		relative_position_id = ZET_Enhanceamily
+	}
+	focus = {
+		id = ZET_Workersstatus
+		icon = GFX_focus_PRC_bolshevik_urbanization_completed
+		cost = 1
+		x = -3
+		y = 1
+		prerequisite = {
+			focus = ZET_meetingonworkers
+		}
+		relative_position_id = ZET_meetingonworkers
+	}
+	focus = {
+		id = ZET_Enhancingworkers
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ZET_Workersstatus
+		}
+		relative_position_id = ZET_Workersstatus
+	}
+	focus = {
+		id = ZET_Allowingworkers
+		icon = GFX_focus_AUS_union_of_danubian_socialist_republics
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ZET_Enhancingworkers
+		}
+		relative_position_id = ZET_Enhancingworkers
+	}
+	focus = {
+		id = ZET_WorkersInterests
+		icon = GFX_focus_focus_fra_revolution_upmost
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ZET_meetingonworkers
+		}
+		relative_position_id = ZET_meetingonworkers
+	}
+	focus = {
+		id = ZET_Enactagroup
+		icon = GFX_focus_generic_improve_the_administration
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ZET_WorkersInterests
+		}
+		relative_position_id = ZET_WorkersInterests
+	}
+	focus = {
+		id = ZET_ExpandWelfare
+		icon = GFX_focus_NORDIC_com_capstone_army
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ZET_Enactagroup
+		}
+		relative_position_id = ZET_Enactagroup
+	}
+	focus = {
+		id = ZET_WorkerWisdom
+		icon = GFX_focus_PRC_rally_the_women
+		cost = 1
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = ZET_meetingonworkers
+		}
+		relative_position_id = ZET_meetingonworkers
+	}
+	focus = {
+		id = ZET_Recruitskilled
+		icon = GFX_focus_BRA_rubber_war
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ZET_WorkerWisdom
+		}
+		relative_position_id = ZET_WorkerWisdom
+	}
+	focus = {
+		id = ZET_EstablishSchool
+		icon = GFX_focus_generic_education
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ZET_Recruitskilled
+		}
+		relative_position_id = ZET_Recruitskilled
+	}
+	focus = {
+		id = ZET_Ryshimogawa
+		icon = GFX_focus_PER_embrace_opulence
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ZET_Allowingworkers
+		}
+		prerequisite = {
+			focus = ZET_ExpandWelfare
+		}
+		prerequisite = {
+			focus = ZET_EstablishSchool
+		}
+		relative_position_id = ZET_ExpandWelfare
+	}
+}

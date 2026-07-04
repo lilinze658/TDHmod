@@ -1,0 +1,23 @@
+defined_text = {
+	name = GetCGLevelText
+	text = {
+		trigger = {
+			OR = {
+				has_dynamic_modifier = { modifier = MOB_mefo_bills_modifier }
+				has_dynamic_modifier = { modifier = MOB_economy_of_conquest_modifier }
+			}
+			check_variable = { var = MOB_industrial_consumer_goods_factor value = 1 compare = greater_than_or_equals }
+		}
+		localization_key = MOB_max_CG_tt
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_dynamic_modifier = { modifier = MOB_mefo_bills_modifier }
+				has_dynamic_modifier = { modifier = MOB_economy_of_conquest_modifier }
+			}
+			check_variable = { MOB_industrial_consumer_goods_factor < 1 }
+		}
+		localization_key = MOB_increasing_cg_tt 
+	}
+}
