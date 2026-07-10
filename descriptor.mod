@@ -20,6 +20,6 @@ tags={
 	"Map"
 }
 picture="Thumbnail.png"
-name="荒凉的希望"
-supported_version="1.19*"
+name="荒凉的希望1.19源文件"
+supported_version="1.19.*"
 remote_file_id="2832043727"

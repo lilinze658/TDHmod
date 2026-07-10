@@ -59,8 +59,17 @@ set_technology = {
 	sonar = 1
 	basic_cruiser_armor_scheme = 1
 }
-set_research_slots = 5
+
+set_research_slots = 3
 set_convoys = 20
+
+
+set_power_balance = {
+		id = HAS_race_bop
+		set_default = yes
+	}
+
+
 oob = "HAS-4633"
 add_ideas = { 
     pony_tian
@@ -76,9 +85,10 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 100
-	fascism = 0
+	democratic = 80
+	fascism = 20
 	communism = 0
 	neutrality = 0
 }

@@ -1,0 +1,112 @@
+
+HAS_race_bop = {
+	initial_value = -0.5
+	left_side = HAS_bop_celestial	
+	right_side = HAS_bop_human
+	decision_category = HAS_balance_of_power
+
+
+	### Centerist 
+	range = {
+		id = HAS_bop_equality
+		min = -0.25
+		max = 0.25
+		modifier = {
+			 stability_factor = 0.15
+			 production_speed_buildings_factor = 0.1 
+		}
+		on_activate = {
+			
+		}
+		on_deactivate = {
+
+		}
+	}
+
+	### Social-Democrat - Communist Side 								天翼
+	side = {
+		id = HAS_bop_celestial	
+		icon = GFX_bop_ETH_communist_side
+		range = {
+			id = HAS_bop_celestial_leaning_tier_2
+			min = -1
+			max = -0.7
+			modifier = {
+				recruitable_population_factor = -0.15 # 适役人口 -15%
+				political_power_factor = 0.20 # 政治点数获取 +20%
+				special_forces_attack_factor = 0.20 # 特种部队攻击力 +20%
+				modifier_army_sub_unit_category_special_forces_leg_infantry_speed_factor = 0.20
+				special_forces_cap = 0.25 # 特种部队容量上限乘数 +25%
+				stability_factor = -0.10 # 稳定度 -10% (人类暴动边缘)
+			}
+			on_activate = {
+			
+			}
+			on_deactivate = {
+			
+			}
+
+		}
+		range = {
+			id = HAS_bop_celestial_leaning_tier_1
+			min = -0.7
+			max = -0.25
+			modifier = {
+				recruitable_population_factor = -0.10 # 适役人口 -10%
+				political_power_factor = 0.05 # 政治点数获取 +5%
+				special_forces_attack_factor = 0.10 # 特种部队攻击力 +10%
+				modifier_army_sub_unit_category_special_forces_leg_infantry_speed_factor = 0.10
+			}
+			on_activate = {
+				
+			}
+			on_deactivate = {
+			
+			}
+
+		}
+	}
+
+	# Conservative - National Socialist                                  人类
+	side = {
+		id = HAS_bop_human
+		icon = GFX_bop_ETH_anarchist_side
+		range = {
+			id = HAS_bop_celestial_leaning_tier_1
+			min = 0.25
+			max = 0.7
+			modifier = {
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_infrastructure_factor = -0.05
+				consumer_goods_factor = -0.025
+				production_speed_arms_factory_factor = 0.05
+			}
+			on_activate = {
+				
+			}
+			on_deactivate = {
+			
+			}
+
+		}
+		range = {
+			id = HAS_bop_celestial_leaning_tier_2
+			min = 0.7
+			max = 1
+			modifier = {
+				recruitable_population_factor = 0.30 # 适役人口 +30%
+				industrial_capacity_factory = 0.10 # 军用工厂产出 +10%
+				industrial_capacity_dockyard = 0.10 # 海军船厂产出 +10%
+				political_power_factor = -0.20 # 政治点数获取 -20%
+			}
+			on_activate = {
+			
+			}
+			on_deactivate = {
+			
+			}
+
+		}
+	}
+}
+

@@ -887,5 +887,44 @@ ideas = {
 				}
    			}
 		}
+
+		# 避世隔离法案
+		secluded_isolation = {
+
+			allowed = {
+				always = no
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
+
+			allowed_to_remove = {
+					has_war_support > 0.5
+					has_war = yes
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				min_export = 0 # 类似封闭经济，没有资源出口
+				industrial_capacity_factory = -0.15 # 减少15%工厂产出
+				industrial_capacity_dockyard = -0.15 # 减少15%船厂产出
+				research_speed_factor = -0.15 # 减少15%科研速度
+				civilian_intel_to_others = -30.0         # 敌国极难获取你的民用情报（黑箱状态）
+				army_intel_to_others = -30.0             # 敌国极难获取你的陆军情报
+				navy_intel_to_others = -30.0             # 敌国极难获取你的海军情报
+				air_force_intel_to_others = -30.0        # 敌国极难获取你的空军情报
+				trade_opinion_factor = -0.50             # -50%贸易意见（别的国家根本不想，也很难和你做生意）
+				ai_badass_factor = 0.50
+				ai_get_ally_desire_factor = -1000.0 
+				ai_join_ally_desire_factor = -1000.0 
+				ai_focus_peaceful_factor = 0.5 
+			}
+
+			cancel_if_invalid = no
+		}		
 	}
 }
