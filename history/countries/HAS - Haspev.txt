@@ -63,20 +63,23 @@ set_technology = {
 set_research_slots = 3
 set_convoys = 20
 
-
 set_power_balance = {
 		id = HAS_race_bop
 		set_default = yes
 	}
-
+country_lock_all_division_template = yes
 
 oob = "HAS-4633"
 add_ideas = { 
-    pony_tian
-    industrial_2
-    whuiu_3
-    weay_3
-    gyea_1
+    #pony_tian
+    #industrial_2
+    #whuiu_3
+    #weay_3
+    #gyea_1
+	HAS_loose_army_1
+	HAS_threat_of_magical_girls
+	HAS_ideological_divergence
+	secluded_isolation
 }
 
 set_politics = {
@@ -93,8 +96,8 @@ set_popularities = {
 	neutrality = 0
 }
 
-recruit_character = HAS_ajiliya
-recruit_character = HAS_ailuoyi
+recruit_character = HAS_agilia
+recruit_character = HAS_aloy
 
 add_equipment_to_stockpile = {
 	type = light_tank_destroyer_chassis_1

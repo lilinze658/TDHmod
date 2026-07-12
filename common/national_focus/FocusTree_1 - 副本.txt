@@ -1,0 +1,178 @@
+focus_tree = {
+	id = HAS_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HAS
+		}
+	}
+	default = no
+
+	focus = {
+		id = HAS_start
+		icon = GFX_goal_generic_position_armies
+		cost = 2.00
+		x = 9
+		y = 0
+			ai_will_do = {
+					factor = 200
+				}
+			available = {
+
+				}
+
+			completion_reward = {
+					add_political_power = 50
+				}
+
+	}
+
+	focus = {
+		id = HAS_agilias_temporary_regency
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = HAS_start
+		}
+		x = 5
+		y = 1
+			ai_will_do = {
+					factor = 200
+				}
+			completion_reward = {
+			# 为阿吉莉雅添加“民主”政党领袖身份，并强制其上台
+			add_country_leader_role = {
+				character = HAS_agilia # 确保你在角色文件里的ID是这个
+				promote_leader = yes   # 强制她成为党派领袖
+				country_leader = {
+					ideology = socialism
+					traits = { has_leader_agilia_start } # 赋予疲惫的摄政特质
+				}
+		}
+
+	}
+	}
+	focus = {
+		id = HAS_end_long_vacation
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = HAS_agilias_temporary_regency }
+		x = 4
+		y = 2
+		cost = 10
+		
+		completion_reward = {
+			# 替换理念，减轻惩罚
+			swap_ideas = {
+				remove_idea = HAS_loose_army_1
+				add_idea = HAS_loose_army_2
+			}
+			add_ideas = HAS_saints_further_study
+			add_command_power = 20
+		}
+	}
+	
+
+
+	focus = {
+		id = HAS_scavenge_the_ruins
+		icon = GFX_goal_generic_excavate
+		x = 6
+		y = 2
+		cost = 5
+
+		available = {
+			679 = {
+				is_owned_and_controlled_by = ROOT
+			}
+		}		
+
+		completion_reward = {
+			##灵魂炉火
+			679 = {
+				add_resource = { type = chromium amount = 10 }
+				add_resource = { type = yuehua amount = 5 } # 假设你定义了“月华”资源
+				add_extra_state_shared_building_slots = 2
+			}
+			set_country_flag = HAS_can_scavenge_ruins # 解锁决议的Flag
+			add_equipment_to_stockpile = { type = magic_infantry_equipment_1 amount = 80 } # 假设的魔导装备ID
+			custom_effect_tooltip = HAS_scavenge_the_ruins_tt
+		}
+	}
+
+	focus = {
+		id = HAS_open_old_empire_armory
+		icon = GFX_goal_generic_excavate
+		x = 6
+		y = 3
+		cost = 5
+
+		available = {
+
+		}		
+
+		completion_reward = {
+			set_country_flag = HAS_can_scavenge_ruins # 解锁决议的Flag
+			add_equipment_to_stockpile = { type = magic_infantry_equipment_1 amount = 80 } # 假设的魔导装备ID
+			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1500 }
+			# 强制修改模板
+			add_units_to_division_template = {
+				template_name = "哈斯佩芙护乡营" # 确保模板名字与游戏内完全一致
+				regiments = {
+					militia = 0 # 在第一列(x=0)最下方添加一个民兵营
+				}
+				regimental_support = {
+					magic_support = 0 # 假设你定义了名为 magitech_support 的魔导重武器支援连
+				}
+			}
+		}
+		}
+	
+	# 国策 3：圣女的战地医疗团
+	focus = {
+		id = HAS_saints_field_medics
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = {  }
+		x = 4
+		y = 3
+		cost = 10
+		
+		completion_reward = {
+			# 注意：给“所有”编制添加支援连很容易导致那些不需要医院的守备师也被迫装备，从而造成装备巨大缺口。
+			# 建议依然只给主力部队添加，或者给全局伤兵返还Buff。这里我折中一下，给主力模板加，同时给全局Buff。
+			
+			add_units_to_division_template = {
+				template_name = "哈斯佩芙护乡营"
+				support = {
+					field_hospital = 0 
+				}
+			}
+			add_units_to_division_template = {
+				template_name = "哈斯佩芙迅猎兵"
+				support = {
+					field_hospital = 0 
+				}
+			}
+			# 全局人力返还 (Trickleback)
+			add_ideas = HAS_orphanage_medics_idea
+		}
+	}
+
+	focus = {
+		id = HAS_agilias_survival_guide
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = {  }
+		x = 5
+		y = 4
+		cost = 10
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = HAS_loose_army_2
+				add_idea = HAS_loose_army_3
+			}
+		}
+	}
+
+}
+
