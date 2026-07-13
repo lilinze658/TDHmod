@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 
 	focus = {
-		id = HAS_start
+		id = HAS_start_focus
 		icon = GFX_goal_generic_position_armies
 		cost = 2.00
 		x = 9
@@ -30,12 +30,13 @@ focus_tree = {
 
 	focus = {
 		id = HAS_agilias_temporary_regency
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_monarchy_2
+		relative_position_id = HAS_start_focus
 		cost = 10.00
 		prerequisite = {
 			focus = HAS_start
 		}
-		x = 5
+		x = -5
 		y = 1
 			ai_will_do = {
 					factor = 200
@@ -55,10 +56,11 @@ focus_tree = {
 	}
 	focus = {
 		id = HAS_end_long_vacation
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_AUS_bring_generals_out_of_retirement
+		relative_position_id = HAS_agilias_temporary_regency
 		prerequisite = { focus = HAS_agilias_temporary_regency }
-		x = 4
-		y = 2
+		x = -1
+		y = 1
 		cost = 10
 		
 		completion_reward = {
@@ -76,9 +78,10 @@ focus_tree = {
 
 	focus = {
 		id = HAS_scavenge_the_ruins
-		icon = GFX_goal_generic_excavate
-		x = 6
-		y = 2
+		icon = GFX_focus_generic_annex_country
+		relative_position_id = HAS_agilias_temporary_regency
+		x = 1
+		y = 1
 		cost = 5
 
 		available = {
@@ -91,20 +94,21 @@ focus_tree = {
 			##灵魂炉火
 			679 = {
 				add_resource = { type = chromium amount = 10 }
-				add_resource = { type = yuehua amount = 5 } # 假设你定义了“月华”资源
+				add_resource = { type = yuehua amount = 5 }
 				add_extra_state_shared_building_slots = 2
 			}
 			set_country_flag = HAS_can_scavenge_ruins # 解锁决议的Flag
-			add_equipment_to_stockpile = { type = magic_infantry_equipment_1 amount = 80 } # 假设的魔导装备ID
+			add_equipment_to_stockpile = { type = magic_infantry_equipment_1 amount = 80 } 
 			custom_effect_tooltip = HAS_scavenge_the_ruins_tt
 		}
 	}
 
 	focus = {
 		id = HAS_open_old_empire_armory
-		icon = GFX_goal_generic_excavate
-		x = 6
-		y = 3
+		icon = GFX_focus_focus_fra_maquis
+		relative_position_id = HAS_agilias_temporary_regency
+		x = 1
+		y = 2
 		cost = 5
 
 		available = {
@@ -131,16 +135,14 @@ focus_tree = {
 	# 国策 3：圣女的战地医疗团
 	focus = {
 		id = HAS_saints_field_medics
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_focus_SWI_new_eidgenossenschaft
+		relative_position_id = HAS_agilias_temporary_regency
 		prerequisite = {  }
-		x = 4
-		y = 3
+		x = -1
+		y = 2
 		cost = 10
 		
-		completion_reward = {
-			# 注意：给“所有”编制添加支援连很容易导致那些不需要医院的守备师也被迫装备，从而造成装备巨大缺口。
-			# 建议依然只给主力部队添加，或者给全局伤兵返还Buff。这里我折中一下，给主力模板加，同时给全局Buff。
-			
+		completion_reward = {			
 			add_units_to_division_template = {
 				template_name = "哈斯佩芙护乡营"
 				support = {
@@ -153,17 +155,18 @@ focus_tree = {
 					field_hospital = 0 
 				}
 			}
-			# 全局人力返还 (Trickleback)
+			# 全局人力返还
 			add_ideas = HAS_orphanage_medics_idea
 		}
 	}
 
 	focus = {
 		id = HAS_agilias_survival_guide
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_goal_generic_defence
+		relative_position_id = HAS_agilias_temporary_regency
 		prerequisite = {  }
-		x = 5
-		y = 4
+		x = 0
+		y = 3
 		cost = 10
 		
 		completion_reward = {
@@ -171,6 +174,67 @@ focus_tree = {
 				remove_idea = HAS_loose_army_2
 				add_idea = HAS_loose_army_3
 			}
+			add_units_to_division_template = {
+				template_name = "哈斯佩芙护乡营"
+				support = {
+					engineer = 0 
+				}
+			}
+		}
+	}
+	focus = {
+		id = HAS_saint_train
+		icon = GFX_focus_generic_military_academy
+		prerequisite = {  }
+		x = 9
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+				##添加理念减少5%稳定和10%消费品系数，增加6钢铁和2铝GFX_goal_generic_national_unity
+			
+		}
+	}
+
+	focus = {
+		id = HAS_saint_train11
+		icon = GFX_focus_generic_military_academy
+		relative_position_id = HAS_saint_train
+		prerequisite = {  }
+		x = -2
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+				##添加理念减少5%稳定和10%消费品系数，增加6钢铁和2铝GFX_goal_generic_national_unity
+			
+		}
+	}
+
+	focus = {
+		id = HAS_border_smuggling_trade
+		icon = GFX_goal_generic_trade
+		prerequisite = {  }
+		x = 12
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+				##添加理念减少5%稳定和10%消费品系数，增加6钢铁和2铝
+			
+		}
+	}
+
+	focus = {
+		id = HAS_sell_old_empire_relics
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = {  }
+		x = 15
+		y = 2
+		cost = 10
+		
+		completion_reward = {
+				##添加2年的-5%消费品（不是系数）和15%科研速度
 		}
 	}
 

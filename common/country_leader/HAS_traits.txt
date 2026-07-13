@@ -66,7 +66,7 @@ leader_traits = {
 		}
 	}
 
-	mag_leader_agilia_end = {           #避风港的执剑者
+	has_leader_agilia_end = {           #避风港的执剑者
 		random = no
 		sprite = 1
 		stability_factor = 0.10 # 稳定度 +10%
@@ -77,16 +77,135 @@ leader_traits = {
 		}
 	}
 
-	mag_leader_agilia_b2 = {           #法军之母
+	has_leader_aloy_a1 = {
+		random = no
+		sprite = 1
+		modifier = {
+			research_speed_factor = 0.05 # 科研速度 +5%
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	# 阶段二：法兰遗卷的解读人
+	has_leader_aloy_a2 = {
+		random = no
+		sprite = 1
+		modifier = {
+			research_speed_factor = 0.10 # 科研速度 +10%
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	# 阶段三：洞悉时代的智者
+	has_leader_aloy_a3 = {
+		random = no
+		sprite = 1
+		modifier = {
+			research_speed_factor = 0.15 # 科研速度 +15%
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	### ================= 2. 行政与后勤进修 (sprite = 2) ================= ###
+
+	# 阶段一：赈灾帐篷里的学徒
+	has_leader_aloy_b1 = {
 		random = no
 		sprite = 2
-		special_forces_training_time_factor = -0.4
-		special_forces_min = 72
-
-
-		ai_will_do = {
-			factor = 1
+		modifier = {
+			political_power_factor = 0.05 # 政治点数 +5%
+			supply_consumption_factor = -0.05 # 补给消耗 -5%
 		}
+		ai_will_do = { factor = 1 }
+	}
+
+	# 阶段二：避风港的后勤官
+	has_leader_aloy_b2 = {
+		random = no
+		sprite = 2
+		modifier = {
+			political_power_factor = 0.10 # 政治点数 +10%
+			supply_consumption_factor = -0.10 # 补给消耗 -10%
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	# 阶段三：抚平苦难的圣座
+	has_leader_aloy_b3 = {
+		random = no
+		sprite = 2
+		modifier = {
+			political_power_factor = 0.15 # 政治点数 +15%
+			supply_consumption_factor = -0.15 # 补给消耗 -15%
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	### ================= 3. 军事事务进修 (sprite = 3) ================= ###
+
+	# 阶段一：沙盘前的祈祷者
+	has_leader_aloy_c1 = {
+		random = no
+		sprite = 3
+		modifier = {
+			army_attack_factor = 0.02 # 陆军攻击 +2%
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	# 阶段二：铁血与慈悲的权衡者
+	has_leader_aloy_c2 = {
+		random = no
+		sprite = 3
+		modifier = {
+			army_attack_factor = 0.05 # 陆军攻击 +5%
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	# 阶段三：指引胜利的白翼
+	has_leader_aloy_c3 = {
+		random = no
+		sprite = 3
+		modifier = {
+			army_attack_factor = 0.10 # 陆军攻击 +10%
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	### ================= 4. 工业与发展进修 (sprite = 4) ================= ###
+
+	# 阶段一：初见轰鸣的圣女
+	has_leader_aloy_d1 = {
+		random = no
+		sprite = 4
+		modifier = {
+			industrial_capacity_factory = 0.05 # 工厂产出 +5%
+			production_speed_buildings_factor = 0.05 # 建造速度 +5%
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	# 阶段二：复苏工坊的监工
+	has_leader_aloy_d2 = {
+		random = no
+		sprite = 4
+		modifier = {
+			industrial_capacity_factory = 0.10 # 工厂产出 +10%
+			production_speed_buildings_factor = 0.10 # 建造速度 +10%
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	# 阶段三：奇迹熔炉的缔造者
+	has_leader_aloy_d3 = {
+		random = no
+		sprite = 4
+		modifier = {
+			industrial_capacity_factory = 0.15 # 工厂产出 +15%
+			production_speed_buildings_factor = 0.15 # 建造速度 +15%
+		}
+		ai_will_do = { factor = 1 }
 	}
 
 
