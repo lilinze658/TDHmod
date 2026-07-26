@@ -1,0 +1,147 @@
+ideas = {
+	
+
+	country = {
+		
+		# 1. 松散的军队
+		HAS_loose_army_1 = {
+			picture = generic_army_problems
+			
+			modifier = {
+				army_attack_factor = -0.20 # 陆军攻击 -20% (新增)
+				army_defence_factor = -0.20 # 陆军防御 -20% (新增)
+				army_org_factor = -0.20 # 陆军组织度 -20%
+				mobilization_speed = -0.25 # 动员速度 -25%
+				max_planning_factor = -0.30 # 最大计划值 -30%
+				planning_speed = -0.30 # 计划速度 -30%
+				army_speed_factor = -0.10 # 陆军速度 -10%	
+			}
+		}
+
+		HAS_loose_army_2 = {
+			picture = generic_army_problems
+			
+			modifier = {
+				army_attack_factor = -0.20 # 陆军攻击 -20% (新增)
+				army_defence_factor = -0.20 # 陆军防御 -20% (新增)
+				army_org_factor = -0.20 # 陆军组织度 -20%
+				mobilization_speed = -0.25 # 动员速度 -25%
+				army_speed_factor = -0.10 # 陆军速度 -10%
+			}
+		}
+
+		HAS_loose_army_3 = {
+			picture = generic_army_problems
+			
+			modifier = {
+				army_attack_factor = -0.20
+				army_org_factor = -0.10 # 陆军组织度 -10%
+				mobilization_speed = -0.25 # 动员速度 -25%
+				army_speed_factor = -0.10 # 陆军速度 -10%
+			}
+		}
+
+		# 2. 魔法少女的威胁
+		HAS_threat_of_magical_girls = {
+			picture = generic_intelligence_gathering # 建议美工画一把悬在头顶的魔杖
+			
+			modifier = {
+				surrender_limit = -0.20 # 投降界限 -20% (更容易被打崩)
+				stability_factor = -0.10 # 稳定度 -10%
+				production_speed_bunker_factor = 0.20 # 要塞建造速度 +20%
+				production_speedcoastal_bunker_factor = 0.20
+				production_speed_anti_air_building_factor = 0.20 # 防空炮建造速度 +20%
+			}
+			
+			# 针对魔法少女同盟 (MAG) 的专属 Debuff
+			targeted_modifier = {
+				tag = MAG
+				attack_bonus_against = -0.20 # 对MAG攻击 -20%
+				defense_bonus_against = -0.20 # 对MAG防御 -20%
+			}
+		}
+
+		# 3. 理念分歧：和翼神教国
+		HAS_ideological_divergence = {
+			picture = generic_democratic_drift_bonus # 建议美工画两根碰撞的羽毛
+			
+			modifier = {
+				political_power_gain = -0.15 # 每日政治点数 -0.15
+				drift_defence_factor = 0.25 # 意识形态变化防御 +25%
+			}
+			# 外交评价-50
+		}
+
+		HAS_saints_further_study = {
+			picture = generic_intel_bonus
+			modifier = {
+				political_power_gain = -0.10 # 每日政治点 -0.1
+			}
+		}
+
+
+		HAS_orphanage_medics_idea = {
+			picture = generic_manpower_bonus
+			modifier = {
+				casualty_trickleback = 0.10 # 伤亡返还 +10%
+				experience_loss_factor = -0.10 # 经验损失 -10% (因为有医院救人)
+			}
+		}
+
+		# 黑市
+		HAS_border_smuggling = {
+			picture = generic_economic_treaty
+			modifier = {
+				min_export = 0.1 # 资源流向市场 +10%
+				consumer_goods_factor = -0.05 #
+				stability_factor = -0.05
+			}
+		}
+
+		# 加安斯农业出口配额
+		HAS_gaans_agri_quota = {
+			picture = generic_trade_bonus
+			modifier = {
+				min_export = 0.05 # 资源流向市场 +5%
+				consumer_goods_expected_value = 0.05 # 消费品预期值 +5%
+			}
+			targeted_modifier = {
+				tag = REP
+				extra_trade_to_target_factor = 0.05
+				trade_cost_for_target_factor = -0.25 # 贸易成本 -25%
+			}
+		}
+
+		# 机械化大丰收
+		HAS_mechanized_harvest = {
+			picture = generic_agriculture
+			modifier = {
+				monthly_population = 0.10 # 人口增长率 +10%
+				recruitable_population_factor = 0.02 # 适役人口系数 +2%
+			}
+		}
+
+		# 加安斯互惠同盟
+		HAS_gaans_mutual_pact = {
+			picture = generic_economic_treaty
+			modifier = {
+				min_export = 0.05 # 资源流向市场 +5%
+				production_speed_industrial_complex_factor = 0.15 # 民用工厂建造速度 +15%
+				consumer_goods_factor = -0.05 # 消费品需求 -5% (互惠同盟带来了大量廉价商品)
+			}
+		}
+
+		# 4. 孩子们的避风港 (后续国策解锁)
+		HAS_childrens_haven = {
+			picture = generic_volunteer_expedition_bonus # 建议美工画天使翅膀保护小孩
+			
+			modifier = {
+				stability_factor = 0.20 # 稳定度 +20%
+				monthly_population = 0.15 # 每月人口增长 +15%
+				consumer_goods_factor = 0.10 # 消费品需求 +10% (维持高福利的代价)
+				compliance_growth = 0.5
+			}
+		}
+		
+	}
+}

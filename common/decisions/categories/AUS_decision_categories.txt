@@ -1,0 +1,29 @@
+HAS_saint_study_category = { 
+	priority = 100
+	icon = GFX_decision_category_generic_crisis
+
+	visible_when_empty = yes	
+	
+	allowed = {
+		original_tag = HAS
+	}
+
+	visible = {
+		has_country_flag = has_saint_could_study
+	}
+}
+
+HAS_mercenary_contracts_category = { 
+	priority = 10
+	icon = GFX_decision_category_generic_crisis
+
+	visible_when_empty = yes	
+	
+	allowed = {
+		original_tag = HAS
+	}
+
+	visible = {
+		has_country_flag = HAS_can_hire_neidran_mercs
+	}
+}

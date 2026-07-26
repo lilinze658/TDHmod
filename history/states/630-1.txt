@@ -1,6 +1,7 @@
 state={
 	id=630
 	name="STATE_630"
+	state_category = large_city#尼吉尔被加强了
 	history={
 		owner = HAS
 		victory_points = {
@@ -8,9 +9,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 4
-			arms_factory = 2
-			dockyard = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 5
 
 		}
 		add_core_of = HAS

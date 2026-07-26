@@ -1,7 +1,7 @@
 ﻿characters={ 
 
-	HAS_ailuoyi={
-		name= ailuoyi
+	HAS_aloy={
+		name= aloy
 		portraits={
 			civilian={
 				large="gfx/leaders/HAS/爱洛依.png"
@@ -14,7 +14,7 @@
 		}
 		country_leader={
 			desc = "HAS_ailuoyi_APDF_DES"
-			traits = {  }
+			traits = { has_leader_aloy_start }
 			ideology= socialism 
 			expire="4999.1.1.1"
 			id=-1
@@ -32,7 +32,7 @@
 		}
 	}
 
-	HAS_ajiliya={
+	HAS_agilia={
 		name= ajiliya
 		portraits={
 			civilian={
@@ -49,11 +49,11 @@
 			desc = "HAS_ajiliya_APDF_DES"
 			legacy_id = 61
 			traits = { infantry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
 			planning_skill = 2
-			logistics_skill = 2
+			logistics_skill = 5
 		}
 	}
 }	

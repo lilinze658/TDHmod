@@ -1,0 +1,9 @@
+HAS_neidran_merc_contract = {
+	icon = GFX_focus_ETH_keep_the_chitet
+	enable = {  
+		always = yes
+	}
+	
+	civilian_factory_use = HAS_neidran_merc_cost
+
+}

@@ -1,6 +1,10 @@
 state={
 	id=684
 	name="STATE_684"
+	state_category = town
+	resources = {
+
+	}
 	history={
 		owner = HAS
 		victory_points = {

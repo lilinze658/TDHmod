@@ -215,7 +215,68 @@ sub_units = {
 
 
 
-	magic_support = {                    #independent recon           游骑兵魔改，魔法少女
+	magic_support = {                    #independent recon           游骑兵魔改，魔法少女（冲刺，冲，冲！）
+		abbreviation = "RAN"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		allowed_battalion_groups = { infantry mobile combat_support mobile_combat_support armor armor_combat_support }
+
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+			category_magic
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 0.4
+		max_organisation = 20
+		default_morale = 0.2
+		manpower = 100
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.06
+		recon = 0.2
+		can_be_parachuted = yes
+
+		# Support nerfs to combat abilities
+		defense = -0.25
+		breakthrough = -0.25
+		soft_attack = -0.5
+		hard_attack = -0.5
+		air_attack = -0.5
+
+		essential = {
+			magic_infantry_equipment
+			support_equipment
+		}
+
+		need = {
+			magic_infantry_equipment = 10
+			support_equipment = 5
+		}
+		
+	}
+
+
+
+
+	magic_recon = {                    #independent recon           游骑兵魔改，魔法少女（冲刺，冲，冲！）
 		abbreviation = "RAN"
 		sprite = infantry
 		map_icon_category = infantry

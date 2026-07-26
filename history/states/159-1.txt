@@ -1,6 +1,7 @@
 state={
 	id=159
 	name="STATE_159"
+	state_category = rural
 	history={
 		owner = HAS
 		victory_points = {
@@ -8,7 +9,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-            dockyard = 2
+            dockyard = 1
 			
 		}
 		add_core_of = HAS

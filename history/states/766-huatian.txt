@@ -1,13 +1,19 @@
 state={
 	id=766
 	name="STATE_766"
+	state_category = town
+	resources = {
+		steel=8
+	}
 	history={
 		owner = HAS
 		victory_points = {
 			
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
 		}
 		add_core_of = HAS
 		4635.10.25 = {

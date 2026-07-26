@@ -1,6 +1,7 @@
 state={
 	id=768
-	name="STATE_768"
+	name="STATE_768"#####或许这里是花园好一点
+	state_category = large_town
 	history={
 		owner = HAS
 		victory_points = {
@@ -8,7 +9,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-
+			industrial_complex = 1
 		}
 		add_core_of = HAS
 		4635.10.25 = {
@@ -23,5 +24,5 @@ state={
 	}
 	manpower=1420000
 	buildings_max_level_factor=1
-	local_supplies=0
+	local_supplies=0.1
 }

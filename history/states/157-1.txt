@@ -1,6 +1,12 @@
 state={
 	id=157
 	name="STATE_157"
+	state_category = megalopolis
+	resources = {
+		steel=28
+		oil=4
+		coal=28
+	}
 	history={
 		owner = HAS
 		victory_points = {
@@ -9,7 +15,7 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 4
-            darms_factory = 2
+            arms_factory = 3
 			
 		}
 		add_core_of = HAS

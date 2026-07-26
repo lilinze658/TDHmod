@@ -22,25 +22,6 @@
  unsc_infantry_equipment_4:0 "MA5D突击步枪+BR85战斗步枪"
  unsc_infantry_equipment_4_short:0 "MA5D突击步枪+BR85战斗步枪"
 
-##################上面别看，没用
- fal_fuguo:0 "复国热情"
-
-
- mag_resistance_1:0 "对哈斯佩芙地区的投资"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  magic_infantry_equipment:0 "单兵魔导装备"
@@ -201,3 +182,53 @@
  mag.54.t:0 "护国军的旗帜"
  mag.54.d:0 "奈尔嘉德的统治必须被终结"
  mag.54.a:0 "为了法兰的未来，前进！"
+
+
+
+ # 国策与解锁提示
+ HAS_saint_study_a: "翻阅古籍残卷"
+ HAS_saint_study_b: "旁听政务会议"
+ HAS_saint_study_c: "视察前线沙盘"
+ HAS_saint_study_d: "走访轰鸣工坊"
+ HAS_unlock_study_a_tt: "解锁决议：允许圣女进行 §Y学术与历史§! 进修。"
+ HAS_unlock_study_b_tt: "解锁决议：允许圣女进行 §Y行政与后勤§! 进修。"
+ HAS_unlock_study_c_tt: "解锁决议：允许圣女进行 §Y军事事务§! 进修。"
+ HAS_unlock_study_d_tt: "解锁决议：允许圣女进行 §Y工业与发展§! 进修。"
+
+ # 决议组
+ HAS_saint_study_category: "圣女爱洛依的进修日程"
+ HAS_saint_study_category_desc: "圣女殿下正在努力学习如何成为一名合格的国家领袖。你可以安排她深入钻研不同的领域。\n\n§H按照目前的学习进度，圣女在加冕之后将会获得以下特质：§!\n----------------------\n[GetAloyNoSkillsText][GetAloyTraitA][GetAloyTraitB][GetAloyTraitC][GetAloyTraitD]"
+ 
+ HAS_start_study_a: "进修：学术与历史"
+ HAS_start_study_b: "进修：行政与后勤"
+ HAS_start_study_c: "进修：军事事务"
+ HAS_start_study_d: "进修：工业与发展"
+ HAS_saint_is_studying_mission: "圣女正在闭关进修中..."
+
+ # 动态本地化文本 (严格还原游戏内绿色Buff格式)
+ text_aloy_none: "" # 没学就不显示
+ text_aloy_a1: "§Y旧日秘辛的倾听者§!\n科研速度：§G+5%§!\n\n"
+ text_aloy_a2: "§Y法兰遗卷的解读人§!\n科研速度：§G+10%§!\n\n"
+ text_aloy_a3: "§Y洞悉时代的智者§!\n科研速度：§G+15%§!\n\n"
+ text_aloy_b1: "§Y赈灾帐篷里的学徒§!\n政治点数获取：§G+5%§!\n补给消耗：§G-5%§!\n\n"
+ text_aloy_b2: "§Y避风港的后勤官§!\n政治点数获取：§G+10%§!\n补给消耗：§G-10%§!\n\n"
+ text_aloy_b3: "§Y抚平苦难的圣座§!\n政治点数获取：§G+15%§!\n补给消耗：§G-15%§!\n\n"
+ text_aloy_c1: "§Y沙盘前的祈祷者§!\n陆军攻击：§G+2%§!\n\n"
+ text_aloy_c2: "§Y铁血与慈悲的权衡者§!\n陆军攻击：§G+5%§!\n\n"
+ text_aloy_c3: "§Y指引胜利的白翼§!\n陆军攻击：§G+10%§!\n\n"
+ text_aloy_d1: "§Y初见轰鸣的圣女§!\n工厂产出：§G+5%§!\n建造速度：§G+5%§!\n\n"
+ text_aloy_d2: "§Y复苏工坊的监工§!\n工厂产出：§G+10%§!\n建造速度：§G+10%§!\n\n"
+ text_aloy_d3: "§Y奇迹熔炉的缔造者§!\n工厂产出：§G+15%§!\n建造速度：§G+15%§!\n\n"
+
+ # 事件
+ HAS_saint.1.t: "安排进修日程"
+ HAS_saint.1.desc: "爱洛依已经准备好翻开课本了。作为摄政，您打算为她投入多少资源？请注意，如果投入过少，她可能会用大把时间来摸鱼。"
+ HAS_saint.1.a: "本圣女是天才！（耗时120天，仅消耗10政治点）"
+ HAS_saint.1.b: "努力去学习（耗时60天，消耗30政治点与指挥点）"
+ HAS_saint.1.c: "尽全力去学习！（耗时30天，大量消耗点数）"
+ HAS_saint.1.d: "还是算了，今天先放假。"
+
+ HAS_saint.2.t: "课程结业"
+ HAS_saint.2.d: "经过一段时间的苦读，爱洛依合上了书本。她看起来比以前更加睿智和自信了。这门课程的结业，标志着她离成为一名杰出的圣女又近了一步。"
+ HAS_saint.2.a: "嘿嘿，本圣女厉害吧~"
+ text_aloy_has_no_skills_yet: "§8圣女目前还没有学会任何技能。§!"

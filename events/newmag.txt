@@ -1,0 +1,372 @@
+add_namespace = mag_mod
+
+
+country_event = {
+    id = mag.51
+    picture = GFX_
+    title = mag_shadow.1.t
+    desc = mag_shadow.1.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    hidden = no
+    option = { 
+        name = mag_shadow.1.a      
+    }
+}
+
+
+country_event = {
+    id = mag.52
+    picture = GFX_
+    title = mag_shadow.2.t
+    desc = mag_shadow.2.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    hidden = no
+    option = { 
+        name = mag_shadow.2.a      
+    }
+}
+
+
+country_event = {
+    id = mag.53 # 事件的唯一ID
+    title = "mag.53.t" # 事件标题的本地化key
+    desc = "mag.53.d" # 事件描述的本地化key
+    #picture = GFX_report_event_rebel_faction_formed
+
+    is_triggered_only = yes # 确保此事件只能被调用，不会随机触发
+
+
+    option = {
+        name = "mag.53.a" # 选项按钮的本地化key
+        
+
+        119 = {
+            add_core_of = SLI
+        }
+        765 = {
+            add_core_of = SLI
+        }        
+
+     SLI = {
+        set_state_controller = 119
+        set_state_controller = 765
+        set_state_owner = 119
+        set_state_owner = 765
+        inherit_technology = MAG
+        declare_war_on = {
+            target = MAG
+            type = annex_everything # 战争目标是完全吞并，适合内战
+        }
+    }    
+
+        add_war_support = -0.10
+        SLI = { change_tag_from = MAG }
+            SLI = {
+                country_event = { id = mag.54 hours = 1 }
+            }
+    }
+}
+
+
+
+country_event = {
+    id = mag.54
+    title = "mag.54.t" 
+    desc = "mag.54.d" 
+    #picture = GFX_report_event_rebel_faction_formed
+
+    is_triggered_only = yes # 确保此事件只能被调用，不会随机触发
+
+    option = {
+        ai_chance = {
+            factor = 100
+        }
+        name = "mag.54.a" # 选项按钮的本地化key
+        MAG_slience_0 = yes
+        # 在这里放入你希望 SLI 获得的所有效果
+        # 在这个事件里，作用域 ROOT (接收方) 和 FROM (发送方) 都指向 SLI
+        
+        # 示例1：增加政治点数
+        add_political_power = 150
+        
+        # 示例2：增加稳定度和战争支持度
+        add_stability = 0.10  # 增加 10% 稳定度
+        add_war_support = 0.10 # 增加 10% 战争支持度
+        
+        # 示例3：获得一个民族精神 (需要预先定义好)
+        # add_national_spirit = sli_special_spirit
+        
+        # 示例4：获得经验
+        add_army_experience = 50
+        add_navy_experience = 50
+        add_air_experience = 50
+
+
+            division_template = {
+                        name = "沉寂之影"
+                        priority = 1
+                        division_names_group = FAL_INF_01
+                        regiments = {
+                            magic_girl_guards_slience = { x = 0 y = 0 }
+                            magic_girl_guards_slience = { x = 0 y = 1 }
+                            magic_girl_guards_slience = { x = 0 y = 2 }
+                
+                            magic_girl_guards_slience = { x = 1 y = 0 }
+                            magic_girl_guards_slience = { x = 1 y = 1 }
+                            magic_girl_guards_slience = { x = 1 y = 2 }
+                
+                            magic_girl_guards_slience = { x = 2 y = 0 }
+                            magic_girl_guards_slience = { x = 3 y = 0 }
+                            magic_girl_guards_slience = { x = 3 y = 1 }
+                        }
+                        support = {
+                            engineer = { x = 0 y = 0 }
+                            magic_support = { x = 0 y = 1 }
+                        }
+                    }
+            division_template = {
+                name = "魔法少女自卫队"
+                division_names_group = FAL_MAG_01
+                regiments = { 
+                    infantry = { x = 0 y = 0 }
+                    infantry = { x = 0 y = 1 }
+                    infantry = { x = 0 y = 2 }
+                    infantry = { x = 1 y = 0 }
+                    infantry = { x = 1 y = 1 }
+                    infantry = { x = 1 y = 2 }
+                    artillery_brigade = { x = 2 y = 0 }
+                    artillery_brigade = { x = 2 y = 1 }
+                }
+                support = {
+                    engineer = { x = 0 y = 0}
+                    recon = { x = 0 y = 1 }
+                    magic_support = { x = 0 y = 2 }
+                }
+            }
+            division_template = {
+    name = "方舟骑士团"  
+    division_names_group = FAL_INF_01
+        regiments = { 
+            Magic_Girl_Guards = { x = 0 y = 0 }
+            Magic_Girl_Guards = { x = 0 y = 1 }
+            Magic_Girl_Guards = { x = 0 y = 2 }
+            Magic_Girl_Guards = { x = 1 y = 0 }
+            Magic_Girl_Guards = { x = 1 y = 1 }
+            Magic_Girl_Guards = { x = 1 y = 2 }
+            Magic_Girl_Guards = { x = 2 y = 0 }
+            Magic_Girl_Guards = { x = 2 y = 1 }
+            Magic_Girl_Guards = { x = 2 y = 2 }
+        }
+        support = {
+            engineer = { x = 0 y = 0 }
+            artillery = { x = 0 y = 1 }
+            magic_support = { x = 0 y = 2 }
+        }   
+}
+        # b. 在获得的省份生成一些初始部队
+        119 = {
+            create_unit = {
+                division = "name = \"沉寂之影先锋\" division_template = \"沉寂之影\" start_experience_factor = 1.0"
+                owner = SLI
+                count = 2 # 生成2个师团
+            }
+             create_unit = {
+                division = "name = \"共和派民兵\" division_template = \"魔法少女自卫队\" start_experience_factor = 0.4"
+                owner = SLI
+                count = 10 # 生成10个师团
+            }
+            create_unit = {
+                division = "name = \"方舟骑士团\" division_template = \"方舟骑士团\" start_experience_factor = 0.9"
+                owner = SLI
+                count = 2 # 生成2个师团
+            }
+        
+    }
+        
+        # 示例5：设置一个全局旗帜，用于后续事件判断
+        # set_global_flag = sli_has_completed_the_thing
+    }
+}
+
+
+news_event = {
+    id = mag.56
+
+    hidden = yes
+
+    major = yes
+    
+    is_triggered_only = yes
+    
+    immediate = {
+        if = {
+            limit = { ROOT   = { tag = SLI } }
+                165 = {
+                    create_unit = {
+                        division = "name = \"共和派骑士团\" division_template = \"方舟骑士团\" start_experience_factor = 0.9" # 建议改个名字以区分
+                        owner = SLI
+                        count = 2
+                }
+            }
+        }
+    }
+}
+
+news_event = {
+    id = mag.57
+    
+    # 关键1: 隐藏事件，不在前台显示，纯粹用于后台执行效果
+    hidden = yes
+    
+    # 关键2: 只能被脚本（国策、决议等）触发
+    is_triggered_only = yes
+    
+    # 关键3: 设置触发条件，让这个新闻的唯一“听众”是 SLI 自己
+    # 这样一来，下面的 immediate 效果块就会对 SLI 生效
+    trigger = {
+        tag = SLI
+    }
+    
+    # 当 SLI “收到”这个它自己发出的新闻时，立即执行以下效果
+    immediate = {
+        # 在这里放入你希望 SLI 获得的所有效果
+        # 在这个事件里，作用域 ROOT (接收方) 和 FROM (发送方) 都指向 SLI
+        
+        # 示例1：增加政治点数
+        add_political_power = 150
+        
+        # 示例2：增加稳定度和战争支持度
+        add_stability = 0.10  # 增加 10% 稳定度
+        add_war_support = 0.10 # 增加 10% 战争支持度
+        
+        # 示例3：获得一个民族精神 (需要预先定义好)
+        # add_national_spirit = sli_special_spirit
+        
+        # 示例4：获得经验
+        add_army_experience = 50
+        add_navy_experience = 50
+        add_air_experience = 50
+        division_template = {
+            name = "方舟骑士团"  
+            priority = 2
+            division_names_group = FAL_INF_01
+            regiments = { 
+                Magic_Girl_Guards = { x = 0 y = 0 }
+                Magic_Girl_Guards = { x = 0 y = 1 }
+                Magic_Girl_Guards = { x = 0 y = 2 }
+                Magic_Girl_Guards = { x = 1 y = 0 }
+                Magic_Girl_Guards = { x = 1 y = 1 }
+                Magic_Girl_Guards = { x = 1 y = 2 }
+                Magic_Girl_Guards = { x = 2 y = 0 }
+                Magic_Girl_Guards = { x = 2 y = 1 }
+                Magic_Girl_Guards = { x = 2 y = 2 }
+            }
+            support = {
+                engineer = { x = 0 y = 0 }
+                artillery = { x = 0 y = 1 }
+                magic_support = { x = 0 y = 2 }
+            }   
+        }
+
+        165 = {
+                    create_unit = {
+                        division = "name = \"共和派骑士团\" division_template = \"方舟骑士团\" start_experience_factor = 0.9" # 建议改个名字以区分
+                        owner = SLI
+                        count = 2
+                }
+            }
+        
+        # 示例5：设置一个全局旗帜，用于后续事件判断
+        # set_global_flag = sli_has_completed_the_thing
+    }
+}
+
+
+
+=
+
+
+
+
+
+
+
+
+        name = "mag.54.a" # 选项按钮的本地化key
+        
+        # --- 正确做法 1: 将 division_template 效果移动到 option 内部 ---
+        # 这会为当前国家（触发事件的国家，即SLI）添加这个模板
+        division_template = {
+            name = "方舟骑士团1"  
+            priority = 2
+            division_names_group = FAL_INF_01
+            regiments = { 
+                Magic_Girl_Guards = { x = 0 y = 0 }
+                Magic_Girl_Guards = { x = 0 y = 1 }
+                Magic_Girl_Guards = { x = 0 y = 2 }
+                Magic_Girl_Guards = { x = 1 y = 0 }
+                Magic_Girl_Guards = { x = 1 y = 1 }
+                Magic_Girl_Guards = { x = 1 y = 2 }
+                Magic_Girl_Guards = { x = 2 y = 0 }
+                Magic_Girl_Guards = { x = 2 y = 1 }
+                Magic_Girl_Guards = { x = 2 y = 2 }
+            }
+            support = {
+                engineer = { x = 0 y = 0 }
+                artillery = { x = 0 y = 1 }
+                magic_support = { x = 0 y = 2 }
+            }   
+        }
+        
+        # --- 正确做法 2: 将所有对省份165的操作合并到一个代码块中 ---
+        165 = {
+             # 创建10个民兵师团
+             create_unit = {
+                division = "name = \"共和派民兵\" division_template = \"魔法少女自卫队\" start_experience_factor = 0.4"
+                owner = SLI
+                count = 10
+            }
+            
+             # 创建10个使用新模板的方舟骑士团师团
+             create_unit = {
+                division = "name = \"共和派骑士团\" division_template = \"方舟骑士团1\" start_experience_factor = 0.9" # 建议改个名字以区分
+                owner = SLI
+                count = 10
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 新闻事件：布拉格协定成立
+# 这个事件没有选项，只是一个通知
+news_event = {
+    id = cze_mod.3
+    title = cze_mod.3.t
+    desc = cze_mod.3.d
+    picture = GFX_news_event_generic_treaty # 新闻图片
+    
+    is_triggered_only = yes
+    major = yes # 这是一个主要新闻
+    
+    on_show_scope = {
+        save_scope_as = event_scope
+    }
+    
+    # 事件效果
+    add_world_tension = 2.0
+}

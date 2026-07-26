@@ -1,0 +1,13 @@
+HAS_mechanized_harvest_state_buff = {
+	enable = { always = yes }
+	icon = GFX_modifiers_PRC_rural_development
+
+	state_production_speed_buildings_factor = 0.10 
+	# 该地块基础可用人口库 +30%(独立乘区) 
+	local_manpower = 0.30 
+	# 该地块的可征募人口比例 +20%（和理念里面的一样）
+	#recruitable_population_factor = 10.20 
+	# 让农庄更有存在感，稍微增加一点当地补给
+	local_supplies = 0.1
+	local_building_slots = 1 
+}
