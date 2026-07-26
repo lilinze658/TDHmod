@@ -208,6 +208,33 @@ leader_traits = {
 		ai_will_do = { factor = 1 }
 	}
 
+	# 避风港的执剑者
+	has_leader_super_ajilia_1 = {
+		random = no
+		sprite = 1
+		modifier = {
+			army_attack_against_major_factor = 0.5	
+			army_breakthrough_against_major_factor = 0.5
+			army_attack_speed_factor = 0.5
+			army_speed_factor = 0.5
+			army_morale_factor = 1.0
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	# 蔽日的真天使
+	has_leader_super_ajilia_2 = {
+		random = no
+		sprite = 2
+		modifier = {
+			cas_damage_reduction = 0.3	
+			air_superiority_bonus_in_combat = 1.0
+			army_attack_speed_factor = 0.5
+			air_agility_factor = 0.5
+			air_attack_factor = 0.5
+		}
+		ai_will_do = { factor = 1 }
+	}
 
 	warrior_code = {
 		random = no

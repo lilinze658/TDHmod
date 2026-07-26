@@ -1,6 +1,11 @@
 state={
 	id=685
 	name="STATE_685"
+	state_category = rural
+	resources = {
+		tungsten=28
+		oil=4
+	}
 	history={
 		owner = HAS
 		victory_points = {

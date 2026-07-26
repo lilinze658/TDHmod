@@ -1,15 +1,22 @@
 state={
 	id=679
 	name="STATE_679"
+	state_category = megalopolis
+	resources = {
+		steel=60
+		chromium=40
+		yuehua=60
+		coal=30
+	}
 	history={
 		owner = HAS
 		victory_points = {
 			
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 7
-			arms_factory = 2
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 4
 
 		}
 		add_core_of = HAS
@@ -25,5 +32,6 @@ state={
 	}
 	manpower=6410000
 	buildings_max_level_factor=1
-	local_supplies=0
+	local_supplies=4
+
 }

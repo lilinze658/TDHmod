@@ -30,13 +30,13 @@ focus_tree = {
 
 	focus = {
 		id = HAS_agilias_temporary_regency
-		icon = GFX_focus_generic_monarchy_2
+		icon = GFX_focus_CZE_bohemia_crown
 		relative_position_id = HAS_start_focus
 		cost = 10.00
 		prerequisite = {
 			focus = HAS_start
 		}
-		x = -5
+		x = -9
 		y = 1
 			ai_will_do = {
 					factor = 200
@@ -96,6 +96,7 @@ focus_tree = {
 				add_resource = { type = chromium amount = 10 }
 				add_resource = { type = yuehua amount = 5 }
 				add_extra_state_shared_building_slots = 2
+				add_state_modifier = HAS_mechanized_harvest_state_buff
 			}
 			set_country_flag = HAS_can_scavenge_ruins # 解锁决议的Flag
 			add_equipment_to_stockpile = { type = magic_infantry_equipment_1 amount = 80 } 
@@ -183,60 +184,987 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = HAS_saint_train
+		id = HAS_saint_study
 		icon = GFX_focus_generic_military_academy
+		relative_position_id = HAS_start_focus
 		prerequisite = {  }
-		x = 9
+		x = 0
 		y = 1
 		cost = 5
 		
 		completion_reward = {
-				##添加理念减少5%稳定和10%消费品系数，增加6钢铁和2铝GFX_goal_generic_national_unity
+				set_country_flag = has_saint_could_study
+				set_variable = { HAS_aloy_level_b = 0 }
+			
+		}
+	}
+
+
+	focus = {
+		id = ETH_promote_the_war_heroes
+		icon = GFX_focus_generic_combined_arms
+		prerequisite = { focus = ETH_expand_the_kebur_zabagna }
+		mutually_exclusive = { focus = ETH_expand_the_officer_corps focus = ETH_the_common_soldier }
+		dynamic = yes
+		x = 0
+		y = 8
+		relative_position_id = ETH_expand_the_kebur_zabagna
+		cost = 10
+		available = {
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 1.25
+				has_government = neutrality
+				has_completed_focus = ETH_boarding_the_train
+			}
+		}
+
+		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+
+		completion_reward = {
+			add_war_support = 0.1
+			add_stability = 0.1
+			every_army_leader = {
+				add_unit_leader_trait = ETH_hero_of_ethiopia
+			}
+		}
+	}
+	focus = {
+		id = ETH_expand_the_officer_corps
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = ETH_new_weapons_and_tactics focus = ETH_old_reliable }
+		mutually_exclusive = { focus = ETH_the_common_soldier focus = ETH_promote_the_war_heroes }
+		x = 1
+		y = 8
+		relative_position_id = ETH_new_weapons_and_tactics
+		cost = 10
+		available = {
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 1.25
+				has_government = neutrality
+				has_completed_focus = ETH_the_lion_stands_firm
+			}
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			custom_effect_tooltip = ETH_officer_promotion_boost_tt
+			add_doctrine_cost_reduction = {
+				name = ETH_tactical_training 
+				cost_reduction = 0.50
+				uses = 2 
+				category = land_doctrine
+			}
+			custom_effect_tooltip = ETH_medal_gain_tt
+			multiply_variable = { ETH.ETH_medal_xp_gain = 1.75 }
+		}
+	}
+	focus = {
+		id = ETH_the_common_soldier
+		 icon = GFX_focus_PRC_controlled_growth
+		prerequisite = { focus = ETH_old_reliable focus = ETH_new_weapons_and_tactics }
+		mutually_exclusive = { focus = ETH_promote_the_war_heroes focus = ETH_expand_the_officer_corps }
+		x = 2
+		y = 8
+		relative_position_id = ETH_old_reliable
+		cost = 10
+		available = {
+			NOT = { has_government = fascism}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 2
+				has_government = communism
+			}
+		}
+
+		search_filters = {FOCUS_FILTER_MANPOWER}
+
+		completion_reward = {
+			add_ideas = ETH_the_common_soldier_idea
+		}
+	}
+
+
+
+
+
+#####################
+#####################
+	focus = {
+		id = HAS_saint_study_a
+		icon = GFX_focus_research
+		relative_position_id = HAS_saint_study
+		prerequisite = {  }
+		x = -3
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+				
+		}
+	}
+
+	focus = {
+		id = HAS_saint_study_b
+		icon = GFX_goal_generic_neutrality_focus
+		relative_position_id = HAS_saint_study
+		prerequisite = {  }
+		x = -1
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+				
+			
+		}
+	}
+	focus = {
+		id = HAS_saint_study_c
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+		relative_position_id = HAS_saint_study
+		prerequisite = {  }
+		x = 1
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+				
 			
 		}
 	}
 
 	focus = {
-		id = HAS_saint_train11
-		icon = GFX_focus_generic_military_academy
-		relative_position_id = HAS_saint_train
+		id = HAS_saint_study_d
+		icon = GFX_focus_generic_mass_production
+		relative_position_id = HAS_saint_study
 		prerequisite = {  }
-		x = -2
+		x = 3
 		y = 1
 		cost = 5
 		
 		completion_reward = {
-				##添加理念减少5%稳定和10%消费品系数，增加6钢铁和2铝GFX_goal_generic_national_unity
-			
+				
 		}
 	}
 
 	focus = {
 		id = HAS_border_smuggling_trade
 		icon = GFX_goal_generic_trade
+		relative_position_id = HAS_start_focus
 		prerequisite = {  }
-		x = 12
+		x = 13
 		y = 1
 		cost = 5
 		
 		completion_reward = {
-				##添加理念减少5%稳定和10%消费品系数，增加6钢铁和2铝
+				add_ideas = HAS_border_smuggling
 			
 		}
 	}
 
+	# ---------------------------------------------
+	# 东方农业与外交线 (加安斯线)
+	# ---------------------------------------------
+
 	focus = {
-		id = HAS_sell_old_empire_relics
-		icon = GFX_goal_generic_intelligence_exchange
-		prerequisite = {  }
-		x = 15
+		id = HAS_eastbound_agri_delegation
+		icon = GFX_goal_generic_intelligence_exchange 
+		
+		# 使用相对位置，定位在 HAS_border_smuggling_trade 的正下方
+		relative_position_id = HAS_border_smuggling_trade 
+		x = -6
+		y = 1
+		
+		cost = 5
+		
+		completion_reward = {
+			REP = {
+				country_event = { id = HAS_diplomacy.1 days = 1 }
+			}
+			custom_effect_tooltip = HAS_eastbound_agri_delegation_tt
+		}
+	}
+
+	focus = {
+		id = HAS_widen_central_corridor
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = HAS_eastbound_agri_delegation }
+		
+		# 相对于上一个国策，向左下方移动
+		relative_position_id = HAS_eastbound_agri_delegation
+		x = -1
+		y = 1
+		
+		cost = 5
+		
+		completion_reward = {
+			add_political_power = 50
+			
+			random_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					any_neighbor_state = { is_owned_by = REP }
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAS_intro_gaans_machinery
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = HAS_eastbound_agri_delegation }
+		
+		# 相对于使团国策，向右下方移动 (与走廊国策平行)
+		relative_position_id = HAS_eastbound_agri_delegation
+		x = 1
+		y = 1
+		
+		cost = 5
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0 
+				uses = 1
+				category = industry
+			}
+			add_opinion_modifier = { target = REP modifier = HAS_gaans_machinery_opinion }
+			set_country_flag = HAS_gaans_advisor_unlocked
+			custom_effect_tooltip = HAS_intro_gaans_machinery_tt
+		}
+	}
+
+	focus = {
+		id = HAS_joint_plantations
+		icon = GFX_focus_PRC_rural_region_development
+		prerequisite = { focus = HAS_widen_central_corridor }
+		prerequisite = { focus = HAS_intro_gaans_machinery }
+		relative_position_id = HAS_widen_central_corridor
+		x = 1
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+			# 核心操作隐藏，防止文字刷屏
+	
+				# --- 第1步：随机找3个“乡村地区(rural)”，升级并给Buff ---
+				random_owned_state = {
+					limit = {
+						is_core_of = ROOT
+						has_state_category = rural
+					}
+					set_state_category = town
+					add_dynamic_modifier = { modifier = HAS_mechanized_harvest_state_buff }
+					set_state_flag = already_mechanized
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = ROOT
+						has_state_category = rural
+					}
+					set_state_category = town
+					add_dynamic_modifier = { modifier = HAS_mechanized_harvest_state_buff }
+					set_state_flag = already_mechanized
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = ROOT
+						has_state_category = rural
+					}
+					set_state_category = town
+					add_dynamic_modifier = { modifier = HAS_mechanized_harvest_state_buff }
+					set_state_flag = already_mechanized
+				}
+
+				# --- 第2步：随机找2个已经是“发达乡村”且没Buff的地块，给Buff ---
+				random_owned_state = {
+					limit = {
+						is_core_of = ROOT
+						has_state_category = town
+						NOT = { has_state_modifier = HAS_mechanized_harvest_state_buff }
+					}
+					add_dynamic_modifier = { modifier = HAS_mechanized_harvest_state_buff }
+					set_state_flag = already_mechanized
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = ROOT
+						has_state_category = town
+						NOT = { has_state_modifier = HAS_mechanized_harvest_state_buff }
+					}
+					add_dynamic_modifier = { modifier = HAS_mechanized_harvest_state_buff }
+					set_state_flag = already_mechanized
+				}
+
+				# --- 第3步：在刚刚获得Buff的地块中，随机挑2个建民工 ---
+				# 同样需要写2次，确保建在2个不同的地块（如果槽位够的话）
+				random_owned_state = {
+					limit = {
+						is_core_of = ROOT
+						has_state_flag = {  flag = already_mechanized	}
+						# 确保有空槽位建工厂
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = ROOT
+						has_state_flag = {  flag = already_mechanized	}
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			
+
+			# 权力平衡移动
+			if = {
+				limit = {
+					has_power_balance = { id = HAS_race_bop }
+					power_balance_value = { id = HAS_race_bop value < 0 }
+				}
+				add_power_balance_value = { id = HAS_race_bop value = 0.1 }
+			}
+			else_if = {
+				limit = {
+					has_power_balance = { id = HAS_race_bop }
+					power_balance_value = { id = HAS_race_bop value > 0 }
+				}
+				add_power_balance_value = { id = HAS_race_bop value = -0.1 }
+			}
+			
+			# UI 提示词
+			custom_effect_tooltip = HAS_joint_plantations_tt
+		}
+	}
+
+
+
+	focus = {
+		id = HAS_middle_continent_agri_pact
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAS_joint_plantations }
+		
+		# 相对于联合农庄正下方
+		relative_position_id = HAS_joint_plantations
+		x = 0
+		y = 1
+		
+		cost = 5
+		
+		completion_reward = {
+			if = {
+				limit = { has_idea = HAS_border_smuggling } # 假设的走私黑市理念
+				remove_ideas = HAS_border_smuggling
+			}
+			
+			swap_ideas = {
+				remove_idea = HAS_gaans_agri_quota
+				add_idea = HAS_gaans_mutual_pact
+			}
+			
+			give_guarantee = REP
+			REP = { give_guarantee = HAS }
+		}
+	}
+
+	# ---------------------------------------------
+	# 西方军火与重工业线 (莫比斯军政府线)
+	# ---------------------------------------------
+
+	focus = {
+		id = HAS_arms_orders_to_mobius
+		icon = GFX_focus_GER_support_the_proletarian_uprising
+		relative_position_id = HAS_border_smuggling_trade
+		x = -2
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+			# 向莫比斯(MOB)发送军火采购提议
+			MOB = {
+				country_event = { id = HAS_diplomacy.4 days = 1 }
+			}
+			custom_effect_tooltip = HAS_arms_orders_to_mobius_tt
+		}
+	}
+
+	focus = {
+		id = HAS_import_mobius_assembly_lines
+		icon = GFX_focus_generic_military_industry
+		prerequisite = { focus = HAS_arms_orders_to_mobius }
+		relative_position_id = HAS_arms_orders_to_mobius
+		x = -1
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+			# 首都添加1个军工厂
+			capital_scope = {
+				add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+			}
+			
+			# 在一个高发展度省份添加1个军工
+			if = {
+				limit = {
+					any_owned_state = {
+						is_core_of = ROOT
+						NOT = { state = capital_scope } # 避开首都
+						OR = {
+							has_state_category = large_city
+							has_state_category = metropolis
+							has_state_category = megalopolis
+						}
+					}
+				}
+				random_owned_state = {
+					limit = {
+						is_core_of = ROOT
+						NOT = { state = capital_scope }
+						OR = {
+							has_state_category = large_city
+							has_state_category = metropolis
+							has_state_category = megalopolis
+						}
+					}
+					add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+				}
+			}
+			# 如果没有大城市，作为补偿，随机在一个核心领土建
+			else = {
+				random_owned_state = {
+					limit = { is_core_of = ROOT NOT = { state = capital_scope } }
+					add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAS_heavy_ordnance_exchange
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = HAS_arms_orders_to_mobius }
+		relative_position_id = HAS_arms_orders_to_mobius
+		x = 1
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+			add_tech_bonus = { bonus = 1.0 uses = 1 category = artillery }
+			add_tech_bonus = { bonus = 1.0 uses = 1 category = armor }
+			
+			add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 120 }
+			
+			# 创建一款莫比斯外贸轻型坦克 (基础底盘)
+			create_equipment_variant = {
+				name = "莫比斯外贸型轻坦"
+				type = light_tank_chassis_1
+				modules = {
+					main_armament_slot = tank_small_cannon
+					turret_type_slot = tank_light_one_man_turret
+					suspension_type_slot = tank_bogie_suspension
+					armor_type_slot = tank_riveted_armor
+					engine_type_slot = tank_gasoline_engine
+				}
+			}
+			# 赠送一批轻坦
+			add_equipment_to_stockpile = { type = light_tank_chassis_1 amount = 50 variant_name = "莫比斯外贸型轻坦" }
+		}
+	}
+
+	# --- 第 3 层：左右分支 ---
+
+	focus = {
+		id = HAS_junta_tactical_advisors
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = HAS_import_mobius_assembly_lines }
+		prerequisite = { focus = HAS_heavy_ordnance_exchange }
+		relative_position_id = HAS_arms_orders_to_mobius
+		x = -1
 		y = 2
+		cost = 5
+		
+		completion_reward = {
+			set_country_flag = HAS_mobius_advisor_unlocked # 解锁莫比斯顾问
+			army_experience = 30
+		}
+	}
+
+	focus = {
+		id = HAS_mobius_style_division
+		icon = GFX_focus_CZE_army_reform
+		#prerequisite = { focus = HAS_import_mobius_assembly_lines }
+		#prerequisite = { focus = HAS_heavy_ordnance_exchange }
+		relative_position_id = HAS_arms_orders_to_mobius
+		x = 1
+		y = 2
+		cost = 5
+		
+		completion_reward = {
+			# 解锁三款衍生特种战车（坦歼、自火、防空）
+			create_equipment_variant = {
+				name = "莫比斯式歼击车"
+				type = light_tank_destroyer_chassis_1
+				modules = {
+					main_armament_slot = tank_medium_cannon #反坦克炮
+					turret_type_slot = tank_light_fixed_superstructure_turret # 固定战斗室
+					suspension_type_slot = tank_bogie_suspension
+					armor_type_slot = tank_riveted_armor
+					engine_type_slot = tank_gasoline_engine
+				}
+			    upgrades = {
+        			tank_nsb_engine_upgrade = 4
+					tank_nsb_armor_upgrade = 5
+    			}
+			}
+			create_equipment_variant = {
+				name = "莫比斯式突击炮"
+				type = light_tank_artillery_chassis_1
+				modules = {
+					main_armament_slot = tank_medium_howitzer #榴弹炮
+					turret_type_slot = tank_light_fixed_superstructure_turret # 固定战斗室
+					suspension_type_slot = tank_bogie_suspension
+					armor_type_slot = tank_riveted_armor
+					engine_type_slot = tank_gasoline_engine
+				}
+				upgrades = {
+        			tank_nsb_engine_upgrade = 4
+					tank_nsb_armor_upgrade = 5
+    			}
+			}
+			create_equipment_variant = {
+				name = "莫比斯式自行防空炮"
+				type = light_tank_aa_chassis_1
+				modules = {
+					main_armament_slot = tank_anti_air_cannon
+					turret_type_slot = tank_light_two_man_tank_turret
+					suspension_type_slot = tank_bogie_suspension
+					armor_type_slot = tank_riveted_armor
+					engine_type_slot = tank_gasoline_engine
+				}
+			}
+			#add_equipment_to_stockpile = { type = light_tank_chassis_1 amount = 40 variant_name = "莫比斯外贸型-轻型坦歼" }
+			#add_equipment_to_stockpile = { type = light_tank_chassis_1 amount = 40 variant_name = "莫比斯外贸型-轻型自火" }
+
+			# 创建一个装甲/炮兵混编的调整师模板
+			division_template = {
+				name = "莫比斯式调整师"
+				priority = 2
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 1 y = 3 }
+					light_sp_artillery_brigade = { x = 2 y = 0 } # 轻坦
+					light_sp_artillery_brigade = { x = 2 y = 1 } # 轻坦
+					light_tank_destroyer_brigade = { x = 2 y = 2 } 
+				}
+
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+				}
+
+				regimental_support = {
+					field_guns = { x = 0 y = 0 }
+					field_guns = { x = 1 y = 0 }
+					light_sp_anti_air_support = { x = 2 y = 0 }
+				}
+			}
+
+			# 在首都刷出这个精锐师
+			capital_scope = {
+				create_unit = {
+					division = "name = \"第一调整师\" division_template = \"莫比斯式调整师\" start_experience_factor = 0.8"
+					owner = ROOT
+					start_experience_factor = 0.6
+				}
+			}
+		}
+	}
+
+	# --- 第 4 层：汇合 ---
+
+	focus = {
+		id = HAS_official_arms_procurement_act
+		icon = GFX_focus_generic_reorient_production
+		prerequisite = { focus = HAS_junta_tactical_advisors }
+		prerequisite = { focus = HAS_mobius_style_division }
+		relative_position_id = HAS_arms_orders_to_mobius
+		x = 0
+		y = 3
+		cost = 5
+		
+		completion_reward = {
+			if = { limit = { has_idea = HAS_border_smuggling } remove_ideas = HAS_border_smuggling }
+			if = { limit = { has_idea = HAS_mobius_arms_smuggling } remove_ideas = HAS_mobius_arms_smuggling }
+			
+			add_ideas = HAS_mobius_military_pact
+		}
+	}
+
+	# ---------------------------------------------
+	# 佣兵与轻武器线 (奈德兰线)
+	# ---------------------------------------------
+
+	focus = {
+		id = HAS_neidran_trade_mission
+		icon = GFX_focus_generic_treaty
+		# prerequisite = { focus = HAS_open_the_dusty_gates } # 假设的起点
+		relative_position_id = HAS_border_smuggling_trade
+		x = 2
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+			# 向奈德兰发送事件
+			NEI = {
+				country_event = { id = HAS_diplomacy.7 days = 1 }
+			}
+			custom_effect_tooltip = HAS_neidran_trade_mission_tt
+		}
+	}
+
+	focus = {
+		id = HAS_mercenary_contracts
+		icon = GFX_focus_ETH_keep_the_chitet
+		prerequisite = { focus = HAS_neidran_trade_mission }
+		relative_position_id = HAS_neidran_trade_mission
+		x = -1
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+			# 设置Flag解锁雇佣兵决议
+			set_country_flag = HAS_can_hire_neidran_mercs
+			custom_effect_tooltip = HAS_mercenary_contracts_tt
+			division_template = {
+    			name = "奈德兰佣兵"
+    			is_locked = yes
+   				division_cap = 3 
+    			priority = 0
+   				template_counter = 0
+    			regiments = {
+					ranger_battalion = { x = 0 y = 0 }
+					ranger_battalion = { x = 0 y = 1 }
+					ranger_battalion = { x = 0 y = 2 }
+					ranger_battalion = { x = 1 y = 0 }
+					ranger_battalion = { x = 1 y = 1 }
+					ranger_battalion = { x = 1 y = 2 }
+					ranger_battalion = { x = 2 y = 0 }
+					ranger_battalion = { x = 2 y = 1 }
+					ranger_battalion = { x = 2 y = 2 }
+    				}
+    			regimental_support = {
+        			field_guns = { x = 0 y = 0 }
+					field_guns = { x = 1 y = 0 }
+					field_guns = { x = 2 y = 0 }
+    			}
+    			support = {
+					rangers_support = { x = 0 y = 0 } 
+    			}
+			}
+		}
+	}
+
+	focus = {
+		id = HAS_neidran_rifle_blueprints
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = HAS_neidran_trade_mission }
+		relative_position_id = HAS_neidran_trade_mission
+		x = 1
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+			# 步兵武器与支援装备加成
+			add_tech_bonus = { bonus = 1.0 uses = 1 category = infantry_weapons }
+			add_tech_bonus = { bonus = 1.0 uses = 1 category = support_tech }
+		}
+	}
+
+	focus = {
+		id = HAS_neidran_mercenary_instructors # 血契佣兵教导团
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		prerequisite = { focus = HAS_mercenary_contracts }
+		prerequisite = { focus = HAS_neidran_rifle_blueprints }
+		relative_position_id = HAS_neidran_trade_mission
+		x = 0
+		y = 2
+		cost = 5
+		
+		completion_reward = {
+			# 生成指定的模板（由你自己定义的占位符）
+			division_template = {
+				name = "奈德兰教导团"
+				priority = 2
+				regiments = {
+					# [这里填你定义的游骑兵营]
+					ranger_battalion = { x = 0 y = 0 }
+					ranger_battalion = { x = 0 y = 1 }
+					ranger_battalion = { x = 0 y = 2 }
+					ranger_battalion = { x = 1 y = 0 }
+					ranger_battalion = { x = 1 y = 1 }
+					ranger_battalion = { x = 1 y = 2 }
+					ranger_battalion = { x = 2 y = 0 }
+					ranger_battalion = { x = 2 y = 1 }
+					ranger_battalion = { x = 2 y = 2 }
+				}
+				support = {
+					# [这里填你定义的游骑兵支援连]
+					rangers_support = { x = 0 y = 0 } 
+				}
+			}
+			
+			# 首都刷出两支满编佣兵
+			capital_scope = {
+				create_unit = {
+					division = "name = \"第一奈德兰教导团\" division_template = \"奈德兰教导团\" start_experience_factor = 1.0"
+					owner = ROOT
+					count = 1
+				}
+				create_unit = {
+					division = "name = \"第二奈德兰教导团\" division_template = \"奈德兰教导团\" start_experience_factor = 1.0"
+					owner = ROOT
+					count = 1
+				}
+			}
+			# 获得游骑兵战术相关的陆军经验
+			army_experience = 20
+		}
+	}
+
+	focus = {
+		id = HAS_oasis_haven_pact # 绿洲堡垒协定
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = HAS_neidran_mercenary_instructors }
+		relative_position_id = HAS_neidran_mercenary_instructors
+		x = 0
+		y = 1
+		cost = 5
+		
+		completion_reward = {
+			if = { limit = { has_idea = HAS_border_smuggling } remove_ideas = HAS_border_smuggling }
+			if = { limit = { has_idea = HAS_neidran_capital_infiltration } remove_ideas = HAS_neidran_capital_infiltration }
+			
+			add_ideas = HAS_hasphef_neidran_pact
+			
+			# 获得奈德兰的独立保证
+			NEI = { give_guarantee = HAS }
+		}
+	}
+
+
+
+	# ---------------------------------------------
+	# 核心工业复苏线
+	# ---------------------------------------------
+
+	focus = {
+		id = HAS_focus_agilias_hundred_days_plan
+		icon = GFX_focus_SOV_organize_wreckers
+		prerequisite = { focus = HAS_agilias_temporary_regency } # 连在阿吉莉雅上台后
+		
+		# 定位在摄政国策的正下方
+		relative_position_id = HAS_agilias_temporary_regency
+		x = -6
+		y = 1
+		
 		cost = 10
 		
 		completion_reward = {
-				##添加2年的-5%消费品（不是系数）和15%科研速度
+			# 1. 替换死寂的Debuff
+			swap_ideas = {
+				remove_idea = HAS_dead_silence_of_the_ruins
+				add_idea = HAS_barely_functioning_industry
+			}
+			# 2. 强切经济法案为早期动员
+			if = {
+				limit = { NOT = { has_idea = early_mobilization } }
+				add_ideas = early_mobilization
+			}
+			# 3. 获得限时200天的百日计划Buff
+			add_timed_idea = {
+				idea = HAS_agilias_hundred_days_plan_idea
+				days = 200
+			}
 		}
 	}
+
+	# --- 城市特色工业 (四线并列) ---
+
+	focus = {
+		id = HAS_focus_ignite_old_capital_forges
+		icon = GFX_goal_generic_national_pride
+		prerequisite = { focus = HAS_focus_agilias_hundred_days_plan }
+		
+		# 相对于百日计划，向左上方偏移 (最左侧)
+		relative_position_id = HAS_focus_agilias_hundred_days_plan
+		x = -3
+		y = 1
+		
+		cost = 10
+		completion_reward = {
+			156 = { # 卡洛克托娅 ID
+				add_extra_state_shared_building_slots = 2 # 槽位先行
+				add_resource = { type = chromium amount = 20 }
+				add_building_construction = { type = arms_factory level = 2 instant_build = yes }
+			}
+		}
+	}
+
+	focus = {
+		id = HAS_focus_audelaji_steel_artery
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = HAS_focus_agilias_hundred_days_plan }
+		
+		# 相对于百日计划，向左偏移 (左二)
+		relative_position_id = HAS_focus_agilias_hundred_days_plan
+		x = -1
+		y = 1
+		
+		cost = 10
+		completion_reward = {
+			157 = { # 奥德拉吉 ID
+				add_extra_state_shared_building_slots = 2 # 槽位先行
+				add_resource = { type = steel amount = 10 }
+				add_resource = { type = coal amount = 10 } # 如果有煤炭资源代码
+				add_building_construction = { type = arms_factory level = 2 instant_build = yes }
+				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+			}
+			# 给相邻的南方边境省份加基建
+			every_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					any_neighbor_state = { state = 157 } # 与奥德拉吉相邻
+				}
+				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+			}
+		}
+	}
+
+	focus = {
+		id = HAS_focus_bosalia_civilian_revival
+		icon = GFX_focus_generic_industry_1
+		prerequisite = { focus = HAS_focus_agilias_hundred_days_plan }
+		
+		# 相对于百日计划，向右偏移 (右二)
+		relative_position_id = HAS_focus_agilias_hundred_days_plan
+		x = 1
+		y = 1
+		
+		cost = 10
+		completion_reward = {
+			158 = { # 波萨利亚 ID
+				add_extra_state_shared_building_slots = 24 # 槽位先行 (注：24极其巨大，相当于直接塞满一个州的上限)
+				add_building_construction = { type = civilian_factory level = 3 instant_build = yes }
+			}
+		}
+	}
+
+	focus = {
+		id = HAS_focus_haspeya_aviation_workshops
+		icon = GFX_goal_generic_build_airforce
+		prerequisite = { focus = HAS_focus_agilias_hundred_days_plan }
+		
+		# 相对于百日计划，向右上方偏移 (最右侧)
+		relative_position_id = HAS_focus_agilias_hundred_days_plan
+		x = 3
+		y = 1
+		
+		cost = 10
+		completion_reward = {
+			159 = { # 哈斯佩亚 ID
+				add_resource = { type = aluminium amount = 12 }
+				add_building_construction = { type = air_base level = 2 instant_build = yes  }
+			}
+			add_tech_bonus = { bonus = 1.0 uses = 1 category = air_equipment }
+		}
+	}
+
+	# --- 终极枢纽：引入外国技术 ---
+
+	focus = {
+		id = HAS_focus_introduce_foreign_tech
+		icon = GFX_focus_generic_industry_2
+		# 画线连接四个国策，让排版更美观
+		prerequisite = { focus = HAS_focus_ignite_old_capital_forges  focus = HAS_focus_audelaji_steel_artery focus = HAS_focus_bosalia_civilian_revival focus = HAS_focus_haspeya_aviation_workshops }
+		
+		# 作为四大分支的汇合点，将其定位在百日计划的正下方 Y+2 的位置
+		relative_position_id = HAS_focus_agilias_hundred_days_plan
+		x = 0
+		y = 3
+		
+		cost = 10
+		
+		# 极其严格的解锁件
+		available = {
+			# 1. 至少完成上述四个城市国策中的 2 个
+			count_triggers = {
+				amount = 2
+				has_completed_focus = HAS_focus_ignite_old_capital_forges
+				has_completed_focus = HAS_focus_audelaji_steel_artery
+				has_completed_focus = HAS_focus_bosalia_civilian_revival
+				has_completed_focus = HAS_focus_haspeya_aviation_workshops
+			}
+			# 2. 全国工厂总数大于 99
+			num_of_factories > 99
+			# 3. 已经完成了加安斯或莫比斯的对应工业国策
+			OR = {
+				has_completed_focus = HAS_intro_gaans_machinery
+				has_completed_focus = HAS_import_mobius_assembly_lines
+			}
+		}
+		
+		completion_reward = {
+			# 彻底治愈哈斯佩芙！
+			if = {
+				limit = { has_idea = HAS_barely_functioning_industry }
+				remove_ideas = HAS_barely_functioning_industry
+			}
+			
+			add_tech_bonus = { bonus = 0.50 uses = 2 category = industry }
+		}
+	}
+
 
 }
 

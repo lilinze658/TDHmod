@@ -1,6 +1,7 @@
 state={
 	id=158
 	name="STATE_158"
+	state_category = rural
 	history={
 		owner = HAS
 		victory_points = {

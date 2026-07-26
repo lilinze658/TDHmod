@@ -81,6 +81,8 @@ add_ideas = {
 	HAS_ideological_divergence
 	secluded_isolation
 }
+recruit_character = HAS_agilia
+recruit_character = HAS_aloy
 
 set_politics = {
 	ruling_party = democratic
@@ -92,12 +94,6 @@ set_politics = {
 set_popularities = {
 	democratic = 80
 	fascism = 20
-
-
-	
 	communism = 0
 	neutrality = 0
 }
-
-recruit_character = HAS_agilia
-recruit_character = HAS_aloy

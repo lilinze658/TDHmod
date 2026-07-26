@@ -1,6 +1,7 @@
 state={
 	id=628
 	name="STATE_628"
+	state_category = town####库特尔兵工厂
 	history={
 		owner = HAS
 		victory_points = {
@@ -9,7 +10,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
-
+			arms_factory = 2
 		}
 		add_core_of = HAS
 		4635.10.25 = {
