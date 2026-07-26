@@ -13,7 +13,7 @@ PHI_DD_HISTORICAL = {
 
 	unique = {											
 		"Rajah Soliman" "Rajah Lakandula" "Datu Kalantiaw" "Datu Sikatuna" "Andres Bonifacio" "Gregorio del Pilar" "Diego Silang" "Francisco Dagohoy" 
-		"Datu Marikudo" "Negros Occidental" "Leyte" 
+		"Datu Marikudo" "Negros Occidental" "Leyte" "Abra" "Agusan"
 	}
 }
 

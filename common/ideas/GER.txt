@@ -4180,7 +4180,7 @@ ideas = {
 
 		#### FAKE NATIONAL SPIRITS ####
 
-		GER_mefo_bills_1936_fake_ns = { #Fake National Spirit for showing off dynamic modifier at games start-up
+		GER_mefo_bills_4633_fake_ns = { #Fake National Spirit for showing off dynamic modifier at games start-up
 			name = GER_mefo_bills_modifier
 			picture = ger_mefo_bills 
 		
@@ -4191,11 +4191,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = { #REMINDER to always update these if the dynamic modifier is altered!
-				custom_modifier_tooltip = GER_mefo_bills_1936_fake_ns_tt #This TT is necessary to properly display the modifiers unfortunately
+				custom_modifier_tooltip = GER_mefo_bills_4633_fake_ns_tt #This TT is necessary to properly display the modifiers unfortunately
 
 			}
 		}
-		GER_mefo_bills_1939_fake_ns = { #Fake National Spirit for showing off dynamic modifier at games start-up
+		GER_mefo_bills_4636_fake_ns = { #Fake National Spirit for showing off dynamic modifier at games start-up
 			name = GER_mefo_bills_modifier
 			picture = ger_mefo_bills 
 		
@@ -4206,11 +4206,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = { #REMINDER to always update these if the dynamic modifier is altered!
-				custom_modifier_tooltip = GER_mefo_bills_1939_fake_ns_tt #This TT is necessary to properly display the modifiers unfortunately
+				custom_modifier_tooltip = GER_mefo_bills_4636_fake_ns_tt #This TT is necessary to properly display the modifiers unfortunately
 			}
 		}
 
-		GER_army_1936_fake_ns = { #Fake National Spirit for showing off dynamic modifier at games start-up
+		GER_army_4633_fake_ns = { #Fake National Spirit for showing off dynamic modifier at games start-up
 			name = GER_army_modifier
 			picture = GER_army 
 		
@@ -4226,7 +4226,7 @@ ideas = {
 				supply_consumption_factor = 0.15
 			}
 		}
-		GER_army_1939_fake_ns = { #Fake National Spirit for showing off dynamic modifier at games start-up
+		GER_army_4636_fake_ns = { #Fake National Spirit for showing off dynamic modifier at games start-up
 			name = GER_army_modifier
 			picture = GER_army
 		

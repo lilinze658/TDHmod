@@ -1,7 +1,7 @@
 equipments = {
 
 	amphibious_mechanized_equipment = {
-		year = 1936
+		year = 4633
 
 		is_archetype = yes
 		picture = archetype_motorized_equipment		
@@ -9,6 +9,13 @@ equipments = {
 		type = {
 			#infantry #Removing inf type 
 			mechanized
+		}
+
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			mech_cost_upgrade
 		}
 		group_by = archetype
 		
@@ -40,18 +47,18 @@ equipments = {
 		fuel_consumption = 4.0
 	}
 
-	# ~1941
+	# ~4640
 	amphibious_mechanized_equipment_1 = {
-		year = 1940
+		year = 4639
 
 		archetype = amphibious_mechanized_equipment
 		priority = 40
 		visual_level = 0
 	}
 
-	# ~1943
+	# ~4642
 	amphibious_mechanized_equipment_2 = {
-		year = 1942
+		year = 4641
 
 		archetype = amphibious_mechanized_equipment
 		parent = amphibious_mechanized_equipment_1

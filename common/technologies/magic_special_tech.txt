@@ -24,7 +24,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		ai_will_do = {
 			factor = 0
@@ -38,7 +38,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		ai_will_do = {
 			factor = 0
@@ -52,7 +52,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		ai_will_do = {
 			factor = 0
@@ -66,7 +66,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		ai_will_do = {
 			factor = 0
@@ -94,7 +94,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		ai_will_do = {
 			factor = 0
@@ -108,7 +108,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		ai_will_do = {
 			factor = 0
@@ -122,7 +122,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		ai_will_do = {
 			factor = 0
@@ -136,7 +136,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		ai_will_do = {
 			factor = 0
@@ -150,7 +150,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		ai_will_do = {
 			factor = 0
@@ -164,7 +164,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		ai_will_do = {
 			factor = 0
@@ -178,7 +178,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		ai_will_do = {
 			factor = 0
@@ -198,7 +198,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 4633
 		
 	}
 	
@@ -215,7 +215,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 4633
 		
 	}
 	
@@ -230,7 +230,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 4633
 		
 	}
 	
@@ -251,14 +251,14 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 4633
 		
 	}
 	
 	maid_decryption_recon_tech = {
 				
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 4643
 
 		allow = {
 			always = no
@@ -280,7 +280,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -298,7 +298,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -319,7 +319,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -342,7 +342,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -365,7 +365,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -386,7 +386,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -409,7 +409,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -432,7 +432,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -517,7 +517,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -538,7 +538,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -562,7 +562,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -586,7 +586,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -612,7 +612,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -636,7 +636,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -654,7 +654,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -673,7 +673,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -693,7 +693,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -712,7 +712,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -732,7 +732,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -755,7 +755,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -774,7 +774,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -815,7 +815,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -834,7 +834,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no
@@ -855,7 +855,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 4633
 		
 		allow = {
 			always = no

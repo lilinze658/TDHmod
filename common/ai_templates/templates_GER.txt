@@ -870,13 +870,13 @@ infantry_GER = {
 
 			modifier = {
 				factor = 0
-				date < 1939.9.1
+				date < 4636.9.1
 			}
 
 			modifier = {
 				factor = 20
 				has_war_with_major = yes
-				date > 1939.9.1
+				date > 4636.9.1
 			}
 		}
 
@@ -965,13 +965,13 @@ infantry_GER = {
 
 			modifier = {
 				factor = 0
-				date < 1940.9.1
+				date < 4639.9.1
 			}
 
 			modifier = {
 				factor = 5
 				has_war_with_major = yes
-				date > 1940.9.1
+				date > 4639.9.1
 			}
 		}
 		

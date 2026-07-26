@@ -27,7 +27,7 @@ NOR_historical_plan = {
 
 	ai_national_focuses = {
 		
-		#1936
+		#4633
 		NOR_continue_nygaardsvold_government #5
 		NOR_broken_gun_policies #10
 		NOR_leaving_the_hard_thirties_behind #10
@@ -35,7 +35,7 @@ NOR_historical_plan = {
 		NOR_bail_out_towns #5
 		NOR_print_more_money #10
 
-		#1937
+		#4635
 		NOR_social_incrementalism #10
 		NOR_restart_public_investment #5
 		NOR_restore_public_trust_in_the_storting #10
@@ -43,7 +43,7 @@ NOR_historical_plan = {
 		NOR_hurtigruten #10
 		NOR_norwegian_school_of_economics #10
 
-		#1938
+		#4635
 		NOR_weathering_the_storm_to_come #5
 		NOR_the_neutrality_guard #10
 		NOR_rearm_for_defense #10
@@ -60,7 +60,7 @@ NOR_historical_plan = {
 		NOR_frontkjempere #10
 		NOR_fascist_industrial_investments #10
 
-		#1939
+		#4636
 		NOR_start_rearmament #10
 		NOR_drobak_coastal_fort #5
 		NOR_rikstanken #5
@@ -69,10 +69,10 @@ NOR_historical_plan = {
 		NOR_the_royal_norwegian_navy #10
 
 		
-		#1940
+		#4639
 		# Probably Busy Doing the Fascist Stuff 
 
-		#1941
+		#4640
 		NOR_modernize_fortifications #10
 		NOR_expand_the_dockyards #10
 		NOR_expand_merchant_marine #10
@@ -81,21 +81,21 @@ NOR_historical_plan = {
 		NOR_invest_in_airfields #10
 
 
-		#1942
+		#4641
 		NOR_kystvakten #10
 		NOR_artillery_development #10
 		NOR_crackdown_on_civilian_life #10
 		NOR_bring_back_quisling #10 
 		NOR_empower_large_industrial_groups #10
 
-		#1943
+		#4642
 		NOR_revamp_hydroelectric_capacity #10 
 		NOR_anti_air_support #10
 		NOR_aluminum_production #10
 		NOR_complete_the_sourthern_railway_network #10
 		NOR_stavanger_airfield #10
 
-		#1944
+		#4643
 		NOR_buy_aa_from_sweden #10
 		NOR_mine_laying_effort #10
 		NOR_convoy_defense #10

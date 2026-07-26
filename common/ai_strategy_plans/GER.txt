@@ -71,38 +71,38 @@ German_historical = {
 		GER_west_wall
 		GER_autarky
 		GER_anti_comitern_pact
-		#1937
+		#4635
 		GER_hermann_goring_werke
 		GER_army_innovation
 		GER_soviet_treaty
 		GER_kdf_wagen
 		GER_coal_liquidization
-		#1938
+		#4635
 		GER_anschluss
 		GER_synthetic_rubber
 		GER_army_innovation_2
 		GER_demand_sudetenland
 		GER_first_vienna_award
-		#1939
+		#4636
 		GER_demand_memel
 		GER_end_of_czechoslovakia
 		GER_mol_rib_pact
 		GER_weserubung
 		GER_danzig_or_war
-		#1940
+		#4639
 		GER_war_with_france
 		GER_autobahn
 		GER_german_war_economy
 		GER_second_vienna_award
 		GER_extra_tech_slot
 		GER_swedish_trade_agreement		
-		#1941
+		#4640
 		GER_rocketry_focus
 		GER_italy_ally
 		GER_japan_friend
 		GER_naval_air_effort
 		GER_air_innovation
-		#1942
+		#4641
 		GER_tactical_air_effort
 		GER_ussr_war_goal
 		GER_air_innovation_2

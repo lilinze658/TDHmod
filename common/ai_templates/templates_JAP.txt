@@ -534,7 +534,7 @@ infantry_JAP = {
 			modifier = {
 				factor = 0
 				
-				date < 1940.1.1
+				date < 4639.1.1
 				CHI = {
 					is_ai = yes
 					has_capitulated = no
@@ -546,7 +546,7 @@ infantry_JAP = {
 		
 		# more expensive infantry template. we save it for later
 		enable = {
-			#date > 1940.1.1
+			#date > 4639.1.1
 			CHI = {
 				OR = {
 					is_ai = no
@@ -1043,7 +1043,7 @@ garrison_JAP = {
 
 		modifier = {
 			factor = 10
-			date < "1939.1.1"
+			date < "4636.1.1"
 		}
 	}
 	

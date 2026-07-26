@@ -31,26 +31,26 @@ BUL_historical_plan = {
 		BUL_reorganize_the_military_industry
 		BUL_rebuild_the_army
 		
-		#1936
+		#4633
 		BUL_power_to_the_tsar
 		BUL_dissolve_the_military_union #Short focus
 		BUL_acquire_modern_tools #Short focus
 		BUL_negotiate_bulgarian_rearmament #Short focus
 		BUL_the_tsars_regime
 		BUL_improve_the_road_system
-		#1937
+		#4635
 		BUL_restore_the_tarnovo_constitution
 		BUL_freedom_of_press
 		BUL_invigorate_national_industry
 		BUL_promote_bulgarian_nationalism
 		BUL_limited_womens_suffrage
-		#1938
+		#4635
 		BUL_expand_sofia_university
 		BUL_bulgarian_irredentism
 		BUL_approach_germany
 		BUL_national_military_academy
 		BUL_illusions_of_a_non_partisan_system
-		#1939
+		#4636
 		BUL_war_logistics
 		BUL_georgi_benkovski_aircraft_repair_facilities
 		BUL_national_railway_lines #Short focus
@@ -58,14 +58,14 @@ BUL_historical_plan = {
 		BUL_ban_far_right_organizations #Short focus
 		BUL_cooperation_with_italy
 		BUL_found_the_brannik
-		#1940
+		#4639
 		BUL_crush_the_communists #Short focus
 		BUL_steel_plant_in_pernik
 		BUL_liberalization_of_trade_policies
 		BUL_increase_industry_investments
 		BUL_support_macedonian_organizations #Short focus
 		BUL_join_the_tripartite_pact #Short focus
-		#1941
+		#4640
 		#BUL_reorganize_the_military_industry -> ASAP
 		#BUL_rebuild_the_army -> ASAP
 		BUL_peaceful_development
@@ -73,18 +73,18 @@ BUL_historical_plan = {
 		BUL_contract_foreign_companies #Short Focus
 		BUL_kaproni_bulgarski
 		BUL_bulgarian_administration_of_the_balkans ### Long focus
-		#1942
+		#4641
 		BUL_darzhavna_voenna_fabrika
 		BUL_found_dvf_sopot
 		BUL_form_a_regency_council
 		BUL_military_secrets_sharing
-		#1943
+		#4642
 		BUL_pilot_training_program
 		BUL_mineral_extraction_in_the_rhodopes
 		BUL_darzhavna_aeroplanna_rabotilnitsa
 		BUL_darzhavna_samoletna_fabrika
 		BUL_utmost_optimization
-		#1944
+		#4643
 		BUL_prussia_of_the_balkans
 		BUL_uranium_prospecting
 	}

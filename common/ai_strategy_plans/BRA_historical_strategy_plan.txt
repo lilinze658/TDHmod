@@ -29,7 +29,7 @@ BRA_historical_plan = {
 
 	ai_national_focuses = {
 		
-		#1936
+		#4633
 		BRA_tribunal_de_seguranca_nacional
 		BRA_coffee_crisis_aftermath
 		BRA_ensure_continued_military_support
@@ -38,7 +38,7 @@ BRA_historical_plan = {
 		SMB_navy
 		BRA_desenvolvimentismo
 
-		#1937
+		#4635
 		BRA_cohen_plan
 		BRA_estado_novo
 		BRA_promote_resource_extraction
@@ -46,7 +46,7 @@ BRA_historical_plan = {
 		BRA_stimulate_the_civilian_economy	
 		BRA_consolidation_of_labor_laws
 		
-		#1938
+		#4635
 		BRA_radio_nacional
 		BRA_deal_with_the_cangaceiro
 		BRA_establish_psad
@@ -54,7 +54,7 @@ BRA_historical_plan = {
 		BRA_departamendo_de_propaganda
 		BRA_tech_slot_1
 
-		#1939
+		#4636
 		
 		BRA_ban_political_parties
 		BRA_decree_no_37
@@ -63,30 +63,30 @@ BRA_historical_plan = {
 		SMB_military_facilities
 		SMB_army_academy
 
-		#1940
+		#4639
 
 		BRA_cooperation_in_the_americas
 		BRA_companhia_siderurgica_nacional
 		BRA_batalha_do_borracha
 		SMB_air_force
-		#1941
+		#4640
 		
 		BRA_washington_accords
 		BRA_defense_spending
 
 		
-		#1942
+		#4641
 		
 		BRA_natal_naval_base	
 		SMB_construct_air_bases
 		BRA_potenji_river_conference
 		
-		#1943
+		#4642
 		BRA_disrupt_operation_bolivar
 		BRA_smoking_cobras
 		BRA_senta_a_pua
 		
-		#1944
+		#4643
 		
 		
 	}

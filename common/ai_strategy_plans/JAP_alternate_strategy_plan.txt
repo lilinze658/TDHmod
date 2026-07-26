@@ -76,49 +76,49 @@ JAP_manchukuo_player_historical_plan = {
 	}
 
 	ai_national_focuses = {
-		JAP_purge_the_kodoha_faction #March 10 1936	
-		JAP_the_manchurian_project #May 20 1936	
-		JAP_expand_manchurian_railways #July 30 1936	
-		JAP_light_industry_development #October 10 1936	
-		JAP_heavy_industry_development #December 20 1936	
-		JAP_liaison_conference #February 30 1937	
-		JAP_greater_east_asian_co_prosperity_sphere #May 10 1937	
-		JAP_intervene_in_china #July 20 1937
+		JAP_purge_the_kodoha_faction #March 10 4633	
+		JAP_the_manchurian_project #May 20 4633	
+		JAP_expand_manchurian_railways #July 30 4633	
+		JAP_light_industry_development #October 10 4633	
+		JAP_heavy_industry_development #December 20 4633	
+		JAP_liaison_conference #February 30 4635	
+		JAP_greater_east_asian_co_prosperity_sphere #May 10 4635	
+		JAP_intervene_in_china #July 20 4635
 		JAP_army_expansion_law	
-		JAP_fighter_modernization #September 30 1937	
+		JAP_fighter_modernization #September 30 4635	
 		JAP_new_naval_estimates
 		JAP_guide_the_zaibatsus
-		JAP_carrier_warfare_experiments #December 10 1937	
-		JAP_supremacy_of_technology #February 20 1938	
-		JAP_national_mobilization_law #April 30 1938	
-		JAP_national_research_policy #July 10 1938	
-		JAP_nationalize_war_industry #September 20 1938	
-		JAP_cruiser_modernization #November 30 1938	
-		JAP_long_lance_torpedoes #February 10 1939	
-		JAP_bicycle_battalions #April 20 1939	
-		JAP_small_arms_modernization #June 30 1939	
-		 				#September 10 1939	
-		JAP_strike_south_doctrine #November 20 1939	
-		JAP_agility_focus #January 30 1940	
-		JAP_first_air_fleet #April 10 1940	
-		JAP_the_zero #June 20 1940	
-		JAP_sign_tripartite_pact #August 30 1940	
-						 #November 10 1940	
-		JAP_range_focus #January 20 1941	
-		JAP_non_aggression_pact_with_the_soviet_union #March 30 1941	
-		JAP_modern_artillery #June 10 1941	
-		JAP_secure_the_philippines #August 20 1941	
-		JAP_strike_on_the_southern_resource_area #October 30 1941	
+		JAP_carrier_warfare_experiments #December 10 4635	
+		JAP_supremacy_of_technology #February 20 4635	
+		JAP_national_mobilization_law #April 30 4635	
+		JAP_national_research_policy #July 10 4635	
+		JAP_nationalize_war_industry #September 20 4635	
+		JAP_cruiser_modernization #November 30 4635	
+		JAP_long_lance_torpedoes #February 10 4636	
+		JAP_bicycle_battalions #April 20 4636	
+		JAP_small_arms_modernization #June 30 4636	
+		 				#September 10 4636	
+		JAP_strike_south_doctrine #November 20 4636	
+		JAP_agility_focus #January 30 4639	
+		JAP_first_air_fleet #April 10 4639	
+		JAP_the_zero #June 20 4639	
+		JAP_sign_tripartite_pact #August 30 4639	
+						 #November 10 4639	
+		JAP_range_focus #January 20 4640	
+		JAP_non_aggression_pact_with_the_soviet_union #March 30 4640	
+		JAP_modern_artillery #June 10 4640	
+		JAP_secure_the_philippines #August 20 4640	
+		JAP_strike_on_the_southern_resource_area #October 30 4640	
 		JAP_alliance_with_siam #January 10	
-		JAP_strategic_bomber_effort #March 20 1942
+		JAP_strategic_bomber_effort #March 20 4641
 		JAP_torpedo_cruisers	
-		JAP_modern_escorts #May 30 1942	
-		JAP_national_defense_state #August 10 1942	
-		JAP_spiritual_mobilization #October 20 1942	
-		JAP_warrior_spirit #December 30 1942	
-		JAP_coal_liquification #March 10 1943	
-		JAP_exploit_the_southern_resource_area #May 20 1943	
-		JAP_secure_china #July 30 1943	
+		JAP_modern_escorts #May 30 4641	
+		JAP_national_defense_state #August 10 4641	
+		JAP_spiritual_mobilization #October 20 4641	
+		JAP_warrior_spirit #December 30 4641	
+		JAP_coal_liquification #March 10 4642	
+		JAP_exploit_the_southern_resource_area #May 20 4642	
+		JAP_secure_china #July 30 4642	
 		JAP_jet_prototypes
 		JAP_strengthen_the_divine_wind
 		JAP_armored_divisions
@@ -300,32 +300,32 @@ JAP_alternate_plan_democratic = {
 		JAP_ally_with_the_zaibatsus
 		JAP_purge_the_militarists
 		JAP_pre_emptive_coup
-		#1937
+		#4635
 		JAP_the_showa_constitution
 		JAP_army_expansion_law
 		JAP_new_naval_estimates
 		JAP_rekindle_the_old_alliance
 		JAP_west_pacific_treaty_organization #backup if Britain non-democratic
 		JAP_cruiser_modernization
-		#1938
+		#4635
 		JAP_carrier_warfare_experiments
 		JAP_small_arms_modernization
 		JAP_supremacy_of_technology
 		JAP_first_air_fleet
 		JAP_fighter_modernization
-		#1939
+		#4636
 		JAP_range_focus
 		JAP_bomber_modernization
 		JAP_strategic_bomber_effort
 		JAP_pacific_guardian
 		JAP_the_korean_question
-		#1940
+		#4639
 		JAP_modern_artillery
 		JAP_armored_divisions
 		JAP_liberate_manchuria
 		JAP_anti_communist_bulwark
 		JAP_anti_communist_volunteers
-		#1941
+		#4640
 		JAP_ultimate_deterrence
 		JAP_modern_escorts
 	}

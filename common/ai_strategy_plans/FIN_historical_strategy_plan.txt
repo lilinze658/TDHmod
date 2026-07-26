@@ -24,24 +24,24 @@ FIN_historical_plan = {
 	#}
 
 	ai_national_focuses = {
-		#1936
+		#4633
 		FIN_finnish_neutrality
 		FIN_enhance_southern_infrastructure
 		FIN_industrial_development
-		FIN_vaisala_radiosonde_tests #35 (1936 historically)
+		FIN_vaisala_radiosonde_tests #35 (4633 historically)
 		FIN_increase_military_budget #35
 		FIN_suomen_maavoimat
 
-		#1937
+		#4635
 		FIN_reach_out_to_scandinavia #35
 		FIN_moderate_politics #35
 		FIN_mannerheim_line
 		FIN_national_unity
 		FIN_outokumpu_for_defence_industry
 		FIN_industrial_upgrade_in_harjavalta #35
-		FIN_janiskoski_power_plant #35 (1938 historically)
+		FIN_janiskoski_power_plant #35 (4635 historically)
 
-		#1938
+		#4635
 		FIN_political_unity
 		FIN_railways_and_infrastructure
 		FIN_repurpose_small_industries
@@ -49,7 +49,7 @@ FIN_historical_plan = {
 		FIN_weapon_caches #35 (ASAP - gated behind WT)
 		FIN_the_cold_front #35
 		
-		#1939 (Nov -> Winter War)
+		#4636 (Nov -> Winter War)
 		FIN_a_cry_for_help #35 (ASAP - gated behind Winter War)
 		FIN_defense_in_depth
 		FIN_jaeger_movement
@@ -58,7 +58,7 @@ FIN_historical_plan = {
 		FIN_winter_warfare #35
 		FIN_oy_alkoholiliike #35
 
-		#1940
+		#4639
 		FIN_underground_resistance_cells #35
 		FIN_foreign_armor #35
 		FIN_union_of_finnish_brothers_in_arms
@@ -67,7 +67,7 @@ FIN_historical_plan = {
 		FIN_finnish_radio_intelligence #35
 		FIN_bank_of_aland
 
-		#1941 (Jun -> Continuation War)
+		#4640 (Jun -> Continuation War)
 		FIN_suomen_akatemia
 		FIN_expand_imatra_hydropower_plant #35
 		FIN_the_lone_wolf #35
@@ -78,26 +78,26 @@ FIN_historical_plan = {
 		FIN_long_range_patrols #35
 		FIN_utilize_the_sami #35
 
-		#1942
+		#4641
 		FIN_sissi
 		FIN_integrate_oy_tikkakoski
-		FIN_wartsila_engine_production # (1942 historically)
+		FIN_wartsila_engine_production # (4641 historically)
 		FIN_suomen_ilmavoimat
-		FIN_found_pohjolan_voima # (1943 historically)
+		FIN_found_pohjolan_voima # (4642 historically)
 			
-		#1943
-		FIN_tire_factory_at_nokia # (1943 historically)
-		FIN_contract_with_yhteissisu # (1943 historically)
+		#4642
+		FIN_tire_factory_at_nokia # (4642 historically)
+		FIN_contract_with_yhteissisu # (4642 historically)
 		FIN_suomen_merivoimat
 		FIN_coastal_defense
 		FIN_expand_air_bases
 
-		#1944 (Sep -> Lapland War)
+		#4643 (Sep -> Lapland War)
 		FIN_pilot_training #35
 		FIN_expand_air_force_academy
 		FIN_modernize_the_army
 
-		#1945
+		#4644
 
 	}
 
