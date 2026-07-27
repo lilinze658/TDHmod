@@ -1,167 +1,216 @@
-﻿characters={ 
-	DIV_zhuqiu={
-		name=zhuqiu
-		portraits={
-			civilian={
-				large="gfx/leaders/DIV/朱秋.png"
+﻿characters = {
+	DIV_Zhu_Qiu = {
+		name = DIV_Zhu_Qiu
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_DIV_Zhu_Qiu
 			}
-			army = {   
-				large="gfx/leaders/DIV/朱秋.png" 
-				small="gfx/interface/ideas/XXX.png"
+			army = {
+				large = GFX_Portrait_DIV_Zhu_Qiu
+				small = GFX_idea_advisor_DIV_Zhu_Qiu
 			}
-		
 		}
-		country_leader={
-		desc = "DIV_zhuqiu_APDF_DES"
-				 traits = {  }
-				ideology= despotism 
-				expire="4999.1.1.1"
-				id=-1
+		country_leader = {
+			ideology = despotism
+			traits = {
+				DIV_crown_regent
 			}
-			field_marshal = {
-			desc = "DIV_zhuqiu_APDF_DES"
-			legacy_id = 22
-			traits = { harsh_leader trait_cautious old_guard organizer urban_assault_specialist defensive_doctrine inspirational_leader }
+			desc = PORTRAIT_DIV_ZHU_QIU_DESC
+			expire = "4999.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = {
+				harsh_leader
+				trait_cautious
+				old_guard
+				organizer
+				urban_assault_specialist
+				defensive_doctrine
+				inspirational_leader
+			}
 			skill = 5
 			attack_skill = 3
 			defense_skill = 5
 			planning_skill = 3
 			logistics_skill = 4
+			legacy_id = 22
 		}
 	}
 
-
-	DIV_zhangxikai={
-		name=zhangxikai
-		portraits={
-			civilian={
-				large="gfx/leaders/DIV/张希凯.png"
+	DIV_Zhang_Xikai = {
+		name = DIV_Zhang_Xikai
+		portraits = {
+			army = {
+				large = GFX_Portrait_DIV_Zhang_Xikai
+				small = GFX_idea_advisor_DIV_Zhang_Xikai
 			}
-			army = {   
-				large="gfx/leaders/DIV/张希凯.png" 
-				small="gfx/interface/ideas/XXX.png"
-			}
-		
 		}
-		
 		field_marshal = {
-		desc = "DIV_zhangxikai_APDF_DES"
-			legacy_id = 23
-			traits = { organizer infantry_expert aggressive_assaulter brilliant_strategist career_officer }
+			desc = DIV_ZHANG_XIKAI_GENERAL_DESC
+			traits = {
+				organizer
+				infantry_expert
+				aggressive_assaulter
+				brilliant_strategist
+				career_officer
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 4
+			legacy_id = 23
 		}
 	}
-    #神州装甲工程院
-	DIV_anbai={
-		name=anbai
-		portraits={
-			civilian={
-				large="gfx/leaders/DIV/安白.png"
+	
+	DIV_An_Bai = {
+		name = DIV_An_Bai
+		portraits = {
+			army = {
+				large = GFX_Portrait_DIV_An_Bai
+				small = GFX_idea_advisor_DIV_An_Bai
 			}
-			army = {   
-				large="gfx/leaders/DIV/安白.png" 
-				small="gfx/interface/ideas/XXX.png"
-			}
-		
 		}
-		
 		corps_commander = {
-		desc = "DIV_anbai_APDF_DES"
-			legacy_id = 24
-			traits = {  }
+			desc = DIV_AN_BAI_GENERAL_DESC
+			traits = {
+			}
 			skill = 5
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 5
-		}
-
-	}
-	DIV_wanghuacai={
-		name=wanghuacai
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/DIV/汪花彩.png"
-			}
-			army = {
-				large = "gfx/leaders/DIV/汪花彩.png"
-				small = "gfx/leaders/DIV/xxx.png"
-			}
-			 
-			navy_leader = {
-			desc = "DIV_wanghuacai_APDF_DES"
-				legacy_id = 25
-			    traits = { navy_career_officer bold ironside green_water_expert big_guns_expert crisis_magician }
-			    skill = 4
-			    attack_skill = 4
-			    defense_skill = 3
-				maneuvering_skill = 3
-				coordination_skill = 3
-			}
+			legacy_id = 24
 		}
 	}
-	DIV_huangbeiya={
-		name=huangbeiya
+
+	DIV_Wang_Huacai = {
+		name = DIV_Wang_Huacai
 		portraits = {
-			army = {
-				large = "gfx/leaders/DIV/黄贝娅.png"
+			navy = {
+				large = GFX_Portrait_DIV_Wang_Huacai
+				small = GFX_idea_advisor_DIV_Wang_Huacai
 			}
 		}
+		navy_leader = {
+			desc = DIV_WANG_HUACAI_GENERAL_DESC
+			traits = {
+				navy_career_officer
+				bold
+				ironside
+				green_water_expert
+				big_guns_expert
+				crisis_magician
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id = 25
+		}
+	}
 
+	DIV_Huang_Beiya = {
+		name = DIV_Huang_Beiya
+		portraits = {
+			army = {
+				large = GFX_Portrait_DIV_Huang_Beiya
+				small = GFX_idea_advisor_DIV_Huang_Beiya
+			}
+		}
 		corps_commander = {
-		desc = "DIV_huangbeiya_APDF_DES"
-			legacy_id = 26
-			traits = { armor_officer career_officer infantry_leader }
+			desc = DIV_HUANG_BEIYA_GENERAL_DESC
+			traits = {
+				armor_officer
+				career_officer
+				infantry_leader
+			}
 			skill = 3
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 4
+			legacy_id = 26
 		}
 	}
-	DIV_lvzhilan={
-		name=lvzhilan
+
+	DIV_Lv_Zhilan = {
+		name = DIV_Lv_Zhilan
 		portraits = {
 			army = {
-				large = "gfx/leaders/DIV/吕治岚.png"
+				large = GFX_Portrait_DIV_Lv_Zhilan
+				small = GFX_idea_advisor_DIV_Lv_Zhilan
 			}
 		}
-
 		field_marshal = {
-		desc = "DIV_lvzhilan_APDF_DES"
-			legacy_id = 27
-			traits = { organizer infantry_leader panzer_expert ambusher thorough_planner inspirational_leader career_officer trait_reckless }
+			desc = DIV_LV_ZHILAN_GENERAL_DESC
+			traits = {
+				organizer
+				infantry_leader
+				panzer_expert
+				ambusher
+				thorough_planner
+				inspirational_leader
+				career_officer
+				trait_reckless
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 5
+			legacy_id = 27
 		}
 	}
-	DIV_suluona={
-		name=suluona
+	
+	DIV_Su_Luona = {
+		name = DIV_Su_Luona
 		portraits = {
 			army = {
-				large = "gfx/leaders/DIV/苏洛娜.png"
+				large = GFX_Portrait_DIV_Su_Luona
+				small = GFX_idea_advisor_DIV_Su_Luona
 			}
 		}
-
 		corps_commander = {
-		desc = "DIV_suluona_APDF_DES"
-			legacy_id = 28
-			traits = { skilled_staffer adaptable ambusher guerilla_fighter career_officer }
+			desc = DIV_SU_LUONA_GENERAL_DESC
+			traits = {
+				skilled_staffer
+				adaptable
+				ambusher
+				guerilla_fighter
+				career_officer
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 3
+			legacy_id = 28
 		}
 	}
-	
-}
-	
 
+	DIV_Jiang_Nayu = {
+		name = DIV_Jiang_Nayu
+		portraits = {
+			civilian = {
+				small = GFX_idea_advisor_DIV_Jiang_Nayu
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = DIV_Jiang_Nayu
+			desc = DIV_JIANG_NAYU_ADVISOR_DESC
+			allowed = { original_tag = DIV }
+			available = {
+				#is_a_fascism_government = yes
+			}
+			cost = 150
+			traits = { ARG_university_rector }
+			ai_will_do = {
+				base = 1.000
+			}
+		}
+	}
+}

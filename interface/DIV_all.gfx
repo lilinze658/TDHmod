@@ -1,0 +1,35 @@
+SpriteTypes = {	
+	### - Characters - ###
+	spriteType = {
+		name = "GFX_Portrait_DIV_An_Bai"
+		texturefile = "gfx/leaders/DIV/Portrait_DIV_An_Bai.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_DIV_Huang_Beiya"
+		texturefile = "gfx/leaders/DIV/Portrait_DIV_Huang_Beiya.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_DIV_Lv_Zhilan"
+		texturefile = "gfx/leaders/DIV/Portrait_DIV_Lv_Zhilan.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_DIV_Su_Luona"
+		texturefile = "gfx/leaders/DIV/Portrait_DIV_Su_Luona.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_DIV_Wang_Huacai"
+		texturefile = "gfx/leaders/DIV/Portrait_DIV_Wang_Huacai.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_DIV_Zhang_Xikai"
+		texturefile = "gfx/leaders/DIV/Portrait_DIV_Zhang_Xikai.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_DIV_Zhu_Qiu"
+		texturefile = "gfx/leaders/DIV/Portrait_DIV_Zhu_Qiu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_advisor_DIV_Jiang_Nayu"
+		texturefile = "gfx/interface/ideas/idea_advisor_DIV_Jiang_Nayu.png"
+	}
+}
