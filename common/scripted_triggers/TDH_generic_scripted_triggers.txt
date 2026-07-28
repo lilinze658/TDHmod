@@ -22,3 +22,19 @@ is_ROOT_or_subject = {
 		}
 	}
 }
+
+TDH_has_dlc_nsb = {
+	has_dlc = "No Step Back"
+}
+
+TDH_has_dlc_mtg = {
+	has_dlc = "Man the Guns"
+}
+
+TDH_has_dlc_bba = {
+	has_dlc = "By Blood Alone"
+}
+
+TDH_has_dlc_tfv = {
+	has_dlc = "Together for Victory"
+}
