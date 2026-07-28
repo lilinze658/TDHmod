@@ -3,11 +3,11 @@
 		name=奈尔嘉德
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/奈尔嘉德.png"
+				large="gfx/leaders/FAL/奈尔嘉德.dds"
 			}
 			army = {   
-				large="gfx/leaders/FAL/奈尔嘉德.png" 
-				small="gfx/interface/ideas/XXX.png"
+				large="gfx/leaders/FAL/奈尔嘉德.dds" 
+				small="gfx/interface/ideas/XXX.dds"
 			}
 		
 		}
@@ -34,7 +34,7 @@
 		name= nuolina
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/诺丽娜.png"
+				large="gfx/leaders/FAL/诺丽娜.dds"
 			}
 		}
 		
@@ -54,7 +54,7 @@
 		name=伊诺雅
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/伊诺雅.png"
+				large="gfx/leaders/FAL/伊诺雅.dds"
 			}
 		}
 		
@@ -71,10 +71,10 @@
 	}
 
 	FAL_aeraili={
-		name= aeraili
+		name= 阿尔艾莉
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/阿尔艾莉.png"
+				large="gfx/leaders/FAL/阿尔艾莉.dds"
 			}
 		}
 		
@@ -91,10 +91,10 @@
 	}
 
 	FAL_kuna={
-		name= kuna
+		name= 库娜
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/库娜.png"
+				large="gfx/leaders/FAL/库娜.dds"
 			}
 		}
 		
@@ -111,10 +111,10 @@
 	}
     #内阁
 	FAL_balunna={
-		name= balunna
+		name= 巴伦娜
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/巴伦娜.png"
+				large="gfx/leaders/FAL/巴伦娜.dds"
 			}
 		}
 		
@@ -131,10 +131,10 @@
 	}
 
 	FAL_aleisi={
-		name= aleisi
+		name= 阿蕾丝
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/阿蕾丝.png"
+				large="gfx/leaders/FAL/阿蕾丝.dds"
 			}
 		}
 		
@@ -151,10 +151,10 @@
 	}
 
 	FAL_aimili={
-		name= aimili
+		name= 艾米莉
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/艾米莉.png"
+				large="gfx/leaders/FAL/艾米莉.dds"
 			}
 		}
 		
@@ -171,10 +171,10 @@
 	}
 
 	FAL_misite={
-		name= misite
+		name= 米丽特
 		portraits={
 			civilian={
-				large="gfx/leaders/FAL/米丽特.png"
+				large="gfx/leaders/FAL/米丽特.dds"
 			}
 		}
 		
@@ -191,7 +191,7 @@
 	}
 
 	FAL_heiyu={
-		name= heiyu
+		name= 黑羽
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/FAL/黑羽.png"
@@ -210,7 +210,7 @@
 	}
 
 	FAL_dailan={
-		name= dailan
+		name= 戴兰
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/FAL/戴兰.png"

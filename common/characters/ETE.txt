@@ -30,7 +30,7 @@
 	}
 
 	ETE_jiabilila={
-		name= jiabilila
+		name= 嘉比里拉
 		portraits={
 			civilian={
 				large="gfx/leaders/ETE/嘉比里拉.png"
@@ -55,7 +55,7 @@
 	}
 
 	ETE_zige={
-		name= zige
+		name= 紫歌
 		portraits={
 			civilian={
 				large="gfx/leaders/ETE/紫歌.png"
@@ -80,7 +80,7 @@
 	}
 
 	ETE_huanmo={
-		name= huanmo
+		name= 幻沫
 		portraits={
 			civilian={
 				large="gfx/leaders/ETE/幻沫.png"
@@ -105,7 +105,7 @@
 	}
 
 		ETE_baoweizhe={
-			name=baoweizhe
+			name=保卫者
 			portraits={
 				civilian={
 					large="gfx/leaders/ETE/保卫者.png"

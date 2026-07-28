@@ -4,10 +4,10 @@
 		name= 罗赛罗娜
 		portraits={
 			civilian={
-				large="gfx/leaders/AIS/罗赛罗娜.dds"
+				large="gfx/leaders/AIS/罗赛罗娜.png"
 			}
 			army = {   
-				large="gfx/leaders/AIS/罗赛罗娜.dds" 
+				large="gfx/leaders/AIS/罗赛罗娜.png" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		

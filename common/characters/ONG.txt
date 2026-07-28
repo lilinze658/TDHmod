@@ -1,6 +1,6 @@
 ﻿characters={ 
 	ONG_shaoxuan={
-		name=shaoxuan
+		name=邵宣
 		portraits={
 			civilian={
 				large="gfx/leaders/ONG/邵宣.png"
@@ -30,7 +30,7 @@
 	}
 
 	ONG_yamu={
-		name=yamu
+		name=雅木
 		portraits={
 			civilian={
 				large="gfx/leaders/ONG/雅木.png"
@@ -55,7 +55,7 @@
 	}
 
 	ONG_qinyun={
-		name=qinyun
+		name=青云
 		portraits={
 			civilian={
 				large="gfx/leaders/ONG/青云.png"
@@ -80,7 +80,7 @@
 	}
 
 	ONG_chenlingjing={
-		name=chenlingjing
+		name=陈玲静
 		portraits={
 			civilian={
 				large="gfx/leaders/ONG/陈玲静.png"

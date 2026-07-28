@@ -1,6 +1,6 @@
 ﻿characters={ 
 	NAN_anjingzhi={
-		name=anjingzhi
+		name=安靖之
 		portraits={
 			civilian={
 				large="gfx/leaders/NAN/安靖之.png"
@@ -30,7 +30,7 @@
 		}
 	}
 	NAN_xiali={
-		name=xiali
+		name=夏莉
 		portraits = {
 			army = {
 				large = "gfx/leaders/NAN/夏莉.png" 

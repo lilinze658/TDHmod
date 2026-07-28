@@ -7,7 +7,7 @@
 			}
 			army = {   
 				large="gfx/leaders/MOB/艾普蒂菲.png" 
-				small="gfx/leaders/MOB/艾普蒂菲内阁.png"
+				small="gfx/leaders/MOB/艾普蒂菲内阁.dds"
 			}
 		 
 		}
@@ -69,7 +69,7 @@
 				large="gfx/leaders/MOB/维木奈.png"
 			}
 			army = {    
-				small="gfx/leaders/MOB/维木奈内阁.png"
+				small="gfx/leaders/MOB/维木奈内阁.dds"
 			}
 
 		}
@@ -124,7 +124,7 @@
 				large="gfx/leaders/MOB/薇诺露娅.png"
 			}
 			army = {    
-				small="gfx/leaders/MOB/薇诺露娅内阁.png"
+				small="gfx/leaders/MOB/薇诺露娅内阁.dds"
 			}
 		}
 		advisor={	
@@ -271,7 +271,7 @@
 				large="gfx/leaders/MOB/梅瑟兰蒂.png"
 			}
 			army = {    
-				small="gfx/leaders/MOB/梅瑟兰蒂内阁.png"
+				small="gfx/leaders/MOB/梅瑟兰蒂内阁.dds"
 			}
 		}
 		advisor={	
@@ -522,7 +522,7 @@
 		name=薇莲三世
 		portraits = {
 			army = {
-				small="gfx/leaders/MOB/薇莲三世内阁.png"
+				small="gfx/leaders/MOB/薇莲三世内阁.dds"
 			}
 			civilian = {
 				large="gfx/leaders/MOB/薇莲三世.png"

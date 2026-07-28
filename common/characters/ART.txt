@@ -3,10 +3,10 @@
 		name=柳德米拉
 		portraits={
 			civilian={
-				large="gfx/leaders/ART/柳德米拉.png"
+				large="gfx/leaders/ART/柳德米拉.dds"
 			}
 			army = {   
-				large="gfx/leaders/ART/柳德米拉.png" 
+				large="gfx/leaders/ART/柳德米拉.dds" 
 				small="gfx/interface/ideas/XXX.png"
 		 	}
 		

@@ -1,6 +1,6 @@
 ﻿characters={ 
 	GUS_xinaiya={
-		name= xinaiya
+		name= 茜奈雅
 		portraits={
 			civilian={
 				large="gfx/leaders/GUS/茜奈雅.png"

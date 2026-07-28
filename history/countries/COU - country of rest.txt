@@ -87,9 +87,11 @@ recruit_character = COU_walundina
 recruit_character = COU_fating
 recruit_character = COU_mase
 recruit_character = COU_aerxipei
-recruit_character = CPU_wendi
+recruit_character = COU_biersi
 recruit_character = COU_xiatigute
 recruit_character = COU_feiluolunsi
+recruit_character = COU_yejing
+recruit_character = COU_zixie
 
 4636.1.1 = {
 

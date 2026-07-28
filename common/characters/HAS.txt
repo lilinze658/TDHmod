@@ -1,7 +1,7 @@
 ﻿characters={ 
 
 	HAS_aloy={
-		name= aloy
+		name= 爱洛依
 		portraits={
 			civilian={
 				large="gfx/leaders/HAS/爱洛依.png"
@@ -33,7 +33,7 @@
 	}
 
 	HAS_agilia={
-		name= ajiliya
+		name= 阿吉丽雅
 		portraits={
 			civilian={
 				large="gfx/leaders/HAS/阿吉丽雅.png"

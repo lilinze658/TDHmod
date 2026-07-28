@@ -1,6 +1,6 @@
 ﻿characters={ 
 	ANY_qingji={
-		name=qingji
+		name=青姬
 		portraits={
 			civilian={
 				large="gfx/leaders/ANY/青姬.png"
@@ -31,7 +31,7 @@
 	}
     #海军偶像
 	ANY_mieyazi={
-		name=mieyazi
+		name=咩亚子
 		portraits={
 			civilian={
 				large="gfx/leaders/ANY/咩亚子.png"
@@ -51,7 +51,7 @@
 	}
 
 	ANY_xiaodie={
-		name=xiaodie
+		name=咲蝶
 		portraits={
 			civilian={
 				large="gfx/leaders/ANY/咲蝶.png"

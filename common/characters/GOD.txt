@@ -1,6 +1,6 @@
 ﻿characters={ 
 	GOD_jieyi={
-		name=jieyi
+		name=洁依
 		portraits={
 			civilian={
 				large="gfx/leaders/GOD/洁依.png"
@@ -31,7 +31,7 @@
 	}
 
 	GOD_binhui={
-		name=binhui
+		name=彬惠
 		portraits={
 			civilian={
 				large="gfx/leaders/GOD/彬惠.png"

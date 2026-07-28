@@ -101,6 +101,10 @@ set_popularities = {
 recruit_character = DIV_zhuqiu
 recruit_character = DIV_Zhangxikai
 recruit_character = DIV_anbai
+recruit_character = DIV_wanghuacai
+recruit_character = DIV_huangbeiya
+recruit_character = DIV_lvzhilan
+recruit_character = DIV_suluona
 
 add_equipment_to_stockpile = {
 	type = light_tank_destroyer_chassis_1
