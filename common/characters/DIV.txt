@@ -68,20 +68,13 @@
 		name = DIV_An_Bai
 		portraits = {
 			army = {
-				large = GFX_Portrait_DIV_An_Bai
-				small = GFX_idea_advisor_DIV_An_Bai
+				large = GFX_Portrait_DIV_An_Bai_scientist
 			}
 		}
-		corps_commander = {
-			desc = DIV_AN_BAI_GENERAL_DESC
-			traits = {
-			}
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 5
-			legacy_id = 24
+		scientist = {
+			desc = DIV_AN_BAI_SCIENTIST_DESC
+			traits = { scientist_trait_armored_specialist scientist_trait_resourceful }
+			skills = { specialization_land = 2 }
 		}
 	}
 
@@ -91,6 +84,21 @@
 			navy = {
 				large = GFX_Portrait_DIV_Wang_Huacai
 				small = GFX_idea_advisor_DIV_Wang_Huacai
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			idea_token = DIV_Wang_Huacai
+			desc = DIV_WANG_HUACAI_ADVISOR_DESC
+			allowed = { original_tag = DIV }
+			available = {
+				#is_a_fascism_government = yes
+			}
+			cost = 50
+			traits = { navy_fleet_logistics_1 }
+			ai_will_do = {
+				base = 1.000
 			}
 		}
 		navy_leader = {
@@ -120,19 +128,20 @@
 				small = GFX_idea_advisor_DIV_Huang_Beiya
 			}
 		}
-		corps_commander = {
-			desc = DIV_HUANG_BEIYA_GENERAL_DESC
-			traits = {
-				armor_officer
-				career_officer
-				infantry_leader
+		advisor = {
+			slot = army_chief
+			ledger = army
+			idea_token = DIV_Huang_Beiya
+			desc = DIV_HUANG_BEIYA_ADVISOR_DESC
+			allowed = { original_tag = DIV }
+			available = {
+				#is_a_fascism_government = yes
 			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 4
-			legacy_id = 26
+			cost = 100
+			traits = { army_chief_organizational_2 }
+			ai_will_do = {
+				base = 1.000
+			}
 		}
 	}
 
@@ -196,6 +205,9 @@
 		portraits = {
 			civilian = {
 				small = GFX_idea_advisor_DIV_Jiang_Nayu
+			}
+			army = {
+				large = GFX_Portrait_DIV_Jiang_Nayu_scientist
 			}
 		}
 		advisor = {
