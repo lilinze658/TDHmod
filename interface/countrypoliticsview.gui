@@ -1,4 +1,5 @@
 guiTypes = {
+
 	containerWindowType = {
 		name = "countrypoliticsview"
 		position = { x=-606 y=78}	
@@ -7,10 +8,10 @@ guiTypes = {
 		hide_animation_type = accelerated
 		animation_time = 300	
 		size = { width=550 height=100%% }
-		
+
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
-		
+
 		background = {
 			name = "Background"		
 			quadTextureSprite ="GFX_tiled_plain_bg"
@@ -34,7 +35,7 @@ guiTypes = {
 			maxHeight = 20
 			fixedsize = yes
 		}		
-		
+
 		iconType ={
 			name ="pol_view_bg"
 			spriteType = "GFX_pol_view_bg"
@@ -55,7 +56,7 @@ guiTypes = {
 			position = { x = 350 y = 297 }
 			size = { width = 190 height = 80 }
 
-			
+
 			verticalScrollbar = "right_vertical_slider"
 
 			clipping = yes
@@ -63,7 +64,7 @@ guiTypes = {
 				name = "Background"		
 				spriteType ="GFX_tiled_window_1b_border"
 			}
-			
+
 			margin = {
 				top = 8
 				right = 10
@@ -78,7 +79,7 @@ guiTypes = {
 			}
 
 		}
-		
+
 		containerWindowType = {
 			name = "political_pie_chart"
 			position = { x= 270 y = 304 }
@@ -90,20 +91,20 @@ guiTypes = {
 				spriteType = "GFX_political_chart"
 				position = { x = 28 y = 5 }
 			}
-			
+
 			iconType ={
 				name ="pol_view_bg"
 				spriteType = "GFX_pol_piechart_overlay_63x63"
 				position = { x= -2 y = 1s }
 			}
 		}
-		
+
 		containerWindowType = {
 			name = "ruling_party_info"
 			position = { x = 88 y = 305 }
 			size = { width = 255 height = 60 }
 			clipping = no
-					
+
 #			instantTextboxType = {
 #				name = "party"
 #				position = { x = 9 y = 2 }
@@ -112,7 +113,7 @@ guiTypes = {
 #				maxWidth = 155
 #				maxHeight = 20
 #			}
-			
+
 			instantTextboxType = {
 				name = "ideology"
 				position = { x = 9 y = 8 }
@@ -121,7 +122,7 @@ guiTypes = {
 				maxWidth = 155
 				maxHeight = 20
 			}
-			
+
 			instantTextboxType = {
 				name = "elections"
 				position = { x = 9 y = 29 }
@@ -131,19 +132,7 @@ guiTypes = {
 				maxHeight = 32
 				vertical_alignment = center
 			}
-			
-			instantTextboxType = {
-				name = "faction_name"
-				position = { x = 105 y = -45 }
-				font = "hoi_18mbs"
-				text = "faction"
-				maxWidth = 195
-				maxHeight = 20
-				multiline = no
-				format = left
-			}
-			
-			#创建阵营		
+
             containerWindowType = {
 				name = "faction"
 				position = { x = 100 y = -50}
@@ -182,14 +171,14 @@ guiTypes = {
 						alwaystransparent = yes
 					}														
 				}
-				
+
 				buttonType = {
 					name = "view_factions_button"
 					quadTextureSprite = "GFX_icon_button_32x32"
 					position = { x = 180 y = -1}
 					pdx_tooltip = "VIEW_FACTION"
 				}
-				
+
 				iconType = {
 					name = "view_faction_icon"
 					spriteType = "GFX_relation_faction"
@@ -271,7 +260,7 @@ guiTypes = {
 					position = { x = 0 y = 0 }
 					quadTextureSprite = "GFX_show_power_balance_button"
 				}
-				
+
 				iconType = {
 					name = "show_power_balance_glow"
 					position = { x = 0 y = 0 }
@@ -290,7 +279,7 @@ guiTypes = {
 					maxHeight = 20
 					alwaystransparent = yes
 				}	
-				
+
 				instantTextboxType = {
 					name = "power_balance_levels"
 					format = center
@@ -302,7 +291,7 @@ guiTypes = {
 					maxHeight = 20
 					alwaystransparent = yes
 				}	
-				
+
 				iconType = {
 					name = "power_balance_ICON"
 					position = { x = 12 y = 4 }
@@ -312,21 +301,54 @@ guiTypes = {
 				}
 			}			
 		}
-						
+
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 170 y = 242 }
-			size = { width = 245 height = 55 }
+			position = { x = 0 y = 430 }
+			size = { width = 100%% height = 75 }
 			clipping = no
 
 			background = {
 				name = "Background"		
+				quadTextureSprite ="GFX_tiled_window_1b_border"
+			}
+			containerWindowType = {
+				name = "backgroundwrapper"
+				position = { x = 280 y = 12 }
+				size = { width = 230 height = 50 }
+			background = {
+				name = "Background"		
 				quadTextureSprite ="GFX_mini_bg"
 			}
-			
+		}
+
+			instantTextboxType = {
+			name = "overlord_name"	
+			font = "hoi_16mbs"
+			position = { x = 80 y = 20 }
+			maxWidth = 180
+			maxHeight = 40
+			fixedsize = yes
+			}	
+
+			buttonType = {
+			name = "autonomy_country_flag"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x= 20 y = 21 }
+			Orientation = "UPPER_LEFT"
+			}
+
+			iconType ={
+			name ="country_flag_frame"
+			spriteType = "GFX_small_flag_frame_thin2"
+			position = { x= 15 y = 17 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+			}		
+
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = 92 y = 8 }
+				position = { x = 362 y = 17 }
 				font = "hoi_16mbs"
 				text = "autonomy"
 				fixedsize = yes
@@ -334,87 +356,87 @@ guiTypes = {
 				maxHeight = 20		
 				format = center
 			}
-			
+
 			buttonType = {
 				name = "prev_autonomy_level"
-				position = { x = 75 y = 9 }
+				position = { x = 345 y = 18}
 				quadTextureSprite = "GFX_autonomy_level_button"
 			}
-			
+
 			iconType = {
 				name = "prev_level_glow"
-				position = { x = 63 y = 2 }
+				position = { x = 333 y = 11 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
 				scale = 0.5
 			}
-			
+
 			iconType = {
 				name = "prev_autonomy_level_icon"
-				position = { x = 60 y = 9 }
+				position = { x = 330 y = 18 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 			}
-			
+
 			iconType = {
 				name = "autonomy_progress"
 				spriteType = "GFX_subject_progressbar"
-				position = { x = 95 y = 29 }
+				position = { x = 365 y = 38 }
 				frame = 100
 			}
-			
+
 			buttonType = {
 				name = "next_autonomy_level"
-				position = { x = 190 y = 5 }
+				position = { x = 460 y = 14 }
 				quadTextureSprite = "GFX_occupation_policy_button_selected"
 			}
-			
+
 			iconType = {
 				name = "next_level_glow"
-				position = { x = 179 y = -2 }
+				position = { x = 449 y = 7 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
 				scale = 0.5
 			}
-			
+
 			iconType = {
 				name = "next_autonomy_level_icon"
-				position = { x = 195 y = 9 }
+				position = { x = 465 y = 18 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
 
 			iconType = {
 				name = "continuous_glow"
-				position = { x = 4 y = -2 }
+				position = { x = 274 y = 12 }
 				quadTextureSprite = "GFX_ongoing_generic_glow_yellow"
 				alwaystransparent = yes				
 				scale = 0.5
 			}
-			
+
 			iconType = {
 				name = "current_autonomy_level_icon"
-				position = { x = 20 y = 10 }
+				position = { x = 290 y = 19 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 			}
 		}
-		
+
 #		buttonType = {
 #			name = "show_subjects_button"
 #			position = { x = 482 y = 246 }
 #			quadTextureSprite = "GFX_subject_button"
 #		}
-		
+
 		containerWindowType = {
 			name = "active_goal"
 			position = { x = 179 y = 48 }
 			size = { width = 330 height = 50 }
 			clipping = no
-						
+
 			background = {
 				name = "Background"		
 				spriteType ="GFX_pol_goal_bg"
 			}
-			
+
 			buttonType = {
 				name = "add_national_goal_button"
 				position = { x = 100 y = 7 }
@@ -428,13 +450,13 @@ guiTypes = {
 				spriteType = "GFX_nat_spirit_glow_overlay"
 				alwaystransparent = yes
 			}			
-			
+
 			iconType = {
 				name = "pol_power_icon"
 				position = { x = 105 y = 55 }
 				quadTextureSprite = "GFX_pol_power_icon"
 			}
-		
+
 			instantTextboxType = {
 				name = "focus_cost"
 				position = { x = 132 y = 60 }
@@ -452,7 +474,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				scale = 0.9
 			}
-			
+
 			iconType = {
 				name = "goal_icon"
 				position = { x = 47 y = 48 }
@@ -466,7 +488,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_ongoing_focus_goal_icon"
 				alwaystransparent = yes
 			}
-			
+
 			buttonType = {
 				name = "drop_continuous_focus_button"
 				position = { x = 327 y = 12 }
@@ -482,7 +504,7 @@ guiTypes = {
 				scale = 0.9
 				clicksound = click_default
 			}
-			
+
 			instantTextboxType = {
 				name = "title"
 				position = { x = 128 y = 34 }
@@ -494,13 +516,13 @@ guiTypes = {
 				alwaystransparent = yes
 				vertical_alignment = center				
 			}
-			
+
 			iconType = {
 				name = "progress"
 				spriteType = "GFX_activegoal_progress"
 				position = { x=112 y = 72 }		
 			}
-			
+
 			iconType = {
 				name = "progress_frame"
 				position = { x = 110 y = 72 }
@@ -513,7 +535,7 @@ guiTypes = {
 			position = { x = 81 y = 153 }
 			size = { width = 360 height = 50 }
 			clipping = no
-						
+
 			instantTextboxType = {
 				name = "title"
 				position = { x = 110 y = -2 }
@@ -523,19 +545,19 @@ guiTypes = {
 				maxHeight = 20
 				alwaystransparent = yes
 			}
-			
-			
+
+
 			containerWindowType = {
 				name = "national_spirit_container"
 				position = { x = 99 y = 16 }
 				size = { width = 364 height = 74 }
 				verticalScrollbar = "right_vertical_slider"
-				
+
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_tiled_window_transparent"
 				}
-				
+
 				gridboxtype = {
 					name = "spirit_grid"
 					position = { x = 1 y = 2 }
@@ -559,7 +581,7 @@ guiTypes = {
 			position = { x = 18 y = 58 }
 			spriteType = "GFX_leader_unknown"
 		}
-		
+
 		iconType = {
 			name = "leader_frame2"
 			spriteType = "GFX_pol_leader_frame"
@@ -577,7 +599,7 @@ guiTypes = {
 			format = center
 			vertical_alignment = center
 		}
-		
+
 		containerWindowType = {
 			name = "ideas"
 			position = { x = 0 y = 425 }
@@ -586,14 +608,14 @@ guiTypes = {
 			scroll_wheel_factor = 40
 			smooth_scrolling = yes
 			margin = { top = 14 bottom = 13}
-		
+
 			background = {
 				name = "Background"
 				#quadTextureSprite ="GFX_tiled_window_2b_border"
 				#quadTextureSprite ="GFX_tiled_window_1b_border"
 				quadTextureSprite ="GFX_tiled_window_1b_border"
 			}
-			
+
 			gridBoxType = {
 				name = "idea_categories_grid"
 				position = { x = 17 y = 0 }
@@ -602,8 +624,6 @@ guiTypes = {
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
 			}
-
-
 		}
 
 		iconType ={
@@ -613,7 +633,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			hide = yes
 		}	
-		
+
 		buttonType = {
 			name = "close_button"
 			position = { x = -42 y = 9 }
@@ -656,7 +676,7 @@ guiTypes = {
 			maxWidth = 122
 			alwaystransparent = yes
 		}
-		
+
 		containerWindowType = {
 			name = "subjects_button_container"
 			position = { x = 367 y = 390 }
@@ -687,7 +707,7 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
-		
+
 		buttonType = {
 			name = "show_exiles_collaborations_button"
 			position = { x = 190 y = 390 }
@@ -708,7 +728,7 @@ guiTypes = {
 			alwaystransparent = yes
 			format = center
 		}
-				
+
 		iconType = {
 			name = "icon_exiled_collaborations_governments"
 			spriteType = "GFX_icon_exiled_governments"
@@ -721,13 +741,13 @@ guiTypes = {
 			position = { x = 12 y = 391 }
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "country_politics_idea_category_entry"
 		position = { x = 0 y = 0 }
 		size = { width=550 height= 100 }
 		clipping = no
-		
+
 		iconType ={
 			name ="category_header"
 			spriteType = "GFX_category_header"
@@ -740,8 +760,8 @@ guiTypes = {
 			position = { x=4 y=8 }
 			Orientation = "UPPER_LEFT"
 		}
-		
-		
+
+
 		instantTextboxType = {
 			name = "name"
 			position = { x = 70 y = 14 }
@@ -750,7 +770,7 @@ guiTypes = {
 			maxWidth = 300
 			maxHeight = 20
 		}
-		
+
 		gridboxtype = {
 			name = "ideas_grid"
 			position = { x = 17 y = 46 }
@@ -760,8 +780,8 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 	}
-	
-	
+
+
 	containerWindowType = {
 		name = "political_ideas_window"
 		position = { x = -356 y = 80 }	
@@ -771,12 +791,12 @@ guiTypes = {
 		animation_time = 300
 		size = { width=500 height=590 }
 		show_sound = open_sub_window
-		
+
 		background = {
 			name = "Background"		
 			quadTextureSprite ="GFX_tiled_plain_bg"
 		}
-		
+
 		instantTextboxType = {
 			name = "title"
 			position = { x = 0 y = 4 }
@@ -799,7 +819,7 @@ guiTypes = {
 			name = "ideas"
 			position = { x = 0 y = 50 }
 			size = { width=500 height=100%% }	
-			
+
 			containerWindowType = {
 				name = "grid"
 				position = { x = 0 y = -8 }
@@ -840,7 +860,7 @@ guiTypes = {
 				}
 			}
 		}
-		
+
 		buttonType = {
 			name = "close"
 			position = { x = -50 y = 5 }
@@ -851,23 +871,23 @@ guiTypes = {
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 		}
-		
+
 	}
-	
+
 	containerWindowType = {
 		name = "idea_group"
 		position = { x = 0 y = 0 }
 		size = { width=500 height=30 }
 		#verticalScrollbar = "right_vertical_slider"
 		#margin = { top = 14 bottom = 12}
-		
+
 		iconType = {
 			name = "title_bar"
 			position = { x = 244 y = 0 }
 			quadTextureSprite = "GFX_idea_group_header"
 			centerposition = yes			
 		}
-		
+
 		instantTextboxType = {
 			name = "title"
 			position = { x = 135 y = -10 }
@@ -877,7 +897,7 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 		}
-		
+
 		instantTextboxType = {
 			name = "limit"
 			position = { x = 250 y = -10 }
@@ -887,7 +907,7 @@ guiTypes = {
 			maxHeight = 20
 			format = right
 		}
-		
+
 		gridBoxType = {
 			name = "ideas_grid"
 			position = { x = 10 y = 25 }
@@ -898,7 +918,7 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "political_idea_entry"
 		size = { width = 53 height = 53 }
@@ -911,14 +931,14 @@ guiTypes = {
 			scale = 0.65			
 			alwaystransparent = yes
 		}		
-		
+
 		buttonType = {
 			name = "add_idea_button"
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_add_pol_idea_button"
 			clicksound = click_default
 		}
-		
+
 		iconType = {
 			name = "idea_traits"
 			position = { x = 43 y = 46 }
@@ -942,18 +962,18 @@ guiTypes = {
 			clicksound = click_default
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "political_selectable_idea_entry_grid"
 		size = { width = 231 height = 74 }
 		clipping = no
-			
-		background = {
+
+		buttonType = {
 			name = "idea_entry_bg"
 			position = { x = 3 y = 0 }
 			spriteType = "GFX_idea_entry_bg_2"
 		}
-			
+
 		iconType = {
 			name = "icon"
 			position = { x = 42 y = 38 }
@@ -970,13 +990,13 @@ guiTypes = {
 			alwaystransparent = yes
 			frame = 1
 		}
-		
+
 		containerWindowType = {
 		    name = "traits_container"
 		    position = { x = 76 y = 0 }	
 		    show_position = { x = 0 y = 0 }
 			size = { width=170 height=100%% }
-			
+
 			instantTextboxType = {
 				name = "name"
 				position = { x = 0 y = 10 }
@@ -1001,7 +1021,7 @@ guiTypes = {
 				alwaystransparent = yes			
 			}
 		}
-		
+
 		instantTextboxType = {
 			name = "cost"
 			position = { x = 80 y = 47 }
@@ -1029,13 +1049,13 @@ guiTypes = {
 		name = "political_selectable_idea_entry_list"
 		size = { width = 462 height = 74 }
 		clipping = no
-			
-		background = {
+
+		buttonType = {
 			name = "idea_entry_bg"
 			position = { x = 3 y = 0 }
 			spriteType = "GFX_idea_entry_bg_3"
 		}
-			
+
 		iconType = {
 			name = "icon"
 			position = { x = 42 y = 38 }
@@ -1052,13 +1072,13 @@ guiTypes = {
 			alwaystransparent = yes
 			frame = 1
 		}
-		
+
 		containerWindowType = {
 		    name = "traits_container"
 		    position = { x = 84 y = 0 }	
 		    show_position = { x = 0 y = 0 }
 			size = { width=170 height=100%% }
-			
+
 			instantTextboxType = {
 				name = "name"
 				position = { x = 0 y = -13 }
@@ -1084,7 +1104,7 @@ guiTypes = {
 				alwaystransparent = yes			
 			}
 		}
-		
+
 		instantTextboxType = {
 			name = "cost"
 			position = { x = 200 y = 32 }
@@ -1107,7 +1127,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "political_party_info_entry"
 		size = { width = 330 height = 18 }
@@ -1118,19 +1138,19 @@ guiTypes = {
 			position = { x = 60 y = 5 }
 			spriteType = "GFX_leading_pol_party_bg"
 		}		
-		
+
 		iconType = {
 			name = "color_block_bg"
 			position = { x = 60 y = 2 }
 			spriteType = "GFX_pol_party_colour_bg"
 		}
-		
+
 		iconType = {
 			name = "color_block"
 			position = { x = 64 y = 6 }
 			spriteType = "GFX_pol_party_colour"
 		}
-		
+
 		#instantTextboxType = {
 		#	name = "score"
 		#	position = { x = 160 y = 4 }
@@ -1139,7 +1159,7 @@ guiTypes = {
 		#	maxWidth = 60
 		#	maxHeight = 18
 		#}
-			
+
 		instantTextboxType = {
 			name = "name"
 			position = { x = 82 y = 4 }
@@ -1150,7 +1170,7 @@ guiTypes = {
 			maxHeight = 18
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "manage_subjects_window"
 		position = { x = -356 y = 80 }	
@@ -1166,7 +1186,7 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite = "GFX_tiled_plain_bg"
 			}
-		
+
 		containerWindowType = {
 		    name = "subject_items_window"
 		    position = { x = -356 y = 78 }	
@@ -1179,7 +1199,7 @@ guiTypes = {
 			scroll_wheel_factor = 40
 			smooth_scrolling = yes
 			margin = { top = 15 bottom = 15}
-		
+
 			background = {
 				name = "Background"
 				quadTextureSprite = "GFX_tiled_window_1b_border"
@@ -1194,14 +1214,14 @@ guiTypes = {
 				format = UPPER_LEFT
 			}
 		}
-		
+
 		iconType ={
 			name ="manage_occupied_header_bg"
 			spriteType = "GFX_header_bg"
 			position = { x= 7 y = 5 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		buttonType = {
 			name = "close_button"
 			position = { x = -40 y = 7 }
@@ -1224,20 +1244,20 @@ guiTypes = {
 			maxHeight = 20
 			format = left
 		}		
-		
+
 	}
-		
+
 	containerWindowType = {
 		name = "subject_item"
 		position = { x = 0 y = 0}
 		size = { width=494 height=87 }
 		clipping = no
-		
+
 		background = {
 			name = "Background"
 			quadTextureSprite = "GFX_subjects_entry_bg"
 		}
-		
+
 		buttonType = {
 			name = "autonomy_country_flag"
 			quadTextureSprite ="GFX_player_flag"
@@ -1252,7 +1272,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "autonomy_country_name"
 			position = { x = 100 y = 40 }
@@ -1263,13 +1283,13 @@ guiTypes = {
 			format = center
 			vertical_alignment = center			
 		}
-		
+
 		containerWindowType = {
 			name = "autonomy_progress_view"
 			position = { x = 240 y = 20 }
 			size = { width = 255 height = 60 }
 			clipping = no
-			
+
 			instantTextboxType = {
 				name = "current_autonomy_name"
 				position = { x = -130 y = -8 }
@@ -1279,7 +1299,7 @@ guiTypes = {
 				maxHeight = 20
 				format = right		
 			}
-			
+
 			buttonType = {
 				name = "prev_autonomy_level"
 				position = { x = 72 y = -5 }
@@ -1293,27 +1313,27 @@ guiTypes = {
 				alwaystransparent = yes				
 				scale = 0.5
 			}
-			
+
 			iconType = {
 				name = "prev_autonomy_level_icon"
 				position = { x = 77 y = 0 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
-			
+
 			iconType = {
 				name = "autonomy_progress"
 				spriteType = "GFX_subject_progressbar"
 				position = { x = 119 y = 9 }
 				frame = 100
 			}
-			
+
 			buttonType = {
 				name = "next_autonomy_level"
 				position = { x = 214 y = -5 }
 				quadTextureSprite = "GFX_occupation_policy_button_selected"
 			}
-			
+
 			iconType = {
 				name = "next_level_glow"
 				position = { x = 202 y = -12 }
@@ -1321,13 +1341,13 @@ guiTypes = {
 				alwaystransparent = yes				
 				scale = 0.5
 			}
-			
+
 			iconType = {
 				name = "next_autonomy_level_icon"
 				position = { x = 219 y = 0 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 			}
-			
+
 			iconType = {
 				name = "current_autonomy_level_icon"
 				position = { x = 31 y = -16 }
@@ -1351,7 +1371,7 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite = "GFX_tiled_plain_bg"
 		}
-	
+
 		containerWindowType = {
 			name = "exile_items_window"
 			position = { x = -356 y = 78 }	
@@ -1364,7 +1384,7 @@ guiTypes = {
 			scroll_wheel_factor = 40
 			smooth_scrolling = yes
 			margin = { top = 15 bottom = 15}
-		
+
 			background = {
 				name = "Background"
 				quadTextureSprite = "GFX_tiled_window_1b_border"
@@ -1379,14 +1399,14 @@ guiTypes = {
 				format = UPPER_LEFT
 			}
 		}
-		
+
 		iconType ={
 			name ="title_bg"
 			spriteType = "GFX_header_bg"
 			position = { x= 7 y = 5 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		buttonType = {
 			name = "close_button"
 			position = { x = -40 y = 7 }
@@ -1416,12 +1436,12 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		size = { width=494 height=65 }
 		clipping = no
-		
+
 		background = {
 			name = "Background"
 			quadTextureSprite = "GFX_collaboration_entry_bg"
 		}
-		
+
 		buttonType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_player_flag"
@@ -1436,7 +1456,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "country_name"
 			position = { x = 107 y = 10 }
@@ -1455,7 +1475,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "surrender_text"
 			position = { x= 127 y = 33 }
@@ -1467,20 +1487,20 @@ guiTypes = {
 			format = left
 			vertical_alignment = center			
 		}
-			
+
 		iconType = {
 			name = "bg"
 			spriteType = "GFX_collaboration_bar_large_bg"
 			position = { x = 290 y = 30 }
 		}
-		
+
 		iconType = {
 			name = "progress"
 			spriteType = "GFX_collaboration_bar_large"
 			position = { x = 296 y = 38 }
 			frame = 100
 		}
-		
+
 		gridboxtype = {
 			name = "modifier_container"
 			position = { x = 180 y = 5 }
@@ -1489,18 +1509,18 @@ guiTypes = {
 			max_slots_vertical = 1
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "exile_item"
 		position = { x = 0 y = 0 }
 		size = { width=494 height=95 }
 		clipping = no
-		
+
 		background = {
 			name = "Background"
 			quadTextureSprite = "GFX_government_in_exile_entry_bg"
 		}
-		
+
 		buttonType = {
 			name = "exile_country_flag"
 			quadTextureSprite ="GFX_player_flag"
@@ -1515,7 +1535,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "exile_country_name"
 			position = { x = 107 y = 10 }
@@ -1591,7 +1611,7 @@ guiTypes = {
 			name = "exile_legitimacy_progress_container"
 			position = { x = -230 y = 4 }
 			Orientation = UPPER_RIGHT
-			
+
 			iconType = {
 				name = "exile_legitimacy_progress_bg"
 				spriteType = "GFX_government_in_exile_progressbar_bg"
@@ -1683,14 +1703,14 @@ guiTypes = {
 		name = "occupier_flag_entry"
 		position = { x=0 y=0}	
 		size = { width=45 height=31 }
-		
+
 		iconType = {
 			name = "flag"
 			quadTextureSprite ="GFX_flag_small2"
 			position = { x= 51 y = 7 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		iconType ={
 			name ="small_flag_frame_thin"
 			spriteType = "GFX_small_flag_frame_thin"
@@ -1698,7 +1718,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}		
 	}
-	
+
 	containerWindowType = {
 		name = "manage_occupied_window"
 		position = { x = -356 y = 80 }	
@@ -1714,14 +1734,14 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite = "GFX_tiled_window_1b_border"
 			}
-		
+
 		iconType ={
 			name ="manage_occupied_header_bg"
 			spriteType = "GFX_header_bg"
 			position = { x= 5 y = 3 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		buttonType = {
 				name = "close_button"
 				position = { x = -42 y = 5 }
@@ -1743,7 +1763,7 @@ guiTypes = {
 			maxHeight = 20
 			format = left
 		}
-		
+
 	containerWindowType = {
 		name = "occupied_entries_window"
 		position = { x = -356 y = 78 }	
@@ -1754,7 +1774,7 @@ guiTypes = {
 		clipping = yes
 		verticalScrollbar = "right_vertical_slider"
 		margin = { top = 15 bottom = 15}
-		
+
 			background = {
 				name = "Background"
 				quadTextureSprite = "GFX_tiled_window_1b_border"
@@ -1770,18 +1790,18 @@ guiTypes = {
 			}
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "occupied_territory_entry"
 		position = { x = 0 y = 0}
 		size = { width=494 height=100 }
 		clipping = no
-		
+
 		background = {
 			name = "Background"
 			quadTextureSprite = "GFX_occupied_territory"
 		}
-		
+
 		buttonType = {
 			name = "release"
 			position = { x = 323 y = 36 }
@@ -1790,7 +1810,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			buttonText = "RELEASE"
 			}
-		
+
 		buttonType = {
 			name = "occupied_country_flag"
 			quadTextureSprite ="GFX_player_flag"
@@ -1805,7 +1825,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "occupied_country_name"
 			position = { x = 100 y = 24 }
@@ -1826,7 +1846,7 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 		}
-		
+
 		instantTextboxType = {
 			name = "occupation_policy"
 			position = { x = 340 y = 4 }
@@ -1837,7 +1857,7 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 		}
-		
+
 		gridboxtype = {
 			name = "occupy_policy_grid"
 			position = { x = -40 y = 62 }
@@ -1847,13 +1867,13 @@ guiTypes = {
 			format = UPPER_LEFT
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "occupy_policy_entry"
 		position = { x = 0 y = 0}
 		size = { width= 42 height=82 }
 		clipping = no
-		
+
 		buttonType = {
 			name = "occupation_policy"
 			position = { x= 0 y = 0 }
@@ -1861,7 +1881,7 @@ guiTypes = {
 			buttonFont = "hoi_18mbs"
 			Orientation = "UPPER_RIGHT"
 		}
-		
+
 		iconType ={
 			name ="occupation_policy_overlay"
 			quadTextureSprite = "GFX_occupation_policy_button_selected"
@@ -1869,7 +1889,7 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			alwaystransparent = yes
 		}
-				
+
 		buttonType ={
 			name ="occupation_policy_icon"
 			quadTextureSprite = "GFX_occupation_policy_icon_strip"
@@ -1878,6 +1898,6 @@ guiTypes = {
 			frame = 1
 			alwaystransparent = yes
 		}		
-		
+
 	}
 }
