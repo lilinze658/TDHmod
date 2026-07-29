@@ -1,4 +1,4 @@
-capital = 231
+capital = 621
 
 ########################################
 ######### - Section 01: Base - #########
@@ -107,6 +107,13 @@ add_ideas = {
     weay_3
     gyea_1
 	### - Country - ###
+	secluded_isolation
+	undisturbed_isolation
+
+	DIV_regent_government
+	DIV_Li_Suwen_idea
+	DIV_close_country
+	DIV_general_post_and_telegraph_office
 }
 ### - Character - ###
 recruit_character = DIV_Zhu_Qiu

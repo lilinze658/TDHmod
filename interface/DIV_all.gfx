@@ -33,6 +33,11 @@ SpriteTypes = {
 		texturefile = "gfx/leaders/DIV/Portrait_DIV_Jiang_Nayu_scientist.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_DIV_Li_Suwen"
+		texturefile = "gfx/leaders/DIV/Portrait_DIV_Li_Suwen.png"
+	}
+	### - Character Small - ###
+	spriteType = {
 		name = "GFX_idea_advisor_DIV_Huang_Beiya"
 		texturefile = "gfx/interface/ideas/idea_advisor_DIV_Huang_Beiya.png"
 	}
@@ -59,5 +64,14 @@ SpriteTypes = {
 	spriteType = {
 		name = "GFX_idea_advisor_DIV_Zhu_Qiu"
 		texturefile = "gfx/interface/ideas/idea_advisor_DIV_Zhu_Qiu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_advisor_DIV_Li_Suwen"
+		texturefile = "gfx/interface/ideas/idea_advisor_DIV_Li_Suwen.png"
+	}
+	### - ideas - ###
+	spriteType = {
+		name = "GFX_idea_DIV_Li_Suwen_idea"
+		texturefile = "gfx/interface/ideas/idea_DIV_Li_Suwen_idea.png"
 	}
 }
