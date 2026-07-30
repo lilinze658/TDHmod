@@ -107,7 +107,7 @@ add_ideas = {
     weay_3
     gyea_1
 	### - Country - ###
-	closed_economy
+	secluded_isolation
 	undisturbed_isolation
 
 	DIV_regent_government

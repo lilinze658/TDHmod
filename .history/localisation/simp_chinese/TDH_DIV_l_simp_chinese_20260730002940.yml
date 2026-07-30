@@ -1,6 +1,4 @@
 ﻿l_simp_chinese:
- computing_tech_research: "计算机技术研究速度"
- 
  DIV_Zhu_Qiu: "朱秋"
  DIV_Zhang_Xikai: "张希凯"
  DIV_An_Bai: "安白"
@@ -30,7 +28,6 @@
  DIV_Li_Suwen_idea: "李素问"
  DIV_Li_Suwen_idea_desc: "§Y生于：§L显庆五年九月十二，神州、天都§!\n种族：§L人类§!\n背景：§L§!§!"
  DIV_Li_Suwen_idea_mtt: "幼主今方§Y[?character_age]§!，待其§Y十五§!行加冠之礼，便可亲揽万机……"
- DIV_general_post_and_telegraph_office: "邮政与电报总局"
  
  DIV_national_railway_administration: "神州铁路总局"
  DIV_has_consolidated_railway_flag: "已经或正在整合§Y各地铁路部门§!"
