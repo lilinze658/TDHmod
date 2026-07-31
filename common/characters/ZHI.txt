@@ -1,57 +1,60 @@
-﻿characters={ 
-	ZHI_zhanghaigui={
-		name=zhanghaigui
-		portraits={
-			civilian={
-				large="gfx/leaders/ZHI/张海桂.png"
+﻿characters = {
+	ZHI_Zhang_Haigui = {
+		name = ZHI_Zhang_Haigui
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ZHI_Zhang_Haigui
 			}
-			army = {   
-				large="gfx/leaders/ZHI/张海桂.png" 
-				small="gfx/interface/ideas/XXX.png"
+			army = {
+				large = GFX_Portrait_ZHI_Zhang_Haigui
+				small = GFX_idea_advisor_ZHI_Zhang_Haigui
 			}
-		
 		}
-		country_leader={
-		desc = "ZHI_zhanghaigui_APDF_DES"
-				 traits = {  }
-				ideology= despotism 
-				expire="4999.1.1.1"
-				id=-1
+		country_leader = {
+			ideology = despotism
+			traits = {
 			}
+			desc = PORTRAIT_ZHI_ZHANG_HAIGUI_DESC
+			expire = "4999.1.1.1"
+			id = -1
+		}
 		corps_commander = {
-		desc = "ZHI_zhanghaigui_APDF_DES"
-			legacy_id = 228
-			traits = { trait_cautious infantry_expert naval_liason improvisation_expert }
+			desc = ZHI_ZHANG_HAIGUI_GENERAL_DESC
+			traits = {
+				trait_cautious
+				infantry_expert
+				naval_liason
+				improvisation_expert
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 5
+			legacy_id = 228
 		}
 	}
-
-	ZHI_guqin={
-		name=guqin
-		portraits={
-			civilian={
-				large="gfx/leaders/ZHI/孤晴.png"
+	
+	ZHI_Gu_Qing = {
+		name = ZHI_Gu_Qing
+		portraits = {
+			navy = {
+				large = GFX_Portrait_ZHI_Gu_Qing
+				small = GFX_idea_advisor_ZHI_Gu_Qing
 			}
-			army = {   
-				large="gfx/leaders/ZHI/孤晴.png" 
-				small="gfx/interface/ideas/XXX.png"
-			}
-		
 		}
-		
 		navy_leader = {
-		desc = "ZHI_guqin_APDF_DES"
-			legacy_id = 229
-			traits = { naval_lineage destroyer_leader  }
+			desc = ZHI_Gu_Qing_GENERAL_DESC
+			traits = {
+				naval_lineage
+				destroyer_leader
+			}
 			skill = 3
 			attack_skill = 2
 			defense_skill = 3
 			maneuvering_skill = 3
-			coordination_skill  = 4
+			coordination_skill = 4
+			legacy_id = 229
 		}
 	}
 }

@@ -1,82 +1,103 @@
-﻿characters={ 
-	WEI_yuanfupei={
-		name=yuanfupei
-		portraits={
-			civilian={
-				large="gfx/leaders/WEI/袁芙茜.png"
+﻿characters = {
+	WEI_Yuan_Fuxi = {
+		name = WEI_Yuan_Fuxi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_WEI_Yuan_Fuxi
 			}
-			army = {   
-				large="gfx/leaders/WEI/袁芙茜.png" 
-				small="gfx/interface/ideas/XXX.png"
+			army = {
+				large = GFX_Portrait_WEI_Yuan_Fuxi
+				small = GFX_idea_advisor_WEI_Yuan_Fuxi
 			}
-		
 		}
-		country_leader={
-		desc = "WEI_yuanfupei_APDF_DES"
-				 traits = {  }
-				ideology= despotism 
-				expire="4999.1.1.1"
-				id=-1
+		country_leader = {
+			ideology = despotism
+			traits = {
 			}
+			desc = PORTRAIT_WEI_Yuan_Fuxi_DESC
+			expire = "4999.1.1.1"
+			id = -1
+		}
 		corps_commander = {
-		desc = "WEI_yuanfupei_APDF_DES"
-			legacy_id = 221
-			traits = { armor_officer panzer_expert winter_expert swamp_fox }
+			desc = WEI_Yuan_Fuxi_GENERAL_DESC
+			traits = {
+				armor_officer
+				panzer_expert
+				winter_expert
+				swamp_fox
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
+			legacy_id = 221
 		}
 	}
 
-	WEI_guilin={
-		name=guilin
-		portraits={
-			civilian={
-				large="gfx/leaders/WEI/桂琳.png"
+	WEI_Gui_Lin = {
+		name = WEI_Gui_Lin
+		portraits = {
+			army = {
+				large = GFX_Portrait_WEI_Gui_Lin
+				small = GFX_idea_advisor_WEI_Gui_Lin
 			}
-			army = {   
-				large="gfx/leaders/WEI/桂琳.png" 
-				small="gfx/interface/ideas/XXX.png"
-			}
-		
 		}
-		
 		corps_commander = {
-		desc = "WEI_guilin_APDF_DES"
-			legacy_id = 222
-			traits = { bearer_of_artillery }
+			desc = WEI_Gui_Lin_GENERAL_DESC
+			traits = {
+				bearer_of_artillery
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 2
+			legacy_id = 222
 		}
 	}
 
-	WEI_linfang={
-		name=linfang
-		portraits={
-			civilian={
-				large="gfx/leaders/WEI/林芳.png"
+	WEI_Lin_Fang = {
+		name = WEI_Lin_Fang
+		portraits = {
+			navy = {
+				large = GFX_Portrait_WEI_Lin_Fang
+				small = GFX_idea_advisor_WEI_Lin_Fang
 			}
-			army = {   
-				large="gfx/leaders/WEI/林芳.png" 
-				small="gfx/interface/ideas/XXX.png"
-			}
-		
 		}
-		
 		navy_leader = {
-		desc = "WEI_linfang_APDF_DES"
-			legacy_id = 223
-			traits = { bold green_water_expert search_pattern_expert }
+			desc = WEI_Lin_Fang_GENERAL_DESC
+			traits = {
+				bold
+				green_water_expert
+				search_pattern_expert
+			}
 			skill = 3
 			attack_skill = 2
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 2
+			legacy_id = 223
+		}
+	}
+
+	WEI_Pa_Zhen = {
+		name = WEI_Pa_Zhen
+		portraits = {
+			navy = {
+				large = GFX_Portrait_WEI_Pa_Zhen
+				small = GFX_idea_advisor_WEI_Pa_Zhen
+			}
+		}
+		navy_leader = {
+			desc = WEI_Pa_Zhen_GENERAL_DESC
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
 }

@@ -43,7 +43,6 @@ if = {
 		}
 	}
 }
-set_oob = FEN_1936
 ### - Warship(MTG) - ###
 if = {
 	limit = { TDH_has_dlc_mtg = yes }
@@ -57,7 +56,6 @@ if = {
 		}
 	}
 }
-set_naval_oob = FEN_naval_1936
 ### - Plane(BBA) - ###
 if = {
 	limit = { TDH_has_dlc_bba = yes }
@@ -101,11 +99,11 @@ add_to_faction = ELT
 ### - Idea - ###
 add_ideas = { 
 	### - Social Development - ###
-    pony_ren
-    industrial_1
-    whuiu_1
-    weay_3
-    gyea_1
+	pony_ren
+	industrial_1
+	whuiu_1
+	weay_3
+	gyea_1
 	### - Country - ###
 	closed_economy
 	undisturbed_isolation
