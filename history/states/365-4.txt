@@ -13,7 +13,7 @@ state = {
 		add_core_of = TOM
 	}
 	provinces = { 138 473 706 1132 6494 6654 7780 8724 8922 16535 16682 16690 16758 16799  }
-	manpower = 0
+	manpower = 41802214
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

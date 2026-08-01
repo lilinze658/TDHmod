@@ -10,7 +10,7 @@ state = {
 		add_core_of = MOO
 	}
 	provinces = { 154 292 407 679 1189 2001 3685 4991 8409 8732 10408 12075 12113 12120 12160 12165 12241  }
-	manpower = 0
+	manpower = 38070048
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

@@ -11,7 +11,7 @@ state = {
 		add_core_of = ZHI
 	}
 	provinces = { 376 666 1327 2223 2329 4321 4509 5280 5598 6552 6704 6876 8945 9243 15006 15024 15149 15203 15300 15326 15330 15366 15381  }
-	manpower = 0
+	manpower = 30318321
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

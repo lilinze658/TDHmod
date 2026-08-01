@@ -76,6 +76,40 @@ if = {
 #### - Section 03: Foreign Affairs - ####
 #########################################
 ### - Subject - ###
+if = {
+	limit = {
+		OR = {
+			TDH_has_dlc_tfv = yes
+			TDH_has_dlc_mtg = yes
+		}
+	}
+	set_autonomy = {
+		target = ZHI
+		autonomous_state = autonomy_Shenzhou_warlord_subject
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = WEI
+		autonomous_state = autonomy_Shenzhou_warlord_subject
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = NAN
+		autonomous_state = autonomy_Shenzhou_warlord_subject
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = ONG
+		autonomous_state = autonomy_Shenzhou_warlord_subject
+		freedom_level = 0.5
+	}
+	else = {
+		puppet = AIL
+		puppet = WEI
+		puppet = NAN
+		puppet = ONG
+	}
+}
 ### - Faction - ###
 create_faction = DIV_FSOce 
 add_to_faction = DIV

@@ -11,7 +11,7 @@ state = {
 		add_core_of = MIY
 	}
 	provinces = { 84 3816 3950 4167 4993 5034 6446 7444 10753 10831 10896 15715 15789 15796 15837 15940  }
-	manpower = 0
+	manpower = 23214768
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

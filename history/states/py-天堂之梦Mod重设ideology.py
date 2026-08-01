@@ -46,7 +46,33 @@ def reorder_parallel_lists(a, b, new_order):
 
 	return list(sorted_a), list(sorted_b)
 
+def manpowerSet():
+	input_dir = Path.cwd()
+
+	subideo = []
+	ideo_totol = 100
+	# 递归遍历所有txt文件
+	for file_path in input_dir.rglob("*.txt"):
+		try:
+			with file_path.open('r', encoding='utf-8') as f:
+				print(file_path)
+				randomInt = random.randint(100000, 50000000)
+				content = f.read()
+				newcontent = content.replace("manpower = 0", f"manpower = {randomInt}")
+				print("\n")
+			print(newcontent)
+			newcontent2 = newcontent.replace("    ", "\t")
+			# 构建输出路径
+			#categoryValueprint(newcontent2)
+			# 写入新文件
+			with file_path.open('w+', encoding='utf-8') as f:
+				f.write(newcontent2)
+
+		except Exception as e:
+			print(f"处理 {file_path.name} 时出错: {str(e)}")
+
+
 if __name__ == "__main__":
 	print("开始处理文件...")
-	process_file()
+	manpowerSet()
 	print("处理完成！结果保存在:", Path.cwd())

@@ -11,7 +11,7 @@ state = {
 		add_core_of = AKU
 	}
 	provinces = { 1442 2154 2427 3255 6604 6625 7016 14252 14268 14335 14341  }
-	manpower = 0
+	manpower = 42368862
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

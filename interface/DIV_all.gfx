@@ -210,4 +210,9 @@ SpriteTypes = {
 		name = "GFX_idea_DIV_Li_Suwen_idea"
 		texturefile = "gfx/interface/ideas/idea_DIV_Li_Suwen_idea.png"
 	}
+	### - autonomy - ###
+	spriteType = {
+		name = "GFX_autonomy_Shenzhou_warlord_subject"
+		textureFile = "gfx/interface/autonomy/autonomy_puppet_icon.dds"
+	}
 }

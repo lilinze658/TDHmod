@@ -13,7 +13,7 @@ state = {
 		add_core_of = IRA
 	}
 	provinces = { 83 2794 9297 10488 17309 17340 17363 17375 17394 17401  }
-	manpower = 0
+	manpower = 34017855
 	buildings_max_level_factor = 1.2
 	state_category = city
 }

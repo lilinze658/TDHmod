@@ -9,7 +9,7 @@ state = {
 		add_core_of = LIV
 	}
 	provinces = { 1794 2309 2455 5043 5303 5474 6678 6812 9062 10448 10520 11979 12033 12056  }
-	manpower = 0
+	manpower = 49043732
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

@@ -11,7 +11,7 @@ state = {
 		add_core_of = ART
 	}
 	provinces = { 1785 4979 9326 11333 11338 11350 11352  }
-	manpower = 0
+	manpower = 26817118
 	buildings_max_level_factor = 1.2
 	state_category = city
 }

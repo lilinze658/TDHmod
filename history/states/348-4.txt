@@ -14,7 +14,7 @@ state = {
 		add_core_of = KAT
 	}
 	provinces = { 352 982 1114 1484 2287 5428 15737 15767 15805  }
-	manpower = 0
+	manpower = 18109720
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

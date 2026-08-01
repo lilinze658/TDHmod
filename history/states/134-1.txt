@@ -11,7 +11,7 @@ state = {
 		add_core_of = RAS
 	}
 	provinces = { 157 696 1266 3280 5363 5577 6127 6933 7522 7879 8601 8850 10166 15228 15357 15412  }
-	manpower = 0
+	manpower = 36160438
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

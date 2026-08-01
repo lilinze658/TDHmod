@@ -11,7 +11,7 @@ state = {
 		add_core_of = UNI
 	}
 	provinces = { 359 674 1167 1330 1946 2019 2312 2883 3005 3870 4557 4872 5715 8155 9732 10573 11040 16997 17008 17027 17040 17090 17104 17136 17140 17163 17198 17225 17245 17250 17282 17313 17326  }
-	manpower = 0
+	manpower = 32261073
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

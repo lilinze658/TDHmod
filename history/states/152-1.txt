@@ -15,7 +15,7 @@ state = {
 		add_core_of = ANY
 	}
 	provinces = { 291 2988 3687 3911 5130 6699 8228 8359 10264 10664 10905 15436 15459 15486 15508 15521 15544 15561 15588 15592 15624 15643 15684 15701 15708  }
-	manpower = 0
+	manpower = 29579394
 	buildings_max_level_factor = 1.2
 	local_supplies = 0.8
 	state_category = city

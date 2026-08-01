@@ -11,7 +11,7 @@ state = {
 		add_core_of = NAN
 	}
 	provinces = { 1123 1666 1900 4105 5369 6272 6455 7898 15742 15762 15798 15850 15858  }
-	manpower = 0
+	manpower = 11822782
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

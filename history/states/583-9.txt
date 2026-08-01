@@ -11,7 +11,7 @@ state = {
 		add_core_of = ONG
 	}
 	provinces = { 483 487 806 810 862 972 1124 1535 3265 3273 3454 4339 5159 5609 6108 6707 6810 7140 8403 8424 8888 9129 9215 9236 9656 13017 13020 13058 13076 13085 13146 13148 13267 13278 13329 13331  }
-	manpower = 0
+	manpower = 8359003
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

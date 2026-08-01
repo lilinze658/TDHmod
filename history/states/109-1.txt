@@ -11,7 +11,7 @@ state = {
 		add_core_of = WEI
 	}
 	provinces = { 152 497 633 915 1030 1926 2314 2614 4485 6469 8478 8928 8954 9787 10039 12568 12600 12606 12645 12658 12684  }
-	manpower = 0
+	manpower = 21306762
 	buildings_max_level_factor = 1.2
 	local_supplies = 0.8
 	state_category = city

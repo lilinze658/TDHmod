@@ -11,7 +11,7 @@ state = {
 		add_core_of = ETE
 	}
 	provinces = { 367 402 673 1200 1282 1475 3263 3389 3804 4661 5643 10891 11230 11255 11321 11329  }
-	manpower = 0
+	manpower = 26102401
 	buildings_max_level_factor = 1.2
 	local_supplies = 0.8
 	state_category = city

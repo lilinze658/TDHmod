@@ -11,7 +11,7 @@ state = {
 		add_core_of = DIV
 	}
 	provinces = { 347 792 819 1244 1290 1539 1581 1601 1676 1850 2022 2033 2187 2918 3251 3419 3805 5461 5874 5925 5991 7034 7357 7519 8456 9461 9556 9794 10823 11118 14717 14834 14852 14893 14972 15004  }
-	manpower = 0
+	manpower = 40537228
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

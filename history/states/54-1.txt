@@ -11,7 +11,7 @@ state = {
 		add_core_of = FEN
 	}
 	provinces = { 958 1526 4001 4711 7908 7930 8253 10280 10834 16255 16265 16305 16348 16354 16478 16519  }
-	manpower = 0
+	manpower = 49821631
 	buildings_max_level_factor = 1.2
 	state_category = city
 }

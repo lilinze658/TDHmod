@@ -11,7 +11,7 @@ state = {
 		add_core_of = GOD
 	}
 	provinces = { 223 614 920 1979 3716 4438 8455 9450 10304 10357 10887 17017 17066 17127 17240  }
-	manpower = 0
+	manpower = 24350594
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

@@ -11,7 +11,7 @@ state = {
 		add_core_of = OME
 	}
 	provinces = { 514 1074 1407 2561 4320 7109 7362 9810 9966 16578 16596 16685 16752  }
-	manpower = 0
+	manpower = 45940582
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

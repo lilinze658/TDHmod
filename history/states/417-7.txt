@@ -11,7 +11,7 @@ state = {
 		add_core_of = COU
 	}
 	provinces = { 442 2185 2599 3313 7272 7516 8399 11937 11952 11980 11999 12037 12073  }
-	manpower = 0
+	manpower = 44869312
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

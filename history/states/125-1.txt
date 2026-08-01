@@ -13,7 +13,7 @@ state = {
 		add_core_of = WIN
 	}
 	provinces = { 460 1736 4843 5410 6050 7436 8504 17278 17298 17329 17362  }
-	manpower = 0
+	manpower = 39069443
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city

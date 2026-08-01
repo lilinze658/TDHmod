@@ -13,7 +13,7 @@ state = {
 		add_core_of = NED
 	}
 	provinces = { 1518 1729 2913 4504 6997 7005 9263 10910 16983 17033 17078 17088 17114  }
-	manpower = 0
+	manpower = 6243051
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = city
