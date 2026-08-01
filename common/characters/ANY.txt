@@ -1,72 +1,100 @@
-﻿characters={ 
-	ANY_qingji={
-		name=青姬
-		portraits={
-			civilian={
-				large="gfx/leaders/ANY/青姬.png"
+﻿characters = {
+	ANY_Qing_Ji = {
+		name = ANY_Qing_Ji
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ANY_Qing_Ji
 			}
-			army = {   
-				large="gfx/leaders/ANY/青姬.png" 
-				small="gfx/interface/ideas/XXX.png"
+			army = {
+				large = GFX_Portrait_ANY_Qing_Ji
+				small = GFX_idea_advisor_ANY_Qing_Ji
 			}
-		
 		}
-		country_leader={
-		desc = "ANY_qingji_APDF_DES"
-		     traits = {  }
-			ideology= despotism 
-			expire="4999.1.1.1"
-			id=-1
+		country_leader = {
+			ideology = despotism
+			traits = {
+			}
+			desc = PORTRAIT_ANY_Qing_Ji_DESC
+			expire = "4999.1.1.1"
+			id = -1
 		}
 		corps_commander = {
-		desc = "ANY_qingji_APDF_DES"
-			legacy_id = 5
-			traits = { fortress_buster }
+			desc = ANY_Qing_Ji_GENERAL_DESC
+			traits = {
+				fortress_buster
+			}
 			skill = 1
 			attack_skill = 3
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+			legacy_id = 5
 		}
 	}
-    #海军偶像
-	ANY_mieyazi={
-		name=咩亚子
-		portraits={
-			civilian={
-				large="gfx/leaders/ANY/咩亚子.png"
+	
+	ANY_Mie_Yazi = {
+		name = ANY_Mie_Yazi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ANY_Mie_Yazi
+				small = GFX_idea_advisor_ANY_Mie_Yazi
+			}
+			navy = {
+				large = GFX_Portrait_ANY_Mie_Yazi
+				small = GFX_idea_advisor_ANY_Mie_Yazi
 			}
 		}
-		
-		navy_leader = {
-		desc = "ANY_mieyazi_APDF_DES"
-			legacy_id = 6
-			traits = { media_personality }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+		advisor = {
+			slot = political_advisor
+			idea_token = ANY_Mie_Yazi_political_advisor
+			desc = ANY_Mie_Yazi_ADVISOR_DESC
+			allowed = { original_tag = ANY }
+			available = {
+				not_already_hired_except_as = political_advisor
+			}
+			cost = 150
+			traits = { popular_figurehead }
+			ai_will_do = {
+				base = 1.000
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			idea_token = ANY_Mie_Yazi_high_command
+			desc = ANY_Mie_Yazi_ADVISOR_DESC
+			allowed = { DIV_is_Shenzhou_state = yes }
+			available = {
+				not_already_hired_except_as = high_command
+			}
+			cost = 50
+			traits = { navy_fleet_logistics_1 }
+			ai_will_do = {
+				base = 1.000
+			}
 		}
 	}
 
-	ANY_xiaodie={
-		name=咲蝶
-		portraits={
-			civilian={
-				large="gfx/leaders/ANY/咲蝶.png"
+	ANY_Xiao_Die = {
+		name = ANY_Xiao_Die
+		portraits = {
+			navy = {
+				large = GFX_Portrait_ANY_Xiao_Die
+				small = GFX_idea_advisor_ANY_Xiao_Die
 			}
 		}
-		
 		navy_leader = {
-		desc = "ANY_xiaodie_APDF_DES"
-			legacy_id = 7
-			traits = { aviation_enthusiast flight_deck_manager }
+			desc = ANY_Xiao_Die_GENERAL_DESC
+			traits = {
+				aviation_enthusiast
+				flight_deck_manager
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
 			maneuvering_skill = 2
 			coordination_skill = 1
+			legacy_id = 7
 		}
 	}
-}	
+}
