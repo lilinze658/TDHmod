@@ -1,27 +1,21 @@
-state={
-	id=853
-	name="STATE_853"
+state = {
+	id = 853
+	name = STATE_853
 	resources = {
-		steel= 10
+		steel = 10
 	}
-
-	history={
+	history = {
 		owner = RUT
-		victory_points = {
-            5259 15
-        } 
+		victory_points = { 5259 15  }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 		}
 		add_core_of = RUT
-
 	}
-	provinces={
-		887 1634 1915 4415 5259 6381 7048 8022 8485 10225 17397 17410 17432 17454 17465 17487 17499 
-	}
-	manpower=760120
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	provinces = { 887 1634 1915 4415 5259 6381 7048 8022 8485 10225 17397 17410 17432 17454 17465 17487 17499  }
+	manpower = 760120
+	buildings_max_level_factor = 1.2
+	state_category = town
+	local_supplies = 0.8
 }

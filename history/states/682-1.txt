@@ -1,11 +1,10 @@
-state={
-	id=682
-	name="STATE_682"##乌尔达姆
+state = {
+	id = 682
+	name = STATE_682 ##乌尔达姆
 	state_category = city
-	history={
+	history = {
 		owner = HAS
 		victory_points = {
-			
 		}
 		buildings = {
 			infrastructure = 3
@@ -17,13 +16,10 @@ state={
 			owner = FAL
 			add_core_of = HAS
 			add_core_of = FAL
-	
 		}
 	}
-	provinces={
-		581 2601 4600 5800 8957 9751 14110 14130 14208 14274 14275 14295 14371 14418 
-	}
-	manpower=2764000
-	buildings_max_level_factor=1
-	local_supplies=0
+	provinces = { 581 2601 4600 5800 8957 9751 14110 14130 14208 14274 14275 14295 14371 14418  }
+	manpower = 2764000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }

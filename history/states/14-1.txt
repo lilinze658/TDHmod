@@ -1,13 +1,11 @@
-
-state={
-	id=14
-	name="STATE_14"#小岛4号
-    resources = {
-		rubber=30
+state = {
+	id = 14
+	name = STATE_14 #小岛4号
+	resources = {
+		rubber = 30
 	}
-	history={
+	history = {
 		owner = HAS
-		 
 		buildings = {
 			infrastructure = 1
 		}
@@ -16,15 +14,11 @@ state={
 			owner = FAL
 			add_core_of = HAS
 			add_core_of = FAL
-	
 		}
 	}
-	
-	provinces={
-		3719 8481 9265 13343 
-	}
-	manpower=142000
-	buildings_max_level_factor=1.000
-	state_category=small_island
-	local_supplies=0.000
+	provinces = { 3719 8481 9265 13343  }
+	manpower = 142000
+	buildings_max_level_factor = 1.2
+	state_category = small_island
+	local_supplies = 0.8
 }

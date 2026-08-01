@@ -1,14 +1,13 @@
-state={
-	id=118
-	name="STATE_14"
+state = {
+	id = 118
+	name = STATE_14
 	state_category = city
 	resources = {
-		coal=55
+		coal = 55
 	}
-	history={
+	history = {
 		owner = HAS
 		victory_points = {
-			
 		}
 		buildings = {
 			infrastructure = 3
@@ -19,14 +18,10 @@ state={
 			owner = FAL
 			add_core_of = HAS
 			add_core_of = FAL
-	
 		}
 	}
-	provinces={
-		2079 2649 3697 5206 5480 5913 7024 8551 10305 14285 14362 14470 14592 
-	}
-	manpower=3874651
-	buildings_max_level_factor=1
-	local_supplies=0
-
+	provinces = { 2079 2649 3697 5206 5480 5913 7024 8551 10305 14285 14362 14470 14592  }
+	manpower = 3874651
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }

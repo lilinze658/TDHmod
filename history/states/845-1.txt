@@ -1,12 +1,9 @@
-state={
-	id=845
-	name="STATE_845"
-	
-	history={
+state = {
+	id = 845
+	name = STATE_845
+	history = {
 		owner = DUC
-		victory_points = {
-			10697 25 
-		}
+		victory_points = { 10697 25  }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -14,23 +11,19 @@ state={
 			dockyard = 1
 			10697 = {
 				coastal_bunker = 1
-                naval_base = 3
-			} 
+				naval_base = 3
+			}
 		}
 		add_core_of = DUC
 		4635.10.25 = {
 			owner = BER
 			add_core_of = BER
 			add_core_of = DUC
-
 		}
-
 	}
-	provinces={
-		3763 4129 4374 5831 6427 6916 9999 10386 10608 10697 16913 16945 16968 17077 17105 17123 
-	}
-	manpower=3180000
-	buildings_max_level_factor=1.000
-	state_category=large_city
-	local_supplies=0.000
+	provinces = { 3763 4129 4374 5831 6427 6916 9999 10386 10608 10697 16913 16945 16968 17077 17105 17123  }
+	manpower = 3180000
+	buildings_max_level_factor = 1.2
+	state_category = large_city
+	local_supplies = 0.8
 }

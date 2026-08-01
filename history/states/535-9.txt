@@ -1,20 +1,16 @@
-state={
-	id=535
-	name="STATE_535"
-	history={
+state = {
+	id = 535
+	name = STATE_535
+	history = {
 		owner = KAN
- 
 		buildings = {
 			infrastructure = 1
-			
 		}
 		add_core_of = KAN
-
 	}
-	provinces={
-		382 480 1378 1772 2127 2380 3395 4264 5845 6548 6946 7180 7271 15678 15712 
-	}
-	manpower=0
-	buildings_max_level_factor=1
-	local_supplies=0
+	provinces = { 382 480 1378 1772 2127 2380 3395 4264 5845 6548 6946 7180 7271 15678 15712  }
+	manpower = 0
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
 }

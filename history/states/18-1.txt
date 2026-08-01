@@ -1,10 +1,9 @@
-state={
-	id=18
-	name="STATE_18"
-	history={
+state = {
+	id = 18
+	name = STATE_18
+	history = {
 		owner = POS
 		victory_points = {
-		 
 		}
 		buildings = {
 			infrastructure = 3
@@ -17,13 +16,11 @@ state={
 			owner = SHE
 			add_core_of = SHE
 			add_core_of = POS
-	
 		}
 	}
-	provinces={
-		321 408 965 1445 2215 2505 3714 3736 4286 5460 5678 6918 7064 7380 9185 10618 12881 12912 12914 12931 12944 12969 12973 13033 13034 
-	}
-	manpower=3410000
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	provinces = { 321 408 965 1445 2215 2505 3714 3736 4286 5460 5678 6918 7064 7380 9185 10618 12881 12912 12914 12931 12944 12969 12973 13033 13034  }
+	manpower = 3410000
+	buildings_max_level_factor = 1.2
+	local_supplies = 0.8
+	state_category = city
 }

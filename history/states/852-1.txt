@@ -1,14 +1,12 @@
-state={
-	id=852#172-
-	name="STATE_852"
-	resources={
-		oil= 5
+state = {
+	id = 852 #172-
+	name = STATE_852
+	resources = {
+		oil = 5
 	}
-	history={
+	history = {
 		owner = RUT
-		victory_points = {
-			3046 15 
-		}
+		victory_points = { 3046 15  }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -16,16 +14,14 @@ state={
 			dockyard = 1
 			3046 = {
 				coastal_bunker = 1
-                naval_base = 2
-			}  
+				naval_base = 2
+			}
 		}
 		add_core_of = RUT
-
 	}
-	provinces={
-		421 812 1377 3046 3785 5586 6143 6151 7339 7812 8075 8771 10495 10954 11070 17216 17228 17276 
-	}
-	manpower=0
-	buildings_max_level_factor=1
-	local_supplies=0
+	provinces = { 421 812 1377 3046 3785 5586 6143 6151 7339 7812 8075 8771 10495 10954 11070 17216 17228 17276  }
+	manpower = 0
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
 }

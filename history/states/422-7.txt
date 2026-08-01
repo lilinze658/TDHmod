@@ -1,19 +1,16 @@
-state={
-	id=422
-	name="STATE_422"
-	history={
+state = {
+	id = 422
+	name = STATE_422
+	history = {
 		owner = LIV
-		 
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = LIV
-
 	}
-	provinces={
-		14 2774 8913 9293 9366 9679 9716 10845 11709 11721 11743 
-	}
-	manpower=0
-	buildings_max_level_factor=1
-	local_supplies=0
+	provinces = { 14 2774 8913 9293 9366 9679 9716 10845 11709 11721 11743  }
+	manpower = 0
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
 }

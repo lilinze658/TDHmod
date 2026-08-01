@@ -1,15 +1,13 @@
-state={
-	id=846
-	name="STATE_846"
-    resources = {
-		tungsten= 10
-		aluminium= 20
+state = {
+	id = 846
+	name = STATE_846
+	resources = {
+		tungsten = 10
+		aluminium = 20
 	}
-	history={
+	history = {
 		owner = DUC
-		victory_points = {
-            5963 10
-        } 
+		victory_points = { 5963 10  }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -19,15 +17,11 @@ state={
 			owner = BER
 			add_core_of = BER
 			add_core_of = DUC
-
 		}
-
 	}
-	provinces={
-		435 675 3601 3960 4011 5963 6210 6378 7414 8182 8317 9302 9618 10872 10919 17183 17215 17227 17233 17292 17308 17369 17373 17402 17425 17448 
-	}
-	manpower=840000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	provinces = { 435 675 3601 3960 4011 5963 6210 6378 7414 8182 8317 9302 9618 10872 10919 17183 17215 17227 17233 17292 17308 17369 17373 17402 17425 17448  }
+	manpower = 840000
+	buildings_max_level_factor = 1.2
+	state_category = city
+	local_supplies = 0.8
 }

@@ -1,22 +1,17 @@
-
-state={
-	id=45
-	name="STATE_45"
-	history={
+state = {
+	id = 45
+	name = STATE_45
+	history = {
 		owner = AKU
-		 
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 2
-
 		}
 		add_core_of = AKU
-
 	}
-	provinces={
-		240 4268 5174 6027 8406 13229 13293 13366 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	provinces = { 240 4268 5174 6027 8406 13229 13293 13366  }
+	manpower = 0
+	buildings_max_level_factor = 1.2
+	state_category = city
 }

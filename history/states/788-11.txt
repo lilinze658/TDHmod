@@ -1,12 +1,9 @@
-state={
-	id=788
-	name="STATE_788"#苏特瑞伯
-	history={
+state = {
+	id = 788
+	name = STATE_788 #苏特瑞伯
+	history = {
 		owner = ZET
-		victory_points = {
-			16803 10
-		}
-		 
+		victory_points = { 16803 10  }
 		buildings = {
 			infrastructure = 1
 		}
@@ -15,14 +12,11 @@ state={
 			owner = KIA
 			add_core_of = ZET
 			add_core_of = KIA
-
 		}
 	}
-	provinces={
-		1185 1400 2438 3657 6641 7136 7331 7995 9737 9836 16640 16676 16716 16760 16761 16767 16803 16873 
-	}
-	manpower=712021
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	provinces = { 1185 1400 2438 3657 6641 7136 7331 7995 9737 9836 16640 16676 16716 16760 16761 16767 16803 16873  }
+	manpower = 712021
+	buildings_max_level_factor = 1.2
+	state_category = rural
+	local_supplies = 0.8
 }

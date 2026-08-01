@@ -1,12 +1,9 @@
-
-state={
-	id=27
-	name="STATE_27"
-		history={
+state = {
+	id = 27
+	name = STATE_27
+	history = {
 		owner = BER
-
 		victory_points = {
-			
 		}
 		buildings = {
 			infrastructure = 2
@@ -25,14 +22,11 @@ state={
 				arms_factory = 3
 				dockyard = 4
 				air_base = 3
-				 
 			}
 		}
-
 	}
-	provinces={
-		46 1822 3806 3836 4217 5567 5905 5954 6139 6883 8940 9875 10123 10701 16634 16670 16688 16721 16734 16780 16793 16811 16816 16858 
-	}
-	manpower=2570000
-	buildings_max_level_factor=1.000
+	provinces = { 46 1822 3806 3836 4217 5567 5905 5954 6139 6883 8940 9875 10123 10701 16634 16670 16688 16721 16734 16780 16793 16811 16816 16858  }
+	manpower = 2570000
+	buildings_max_level_factor = 1.2
+	state_category = city
 }
