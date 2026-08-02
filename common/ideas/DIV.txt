@@ -32,6 +32,7 @@ ideas = {
 		}
 
 		DIV_regent_government = {
+			picture = generic_king_handled
 			allowed = {
 				original_tag = DIV
 			}
