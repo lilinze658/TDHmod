@@ -1,5 +1,6 @@
 add_namespace = HAS_diplomacy
 add_namespace = HAS_saint
+add_namespace = HAS_merc
 
 # 加安斯收到哈斯佩芙的外交提议
 country_event = {

@@ -1,0 +1,21 @@
+# 重新计算佣兵费用的脚本
+HAS_calculate_merc_cost_effect = {
+	# 1. 先把佣兵数量变量清零
+	set_variable = { HAS_merc_divisions_contracted = 0 }
+	
+	# 2. 扫描全国所有师团
+	every_country_division = {
+		limit = {
+			has_template = "奈德兰佣兵团" # 检查模板名称
+		}
+		# 找到一个，就给国家的变量 +1 (PREV代表退回国家作用域)
+		PREV = { add_to_variable = { HAS_merc_divisions_contracted = 1 } }
+	}
+	
+	# 3. 计算工厂花费 (数量 * 3)
+	set_variable = { HAS_merc_civ_cost = HAS_merc_divisions_contracted }
+	multiply_variable = { HAS_merc_civ_cost = 3 }
+	
+	# 4. 确保动态修饰符挂在身上
+	#add_dynamic_modifier = { modifier = HAS_neidran_merc_contract_cost }
+}
