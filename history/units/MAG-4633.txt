@@ -50,7 +50,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 201
 		}
-		location = 139 
+		location = 14853 
 		division_template = "方舟骑士团"
 		start_experience_factor = 0.8
 	}
@@ -61,7 +61,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 202
 		}
-		location = 139 
+		location = 14853 
 		division_template = "方舟骑士团"
 		start_experience_factor = 0.8
 	}
@@ -72,7 +72,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 203
 		}
-		location = 139 
+		location = 14853 
 		division_template = "方舟骑士团"
 		start_experience_factor = 0.8
 	}
@@ -84,7 +84,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 139 
+		location = 14853 
 		division_template = "魔法少女自卫队"
 		start_experience_factor = 0.5
 	}
@@ -95,7 +95,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 139 
+		location = 14853 
 		division_template = "魔法少女自卫队"
 		start_experience_factor = 0.3
 	}
@@ -106,7 +106,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 139 
+		location = 14853 
 		division_template = "魔法少女自卫队"
 		start_experience_factor = 0.3
 	}
@@ -117,7 +117,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 139 
+		location = 14853 
 		division_template = "魔法少女自卫队"
 		start_experience_factor = 0.3
 	}
@@ -128,7 +128,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 139 
+		location = 14853 
 		division_template = "魔法少女自卫队"
 		start_experience_factor = 0.3
 	}
@@ -139,7 +139,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 139 
+		location = 14853 
 		division_template = "魔法少女自卫队"
 		start_experience_factor = 0.3
 	}
@@ -150,7 +150,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 139 
+		location = 14853 
 		division_template = "魔法少女自卫队"
 		start_experience_factor = 0.3
 	}
@@ -161,7 +161,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location = 139 
+		location = 14853 
 		division_template = "魔法少女自卫队"
 		start_experience_factor = 0.3
 	}
@@ -172,7 +172,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 139 
+		location = 14853 
 		division_template = "魔法少女自卫队"
 		start_experience_factor = 0.3
 	}
@@ -183,7 +183,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 139 
+		location = 14853 
 		division_template = "魔法少女自卫队"
 		start_experience_factor = 0.3
 	}
@@ -194,7 +194,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 139 
+		location = 14853 
 		division_template = "魔法少女自卫队"
 		start_experience_factor = 0.3
 	}

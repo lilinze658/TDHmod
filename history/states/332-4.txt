@@ -4,6 +4,7 @@ state = {
 	history = {
 		owner = RAS
 		victory_points = {
+			10122 30
 		}
 		buildings = {
 			infrastructure = 2

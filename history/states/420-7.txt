@@ -3,10 +3,21 @@ state = {
 	name = STATE_420
 	history = {
 		owner = LIV
+		victory_points = {
+			6656 15
+		}
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = LIV
+		4635.10.25 = {
+			owner = LEG
+
+		}
+		4637.10.25 = {
+			owner = SNO
+
+		}
 	}
 	provinces = { 1152 2552 3078 4350 5498 5922 6656 7038 7488 8003 8639 9201 11038 11690 11725 11726 11742 11766 11772 11800 11805  }
 	manpower = 25450670

@@ -1,7 +1,7 @@
 equipments = {
 
 #	heavy_tank_equipment = {
-#		year = 1934
+#		year = 4620
 #
 #		can_be_produced = {
 #			NOT = {
@@ -55,9 +55,9 @@ equipments = {
 #		fuel_consumption = 4.4
 #	}
 #
-#	# 1934
+#	# 4620
 #	heavy_tank_equipment_1 = {
-#		year = 1934
+#		year = 4620
 #
 #		archetype = heavy_tank_equipment		
 #		priority = 90
@@ -128,7 +128,7 @@ equipments = {
 #	}
 #
 #	heavy_tank_artillery_equipment = {
-#		year = 1934
+#		year = 4620
 #
 #		can_be_produced = {
 #			NOT = {
@@ -182,7 +182,7 @@ equipments = {
 #	}
 #
 #	heavy_tank_artillery_equipment_1 = {
-#		year = 1934
+#		year = 4620
 #
 #		archetype = heavy_tank_artillery_equipment
 #		family = heavy_tank_equipment_1
@@ -260,7 +260,7 @@ equipments = {
 #	}
 #
 #	heavy_tank_destroyer_equipment = {
-#		year = 1934
+#		year = 4620
 #
 #		can_be_produced = {
 #			NOT = {
@@ -314,7 +314,7 @@ equipments = {
 #	}
 #
 #	heavy_tank_destroyer_equipment_1 = {
-#		year = 1934
+#		year = 4620
 #
 #		archetype = heavy_tank_destroyer_equipment
 #		family = heavy_tank_equipment_1
@@ -396,7 +396,7 @@ equipments = {
 #	}
 #
 #	heavy_tank_aa_equipment = {
-#		year = 1934
+#		year = 4620
 #
 #		can_be_produced = {
 #			NOT = {
@@ -450,7 +450,7 @@ equipments = {
 #	}
 #
 #	heavy_tank_aa_equipment_1 = {
-#		year = 1934
+#		year = 4620
 #
 #		archetype = heavy_tank_aa_equipment
 #		family = heavy_tank_equipment_1

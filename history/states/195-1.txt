@@ -1,6 +1,9 @@
 state = {
 	id = 195
 	name = STATE_195 #卡提玛岛
+	resources={
+		coal= 20
+	}
 	history = {
 		owner = LOB
 		victory_points = { 580 10  }

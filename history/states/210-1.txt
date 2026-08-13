@@ -1,6 +1,9 @@
 state = {
 	id = 210
 	name = STATE_210 #卡吉布斯
+	resources={
+		coal= 20
+	}
 	history = {
 		owner = AIS
 		victory_points = { 15216 5  }

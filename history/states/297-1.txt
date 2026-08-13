@@ -1,15 +1,20 @@
 state = {
 	id = 297
 	name = STATE_297
+	resources={
+		aluminium=50
+	}
 	history = {
 		owner = LOV
 		victory_points = {
+			4020 5
 		}
 		buildings = {
 			infrastructure = 2
 		}
 		add_core_of = LOV
 		4635.10.25 = {
+			owner = ROA
 			add_core_of = ROA
 			add_core_of = RED
 		}

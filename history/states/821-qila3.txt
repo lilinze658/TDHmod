@@ -1,6 +1,9 @@
 state = {
 	id = 821
 	name = STATE_821
+	resources = {
+		oil=20
+	}
 	history = {
 		owner = NGD
 		victory_points = {

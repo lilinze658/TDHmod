@@ -1,10 +1,11 @@
-state = {
-	id = 8
-	name = STATE_8
-	resources = {
-		steel = 50
-		chromium = 40
-		coal = 40
+state={
+	id=8
+	name="STATE_8"
+	resources={
+		steel= 50
+        chromium= 40
+		coal= 40
+		yuehua=15
 	}
 	history = {
 		owner = MOB

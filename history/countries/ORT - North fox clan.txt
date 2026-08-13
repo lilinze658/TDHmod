@@ -1,4 +1,4 @@
-capital = 235
+capital = 435
 
 set_technology = {
 	staff_kingdom = 1

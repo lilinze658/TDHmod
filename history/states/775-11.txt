@@ -2,7 +2,8 @@ state = {
 	id = 775
 	name = STATE_775 #奥瑞尔
 	resources = {
-		oil = 50
+		oil=50
+		yuehua=30
 	}
 	history = {
 		owner = ZET

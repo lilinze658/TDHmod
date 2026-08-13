@@ -2,6 +2,9 @@ state = {
 	id = 680
 	name = STATE_680
 	state_category = rural
+	resources={
+		yuehua=20
+	}
 	history = {
 		owner = HAS
 		victory_points = {

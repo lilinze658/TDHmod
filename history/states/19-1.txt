@@ -1,12 +1,21 @@
-state = {
-	id = 19
-	name = STATE_19
-	history = {
+
+state={
+	id=19
+	name="STATE_19"
+	resources={
+		oil= 10
+		yuehua= 10
+	}
+	history={
 		owner = POS
-		victory_points = {
+		 victory_points = {
+			4906 5
 		}
 		buildings = {
 			infrastructure = 2
+			5395 = {
+                naval_base = 1
+			} 
 		}
 		add_core_of = POS
 		4635.10.25 = {

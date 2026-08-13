@@ -1,8 +1,9 @@
-state = {
-	id = 226
-	name = STATE_226 #帕格奇
-	resources = {
-		tungsten = 15
+state={
+	id=226
+	name="STATE_226"#帕格奇
+    resources = {
+		tungsten=15
+		yuehua=6
 	}
 	history = {
 		owner = ZET

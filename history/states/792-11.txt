@@ -1,6 +1,9 @@
 state = {
 	id = 792
 	name = STATE_792 #提克提达博
+	resources={
+		coal= 20
+	}
 	history = {
 		owner = ZET
 		victory_points = { 16943 10  }

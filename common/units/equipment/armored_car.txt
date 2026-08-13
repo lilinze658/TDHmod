@@ -81,7 +81,7 @@ equipments = {
 	}
 
 	armored_car_equipment_1 = {
-		year = 1934
+		year = 4620
 		
 		archetype = armored_car_equipment
 		parent = gw_armored_car_equipment
