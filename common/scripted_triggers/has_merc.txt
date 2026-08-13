@@ -1,0 +1,18 @@
+HAS_calculate_merc_cost_effect = {
+	set_variable = { HAS_merc_divisions_contracted = 0 }
+	
+	every_country_division = {
+		limit = { has_template = "奈德兰佣兵团" }
+		PREV = { add_to_variable = { HAS_merc_divisions_contracted = 1 } }
+	}
+	
+	# 工厂花费 = 师团数 * 3
+	set_variable = { HAS_neidran_merc_cost = HAS_merc_divisions_contracted }
+	multiply_variable = { HAS_neidran_merc_cost = 3 }
+	
+	# 根据是否还有佣兵，决定是挂上还是移除Flag（不直接移除修饰符，由事件控制）
+	if = {
+		limit = { check_variable = { HAS_neidran_merc_cost > 0 } }
+		set_country_flag = HAS_has_active_merc_contract
+	}
+}

@@ -1000,4 +1000,55 @@ sub_units = {
 		
 		suppression = 2.5		
 	}
+
+	hq_magic_girl = {
+		abbreviation = "HMGG"
+		sprite = magic_girl
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+
+		type = {		  #属于什么师类型（大概吧）
+			infantry
+		}
+
+		group = infantry  #单位编成界面
+
+		categories = {    #部队加成种类
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+			category_infantry_and_bicycle
+			category_special_forces
+			category_special_forces_leg_infantry
+			category_magic
+			category_magic_infantry
+			category_hq_unit
+		}
+
+		combat_width = 2
+		allow_in_army_hq = yes
+		allow_in_non_army_hq = no
+		required_dlc = { "Thunder at Our Gates" }
+
+		need = {
+			magic_infantry_equipment = 40
+		}
+
+		#Size Definitions
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 600
+		deployment_cost = 3
+		training_time = 180
+		max_strength = 20
+		weight = 0.2
+		supply_consumption = 0.28
+		#breakthrough = 0.15
+
+		suppression = 3.5
+
+	}
 }

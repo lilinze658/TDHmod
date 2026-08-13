@@ -80,6 +80,7 @@ sub_units = {
 			category_all_infantry
 			category_army
 			category_infantry_and_bicycle
+			category_special_forces
 			category_special_forces_leg_infantry
 			category_magic
 		}
@@ -95,7 +96,7 @@ sub_units = {
 		
 		#Misc Abilities
 		training_time = 200      #训练时间
-		suppression = 2.0       #镇压值
+		suppression = 3.5       #镇压值
 		weight = 0.5
 
 		defense = 0.5 #防御
@@ -103,11 +104,11 @@ sub_units = {
 		soft_attack = 0.2 #软攻
 		hard_attack = 0.2 #硬攻
 		
-		supply_consumption = 0.06
+		supply_consumption = 0.35
 		maximum_speed = 0.2
 
 		need = {
-			magic_infantry_equipment = 40
+			magic_infantry_equipment = 70
 		}
 	}
 
@@ -132,6 +133,7 @@ sub_units = {
 			category_all_infantry
 			category_army
 			category_infantry_and_bicycle
+			category_special_forces
 			category_special_forces_leg_infantry
 			category_magic
 		}
@@ -147,14 +149,14 @@ sub_units = {
 		
 		#Misc Abilities
 		training_time = 120      #训练时间
-		suppression = 2.0       #镇压值
+		suppression = 3.5       #镇压值
 		weight = 0.5
 
 		
-		supply_consumption = 0.06
+		supply_consumption = 0.28
 
 		need = {
-			magic_infantry_equipment = 40
+			magic_infantry_equipment = 60
 		}
 	}
 
@@ -180,6 +182,7 @@ sub_units = {
 			category_all_infantry
 			category_army
 			category_infantry_and_bicycle
+			category_special_forces
 			category_special_forces_leg_infantry
 			category_magic
 		}
@@ -195,10 +198,10 @@ sub_units = {
 		
 		#Misc Abilities
 		training_time = 100
-		suppression = 3.0
+		suppression = 3.5
 		weight = 0.5
 		
-		supply_consumption = 0.06
+		supply_consumption = 0.22
 		maximum_speed = 0.2
 
 		defense = 0.4 #防御
@@ -209,7 +212,7 @@ sub_units = {
 
 		maximum_speed = 0.4
 		need = {
-			magic_infantry_equipment = 60
+			magic_infantry_equipment = 70
 		}
 	}
 

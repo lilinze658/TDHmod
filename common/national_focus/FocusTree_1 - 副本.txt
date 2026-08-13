@@ -951,6 +951,10 @@ focus_tree = {
 				support = {
 					# [这里填你定义的游骑兵支援连]
 					rangers_support = { x = 0 y = 0 } 
+					field_hospital = { x = 0 y = 1 }    # 野战医院
+					artillery= { x = 0 y = 2 }      #火炮支援连
+					engineer = { x = 0 y = 3 }          # 工兵连
+					logistics_company = { x = 0 y = 4 } # 后勤连
 				}
 			}
 			
@@ -969,7 +973,13 @@ focus_tree = {
 			}
 			# 获得游骑兵战术相关的陆军经验
 			army_experience = 20
+			add_mastery = {
+    			amount = 5
+    			sub_doctrine = commandos
+			}
+
 		}
+
 	}
 
 	focus = {
