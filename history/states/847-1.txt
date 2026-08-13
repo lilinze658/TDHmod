@@ -1,16 +1,13 @@
-state={
-	id=847
-	name="STATE_847"
-	history={
+state = {
+	id = 847
+	name = STATE_847
+	history = {
 		owner = DUC
-		victory_points = {
-			3137 25 
-		}
+		victory_points = { 3137 25  }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
-			  
 		}
 		add_core_of = DUC
 		4635.10.25 = {
@@ -20,16 +17,12 @@ state={
 				arms_factory = 4
 				dockyard = 3
 				air_base = 2
-				
 			}
-
 		}
 	}
-	provinces={
-		1188 1882 2141 2972 3137 4648 5191 7090 7425 8095 10600 17441 17464 17481 17494 17495 17515 17517 17536 17561 
-	}
-	manpower=1306204
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	provinces = { 1188 1882 2141 2972 3137 4648 5191 7090 7425 8095 10600 17441 17464 17481 17494 17495 17515 17517 17536 17561  }
+	manpower = 1306204
+	buildings_max_level_factor = 1.2
+	state_category = city
+	local_supplies = 0.8
 }

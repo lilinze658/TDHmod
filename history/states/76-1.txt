@@ -1,21 +1,21 @@
-
-state={
-	id=76
-	name="STATE_76"
-	history={
+state = {
+	id = 76
+	name = STATE_76
+	history = {
 		owner = ONG
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 2
-
+			14207 = {
+				naval_base = 8
+			}
 		}
 		add_core_of = ONG
-
+		victory_points = { 14207 50 }
 	}
-	provinces={
-		147 4128 6152 11081 14207 14226 14255 14280 14302 14351 14370 14448 14507 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	provinces = { 147 4128 6152 11081 14207 14226 14255 14280 14302 14351 14370 14448 14507  }
+	manpower = 1547086
+	buildings_max_level_factor = 1.2
+	state_category = city
 }

@@ -2,17 +2,22 @@
 state={
 	id=27
 	name="STATE_27"
-		history={
+	resources={
+		steel= 20
+        rubber= 10
+	}
+	history={
 		owner = BER
-
 		victory_points = {
-			
+			3836 10
 		}
 		buildings = {
 			infrastructure = 2
-			arms_factory = 2
-			industrial_complex = 2
-			dockyard = 1
+			arms_factory = 1
+			3836 = {
+				coastal_bunker = 1
+				naval_base = 2
+			}   
 		}
 		add_core_of = BER
 		4635.10.25 = {
@@ -25,14 +30,15 @@ state={
 				arms_factory = 3
 				dockyard = 4
 				air_base = 3
-				 
+				3836 = {
+					coastal_bunker = 2
+					naval_base = 2
+				}   
 			}
 		}
-
 	}
-	provinces={
-		46 1822 3806 3836 4217 5567 5905 5954 6139 6883 8940 9875 10123 10701 16634 16670 16688 16721 16734 16780 16793 16811 16816 16858 
-	}
-	manpower=2570000
-	buildings_max_level_factor=1.000
+	provinces = { 46 1822 3806 3836 4217 5567 5905 5954 6139 6883 8940 9875 10123 10701 16634 16670 16688 16721 16734 16780 16793 16811 16816 16858  }
+	manpower = 2570000
+	buildings_max_level_factor = 1.2
+	state_category = city
 }

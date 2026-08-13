@@ -661,13 +661,13 @@ infantry_SOV = {
 
 			modifier = {
 				factor = 0
-				date < 1942.6.1
+				date < 4641.6.1
 			}
 
 			modifier = {
 				factor = 20
 				has_war_with_major = yes
-				date > 1942.6.1
+				date > 4641.6.1
 			}
 		}
 

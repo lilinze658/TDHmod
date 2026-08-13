@@ -1,12 +1,9 @@
-state={
-	id=261
-	name="STATE_261"#艾瑞波拉
-	history={
+state = {
+	id = 261
+	name = STATE_261 #艾瑞波拉
+	history = {
 		owner = STA
-		victory_points = {
-			6232 15
-		}
-		 
+		victory_points = { 6232 15  }
 		buildings = {
 			infrastructure = 3
 		}
@@ -15,15 +12,11 @@ state={
 			owner = PEC
 			add_core_of = STA
 			add_core_of = PEC
-
 		}
-
 	}
-	provinces={
-		572 1589 1749 2507 4266 4633 4971 6085 6232 7503 7823 11044 12868 12965 13064 
-	}
-	manpower=2400000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	provinces = { 572 1589 1749 2507 4266 4633 4971 6085 6232 7503 7823 11044 12868 12965 13064  }
+	manpower = 2400000
+	buildings_max_level_factor = 1.2
+	state_category = city
+	local_supplies = 0.8
 }

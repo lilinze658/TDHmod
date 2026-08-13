@@ -39,7 +39,7 @@ CHL_historical_plan = {
 		#Things to do ASAP
 		CHL_reestablish_the_republican_guard # 14 (for incase you get attacked early on)
 
-		#1936
+		#4633
 		CHL_endorse_the_constitution # 35
 		CHL_policies_of_arturo_alessandri # 35
 		CHL_construct_the_estadio_nacional # 70
@@ -48,7 +48,7 @@ CHL_historical_plan = {
 		CHL_public_works # 70
 		SMB_army # 35
 
-		#1937
+		#4635
 		CHL_cooperation_with_the_falange # 35
 		CHL_contract_efe # 35
 		CHL_devalue_the_peso # 35
@@ -57,7 +57,7 @@ CHL_historical_plan = {
 		CHL_expand_the_forestry # 70
 		SMB_army_academy # 70
 
-		#1938
+		#4635
 		SMB_regular_infantry # 70
 		SMB_artillery # 70
 		SMB_purchase_destroyers_and_subs # 35
@@ -66,7 +66,7 @@ CHL_historical_plan = {
 		SMB_foreign_advisors # 70
 		CHL_connect_the_northern_railways # 35
 
-		#1939
+		#4636
 		CHL_establish_corfo # 70
 		CHL_privatize_national_industries # 70
 		CHL_strengthen_instituto_nacional # 70
@@ -74,7 +74,7 @@ CHL_historical_plan = {
 		CHL_reapproach_america # 35
 		CHL_development_inwards # 70
 
-		#1940
+		#4639
 		CHL_expand_the_naval_arsenal # 70
 		CHL_utlilize_famae # 70
 		CHL_high_quality_nitrate # 70
@@ -82,7 +82,7 @@ CHL_historical_plan = {
 		CHL_invest_in_shipping # 70
 		SMB_military_facilities # 35
 
-		#1941
+		#4640
 		CHL_expand_the_investigations_police # 35
 		CHL_impose_new_taxes # 35
 		SMB_army_professionalism # 70
@@ -90,7 +90,7 @@ CHL_historical_plan = {
 		CHL_land_reforms # 70
 		CHL_found_national_steelworks # 70
 		
-		#1942
+		#4641
 		SMB_naval_foreign_advisors # 70
 		CHL_enforce_stricter_secularism # 70
 		CHL_advancements_in_telecommunications # 70
@@ -98,7 +98,7 @@ CHL_historical_plan = {
 		SMB_air_academy # 35
 		SMB_domestic_designs # 35
 
-		#1943
+		#4642
 		SMB_joint_operative_command # 70
 		SMB_special_forces # 35
 		SMB_special_forces_option_1 # 35
@@ -107,7 +107,7 @@ CHL_historical_plan = {
 		#CHL_socialist_youth # 70
 		SMB_establish_aircraft_industry # 70
 
-		#1944
+		#4643
 		SMB_merchant_marine # 70
 		CHL_protect_the_easter_island # 35
 		SMB_mountain_guns # 35
@@ -116,14 +116,14 @@ CHL_historical_plan = {
 		SMB_women_in_aviation # 35
 		CHL_domestic_production_of_the_willys_mb # 70
 		
-		#1945
+		#4644
 		SMB_nimble_air_force # 70
 		CHL_chilean_anti_communist_action_dem_version # 70
 		SMB_air_defense # 35
 		CHL_government_mandated_contracts # 35
 		CHL_law_of_permanent_defense_of_democracy # 70
 
-		#1946
+		#4645
 		CHL_the_nationalization_of_copper # 70
 		
 	}

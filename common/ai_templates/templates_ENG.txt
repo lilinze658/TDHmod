@@ -37,7 +37,7 @@ armor_ENG = {
 
 			modifier = {
 				factor = 3
-				date < 1938.1.1
+				date < 4635.1.1
 			}
 		}
 

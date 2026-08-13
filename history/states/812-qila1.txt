@@ -1,22 +1,18 @@
-state={
-	id=812
-	name="STATE_812"
-	history={
+state = {
+	id = 812
+	name = STATE_812
+	history = {
 		owner = NGD
 		victory_points = {
-		
 		}
-		 
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = NGD
-
 	}
-	provinces={
-		1269 2160 3658 7809 8889 10686 10800 10884 15785 15828 15847 15907 
-	}
-	manpower=247514
-	buildings_max_level_factor=1
-	local_supplies=0
+	provinces = { 1269 2160 3658 7809 8889 10686 10800 10884 15785 15828 15847 15907  }
+	manpower = 247514
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
 }

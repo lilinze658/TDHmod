@@ -2,23 +2,28 @@
 state={
 	id=26
 	name="STATE_26"
+	resources={
+        chromium= 10
+        tungsten= 20
+        aluminium= 10
+	}
 	history={
 		owner = SHE
 		victory_points = {
-			
+			16126 10
 		}
-		 
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 2
+			1463 = {
+                naval_base = 3
+              }
 		}
 		add_core_of = SHE
-
 	}
-	provinces={
-		613 1194 1463 1656 1751 1881 2519 3779 5918 6211 6445 6608 7897 8689 8864 9102 9867 10419 10650 10667 10859 15947 16003 16071 16119 16126 16129 16173 16211 16226 16232 16241 16242 16276 16284 
-	}
-	manpower=4760000
-	buildings_max_level_factor=1.000
+	provinces = { 613 1194 1463 1656 1751 1881 2519 3779 5918 6211 6445 6608 7897 8689 8864 9102 9867 10419 10650 10667 10859 15947 16003 16071 16119 16126 16129 16173 16211 16226 16232 16241 16242 16276 16284  }
+	manpower = 4760000
+	buildings_max_level_factor = 1.2
+	state_category = city
 }

@@ -1,19 +1,27 @@
-state={
-	id=419
-	name="STATE_419"
-	history={
+state = {
+	id = 419
+	name = STATE_419#科奥科
+	history = {
 		owner = LIV
-		 
+		victory_points = {
+			7681 10 
+		}
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = LIV
+		4635.10.25 = {
+			owner = LEG
 
+		}
+		4637.10.25 = {
+			owner = SNO
+
+		}
 	}
-	provinces={
-		1474 1742 2758 4475 6836 7681 8775 8986 9467 11011 11843 11856 11905 11946 11987 
-	}
-	manpower=0
-	buildings_max_level_factor=1
-	local_supplies=0
+	provinces = { 1474 1742 2758 4475 6836 7681 8775 8986 9467 11011 11843 11856 11905 11946 11987  }
+	manpower = 26945923
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
 }

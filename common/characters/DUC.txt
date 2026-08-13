@@ -1,6 +1,6 @@
 ﻿characters={ 
 	DUC_moyila={
-		name= moyila
+		name= 莫伊拉
 		portraits={
 			civilian={
 				large="gfx/leaders/DUC/莫伊拉.png"

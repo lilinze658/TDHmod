@@ -1,106 +1,112 @@
-﻿characters={ 
-	ONG_shaoxuan={
-		name=shaoxuan
-		portraits={
-			civilian={
-				large="gfx/leaders/ONG/邵宣.png"
+﻿characters = {
+	ONG_Shao_Xuan = {
+		name = ONG_Shao_Xuan
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ONG_Shao_Xuan
 			}
-			army = {   
-				large="gfx/leaders/ONG/邵宣.png" 
-				small="gfx/interface/ideas/XXX.png"
+			army = {
+				large = GFX_Portrait_ONG_Shao_Xuan
+				small = GFX_idea_advisor_ONG_Shao_Xuan
 			}
 		}
-		country_leader={
-		desc = "ONG_shaoxuan_APDF_DES"
-			traits = {  }
-				ideology= despotism 
-				expire="4999.1.1.1"
-				id=-1
+		country_leader = {
+			ideology = despotism
+			traits = {
 			}
-			field_marshal = {
-			desc = "ONG_shaoxuan_APDF_DES"
-			legacy_id = 128
-			traits = { trait_engineer skilled_staffer ambusher unyielding_defender old_guard }
+			desc = PORTRAIT_ONG_Shao_Xuan_DESC
+			expire = "4999.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			desc = ONG_Shao_Xuan_GENERAL_DESC
+			traits = {
+				trait_engineer
+				skilled_staffer
+				ambusher
+				unyielding_defender
+				old_guard
+			}
 			skill = 5
 			attack_skill = 4
 			defense_skill = 5
 			planning_skill = 4
 			logistics_skill = 5
+			legacy_id = 128
 		}
 	}
-
-	ONG_yamu={
-		name=yamu
-		portraits={
-			civilian={
-				large="gfx/leaders/ONG/雅木.png"
+	
+	ONG_Ya_Mu = {
+		name = ONG_Ya_Mu
+		portraits = {
+			army = {
+				large = GFX_Portrait_ONG_Ya_Mu
+				small = GFX_idea_advisor_ONG_Ya_Mu
 			}
-			army = {   
-				large="gfx/leaders/ONG/雅木.png" 
-				small="gfx/interface/ideas/XXX.png"
-			}
-		
 		}
-		
 		corps_commander = {
-		desc = "ONG_yamu_APDF_DES"
-			legacy_id = 129
-			traits = { armor_officer naval_liason panzer_expert skilled_staffer }
+			desc = ONG_Ya_Mu_GENERAL_DESC
+			traits = {
+				armor_officer
+				naval_liason
+				panzer_expert
+				skilled_staffer
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 4
+			legacy_id = 129
 		}
 	}
 
-	ONG_qinyun={
-		name=qinyun
-		portraits={
-			civilian={
-				large="gfx/leaders/ONG/青云.png"
+	ONG_Qing_Yun = {
+		name = ONG_Qing_Yun
+		portraits = {
+			navy = {
+				large = GFX_Portrait_ONG_Qing_Yun
+				small = GFX_idea_advisor_ONG_Qing_Yun
 			}
-			army = {   
-				large="gfx/leaders/ONG/青云.png" 
-				small="gfx/interface/ideas/XXX.png"
-			}
-		
 		}
-		
 		navy_leader = {
-		desc = "ONG_qinyun_APDF_DES"
-			legacy_id = 130
-			traits = { green_water_expert cruiser_captain gunnery_expert }
+			desc = ONG_Qing_Yun_GENERAL_DESC
+			traits = {
+				green_water_expert
+				cruiser_captain
+				gunnery_expert
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 4
 			maneuvering_skill = 4
 			coordination_skill = 3
+			legacy_id = 130
 		}
 	}
 
-	ONG_chenlingjing={
-		name=chenlingjing
-		portraits={
-			civilian={
-				large="gfx/leaders/ONG/陈玲静.png"
+	ONG_Chen_Lingjing = {
+		name = ONG_Chen_Lingjing
+		portraits = {
+			navy = {
+				large = GFX_Portrait_ONG_Chen_Lingjing
+				small = GFX_idea_advisor_ONG_Chen_Lingjing
 			}
-			army = {   
-				large="gfx/leaders/ONG/陈玲静.png" 
-				small="gfx/interface/ideas/XXX.png"
-			}
-		
 		}
-		
 		navy_leader = {
-		desc = "ONG_chenlingjing_APDF_DES"
-			legacy_id = 131
-			traits = { aviation_enthusiast torpedo_bomber blue_water_expert air_controller }
+			desc = ONG_Chen_Lingjing_GENERAL_DESC
+			traits = {
+				aviation_enthusiast
+				torpedo_bomber
+				blue_water_expert
+				air_controller
+			}
 			skill = 4
 			attack_skill = 5
 			defense_skill = 3
 			maneuvering_skill = 2
 			coordination_skill = 5
+			legacy_id = 131
 		}
 	}
 }

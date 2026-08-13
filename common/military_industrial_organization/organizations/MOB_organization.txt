@@ -937,7 +937,7 @@ GER_daimler_benz_organization = {
 			base = 2
 			modifier = {
 				factor = 1.5
-				date > 1937.1.1
+				date > 4635.1.1
 			}
 		}
 	}
@@ -963,7 +963,7 @@ GER_daimler_benz_organization = {
 			base = 2
 			modifier = {
 				factor = 1.5
-				date > 1937.1.1
+				date > 4635.1.1
 			}
 		}
 	}
@@ -1022,7 +1022,7 @@ GER_daimler_benz_organization = {
 			base = 2
 			modifier = {
 				factor = 1.5
-				date > 1937.1.1
+				date > 4635.1.1
 			}
 		}
 	}
@@ -1054,7 +1054,7 @@ GER_daimler_benz_organization = {
 			base = 2
 			modifier = {
 				factor = 1.5
-				date > 1937.1.1
+				date > 4635.1.1
 			}
 		}
 	}

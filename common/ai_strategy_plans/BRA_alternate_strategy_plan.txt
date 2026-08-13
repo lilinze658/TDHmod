@@ -23,7 +23,7 @@ BRA_fascism_plan = {
 
 	ai_national_focuses = {
 		
-		#1936
+		#4633
 		BRA_tribunal_de_seguranca_nacional
 		BRA_coffee_crisis_aftermath
 		BRA_work_with_the_integralists
@@ -31,7 +31,7 @@ BRA_fascism_plan = {
 		SMB_navy
 		BRA_desenvolvimentismo
 
-		#1937
+		#4635
 		BRA_cohen_plan
 		BRA_estado_moderno
 		BRA_promote_resource_extraction
@@ -39,7 +39,7 @@ BRA_fascism_plan = {
 		BRA_stimulate_the_civilian_economy	
 		BRA_consolidation_of_labor_laws
 		
-		#1938
+		#4635
 		BRA_radio_nacional
 		BRA_deal_with_the_cangaceiro
 		BRA_corporatism
@@ -48,7 +48,7 @@ BRA_fascism_plan = {
 		BRA_departamento_de_ordem_politica_e_social
 		BRA_tech_slot_1
 
-		#1939
+		#4636
 		
 		BRA_integrity_of_the_fatherland
 		BRA_brazil_integral
@@ -57,21 +57,21 @@ BRA_fascism_plan = {
 		SMB_army_academy
 
 
-		#1940
+		#4639
 
 		BRA_domination_of_the_americas
 		BRA_companhia_siderurgica_nacional
 		BRA_batalha_do_borracha
 		SMB_air_force
-		#1941
+		#4640
 		
 		BRA_defense_of_the_fatherland
 
-		#1942
+		#4641
 		
-		#1943
+		#4642
 		
-		#1944
+		#4643
 		
 		
 	}
@@ -124,7 +124,7 @@ BRA_democratic_plan = {
 
 	ai_national_focuses = {
 		
-		#1936
+		#4633
 		BRA_end_the_state_of_emergency
 		BRA_coffee_crisis_aftermath
 		BRA_repeal_the_national_security_law
@@ -132,7 +132,7 @@ BRA_democratic_plan = {
 		SMB_navy
 		BRA_desenvolvimentismo
 
-		#1937
+		#4635
 		BRA_greater_federalism
 		BRA_implement_a_national_guard
 		BRA_promote_resource_extraction
@@ -140,7 +140,7 @@ BRA_democratic_plan = {
 		BRA_stimulate_the_civilian_economy	
 		BRA_end_military_interference
 		
-		#1938
+		#4635
 		BRA_radio_nacional
 		BRA_implement_article_138
 		BRA_tech_slot_2
@@ -149,7 +149,7 @@ BRA_democratic_plan = {
 		BRA_cooperation_in_the_americas
 		BRA_defense_spending
 
-		#1939
+		#4636
 		BRA_washington_accords
 		SMB_air_force
 		BRA_natal_naval_base
@@ -158,22 +158,22 @@ BRA_democratic_plan = {
 		SMB_army_academy
 		
 
-		#1940
+		#4639
 
 		BRA_disrupt_operation_bolivar
 		BRA_companhia_siderurgica_nacional
 		BRA_batalha_do_borracha
 		
 		
-		#1941
+		#4640
 		
 		
 
-		#1942
+		#4641
 		
-		#1943
+		#4642
 		
-		#1944
+		#4643
 		
 		
 	}
@@ -225,26 +225,26 @@ BRA_henrique_plan = {
 	}
 
 	ai_national_focuses = {
-		#1936
+		#4633
 		BRA_end_the_state_of_emergency
 		BRA_romanticize_the_old_empire
 		BRA_vassouras_line
 		BRA_coffee_crisis_aftermath
 		BRA_desenvolvimentismo
-		#1937
+		#4635
 		BRA_promote_resource_extraction
 		BRA_restore_the_coffee_barons
 		BRA_companhia_siderurgica_nacional
 		SMB_army
 		BRA_constitutional_monarchy
-		#1938
+		#4635
 		BRA_stimulate_the_civilian_economy
 		SMB_navy
 		SMB_air_force
 		BRA_undermine_democracy
 		SMB_military_facilities
 		BRA_use_the_national_security_law
-		#1939
+		#4636
 		BRA_war_production
 		BRA_national_petroleum_council
 		BRA_penal_battalions
@@ -252,14 +252,14 @@ BRA_henrique_plan = {
 		SMB_department_of_propaganda
 		SMB_purchase_aircraft
 		BRA_empire_of_brazil
-		#1940
+		#4639
 		BRA_radio_nacional
 		SMB_establish_aircraft_industry
 		BRA_banco_do_brasil
 		SMB_construct_naval_bases
 		SMB_purchase_destroyers_and_subs
 		BRA_reclaim_territory_in_south_america
-		#1941
+		#4640
 		BRA_spirit_of_acre_war
 		BRA_secure_our_borders
 
@@ -312,19 +312,19 @@ BRA_alcantara_plan = {
 	}
 
 	ai_national_focuses = {
-		#1936
+		#4633
 		BRA_end_the_state_of_emergency
 		BRA_romanticize_the_old_empire
 		BRA_petropolis_line
 		BRA_coffee_crisis_aftermath
 		BRA_desenvolvimentismo
-		#1937
+		#4635
 		BRA_promote_resource_extraction
 		BRA_restore_the_coffee_barons
 		BRA_companhia_siderurgica_nacional
 		SMB_army
 		BRA_constitutional_monarchy
-		#1938
+		#4635
 		BRA_stimulate_the_civilian_economy
 		SMB_navy
 		SMB_air_force
@@ -332,7 +332,7 @@ BRA_alcantara_plan = {
 		BRA_united_kingdom_of_brazil_and_portugal
 		SMB_military_facilities
 		BRA_use_the_national_security_law
-		#1939
+		#4636
 		BRA_war_production
 		BRA_national_petroleum_council
 		BRA_penal_battalions
@@ -340,7 +340,7 @@ BRA_alcantara_plan = {
 		SMB_department_of_propaganda
 		SMB_purchase_aircraft
 		BRA_empire_of_brazil
-		#1940
+		#4639
 		BRA_radio_nacional
 		SMB_establish_aircraft_industry
 		BRA_banco_do_brasil
@@ -348,7 +348,7 @@ BRA_alcantara_plan = {
 		SMB_purchase_destroyers_and_subs
 		BRA_reclaim_territory_in_south_america
 		BRA_demand_portugese_submission
-		#1941
+		#4640
 		BRA_spirit_of_acre_war
 		BRA_secure_our_borders
 		BRA_domination_of_the_americas

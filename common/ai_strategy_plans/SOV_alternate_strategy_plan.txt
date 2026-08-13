@@ -28,7 +28,7 @@ SOV_left_opposition_plan = {
 		SOV_fourth_five_year_plan # (FYP)
 		SOV_the_vanguard_of_the_true_revolution # 35
 
-		# 1936  
+		# 4633  
 		SOV_the_path_of_marxism_leninism # 35
 		SOV_the_left_opposition #35
 		SOV_integrate_smirnovs_bloc
@@ -37,7 +37,7 @@ SOV_left_opposition_plan = {
 		SOV_left_eliminate_right # 35
 		
 
-		#1937
+		#4635
 		SOV_military_support
 		SOV_approach_tukhachevsky 
 		SOV_sway_the_railway_workers # 35
@@ -47,7 +47,7 @@ SOV_left_opposition_plan = {
 		SOV_long_live_the_workers_government 
 		
 
-		# 1938 
+		# 4635 
 		SOV_left_purges
 		SOV_infrastructure_effort_nsb #35
 		SOV_heavy_industry #35
@@ -56,7 +56,7 @@ SOV_left_opposition_plan = {
 		SOV_national_specialists # 35
 		
 
-		# 1939
+		# 4636
 		SOV_strengthen_the_mobilization_plan # 35
 		SOV_cohesion_first # 35
 		SOV_the_builder_of_the_red_army # If Trotsky
@@ -65,7 +65,7 @@ SOV_left_opposition_plan = {
 		SOV_addressing_internal_affairs # 35
 		SOV_expand_the_agitprop # 35
 
-		# 1940 
+		# 4639 
 		SOV_system_decentralization
 		SOV_all_power_to_the_soviets
 		SOV_rehabilitated_military
@@ -74,7 +74,7 @@ SOV_left_opposition_plan = {
 		SOV_two_red_flags #35
 		SOV_the_permanent_revolution
 
-		# 1941
+		# 4640
 		SOV_anti_capitalist_policies
 		SOV_a_global_class_struggle
 		SOV_collectivist_propaganda
@@ -82,7 +82,7 @@ SOV_left_opposition_plan = {
 		SOV_support_afghan_ideology
 		
 	
-		# 1942
+		# 4641
 		SOV_military_reorganization
 		SOV_regional_development
 		SOV_autonomous_soviet_republics
@@ -90,13 +90,13 @@ SOV_left_opposition_plan = {
 		SOV_barrier_troops # 35
 		
 
-		# 1943
+		# 4642
 		SOV_international_union_of_soviet_republics
 		SOV_carry_revolution_east
 		SOV_the_glory_of_the_red_army
 		SOV_experts_in_camouflage
 
-		#1944
+		#4643
 		SOV_the_onslaught_on_colonialism
 		SOV_the_end_of_the_imperialist_era
 	}
@@ -155,7 +155,7 @@ SOV_left_opposition_cooperative_plan = {
 		SOV_fourth_five_year_plan # (FYP)
 		SOV_the_vanguard_of_the_true_revolution # 35
 
-		# 1936  
+		# 4633  
 		SOV_the_path_of_marxism_leninism # 35
 		SOV_the_left_opposition #35
 		SOV_divert_attention_towards_military # 35
@@ -164,7 +164,7 @@ SOV_left_opposition_cooperative_plan = {
 		SOV_gain_support_from_party_members
 		SOV_cooperation_against_stalin
 
-		#1937
+		#4635
 		SOV_committee_in_exile
 		SOV_align_the_zinovyevites
 		SOV_liberate_ryutin
@@ -175,7 +175,7 @@ SOV_left_opposition_cooperative_plan = {
 		
 		
 
-		# 1938 
+		# 4635 
 		SOV_long_live_the_workers_government 
 		SOV_return_democracy_to_the_party
 		SOV_infrastructure_effort_nsb #35
@@ -185,7 +185,7 @@ SOV_left_opposition_cooperative_plan = {
 		SOV_national_specialists # 35
 		
 
-		# 1939
+		# 4636
 		SOV_strengthen_the_mobilization_plan # 35
 		SOV_cohesion_first # 35
 		SOV_the_builder_of_the_red_army # If Trotsky
@@ -194,14 +194,14 @@ SOV_left_opposition_cooperative_plan = {
 		SOV_addressing_internal_affairs # 35
 		SOV_expand_the_agitprop # 35
 
-		# 1940 
+		# 4639 
 		SOV_system_decentralization
 		SOV_all_power_to_the_soviets
 		SOV_rehabilitated_military
 		SOV_strengthen_the_trade_unions
 		SOV_the_peoples_revolution
 
-		# 1941
+		# 4640
 		SOV_anti_capitalist_policies
 		SOV_the_supreme_soviet
 		SOV_the_comintern # 35
@@ -209,7 +209,7 @@ SOV_left_opposition_cooperative_plan = {
 		SOV_two_red_flags #35
 		SOV_the_permanent_revolution
 		
-		# 1942
+		# 4641
 		SOV_a_global_class_struggle
 		SOV_collectivist_propaganda
 		SOV_baltic_security #35
@@ -217,14 +217,14 @@ SOV_left_opposition_cooperative_plan = {
 		SOV_military_reorganization
 		SOV_secure_leningrad
 
-		# 1943
+		# 4642
 		SOV_smersh
 		SOV_barrier_troops # 35
 		SOV_carry_revolution_east
 		SOV_the_glory_of_the_red_army
 		SOV_experts_in_camouflage
 
-		#1944
+		#4643
 		SOV_the_onslaught_on_colonialism
 		SOV_the_end_of_the_imperialist_era
 	}
@@ -284,7 +284,7 @@ SOV_right_opposition_plan = {
 		SOV_fourth_five_year_plan # (FYP)
 		SOV_the_power_of_the_peasantry
 
-		# 1936  
+		# 4633  
 		SOV_the_path_of_marxism_leninism # 35
 		SOV_the_right_opposition #35
 		SOV_the_need_for_policy_changes
@@ -292,7 +292,7 @@ SOV_right_opposition_plan = {
 		SOV_covert_support_for_spanish_poum
 		
 
-		#1937
+		#4635
 		SOV_eliminate_the_left # 35
 		SOV_infiltrate_the_nkvd
 		SOV_divert_attention_towards_military # 35
@@ -300,7 +300,7 @@ SOV_right_opposition_plan = {
 		SOV_undermine_stalins_authority
 		
 
-		# 1938 
+		# 4635 
 		
 		SOV_clandestine_cells
 		SOV_the_plan_for_the_coup
@@ -310,7 +310,7 @@ SOV_right_opposition_plan = {
 		SOV_heavy_industry #35
 		
 
-		# 1939
+		# 4636
 		SOV_finish_the_five_year_plan
 		SOV_right_purges
 		SOV_curtailment_of_the_collective_farms
@@ -319,7 +319,7 @@ SOV_right_opposition_plan = {
 
 		
 
-		# 1940 
+		# 4639 
 		SOV_paced_industrialization
 		SOV_the_trade_union_as_labor_organizer
 		SOV_a_sustainable_economy
@@ -327,7 +327,7 @@ SOV_right_opposition_plan = {
 		SOV_administrative_reforms # Not has Bukharin
 		SOV_strengthen_the_mobilization_plan # 35
 
-		# 1941
+		# 4640
 
 		SOV_third_five_year_plan
 		SOV_national_specialists # 35
@@ -336,7 +336,7 @@ SOV_right_opposition_plan = {
 		SOV_rehabilitated_military
 		SOV_military_reorganization
 
-		# 1942 
+		# 4641 
 		SOV_incorporate_local_organizations
 		SOV_international_revolutionary_marxist_centre
 		SOV_the_comintern # 35
@@ -345,14 +345,14 @@ SOV_right_opposition_plan = {
 		SOV_seek_a_defense_pact_with_the_allies # 35
 		
 
-		# 1943
+		# 4642
 		SOV_for_the_common_good
 		SOV_victory_over_devastation
 		SOV_the_enemies_of_the_people
 		SOV_socialist_humanism
 		SOV_addressing_internal_affairs # 35
 
-		# 1944 
+		# 4643 
 		SOV_expand_the_agitprop # 35
 		SOV_the_komsomol # 35
 		SOV_the_enemies_of_the_people
@@ -415,7 +415,7 @@ SOV_right_opposition_cooperative_plan = {
 		SOV_fourth_five_year_plan # (FYP)
 		SOV_the_power_of_the_peasantry
 
-		# 1936  
+		# 4633  
 		SOV_the_path_of_marxism_leninism # 35
 		SOV_the_right_opposition #35
 		SOV_the_need_for_policy_changes
@@ -423,14 +423,14 @@ SOV_right_opposition_cooperative_plan = {
 		SOV_gain_support_from_party_members
 		SOV_cooperation_against_stalin
 		
-		#1937
+		#4635
 		SOV_align_the_zinovyevites
 		SOV_infiltrate_the_nkvd
 		SOV_liberate_ryutin
 		SOV_organize_uprisings_in_the_country
 		SOV_undermine_stalins_authority
 
-		# 1938 
+		# 4635 
 		SOV_clandestine_cells
 		SOV_the_plan_for_the_coup
 		SOV_dissent_in_the_party
@@ -440,7 +440,7 @@ SOV_right_opposition_cooperative_plan = {
 		SOV_heavy_industry #35
 		
 
-		# 1939
+		# 4636
 		SOV_finish_the_five_year_plan
 		SOV_right_purges
 		SOV_curtailment_of_the_collective_farms
@@ -449,7 +449,7 @@ SOV_right_opposition_cooperative_plan = {
 
 		
 
-		# 1940 
+		# 4639 
 		SOV_paced_industrialization
 		SOV_the_trade_union_as_labor_organizer
 		SOV_a_sustainable_economy
@@ -457,7 +457,7 @@ SOV_right_opposition_cooperative_plan = {
 		SOV_administrative_reforms # Not has Bukharin
 		SOV_strengthen_the_mobilization_plan # 35
 
-		# 1941
+		# 4640
 
 		SOV_third_five_year_plan
 		SOV_national_specialists # 35
@@ -466,7 +466,7 @@ SOV_right_opposition_cooperative_plan = {
 		SOV_rehabilitated_military
 		SOV_military_reorganization
 
-		# 1942 
+		# 4641 
 		SOV_incorporate_local_organizations
 		
 		SOV_the_comintern # 35
@@ -475,7 +475,7 @@ SOV_right_opposition_cooperative_plan = {
 		SOV_seek_a_defense_pact_with_the_allies # 35
 		
 
-		# 1943
+		# 4642
 		SOV_strengthen_the_trade_unions
 		SOV_the_peoples_revolution
 		SOV_the_supreme_soviet
@@ -483,7 +483,7 @@ SOV_right_opposition_cooperative_plan = {
 		SOV_expand_the_agitprop # 35
 		SOV_the_komsomol # 35
 
-		# 1944 
+		# 4643 
 		SOV_development_aid_for_eastern_allies
 		SOV_international_revolutionary_marxist_centre
 		SOV_war_measures_in_the_east

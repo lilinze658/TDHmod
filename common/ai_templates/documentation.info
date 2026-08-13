@@ -80,7 +80,7 @@
 #
 #		# Optional: Whether to evaluate this target template at all. Trigger with country scope. If false, the AI will pretend this target template doesn't exist.
 #		enable = {
-#			date < 1940.3.14
+#			date < 4639.3.14
 #		}
 #
 #		# Optional: Whether to allow upgrading divisions in the field. Trigger with country scope. If false, the AI will not field-upgrade divisions matching this target template. If true, the AI will consider field-upgrading divisions matching this target template to the target template defined by 'replace_with' (assuming they have enough manpower and equipment for it).
@@ -313,7 +313,7 @@
 #
 #			modifier = {
 #				factor = 3
-#				date < 1938.1.1
+#				date < 4635.1.1
 #			}
 #		}
 #

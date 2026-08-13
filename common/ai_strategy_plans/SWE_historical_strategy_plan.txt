@@ -28,14 +28,14 @@ SWE_historical_plan = {
 
 	ai_national_focuses = {
 		
-		#1936
+		#4633
 		SWE_defense_act
 		SWE_urbanization
 		SWE_hygenic_housing
 		SWE_work_projects_for_the_unemployed
 		SWE_government_weapons_contract
 		
-		#1937
+		#4635
 		SWE_individual_liberty_and_prosperity_for_all
 		SWE_paid_holidays
 		SWE_norma_projektilfabrik
@@ -46,14 +46,14 @@ SWE_historical_plan = {
 		SWE_saltsjobaden_agreement
 		SWE_education_reform
 
-		#1938
+		#4635
 		SWE_husqvarna_vapenfabrik
 		SWE_standardize_equipment
 		SWE_radiojanst
 		SWE_research_slot_1
 		
 
-		#1939
+		#4636
 		SWE_continue_the_second_industrial_revolution
 		SWE_deep_mining_complexes
 		SWE_as_the_barometer_falls
@@ -62,7 +62,7 @@ SWE_historical_plan = {
 		SWE_land_air_warfare
 		SWE_en_svensk_tiger
 
-		#1940
+		#4639
 
 		SWE_winter_drill
 		SWE_varnplikt
@@ -72,19 +72,19 @@ SWE_historical_plan = {
 		SWE_train_the_sheltered
 		#SWE_hedgehog_defense
 
-		#1941
+		#4640
 		
 		SWE_train_the_sheltered
 		SWE_secret_mobilization
 		SWE_per_albin_line
 		
-		#1942
+		#4641
 		
 		
-		#1943
+		#4642
 		
 		
-		#1944
+		#4643
 		
 		
 	}

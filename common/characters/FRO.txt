@@ -1,6 +1,6 @@
 ﻿characters={ 
 	FRO_hana={
-		name= hana
+		name= 哈娜
 		portraits={
 			civilian={
 				large="gfx/leaders/FRO/哈娜.png"

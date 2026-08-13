@@ -60,44 +60,44 @@ USA_historical_plan = {
 		USA_war_department
 		USA_air_war_plans_division
 		USA_war_plans_division
-		#1937
+		#4635
 		USA_agricultural_adjustment_act
 		USA_neutrality_act
 		USA_intervention_in_asia
 		USA_war_plan_orange
 		USA_intervention_in_europe
-		#1938
+		#4635
 		USA_war_plan_black
 		USA_strategic_bombing
 		USA_fair_labour_standards_act
 		USA_escort_fighters
 		USA_arsenal_of_democracy
-		#1939
+		#4636
 		USA_scientist_haven
 		USA_military_construction
 		USA_USACE_projects
 		USA_manhattan_project
 		USA_federal_housing_act
-		#1940
+		#4639
 		USA_the_giant_wakes
 		USA_military_construction
 		USA_two_ocean_navy_act
 		USA_selective_training_act
 		USA_destroyers_for_bases
-		#1941
+		#4640
 		USA_maritime_commission
 		USA_liberty_ships
 		USA_lend_lease_act
 		USA_office_of_scientific_research_and_development
 		USA_louisiana_maneuvers
 		USA_support_rock_island
-		#1942
+		#4641
 		USA_tank_experiments
 		USA_tank_destroyer_doctrine
 		USA_combined_bomber_offensive
 		USA_bureau_of_ships
 		USA_carrier_primacy
-		#1943
+		#4642
 		USA_wartime_industry
 		USA_build_the_pentagon
 		USA_army_of_the_united_states

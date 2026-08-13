@@ -1,0 +1,678 @@
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "STA"
+		}
+		requested_factories = 5
+		progress = 0.55
+		efficiency = 100
+	}	
+}
+
+division_template = {
+	name = "斯塔轻步兵师"			
+		division_names_group = SNO_INF_02 
+		regiments = { 
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 2 y = 0 }
+			artillery_brigade = { x = 2 y = 1}
+		}
+}
+division_template = {
+	name = "亚人特种师"			
+		division_names_group = ORT_INF_01 
+		regiments = { 
+			kingdomz = { x = 0 y = 0 }
+			kingdomz = { x = 0 y = 1 }
+			kingdomz = { x = 0 y = 2 }
+			kingdomz = { x = 1 y = 0 }
+			kingdomz = { x = 1 y = 1 }
+			kingdomz = { x = 1 y = 2 }
+			kingdomz = { x = 2 y = 0 }
+			kingdomz = { x = 2 y = 0 }
+			kingdomz = { x = 2 y = 0 }
+		}
+		support = {
+			engineer = { x = 0 y = 0 }
+		}	
+	}
+division_template = {
+	name = "斯塔民兵团"			
+		division_names_group = SNO_INF_02 
+		regiments = { 
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+			militia = { x = 1 y = 0 }
+			militia = { x = 1 y = 1 }
+			militia = { x = 1 y = 2 }
+		}
+}
+division_template = {
+	name = "斯塔重步兵师"
+	regiments = { 
+		infantry = { x = 0 y = 0}
+		infantry = { x = 0 y = 1}
+		infantry = { x = 0 y = 2}
+		infantry = { x = 0 y = 3}
+		infantry = { x = 1 y = 0}
+		infantry = { x = 1 y = 1}
+		infantry = { x = 1 y = 2}
+		infantry = { x = 1 y = 3}
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+		light_armor = { x = 2 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "亚人特种师"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "亚人特种师"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "亚人特种师"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "亚人特种师"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "亚人特种师"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔轻步兵师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "亚人特种师"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "亚人特种师"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "亚人特种师"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔重步兵师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔重步兵师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔重步兵师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔重步兵师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1138
+		division_template = "斯塔民兵团"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+}

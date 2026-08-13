@@ -90,7 +90,7 @@ LOV_INF_01 = {
 
 	}
 }
-LOV_INF_01 = {
+LOV_INF_02 = {
 	name = "近卫骑士番号"
 
 	for_countries = { LOV }

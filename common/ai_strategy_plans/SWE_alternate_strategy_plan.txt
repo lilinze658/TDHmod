@@ -22,7 +22,7 @@ SWE_alt_democratic_plan = {
 
 	ai_national_focuses = {
 		
-		#1936
+		#4633
 		SWE_standardize_equipment #As soon as possible
 		SWE_as_the_barometer_falls #As soon as possible
 		SWE_land_air_warfare #As soon as possible
@@ -37,7 +37,7 @@ SWE_alt_democratic_plan = {
 		SWE_radiojanst
 		SWE_work_projects_for_the_unemployed
 		 
-		#1937
+		#4635
 		SWE_defense_above_all
 		SWE_privately_managed_holidays
 		SWE_reject_saltsjobaden
@@ -47,20 +47,20 @@ SWE_alt_democratic_plan = {
 		SWE_continue_the_second_industrial_revolution
 		
 
-		#1938
+		#4635
 		SWE_form_rfsu
 		SWE_sami_reconcilliation
 		SWE_totalforsvar
 		SWE_secret_mobilization
 		SWE_gotaverken
 
-		#1939
+		#4636
 		SWE_deep_mining_complexes
 		SWE_the_aland_question
 		SWE_coalition_war_cabinet
 		SWE_en_svensk_tiger
 
-		#1940
+		#4639
 
 		SWE_winter_drill
 		SWE_varnplikt
@@ -69,19 +69,19 @@ SWE_alt_democratic_plan = {
 		SWE_totalforsvar
 		SWE_hedgehog_defense
 
-		#1941
+		#4640
 		
 		SWE_train_the_sheltered
 		SWE_secret_mobilization
 		SWE_per_albin_line
 		
-		#1942
+		#4641
 		
 		
-		#1943
+		#4642
 		
 		
-		#1944
+		#4643
 		
 		
 	}
@@ -132,7 +132,7 @@ SWE_communism = {
 
 	ai_national_focuses = {
 		
-		#1936
+		#4633
 		SWE_standardize_equipment #As soon as possible
 		SWE_continue_the_second_industrial_revolution
 		SWE_strike_the_capitalist_beast_down #As soon as possible
@@ -173,20 +173,20 @@ SWE_communism = {
 
 		
 		 
-		#1937
+		#4635
 		SWE_defense_above_all
 		SWE_reject_saltsjobaden
 		SWE_research_slot_1
 		
 
-		#1938
+		#4635
 		SWE_form_rfsu
 
-		#1939
+		#4636
 		SWE_deep_mining_complexes
 		SWE_the_aland_question
 
-		#1941
+		#4640
 		SWE_train_the_sheltered
 		SWE_secret_mobilization
 			
@@ -239,7 +239,7 @@ SWE_fascist_independent = {
 
 	ai_national_focuses = {
 		
-		#1936
+		#4633
 
 		SWE_defense_act
 		SWE_urbanization
@@ -345,7 +345,7 @@ SWE_fascist_puppet = {
 
 	ai_national_focuses = {
 		
-		#1936
+		#4633
 
 		SWE_defense_act
 		SWE_urbanization
@@ -443,7 +443,7 @@ SWE_fascist_puppet_backstabber = {
 
 	ai_national_focuses = {
 		
-		#1936
+		#4633
 
 		SWE_defense_act
 		SWE_urbanization
@@ -542,7 +542,7 @@ SWE_unaligned = {
 
 	ai_national_focuses = {
 		
-		#1936
+		#4633
 
 		SWE_defense_act
 		SWE_urbanization
@@ -665,7 +665,7 @@ SWE_nordic_defence_council = {
 		SWE_radiojanst
 		SWE_work_projects_for_the_unemployed
 		 
-		#1937
+		#4635
 		SWE_defense_above_all
 		SWE_privately_managed_holidays
 		SWE_reject_saltsjobaden
@@ -691,10 +691,10 @@ SWE_nordic_defence_council = {
 		SWE_merge_army_complexes
 		SWE_nordljus
 
-		#1939
+		#4636
 		SWE_deep_mining_complexes
 		SWE_per_albin_line
-		#1941
+		#4640
 		
 		
 		

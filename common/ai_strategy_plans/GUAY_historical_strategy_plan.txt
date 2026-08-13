@@ -31,10 +31,10 @@ URG_historical_plan = {
 
 	ai_national_focuses = {
 		
-		#1936
+		#4633
 		#GUAY_disperse_military_power
 		#GUAY_nationalize_foreign_owned_companies
-		#1944
+		#4643
 		
 		
 	}

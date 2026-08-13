@@ -3,7 +3,7 @@
 equipments = {
 
 	magic_infantry_equipment = {
-		year = 1936
+		year = 4633
 	
 		is_archetype = yes
 		picture = magic_infantry_equipment		
@@ -52,7 +52,7 @@ equipments = {
 
 
 
-	#原版 infantry  1936
+	#原版 infantry  4633
 	magic_infantry_equipment_1 = {
 		year = 4635
 	
@@ -77,7 +77,7 @@ equipments = {
 		build_cost_ic = 9.00 
 	}
 
-	# Improved weapons  ~1939
+	# Improved weapons  ~4636
 	magic_infantry_equipment_2 = {
 		year = 4637
 	
@@ -108,7 +108,7 @@ equipments = {
 		
 	}
 	
-	# Advanced weapons  ~1942
+	# Advanced weapons  ~4641
 	magic_infantry_equipment_3 = {
 		year = 4639
 	
@@ -164,7 +164,7 @@ equipments = {
 	}
 	
 	magic_mechanized_equipment = { #装甲型
-		year = 1936
+		year = 4633
 	
 		is_archetype = yes
 		picture = archetype_infantry_equipment		

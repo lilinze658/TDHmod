@@ -1,9 +1,8 @@
-state={
-	id=281
-	name="STATE_281"#熔铁城地方
-	history={
+state = {
+	id = 281
+	name = STATE_281 #熔铁城地方
+	history = {
 		owner = ELT
-		 
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -13,13 +12,10 @@ state={
 			}
 		}
 		add_core_of = ELT
-
 	}
-	provinces={
-		1305 2412 3039 3427 3675 6201 8220 8699 8918 9058 10593 14004 14063 14215 14288 14344 
-	}
-	manpower=3649000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	provinces = { 1305 2412 3039 3427 3675 6201 8220 8699 8918 9058 10593 14004 14063 14215 14288 14344  }
+	manpower = 3649000
+	buildings_max_level_factor = 1.2
+	state_category = city
+	local_supplies = 0.8
 }

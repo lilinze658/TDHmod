@@ -1,6 +1,6 @@
 ﻿characters={ 
 	NGD_xiruiwei={
-		name= xiruiwei
+		name= 希瑞薇
 		portraits={
 			civilian={
 				large="gfx/leaders/NGD/希瑞薇.png"
@@ -31,7 +31,7 @@
 	}
 
 	NGD_maliya={
-		name= maliya
+		name= 玛丽亚
 		portraits={
 			civilian={
 				large="gfx/leaders/NGD/玛丽亚.png"
@@ -56,7 +56,7 @@
 	}
 
 	NGD_aijiluna={
-		name= aijiluna
+		name= 艾吉露娜
 		portraits={
 			civilian={
 				large="gfx/leaders/NGD/艾吉露娜.png"

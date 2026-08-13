@@ -3,10 +3,10 @@
 		name=格莱科樱
 		portraits={
 			civilian={
-				large="gfx/leaders/BSP/格莱科樱.png"
+				large="gfx/leaders/BSP/格莱科樱.dds"
 			}
 			army = {   
-				large="gfx/leaders/BSP/格莱科樱.png" 
+				large="gfx/leaders/BSP/格莱科樱.dds" 
 				small="gfx/interface/ideas/XXX.png"
 			}
 		 

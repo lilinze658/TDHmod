@@ -1,23 +1,17 @@
-state={
-	id=851
-	name="STATE_851"
-	history={
+state = {
+	id = 851
+	name = STATE_851
+	history = {
 		owner = DUC
-		victory_points = {
-			6429 15 
-		}
+		victory_points = { 6429 15  }
 		buildings = {
 			infrastructure = 1
-
 		}
 		add_core_of = DUC
-
 	}
-	provinces={
-		550 1646 2220 3975 4424 6429 7731 8423 8965 9629 10571 10737 17525 17596 
-	}
-	manpower=406301
-	buildings_max_level_factor=1.000
-	state_category=pastoral 
-	local_supplies=0.000
+	provinces = { 550 1646 2220 3975 4424 6429 7731 8423 8965 9629 10571 10737 17525 17596  }
+	manpower = 406301
+	buildings_max_level_factor = 1.2
+	state_category = pastoral
+	local_supplies = 0.8
 }

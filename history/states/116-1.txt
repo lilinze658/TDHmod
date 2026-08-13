@@ -1,11 +1,11 @@
-state={
-	id=116
-	name="STATE_116"
+state = {
+	id = 116
+	name = STATE_116
 	state_category = city
-	history={
+	history = {
 		owner = HAS
 		victory_points = {
-			
+			5356 20
 		}
 		buildings = {
 			infrastructure = 3
@@ -20,10 +20,8 @@ state={
 			add_core_of = FAL
 		}
 	}
-	provinces={
-		222 518 1133 4816 5356 5791 9255 9652 10238 10505 13389 13415 13446 13468 13509 13522 13544 13616 
-	}
-	manpower=3540000
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	provinces = { 222 518 1133 4816 5356 5791 9255 9652 10238 10505 13389 13415 13446 13468 13509 13522 13544 13616  }
+	manpower = 3540000
+	buildings_max_level_factor = 1.2
+	local_supplies = 0.8
 }

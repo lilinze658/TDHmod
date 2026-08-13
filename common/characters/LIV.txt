@@ -1,6 +1,6 @@
 ﻿characters={ 
 	LIV_buliqite={
-		name=buliqite
+		name=布里奇特
 		portraits={
 			civilian={
 				large="gfx/leaders/LIV/布里奇特.png"
@@ -30,7 +30,7 @@
 		}
 	}
 	LIV_xiaojiang={
-		name=xiaojiang
+		name=小僵
 		portraits = {
 			army = {
 				large = "gfx/leaders/LIV/小僵.png" 

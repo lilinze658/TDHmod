@@ -1,20 +1,16 @@
-
-state={
-	id=674
-	name="STATE_674"
-		history={
+state = {
+	id = 674
+	name = STATE_674
+	history = {
 		owner = OLI
 		buildings = {
 			infrastructure = 1
-
 		}
 		add_core_of = OLI
-
 	}
-	provinces={
-		216 1057 3572 5875 5959 11039 12610 12611 12624 12653 12659 12705 
-	}
-	manpower=667412
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	provinces = { 216 1057 3572 5875 5959 11039 12610 12611 12624 12653 12659 12705  }
+	manpower = 667412
+	buildings_max_level_factor = 1.2
+	local_supplies = 0.8
+	state_category = city
 }

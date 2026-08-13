@@ -1,22 +1,26 @@
-state={
-	id=115
-	name="STATE_115"
-	history={
+state = {
+	id = 115
+	name = STATE_115#多米尼克
+	resources = {
+		steel=20
+	}
+	history = {
 		owner = AIS
 		victory_points = {
-			
+			4918 15
+		}
+		victory_points = {
+			14908 10
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
 		add_core_of = AIS
-
 	}
-	provinces={
-		173 870 974 1885 1924 2317 2429 3801 3942 4518 4918 4992 8039 9165 9463 10718 14908 14914 14989 15074 15145 15157 15172 15185 15239 
-	}
-	manpower=0
-	buildings_max_level_factor=1
-	local_supplies=0
+	provinces = { 173 870 974 1885 1924 2317 2429 3801 3942 4518 4918 4992 8039 9165 9463 10718 14908 14914 14989 15074 15145 15157 15172 15185 15239  }
+	manpower = 38373135
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
 }

@@ -1,22 +1,20 @@
-state={
-	id=832
-	name="STATE_832"
-	history={
+state = {
+	id = 832
+	name = STATE_832#艾希尼亚城
+	history = {
 		owner = AIS
 		victory_points = {
-			
+			9214 25
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
 		add_core_of = AIS
-
 	}
-	provinces={
-		1210 2565 3888 4529 6727 9214 9925 15059 15131 15146 
-	}
-	manpower=0
-	buildings_max_level_factor=1
-	local_supplies=0
+	provinces = { 1210 2565 3888 4529 6727 9214 9925 15059 15131 15146  }
+	manpower = 37952881
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
 }

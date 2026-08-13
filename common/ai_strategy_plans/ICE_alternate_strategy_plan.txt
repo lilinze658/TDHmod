@@ -25,26 +25,26 @@ ICE_alt_democratic_strategy_plan = {
 		ICE_fighting_as_equals
 		ICE_banking_on_the_future
 
-		#1936
+		#4633
 		ICE_the_kingdom_of_iceland	
 		ICE_united_we_stand
 		ICE_expand_the_fishing_industry
 		ICE_engineering_projects
 
-		#1937
+		#4635
 		ICE_joint_shipbuilding_programme
 		ICE_patrolling_the_atlantic
 		ICE_not_standing_idly_by
 		ICE_industrial_cooperation
 
-		#1938
+		#4635
 		ICE_royal_marines
 	
 		
-		#1939 
+		#4636 
 		
 
-		#1940
+		#4639
 		
 
 		
@@ -99,27 +99,27 @@ ICE_fascist_strategy_plan = {
 		ICE_state_visits
 		ICE_break_with_the_crown
 
-		#1936
+		#4633
 		ICE_not_our_king
 		ICE_anti_capitalist_propaganda
 		ICE_prepare_for_the_revolution
 		ICE_expand_the_industrial_base
 		ICE_organize_a_march
 
-		#1937
+		#4635
 		ICE_state_corporatism
 		ICE_research_cooperation
 		ICE_organize_the_greyshirts
 		ICE_the_armed_forces_of_iceland
 		
 
-		#1938
+		#4635
 		
 		
-		#1939
+		#4636
 		
 
-		#1940
+		#4639
 		
 
 		
@@ -174,7 +174,7 @@ ICE_communist_strategy_plan = {
 		ICE_international_relations
 		ICE_break_with_the_crown
 
-		#1936
+		#4633
 		ICE_not_our_king
 		ICE_anti_capitalist_propaganda
 		ICE_expand_the_industrial_base
@@ -182,20 +182,20 @@ ICE_communist_strategy_plan = {
 		ICE_prepare_for_the_revolution
 		
 
-		#1937
+		#4635
 		ICE_general_strike
 		ICE_embrace_the_workers_revolution
 		ICE_state_owned_industry
 		ICE_transformation_of_nature
 		ICE_international_research_community
 
-		#1938
+		#4635
 		
 		
-		#1939
+		#4636
 		
 
-		#1940
+		#4639
 		
 
 		

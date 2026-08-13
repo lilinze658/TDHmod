@@ -1,6 +1,6 @@
 ﻿characters={ 
 	KIA_hanni={
-		name= hanni
+		name= 汉妮
 		portraits={
 			civilian={
 				large="gfx/leaders/KIA/汉妮.png"
@@ -30,7 +30,7 @@
 		}
 	}
 	KIA_laoluntina={
-		name= laoluntina
+		name= 劳伦缇娜
 		portraits = {
 			army = {
 				large = "gfx/leaders/KIA/劳伦缇娜.png"

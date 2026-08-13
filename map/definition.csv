@@ -2281,7 +2281,7 @@
 2280;137;232;146;land;false;mountain;1
 2281;241;162;176;land;false;plains;1
 2282;185;185;167;land;false;desert;1
-2283;235;181;137;land;false;urban;1
+2283;235;181;137;land;false;desert;1
 2284;237;239;146;land;true;plains;1
 2285;107;183;249;land;false;hills;1
 2286;70;197;235;land;false;desert;1
@@ -7481,7 +7481,7 @@
 7480;238;167;121;land;false;plains;1
 7481;108;239;172;land;false;hills;1
 7482;126;148;249;land;false;plains;1
-7483;233;169;207;land;false;urban;1
+7483;233;169;207;land;false;plains;1
 7484;235;253;183;land;false;desert;1
 7485;213;243;221;land;false;plains;1
 7486;228;208;135;land;false;desert;1
@@ -7705,7 +7705,7 @@
 7704;187;214;166;land;true;plains;1
 7705;182;175;246;land;false;urban;1
 7706;165;226;182;land;true;plains;1
-7707;169;251;194;land;false;hills;1
+7707;169;251;194;land;false;urban;1
 7708;105;187;226;land;false;jungle;1
 7709;103;184;240;land;false;plains;1
 7710;217;144;235;land;false;hills;1
@@ -8549,7 +8549,7 @@
 8548;228;228;238;land;false;plains;1
 8549;27;243;252;land;true;plains;1
 8550;252;237;95;land;false;plains;1
-8551;197;107;200;land;false;plains;1
+8551;197;107;200;land;false;urban;1
 8552;201;181;133;land;false;desert;1
 8553;92;243;246;land;false;plains;1
 8554;191;159;176;land;false;hills;1
@@ -14296,7 +14296,7 @@
 14295;207;217;247;land;false;plains;1
 14296;190;203;193;land;false;plains;1
 14297;229;106;231;land;false;urban;1
-14298;145;151;241;land;false;plains;1
+14298;145;151;241;land;false;urban;1
 14299;220;164;159;land;false;plains;1
 14300;64;232;229;land;false;plains;1
 14301;252;203;236;land;false;mountain;1
@@ -14468,7 +14468,7 @@
 14467;144;215;213;land;true;plains;1
 14468;205;134;202;land;false;forest;1
 14469;198;176;246;land;false;desert;1
-14470;124;251;203;land;false;urban;1
+14470;124;251;203;land;false;plains;1
 14471;246;190;123;land;true;plains;1
 14472;221;144;170;land;false;forest;1
 14473;225;104;190;land;false;hills;1
@@ -18950,7 +18950,7 @@
 18949;118;26;4;lake;false;lakes;0
 18950;27;40;36;lake;false;lakes;0
 18951;35;52;54;lake;false;lakes;0
-18952;
+18952;16;32;244;sea;true;ocean;0
 18953;
 18954;
 18955;

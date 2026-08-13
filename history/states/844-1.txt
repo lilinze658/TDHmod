@@ -1,14 +1,12 @@
-state={
-	id=844
-	name="STATE_844"
+state = {
+	id = 844
+	name = STATE_844
 	resources = {
-		tungsten= 10
+		tungsten = 10
 	}
-	history={
+	history = {
 		owner = DUC
-		victory_points = { 
-            10163 15
-            }
+		victory_points = { 10163 15  }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -18,15 +16,11 @@ state={
 			owner = BER
 			add_core_of = BER
 			add_core_of = DUC
-
 		}
-
 	}
-	provinces={
-		609 1670 5442 10163 10243 10882 16947 16974 17166 
-	}
-	manpower=930000
-	buildings_max_level_factor=1.000
-	state_category=large_town 
-	local_supplies=0.000
+	provinces = { 609 1670 5442 10163 10243 10882 16947 16974 17166  }
+	manpower = 930000
+	buildings_max_level_factor = 1.2
+	state_category = large_town
+	local_supplies = 0.8
 }

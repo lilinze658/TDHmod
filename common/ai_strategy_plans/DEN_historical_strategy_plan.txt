@@ -29,7 +29,7 @@ DEN_historical_plan = {
 
 	ai_national_focuses = {
 
-		#1936
+		#4633
 		DEN_kanslergadeforliget			#35
 		DEN_industrial_investments				#70
 		DEN_public_works						#70
@@ -37,7 +37,7 @@ DEN_historical_plan = {
 		DEN_support_schleswigian_farmers		#70	
 		DEN_devalue_the_krone					#35	
 
-		#1937
+		#4635
 		DEN_trade_with_britain					#70		
 		DEN_trade_with_germany					#70
 		DEN_declare_neutrality					#35
@@ -46,7 +46,7 @@ DEN_historical_plan = {
 		DEN_policy_of_disarmament				#35
 		DEN_social_stability					#35
 
-		#1938
+		#4635
 		DEN_stockpile_oil						#70
 		DEN_expand_vaernepligten				#70
 		DEN_build_motorveje						#70
@@ -54,7 +54,7 @@ DEN_historical_plan = {
 		DEN_limited_market_regulations			#70
 		DEN_welcome_foreign_scientists			#70
 
-		#1939
+		#4636
 		DEN_import_machinery_and_material		#35
 		DEN_sikkerhedspolitiet					#70
 		DEN_modernize_agricultural_machinery	#70
@@ -63,7 +63,7 @@ DEN_historical_plan = {
 		DEN_agricultural_reinvestments			#70
 		DEN_increase_industrial_production		#70
 
-		#1940	
+		#4639	
 		DEN_increase_produce_production			#70
 		DEN_foreign_designs						#70
 		DEN_increase_maritime_trade				#70
@@ -71,7 +71,7 @@ DEN_historical_plan = {
 		DEN_collaboration_government			#35
 		DEN_connect_the_islands					#70
 
-		#1941
+		#4640
 		DEN_expand_institut_for_teoretisk_fysik	#70
 		DEN_expand_the_industries				#70
 		DEN_aalborg_portland_cement_plant		#70
@@ -79,7 +79,7 @@ DEN_historical_plan = {
 		DEN_strengthen_military_industries		#70
 		DEN_seek_independence					#35
 		
-		#1942
+		#4641
 		DEN_sanction_sabotages					#70
 		DEN_create_danforce						#35
 		DEN_align_with_foreign_powers			#35
@@ -88,7 +88,7 @@ DEN_historical_plan = {
 		DEN_buy_foreign_aircraft				#35
 		DEN_danske_stalvalsevaerket				#70
 		
-		#1943
+		#4642
 		DEN_form_the_danish_freedom_council		#35
 		DEN_escalate_the_sabotages				#70
 		DEN_expand_the_resistance				#70

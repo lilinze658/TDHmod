@@ -1,50 +1,59 @@
-﻿characters={ 
-	NAN_anjingzhi={
-		name=anjingzhi
-		portraits={
-			civilian={
-				large="gfx/leaders/NAN/安靖之.png"
+﻿characters = {
+	NAN_An_Jingzhi = {
+		name = NAN_An_Jingzhi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_NAN_An_Jingzhi
 			}
-			army = {   
-				large="gfx/leaders/NAN/安靖之.png" 
-				small="gfx/interface/ideas/XXX.png"
+			army = {
+				large = GFX_Portrait_NAN_An_Jingzhi
+				small = GFX_idea_advisor_NAN_An_Jingzhi
 			}
-		
 		}
-		country_leader={
-			desc = "NAN_anjingzhi_APDF_DES"
-				 traits = {  }
-				ideology= despotism 
-				expire="4999.1.1.1"
-				id=-1
+		country_leader = {
+			ideology = despotism
+			traits = {
 			}
+			desc = PORTRAIT_NAN_An_Jingzhi_DESC
+			expire = "4999.1.1.1"
+			id = -1
+		}
 		corps_commander = {
-		desc = "NAN_anjingzhi_APDF_DES"
-			legacy_id = 117
-			traits = { career_officer bearer_of_artillery fortress_buster }
+			desc = NAN_An_Jingzhi_GENERAL_DESC
+			traits = {
+				career_officer
+				bearer_of_artillery
+				fortress_buster
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 4
+			legacy_id = 117
 		}
 	}
-	NAN_xiali={
-		name=xiali
+
+	NAN_Xia_Li = {
+		name = NAN_Xia_Li
 		portraits = {
 			army = {
-				large = "gfx/leaders/NAN/夏莉.png" 
+				large = GFX_Portrait_NAN_Xia_Li
+				small = GFX_idea_advisor_NAN_Xia_Li
 			}
 		}
 		corps_commander = {
-		desc = "NAN_xiali_APDF_DES"
-			legacy_id = 118
-			traits = { trait_reckless infantry_officer }
+			desc = NAN_Xia_Li_GENERAL_DESC
+			traits = {
+				trait_reckless
+				infantry_officer
+			}
 			skill = 2
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 3
+			legacy_id = 118
 		}
 	}
 }

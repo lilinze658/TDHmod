@@ -25,7 +25,7 @@ ETH_BBA_alternative_imperialist_plan = {
 		ETH_fait_accompli
 		ETH_the_king_of_kings
 
-		# 1936
+		# 4633
 		ETH_rally_around_the_emperor # 35
 		ETH_the_second_italo-ethiopian_war # 35
 		ETH_the_emperor_stays # 35
@@ -33,19 +33,19 @@ ETH_BBA_alternative_imperialist_plan = {
 		ETH_ecole_militaire_haile_selassie_1er # 35
 		ETH_renewed_offensive # 35
 
-		#1937
+		#4635
 		
-		#1938
+		#4635
 		
-		#1939
+		#4636
 		
-		#1940
+		#4639
 		
-		#1941
+		#4640
 		
-		#1942
+		#4641
 				
-		#1943
+		#4642
 		
 	}
 
@@ -97,7 +97,7 @@ ETH_stalinist_plan = {
 	ai_national_focuses = {
 		#AI should prio getting to Soviet Aid and Soviet Mediation. If nothing available, then do Italo-Ethiopian war focuses
 
-		#1936
+		#4633
 		
 		ETH_military_communism
 		ETH_the_second_italo-ethiopian_war
@@ -118,30 +118,30 @@ ETH_stalinist_plan = {
 		# AI should focus on building industry after war, then start doing Stalinist mischief across East Africa.
 
 		ETH_red_army_engineers
-		#1938
+		#4635
 		ETH_transformation_of_nature
 		ETH_heavy_industry
 		ETH_arms_production
 		ETH_develop_the_capital_region
 		ETH_state_owned_industry
-		#1939
+		#4636
 		ETH_infrastructure_projects
 		ETH_ecole_militaire_haile_selassie_1er
 		ETH_expand_the_mehal_sefari
 		ETH_tactical_training
 		ETH_mytishchi-ababa_plant
 		ETH_soviet-ethiopian_trade_agreement
-		#1940
+		#4639
 		ETH_a_port_of_our_own
 		ETH_ethiopian_shipbuilding
 		ETH_request_soviet_hulls
 		ETH_freedom_at_gunpoint
-		#1941
+		#4640
 		ETH_increased_factory_output
 		ETH_rapid_industrial_expansion
-		#1942
+		#4641
 				
-		#1943
+		#4642
 	}
 }
 

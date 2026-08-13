@@ -1,22 +1,23 @@
-state={
-	id=833
-	name="STATE_833"
-	history={
+state = {
+	id = 833
+	name = STATE_833
+	history = {
 		owner = AIS
 		victory_points = {
-			
+			15248 10
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+			9373 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = AIS
-
 	}
-	provinces={
-		741 1952 2568 2936 4172 6530 7076 8077 9373 9477 10723 15098 15125 15161 15240 15248 15280 15294 
-	}
-	manpower=0
-	buildings_max_level_factor=1
-	local_supplies=0
+	provinces = { 741 1952 2568 2936 4172 6530 7076 8077 9373 9477 10723 15098 15125 15161 15240 15248 15280 15294  }
+	manpower = 10011324
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
 }

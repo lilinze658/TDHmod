@@ -1,6 +1,6 @@
 ﻿characters={ 
 	NED_tonghua={
-		name= tonghua
+		name= 桐华
 		portraits={
 			civilian={
 				large="gfx/leaders/NED/桐华.png"
@@ -30,7 +30,7 @@
 	}
 
 	NED_kunna={
-		name= kunna
+		name= 昆娜
 		portraits={
 			civilian={
 				large="gfx/leaders/NED/昆娜.png"

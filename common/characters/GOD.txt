@@ -1,57 +1,41 @@
-﻿characters={ 
-	GOD_jieyi={
-		name=jieyi
-		portraits={
-			civilian={
-				large="gfx/leaders/GOD/洁依.png"
+﻿characters = {
+	GOD_Jie_Yi = {
+		name = GOD_Jie_Yi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GOD_Jie_Yi
 			}
-			army = {   
-				large="gfx/leaders/GOD/洁依.png" 
-				small="gfx/interface/ideas/XXX.png"
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
 			}
-		
-		}
-		country_leader={
-		desc = "GOD_jieyi_APDF_DES"
-		    traits = {  }
-			ideology= despotism
-			expire="4999.1.1.1"
-			id=-1
-		}
-		corps_commander = {
-		desc = "GOD_jieyi_APDF_DES"
-			legacy_id = 57
-			traits = {   }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			desc = PORTRAIT_GOD_Jie_Yi_DESC
+			expire = "4999.1.1.1"
+			id = -1
 		}
 	}
-
-	GOD_binhui={
-		name=binhui
-		portraits={
-			civilian={
-				large="gfx/leaders/GOD/彬惠.png"
+	GOD_Bin_Hui = {
+		name = GOD_Bin_Hui
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GOD_Bin_Hui
+				small = GFX_idea_advisor_GOD_Bin_Hui
 			}
-			army = {   
-				large="gfx/leaders/GOD/彬惠.png" 
-				small="gfx/interface/ideas/XXX.png"
-			}
-		
 		}
-		corps_commander = {
-		desc = "GOD_binhui_APDF_DES"
-			legacy_id = 58
-			traits = {   }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+		advisor = {
+			slot = political_advisor
+			idea_token = GOD_Bin_Hui
+			desc = GOD_Bin_Hui_ADVISOR_DESC
+			allowed = { DIV_is_Shenzhou_state = yes }
+			available = {
+				#is_a_fascism_government = yes
+			}
+			cost = 150
+			traits = { silent_workhorse }
+			ai_will_do = {
+				base = 1.000
+			}
 		}
 	}
-
 }

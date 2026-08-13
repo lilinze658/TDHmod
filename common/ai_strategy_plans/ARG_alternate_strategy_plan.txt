@@ -22,7 +22,7 @@ ARG_fascism_plan = {
 
 	ai_national_focuses = {
 
-		#1936
+		#4633
 		#ARG_preparation_for_the_elections
 		SMB_army
 		SMB_navy
@@ -30,7 +30,7 @@ ARG_fascism_plan = {
 		ARG_work_with_the_nationalists
 		ARG_banco_central_de_la_republica_argentina
 
-		#1937
+		#4635
 		ARG_crack_down_on_corruption
 		ARG_industrial_expansion
 		ARG_cut_ties_with_britain	
@@ -38,7 +38,7 @@ ARG_fascism_plan = {
 		ARG_agricultural_improvements
 		ARG_economic_reactivation_act
 		
-		#1938
+		#4635
 		ARG_military_production_lines
 		ARG_corporatism
 		ARG_support_the_spanish_coup
@@ -47,14 +47,14 @@ ARG_fascism_plan = {
 		SMB_construct_air_bases
 		ARG_support_radical_nationalism
 
-		#1939
+		#4636
 		ARG_reestablish_ligas_patrioticas
 		ARG_fascist_researchers
 		ARG_encourage_german_investments
 		ARG_guardia_nacional
 		ARG_rapid_militirization
 
-		#1940
+		#4639
 		ARG_war_division
 		ARG_join_the_axis
 		ARG_dominate_the_south
@@ -62,7 +62,7 @@ ARG_fascism_plan = {
 		ARG_release_hellmuth
 		ARG_the_war_machine
 
-		#1941
+		#4640
 		ARG_secure_the_borders
 		ARG_paraguayan_ultimatum
 		ARG_revive_the_colonial_plan
@@ -120,7 +120,7 @@ ARG_communist_plan = {
 	}
 
 	ai_national_focuses = {
-		#1936
+		#4633
 		#ARG_preparation_for_the_elections
 		SMB_army
 		SMB_navy
@@ -128,21 +128,21 @@ ARG_communist_plan = {
 		ARG_invite_ghioldi_back_to_argentina
 		ARG_support_the_spanish_republicans
 
-		#1937
+		#4635
 		ARG_legitimize_the_PCA
 		ARG_industrial_expansion
 		ARG_reach_out_to_the_soviet_union
 		ARG_rapid_urbanization
 		ARG_unite_the_workers_of_argentina
 
-		#1938
+		#4635
 		ARG_agricultural_improvements
 		ARG_military_production_lines
 		ARG_capitalize_the_beef_industry
 		ARG_economic_reactivation_act
 		ARG_viva_la_revolucion
 
-		#1939
+		#4636
 		SMB_air_force
 		SMB_construct_air_bases
 		ARG_align_with_the_soviets
@@ -151,7 +151,7 @@ ARG_communist_plan = {
 		ARG_committee_of_state_security
 		ARG_russian_manufacturers
 
-		#1940
+		#4639
 		ARG_invest_in_the_roads
 		ARG_invest_in_the_railways
 		ARG_centralize_power
@@ -159,7 +159,7 @@ ARG_communist_plan = {
 		ARG_workers_rights
 		ARG_reform_our_industry
 
-		#1941
+		#4640
 		ARG_empower_the_fjc
 		ARG_state_atheism
 		ARG_socialist_researchers
@@ -167,7 +167,7 @@ ARG_communist_plan = {
 		ARG_a_red_south_america
 		ARG_integrate_the_motherland
 
-		#1942
+		#4641
 		ARG_a_red_south_america
 	}
 
@@ -216,7 +216,7 @@ ARG_democratic_plan = {
 	}
 
 	ai_national_focuses = { #the commented numbers is the ai weight to keep my sanity somewhat intact
-		#1936
+		#4633
 		#ARG_preparation_for_the_elections #20
 		SMB_army
 		SMB_navy
@@ -224,21 +224,21 @@ ARG_democratic_plan = {
 		ARG_in_memory_of_yrigoyen #20
 		ARG_anti_corruption_policies #20
 
-		#1937
+		#4635
 		ARG_banco_central_de_la_republica_argentina #15
 		ARG_industrial_expansion #15
 		ARG_promote_urbanization #15
 		ARG_rapid_urbanization #15
 		ARG_secure_the_opposition #10
 
-		#1938
+		#4635
 		ARG_agricultural_improvements #12
 		ARG_military_production_lines #10
 		ARG_capitalize_the_beef_industry #10
 		ARG_economic_reactivation_act #10
 		ARG_a_true_democracy #5, this keeps us from going too far down too fast
 
-		#1939
+		#4636
 		SMB_air_force
 		SMB_construct_air_bases
 		ARG_argentina_for_all #20, do as soon as a true democracy is done
@@ -246,7 +246,7 @@ ARG_democratic_plan = {
 		ARG_regulated_national_salaries #15
 		ARG_reinforce_the_education_system #15
 
-		#1940
+		#4639
 		ARG_british_gaurantee #17, sorry!
 		ARG_royal_airforce_influence #20
 		ARG_reinforced_alliance #20
@@ -254,20 +254,20 @@ ARG_democratic_plan = {
 		ARG_invest_in_the_railways #15
 		ARG_university_reforms #10
 
-		#1941
+		#4640
 		SMB_regular_infantry
 		ARG_develop_civilian_economy #20
 		ARG_social_welfare_fund #10
 		ARG_join_the_allies #5 another gate keep to prevent us from joining the allies WAY early
 		ARG_align_with_the_monroe_doctrine #20
 
-		#1942
+		#4641
 		ARG_envoy_to_london #20
 		ARG_american_allyship #15
 		ARG_counter_intelligence_program #15
 		ARG_end_operation_bolivar #15
 
-		#1943
+		#4642
 		ARG_study_the_battle_of_the_river_plate #10
 		ARG_firmes_volamos #5
 	}

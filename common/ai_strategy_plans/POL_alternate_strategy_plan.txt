@@ -27,44 +27,44 @@ POL_communist_plan = {
 		POL_start_central_industrial_region
 		POL_fill_the_railways_gaps
 		
-		#1937
+		#4635
 		POL_expand_central_industrial_region
 		POL_the_four_year_plan
 		POL_national_defence_fund
 		POL_warsaw_main_railway_station
 		POL_invest_in_the_old_polish_region
-		#1938
+		#4635
 		POL_additional_research_slot1
 		POL_internationalism
 		POL_authoritarianism
 		POL_go_left
 		POL_develop_upper_silesia
-		#1939
+		#4636
 		POL_prepare_for_the_next_war
 		
 		POL_seek_accommodation_with_USSR
 		POL_polish_militarism
 		POL_romanian_bridgehead_strategy
 		POL_hel_fortified_area
-		#1940
+		#4639
 		POL_silesia_fortified_area
 		POL_standardisation_of_equipment
 		POL_modernising_the_cavalry
 		POL_study_foreign_tanks		
 		POL_air_base_expansion
-		#1941
+		#4640
 		POL_fighter_modernisation
 		POL_air_innovations
 		POL_heavy_fighter_concept
 		POL_naval_bomber_experiments
 		POL_medium_bomber_focus
-		#1942
+		#4641
 		POL_light_bomber_focus
 		POL_air_modernisations_programme		
 		POL_develop_polish_ship_building
 		POL_study_foreign_built_ships
 		
-		#1943
+		#4642
 		POL_import_submarine_technology
 		
 		POL_the_twin_threats
@@ -73,7 +73,7 @@ POL_communist_plan = {
 		POL_baltic_navy
 		
 		POL_polish_revanchism
-		#1944
+		#4643
 		
 		POL_ideological_fanaticism
 		POL_the_between_the_seas_concept		
@@ -134,44 +134,44 @@ POL_democratic_plan = {
 		POL_start_central_industrial_region
 		POL_fill_the_railways_gaps
 		
-		#1937
+		#4635
 		POL_expand_central_industrial_region
 		POL_the_four_year_plan
 		POL_national_defence_fund
 		POL_warsaw_main_railway_station
 		POL_invest_in_the_old_polish_region
-		#1938
+		#4635
 		POL_additional_research_slot1
 		POL_internationalism
 		POL_liberalism_focus
 		POL_intervention_focus
 		POL_develop_upper_silesia
-		#1939
+		#4636
 		POL_prepare_for_the_next_war
 		POL_draw_closer_to_britain
 		POL_volunteer_corps
 		POL_polish_militarism
 		POL_romanian_bridgehead_strategy
 		POL_hel_fortified_area
-		#1940
+		#4639
 		POL_silesia_fortified_area
 		POL_standardisation_of_equipment
 		POL_modernising_the_cavalry
 		POL_study_foreign_tanks		
 		POL_air_base_expansion
-		#1941
+		#4640
 		POL_fighter_modernisation
 		POL_air_innovations
 		POL_heavy_fighter_concept
 		POL_naval_bomber_experiments
 		POL_medium_bomber_focus
-		#1942
+		#4641
 		POL_light_bomber_focus
 		POL_air_modernisations_programme		
 		POL_develop_polish_ship_building
 		POL_study_foreign_built_ships
 		
-		#1943
+		#4642
 		POL_import_submarine_technology
 		
 		POL_the_twin_threats
@@ -180,7 +180,7 @@ POL_democratic_plan = {
 		POL_baltic_navy
 		
 		POL_polish_revanchism
-		#1944
+		#4643
 		
 		POL_ideological_fanaticism
 		POL_the_between_the_seas_concept		
@@ -241,44 +241,44 @@ POL_fascist_plan = {
 		POL_start_central_industrial_region
 		POL_fill_the_railways_gaps
 		POL_agrarian_reform
-		#1937
+		#4635
 		POL_expand_central_industrial_region
 		POL_the_four_year_plan
 		POL_national_defence_fund
 		POL_warsaw_main_railway_station
 		POL_invest_in_the_old_polish_region
-		#1938
+		#4635
 		POL_additional_research_slot1
 		POL_internationalism
 		POL_authoritarianism
 		POL_go_right
 		POL_develop_upper_silesia
-		#1939
+		#4636
 		POL_prepare_for_the_next_war
 		
 		POL_seek_accommodation_with_germany
 		POL_polish_militarism
 		POL_romanian_bridgehead_strategy
 		POL_hel_fortified_area
-		#1940
+		#4639
 		POL_silesia_fortified_area
 		POL_standardisation_of_equipment
 		POL_modernising_the_cavalry
 		POL_study_foreign_tanks		
 		POL_air_base_expansion
-		#1941
+		#4640
 		POL_fighter_modernisation
 		POL_air_innovations
 		POL_heavy_fighter_concept
 		POL_naval_bomber_experiments
 		POL_medium_bomber_focus
-		#1942
+		#4641
 		POL_light_bomber_focus
 		POL_air_modernisations_programme		
 		POL_develop_polish_ship_building
 		POL_study_foreign_built_ships
 		
-		#1943
+		#4642
 		POL_import_submarine_technology
 		
 		POL_the_twin_threats
@@ -287,7 +287,7 @@ POL_fascist_plan = {
 		POL_baltic_navy
 		
 		POL_polish_revanchism
-		#1944
+		#4643
 		
 		POL_ideological_fanaticism
 		POL_the_between_the_seas_concept		
@@ -347,7 +347,7 @@ POL_NSB_communist_plan = {
 		POL_the_four_year_plan
 		POL_central_region_strategy
 		POL_expansion_of_new_towns
-		#1937
+		#4635
 		POL_fill_the_railways_gaps
 		POL_arm_peasant_militia
 		POL_state_national_council
@@ -355,36 +355,36 @@ POL_NSB_communist_plan = {
 		POL_a_leftist_sejm
 		POL_KPP_focus
 		POL_polish_path_to_socialism
-		#1938
+		#4635
 		POL_anti_imperialism
 		POL_develop_polish_ship_building
 		POL_attract_poles_to_gdynia
 		POL_study_foreign_built_ships
 		POL_expand_gdynia_seaport
-		#1939
+		#4636
 		POL_additional_research_slot1
 		POL_preserve_bougoise_democracy
 		POL_anti_fascist_military
 		POL_preserve_baltic_independence
 		POL_dismantle_fascist_empires
-		#1940
+		#4639
 		POL_social_commonwealth
 		POL_leftist_economics
 		POL_invest_in_the_old_polish_region
 		POL_modernize_congressional_factories
 		POL_warsaw_main_railway_station
-		#1941
+		#4640
 		POL_lower_class_education
 		POL_press_for_liberia
 		POL_reopen_the_maritime_and_colonial_league
 		POL_committee_of_national_liberation
 		POL_non_discriminatory_recruitment
-		#1942
+		#4641
 		POL_armia_ludowa
 		
 		
 		
-		#1943
+		#4642
 		
 		
 		
@@ -393,7 +393,7 @@ POL_NSB_communist_plan = {
 		
 		
 		
-		#1944
+		#4643
 		
 		
 		
@@ -453,7 +453,7 @@ POL_NSB_democratic_plan = {
 		POL_the_four_year_plan
 		POL_central_region_strategy
 		POL_expansion_of_new_towns
-		#1937
+		#4635
 		POL_fill_the_railways_gaps
 		POL_ease_sanationist_tensions
 		POL_raise_the_black_madonna
@@ -461,36 +461,36 @@ POL_NSB_democratic_plan = {
 		POL_empower_the_morges
 		POL_elect_a_PSL_leader
 		POL_invest_in_the_peasantry
-		#1938
+		#4635
 		POL_preserve_bougoise_democracy
 		POL_develop_polish_ship_building
 		POL_attract_poles_to_gdynia
 		POL_study_foreign_built_ships
 		POL_expand_gdynia_seaport
-		#1939
+		#4636
 		POL_additional_research_slot1
 		POL_anti_fascist_military
 		POL_press_for_liberia
 		POL_preserve_baltic_independence
 		POL_dismantle_fascist_empires
-		#1940
+		#4639
 		POL_social_commonwealth
 		POL_leftist_economics
 		POL_invest_in_the_old_polish_region
 		POL_modernize_congressional_factories
 		POL_warsaw_main_railway_station
-		#1941
+		#4640
 		POL_lower_class_education
 		POL_press_for_liberia
 		POL_reopen_the_maritime_and_colonial_league
 		POL_committee_of_national_liberation
 		POL_non_discriminatory_recruitment
-		#1942
+		#4641
 		POL_armia_ludowa
 		
 		
 		
-		#1943
+		#4642
 		
 		
 		
@@ -499,7 +499,7 @@ POL_NSB_democratic_plan = {
 		
 		
 		
-		#1944
+		#4643
 		
 		
 		
@@ -559,43 +559,43 @@ POL_monarchy_commonwealth_plan = {
 		POL_the_four_year_plan
 		POL_central_region_strategy
 		POL_expansion_of_new_towns
-		#1937
+		#4635
 		POL_fill_the_railways_gaps
 		POL_agrarian_reform
 		POL_claiming_lithuania
 		POL_restoration_of_the_royal_sejm
 		POL_support_monarchism_in_LIT
 		POL_institute_royal_guards
-		#1938
+		#4635
 		POL_arm_monarchist_militants
 		POL_develop_polish_ship_building
 		POL_attract_poles_to_gdynia
 		POL_study_foreign_built_ships
 		POL_expand_gdynia_seaport
-		#1939
+		#4636
 		POL_additional_research_slot1
 		POL_king_of_lithuania
 		POL_LIT_union
 		POL_lithuanian_rail
 		POL_merge_the_arms_industries
-		#1940
+		#4639
 		POL_claim_livonia
 		POL_invest_in_the_old_polish_region
 		POL_modernize_congressional_factories
 		POL_warsaw_main_railway_station
 		
-		#1941
+		#4640
 		POL_claim_prussia
 		POL_claim_greater_lithuania
 		POL_greater_commonwealth
 		
 		
-		#1942
+		#4641
 		
 		
 		
 		
-		#1943
+		#4642
 		
 		
 		
@@ -604,7 +604,7 @@ POL_monarchy_commonwealth_plan = {
 		
 		
 		
-		#1944
+		#4643
 		
 		
 		
@@ -664,43 +664,43 @@ POL_monarchy_romania_plan = {
 		POL_the_four_year_plan
 		POL_central_region_strategy
 		POL_expansion_of_new_towns
-		#1937
+		#4635
 		POL_fill_the_railways_gaps
 		POL_agrarian_reform
 		POL_hohenzollern
 		POL_restoration_of_the_royal_sejm
 		POL_internal_romanian_support
 		POL_institute_royal_guards
-		#1938
+		#4635
 		POL_arm_monarchist_militants
 		POL_king_michaels_coup
 		POL_develop_polish_ship_building
 		POL_attract_poles_to_gdynia
 		POL_study_foreign_built_ships
-		#1939
+		#4636
 		POL_expand_gdynia_seaport
 		POL_additional_research_slot1
 		POL_merge_internal_governments
 		POL_pro_allied_government
 		POL_ROM_join_allies
-		#1940
+		#4639
 		POL_invest_in_the_old_polish_region
 		POL_modernize_congressional_factories
 		POL_warsaw_main_railway_station
 		
 		
-		#1941
+		#4640
 		
 		
 		
 		
 		
-		#1942
+		#4641
 		
 		
 		
 		
-		#1943
+		#4642
 		
 		
 		
@@ -709,7 +709,7 @@ POL_monarchy_romania_plan = {
 		
 		
 		
-		#1944
+		#4643
 		
 		
 		
@@ -769,42 +769,42 @@ POL_monarchy_bermondtian_plan = {
 		POL_the_four_year_plan
 		POL_central_region_strategy
 		POL_expansion_of_new_towns
-		#1937
+		#4635
 		POL_fill_the_railways_gaps
 		POL_agrarian_reform
 		POL_cossack_king
 		POL_restore_bermontians
 		POL_develop_polish_ship_building
-		#1938
+		#4635
 		POL_attract_poles_to_gdynia
 		POL_study_foreign_built_ships
 		POL_expand_gdynia_seaport
 		POL_additional_research_slot1
 		POL_demand_LIT_pavel
-		#1939
+		#4636
 		POL_prepare_for_the_next_war
 		
 		
 		POL_demand_slovakia_pavel
 		POL_governorate_livonia
-		#1940
+		#4639
 		POL_seek_german_alignment
 		POL_invest_in_the_old_polish_region
 		POL_modernize_congressional_factories
 		POL_warsaw_main_railway_station
 		
-		#1941
+		#4640
 		POL_assert_eastern_claims_pavel
 		POL_new_military_academy
 		POL_develop_gdansk_ship_building
 		POL_expand_northern_rail
 		POL_complete_the_bermontian_mission
-		#1942
+		#4641
 		
 		
 		
 		
-		#1943
+		#4642
 		
 		
 		
@@ -813,7 +813,7 @@ POL_monarchy_bermondtian_plan = {
 		
 		
 		
-		#1944
+		#4643
 		
 		
 		
@@ -873,49 +873,49 @@ POL_monarchy_habsburg_plan = {
 		POL_the_four_year_plan
 		POL_central_region_strategy
 		POL_expansion_of_new_towns
-		#1937
+		#4635
 		POL_fill_the_railways_gaps
 		POL_agrarian_reform
 		POL_habsburg
 		POL_restore_the_diet_of_galicia
 		POL_support_monarchy_in_CZE
-		#1938
+		#4635
 		POL_habsburg_monarchist_militants
 		POL_develop_polish_ship_building
 		POL_attract_poles_to_gdynia
 		POL_study_foreign_built_ships
 		POL_expand_gdynia_seaport
-		#1939
+		#4636
 		POL_king_of_bohemia
 		POL_additional_research_slot1
 		POL_prepare_for_the_next_war
 		POL_demand_slovakia_pavel
 		POL_governorate_livonia
-		#1940
+		#4639
 		POL_soldier_king
 		POL_kings_guard
 		POL_trust_in_the_west
 		POL_invest_in_the_old_polish_region
 		POL_royal_hussars
-		#1941
+		#4640
 		POL_modernize_congressional_factories
 		POL_warsaw_main_railway_station
 		POL_new_military_academy
 		POL_develop_gdansk_ship_building
 		POL_expand_northern_rail
 		POL_royal_officer_corps
-		#1942
+		#4641
 		
-		#1943
-		
-		
+		#4642
 		
 		
 		
 		
 		
 		
-		#1944
+		
+		
+		#4643
 		
 		
 		
@@ -978,50 +978,50 @@ POL_NSB_fascist_plan = {
 		POL_nationalist_constitution
 		POL_fill_the_railways_gaps
 		POL_agrarian_reform
-		#1937
+		#4635
 		POL_integrate_the_endecja
 		POL_national_defence_fund
 		POL_warsaw_main_railway_station
 		POL_develop_polish_ship_building
 		POL_additional_research_slot1
-		#1938
+		#4635
 		POL_siodemki
 		POL_attract_poles_to_gdynia
 		POL_study_foreign_built_ships
 		POL_expand_gdynia_seaport
 		POL_sideline_the_sanacja
-		#1939
+		#4636
 		POL_reopen_national_elections
 		POL_prepare_for_the_next_war
 		POL_beck_ribbentrop
 		POL_assert_eastern_claims
 		POL_divide_lit
-		#1940
+		#4639
 		POL_german_training
 		POL_german_staff
 		POL_new_military_academy
 		POL_standardisation_of_equipment
 		POL_invest_in_the_old_polish_region
-		#1941
+		#4640
 		POL_request_autonomous_status
 		POL_develop_upper_silesia
 		POL_fighter_modernisation
 		POL_air_innovations
 		POL_heavy_fighter_concept
-		#1942
+		#4641
 		POL_assurance_of_loyalty
 		POL_light_bomber_focus
 		POL_air_modernisations_programme		
 		POL_develop_polish_ship_building
 		POL_study_foreign_built_ships
-		#1943
+		#4642
 		POL_import_submarine_technology
 		POL_medium_bomber_focus
 		POL_the_twin_threats
 		POL_coastal_defense
 		POL_strike_force
 		POL_baltic_navy
-		#1944	
+		#4643	
 		
 	}
 
@@ -1077,52 +1077,52 @@ POL_NSB_independent_fascist_plan = {
 		POL_fill_the_railways_gaps
 		POL_agrarian_reform
 		POL_clamp_down_on_danzig
-		#1937
+		#4635
 		POL_integrate_the_falanga
 		POL_national_defence_fund
 		POL_warsaw_main_railway_station
 		POL_empower_falangist_militants
 		POL_ban_the_nazi_party
-		#1938
+		#4635
 		POL_integrate_gdansk_industries
 		POL_additional_research_slot1
 		POL_sideline_the_sanacja
 		POL_riot_of_37
 		POL_reassert_silesian_claims
-		#1939
+		#4636
 		POL_support_global_falangism
 		POL_prepare_for_the_next_war
 		POL_falangist_international
 		POL_state_catholicism
 		POL_anti_germans_abroad
 		POL_invite_the_baltics
-		#1940
+		#4639
 		POL_support_falangists_in_the_americas
 		POL_prepare_german_line
 		POL_new_military_academy
 		POL_standardisation_of_equipment
 		POL_assert_eastern_claims
-		#1941
+		#4640
 		POL_force_polish_upper_class
 		POL_develop_upper_silesia
 		POL_fighter_modernisation
 		POL_air_innovations
 		POL_heavy_fighter_concept
 		POL_privatize_education
-		#1942
+		#4641
 		POL_assurance_of_loyalty
 		POL_light_bomber_focus
 		POL_air_modernisations_programme		
 		POL_develop_polish_ship_building
 		POL_study_foreign_built_ships
-		#1943
+		#4642
 		POL_import_submarine_technology
 		POL_medium_bomber_focus
 		POL_the_twin_threats
 		POL_coastal_defense
 		POL_strike_force
 		POL_baltic_navy
-		#1944	
+		#4643	
 		
 	}
 

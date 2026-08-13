@@ -1,23 +1,30 @@
-state={
-	id=440
-	name="STATE_440"
-		history={
+state = {
+	id = 440
+	name = STATE_440
+	history = {
 		owner = FRO
 		victory_points = {
-			
+			11424 30
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
 		add_core_of = FRO
-	
-
+		4635.10.25 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 3
+				arms_factory = 2
+				11424 = {
+					bunker = 3
+				}
+			}
+	    }
 	}
-	provinces={
-		61 322 1422 2356 2582 2796 4092 4891 5896 8348 8431 9292 10302 11353 11378 11391 11424 11439 11440 11451 11459 11475 
-	}
-	manpower=1754021
-	buildings_max_level_factor=1
-	local_supplies=0
+	provinces = { 61 322 1422 2356 2582 2796 4092 4891 5896 8348 8431 9292 10302 11353 11378 11391 11424 11439 11440 11451 11459 11475  }
+	manpower = 1754021
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
 }

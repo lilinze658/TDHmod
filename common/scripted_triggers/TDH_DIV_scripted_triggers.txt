@@ -1,0 +1,29 @@
+#	Example:
+#
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+#
+
+DIV_is_Shenzhou_state = {
+	custom_trigger_tooltip = {
+		tooltip = DIV_is_Shenzhou_state_ttt
+		OR = {
+			original_tag = DIV
+			original_tag = ONG
+			original_tag = WEI
+			original_tag = ZHI
+			original_tag = NAN
+			original_tag = ANY
+			original_tag = GOD
+		}
+	}
+}

@@ -1,24 +1,20 @@
-state={
-	id=857
-	name="STATE_857"
-	history={
+state = {
+	id = 857
+	name = STATE_857
+	history = {
 		owner = NED
 		victory_points = {
-			
 		}
-		 
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-            dockyard = 1
+			dockyard = 1
 		}
 		add_core_of = NED
-
 	}
-	provinces={
-		354 377 494 2525 3210 4433 4473 4546 5438 5898 6664 8146 8552 10709 17273 17277 17315 17384 
-	}
-	manpower=0
-	buildings_max_level_factor=1
-	local_supplies=0
+	provinces = { 354 377 494 2525 3210 4433 4473 4546 5438 5898 6664 8146 8552 10709 17273 17277 17315 17384  }
+	manpower = 34739533
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
 }

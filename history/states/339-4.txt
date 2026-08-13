@@ -1,22 +1,18 @@
-state={
-	id=339
-	name="STATE_339"
-	history={
+state = {
+	id = 339
+	name = STATE_339
+	history = {
 		owner = MIY
 		victory_points = {
-			
 		}
-		 
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = MIY
-
 	}
-	provinces={
-		1691 1777 1837 1904 4071 6157 6858 8375 9355 9600 14654 14720 14727 14848 14866 14955 
-	}
-	manpower=0
-	buildings_max_level_factor=1
-	local_supplies=0
+	provinces = { 1691 1777 1837 1904 4071 6157 6858 8375 9355 9600 14654 14720 14727 14848 14866 14955  }
+	manpower = 18377384
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
 }

@@ -1,13 +1,13 @@
 ﻿characters={ 
 	MAG_ailin={
-		name= ailin
+		name= 艾琳
 		portraits={
 			civilian={
 				large="gfx/leaders/MAG/艾琳.png"
 			}
 			army = {   
 				large="gfx/leaders/MAG/艾琳.png" 
-				small="gfx/interface/ideas/XXX.png"
+				small="gfx/interface/ideas/XXX.dds"
 			}
 		
 		}
@@ -31,11 +31,11 @@
 	}
 
 	MAG_geladisi={
-		name= geladisi
+		name= 格拉蒂丝
 		portraits={
 			civilian={
 				large="gfx/leaders/MAG/格拉蒂丝.png"
-				small="gfx/interface/ideas/XXX.png"
+				small="gfx/interface/ideas/XXX.dds"
 			}
 		}
 
@@ -52,14 +52,14 @@
 	}
 
 	MAG_naierjiade={
-		name= naierjiade
+		name= 奈尔嘉德
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/奈尔嘉德.png"
+				large="gfx/leaders/MAG/奈尔嘉德.dds"
 			}
 			army = {   
-				large="gfx/leaders/MAG/奈尔嘉德.png" 
-				small="gfx/interface/ideas/XXX.png"
+				large="gfx/leaders/MAG/奈尔嘉德.dds" 
+				small="gfx/interface/ideas/XXX.dds"
 			}
 		
 		}
@@ -83,10 +83,10 @@
 	}
 
 	MAG_nuolina={
-		name= nuolina
+		name= 诺丽娜
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/诺丽娜.png"
+				large="gfx/leaders/MAG/诺丽娜.dds"
 			}
 		}
 		
@@ -103,10 +103,10 @@
 	}
 
 	MAG_yinuoya={
-		name= yinuoya
+		name= 伊诺雅
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/伊诺雅.png"
+				large="gfx/leaders/MAG/伊诺雅.dds"
 			}
 		}
 		
@@ -123,10 +123,10 @@
 	}
 
 	MAG_aeraili={
-		name= aeraili
+		name= 阿尔艾莉
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/阿尔艾莉.png"
+				large="gfx/leaders/MAG/阿尔艾莉.dds"
 			}
 		}
 		
@@ -143,10 +143,10 @@
 	}
 
 	MAG_kuna={
-		name= kuna
+		name= 库娜
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/库娜.png"
+				large="gfx/leaders/MAG/库娜.dds"
 			}
 		}
 		
@@ -163,10 +163,10 @@
 	}
     #内阁
 	MAG_balunna={
-		name= balunna
+		name= 巴伦娜
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/巴伦娜.png"
+				large="gfx/leaders/MAG/巴伦娜.dds"
 			}
 		}
 		
@@ -186,7 +186,7 @@
 		name=阿蕾丝
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/阿蕾丝.png"
+				large="gfx/leaders/MAG/阿蕾丝.dds"
 			}
 		}
 		
@@ -206,7 +206,7 @@
 		name=艾米莉
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/艾米莉.png"
+				large="gfx/leaders/MAG/艾米莉.dds"
 			}
 		}
 		
@@ -223,10 +223,10 @@
 	}
 
 	MAG_misite={
-		name= misite
+		name= 米丽特
 		portraits={
 			civilian={
-				large="gfx/leaders/MAG/米丽特.png"
+				large="gfx/leaders/MAG/米丽特.dds"
 			}
 		}
 		

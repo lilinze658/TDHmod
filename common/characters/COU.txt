@@ -1,6 +1,6 @@
 ﻿characters={ 
 	COU_walundina={
-		name= walundina
+		name= 瓦伦蒂娜
 		portraits={
 			civilian={
 				large="gfx/leaders/COU/瓦伦蒂娜.png"
@@ -32,7 +32,7 @@
 
 
 	COU_wendi={
-		name= wendi
+		name= 温蒂
 		portraits={
 			civilian={
 				large="gfx/leaders/COU/温蒂.png"
@@ -57,7 +57,7 @@
 	}
 
 	COU_xiatigute={
-		name=xiatigute
+		name=夏提古特
 		portraits={
 			civilian={
 				large="gfx/leaders/COU/夏提古特.png"
@@ -87,7 +87,7 @@
 	}
 
 		COU_feiluolunsi={
-			name=feiluolunsi
+			name=斐罗伦丝
 			portraits={
 				civilian={
 					large="gfx/leaders/COU/斐罗伦丝.png"
@@ -113,7 +113,7 @@
 
 
 	COU_fating={
-		name=fating
+		name=法婷
 		portraits={
 			civilian={
 				large="gfx/leaders/COU/法婷.png"
@@ -138,7 +138,7 @@
 	}  
 
 	COU_mase={
-		name=mase
+		name=玛瑟
 		portraits={
 			civilian={
 				large="gfx/leaders/COU/玛瑟.png"
@@ -163,7 +163,7 @@
 	}  
 
 	COU_aerxipei={
-		name=aerxipei
+		name=阿尔西佩
 		portraits={
 			civilian={
 				large="gfx/leaders/COU/阿尔西佩.png"
@@ -188,7 +188,7 @@
 	} 
 
 	COU_biersi={
-		name=biersi
+		name=碧儿丝
 		portraits = {
 			army = {
 				large = "gfx/leaders/COU/碧儿丝.png"
@@ -208,7 +208,7 @@
 	}
 
 	COU_yejing={
-		name=yejing
+		name=夜净
 		portraits = {
 			army = {
 				large = "gfx/leaders/COU/夜净.png"
@@ -228,7 +228,7 @@
 	}
 
 	COU_zixie={
-		name=zixie
+		name=紫谐
 		portraits = {
 			large = "gfx/leaders/COU/紫谐.png"
 		}

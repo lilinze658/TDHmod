@@ -1,7 +1,7 @@
 equipments = {
 
 	anti_air_equipment = {
-		year = 1934
+		year = 4620
 
 		is_archetype = yes
 		picture = archetype_anti_air_equipment		
@@ -15,7 +15,7 @@ equipments = {
 
 		#Misc Abilities
 		reliability = 0.8
-
+		maximum_speed = 4
 		#Defensive Abilities
 		defense = 4
 		breakthrough = 1
@@ -30,7 +30,7 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 3
-		
+
 		build_cost_ic = 4
 		resources = {
 			steel = 2
@@ -40,7 +40,7 @@ equipments = {
 	}
 
 	anti_air_equipment_1 = {
-		year = 1936
+		year = 4633
 
 		archetype = anti_air_equipment
 		priority = 80
@@ -48,7 +48,7 @@ equipments = {
 	}
 	
 	anti_air_equipment_2 = {
-		year = 1940
+		year = 4639
 
 		archetype = anti_air_equipment
 		parent = anti_air_equipment_1
@@ -67,7 +67,7 @@ equipments = {
 	}
 	
 	anti_air_equipment_3 = {
-		year = 1943
+		year = 4642
 
 		archetype = anti_air_equipment
 		parent = anti_air_equipment_2

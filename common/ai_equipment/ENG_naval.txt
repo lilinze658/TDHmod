@@ -60,7 +60,7 @@ ENG_destroyers = {
 		}
 	}
 	destroyer_1_upgrade = {
-		name = abcd_1940_class
+		name = abcd_4639_class
 		priority = {
 			factor = 50
 			modifier = {
@@ -146,7 +146,7 @@ ENG_destroyers = {
 	}
 
 	destroyer_2_upgrade = {
-		name = efgh_1940_class
+		name = efgh_4639_class
 		priority = {
 			factor = 70
 			modifier = {
@@ -186,7 +186,7 @@ ENG_destroyers = {
 	}
 
 	destroyer_3 = {
-		name = battle_Class_1942
+		name = battle_Class_4641
 		priority = {
 			factor = 100
 			modifier = {
@@ -230,7 +230,7 @@ ENG_destroyers = {
 		}
 	}
 	destroyer_3_upgrade = {
-		name = battle_Class_1943
+		name = battle_Class_4642
 		priority = {
 			factor = 100
 			modifier = {
@@ -482,7 +482,7 @@ ENG_naval_light_cruiser = {
 		}
 	}
 	cruiser_light_early_aa_upgrade = {
-		name = cruiser_c_class_1939
+		name = cruiser_c_class_4636
 		priority = {
 			factor = 10
 			modifier = {
@@ -610,7 +610,7 @@ ENG_naval_light_cruiser = {
 		}
 	}
 	cruiser_light_basic_aa_upgrade = {
-		name = town_class_1940
+		name = town_class_4639
 		priority = {
 			factor = 100
 			modifier = {
@@ -739,7 +739,7 @@ ENG_naval_light_cruiser = {
 		}
 	}
 	cruiser_light_improved_upgrade = {
-		name = minotor_class_1942
+		name = minotor_class_4641
 		priority = {
 			factor = 100
 			modifier = {
@@ -956,7 +956,7 @@ ENG_naval_cruiser_heavy = {
 		}
 	}
 	capital_cruiser_early_aa_upgrade = {
-		name = county_class_1938
+		name = county_class_4635
 		priority = {
 			factor = 5
 			modifier = {
@@ -1170,7 +1170,7 @@ ENG_naval_capital_battleship = {
 	priority = {
 		factor = 100
 		modifier = {
-			date < 1940.1.1
+			date < 4639.1.1
 			factor = 100
 		}
 	}
@@ -1556,7 +1556,7 @@ ENG_naval_capital_bc = {
 		}
 	}
 	battlecruiser_improved_upgrade = {
-		name = admiral_class_1940
+		name = admiral_class_4639
 		priority = {
 			factor = 10
 			modifier = {
@@ -1656,7 +1656,7 @@ ENG_naval_carrier = {
 	}
 
 	carrier_early_upgrade = {
-		name = courageous_class_1939
+		name = courageous_class_4636
 		priority = {
 			factor = 1
 			modifier = {

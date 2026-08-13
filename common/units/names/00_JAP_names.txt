@@ -110,7 +110,7 @@
 	}
 	air_wing_names_template = AIR_WING_NAME_JAP_FALLBACK
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Kokutai" }
 		generic_pattern = AIR_WING_NAME_JAP_CARRIER
@@ -118,14 +118,7 @@
 		}	
 	}
 
-	cv_CAS_equipment = {
-		prefix = ""
-		generic = { "Kokutai" }
-		generic_pattern = AIR_WING_NAME_JAP_CARRIER
-		unique = {
-		}	
-	}
-	cv_nav_bomber_equipment = {
+	large_plane_maritime_patrol_plane_airframe = {
 		prefix = ""
 		generic = { "Kokutai" }
 		generic_pattern = AIR_WING_NAME_JAP_CARRIER
@@ -133,7 +126,30 @@
 		}	
 	}
 
-	suicide_craft_equipment = {
+	cv_small_plane_cas_airframe = {
+		prefix = ""
+		generic = { "Kokutai" }
+		generic_pattern = AIR_WING_NAME_JAP_CARRIER
+		unique = {
+		}	
+	}
+	cv_small_plane_naval_bomber_airframe = {
+		prefix = ""
+		generic = { "Kokutai" }
+		generic_pattern = AIR_WING_NAME_JAP_CARRIER
+		unique = {
+		}	
+	}
+
+	small_plane_suicide_airframe = {
+		prefix = ""
+		generic = { "Tokubetsu Kogekitai" }
+		generic_pattern = AIR_WING_NAME_JAP_CARRIER
+		unique = {
+		}	
+	}
+	
+	cv_small_plane_suicide_airframe = {
 		prefix = ""
 		generic = { "Tokubetsu Kogekitai" }
 		generic_pattern = AIR_WING_NAME_JAP_CARRIER
@@ -143,31 +159,61 @@
 
 	infantry = {
 		prefix = ""
-		generic = { "Hoheishidan" }
+		generic = { "Hohei Shidan" }
+		generic_pattern = "UNIT_GENERIC_NAME_JAP"
+		unique = {}
+	}
+	paratrooper = {
+		prefix = ""
+		generic = { "Kutei Shidan" }
+		generic_pattern = "UNIT_GENERIC_NAME_JAP"
+		unique = {}
+	}
+	mountaineers = {
+		prefix = ""
+		generic = { "Sangaku Shidan" }
+		generic_pattern = "UNIT_GENERIC_NAME_JAP"
+		unique = {}
+	}
+	marine = {
+		prefix = ""
+		generic = { "Kaiheitai" }
+		generic_pattern = "UNIT_GENERIC_NAME_JAP"
+		unique = {}
+	}
+	militia = {
+		prefix = ""
+		generic = { "Minpei" }
 		generic_pattern = "UNIT_GENERIC_NAME_JAP"
 		unique = {}
 	}
 	motorized = {
 		prefix = ""
-		generic = { "Hoheishidan" }
+		generic = { "Jidoushaka Hohei Shidan" }
+		generic_pattern = "UNIT_GENERIC_NAME_JAP"
+		unique = {}
+	}
+	mechanized = {
+		prefix = ""
+		generic = { "Kikaika Hohei Shidan" }
 		generic_pattern = "UNIT_GENERIC_NAME_JAP"
 		unique = {}
 	}
 	cavalry = {
 		prefix = ""
-		generic = { "Kiheishidan" }
+		generic = { "Kihei Shidan" }
 		generic_pattern = "UNIT_GENERIC_NAME_JAP"
 		unique = {}
 	}
 	light_armor = {
 		prefix = ""
-		generic = { "Senshashidan" }
+		generic = { "Sensha Shidan" }
 		generic_pattern = "UNIT_GENERIC_NAME_JAP"
 		unique = {}
 	}
 	medium_armor = {
 		prefix = ""
-		generic = { "Senshashidan" }
+		generic = { "Sensha Shidan" }
 		generic_pattern = "UNIT_GENERIC_NAME_JAP"
 		unique = {}
 	}

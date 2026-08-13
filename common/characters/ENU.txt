@@ -1,6 +1,6 @@
 ﻿characters={ 
 	ENU_miuyun={
-		name= miuyun
+		name= 缪云
 		portraits={
 			civilian={
 				large="gfx/leaders/ENU/缪云.png"
@@ -56,7 +56,7 @@
 	}
 
 	ENU_pohuaizhe={
-		name= pohuaizhe
+		name= 破坏者
 		portraits={
 			civilian={
 				large="gfx/leaders/ENU/破坏者.png"
@@ -81,7 +81,7 @@
 	}
 
 	ENU_xundaozhe={
-		name= xundaozhe
+		name= 殉道者
 		portraits={
 			civilian={
 				large="gfx/leaders/ENU/殉道者.png"
@@ -106,7 +106,7 @@
 	}
 
 	ENU_caixia={
-		name= caixia
+		name= 彩夏
 		portraits={
 			civilian={
 				large="gfx/leaders/ENU/彩夏.png"
@@ -131,7 +131,7 @@
 	}
 
 	ENU_yilian={
-		name= yilian
+		name= 伊莲
 		portraits={
 			civilian={
 				large="gfx/leaders/RED/伊莲.png"
@@ -156,7 +156,7 @@
 	}
 
 	ENU_linai={
-		name= linai
+		name= 莉乃
 		portraits={
 			civilian={
 				large="gfx/leaders/STA/莉乃.png"
@@ -181,7 +181,7 @@
 	}
 
 	ENU_miluoxita={
-		name= miluoxita
+		name= 米洛茜塔
 		portraits={
 			civilian={
 				large="gfx/leaders/STA/米洛茜塔.png"
@@ -206,7 +206,7 @@
 	}
 
 	ENU_hedifuni={
-		name= hedifuni
+		name= 赫蒂芙尼
 		portraits={
 			civilian={
 				large="gfx/leaders/STA/赫蒂芙尼.png"
