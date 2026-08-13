@@ -1,4 +1,4 @@
-capital = 222
+capital = 21
 
 DEBUG_SHE_effect_4 = yes
 #will be deleted in the future

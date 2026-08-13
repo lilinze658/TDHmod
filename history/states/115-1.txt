@@ -1,9 +1,16 @@
 state = {
 	id = 115
-	name = STATE_115
+	name = STATE_115#多米尼克
+	resources = {
+		steel=20
+	}
 	history = {
 		owner = AIS
 		victory_points = {
+			4918 15
+		}
+		victory_points = {
+			14908 10
 		}
 		buildings = {
 			infrastructure = 3

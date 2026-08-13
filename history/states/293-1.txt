@@ -1,17 +1,27 @@
 state = {
 	id = 293
 	name = STATE_293
+	resources = {
+		oil=40
+	}
 	history = {
 		owner = LOV
 		victory_points = {
+			9280 5
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
+			9280 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = LOV
 		4635.10.25 = {
+			owner = RED
 			add_core_of = ROA
 			add_core_of = RED
+
 		}
 	}
 	provinces = { 1471 4261 4803 5548 5806 7477 8594 8961 9280 13071 13093 13094 13136 13180  }

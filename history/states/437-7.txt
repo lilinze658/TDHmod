@@ -1,14 +1,23 @@
 state = {
 	id = 437
-	name = STATE_437
+	name = STATE_437#敖萨德
 	history = {
 		owner = ORT
 		victory_points = {
+			6712 10
 		}
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = ORT
+		4635.10.25 = {
+			controller = LEG
+
+		}
+		4636.10.25 = {
+			controller = ORT
+
+		}
 	}
 	provinces = { 54 1018 3057 4855 5059 5209 5446 5803 6650 6712 10292 10927 11587 11657 11698  }
 	manpower = 762012

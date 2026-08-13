@@ -1,7 +1,10 @@
-state = {
-	id = 119
-	name = STATE_119
-	history = {
+state={
+	id=119
+	name="STATE_119"
+	resources = {
+		steel=20
+	}
+	history={
 		owner = MAG
 		victory_points = {
 		}

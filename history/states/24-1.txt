@@ -1,14 +1,23 @@
-state = {
-	id = 24
-	name = STATE_24
-	history = {
+
+state={
+	id=24
+	name="STATE_24"
+	resources={
+        yuehua= 10
+	}
+	
+	history={
 		owner = SHE
 		victory_points = {
+			15702 5
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 5
 			arms_factory = 3
+			232 = {
+                naval_base = 1
+              }
 		}
 		add_core_of = SHE
 	}

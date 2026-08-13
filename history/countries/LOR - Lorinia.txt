@@ -1,4 +1,4 @@
-capital = 182
+capital = 256
 
 set_technology = {
 	staff_Royal = 1

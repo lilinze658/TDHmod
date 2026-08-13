@@ -3,7 +3,12 @@ state = {
 	name = STATE_791 #菲唐德
 	history = {
 		owner = ZET
-		victory_points = { 17241 10 10743 5 10743 5  }
+		victory_points = {
+			17029 10 
+		}
+		victory_points = {
+			2549 5
+		}
 		buildings = {
 			infrastructure = 3
 			dockyard = 1

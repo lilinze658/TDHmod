@@ -1,7 +1,7 @@
 equipments = {
 
 	artillery_equipment = {
-		year = 1934
+		year = 4620
 
 		is_archetype = yes
 		picture = archetype_artillery_equipment		
@@ -40,7 +40,7 @@ equipments = {
 	}
 
 	artillery_equipment_1 = {
-		year = 1934
+		year = 4620
 
 		archetype = artillery_equipment
 		priority = 50
@@ -151,7 +151,7 @@ equipments = {
 	
 	#Katyusha 
 	motorized_rocket_equipment = {
-		year = 1934
+		year = 4620
 
 		is_archetype = yes
 		picture = archetype_motorized_rocket_equipment			

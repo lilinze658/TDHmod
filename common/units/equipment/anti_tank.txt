@@ -1,7 +1,7 @@
 equipments = {
 
 	anti_tank_equipment = {
-		year = 1934
+		year = 4620
 
 		is_archetype = yes
 		picture = archetype_anti_tank_equipment		

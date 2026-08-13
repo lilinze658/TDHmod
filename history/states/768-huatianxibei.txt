@@ -2,9 +2,15 @@ state = {
 	id = 768
 	name = STATE_768 #####或许这里是花园好一点
 	state_category = large_town
+	resources={
+		steel=30
+		rubber=30
+		yuehua=15
+	}
 	history = {
 		owner = HAS
 		victory_points = {
+			4267 20
 		}
 		buildings = {
 			infrastructure = 2

@@ -235,7 +235,7 @@ equipments = {
 	}
 
 	light_tank_equipment_1 = {
-		year = 1934
+		year = 4620
 		
 		archetype = light_tank_chassis
 		parent = gw_tank_equipment
@@ -332,7 +332,7 @@ equipments = {
 	}
 
 	light_tank_artillery_equipment_1 = {
-		year = 1934
+		year = 4620
 
 		archetype = light_tank_artillery_chassis
 #		family = light_tank_equipment_1
@@ -441,7 +441,7 @@ equipments = {
 	}
 
 	light_tank_destroyer_equipment_1 = {
-		year = 1934
+		year = 4620
 
 		archetype = light_tank_destroyer_chassis
 #		family = light_tank_equipment_1
@@ -551,7 +551,7 @@ equipments = {
 	}
 
 	light_tank_aa_equipment_1 = {
-		year = 1934
+		year = 4620
 
 		archetype = light_tank_aa_chassis
 #		family = light_tank_equipment_1
@@ -1106,9 +1106,9 @@ equipments = {
 		}		
 	}
 
-	# 1934
+	# 4620
 	heavy_tank_equipment_1 = {
-		year = 1934
+		year = 4620
 
 		archetype = heavy_tank_chassis
 		priority = 90
@@ -1214,7 +1214,7 @@ equipments = {
 	}
 
 	heavy_tank_artillery_equipment_1 = {
-		year = 1934
+		year = 4620
 
 		archetype = heavy_tank_artillery_chassis
 		family = heavy_tank_equipment_1
@@ -1320,7 +1320,7 @@ equipments = {
 		}
 	}
 	heavy_tank_destroyer_equipment_1 = {
-		year = 1934
+		year = 4620
 
 		archetype = heavy_tank_destroyer_chassis
 		family = heavy_tank_equipment_1
@@ -1431,7 +1431,7 @@ equipments = {
 	}
 
 	heavy_tank_aa_equipment_1 = {
-		year = 1934
+		year = 4620
 
 		archetype = heavy_tank_aa_chassis
 		family = heavy_tank_equipment_1
@@ -1873,7 +1873,7 @@ equipments = {
 	}
 
 	amphibious_tank_equipment_1 = {
-		year = 1934
+		year = 4620
 		
 		archetype = amphibious_tank_chassis
 		priority = 10

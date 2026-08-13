@@ -1,6 +1,9 @@
 state = {
 	id = 263
 	name = STATE_263 #埃米斯托
+	resources={
+		coal= 20
+	}
 	history = {
 		owner = LOV
 		victory_points = { 5892 10  }

@@ -2,15 +2,16 @@ state = {
 	id = 786
 	name = STATE_786 #斯科英
 	resources = {
-		steel = 16
+		steel=16
+		yuehua=10
 	}
 	history = {
 		owner = ZET
-		victory_points = { 3316 15  }
+		victory_points = { 8034 15  }
 		buildings = {
 			infrastructure = 3
 			dockyard = 1
-			16404 = {
+			1467 = {
 				naval_base = 1
 			}
 		}

@@ -4,11 +4,19 @@ state = {
 	history = {
 		owner = FRO
 		victory_points = {
+			3615 25
 		}
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = FRO
+		4635.10.25 = {
+			controller = LEG
+
+		}
+		4636.10.25 = {
+			controller = FRO
+		}
 	}
 	provinces = { 1675 3379 3615 4937 7526 7945 8710 9869 9930 11474  }
 	manpower = 384102

@@ -1,9 +1,10 @@
 state = {
 	id = 832
-	name = STATE_832
+	name = STATE_832#艾希尼亚城
 	history = {
 		owner = AIS
 		victory_points = {
+			9214 25
 		}
 		buildings = {
 			infrastructure = 3

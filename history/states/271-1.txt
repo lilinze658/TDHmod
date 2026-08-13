@@ -1,6 +1,9 @@
 state = {
 	id = 271
 	name = STATE_271 #伊卡洛
+	resources={
+		coal= 20
+	}
 	history = {
 		owner = STA
 		victory_points = { 1138 30  }

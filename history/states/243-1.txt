@@ -1,6 +1,9 @@
 state = {
 	id = 243
 	name = STATE_243 #莱克
+	resources={
+		coal= 20
+	}
 	history = {
 		owner = PIR
 		victory_points = { 4873 5  }

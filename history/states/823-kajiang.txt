@@ -4,6 +4,7 @@ state = {
 	history = {
 		owner = NGD
 		victory_points = {
+			16485 10
 		}
 		buildings = {
 			infrastructure = 3

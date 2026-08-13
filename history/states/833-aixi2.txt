@@ -4,10 +4,14 @@ state = {
 	history = {
 		owner = AIS
 		victory_points = {
+			15248 10
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+			9373 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = AIS
 	}

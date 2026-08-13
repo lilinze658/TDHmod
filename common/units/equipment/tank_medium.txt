@@ -2,7 +2,7 @@
 equipments = {
 
 #	medium_tank_equipment = {
-#		year = 1934
+#		year = 4620
 #
 #		can_be_produced = {
 #			NOT = {
@@ -131,7 +131,7 @@ equipments = {
 #	}
 #
 #	medium_tank_artillery_equipment = {
-#		year = 1934
+#		year = 4620
 #
 #		can_be_produced = {
 #			NOT = {
@@ -266,7 +266,7 @@ equipments = {
 #	}
 #
 #	medium_tank_destroyer_equipment = {
-#		year = 1934
+#		year = 4620
 #
 #		can_be_produced = {
 #			NOT = {
@@ -407,7 +407,7 @@ equipments = {
 #
 #
 #	medium_tank_aa_equipment = {
-#		year = 1934
+#		year = 4620
 #
 #		can_be_produced = {
 #			NOT = {

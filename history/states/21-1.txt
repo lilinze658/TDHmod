@@ -1,18 +1,33 @@
 
 state={
 	id=21
-	name="STATE_21"
+	name="STATE_21"#新京
+	resources={
+		steel= 20
+        oil= 10
+	}
 	history={
 		owner = SHE
 		victory_points = {
-			
+			6184 30
 		}
 		 
 		buildings = {
 			infrastructure = 4
-			arms factory = 2
+			arms_factory = 2
 			industrial_complex = 6
 			dockyard = 2
+            air_base = 5
+			6184 = {
+                naval_base = 9
+				naval_supply_hub = 1
+				naval_headquarters = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
 		}
 		add_core_of = SHE
 
@@ -22,4 +37,6 @@ state={
 	}
 	manpower=5710000
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
 }

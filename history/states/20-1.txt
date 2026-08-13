@@ -4,11 +4,15 @@ state = {
 	history = {
 		owner = SHE
 		victory_points = {
+			3993 5
 		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3
 			dockyard = 1
+			3993 = {
+                naval_base = 2
+			}   
 		}
 		add_core_of = SHE
 	}

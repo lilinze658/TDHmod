@@ -4,14 +4,20 @@ state = {
 	history = {
 		owner = LOV
 		victory_points = {
+			898 5
 		}
 		buildings = {
 			infrastructure = 2
+			898 = {
+				naval_base = 2
+			}  
 		}
 		add_core_of = LOV
 		4635.10.25 = {
+			owner = RED
 			add_core_of = ROA
 			add_core_of = RED
+
 		}
 	}
 	provinces = { 898 3995 7874 7986 9247 9545 10370 10442 14184 14193 14201 14241 14256 14313 14331 14402  }

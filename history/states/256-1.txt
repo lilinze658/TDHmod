@@ -4,6 +4,7 @@ state = {
 	resources = {
 		steel = 30
 		chromium = 20
+		coal= 20
 	}
 	history = {
 		owner = LOV

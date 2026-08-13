@@ -1,15 +1,22 @@
-state = {
-	id = 18
-	name = STATE_18
-	history = {
+state={
+	id=18
+	name="STATE_18"#千野望
+	resources={
+		steel= 20
+	}
+	history={
 		owner = POS
 		victory_points = {
+		    2505 15
 		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 2
 			dockyard = 1
+			2505 = {
+                naval_base = 1
+			} 
 		}
 		add_core_of = POS
 		4635.10.25 = {

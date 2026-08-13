@@ -1,9 +1,14 @@
 state = {
 	id = 289
 	name = STATE_289
+	resources = {
+		steel=30
+		tungsten=30
+	}
 	history = {
 		owner = LOV
 		victory_points = {
+			2158 5
 		}
 		buildings = {
 			infrastructure = 2
