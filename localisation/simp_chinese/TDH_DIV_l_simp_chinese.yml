@@ -1,6 +1,12 @@
 ﻿l_simp_chinese:
  computing_tech_research: "计算机技术研究速度"
  
+ 
+ DIV_fascism_party: "摄政王系"
+ DIV_democratic_party: "维新系"
+ DIV_neutrality_party: "摄政王系"
+ DIV_communism_party: "维新系"
+ 
  DIV_Zhu_Qiu: "朱秋"
  DIV_Zhang_Xikai: "张希凯"
  DIV_An_Bai: "安白"
@@ -10,6 +16,7 @@
  DIV_Su_Luona: "苏洛娜"
  DIV_Jiang_Nayu: "江娜玉"
  DIV_Li_Suwen: "李素问"
+ DIV_LI_Qiwu: "李栖梧"
  PORTRAIT_DIV_ZHU_QIU_DESC: "§Y生于：§L不可考§!\n种族：§L亡灵§!\n背景：§L神州领袖，神州禁卫军总指挥，亡灵族。禁卫军是独立于中央军和边境四军团的存在，人员都经过重重选拔，有多大规模尚不明确，外界只是知道禁卫军主要活动范围在神州各大城市附近，传说是“天子”的御用军队，不过这终究只是传说罢了。作为最经常出现在大众面前的禁卫军人员，神州民众对她最大的印象可能就是雷厉风行和铁面无私。关于身为亡灵族的朱秋是怎么成为神州的最高统治者的？恐怕只能在古老的藏书阁中寻找答案，而朱秋自己也已经把这过往烂在了心里。现在的她只有一个职责，就是用自己不老不死的身体与无穷无尽的寿命守卫神州的安宁。§!§!"
  DIV_ZHU_QIU_GENERAL_DESC: "$PORTRAIT_DIV_ZHU_QIU_DESC$"
  DIV_ZHANG_XIKAI_GENERAL_DESC: "§Y生于：§L§!\n种族：§L人类§!\n背景：§L神州中央军元帅，人类。作为中央军的元帅，张希凯的职责乃是重中之重。神州中部地区作为皇室重地，无论是军事还是人事方面，都要做到几乎严丝无缝。正是有像张希凯这类忠诚的将军，才可保神州经历千年而不被撼动。§!§!"
@@ -21,7 +28,7 @@
  DIV_SU_LUONA_GENERAL_DESC: "§Y生于：§L§!\n种族：§L人类§!\n背景：§L神州陆军将领。曾因与阳洁羽交好而遭到革职流放，后在与升阳帝国的战争中被重新起用。成功在贡觉、福泉、赤河战役中击败升阳军，多次营救在后方作战的民兵游击队并撤退。战争结束后晋升为神州元帅。§!§!"
  DIV_JIANG_NAYU_ADVISOR_DESC: "§Y生于：§L§!\n种族：§L人类§!\n背景：§L神州中央国防科技学院院长，人类。负责调度陆军装备的列装与研发工作，她的研究团队在与升阳帝国的战争中发挥着重要作用。§!§!"
  PORTRAIT_DIV_LI_SUWEN_DESC: "§Y生于：§L§!\n种族：§L人类§!\n背景：§L§!§!"
- 
+ DIV_LI_QIWU_ADVISOR_DESC: "§Y生于：§L昭明二十一年正月初四；神州，天都§!\n种族：§L人类§!\n背景：§L§!§!"
  
  DIV_crown_regent: "摄政王"
  DIV_silent_son_of_heaven: "沉默的天子"
@@ -29,7 +36,7 @@
  DIV_regent_government: "摄政临朝"
  DIV_close_country: "闭关锁国"
  DIV_Li_Suwen_idea: "李素问"
- DIV_Li_Suwen_idea_desc: "§Y生于：§L显庆五年九月十二，神州、天都§!\n种族：§L人类§!\n背景：§L§!§!"
+ DIV_Li_Suwen_idea_desc: "§Y生于：§L显庆五年九月十二；神州，天都§!\n种族：§L人类§!\n背景：§L§!§!"
  DIV_Li_Suwen_idea_mtt: "幼主今方§Y[?character_age]§!，待其§Y十五§!行加冠之礼，便可亲揽万机……"
  DIV_general_post_and_telegraph_office: "邮政与电报总局"
  
