@@ -142,10 +142,10 @@ add_ideas = {
 	closed_economy
 	undisturbed_isolation
 
-	DIV_regent_government
-	DIV_Li_Suwen_idea
-	DIV_close_country
-	DIV_general_post_and_telegraph_office
+	#DIV_regent_government
+	#DIV_Li_Suwen_idea
+	#DIV_close_country
+	#DIV_general_post_and_telegraph_office
 }
 ### - Character - ###
 recruit_character = DIV_Zhu_Qiu
