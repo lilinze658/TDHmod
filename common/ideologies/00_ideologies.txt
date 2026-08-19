@@ -44,7 +44,8 @@ ideologies = {
 		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
 		faction_impact_on_world_tension = 0.1
 
-		modifiers = {
+		modifiers = {				
+		hidden_modifier = {
 			generate_wargoal_tension = 1.00
 			join_faction_tension = 0.80
 			lend_lease_tension = 0.50
@@ -57,6 +58,7 @@ ideologies = {
 			airforce_intel_to_others = 5
 			embargo_cost_factor = -0.5
 			embargo_threshold_factor = -0.5
+			}
 		}
 
 		faction_modifiers = {
@@ -193,21 +195,43 @@ ideologies = {
 
 		types = {
 
+			# 1. 宗教保守主义
+			religious_conservatism = {
+			}
+
+			# 2. 社会保守主义
+			social_conservatism = {
+			}
+
+			# 3. 贵族共和主义
+			aristocratic_republicanism = {
+			}
+
+			# 4. 王朝正统主义
+			dynastic_legitimism = {
+			}
+		
 			despotism  = {
+				can_be_randomly_selected = no #废弃
 			}
 
 			oligarchism  = {
+				can_be_randomly_selected = no #废弃
 			}
 
 			anarchism = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+				can_be_randomly_selected = no #废弃
 			}
 
 			moderatism = {
+				can_be_randomly_selected = no #废弃
 			}
 
 			centrism = {
+				can_be_randomly_selected = no #废弃
 			}
+
+
 		}
 
 		dynamic_faction_names = {
@@ -224,13 +248,13 @@ ideologies = {
 		war_impact_on_world_tension = 0.25		#no major danger
 		faction_impact_on_world_tension = 0.1
 
-		rules = {
+		#rules = {
 			can_force_government = yes
 			can_puppet = yes
 			can_send_volunteers = no
-		}
+		#}
 
-		modifiers = {
+		#modifiers = {
 			#increased_influence_factor = 0.3 #30% easier to influence
 			generate_wargoal_tension = 0.5
 			join_faction_tension = 0.4
@@ -242,15 +266,19 @@ ideologies = {
 			army_intel_to_others = 10.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 10.0
-		}
+			ai_ideology_wanted_units_factor = 1.15
+		#}
 
 		faction_modifiers = {
+				army_core_defence_factor = 0.05
+				faction_trade_opinion_factor = 0.25
+				drift_defence_factor = 0.20
 		}
 
 		ai_neutral = yes #
-		ai_ideology_wanted_units_factor = 1.15
+		#ai_ideology_wanted_units_factor = 1.15
 		
-		ai_give_core_state_control_threshold = 10000
+		ai_give_core_state_control_threshold = 250
 	}
 
 	ceshi_one = {
@@ -305,107 +333,4 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10000
 	}
 
-	ceshi_two = {
-
-		types = {
-
-			ceshi_two  = {
-			}
-
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
-		}
-
-		color = { 233 233 233 }
-
-
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
-
-		rules = {
-			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = no
-		}
-
-		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.6
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 10.0
-		}
-
-		faction_modifiers = {
-		}
-
-		ai_neutral = yes #
-		ai_ideology_wanted_units_factor = 1.15
-		
-		ai_give_core_state_control_threshold = 10000
-	}
-
-	ceshi_three = {
-
-		types = {
-
-			ceshi_three  = {
-			}
-
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
-		}
-
-		color = { 233 233 233 }
-
-
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
-
-		rules = {
-			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = no
-		}
-
-		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.6
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 10.0
-		}
-
-		faction_modifiers = {
-		}
-
-		ai_neutral = yes #
-		ai_ideology_wanted_units_factor = 1.15
-		
-		ai_give_core_state_control_threshold = 10000
-	}
 }

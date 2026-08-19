@@ -49,3 +49,12 @@ defined_text = {
 		localization_key = text_aloy_none # 这是一个系统自带的空文本
 	}
 }
+
+
+defined_text = {
+	name = HAS
+	text = { trigger = { check_variable = { HAS_aloy_level_d = 1 } } localization_key = text_aloy_d1 }
+	text = { trigger = { check_variable = { HAS_aloy_level_d = 2 } } localization_key = text_aloy_d2 }
+	text = { trigger = { check_variable = { HAS_aloy_level_d = 3 } } localization_key = text_aloy_d3 }
+	#text = { localization_key = text_aloy_d1 }
+}

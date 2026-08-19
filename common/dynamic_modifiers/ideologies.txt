@@ -1,0 +1,100 @@
+# 1. 宗教保守主义
+# ========================================================
+# 子意识形态：数值与UI伪装 (Dynamic Modifiers)
+# ========================================================
+
+# 1. 宗教保守主义
+subideology_religious_conservatism_modifier = {
+	#icon = GFX_ideology_religious_conservatism 
+	enable = { always = yes }
+	visible = { always = no }
+		drift_defence_factor = 0.50 
+		send_volunteer_factor = -0.50
+		
+		civilian_intel_to_others = 7.5
+		army_intel_to_others = 5.0
+		navy_intel_to_others = 5.0
+		airforce_intel_to_others = 5.0
+
+		generate_wargoal_tension = 0.80
+		join_faction_tension = 0.60
+		lend_lease_tension = 0.50
+		send_volunteers_tension = 0.40
+		guarantee_tension = 0.40
+		embargo_threshold_factor = -0.30
+		civil_war_involvement_tension = 0.30 
+}
+
+# 2. 社会保守主义
+subideology_social_conservatism_modifier = {
+	name = social_conservatism
+	icon = GFX_ideology_social_conservatism 
+	enable = { always = yes }
+
+		drift_defence_factor = 0.25 
+		consumer_goods_expected_value = 0.05 
+		embargo_cost_factor = -0.50 
+		
+		civilian_intel_to_others = 15.0
+		army_intel_to_others = 5.0
+		navy_intel_to_others = 15.0
+		airforce_intel_to_others = 5.0
+
+		generate_wargoal_tension = 0.70
+		join_faction_tension = 0.50
+		lend_lease_tension = 0.40
+		send_volunteers_tension = -0.20 
+		guarantee_tension = 0.50
+		civil_war_involvement_tension = 0.25 
+		ai_desired_divisions_factor = 0.15 
+	
+}
+
+# 3. 贵族共和主义
+subideology_aristocratic_republicanism_modifier = {
+	name = aristocratic_republicanism
+	icon = GFX_ideology_aristocratic_republicanism 
+	enable = { always = yes }
+
+		guarantee_cost = -0.20 
+		embargo_cost_factor = -0.50
+		
+		civilian_intel_to_others = 20.0
+		army_intel_to_others = 5.0
+		navy_intel_to_others = 20.0
+		airforce_intel_to_others = 5.0
+
+		generate_wargoal_tension = 0.90 
+		join_faction_tension = -0.20 
+		lend_lease_tension = 0.30
+		send_volunteers_tension = 0.40
+		guarantee_tension = -0.25 
+		embargo_threshold_factor = -0.50
+		ai_desired_divisions_factor = 0.10 
+	
+}
+
+# 4. 王朝正统主义
+subideology_dynastic_legitimism_modifier = {
+	name = dynastic_legitimism
+	icon = GFX_ideology_dynastic_legitimism 
+	enable = { always = yes }
+
+		justify_war_goal_time = -0.50 
+		embargo_cost_factor = 0.50 
+		
+		civilian_intel_to_others = 10.0
+		army_intel_to_others = 7.5
+		navy_intel_to_others = 10.0
+		airforce_intel_to_others = 7.5
+
+		generate_wargoal_tension = 0.40
+		join_faction_tension = 0.40
+		lend_lease_tension = 0.40
+		send_volunteers_tension = 0.20
+		guarantee_tension = 0.60
+		civil_war_involvement_tension = -0.25 
+		ai_desired_divisions_factor = 0.45 
+	
+}
+

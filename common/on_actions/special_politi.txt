@@ -1,0 +1,60 @@
+on_actions = {
+
+
+
+
+
+	on_startup = {
+		effect = {
+			every_country = {
+				apply_own_subideology_buffs_effect = yes
+			}
+		}
+	}
+
+
+
+	on_puppet = {
+		effect = {
+			# ROOT = 被傀儡国, FROM = 宗主国
+			ROOT = {
+				sync_subject_ideology_to_overlord_effect = yes
+			}
+		}
+	}
+
+	# 保险2：占领区菜单手动释放傀儡
+	on_release_as_puppet = {
+		effect = {
+			# ROOT = 被释放的傀儡, FROM = 宗主国
+			ROOT = {
+				sync_subject_ideology_to_overlord_effect = yes
+			}
+		}
+	}
+
+	# 保险3：附庸国自治等级变化时（被降级/升级自治度时也会触发）
+	on_subject_autonomy_level_change = {
+		effect = {
+			# ROOT = 附庸国, FROM = 宗主国
+			ROOT = {
+				if = {
+					limit = { is_subject = yes }
+					sync_subject_ideology_to_overlord_effect = yes
+				}
+			}
+		}
+	}
+
+	on_ruling_party_change = {
+		effect = {
+			# ROOT = 附庸国, FROM = 宗主国
+			ROOT = {
+				if = {
+					limit = { is_subject = yes }
+					sync_subject_ideology_to_overlord_effect = yes
+				}
+			}
+		}
+	}
+}

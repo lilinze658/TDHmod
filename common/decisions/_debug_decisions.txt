@@ -1,5 +1,27 @@
 debug_decisions = {
 
+	debug_sync_subjects = {
+		icon = generic_political_discourse
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+
+			every_subject_country = {
+				sync_subject_ideology_to_overlord_effect = yes
+			}
+
+		ai_will_do = { factor = 0 }
+	}
+
 	research_all_tank_techs_nsb = {
 		icon = generic_tank
 

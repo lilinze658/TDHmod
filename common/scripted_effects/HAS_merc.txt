@@ -19,3 +19,263 @@ HAS_calculate_merc_cost_effect = {
 	# 4. 确保动态修饰符挂在身上
 	#add_dynamic_modifier = { modifier = HAS_neidran_merc_contract_cost }
 }
+
+#sync_all_subjects_ideology_effect = {
+
+    # 先把自己存起来，方便附庸作用域内调用
+    save_event_target_as = sync_overlord_target
+
+    every_subject_country = {
+        # 此时作用域 = 某个附庸国
+
+        # ---------- 中立系 ----------
+        if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = despotism } }
+            set_country_leader_ideology = despotism
+        }
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = oligarchism } }
+            set_country_leader_ideology = oligarchism
+        }
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = moderatism } }
+            set_country_leader_ideology = moderatism
+        }
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = centrism } }
+            set_country_leader_ideology = centrism
+        }
+
+        # ---------- 法西斯系 ----------
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = nazism } }
+            set_country_leader_ideology = nazism
+        }
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = fascism_ideology } }
+            set_country_leader_ideology = fascism_ideology
+        }
+
+        # ---------- 共产系 ----------
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = stalinism } }
+            set_country_leader_ideology = stalinism
+        }
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = marxism } }
+            set_country_leader_ideology = marxism
+        }
+
+        # ---------- 民主系 ----------
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = conservatism } }
+            set_country_leader_ideology = conservatism
+        }
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = liberalism } }
+            set_country_leader_ideology = liberalism
+        }
+
+        # 调试用：确认脚本真的跑进来了
+        add_political_power = 100
+    }
+#}
+
+# 根据 event_target:ideology_source 的子政体，给当前国家 (ROOT) 挂载对应的 Buff
+apply_subideology_buffs_from_source_effect = {
+
+
+    # 2. 同步子政体并挂载新 Buff
+    if = {
+        limit = { event_target:ideology_source = { has_country_leader_ideology = religious_conservatism } }
+        set_country_leader_ideology = religious_conservatism
+        add_dynamic_modifier = { modifier = subideology_religious_conservatism_modifier }
+        add_ideas = subideology_religious_conservatism_modifier_rule
+    }
+    else_if = {
+        limit = { event_target:ideology_source = { has_country_leader_ideology = social_conservatism } }
+        set_country_leader_ideology = social_conservatism
+        add_dynamic_modifier = { modifier = subideology_social_conservatism_modifier }
+        add_ideas = subideology_social_conservatism_modifier_rule
+    }
+    else_if = {
+        limit = { event_target:ideology_source = { has_country_leader_ideology = aristocratic_republicanism } }
+        set_country_leader_ideology = aristocratic_republicanism
+        add_dynamic_modifier = { modifier = subideology_aristocratic_republicanism_modifier }
+        add_ideas = subideology_aristocratic_republicanism_modifier_rule
+    }
+    else_if = {
+        limit = { event_target:ideology_source = { has_country_leader_ideology = dynastic_legitimism } }
+        set_country_leader_ideology = dynastic_legitimism
+        add_dynamic_modifier = { modifier = subideology_dynastic_legitimism_modifier }
+        add_ideas = subideology_dynastic_legitimism_modifier_rule
+    }
+}
+
+apply_own_subideology_buffs_effect = {
+
+    # --- 第一步：清除所有旧的子意识形态修正 ---
+    if = { limit = { has_dynamic_modifier = { modifier = subideology_religious_conservatism_modifier } } remove_dynamic_modifier = { modifier = subideology_religious_conservatism_modifier } }
+    if = { limit = { has_dynamic_modifier = { modifier = subideology_social_conservatism_modifier } } remove_dynamic_modifier = { modifier = subideology_social_conservatism_modifier } }
+    if = { limit = { has_dynamic_modifier = { modifier = subideology_aristocratic_republicanism_modifier } } remove_dynamic_modifier = { modifier = subideology_aristocratic_republicanism_modifier } }
+    if = { limit = { has_dynamic_modifier = { modifier = subideology_dynastic_legitimism_modifier } } remove_dynamic_modifier = { modifier = subideology_dynastic_legitimism_modifier } }
+
+    if = { limit = { has_idea = subideology_religious_conservatism_modifier_rule } remove_ideas = subideology_religious_conservatism_modifier_rule }
+    if = { limit = { has_idea = subideology_social_conservatism_modifier_rule } remove_ideas = subideology_social_conservatism_modifier_rule }
+    if = { limit = { has_idea = subideology_aristocratic_republicanism_modifier_rule } remove_ideas = subideology_aristocratic_republicanism_modifier_rule }
+    if = { limit = { has_idea = subideology_dynastic_legitimism_modifier_rule } remove_ideas = subideology_dynastic_legitimism_modifier_rule }
+
+    # --- 第二步：读取自身当前的子意识形态，挂载对应的新 Buff ---
+    if = {
+        limit = { has_country_leader_ideology = religious_conservatism }
+        add_dynamic_modifier = { modifier = subideology_religious_conservatism_modifier }
+        add_ideas = subideology_religious_conservatism_modifier_rule
+    }
+    else_if = {
+        limit = { has_country_leader_ideology = social_conservatism }
+        add_dynamic_modifier = { modifier = subideology_social_conservatism_modifier }
+        add_ideas = subideology_social_conservatism_modifier_rule
+    }
+    else_if = {
+        limit = { has_country_leader_ideology = aristocratic_republicanism }
+        add_dynamic_modifier = { modifier = subideology_aristocratic_republicanism_modifier }
+        add_ideas = subideology_aristocratic_republicanism_modifier_rule
+    }
+    else_if = {
+        limit = { has_country_leader_ideology = dynastic_legitimism }
+        add_dynamic_modifier = { modifier = subideology_dynastic_legitimism_modifier }
+        add_ideas = subideology_dynastic_legitimism_modifier_rule
+    }
+}
+
+
+# ==========================================
+# 将当前国家 (ROOT) 的子意识形态同步为宗主国的
+# 前提：ROOT 必须是傀儡国 (is_subject = yes)
+# ==========================================
+sync_subject_ideology_to_overlord_effect = {
+
+    # ---------- 宗教保守主义 ----------
+    if = {
+        limit = {
+            overlord = { has_country_leader_ideology = religious_conservatism }
+            NOT = { has_country_leader_ideology = religious_conservatism }
+        }
+        # 国内有人选？
+        if = {
+            limit = {
+                any_character = {
+                    can_be_country_leader = yes
+                    has_ideology = religious_conservatism
+                }
+            }
+            random_character = {
+                limit = {
+                    can_be_country_leader = yes
+                    has_ideology = religious_conservatism
+                }
+                promote_character = { ideology = religious_conservatism }
+            }
+        }
+        # 没有人选，捏大众脸
+        else = {
+            create_country_leader = {
+                ideology = religious_conservatism
+            }
+        }
+    }
+
+    # ---------- 社会保守主义 ----------
+    else_if = {
+        limit = {
+            overlord = { has_country_leader_ideology = social_conservatism }
+            NOT = { has_country_leader_ideology = social_conservatism }
+        }
+        if = {
+            limit = {
+                any_character = {
+                    can_be_country_leader = yes
+                    has_ideology = social_conservatism
+                }
+            }
+            random_character = {
+                limit = {
+                    can_be_country_leader = yes
+                    has_ideology = social_conservatism
+                }
+                promote_character = { ideology = social_conservatism }
+            }
+        }
+        else = {
+            create_country_leader = {
+                name = "Puppet Government"
+                ideology = social_conservatism
+                traits = { }
+            }
+        }
+    }
+
+    # ---------- 贵族共和主义 ----------
+    else_if = {
+        limit = {
+            overlord = { has_country_leader_ideology = aristocratic_republicanism }
+            NOT = { has_country_leader_ideology = aristocratic_republicanism }
+        }
+        if = {
+            limit = {
+                any_character = {
+                    can_be_country_leader = yes
+                    has_ideology = aristocratic_republicanism
+                }
+            }
+            random_character = {
+                limit = {
+                    can_be_country_leader = yes
+                    has_ideology = aristocratic_republicanism
+                }
+                promote_character = { ideology = aristocratic_republicanism }
+            }
+        }
+        else = {
+            create_country_leader = {
+                name = "Puppet Government"
+                ideology = aristocratic_republicanism
+                traits = { }
+            }
+        }
+    }
+
+    # ---------- 王朝正统主义 ----------
+    else_if = {
+        limit = {
+            overlord = { has_country_leader_ideology = dynastic_legitimism }
+            NOT = { has_country_leader_ideology = dynastic_legitimism }
+        }
+        if = {
+            limit = {
+                any_character = {
+                    can_be_country_leader = yes
+                    has_ideology = dynastic_legitimism
+                }
+            }
+            random_character = {
+                limit = {
+                    can_be_country_leader = yes
+                    has_ideology = dynastic_legitimism
+                }
+                promote_character = { ideology = dynastic_legitimism }
+            }
+        }
+        else = {
+            create_country_leader = {
+                name = "Puppet Government"
+                ideology = dynastic_legitimism
+                traits = { }
+            }
+        }
+    }
+
+    # ---------- 最后：调用万能脚本刷新 Buff ----------
+    apply_own_subideology_buffs_effect = yes
+}
+

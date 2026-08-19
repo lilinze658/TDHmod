@@ -63,7 +63,7 @@ HAS_saint_study_category = {
 	}
 
 	HAS_start_study_c = {
-		icon = generic_army_artillery
+		icon = generic_tank
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = HAS_study_c_ready_tt
@@ -80,7 +80,7 @@ HAS_saint_study_category = {
 	}
 
 	HAS_start_study_d = {
-		icon = generic_production_bonus
+		icon = generic_construction
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = HAS_study_d_ready_tt
