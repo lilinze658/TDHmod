@@ -62,6 +62,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_magic_girl_guards_icon.dds"
 		noOfFrames = 2 
 	}
+	spriteType = { name = "GFX_unit_merc_battalion_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_ranger_battalion_icon.dds" noOfFrames = 2 }
+
 	spriteType = {
 		name = "GFX_unit_ranger_royal_icon_medium_white"
 		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_ranger_royal_icon.dds"

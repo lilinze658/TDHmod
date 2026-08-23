@@ -14,7 +14,7 @@ country_event = {
     # 选项A：接受提议
     option = {
         name = "HAS_diplomacy.1.a"
-        ai_chance = { factor = 90 } # AI大概率接受
+        ai_chance = { factor = 99 } # AI大概率接受
         
         # 加安斯对哈斯佩芙好感+30
         add_opinion_modifier = { target = HAS modifier = HAS_diplomatic_ties_gaans }
@@ -25,6 +25,7 @@ country_event = {
             add_opinion_modifier = { target = REP modifier = HAS_mutual_pact_trade_bias }
             add_ideas = HAS_gaans_agri_quota
             country_event = { id = HAS_diplomacy.2 } # 发送成功通知给哈斯佩芙
+            give_market_access = REP
         }
     }
 
@@ -39,109 +40,294 @@ country_event = {
     }
 }
 
+country_event = {        #成功事件
+    id = HAS_diplomacy.2
+    title = "HAS_diplomacy.2.t"
+    desc = "HAS_diplomacy.2.d"
+    picture = GFX_report_event_generic_sign_treaty
+    
+    is_triggered_only = yes
 
+    # 选项B：拒绝
+    option = {
+        name = "HAS_diplomacy.2.a"
+        ai_chance = { factor = 10 }
+        
+    }
+}
 
+country_event = {
+    id = HAS_diplomacy.11
+    title = "HAS_diplomacy.11.t"
+    desc = "HAS_diplomacy.11.d"
+    picture = GFX_report_event_generic_sign_treaty
+    
+    is_triggered_only = yes
+
+    # 选项A：接受提议
+    option = {
+        name = "HAS_diplomacy.11.a"
+        ai_chance = { factor = 99 } # AI大概率接受
+        
+        # 加安斯对哈斯佩芙好感+30
+        add_opinion_modifier = { target = HAS modifier = HAS_diplomatic_ties_gaans }
+        
+        # 哈斯佩芙对加安斯好感+30，并获得国家精神
+        HAS = {
+            add_opinion_modifier = { target = REP modifier = HAS_diplomatic_ties_gaans }
+            add_opinion_modifier = { target = REP modifier = HAS_mutual_pact_trade_bias }
+            add_ideas = HAS_gaans_agri_quota
+            country_event = { id = HAS_diplomacy.12 } # 发送成功通知给哈斯佩芙
+            give_market_access = MOB
+        }
+    }
+
+    # 选项B：拒绝
+    option = {
+        name = "HAS_diplomacy.1.b"
+        ai_chance = { factor = 10 }
+        
+        HAS = {
+            country_event = { id = HAS_diplomacy.13 } # 发送失败通知
+        }
+    }
+}
 
 # 决定用多大精力学习的事件
+# ==========================================
+# 事件 1：初次雇佣 (三档选项)
+# ==========================================
 country_event = {
-    id = HAS_saint.1
-    title = "HAS_saint.1.t"
-    desc = "HAS_saint.1.desc"
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
+	id = HAS_merc.1
+	title = "HAS_merc.1.t"
+	desc = "HAS_merc.1.desc"
+	picture = GFX_report_event_generic_sign_treaty
+	is_triggered_only = yes
+
+	# 选项 A：一支就好 (+1支，需要3+8=11个额外可用民工)
+	option = {
+		name = "HAS_merc.1.a"
+		
+		trigger = {
+			num_of_civilian_factories_available_for_projects > 10 
+		}
+
+        division_template = {
+            name = "奈德兰佣兵团"
+            is_locked = yes
+            priority = 0
+            template_counter = 0
+            regiments = {
+                merc_battalion = { x = 0 y = 0 }
+                merc_battalion = { x = 0 y = 1 }
+                merc_battalion = { x = 0 y = 2 }
+                merc_battalion = { x = 1 y = 0 }
+                merc_battalion = { x = 1 y = 1 }
+                merc_battalion = { x = 1 y = 2 }
+                merc_battalion = { x = 2 y = 0 }
+                merc_battalion = { x = 2 y = 1 }
+                merc_battalion = { x = 2 y = 2 }
+                artillery_brigade = { x = 3 y = 0 }
+                artillery_brigade = { x = 3 y = 1 }
+                artillery_brigade = { x = 3 y = 2 }
+            }
+            regimental_support = {
+                field_guns = { x = 0 y = 0 }
+                field_guns = { x = 1 y = 0 }
+                field_guns = { x = 2 y = 0 }
+            }
+            support = {
+                rangers_support = { x = 0 y = 0 } 
+                field_hospital = { x = 0 y = 1 }
+                artillery = { x = 0 y = 2 }
+                engineer = { x = 0 y = 3 }
+                logistics_company = { x = 0 y = 4 }
+            }
+        }		
+       
+		capital_scope = { create_unit = { division = "name = \"奈德兰外籍兵团\" division_template = \"奈德兰佣兵团\" start_experience_factor = 1.0" owner = ROOT } }
+
+		add_to_variable = { HAS_merc_divisions_contracted = 1 }
+		
+		# 手动计算花费 (1支 * 3 = 3)
+		set_variable = { HAS_neidran_merc_cost = HAS_merc_divisions_contracted }
+		multiply_variable = { HAS_neidran_merc_cost = 3 }
+		
+		# 手动计算特种部队上限 (1支 * 9 = 9)
+		set_variable = { HAS_neidran_merc_special_forces_min = HAS_merc_divisions_contracted }
+		multiply_variable = { HAS_neidran_merc_special_forces_min = 9 }
 
 
-    # 选项 A：本圣女是天才！(耗时极长，花费少)
-    option = {
-        name = "HAS_saint.1.a"
-        add_political_power = -10
+		set_country_flag = HAS_has_active_merc_contract
+		add_dynamic_modifier = { modifier = HAS_neidran_merc_contract }
+		HAS_calculate_merc_cost_effect = yes 
+		activate_mission = HAS_merc_contract_timer_mission
+		custom_effect_tooltip = HAS_merc_11_a_tt
+	}
+
+	# 选项 B：我们需要中等数量 (+3支，需要9+7=16个额外可用民工)
+	option = {
+		name = "HAS_merc.1.b"
+		
+		trigger = {
+			num_of_civilian_factories_available_for_projects > 16 
+		}
+        division_template = {
+            name = "奈德兰佣兵团"
+            is_locked = yes
+            priority = 0
+            template_counter = 0
+            regiments = {
+                merc_battalion = { x = 0 y = 0 }
+                merc_battalion = { x = 0 y = 1 }
+                merc_battalion = { x = 0 y = 2 }
+                merc_battalion = { x = 1 y = 0 }
+                merc_battalion = { x = 1 y = 1 }
+                merc_battalion = { x = 1 y = 2 }
+                merc_battalion = { x = 2 y = 0 }
+                merc_battalion = { x = 2 y = 1 }
+                merc_battalion = { x = 2 y = 2 }
+                artillery_brigade = { x = 3 y = 0 }
+                artillery_brigade = { x = 3 y = 1 }
+                artillery_brigade = { x = 3 y = 2 }
+            }
+            regimental_support = {
+                field_guns = { x = 0 y = 0 }
+                field_guns = { x = 1 y = 0 }
+                field_guns = { x = 2 y = 0 }
+            }
+            support = {
+                rangers_support = { x = 0 y = 0 } 
+                field_hospital = { x = 0 y = 1 }
+                artillery = { x = 0 y = 2 }
+                engineer = { x = 0 y = 3 }
+                logistics_company = { x = 0 y = 4 }
+            }
+        }		
         
-        # 启动读条
-        set_country_flag = HAS_saint_is_studying_flag
-        activate_mission = HAS_saint_is_studying_mission
-        add_days_mission_timeout = { mission = HAS_saint_is_studying_mission days = 120 } # 总计 120 天
-    }
+		capital_scope = { create_unit = { division = "name = \"奈德兰外籍兵团\" division_template = \"奈德兰佣兵团\" start_experience_factor = 1.0" owner = ROOT count = 3 } }
 
+		
+		set_country_flag = HAS_has_active_merc_contract
+		add_dynamic_modifier = { modifier = HAS_neidran_merc_contract }
+		HAS_calculate_merc_cost_effect = yes 
+		activate_mission = HAS_merc_contract_timer_mission
+		custom_effect_tooltip = HAS_merc_11_b_tt
+	}
 
-    # 选项 B：努力去学习 (适中)
-    option = {
-        name = "HAS_saint.1.b"
-        trigger = { has_political_power > 29 }
-        add_political_power = -30
-        add_command_power = -10 # 消耗一点指挥点代表精力
+	# 选项 C：还要更多！ (+5支，需要15+7=22个额外可用民工)
+	option = {
+		name = "HAS_merc.1.c"
+		
+		trigger = {
+			num_of_civilian_factories_available_for_projects > 22 
+		}
+        division_template = {
+            name = "奈德兰佣兵团"
+            is_locked = yes
+            priority = 0
+            template_counter = 0
+            regiments = {
+                merc_battalion = { x = 0 y = 0 }
+                merc_battalion = { x = 0 y = 1 }
+                merc_battalion = { x = 0 y = 2 }
+                merc_battalion = { x = 1 y = 0 }
+                merc_battalion = { x = 1 y = 1 }
+                merc_battalion = { x = 1 y = 2 }
+                merc_battalion = { x = 2 y = 0 }
+                merc_battalion = { x = 2 y = 1 }
+                merc_battalion = { x = 2 y = 2 }
+                artillery_brigade = { x = 3 y = 0 }
+                artillery_brigade = { x = 3 y = 1 }
+                artillery_brigade = { x = 3 y = 2 }
+            }
+            regimental_support = {
+                field_guns = { x = 0 y = 0 }
+                field_guns = { x = 1 y = 0 }
+                field_guns = { x = 2 y = 0 }
+            }
+            support = {
+                rangers_support = { x = 0 y = 0 } 
+                field_hospital = { x = 0 y = 1 }
+                artillery = { x = 0 y = 2 }
+                engineer = { x = 0 y = 3 }
+                logistics_company = { x = 0 y = 4 }
+            }
+        }		
         
-        set_country_flag = HAS_saint_is_studying_flag
-        activate_mission = HAS_saint_is_studying_mission
-        add_days_mission_timeout = { mission = HAS_saint_is_studying_mission days = 60 } # 总计 60 天
-    }
+		capital_scope = { create_unit = { division = "name = \"奈德兰外籍兵团\" division_template = \"奈德兰佣兵团\" start_experience_factor = 1.0" owner = ROOT count = 5 } }
 
+		
+		set_country_flag = HAS_has_active_merc_contract
+		add_dynamic_modifier = { modifier = HAS_neidran_merc_contract }
+		HAS_calculate_merc_cost_effect = yes 
+		activate_mission = HAS_merc_contract_timer_mission
+		custom_effect_tooltip = HAS_merc_11_c_tt
+	}
 
-    # 选项 C：尽全力去学习！(极速，极贵)
-    option = {
-        name = "HAS_saint.1.c"
-        trigger = { has_political_power > 74 }
-        add_political_power = -75
-        add_command_power = -30
-        
-        set_country_flag = HAS_saint_is_studying_flag
-        activate_mission = HAS_saint_is_studying_mission
-        add_days_mission_timeout = { mission = HAS_saint_is_studying_mission days = 3 } # 总计 30 天
-    }
-
-
-    # 选项 D：还是算了
-    option = {
-        name = "HAS_saint.1.d"
-        # 什么都不发生，退回决议
-    }
+	# 选项 D：拒绝雇佣 (任何时候都能点)
+	option = {
+		name = "HAS_merc.1.d"
+		add_political_power = 10
+	}
 }
 
-
-
-# 读条结束，学习完成！
+# 追加雇佣事件
 country_event = {
-    id = HAS_saint.2
-    title = "HAS_saint.2.t"
-    desc = "HAS_saint.2.d"
-    picture = GFX_report_event_coronation
-    is_triggered_only = yes
-                                               
+	id = HAS_merc.2
+	title = "HAS_merc.2.t"
+	desc = "HAS_merc.2.desc"
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
 
-    option = {
-        name = "HAS_saint.2.a"
-        add_political_power = 100 # 奖励一点政治点
-        clr_country_flag = HAS_saint_is_studying_flag
-        # 根据之前记录的目标，给对应变量 +1
-        if = { limit = { check_variable = { var = HAS_current_study_target value = 1 compare = equals } } add_to_variable = { HAS_aloy_level_a = 1 } }
-        if = { limit = { check_variable = { var = HAS_current_study_target value = 2 compare = equals } } add_to_variable = { HAS_aloy_level_b = 1 } }
-        if = { limit = { check_variable = { var = HAS_current_study_target value = 3 compare = equals  } } add_to_variable = { HAS_aloy_level_c = 1 } }
-        if = { limit = { check_variable = { var = HAS_current_study_target value = 4 compare = equals  } } add_to_variable = { HAS_aloy_level_d = 1 } }
-        
-        # 记录总成功次数 (用于加冕)
-            add_to_variable = { HAS_saint_total_study_count = 1 }
-			if = { limit = { check_variable = { HAS_aloy_level_a = 1 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_a1 } }
-			if = { limit = { check_variable = { HAS_aloy_level_a = 2 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_a2 } }
-			if = { limit = { check_variable = { HAS_aloy_level_a >= 3 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_a3 } }
+	# 选项 A：一支就好 (+1支，需要3+8个额外可用民工)
+	option = {
+		name = "HAS_merc.2.a"
+		
+		trigger = {
+			num_of_civilian_factories_available_for_projects > 10
+		}
+		
+        # 【已修复】
+		capital_scope = { create_unit = { division = "name = \"奈德兰外籍兵团\" division_template = \"奈德兰佣兵团\" start_experience_factor = 1.0" owner = ROOT count = 1 } }
+		HAS_calculate_merc_cost_effect = yes 
+		custom_effect_tooltip = HAS_merc_11_a_tt
+	}
 
-			# 行政与后勤 (B)
-			if = { limit = { check_variable = { HAS_aloy_level_b = 1 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_b1 } }
-			if = { limit = { check_variable = { HAS_aloy_level_b = 2 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_b2 } }
-			if = { limit = { check_variable = { HAS_aloy_level_b = 3 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_b3 } }
+	# 选项 B：我们需要中等数量 (+3支，需要9+7个额外可用民工)
+	option = {
+		name = "HAS_merc.2.b"
+		
+		trigger = {
+			num_of_civilian_factories_available_for_projects > 16 
+		}
+		
+        # 【已修复】
+		capital_scope = { create_unit = { division = "name = \"奈德兰外籍兵团\" division_template = \"奈德兰佣兵团\" start_experience_factor = 1.0" owner = ROOT count = 3 } }
+		HAS_calculate_merc_cost_effect = yes 
+		custom_effect_tooltip = HAS_merc_11_b_tt
+	}
 
-			# 军事事务 (C)
-			if = { limit = { check_variable = { HAS_aloy_level_c = 1 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_c1 } }
-			if = { limit = { check_variable = { HAS_aloy_level_c = 2 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_c2 } }
-			if = { limit = { check_variable = { HAS_aloy_level_c = 3 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_c3 } }
+	# 选项 C：还要更多！ (+5支，需要15+7个额外可用民工)
+	option = {
+		name = "HAS_merc.2.c"
+		
+		trigger = {
+			num_of_civilian_factories_available_for_projects > 22 
+		}
+		
+		capital_scope = { create_unit = { division = "name = \"奈德兰外籍兵团\" division_template = \"奈德兰佣兵团\" start_experience_factor = 1.0" owner = ROOT count = 5 } }
+		HAS_calculate_merc_cost_effect = yes 
+		custom_effect_tooltip = HAS_merc_11_c_tt
+	}
 
-			# 工业与发展 (D)
-			if = { limit = { check_variable = { HAS_aloy_level_d = 1 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_d1 } }
-			if = { limit = { check_variable = { HAS_aloy_level_d = 2 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_d2 } }
-			if = { limit = { check_variable = { HAS_aloy_level_d = 3 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_d3 } }
-                     
-    }
-
-
+	# 选项 D：算了，维持现状 (任何时候都能点)
+	option = {
+		name = "HAS_merc.2.d"
+        add_political_power = 10
+	}
 }
+
 
 
 

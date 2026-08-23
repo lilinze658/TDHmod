@@ -25,14 +25,7 @@ defined_text = {
 	text = { trigger = { check_variable = { HAS_aloy_level_d = 2 } } localization_key = text_aloy_d2 }
 	text = { trigger = { check_variable = { HAS_aloy_level_d = 3 } } localization_key = text_aloy_d3 }
 	#text = { localization_key = text_aloy_none }
-}
-defined_text = {
-	name = GetAloyTraitD
-	text = { trigger = { check_variable = { HAS_aloy_level_d = 1 } } localization_key = text_aloy_d1 }
-	text = { trigger = { check_variable = { HAS_aloy_level_d = 2 } } localization_key = text_aloy_d2 }
-	text = { trigger = { check_variable = { HAS_aloy_level_d = 3 } } localization_key = text_aloy_d3 }
-	#text = { localization_key = text_aloy_none }
-}
+
 
 # 判断爱洛依是否处于“完全没学习过任何技能”的状态
 defined_text = {

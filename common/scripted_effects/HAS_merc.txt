@@ -6,21 +6,24 @@ HAS_calculate_merc_cost_effect = {
 	# 2. 扫描全国所有师团
 	every_country_division = {
 		limit = {
-			has_template = "奈德兰佣兵团" # 检查模板名称
+			division_has_majority_template = merc_battalion
 		}
 		# 找到一个，就给国家的变量 +1 (PREV代表退回国家作用域)
 		PREV = { add_to_variable = { HAS_merc_divisions_contracted = 1 } }
 	}
 	
 	# 3. 计算工厂花费 (数量 * 3)
-	set_variable = { HAS_merc_civ_cost = HAS_merc_divisions_contracted }
-	multiply_variable = { HAS_merc_civ_cost = 3 }
-	
+	set_variable = { HAS_neidran_merc_cost = HAS_merc_divisions_contracted }
+    set_variable = { HAS_neidran_merc_special_forces_min = HAS_merc_divisions_contracted }   
+	multiply_variable = { HAS_neidran_merc_cost = 3 }
+	multiply_variable = { HAS_neidran_merc_special_forces_min = 9 }
+
 	# 4. 确保动态修饰符挂在身上
 	#add_dynamic_modifier = { modifier = HAS_neidran_merc_contract_cost }
+    force_update_dynamic_modifier = yes
 }
 
-#sync_all_subjects_ideology_effect = {
+sync_all_subjects_ideology_effect = {
 
     # 先把自己存起来，方便附庸作用域内调用
     save_event_target_as = sync_overlord_target

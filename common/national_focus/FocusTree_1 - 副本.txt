@@ -591,12 +591,20 @@ focus_tree = {
 				limit = { has_idea = HAS_border_smuggling } # 假设的走私黑市理念
 				remove_ideas = HAS_border_smuggling
 			}
-			
-			swap_ideas = {
-				remove_idea = HAS_gaans_agri_quota
-				add_idea = HAS_gaans_mutual_pact
+			if = {
+				limit = { has_idea = secluded_isolation }
+		
+				swap_ideas = {
+					remove_idea = HAS_gaans_agri_quota
+					add_idea = HAS_gaans_mutual_pact_1
+				}
 			}
-			
+			else = {
+				swap_ideas = {
+					remove_idea = HAS_gaans_agri_quota
+					add_idea = HAS_gaans_mutual_pact_2
+				}
+			}						
 			give_guarantee = REP
 			REP = { give_guarantee = HAS }
 		}
@@ -617,7 +625,7 @@ focus_tree = {
 		completion_reward = {
 			# 向莫比斯(MOB)发送军火采购提议
 			MOB = {
-				country_event = { id = HAS_diplomacy.4 days = 1 }
+				country_event = { id = HAS_diplomacy.11 days = 1 }
 			}
 			custom_effect_tooltip = HAS_arms_orders_to_mobius_tt
 		}
@@ -737,7 +745,7 @@ focus_tree = {
 		completion_reward = {
 			# 解锁三款衍生特种战车（坦歼、自火、防空）
 			create_equipment_variant = {
-				name = "莫比斯式歼击车"
+				name = "莫比斯式歼击坦克"
 				type = light_tank_destroyer_chassis_1
 				modules = {
 					main_armament_slot = tank_medium_cannon #反坦克炮
@@ -752,7 +760,7 @@ focus_tree = {
     			}
 			}
 			create_equipment_variant = {
-				name = "莫比斯式突击炮"
+				name = "莫比斯式突击坦克"
 				type = light_tank_artillery_chassis_1
 				modules = {
 					main_armament_slot = tank_medium_howitzer #榴弹炮
@@ -876,32 +884,7 @@ focus_tree = {
 			# 设置Flag解锁雇佣兵决议
 			set_country_flag = HAS_can_hire_neidran_mercs
 			custom_effect_tooltip = HAS_mercenary_contracts_tt
-			division_template = {
-    			name = "奈德兰佣兵"
-    			is_locked = yes
-   				division_cap = 3 
-    			priority = 0
-   				template_counter = 0
-    			regiments = {
-					ranger_battalion = { x = 0 y = 0 }
-					ranger_battalion = { x = 0 y = 1 }
-					ranger_battalion = { x = 0 y = 2 }
-					ranger_battalion = { x = 1 y = 0 }
-					ranger_battalion = { x = 1 y = 1 }
-					ranger_battalion = { x = 1 y = 2 }
-					ranger_battalion = { x = 2 y = 0 }
-					ranger_battalion = { x = 2 y = 1 }
-					ranger_battalion = { x = 2 y = 2 }
-    				}
-    			regimental_support = {
-        			field_guns = { x = 0 y = 0 }
-					field_guns = { x = 1 y = 0 }
-					field_guns = { x = 2 y = 0 }
-    			}
-    			support = {
-					rangers_support = { x = 0 y = 0 } 
-    			}
-			}
+
 		}
 	}
 

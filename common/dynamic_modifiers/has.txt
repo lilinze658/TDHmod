@@ -7,7 +7,7 @@ HAS_neidran_merc_contract = {
 	
 	# 如果和奈德兰 (NEI) 开战，修饰符自动失效并移除！
 	remove_trigger = {
-		has_war_with = NEI
+		has_war_with = NED
 	}
 	
 	# 内战叛军会继承这个修饰符（以及相关的负债）
@@ -18,16 +18,15 @@ HAS_neidran_merc_contract = {
 		HAS_calculate_merc_cost_effect = yes
 	}
 	
-	# 被移除时（无论是手动取消、倒计时结束还是因为开战被强制移除）
+	# 被移除时
 	on_remove = {
 		# 解散所有佣兵，且不返还装备 (disband = no)
 		delete_units = { division_template = "奈德兰佣兵团" disband = no }
-		# 变量清零，打扫卫生
 		set_variable = { HAS_neidran_merc_cost = 0 }
 		clr_country_flag = HAS_has_active_merc_contract
 	}
 	
 	# 扣除民用工厂，数量 = HAS_neidran_merc_cost 变量
 	civilian_factory_use = HAS_neidran_merc_cost
-	special_forces_min = HAS_merc_divisions_contracted
+	special_forces_min = HAS_neidran_merc_special_forces_min 
 }
