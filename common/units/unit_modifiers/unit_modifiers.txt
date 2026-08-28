@@ -100,4 +100,7 @@ sub_unit_modifiers = {
 
 	modifier_army_sub_unit_category_special_forces_leg_infantry_speed_factor 
 	modifier_army_sub_unit_paratrooper_speed_factor 
+
+	modifier_army_sub_unit_category_hq_unit_attack_factor
+	modifier_army_sub_unit_category_hq_unit_defence_factor
 }

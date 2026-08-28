@@ -29,6 +29,7 @@ replace_path="gfx/flags/small"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="events"
+
 dependencies={
 	"52 Chinese Localisation"
 }

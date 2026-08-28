@@ -67,6 +67,7 @@ set_power_balance = {
 		id = HAS_race_bop
 		set_default = yes
 	}
+
 country_lock_all_division_template = yes
 
 oob = "HAS-4633"
@@ -85,15 +86,15 @@ recruit_character = HAS_agilia
 recruit_character = HAS_aloy
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "4622.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 80
-	fascism = 20
-	communism = 0
-	neutrality = 0
+	democratic = 20
+	fascism = 10
+	communism = 5
+	neutrality = 65
 }

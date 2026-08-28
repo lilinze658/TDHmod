@@ -43,7 +43,7 @@ ideas = {
 
 		# 2. 魔法少女的威胁
 		HAS_threat_of_magical_girls = {
-			picture = generic_intelligence_gathering # 建议美工画一把悬在头顶的魔杖
+			picture = generic_intelligence_gathering 
 			
 			modifier = {
 				surrender_limit = -0.20 # 投降界限 -20% (更容易被打崩)
@@ -63,7 +63,7 @@ ideas = {
 
 		# 3. 理念分歧：和翼神教国
 		HAS_ideological_divergence = {
-			picture = generic_democratic_drift_bonus # 建议美工画两根碰撞的羽毛
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				political_power_gain = -0.15 # 每日政治点数 -0.15
@@ -102,8 +102,8 @@ ideas = {
 		HAS_gaans_agri_quota = {
 			picture = generic_trade_bonus
 			modifier = {
-				min_export = 0.05 # 资源流向市场 +5%
-				consumer_goods_expected_value = 0.05 # 消费品预期值 +5%
+				min_export = 0.10 # 资源流向市场 +10%
+				consumer_goods_factor = 0.05 # 消费品预期系数 +5%
 			}
 			targeted_modifier = {
 				tag = REP
@@ -122,12 +122,101 @@ ideas = {
 		}
 
 		# 加安斯互惠同盟
-		HAS_gaans_mutual_pact = {
+		HAS_gaans_mutual_pact_1 = {
 			picture = generic_economic_treaty
 			modifier = {
-				min_export = 0.05 # 资源流向市场 +5%
+				min_export = 0.10 # 资源流向市场 +10%
 				production_speed_industrial_complex_factor = 0.15 # 民用工厂建造速度 +15%
 				consumer_goods_factor = -0.05 # 消费品需求 -5% (互惠同盟带来了大量廉价商品)
+			}
+			targeted_modifier = {
+				tag = REP
+				extra_trade_to_target_factor = 0.05
+				trade_cost_for_target_factor = -0.25 # 贸易成本 -25%
+			}
+		}
+
+		HAS_gaans_mutual_pact_2 = {
+			picture = generic_economic_treaty
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15 # 民用工厂建造速度 +15%
+				consumer_goods_factor = -0.05 # 消费品需求 -5% (互惠同盟带来了大量廉价商品)
+			}
+			targeted_modifier = {
+				tag = REP
+				extra_trade_to_target_factor = 0.05
+				trade_cost_for_target_factor = -0.25 # 贸易成本 -25%
+			}
+		}
+
+		# 莫比斯军火私单
+		HAS_mobius_arms_smuggling = {
+			picture = generic_secret_weapon
+			modifier = {
+				min_export = 0.10 # 资源流向市场 +10% (暗中卖矿换枪)
+				stability_factor = -0.10 # 稳定度 -10% (军火走私导致治安恶化)
+			}
+		}
+
+		# 莫比斯军工协定
+		HAS_mobius_military_pact_1 = {
+			picture = generic_production_bonus
+			modifier = {
+				min_export = 0.10 # 资源流向市场 +10%
+				industrial_capacity_factory = 0.05 # 军用工厂产出 +5%
+			}
+			equipment_bonus = { 
+				artillery_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+			}
+		}
+
+		HAS_mobius_military_pact_2 = {
+			picture = generic_production_bonus
+			modifier = {
+				industrial_capacity_factory = 0.05 # 军用工厂产出 +5%
+			}
+			equipment_bonus = { 
+				artillery_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+			}
+		}
+
+		HAS_mobius_advisor = {
+			picture = generic_commander
+			modifier = {
+				max_command_power = 20 # 指挥点上限 +20 (固定值)
+				command_power_gain_mult = 0.15 # 指挥点获取 +15%
+				planning_speed = 0.05 # 计划速度 +5%
+			}
+		}
+
+
+		# 奈德兰资本渗透 (初期代偿精神)
+		HAS_neidran_capital_infiltration = {
+			picture = generic_economic_treaty
+			modifier = {
+				min_export = 0.10 # 资源流向市场 +10%
+				political_power_factor = -0.15 # 政治点数获取 -15% (被大资本家拿捏)
+			}
+		}
+
+		# 哈斯佩芙-奈德兰协定 (最终精神)
+		HAS_hasphef_neidran_pact_1 = {
+			picture = generic_intel_bonus
+			modifier = {
+				min_export = 0.10 # 资源流向市场 +10%
+				research_speed_factor = 0.10 # 科研速度 +10%
+			}
+		}	
+		HAS_hasphef_neidran_pact_2 = {
+			picture = generic_intel_bonus
+			modifier = {
+				research_speed_factor = 0.10 # 科研速度 +10%
 			}
 		}
 
