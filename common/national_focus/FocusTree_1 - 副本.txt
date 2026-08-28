@@ -728,6 +728,7 @@ focus_tree = {
 		
 		completion_reward = {
 			set_country_flag = HAS_mobius_advisor_unlocked # 解锁莫比斯顾问
+			add_ideas = HAS_mobius_advisor
 			army_experience = 30
 		}
 	}
@@ -735,8 +736,8 @@ focus_tree = {
 	focus = {
 		id = HAS_mobius_style_division
 		icon = GFX_focus_CZE_army_reform
-		#prerequisite = { focus = HAS_import_mobius_assembly_lines }
-		#prerequisite = { focus = HAS_heavy_ordnance_exchange }
+		prerequisite = { focus = HAS_import_mobius_assembly_lines }
+		prerequisite = { focus = HAS_heavy_ordnance_exchange }
 		relative_position_id = HAS_arms_orders_to_mobius
 		x = 1
 		y = 2
@@ -843,10 +844,23 @@ focus_tree = {
 		
 		completion_reward = {
 			if = { limit = { has_idea = HAS_border_smuggling } remove_ideas = HAS_border_smuggling }
-			if = { limit = { has_idea = HAS_mobius_arms_smuggling } remove_ideas = HAS_mobius_arms_smuggling }
 			
-			add_ideas = HAS_mobius_military_pact
-		}
+			if = {
+				limit = { has_idea = secluded_isolation }
+		
+				swap_ideas = {
+					remove_idea = HAS_mobius_arms_smuggling
+					add_idea = HAS_mobius_military_pact_1
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = HAS_mobius_arms_smuggling
+					add_idea = HAS_mobius_military_pact_2
+				}
+			}						
+	
+			}
 	}
 
 	# ---------------------------------------------
@@ -910,6 +924,13 @@ focus_tree = {
 		prerequisite = { focus = HAS_mercenary_contracts }
 		prerequisite = { focus = HAS_neidran_rifle_blueprints }
 		relative_position_id = HAS_neidran_trade_mission
+
+		available = {    
+			custom_trigger_tooltip = {
+        		tooltip = HAS_neidran_mercenary_instructors_tt   # 本地化 key,显示给玩家看的文字
+      		  	has_any_grand_doctrine = land       # 实际检测条件(可任意组合)
+   				}
+		}
 		x = 0
 		y = 2
 		cost = 5
@@ -954,14 +975,32 @@ focus_tree = {
 					count = 1
 				}
 			}
-			# 获得游骑兵战术相关的陆军经验
-			army_experience = 20
-			add_mastery = {
-    			amount = 5
-    			sub_doctrine = commandos
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			
+
+			if = {
+				# 如果步兵学说槽位 (track = infantry) 还没有被任何学说占用
+				limit = { NOT = { has_subdoctrine_in_track = infantry } }
+				# 装备“卓越单兵”学说
+				set_sub_doctrine = commandos 
+			}
+			else = {
+				army_experience = 20
 			}
 
+			add_daily_mastery = {
+    			amount = 0.6
+    			days = 200
+    			name = HAS_neidran_merc_mastery
+    			track = infantry
+			}
 		}
+		
+		custom_effect_tooltip = HAS_neidran_mercenary_instructors_tt
 
 	}
 
@@ -976,10 +1015,22 @@ focus_tree = {
 		
 		completion_reward = {
 			if = { limit = { has_idea = HAS_border_smuggling } remove_ideas = HAS_border_smuggling }
-			if = { limit = { has_idea = HAS_neidran_capital_infiltration } remove_ideas = HAS_neidran_capital_infiltration }
 			
-			add_ideas = HAS_hasphef_neidran_pact
-			
+			if = {
+				limit = { has_idea = secluded_isolation }
+		
+				swap_ideas = {
+					remove_idea = HAS_neidran_capital_infiltration
+					add_idea = HAS_hasphef_neidran_pact_1
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = HAS_neidran_capital_infiltration
+					add_idea = HAS_hasphef_neidran_pact_2
+				}
+			}
+
 			# 获得奈德兰的独立保证
 			NEI = { give_guarantee = HAS }
 		}

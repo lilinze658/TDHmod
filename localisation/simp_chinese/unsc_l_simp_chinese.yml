@@ -1,4 +1,4 @@
-﻿l_simp_chinese:
+l_simp_chinese: 
  unsc_command:0 "UNSC指挥部"
  unsc_command_desc:0 "UNSC的信息化程度使其在部队的集结以及战斗部署上有着巨大优势。"
  unsc_social:0 "UNSC体制"
@@ -235,3 +235,6 @@
  HAS_saint.2.t: "课程结业"
  HAS_saint.2.d: "经过一段时间的苦读，爱洛依合上了书本。她看起来比以前更加睿智和自信了。这门课程的结业，标志着她离成为一名杰出的圣女又近了一步。"
  HAS_saint.2.a: "嘿嘿，本圣女厉害吧~"
+
+
+ HAS_neidran_mercenary_instructors_tt: "……只有当我们的部队确立了最基础的步兵操典（确定陆军主学说）后，这群高傲的佣兵教官才愿意开始授课。"

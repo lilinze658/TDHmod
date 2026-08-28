@@ -48,7 +48,6 @@ country_event = {        #成功事件
     
     is_triggered_only = yes
 
-    # 选项B：拒绝
     option = {
         name = "HAS_diplomacy.2.a"
         ai_chance = { factor = 10 }
@@ -84,7 +83,7 @@ country_event = {
 
     # 选项B：拒绝
     option = {
-        name = "HAS_diplomacy.1.b"
+        name = "HAS_diplomacy.11.b"
         ai_chance = { factor = 10 }
         
         HAS = {
@@ -94,6 +93,115 @@ country_event = {
 }
 
 # 决定用多大精力学习的事件
+country_event = {
+    id = HAS_saint.1
+    title = "HAS_saint.1.t"
+    desc = "HAS_saint.1.desc"
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+
+    # 选项 A：本圣女是天才！(耗时极长，花费少)
+    option = {
+        name = "HAS_saint.1.a"
+        add_political_power = -10
+        
+        # 启动读条
+        set_country_flag = HAS_saint_is_studying_flag
+        activate_mission = HAS_saint_is_studying_mission
+        add_days_mission_timeout = { mission = HAS_saint_is_studying_mission days = 120 } # 总计 120 天
+    }
+
+
+    # 选项 B：努力去学习 (适中)
+    option = {
+        name = "HAS_saint.1.b"
+        trigger = { has_political_power > 29 }
+        add_political_power = -30
+        add_command_power = -10 # 消耗一点指挥点代表精力
+        
+        set_country_flag = HAS_saint_is_studying_flag
+        activate_mission = HAS_saint_is_studying_mission
+        add_days_mission_timeout = { mission = HAS_saint_is_studying_mission days = 60 } # 总计 60 天
+    }
+
+
+    # 选项 C：尽全力去学习！(极速，极贵)
+    option = {
+        name = "HAS_saint.1.c"
+        trigger = { has_political_power > 74 }
+        add_political_power = -75
+        add_command_power = -30
+        
+        set_country_flag = HAS_saint_is_studying_flag
+        activate_mission = HAS_saint_is_studying_mission
+        add_days_mission_timeout = { mission = HAS_saint_is_studying_mission days = 3 } # 总计 30 天
+    }
+
+
+    # 选项 D：还是算了
+    option = {
+        name = "HAS_saint.1.d"
+        # 什么都不发生，退回决议
+    }
+}
+
+# 读条结束，学习完成！
+country_event = {
+    id = HAS_saint.2
+    title = "HAS_saint.2.t"
+    desc = "HAS_saint.2.d"
+    picture = GFX_report_event_coronation
+    is_triggered_only = yes
+                                               
+
+    option = {
+        name = "HAS_saint.2.a"
+        add_political_power = 100 # 奖励一点政治点
+        clr_country_flag = HAS_saint_is_studying_flag
+        # 根据之前记录的目标，给对应变量 +1
+        if = { limit = { check_variable = { var = HAS_current_study_target value = 1 compare = equals } } add_to_variable = { HAS_aloy_level_a = 1 } }
+        if = { limit = { check_variable = { var = HAS_current_study_target value = 2 compare = equals } } add_to_variable = { HAS_aloy_level_b = 1 } }
+        if = { limit = { check_variable = { var = HAS_current_study_target value = 3 compare = equals  } } add_to_variable = { HAS_aloy_level_c = 1 } }
+        if = { limit = { check_variable = { var = HAS_current_study_target value = 4 compare = equals  } } add_to_variable = { HAS_aloy_level_d = 1 } }
+        
+        # 记录总成功次数 (用于加冕)
+            add_to_variable = { HAS_saint_total_study_count = 1 }
+			if = { limit = { check_variable = { HAS_aloy_level_a = 1 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_a1 } }
+			if = { limit = { check_variable = { HAS_aloy_level_a = 2 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_a2 } }
+			if = { limit = { check_variable = { HAS_aloy_level_a >= 3 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_a3 } }
+
+			# 行政与后勤 (B)
+			if = { limit = { check_variable = { HAS_aloy_level_b = 1 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_b1 } }
+			if = { limit = { check_variable = { HAS_aloy_level_b = 2 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_b2 } }
+			if = { limit = { check_variable = { HAS_aloy_level_b = 3 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_b3 } }
+
+			# 军事事务 (C)
+			if = { limit = { check_variable = { HAS_aloy_level_c = 1 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_c1 } }
+			if = { limit = { check_variable = { HAS_aloy_level_c = 2 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_c2 } }
+			if = { limit = { check_variable = { HAS_aloy_level_c = 3 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_c3 } }
+
+			# 工业与发展 (D)
+			if = { limit = { check_variable = { HAS_aloy_level_d = 1 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_d1 } }
+			if = { limit = { check_variable = { HAS_aloy_level_d = 2 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_d2 } }
+			if = { limit = { check_variable = { HAS_aloy_level_d = 3 } } add_country_leader_trait = { character = HAS_eloy trait = has_leader_aloy_d3 } }
+                     
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 # ==========================================
 # 事件 1：初次雇佣 (三档选项)
 # ==========================================

@@ -102,7 +102,7 @@ ideas = {
 		HAS_gaans_agri_quota = {
 			picture = generic_trade_bonus
 			modifier = {
-				min_export = 0.05 # 资源流向市场 +5%
+				min_export = 0.10 # 资源流向市场 +10%
 				consumer_goods_factor = 0.05 # 消费品预期系数 +5%
 			}
 			targeted_modifier = {
@@ -125,7 +125,7 @@ ideas = {
 		HAS_gaans_mutual_pact_1 = {
 			picture = generic_economic_treaty
 			modifier = {
-				min_export = 0.05 # 资源流向市场 +5%
+				min_export = 0.10 # 资源流向市场 +10%
 				production_speed_industrial_complex_factor = 0.15 # 民用工厂建造速度 +15%
 				consumer_goods_factor = -0.05 # 消费品需求 -5% (互惠同盟带来了大量廉价商品)
 			}
@@ -183,6 +183,40 @@ ideas = {
 					instant = yes
 					build_cost_ic = -0.10
 				}
+			}
+		}
+
+		HAS_mobius_advisor = {
+			picture = generic_commander
+			modifier = {
+				max_command_power = 20 # 指挥点上限 +20 (固定值)
+				command_power_gain_mult = 0.15 # 指挥点获取 +15%
+				planning_speed = 0.05 # 计划速度 +5%
+			}
+		}
+
+
+		# 奈德兰资本渗透 (初期代偿精神)
+		HAS_neidran_capital_infiltration = {
+			picture = generic_economic_treaty
+			modifier = {
+				min_export = 0.10 # 资源流向市场 +10%
+				political_power_factor = -0.15 # 政治点数获取 -15% (被大资本家拿捏)
+			}
+		}
+
+		# 哈斯佩芙-奈德兰协定 (最终精神)
+		HAS_hasphef_neidran_pact_1 = {
+			picture = generic_intel_bonus
+			modifier = {
+				min_export = 0.10 # 资源流向市场 +10%
+				research_speed_factor = 0.10 # 科研速度 +10%
+			}
+		}	
+		HAS_hasphef_neidran_pact_2 = {
+			picture = generic_intel_bonus
+			modifier = {
+				research_speed_factor = 0.10 # 科研速度 +10%
 			}
 		}
 
