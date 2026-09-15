@@ -591,12 +591,20 @@ focus_tree = {
 				limit = { has_idea = HAS_border_smuggling } # 假设的走私黑市理念
 				remove_ideas = HAS_border_smuggling
 			}
-			
-			swap_ideas = {
-				remove_idea = HAS_gaans_agri_quota
-				add_idea = HAS_gaans_mutual_pact
+			if = {
+				limit = { has_idea = secluded_isolation }
+		
+				swap_ideas = {
+					remove_idea = HAS_gaans_agri_quota
+					add_idea = HAS_gaans_mutual_pact_1
+				}
 			}
-			
+			else = {
+				swap_ideas = {
+					remove_idea = HAS_gaans_agri_quota
+					add_idea = HAS_gaans_mutual_pact_2
+				}
+			}						
 			give_guarantee = REP
 			REP = { give_guarantee = HAS }
 		}
@@ -617,7 +625,7 @@ focus_tree = {
 		completion_reward = {
 			# 向莫比斯(MOB)发送军火采购提议
 			MOB = {
-				country_event = { id = HAS_diplomacy.4 days = 1 }
+				country_event = { id = HAS_diplomacy.11 days = 1 }
 			}
 			custom_effect_tooltip = HAS_arms_orders_to_mobius_tt
 		}
@@ -720,6 +728,7 @@ focus_tree = {
 		
 		completion_reward = {
 			set_country_flag = HAS_mobius_advisor_unlocked # 解锁莫比斯顾问
+			add_ideas = HAS_mobius_advisor
 			army_experience = 30
 		}
 	}
@@ -727,8 +736,8 @@ focus_tree = {
 	focus = {
 		id = HAS_mobius_style_division
 		icon = GFX_focus_CZE_army_reform
-		#prerequisite = { focus = HAS_import_mobius_assembly_lines }
-		#prerequisite = { focus = HAS_heavy_ordnance_exchange }
+		prerequisite = { focus = HAS_import_mobius_assembly_lines }
+		prerequisite = { focus = HAS_heavy_ordnance_exchange }
 		relative_position_id = HAS_arms_orders_to_mobius
 		x = 1
 		y = 2
@@ -737,7 +746,7 @@ focus_tree = {
 		completion_reward = {
 			# 解锁三款衍生特种战车（坦歼、自火、防空）
 			create_equipment_variant = {
-				name = "莫比斯式歼击车"
+				name = "莫比斯式歼击坦克"
 				type = light_tank_destroyer_chassis_1
 				modules = {
 					main_armament_slot = tank_medium_cannon #反坦克炮
@@ -752,7 +761,7 @@ focus_tree = {
     			}
 			}
 			create_equipment_variant = {
-				name = "莫比斯式突击炮"
+				name = "莫比斯式突击坦克"
 				type = light_tank_artillery_chassis_1
 				modules = {
 					main_armament_slot = tank_medium_howitzer #榴弹炮
@@ -835,10 +844,23 @@ focus_tree = {
 		
 		completion_reward = {
 			if = { limit = { has_idea = HAS_border_smuggling } remove_ideas = HAS_border_smuggling }
-			if = { limit = { has_idea = HAS_mobius_arms_smuggling } remove_ideas = HAS_mobius_arms_smuggling }
 			
-			add_ideas = HAS_mobius_military_pact
-		}
+			if = {
+				limit = { has_idea = secluded_isolation }
+		
+				swap_ideas = {
+					remove_idea = HAS_mobius_arms_smuggling
+					add_idea = HAS_mobius_military_pact_1
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = HAS_mobius_arms_smuggling
+					add_idea = HAS_mobius_military_pact_2
+				}
+			}						
+	
+			}
 	}
 
 	# ---------------------------------------------
@@ -876,32 +898,7 @@ focus_tree = {
 			# 设置Flag解锁雇佣兵决议
 			set_country_flag = HAS_can_hire_neidran_mercs
 			custom_effect_tooltip = HAS_mercenary_contracts_tt
-			division_template = {
-    			name = "奈德兰佣兵"
-    			is_locked = yes
-   				division_cap = 3 
-    			priority = 0
-   				template_counter = 0
-    			regiments = {
-					ranger_battalion = { x = 0 y = 0 }
-					ranger_battalion = { x = 0 y = 1 }
-					ranger_battalion = { x = 0 y = 2 }
-					ranger_battalion = { x = 1 y = 0 }
-					ranger_battalion = { x = 1 y = 1 }
-					ranger_battalion = { x = 1 y = 2 }
-					ranger_battalion = { x = 2 y = 0 }
-					ranger_battalion = { x = 2 y = 1 }
-					ranger_battalion = { x = 2 y = 2 }
-    				}
-    			regimental_support = {
-        			field_guns = { x = 0 y = 0 }
-					field_guns = { x = 1 y = 0 }
-					field_guns = { x = 2 y = 0 }
-    			}
-    			support = {
-					rangers_support = { x = 0 y = 0 } 
-    			}
-			}
+
 		}
 	}
 
@@ -927,6 +924,13 @@ focus_tree = {
 		prerequisite = { focus = HAS_mercenary_contracts }
 		prerequisite = { focus = HAS_neidran_rifle_blueprints }
 		relative_position_id = HAS_neidran_trade_mission
+
+		available = {    
+			custom_trigger_tooltip = {
+        		tooltip = HAS_neidran_mercenary_instructors_tt   # 本地化 key,显示给玩家看的文字
+      		  	has_any_grand_doctrine = land       # 实际检测条件(可任意组合)
+   				}
+		}
 		x = 0
 		y = 2
 		cost = 5
@@ -951,6 +955,10 @@ focus_tree = {
 				support = {
 					# [这里填你定义的游骑兵支援连]
 					rangers_support = { x = 0 y = 0 } 
+					field_hospital = { x = 0 y = 1 }    # 野战医院
+					artillery= { x = 0 y = 2 }      #火炮支援连
+					engineer = { x = 0 y = 3 }          # 工兵连
+					logistics_company = { x = 0 y = 4 } # 后勤连
 				}
 			}
 			
@@ -967,9 +975,33 @@ focus_tree = {
 					count = 1
 				}
 			}
-			# 获得游骑兵战术相关的陆军经验
-			army_experience = 20
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			
+
+			if = {
+				# 如果步兵学说槽位 (track = infantry) 还没有被任何学说占用
+				limit = { NOT = { has_subdoctrine_in_track = infantry } }
+				# 装备“卓越单兵”学说
+				set_sub_doctrine = commandos 
+			}
+			else = {
+				army_experience = 20
+			}
+
+			add_daily_mastery = {
+    			amount = 0.6
+    			days = 200
+    			name = HAS_neidran_merc_mastery
+    			track = infantry
+			}
 		}
+		
+		custom_effect_tooltip = HAS_neidran_mercenary_instructors_tt
+
 	}
 
 	focus = {
@@ -983,10 +1015,22 @@ focus_tree = {
 		
 		completion_reward = {
 			if = { limit = { has_idea = HAS_border_smuggling } remove_ideas = HAS_border_smuggling }
-			if = { limit = { has_idea = HAS_neidran_capital_infiltration } remove_ideas = HAS_neidran_capital_infiltration }
 			
-			add_ideas = HAS_hasphef_neidran_pact
-			
+			if = {
+				limit = { has_idea = secluded_isolation }
+		
+				swap_ideas = {
+					remove_idea = HAS_neidran_capital_infiltration
+					add_idea = HAS_hasphef_neidran_pact_1
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = HAS_neidran_capital_infiltration
+					add_idea = HAS_hasphef_neidran_pact_2
+				}
+			}
+
 			# 获得奈德兰的独立保证
 			NEI = { give_guarantee = HAS }
 		}

@@ -1,4 +1,4 @@
-﻿l_simp_chinese:
+l_simp_chinese: 
  unsc_command:0 "UNSC指挥部"
  unsc_command_desc:0 "UNSC的信息化程度使其在部队的集结以及战斗部署上有着巨大优势。"
  unsc_social:0 "UNSC体制"
@@ -40,7 +40,6 @@
  magic_girl_guards_slience_desc: "古帝国的遗留，最危险的魔法少女。据说其指挥官曾参加千年前的弑神之战，后下落不明。"
  magic_girl_order: "执行者"
  magic_girl_guards_slience_desc: "寄宿在伊诺雅体内的审判庭执行者之魂，能在宿主需要时现身代其行事。执行者是审判庭的最高战力，其成员几乎都接受了来自审判长的魔力，与魔法近卫军一起组成旧帝国的两大支柱。旧帝国崩溃后，审判庭的执行者们也跟着审判长一起开始了漫长的流浪岁月。（此兵种被视为炮兵单位）"
-
 
 
  # --- Political & Restoration War ---
@@ -184,7 +183,6 @@
  mag.54.a:0 "为了法兰的未来，前进！"
 
 
-
  # 国策与解锁提示
  HAS_saint_study_a: "翻阅古籍残卷"
  HAS_saint_study_b: "旁听政务会议"
@@ -197,7 +195,7 @@
 
  # 决议组
  HAS_saint_study_category: "圣女爱洛依的进修日程"
- HAS_saint_study_category_desc: "圣女殿下正在努力学习如何成为一名合格的国家领袖。你可以安排她深入钻研不同的领域。\n\n§H按照目前的学习进度，圣女在加冕之后将会获得以下特质：§!\n----------------------\n[GetAloyNoSkillsText][GetAloyTraitA][GetAloyTraitB][GetAloyTraitC][GetAloyTraitD]"
+ HAS_saint_study_category_desc: "圣女殿下正在努力学习如何成为一名合格的国家领袖。你可以安排她深入钻研不同的领域。\n\n§H按照目前的学习进度，圣女在加冕之后将会获得以下特质：§!\n\n----------------------[GetAloyNoSkillsText][GetAloyTraitA][GetAloyTraitB][GetAloyTraitC][GetAloyTraitD]"
  
  HAS_start_study_a: "进修：学术与历史"
  HAS_start_study_b: "进修：行政与后勤"
@@ -207,18 +205,24 @@
 
  # 动态本地化文本 (严格还原游戏内绿色Buff格式)
  text_aloy_none: "" # 没学就不显示
- text_aloy_a1: "§Y旧日秘辛的倾听者§!\n科研速度：§G+5%§!\n\n"
- text_aloy_a2: "§Y法兰遗卷的解读人§!\n科研速度：§G+10%§!\n\n"
- text_aloy_a3: "§Y洞悉时代的智者§!\n科研速度：§G+15%§!\n\n"
- text_aloy_b1: "§Y赈灾帐篷里的学徒§!\n政治点数获取：§G+5%§!\n补给消耗：§G-5%§!\n\n"
- text_aloy_b2: "§Y避风港的后勤官§!\n政治点数获取：§G+10%§!\n补给消耗：§G-10%§!\n\n"
- text_aloy_b3: "§Y抚平苦难的圣座§!\n政治点数获取：§G+15%§!\n补给消耗：§G-15%§!\n\n"
- text_aloy_c1: "§Y沙盘前的祈祷者§!\n陆军攻击：§G+2%§!\n\n"
- text_aloy_c2: "§Y铁血与慈悲的权衡者§!\n陆军攻击：§G+5%§!\n\n"
- text_aloy_c3: "§Y指引胜利的白翼§!\n陆军攻击：§G+10%§!\n\n"
- text_aloy_d1: "§Y初见轰鸣的圣女§!\n工厂产出：§G+5%§!\n建造速度：§G+5%§!\n\n"
- text_aloy_d2: "§Y复苏工坊的监工§!\n工厂产出：§G+10%§!\n建造速度：§G+10%§!\n\n"
- text_aloy_d3: "§Y奇迹熔炉的缔造者§!\n工厂产出：§G+15%§!\n建造速度：§G+15%§!\n\n"
+ text_aloy_has_no_skills_yet: "\n§8圣女目前还没有学会任何技能。§!"
+ text_empty_string: ""
+ 
+ text_aloy_a1: "\n\n§Y旧日秘辛的倾听者§!\n科研速度：§G+5%§!"
+ text_aloy_a2: "\n\n§Y法兰遗卷的解读人§!\n科研速度：§G+10%§!"
+ text_aloy_a3: "\n\n§Y洞悉时代的智者§!\n科研速度：§G+15%§!"
+ 
+ text_aloy_b1: "\n\n§Y赈灾帐篷里的学徒§!\n政治点数获取：§G+5%§!\n补给消耗：§G-5%§!"
+ text_aloy_b2: "\n\n§Y避风港的后勤官§!\n政治点数获取：§G+10%§!\n补给消耗：§G-10%§!"
+ text_aloy_b3: "\n\n§Y抚平苦难的圣座§!\n政治点数获取：§G+15%§!\n补给消耗：§G-15%§!"
+ 
+ text_aloy_c1: "\n\n§Y沙盘前的祈祷者§!\n陆军攻击：§G+2%§!"
+ text_aloy_c2: "\n\n§Y铁血与慈悲的权衡者§!\n陆军攻击：§G+5%§!"
+ text_aloy_c3: "\n\n§Y指引胜利的白翼§!\n陆军攻击：§G+10%§!"
+ 
+ text_aloy_d1: "\n\n§Y初见轰鸣的圣女§!\n工厂产出：§G+5%§!\n建造速度：§G+5%§!"
+ text_aloy_d2: "\n\n§Y复苏工坊的监工§!\n工厂产出：§G+10%§!\n建造速度：§G+10%§!"
+ text_aloy_d3: "\n\n§Y奇迹熔炉的缔造者§!\n工厂产出：§G+15%§!\n建造速度：§G+15%§!"
 
  # 事件
  HAS_saint.1.t: "安排进修日程"
@@ -231,4 +235,6 @@
  HAS_saint.2.t: "课程结业"
  HAS_saint.2.d: "经过一段时间的苦读，爱洛依合上了书本。她看起来比以前更加睿智和自信了。这门课程的结业，标志着她离成为一名杰出的圣女又近了一步。"
  HAS_saint.2.a: "嘿嘿，本圣女厉害吧~"
- text_aloy_has_no_skills_yet: "§8圣女目前还没有学会任何技能。§!"
+
+
+ HAS_neidran_mercenary_instructors_tt: "……只有当我们的部队确立了最基础的步兵操典（确定陆军主学说）后，这群高傲的佣兵教官才愿意开始授课。"

@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+ hidden_buff_religious_conservatism: "宗教保守主义"
+ religious_conservatism_desc: "宗教保守主义主张国家的一切合法性来源于神圣的信仰与传统。它极度排斥世俗世界的纷争与思想渗透，认为唯一的责任是守护本国信徒的纯洁与安全——但当同信仰的教友在异端的屠刀下呼救时，即便是最坚固的国门也会为之敞开一道缝隙。\n\n£trigger_yes §W可以强迫他国政府接受己方意识形态§!\n£trigger_yes §W可以派遣志愿军§!\n£trigger_no §W不可保障其他意识形态国家的独立§!\n£trigger_no §W不可向同一意识形态组的国家正当化战争目标§!\n£trigger_no §W不可傀儡其他国家§!\n\n§W意识形态变化抵抗力度:§! §G+50.0%§!\n§W实施禁运的紧张度限制:§! §G-30.0%§!\n§W派遣志愿军师数量上限:§! §R-50.0%§!\n§W制造战争目标的紧张度限制:§! §R+80.0%§!\n§W加入阵营的紧张度限制:§! §R+60.0%§!\n§W加入内战的紧张度限制:§! §R+30.0%§!\n§W租借法案的紧张度限制:§! §R+50.0%§!\n§W派遣志愿军的紧张度限制:§! §R+40.0%§!\n§W保障独立的紧张度限制:§! §R+40.0%§!\n§W泄露给他国的民政情报:§! §R+7.5%§!\n§W泄露给他国的陆军情报:§! §R+5.0%§!\n§W泄露给他国的海军情报:§! §R+5.0%§!\n§W泄露给他国的空军情报:§! §R+5.0%§!\n\n§W和平会议强制改变政府花费:§! §G-20.0%§!\n§W和平会议解放花费:§! §R+10.0%§!\n§W和平会议夺取州花费:§! §R+30.0%§!" 
+ subideology_religious_conservatism_modifier: "宗教保守主义"
+ modifier_army_sub_unit_category_hq_unit_attack_factor: "将领卫队攻击系数"
+ HAS_neutrality_party: "[白翼教会]"
+ HAS_religious_conservatism_party: "白翼教会"
+ subideology_religious_conservatism_modifier: "宗教保守主义"

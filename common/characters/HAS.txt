@@ -15,7 +15,7 @@
 		country_leader={
 			desc = "HAS_ailuoyi_APDF_DES"
 			traits = { has_leader_aloy_start }
-			ideology= socialism 
+			ideology= religious_conservatism 
 			expire="4999.1.1.1"
 			id=-1
 		}
@@ -48,7 +48,7 @@
 		corps_commander = {
 			desc = "HAS_ajiliya_APDF_DES"
 			legacy_id = 61
-			traits = { infantry_officer }
+			traits = { infantry_officer slience_shadow }
 			skill = 4
 			attack_skill = 3
 			defense_skill = 4

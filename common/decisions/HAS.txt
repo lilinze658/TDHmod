@@ -1,0 +1,257 @@
+HAS_saint_study_category = {
+
+	# ==========================================
+	# 正在进修的进度条 (Mission)
+	# ==========================================
+	HAS_saint_is_studying_mission = {
+		icon = generic_intel_bonus
+		is_good = false
+		days_mission_timeout = 0
+
+		available = {
+			always = no
+		}
+    	activation = {
+        	always = no
+    	}
+		visable = { has_country_flag = HAS_saint_is_studying_flag }
+		# 读条结束，触发完成事件！
+		
+		timeout_effect = {
+			country_event = { id = HAS_saint.2 }
+		}
+	}
+
+	# ==========================================
+	# 4 个进修决议
+	# ==========================================
+	
+	
+	HAS_start_study_a = {
+		icon = generic_research
+		available = {
+			# 核心代码：自定义条件显示文字
+			custom_trigger_tooltip = {
+				tooltip = HAS_study_a_ready_tt
+				has_completed_focus = HAS_saint_study_a # 直接检测国策是否完成
+			}
+			check_variable = { HAS_aloy_level_a < 3 } 
+			NOT = { has_country_flag = HAS_saint_is_studying_flag } 
+		}
+		cost = 0 
+		complete_effect = {
+			set_variable = { HAS_current_study_target = 1 } 
+			country_event = { id = HAS_saint.1 }
+		}
+	}
+
+	HAS_start_study_b = {
+		icon = generic_political_power
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = HAS_study_b_ready_tt
+				has_completed_focus = HAS_saint_study_b
+			}
+			check_variable = { HAS_aloy_level_b < 3 }
+			NOT = { has_country_flag = HAS_saint_is_studying_flag }
+		}
+		cost = 0
+		complete_effect = {
+			set_variable = { HAS_current_study_target = 2 }
+			country_event = { id = HAS_saint.1 }
+		}
+	}
+
+	HAS_start_study_c = {
+		icon = generic_tank
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = HAS_study_c_ready_tt
+				has_completed_focus = HAS_saint_study_c
+			}
+			check_variable = { HAS_aloy_level_c < 3 }
+			NOT = { has_country_flag = HAS_saint_is_studying_flag }
+		}
+		cost = 0
+		complete_effect = {
+			set_variable = { HAS_current_study_target = 3 }
+			country_event = { id = HAS_saint.1 }
+		}
+	}
+
+	HAS_start_study_d = {
+		icon = generic_construction
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = HAS_study_d_ready_tt
+				has_completed_focus = HAS_saint_study_d
+			}
+			check_variable = { HAS_aloy_level_d < 3 }
+			NOT = { has_country_flag = HAS_saint_is_studying_flag }
+		}
+		cost = 0
+		complete_effect = {
+			set_variable = { HAS_current_study_target = 4 }
+			country_event = { id = HAS_saint.1 }
+		}
+	}
+
+}
+
+
+HAS_mercenary_contracts_category = {
+
+	HAS_merc_contract_timer_mission = {
+		icon = generic_economic_treaty
+		is_good = yes
+		days_mission_timeout = 180
+		
+		# 当拥有活跃合同时，进度条出现并激活
+		activation = {
+			always = no
+		}
+		available = {
+			always = no
+		}		
+		# 中断条件：如果我们与奈德兰 (NEI) 开战了，进度条立刻中断并消失！
+		cancel_trigger = {
+			has_war_with = NED
+		}
+		
+		# 当因开战而被迫中断时，执行以下效果：强行解散佣兵，取消工厂扣除
+		# (这就替代了动态修饰符里的 remove_trigger 功能，且更直观)
+		on_fail = {
+			delete_units = { division_template = "奈德兰佣兵团" disband = no } # 人枪全收
+			set_variable = { HAS_neidran_merc_cost = 0 }
+			set_variable = { HAS_merc_divisions_contracted = 0 }
+			remove_dynamic_modifier = { modifier = HAS_neidran_merc_contract }
+			clr_country_flag = HAS_has_active_merc_contract
+		}
+
+		# 正常倒计时结束 (180天到期)：触发隐藏算账事件！
+		timeout_effect = {
+			country_event = { id = HAS_merc.100 }
+		}
+	}
+
+	HAS_hire_neidran_security = {
+		icon = generic_army_motorized
+		
+		# 【可见条件】：当前没有合同
+		visible = {
+			has_country_flag = HAS_can_hire_neidran_mercs
+			NOT = { has_country_flag = HAS_has_active_merc_contract }
+		}
+		
+
+		available = {
+			NOT = { has_war_with = NED }
+			num_of_civilian_factories_available_for_projects > 10 
+		}
+		
+		cost = 10
+		complete_effect = {
+			country_event = { id = HAS_merc.1 } # 弹出初次雇佣事件
+		}
+
+	}
+
+	# 2. 追加佣兵雇佣 (已有合同时)
+	HAS_hire_more_neidran_mercs = {
+		icon = generic_production_bonus
+		visible = {
+			has_country_flag = HAS_has_active_merc_contract
+		}
+		available = {
+			NOT = { has_war_with = NED }
+			num_of_civilian_factories_available_for_projects > 10 
+		}
+		cost = 0
+		complete_effect = {
+			country_event = { id = HAS_merc.2 } # 弹出加购事件
+		}
+	}
+
+	# 3. 提前遣散佣兵
+	HAS_dismiss_neidran_mercs_early = {
+		icon = generic_cancel_deal
+		# 【可见条件】：当前已有合同
+		visible = {
+			has_country_flag = HAS_has_active_merc_contract
+		}
+		
+		available = {
+			# 确保地图上还有活着的佣兵可以遣散，不然这个按钮没意义
+			any_country_division = { division_template = "奈德兰佣兵团" }
+		}
+		cost = 0
+		complete_effect = {
+			delete_unit_template_and_units = { division_template = "奈德兰佣兵团" disband = no }###不返还人力装备
+			# 注意！我们【不】调用算账脚本，也【不】移除动态修饰符！
+			# 这意味着 HAS_neidran_merc_cost 变量保持原样，工厂继续扣除。
+			# 直到 180 天的到期事件触发时，底层脚本才会因为找不到部队而把花费清零。
+			
+			custom_effect_tooltip = HAS_dismiss_neidran_mercs_early_tt
+			clr_country_flag = HAS_has_active_merc_contract
+		}
+	}
+
+
+	#HAS_hire_neidran_merc_regiment = {
+		icon = generic_army_motorized
+		available = { has_country_flag = HAS_can_hire_neidran_mercs }
+		cost = 30
+		days_remove = 0
+		
+		complete_effect = {
+
+			division_template = {
+    			name = "奈德兰佣兵团"
+    			is_locked = yes
+   				division_cap = 3 
+    			priority = 0
+   				template_counter = 0
+    			regiments = {
+					ranger_battalion = { x = 0 y = 0 }
+					ranger_battalion = { x = 0 y = 1 }
+					ranger_battalion = { x = 0 y = 2 }
+					ranger_battalion = { x = 1 y = 0 }
+					ranger_battalion = { x = 1 y = 1 }
+					ranger_battalion = { x = 1 y = 2 }
+					ranger_battalion = { x = 2 y = 0 }
+					ranger_battalion = { x = 2 y = 1 }
+					ranger_battalion = { x = 2 y = 2 }
+					artillery_brigade = { x = 3 y = 0 }
+					artillery_brigade = { x = 3 y = 1 }
+					artillery_brigade = { x = 3 y = 2 }
+    				}
+    			regimental_support = {
+        			field_guns = { x = 0 y = 0 }
+					field_guns = { x = 1 y = 0 }
+					field_guns = { x = 2 y = 0 }
+    			}
+    			support = {
+					rangers_support = { x = 0 y = 0 } 
+					field_hospital = { x = 0 y = 1 }    # 野战医院
+					artillery= { x = 0 y = 2 }      #火炮支援连
+					engineer = { x = 0 y = 3 }          # 工兵连
+					logistics_company = { x = 0 y = 4 } # 后勤连
+    			}
+			}
+			
+			# 刷出部队
+			capital_scope = {
+				create_unit = {
+					division = "name = \"奈德兰佣兵团\" division_template = \"奈德兰佣兵团\" start_experience_factor = 1.0"
+					owner = HAS
+				}
+			}
+			# 挂上 180 天后的验收事件
+			#country_event = { id = HAS_mercenary.2 days = 180 }
+			
+			custom_effect_tooltip = HAS_hire_neidran_merc_tt
+		}
+	#}
+
+
+}

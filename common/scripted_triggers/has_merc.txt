@@ -1,0 +1,77 @@
+HAS_calculate_merc_cost_effect = {
+	set_variable = { HAS_merc_divisions_contracted = 0 }
+	
+	every_country_division = {
+		limit = { has_template = "奈德兰佣兵团" }
+		PREV = { add_to_variable = { HAS_merc_divisions_contracted = 1 } }
+	}
+	
+	# 工厂花费 = 师团数 * 3
+	set_variable = { HAS_neidran_merc_cost = HAS_merc_divisions_contracted }
+	multiply_variable = { HAS_neidran_merc_cost = 3 }
+	
+	# 根据是否还有佣兵，决定是挂上还是移除Flag（不直接移除修饰符，由事件控制）
+	if = {
+		limit = { check_variable = { HAS_neidran_merc_cost > 0 } }
+		set_country_flag = HAS_has_active_merc_contract
+	}
+}
+sync_all_subjects_ideology_effect = {
+
+    # 先把自己存起来，方便附庸作用域内调用
+    save_event_target_as = sync_overlord_target
+
+    every_subject_country = {
+        # 此时作用域 = 某个附庸国
+
+        # ---------- 中立系 ----------
+        if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = despotism } }
+            set_country_leader_ideology = despotism
+        }
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = oligarchism } }
+            set_country_leader_ideology = oligarchism
+        }
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = moderatism } }
+            set_country_leader_ideology = moderatism
+        }
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = centrism } }
+            set_country_leader_ideology = centrism
+        }
+
+        # ---------- 法西斯系 ----------
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = nazism } }
+            set_country_leader_ideology = nazism
+        }
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = fascism_ideology } }
+            set_country_leader_ideology = fascism_ideology
+        }
+
+        # ---------- 共产系 ----------
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = stalinism } }
+            set_country_leader_ideology = stalinism
+        }
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = marxism } }
+            set_country_leader_ideology = marxism
+        }
+
+        # ---------- 民主系 ----------
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = conservatism } }
+            set_country_leader_ideology = conservatism
+        }
+        else_if = {
+            limit = { event_target:sync_overlord_target = { has_country_leader_ideology = liberalism } }
+            set_country_leader_ideology = liberalism
+        }
+
+        # 调试用：确认脚本真的跑进来了
+        add_political_power = 100
+    }

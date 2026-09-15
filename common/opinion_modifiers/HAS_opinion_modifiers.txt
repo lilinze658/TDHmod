@@ -24,6 +24,11 @@ opinion_modifiers = {
 		value = 30
 	}
 
+
+	HAS_gaans_machinery_opinion = {
+		value = 20
+	}
+
 }
 
 

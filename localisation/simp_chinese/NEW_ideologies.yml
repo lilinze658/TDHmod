@@ -1,0 +1,8 @@
+l_simp_chinese:
+ religious_conservatism_desc: "宗教保守主义"
+ hidden_buff_religious_conservatism: "宗教保守主义"
+ hidden_buff_religious_conservatism_desc: "宗教保守主义"
+ modifier_army_sub_unit_category_hq_unit_attack_factor: "将领卫队攻击系数"
+ HAS_neutrality_party: "[白翼教会]"
+ HAS_religious_conservatism_party: "白翼教会"
+ subideology_religious_conservatism_modifier: "宗教保守主义"

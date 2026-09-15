@@ -1,0 +1,53 @@
+ideas = {
+	hidden_ideas = {
+		
+		# ========================================================
+		# 子意识形态：底层规则控制 (Hidden Ideas)
+		# ========================================================
+
+		# 1. 宗教保守主义
+		subideology_religious_conservatism_modifier_rule = {
+			rule = {
+				can_force_government = yes
+				can_guarantee_other_ideologies = no
+				can_send_volunteers = yes
+				can_declare_war_on_same_ideology = no
+				can_puppet = no
+			}
+		}
+
+		# 2. 社会保守主义
+		subideology_social_conservatism_modifier_rule = {
+			rule = {
+				can_puppet = yes
+				can_guarantee_other_ideologies = yes
+				can_send_volunteers = yes
+				can_force_government = no
+				can_declare_war_on_same_ideology = no
+			}
+		}
+
+		# 3. 贵族共和主义
+		subideology_aristocratic_republicanism_modifier_rule = {
+			rule = {
+				can_force_government = yes
+				can_guarantee_other_ideologies = yes
+				can_lower_tension = yes
+				can_send_volunteers = yes
+				can_declare_war_on_same_ideology = no
+				can_puppet = no
+			}
+		}
+
+		# 4. 王朝正统主义
+		subideology_dynastic_legitimism_modifier_rule = {
+			rule = {
+				can_declare_war_on_same_ideology = yes
+				can_force_government = yes
+				can_puppet = yes
+				can_send_volunteers = yes
+				can_guarantee_other_ideologies = no
+			}
+		}
+	}
+}
